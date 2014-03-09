@@ -1,0 +1,1766 @@
+<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" battleScribeVersion="1.13b" id="d979dbf7-211a-48a9-9f40-899a00d16780" revision="1" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="2" name="Retribution of Scyrah rev"><entries>
+    <entry categoryId="Warcaster###DATA###" id="58f4d57b-37c4-449e-9d5a-66bbf71a85cb" name="Adeptis Rahn" points="-6.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries/><entryGroups/><modifiers/><rules>
+        <rule id="Telekinesis###DATA###" name="Telekinesis"><description>Place target model completely within 2" of its current location. When Telekinesis targets an enemy model, it is an offensive spell and requires a magic attack roll. A model can be affected by Telekinesis only once per turn.</description></rule>
+        <rule id="Polarity Shield###DATA###" name="Polarity Shield"><description>Target friendly model / unit cannot be targeted by a charge made by a model in its front arc.</description></rule>
+        <rule id="Force Hammer###DATA###" name="Force Hammer"><description>Instead of suffering a normal damage roll, a non-incorporeal model Force Hammer hits is slammed d6" directly away from the spell's point of origin regardless of its base size and suffers a POW 12 damage roll. Collateral damage from this slam is POW 12.</description></rule>
+        <rule id="Force Field###DATA###" name="Force Field"><description>This model does not suffer blast or collateral damage and cannot be knocked down. When an enemy AOE ranged attack deviates from a point in this model's control area, after the deviation distance is rolled you choose de deviation direction.</description></rule>
+        <rule id="Force Blast###DATA###" name="Force Blast"><description>Target a model in this model's battlegroup in its control area. Enemy models within 2" of the target model are pushed 4" directly away from it in the order you choose.</description></rule>
+        <rule id="Chain Blast###DATA###" name="Chain Blast"><description>After determining the point of impact for this atttack, roll deviation for an additional 3" AOE from that point. Model in that AOE are hit and suffer a POW 6 blast damage roll.</description></rule>
+        <rule id="Force Barrier###DATA###" name="Force Barrier"><description>This model gains +2 DEF against ranged attack rolls and does not suffer blast damage.</description></rule>
+        <rule id="Feat: Arcane Alignment###DATA###" name="Feat: Arcane Alignment"><description>While in Rahn's control area, friendly Faction models gain +2 RNG to their non-channelled spells, and their magic attack rolls and magic attack damage are boosted. Arcane Alignment lasts for one turn.</description></rule>
+        <rule id="Balance - Critical Smite###DATA###" name="Balance - Critical Smite"><description>On a critical hit, this model can slam the model hit instead of rolling damage normally. The model hit is slammed d6" directly away from this model and suffers a damage roll with POW equal to this model's STR plus the POW of this weapon. The POW of collateral damage is equal to this model's STR.</description></rule>
+        <rule id="Balance - Beat Back###DATA###" name="Balance - Beat Back"><description>Immediately after a normal attack with this weapon is resolved during this model's combat action, the enemy model hit can be pushed 1" directly away from the attacking model. After the enemy model is pushed, the attacking model can advance up to 1".</description></rule>
+        <rule id="Balance - Reach###DATA###" name="Balance - Reach"/>
+        <rule id="Balance - Magical Weapon###DATA###" name="Balance - Magical Weapon"/>
+      </rules><profiles>
+        <profile id="Adeptis Rahn###DATA###" name="Adeptis Rahn" profileTypeId="Warcaster###DATA###"><characteristics>
+            <characteristic characteristicId="SPD###DATA###" name="SPD" value="5"/>
+            <characteristic characteristicId="STR###DATA###" name="STR" value="6"/>
+            <characteristic characteristicId="MAT###DATA###" name="MAT" value="6"/>
+            <characteristic characteristicId="RAT###DATA###" name="RAT" value="4"/>
+            <characteristic characteristicId="DEF###DATA###" name="DEF" value="14"/>
+            <characteristic characteristicId="ARM###DATA###" name="ARM" value="16"/>
+            <characteristic characteristicId="CMD###DATA###" name="CMD" value="9"/>
+            <characteristic characteristicId="Focus###DATA###" name="Focus" value="8"/>
+            <characteristic characteristicId="Damage###DATA###" name="Damage" value="16"/>
+          </characteristics></profile>
+        <profile id="Balance###DATA###" name="Balance" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="-"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="6"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="12"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+          </characteristics></profile>
+        <profile id="Telekinesis###DATA###" name="Telekinesis" profileTypeId="Spell###DATA###"><characteristics>
+            <characteristic characteristicId="COST###DATA###" name="COST" value="2"/>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="8"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="-"/>
+            <characteristic characteristicId="UP###DATA###" name="UP" value="NO"/>
+            <characteristic characteristicId="OFF###DATA###" name="OFF" value="*"/>
+          </characteristics></profile>
+        <profile id="Polarity Shield###DATA###" name="Polarity Shield" profileTypeId="Spell###DATA###"><characteristics>
+            <characteristic characteristicId="COST###DATA###" name="COST" value="2"/>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="6"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="-"/>
+            <characteristic characteristicId="UP###DATA###" name="UP" value="YES"/>
+            <characteristic characteristicId="OFF###DATA###" name="OFF" value="NO"/>
+          </characteristics></profile>
+        <profile id="Force Hammer###DATA###" name="Force Hammer" profileTypeId="Spell###DATA###"><characteristics>
+            <characteristic characteristicId="COST###DATA###" name="COST" value="4"/>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="10"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="12"/>
+            <characteristic characteristicId="UP###DATA###" name="UP" value="NO"/>
+            <characteristic characteristicId="OFF###DATA###" name="OFF" value="YES"/>
+          </characteristics></profile>
+        <profile id="Force Field###DATA###" name="Force Field" profileTypeId="Spell###DATA###"><characteristics>
+            <characteristic characteristicId="COST###DATA###" name="COST" value="3"/>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="SELF"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="CTRL"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="-"/>
+            <characteristic characteristicId="UP###DATA###" name="UP" value="YES"/>
+            <characteristic characteristicId="OFF###DATA###" name="OFF" value="NO"/>
+          </characteristics></profile>
+        <profile id="Force Blast###DATA###" name="Force Blast" profileTypeId="Spell###DATA###"><characteristics>
+            <characteristic characteristicId="COST###DATA###" name="COST" value="3"/>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="CTRL"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="*"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="-"/>
+            <characteristic characteristicId="UP###DATA###" name="UP" value="NO"/>
+            <characteristic characteristicId="OFF###DATA###" name="OFF" value="NO"/>
+          </characteristics></profile>
+        <profile id="Chain Blast###DATA###" name="Chain Blast" profileTypeId="Spell###DATA###"><characteristics>
+            <characteristic characteristicId="COST###DATA###" name="COST" value="3"/>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="10"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="3"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="12"/>
+            <characteristic characteristicId="UP###DATA###" name="UP" value="NO"/>
+            <characteristic characteristicId="OFF###DATA###" name="OFF" value="YES"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Solo###DATA###" id="25205750-5d3c-40cf-acff-2364894cd051" name="Arcanist" points="1.0" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="2" collective="false"><entries/><entryGroups/><modifiers/><rules>
+        <rule id="Repair [8] (* Action)###DATA###" name="Repair [8] (* Action)"><description>This model can attempt repairs on any damaged friendly Faction warjack. To attempt repairs, this model must be B2B with the damaged warjack and make a skill check. If successful, remove d6 damage points from the warjack's damage grid.</description></rule>
+        <rule id="Power Booster (* Action)###DATA###" name="Power Booster (* Action)"><description>RNG 5. Target friendly faction warjack. If the target warjack is in reange and has no focus points, it gains 1 focus point. If the warjack is Disrupted, it is no longer Disrupted.</description></rule>
+        <rule id="Concentrated Power (* Action)###DATA###" name="Concentrated Power (* Action)"><description>RNG 5. Target friendly Faction warjack. If the warjack is in range, it gains +2 on melee damage rolls this turn.</description></rule>
+      </rules><profiles>
+        <profile id="Multi Tool###DATA###" name="Multi Tool" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="-"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="3"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="8"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+          </characteristics></profile>
+        <profile id="Arcanist###DATA###" name="Arcanist" profileTypeId="Trooper###DATA###"><characteristics>
+            <characteristic characteristicId="SPD###DATA###" name="SPD" value="6"/>
+            <characteristic characteristicId="STR###DATA###" name="STR" value="5"/>
+            <characteristic characteristicId="MAT###DATA###" name="MAT" value="5"/>
+            <characteristic characteristicId="RAT###DATA###" name="RAT" value="4"/>
+            <characteristic characteristicId="DEF###DATA###" name="DEF" value="13"/>
+            <characteristic characteristicId="ARM###DATA###" name="ARM" value="12"/>
+            <characteristic characteristicId="CMD###DATA###" name="CMD" value="8"/>
+            <characteristic characteristicId="Damage###DATA###" name="Damage" value="1"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Warjack###DATA###" id="e7101165-cde2-4d6f-8c76-f934fea5fac9" name="Chimera" points="6.0" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules>
+        <rule id="Arc Node###DATA###" name="Arc Node"/>
+        <rule id="Apparition###DATA###" name="Apparition"><description>During your Control Phase, place this model anywhere completely within 2" of its current location.</description></rule>
+        <rule id="Field Dependent###DATA###" name="Field Dependent"><description>While its Field Generator system is crippled, this model loses the Apparition and Phantasmal Field abilities.</description></rule>
+        <rule id="Phantasmal Field###DATA###" name="Phantasmal Field"><description>This model gains +1 DEF against ranged and magic attack rolls for each focus point on it.</description></rule>
+        <rule id="Glaive - Open Fist###DATA###" name="Glaive - Open Fist"/>
+        <rule id="Glaive - Combo Strike (* Attack)###DATA###" name="Glaive - Combo Strike (* Attack)"><description>Make a melee attack. Instead of making a normal damage roll, the POW of the damage roll is equal to this model's STR plus twice the POW of this weapon.</description></rule>
+      </rules><profiles>
+        <profile id="Chimera###DATA###" name="Chimera" profileTypeId="Myrmidon###DATA###"><characteristics>
+            <characteristic characteristicId="SPD###DATA###" name="SPD" value="6"/>
+            <characteristic characteristicId="STR###DATA###" name="STR" value="8"/>
+            <characteristic characteristicId="MAT###DATA###" name="MAT" value="6"/>
+            <characteristic characteristicId="RAT###DATA###" name="RAT" value="5"/>
+            <characteristic characteristicId="DEF###DATA###" name="DEF" value="12"/>
+            <characteristic characteristicId="ARM###DATA###" name="ARM" value="16"/>
+            <characteristic characteristicId="CMD###DATA###" name="CMD" value="-"/>
+            <characteristic characteristicId="Field Damage###DATA###" name="Field Damage" value="6"/>
+          </characteristics></profile>
+        <profile id="Glaive###DATA###" name="Glaive" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="-"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="4"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="12"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="L+R"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Unit###DATA###" id="d10b091a-02c9-4585-a993-3b94446b6202" name="Cylena Raefyll &amp; Nyss Hunters (06)" points="7.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries>
+        <entry categoryId="Unit###DATA###" id="ee7cb522-90be-46ff-b037-26029b280891" name="Cylena Raefyll &amp; Nyss Hunters Upgrade (06--&gt;10)" points="3.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+      </entries><entryGroups/><modifiers/><rules/><profiles>
+        <profile id="Nyss Hunter###DATA###" name="Nyss Hunter" profileTypeId="Trooper###DATA###"><characteristics>
+            <characteristic characteristicId="SPD###DATA###" name="SPD" value="7"/>
+            <characteristic characteristicId="STR###DATA###" name="STR" value="5"/>
+            <characteristic characteristicId="MAT###DATA###" name="MAT" value="6"/>
+            <characteristic characteristicId="RAT###DATA###" name="RAT" value="6"/>
+            <characteristic characteristicId="DEF###DATA###" name="DEF" value="15"/>
+            <characteristic characteristicId="ARM###DATA###" name="ARM" value="11"/>
+            <characteristic characteristicId="CMD###DATA###" name="CMD" value="8"/>
+            <characteristic characteristicId="Damage###DATA###" name="Damage" value="1"/>
+          </characteristics></profile>
+        <profile id="Cylena Raefyll###DATA###" name="Cylena Raefyll" profileTypeId="Trooper###DATA###"><characteristics>
+            <characteristic characteristicId="SPD###DATA###" name="SPD" value="7"/>
+            <characteristic characteristicId="STR###DATA###" name="STR" value="5"/>
+            <characteristic characteristicId="MAT###DATA###" name="MAT" value="7"/>
+            <characteristic characteristicId="RAT###DATA###" name="RAT" value="7"/>
+            <characteristic characteristicId="DEF###DATA###" name="DEF" value="15"/>
+            <characteristic characteristicId="ARM###DATA###" name="ARM" value="11"/>
+            <characteristic characteristicId="CMD###DATA###" name="CMD" value="9"/>
+            <characteristic characteristicId="Damage###DATA###" name="Damage" value="5"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Solo###DATA###" id="d1f0fa35-69ff-4b9f-b6fb-4efd29f3b51e" name="Dahlia Hallyr &amp; Skarath" points="9.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+        <profile id="Dahlia Hallyr###DATA###" name="Dahlia Hallyr" profileTypeId="Warlock###DATA###"><characteristics>
+            <characteristic characteristicId="SPD###DATA###" name="SPD" value="6"/>
+            <characteristic characteristicId="STR###DATA###" name="STR" value="4"/>
+            <characteristic characteristicId="MAT###DATA###" name="MAT" value="5"/>
+            <characteristic characteristicId="RAT###DATA###" name="RAT" value="4"/>
+            <characteristic characteristicId="DEF###DATA###" name="DEF" value="16"/>
+            <characteristic characteristicId="ARM###DATA###" name="ARM" value="12"/>
+            <characteristic characteristicId="CMD###DATA###" name="CMD" value="8"/>
+            <characteristic characteristicId="Fury###DATA###" name="Fury" value="4"/>
+            <characteristic characteristicId="Damage###DATA###" name="Damage" value="8"/>
+          </characteristics></profile>
+        <profile id="Skarath###DATA###" name="Skarath" profileTypeId="Warbeast###DATA###"><characteristics>
+            <characteristic characteristicId="SPD###DATA###" name="SPD" value="6"/>
+            <characteristic characteristicId="STR###DATA###" name="STR" value="10"/>
+            <characteristic characteristicId="MAT###DATA###" name="MAT" value="6"/>
+            <characteristic characteristicId="RAT###DATA###" name="RAT" value="5"/>
+            <characteristic characteristicId="DEF###DATA###" name="DEF" value="14"/>
+            <characteristic characteristicId="ARM###DATA###" name="ARM" value="16"/>
+            <characteristic characteristicId="CMD###DATA###" name="CMD" value="6"/>
+            <characteristic characteristicId="Fury###DATA###" name="Fury" value="4"/>
+            <characteristic characteristicId="Threshold###DATA###" name="Threshold" value="9"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Solo###DATA###" id="7144dbe1-eead-45c1-9c8e-0e9e5a00780b" name="Dawnguard Destor Thane" points="4.0" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="2" collective="false"><entries/><entryGroups/><modifiers/><rules>
+        <rule id="Lance###DATA###" name="Lance"><description>This weapon can be used only to make charge attacks. When this model charges, this weapon gains Reach until the charge is resolved.</description></rule>
+        <rule id="Gunfighter###DATA###" name="Gunfighter"/>
+        <rule id="Unyielding###DATA###" name="Unyielding"><description>While engaging an enemy model, this model gains +2 ARM.</description></rule>
+        <rule id="Virtuoso###DATA###" name="Virtuoso"><description>This model can make melee and ranged attacks during the same combat action. When this model makes its initial attacks, it can make both its initial ranged and melee attacks.</description></rule>
+        <rule id="Lance Cannon - Multi-Fire (* Attack)###DATA###" name="Lance Cannon - Multi-Fire (* Attack)"><description>Make an attack with this weapon. On a hit, after resolving the attack this model can immediately make one additional attack with this weapon targeting the last model hit or another model within 2" of the last model hit, ignoring ROF. This model can make up to four attacks during its activation as a result of Multi-Fire.</description></rule>
+        <rule id="Commander###DATA###" name="Commander"/>
+      </rules><profiles>
+        <profile id="Dawnguard Destor Thane###DATA###" name="Dawnguard Destor Thane" profileTypeId="Trooper###DATA###"><characteristics>
+            <characteristic characteristicId="SPD###DATA###" name="SPD" value="8"/>
+            <characteristic characteristicId="STR###DATA###" name="STR" value="7"/>
+            <characteristic characteristicId="MAT###DATA###" name="MAT" value="8"/>
+            <characteristic characteristicId="RAT###DATA###" name="RAT" value="7"/>
+            <characteristic characteristicId="DEF###DATA###" name="DEF" value="13"/>
+            <characteristic characteristicId="ARM###DATA###" name="ARM" value="17"/>
+            <characteristic characteristicId="CMD###DATA###" name="CMD" value="10"/>
+            <characteristic characteristicId="Damage###DATA###" name="Damage" value="10"/>
+          </characteristics></profile>
+        <profile id="Lance###DATA###" name="Lance" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="-"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="7"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="14"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+          </characteristics></profile>
+        <profile id="Lance Cannon###DATA###" name="Lance Cannon" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="10"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="12"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="-"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+          </characteristics></profile>
+        <profile id="Mount###DATA###" name="Mount" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="-"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="10"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="-"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Unit###DATA###" id="0778510c-90dd-46aa-888a-eba952a9ceca" name="Dawnguard Destors (03)" points="7.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries>
+        <entry categoryId="(No Category)" id="baa5f3ae-397d-4f5c-9bfa-ca25064948d8" name="Dawnguard Destors Upgrade (03--&gt;05)" points="4.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+        <entry categoryId="Unit###DATA###" id="a8c53e78-2938-4a75-b71d-cd7833b1c303" name="Soulless Escort (WA)" points="1.0" type="upgrade" minSelections="0" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="3" collective="false"><entries/><entryGroups/><modifiers/><rules>
+            <rule id="Tag Along###DATA###" name="Tag Along"><description>This model does not gain the abilities of the unit to which it is attached except Advance Deployment.</description></rule>
+            <rule id="Sword - Magical Weapon###DATA###" name="Sword - Magical Weapon"/>
+            <rule id="Soulless###DATA###" name="Soulless"><description>This model does not generate a soul token when it is destroyed.</description></rule>
+            <rule id="Mage Static###DATA###" name="Mage Static"><description>While this model is in formation, enemy magic attacks targeting a model in this model's unit suffer -5 RNG.</description></rule>
+            <rule id="Flank [Another model in this unit]###DATA###" name="Flank [Another model in this unit]"><description>When this model makes a melee attack against an enemy model within the melee range of a friendly model of the listed type, this model gains +2 to attack rolls and gains an additional damage die.</description></rule>
+            <rule id="Disbinding (* Action)###DATA###" name="Disbinding (* Action)"><description>Enemy upkeep spells on this model and/or its unit immediately expire.</description></rule>
+            <rule id="Attachment [Any Retribution Unit]###DATA###" name="Attachment [Any Retribution Unit]"><description>This attachment can be added to a unit of the type listed.</description></rule>
+          </rules><profiles>
+            <profile id="Soulless Escort - Sword###DATA###" name="Soulless Escort - Sword" profileTypeId="Weapon###DATA###"><characteristics>
+                <characteristic characteristicId="RNG###DATA###" name="RNG" value="-"/>
+                <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+                <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+                <characteristic characteristicId="POW###DATA###" name="POW" value="3"/>
+                <characteristic characteristicId="P+S###DATA###" name="P+S" value="9"/>
+                <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+              </characteristics></profile>
+            <profile id="Soulless Escort###DATA###" name="Soulless Escort" profileTypeId="Trooper###DATA###"><characteristics>
+                <characteristic characteristicId="SPD###DATA###" name="SPD" value="6"/>
+                <characteristic characteristicId="STR###DATA###" name="STR"/>
+                <characteristic characteristicId="MAT###DATA###" name="MAT" value="5"/>
+                <characteristic characteristicId="RAT###DATA###" name="RAT" value="3"/>
+                <characteristic characteristicId="DEF###DATA###" name="DEF" value="13"/>
+                <characteristic characteristicId="ARM###DATA###" name="ARM" value="12"/>
+                <characteristic characteristicId="CMD###DATA###" name="CMD" value="10"/>
+                <characteristic characteristicId="Damage###DATA###" name="Damage" value="1"/>
+              </characteristics></profile>
+          </profiles></entry>
+      </entries><entryGroups/><modifiers/><rules>
+        <rule id="Lance###DATA###" name="Lance"><description>This weapon can be used only to make charge attacks. When this model charges, this weapon gains Reach until the charge is resolved.</description></rule>
+        <rule id="Unyielding###DATA###" name="Unyielding"><description>While engaging an enemy model, this model gains +2 ARM.</description></rule>
+        <rule id="Dual Shot###DATA###" name="Dual Shot"><description>When this model forfeits its movement to gain the aiming bonus it can also make one additional ranged attack this activation.</description></rule>
+        <rule id="Gunfighter###DATA###" name="Gunfighter"/>
+      </rules><profiles>
+        <profile id="Mount###DATA###" name="Mount" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="-"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="10"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="-"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+          </characteristics></profile>
+        <profile id="Lance Cannon###DATA###" name="Lance Cannon" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="10"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="2"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="12"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="-"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+          </characteristics></profile>
+        <profile id="Lance###DATA###" name="Lance" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="-"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="7"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="13"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+          </characteristics></profile>
+        <profile id="Dawnguard Destor###DATA###" name="Dawnguard Destor" profileTypeId="Trooper###DATA###"><characteristics>
+            <characteristic characteristicId="SPD###DATA###" name="SPD" value="8"/>
+            <characteristic characteristicId="STR###DATA###" name="STR" value="6"/>
+            <characteristic characteristicId="MAT###DATA###" name="MAT" value="7"/>
+            <characteristic characteristicId="RAT###DATA###" name="RAT" value="6"/>
+            <characteristic characteristicId="DEF###DATA###" name="DEF" value="13"/>
+            <characteristic characteristicId="ARM###DATA###" name="ARM" value="17"/>
+            <characteristic characteristicId="CMD###DATA###" name="CMD" value="9"/>
+            <characteristic characteristicId="Damage###DATA###" name="Damage" value="5"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Unit###DATA###" id="e5ac4b0c-87ad-464f-ac54-283dd2465653" name="Dawnguard Invictors (06)" points="6.0" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="2" collective="false"><entries>
+        <entry categoryId="Unit###DATA###" id="ae2e3892-6a3f-461c-ab7a-8f8a2450af6e" name="Dawnguard Invictor Officer &amp; Standard Bearer (UA)" points="2.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries/><entryGroups/><modifiers/><rules>
+            <rule id="Attachment [Dawnguard Invictors]###DATA###" name="Attachment [Dawnguard Invictors]"><description>This attachment can be added to a unit of the type listed.</description></rule>
+            <rule id="Standard Bearer###DATA###" name="Standard Bearer"><description>Details...</description></rule>
+            <rule id="Combined Ranged Attack###DATA###" name="Combined Ranged Attack"><description>Details...</description></rule>
+            <rule id="Officer###DATA###" name="Officer"/>
+            <rule id="Granted: Combined Arms###DATA###" name="Granted: Combined Arms"><description>While this model is in play, models in its unit gain Combined Arms. (When a model with Combined Arms misses an attack roll for a Combined Ranged Attack, it can reroll that attack roll. Each attack roll can be rerolled only once as a result of Combined Arms).</description></rule>
+            <rule id="Extended Fire###DATA###" name="Extended Fire"><description>Once per game while in formation, this model can use Extended Fire during its unit's activation. This activation, model in this unit gain +4 RNG to their ranged attacks.</description></rule>
+            <rule id="Defensive Line###DATA###" name="Defensive Line"><description>While this model is B2B with one or more model in its unit, it gains +2 ARM.</description></rule>
+            <rule id="Flank [Faction Warjack]###DATA###" name="Flank [Faction Warjack]"><description>When this model makes a melee attack against an enemy model within the melee range of a friendly model of the listed type, this model gains +2 to attack rolls and gains an additional damage die.</description></rule>
+          </rules><profiles>
+            <profile id="Dawnguard Invictor Standard Bearer###DATA###" name="Dawnguard Invictor Standard Bearer" profileTypeId="Trooper###DATA###"><characteristics>
+                <characteristic characteristicId="SPD###DATA###" name="SPD" value="5"/>
+                <characteristic characteristicId="STR###DATA###" name="STR" value="6"/>
+                <characteristic characteristicId="MAT###DATA###" name="MAT" value="7"/>
+                <characteristic characteristicId="RAT###DATA###" name="RAT" value="6"/>
+                <characteristic characteristicId="DEF###DATA###" name="DEF" value="12"/>
+                <characteristic characteristicId="ARM###DATA###" name="ARM" value="15"/>
+                <characteristic characteristicId="CMD###DATA###" name="CMD" value="9"/>
+                <characteristic characteristicId="Damage###DATA###" name="Damage" value="1"/>
+              </characteristics></profile>
+            <profile id="Dawnguard Invictor Officer###DATA###" name="Dawnguard Invictor Officer" profileTypeId="Trooper###DATA###"><characteristics>
+                <characteristic characteristicId="SPD###DATA###" name="SPD" value="5"/>
+                <characteristic characteristicId="STR###DATA###" name="STR" value="6"/>
+                <characteristic characteristicId="MAT###DATA###" name="MAT" value="8"/>
+                <characteristic characteristicId="RAT###DATA###" name="RAT" value="7"/>
+                <characteristic characteristicId="DEF###DATA###" name="DEF" value="12"/>
+                <characteristic characteristicId="ARM###DATA###" name="ARM" value="15"/>
+                <characteristic characteristicId="CMD###DATA###" name="CMD" value="10"/>
+                <characteristic characteristicId="Damage###DATA###" name="Damage" value="5"/>
+              </characteristics></profile>
+          </profiles></entry>
+        <entry categoryId="Unit###DATA###" id="4331b8c7-1baf-4d6e-bfcb-0c214f5cd1ed" name="Dawnguard Invictors Upgrade (06--&gt;10)" points="4.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+        <entry categoryId="Unit###DATA###" id="9509030c-fc1b-4d02-8428-9c74830af8a8" name="Soulless Escort (WA)" points="1.0" type="upgrade" minSelections="0" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="3" collective="false"><entries/><entryGroups/><modifiers/><rules>
+            <rule id="Tag Along###DATA###" name="Tag Along"><description>This model does not gain the abilities of the unit to which it is attached except Advance Deployment.</description></rule>
+            <rule id="Sword - Magical Weapon###DATA###" name="Sword - Magical Weapon"/>
+            <rule id="Soulless###DATA###" name="Soulless"><description>This model does not generate a soul token when it is destroyed.</description></rule>
+            <rule id="Mage Static###DATA###" name="Mage Static"><description>While this model is in formation, enemy magic attacks targeting a model in this model's unit suffer -5 RNG.</description></rule>
+            <rule id="Flank [Another model in this unit]###DATA###" name="Flank [Another model in this unit]"><description>When this model makes a melee attack against an enemy model within the melee range of a friendly model of the listed type, this model gains +2 to attack rolls and gains an additional damage die.</description></rule>
+            <rule id="Disbinding (* Action)###DATA###" name="Disbinding (* Action)"><description>Enemy upkeep spells on this model and/or its unit immediately expire.</description></rule>
+            <rule id="Attachment [Any Retribution Unit]###DATA###" name="Attachment [Any Retribution Unit]"><description>This attachment can be added to a unit of the type listed.</description></rule>
+          </rules><profiles>
+            <profile id="Soulless Escort - Sword###DATA###" name="Soulless Escort - Sword" profileTypeId="Weapon###DATA###"><characteristics>
+                <characteristic characteristicId="RNG###DATA###" name="RNG" value="-"/>
+                <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+                <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+                <characteristic characteristicId="POW###DATA###" name="POW" value="3"/>
+                <characteristic characteristicId="P+S###DATA###" name="P+S" value="9"/>
+                <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+              </characteristics></profile>
+            <profile id="Soulless Escort###DATA###" name="Soulless Escort" profileTypeId="Trooper###DATA###"><characteristics>
+                <characteristic characteristicId="SPD###DATA###" name="SPD" value="6"/>
+                <characteristic characteristicId="STR###DATA###" name="STR"/>
+                <characteristic characteristicId="MAT###DATA###" name="MAT" value="5"/>
+                <characteristic characteristicId="RAT###DATA###" name="RAT" value="3"/>
+                <characteristic characteristicId="DEF###DATA###" name="DEF" value="13"/>
+                <characteristic characteristicId="ARM###DATA###" name="ARM" value="12"/>
+                <characteristic characteristicId="CMD###DATA###" name="CMD" value="10"/>
+                <characteristic characteristicId="Damage###DATA###" name="Damage" value="1"/>
+              </characteristics></profile>
+          </profiles></entry>
+      </entries><entryGroups/><modifiers/><rules>
+        <rule id="Flank [Faction Warjack]###DATA###" name="Flank [Faction Warjack]"><description>When this model makes a melee attack against an enemy model within the melee range of a friendly model of the listed type, this model gains +2 to attack rolls and gains an additional damage die.</description></rule>
+        <rule id="Defensive Line###DATA###" name="Defensive Line"><description>While this model is B2B with one or more model in its unit, it gains +2 ARM.</description></rule>
+        <rule id="'Jack Marshal###DATA###" name="'Jack Marshal"/>
+        <rule id="Combined Ranged Attack###DATA###" name="Combined Ranged Attack"/>
+      </rules><profiles>
+        <profile id="Dawnguard Invictor###DATA###" name="Dawnguard Invictor" profileTypeId="Trooper###DATA###"><characteristics>
+            <characteristic characteristicId="SPD###DATA###" name="SPD" value="5"/>
+            <characteristic characteristicId="STR###DATA###" name="STR" value="6"/>
+            <characteristic characteristicId="MAT###DATA###" name="MAT" value="7"/>
+            <characteristic characteristicId="RAT###DATA###" name="RAT" value="6"/>
+            <characteristic characteristicId="DEF###DATA###" name="DEF" value="12"/>
+            <characteristic characteristicId="ARM###DATA###" name="ARM" value="15"/>
+            <characteristic characteristicId="CMD###DATA###" name="CMD" value="9"/>
+            <characteristic characteristicId="Damage###DATA###" name="Damage" value="1"/>
+          </characteristics></profile>
+        <profile id="Dawnguard Invictor - Sword Cannon###DATA###" name="Dawnguard Invictor - Sword Cannon" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="10"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="12"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="-"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+          </characteristics></profile>
+        <profile id="Dawnguard Invictor - Blade###DATA###" name="Dawnguard Invictor - Blade" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="-"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="4"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="10"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Solo###DATA###" id="b655b263-6306-4ef8-8e2e-aaf3c8cb5d90" name="Dawnguard Scyir" points="2.0" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="2" collective="false"><entries/><entryGroups/><modifiers/><rules>
+        <rule id="Great Sword - Reach###DATA###" name="Great Sword - Reach"/>
+        <rule id="Iron Sentinel###DATA###" name="Iron Sentinel"><description>While B2B with a friendly Faction warjack, this model gains +2 DEF and ARM and cannot be kocked down.</description></rule>
+        <rule id="Drive: Reroll###DATA###" name="Drive: Reroll"><description>This model can attempt to Drive each warjack under its control in its command range. To Drive a warjack, this model must make a command check at any  time during its activation. If the check succeeds, the warjack can reroll one missed attack roll during its activation this turn.</description></rule>
+        <rule id="Coordinated Strike###DATA###" name="Coordinated Strike"><description>This model and myrmidons it controls can ignore friendly Dawnguard models when drawing LOS and can advance through friendly Dawnguard models if they have enough movement to move completely past the Dawnguard models' bases.</description></rule>
+        <rule id="Commander###DATA###" name="Commander"/>
+        <rule id="'Jack Marshal###DATA###" name="'Jack Marshal"/>
+        <rule id="Flank [Faction Warjack]###DATA###" name="Flank [Faction Warjack]"><description>When this model makes a melee attack against an enemy model within the melee range of a friendly model of the listed type, this model gains +2 to attack rolls and gains an additional damage die.</description></rule>
+      </rules><profiles>
+        <profile id="Great Sword###DATA###" name="Great Sword" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="-"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="6"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="12"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+          </characteristics></profile>
+        <profile id="Dawnguard Scyir###DATA###" name="Dawnguard Scyir" profileTypeId="Trooper###DATA###"><characteristics>
+            <characteristic characteristicId="SPD###DATA###" name="SPD" value="6"/>
+            <characteristic characteristicId="STR###DATA###" name="STR" value="6"/>
+            <characteristic characteristicId="MAT###DATA###" name="MAT" value="8"/>
+            <characteristic characteristicId="RAT###DATA###" name="RAT" value="4"/>
+            <characteristic characteristicId="DEF###DATA###" name="DEF" value="13"/>
+            <characteristic characteristicId="ARM###DATA###" name="ARM" value="15"/>
+            <characteristic characteristicId="CMD###DATA###" name="CMD" value="10"/>
+            <characteristic characteristicId="Damage###DATA###" name="Damage" value="5"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Unit###DATA###" id="faa8e390-35b6-467d-80f8-0cc5acfaed4b" name="Dawnguard Sentinels (06)" points="6.0" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="2" collective="false"><entries>
+        <entry categoryId="Unit###DATA###" id="39f9fdc2-a57b-4e6f-9780-b2a9a8a2f822" name="Soulless Escort (WA)" points="1.0" type="upgrade" minSelections="0" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="3" collective="false"><entries/><entryGroups/><modifiers/><rules>
+            <rule id="Tag Along###DATA###" name="Tag Along"><description>This model does not gain the abilities of the unit to which it is attached except Advance Deployment.</description></rule>
+            <rule id="Sword - Magical Weapon###DATA###" name="Sword - Magical Weapon"/>
+            <rule id="Soulless###DATA###" name="Soulless"><description>This model does not generate a soul token when it is destroyed.</description></rule>
+            <rule id="Mage Static###DATA###" name="Mage Static"><description>While this model is in formation, enemy magic attacks targeting a model in this model's unit suffer -5 RNG.</description></rule>
+            <rule id="Flank [Another model in this unit]###DATA###" name="Flank [Another model in this unit]"><description>When this model makes a melee attack against an enemy model within the melee range of a friendly model of the listed type, this model gains +2 to attack rolls and gains an additional damage die.</description></rule>
+            <rule id="Disbinding (* Action)###DATA###" name="Disbinding (* Action)"><description>Enemy upkeep spells on this model and/or its unit immediately expire.</description></rule>
+            <rule id="Attachment [Any Retribution Unit]###DATA###" name="Attachment [Any Retribution Unit]"><description>This attachment can be added to a unit of the type listed.</description></rule>
+          </rules><profiles>
+            <profile id="Soulless Escort - Sword###DATA###" name="Soulless Escort - Sword" profileTypeId="Weapon###DATA###"><characteristics>
+                <characteristic characteristicId="RNG###DATA###" name="RNG" value="-"/>
+                <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+                <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+                <characteristic characteristicId="POW###DATA###" name="POW" value="3"/>
+                <characteristic characteristicId="P+S###DATA###" name="P+S" value="9"/>
+                <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+              </characteristics></profile>
+            <profile id="Soulless Escort###DATA###" name="Soulless Escort" profileTypeId="Trooper###DATA###"><characteristics>
+                <characteristic characteristicId="SPD###DATA###" name="SPD" value="6"/>
+                <characteristic characteristicId="STR###DATA###" name="STR"/>
+                <characteristic characteristicId="MAT###DATA###" name="MAT" value="5"/>
+                <characteristic characteristicId="RAT###DATA###" name="RAT" value="3"/>
+                <characteristic characteristicId="DEF###DATA###" name="DEF" value="13"/>
+                <characteristic characteristicId="ARM###DATA###" name="ARM" value="12"/>
+                <characteristic characteristicId="CMD###DATA###" name="CMD" value="10"/>
+                <characteristic characteristicId="Damage###DATA###" name="Damage" value="1"/>
+              </characteristics></profile>
+          </profiles></entry>
+        <entry categoryId="(No Category)" id="8f9e8824-e72a-4fc5-93b7-b2e268875ab6" name="Dawnguard Sentinels Upgrade (06--&gt;10)" points="3.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+        <entry categoryId="(No Category)" id="659b8c90-5073-4590-b704-444b87a2262c" name="Dawnguard Sentinel Officer &amp; Standard Bearer (UA)" points="1.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries/><entryGroups/><modifiers/><rules>
+            <rule id="Attachment [Dawnguard Sentinels]###DATA###" name="Attachment [Dawnguard Sentinels]"><description>This attachment can be added to a unit of the type listed.</description></rule>
+            <rule id="Officer###DATA###" name="Officer"/>
+            <rule id="Defensive Line###DATA###" name="Defensive Line"><description>While this model is B2B with one or more model in its unit, it gains +2 ARM.</description></rule>
+            <rule id="Granted: Vengeance###DATA###" name="Granted: Vengeance"><description>While this model is in play, models in its unit gain Vengeance. (During your Maintenance Phase, if one or more models in a unit with Vengeance where destroyed or removed from play by enemy attacks during your opponent's last turn, each model in the unit can advance up to 3" and make one normal melee attack).</description></rule>
+            <rule id="Standard Bearer###DATA###" name="Standard Bearer"><description>Details...</description></rule>
+            <rule id="Drive: Pronto###DATA###" name="Drive: Pronto"><description>This model can attempt to Drive each warjack under its control in its command range. To Drive a warjack, this model must make a command check at any time during its activation. If the check succeeds, the warjack immediately makes a full advance. If the check fails, the warjack does not benefit from 'Jack Marshal this turn.</description></rule>
+          </rules><profiles>
+            <profile id="Dawnguard Sentinel Standard Bearer###DATA###" name="Dawnguard Sentinel Standard Bearer" profileTypeId="Trooper###DATA###"><characteristics>
+                <characteristic characteristicId="SPD###DATA###" name="SPD" value="5"/>
+                <characteristic characteristicId="STR###DATA###" name="STR" value="6"/>
+                <characteristic characteristicId="MAT###DATA###" name="MAT" value="7"/>
+                <characteristic characteristicId="RAT###DATA###" name="RAT" value="4"/>
+                <characteristic characteristicId="DEF###DATA###" name="DEF" value="12"/>
+                <characteristic characteristicId="ARM###DATA###" name="ARM" value="15"/>
+                <characteristic characteristicId="CMD###DATA###" name="CMD" value="9"/>
+                <characteristic characteristicId="Damage###DATA###" name="Damage" value="1"/>
+              </characteristics></profile>
+            <profile id="Dawnguard Sentinel Officer###DATA###" name="Dawnguard Sentinel Officer" profileTypeId="Trooper###DATA###"><characteristics>
+                <characteristic characteristicId="SPD###DATA###" name="SPD" value="5"/>
+                <characteristic characteristicId="STR###DATA###" name="STR" value="6"/>
+                <characteristic characteristicId="MAT###DATA###" name="MAT" value="8"/>
+                <characteristic characteristicId="RAT###DATA###" name="RAT" value="4"/>
+                <characteristic characteristicId="DEF###DATA###" name="DEF" value="12"/>
+                <characteristic characteristicId="ARM###DATA###" name="ARM" value="15"/>
+                <characteristic characteristicId="CMD###DATA###" name="CMD" value="10"/>
+                <characteristic characteristicId="Damage###DATA###" name="Damage" value="5"/>
+              </characteristics></profile>
+          </profiles></entry>
+      </entries><entryGroups/><modifiers/><rules>
+        <rule id="'Jack Marshal###DATA###" name="'Jack Marshal"/>
+        <rule id="Defensive Line###DATA###" name="Defensive Line"><description>While this model is B2B with one or more model in its unit, it gains +2 ARM.</description></rule>
+        <rule id="Great Sword - Weapon Master###DATA###" name="Great Sword - Weapon Master"><description>Details...</description></rule>
+        <rule id="Great Sword - Reach###DATA###" name="Great Sword - Reach"/>
+      </rules><profiles>
+        <profile id="Great Sword###DATA###" name="Great Sword" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="12"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+          </characteristics></profile>
+        <profile id="Dawnguard Sentinel###DATA###" name="Dawnguard Sentinel" profileTypeId="Trooper###DATA###"><characteristics>
+            <characteristic characteristicId="SPD###DATA###" name="SPD" value="5"/>
+            <characteristic characteristicId="STR###DATA###" name="STR" value="6"/>
+            <characteristic characteristicId="MAT###DATA###" name="MAT" value="7"/>
+            <characteristic characteristicId="RAT###DATA###" name="RAT" value="4"/>
+            <characteristic characteristicId="DEF###DATA###" name="DEF" value="12"/>
+            <characteristic characteristicId="ARM###DATA###" name="ARM" value="15"/>
+            <characteristic characteristicId="CMD###DATA###" name="CMD" value="9"/>
+            <characteristic characteristicId="Damage###DATA###" name="Damage" value="1"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Warcaster###DATA###" id="7b16fb9a-9dc1-4230-a4ec-fd0005a97155" name="Dawnlord Vyros" points="-6.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries/><entryGroups/><modifiers/><rules>
+        <rule id="Justicar - Magical Weapon###DATA###" name="Justicar - Magical Weapon"/>
+        <rule id="Justicar - Reach###DATA###" name="Justicar - Reach"/>
+        <rule id="Flank [Faction Warjack]###DATA###" name="Flank [Faction Warjack]"><description>When this model makes a melee attack against an enemy model within the melee range of a friendly model of the listed type, this model gains +2 to attack rolls and gains an additional damage die.</description></rule>
+        <rule id="Bird's Eye###DATA###" name="Bird's Eye"><description>While in this model's control area, models in its battlegroup extend their front arcs 360° and when determining LOS ignore cloud effects, forest terrain, and intervening models.</description></rule>
+        <rule id="Feat: Perfect Execution###DATA###" name="Feat: Perfect Execution"><description>While in Vyros' control area this turn, when a friendly Faction model destroys an enemy model with an attack, allocate 1 focus point to a warjack in Vyros' battlegroup in his control area.</description></rule>
+        <rule id="Stranglehold###DATA###" name="Stranglehold"><description>A model damaged by Stranglehold forfeits either its movement or its action during its next activation, as its controller chooses.</description></rule>
+        <rule id="Mobility###DATA###" name="Mobility"><description>Models in this model's battlegroup currently in its control area gain +2 SPD and Pathfinder for one turn.</description></rule>
+        <rule id="Inviolable Resolve###DATA###" name="Inviolable Resolve"><description>Target friendly Faction model / unit gains +2 ARM and Fearless.</description></rule>
+        <rule id="Hallowed Avenger###DATA###" name="Hallowed Avenger"><description>When an enemy attack destroys or removes from play one or more friendly Faction models within 5" of target warjack in this model's battlegroup, afetr the attack is resolved the affectedwarjack can charge an enemy model, then Hallowed Avenger expires.</description></rule>
+        <rule id="Eliminator###DATA###" name="Eliminator"><description>Immediately after this attack is resolved, this model can advance up to 2" for each enemy model destroyed by the attack.</description></rule>
+      </rules><profiles>
+        <profile id="Dawnlord Vyros###DATA###" name="Dawnlord Vyros" profileTypeId="Warcaster###DATA###"><characteristics>
+            <characteristic characteristicId="SPD###DATA###" name="SPD" value="5"/>
+            <characteristic characteristicId="STR###DATA###" name="STR" value="7"/>
+            <characteristic characteristicId="MAT###DATA###" name="MAT" value="8"/>
+            <characteristic characteristicId="RAT###DATA###" name="RAT" value="4"/>
+            <characteristic characteristicId="DEF###DATA###" name="DEF" value="15"/>
+            <characteristic characteristicId="ARM###DATA###" name="ARM" value="17"/>
+            <characteristic characteristicId="CMD###DATA###" name="CMD" value="10"/>
+            <characteristic characteristicId="Focus###DATA###" name="Focus" value="6"/>
+            <characteristic characteristicId="Damage###DATA###" name="Damage" value="18"/>
+          </characteristics></profile>
+        <profile id="Justicar###DATA###" name="Justicar" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="-"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="7"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="14"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+          </characteristics></profile>
+        <profile id="Stranglehold###DATA###" name="Stranglehold" profileTypeId="Spell###DATA###"><characteristics>
+            <characteristic characteristicId="COST###DATA###" name="COST" value="2"/>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="10"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="11"/>
+            <characteristic characteristicId="UP###DATA###" name="UP" value="NO"/>
+            <characteristic characteristicId="OFF###DATA###" name="OFF" value="YES"/>
+          </characteristics></profile>
+        <profile id="Mobility###DATA###" name="Mobility" profileTypeId="Spell###DATA###"><characteristics>
+            <characteristic characteristicId="COST###DATA###" name="COST" value="2"/>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="SELF"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="CTRL"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="-"/>
+            <characteristic characteristicId="UP###DATA###" name="UP" value="NO"/>
+            <characteristic characteristicId="OFF###DATA###" name="OFF" value="NO"/>
+          </characteristics></profile>
+        <profile id="Inviolable Resolve###DATA###" name="Inviolable Resolve" profileTypeId="Spell###DATA###"><characteristics>
+            <characteristic characteristicId="COST###DATA###" name="COST" value="2"/>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="6"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="-"/>
+            <characteristic characteristicId="UP###DATA###" name="UP" value="YES"/>
+            <characteristic characteristicId="OFF###DATA###" name="OFF" value="NO"/>
+          </characteristics></profile>
+        <profile id="Hallowed Avenger###DATA###" name="Hallowed Avenger" profileTypeId="Spell###DATA###"><characteristics>
+            <characteristic characteristicId="COST###DATA###" name="COST" value="2"/>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="6"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="-"/>
+            <characteristic characteristicId="UP###DATA###" name="UP" value="YES"/>
+            <characteristic characteristicId="OFF###DATA###" name="OFF" value="NO"/>
+          </characteristics></profile>
+        <profile id="Eliminator###DATA###" name="Eliminator" profileTypeId="Spell###DATA###"><characteristics>
+            <characteristic characteristicId="COST###DATA###" name="COST" value="3"/>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="8"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="3"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="13"/>
+            <characteristic characteristicId="UP###DATA###" name="UP" value="NO"/>
+            <characteristic characteristicId="OFF###DATA###" name="OFF" value="YES"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Warjack###DATA###" id="91232c6a-b0d2-4a6e-8320-b7e33375735e" name="Discordia" points="10.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+        <profile id="Discordia###DATA###" name="Discordia" profileTypeId="Myrmidon###DATA###"><characteristics>
+            <characteristic characteristicId="SPD###DATA###" name="SPD" value="6"/>
+            <characteristic characteristicId="STR###DATA###" name="STR" value="10"/>
+            <characteristic characteristicId="MAT###DATA###" name="MAT" value="7"/>
+            <characteristic characteristicId="RAT###DATA###" name="RAT" value="6"/>
+            <characteristic characteristicId="DEF###DATA###" name="DEF" value="12"/>
+            <characteristic characteristicId="ARM###DATA###" name="ARM" value="18"/>
+            <characteristic characteristicId="CMD###DATA###" name="CMD" value="-"/>
+            <characteristic characteristicId="Field Damage###DATA###" name="Field Damage" value="10"/>
+          </characteristics></profile>
+        <profile id="Sonic Pulse Cannon###DATA###" name="Sonic Pulse Cannon" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="SP 10"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="14"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="-"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+          </characteristics></profile>
+        <profile id="Blade Fist###DATA###" name="Blade Fist" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="-"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="6"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="16"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="L+R"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Solo###DATA###" id="88032214-df58-4a37-920d-c5c6a145de4b" name="Eiryss, Angel of the Retribution (Epic)" points="3.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries/><entryGroups/><modifiers>
+        <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0"><conditions>
+            <condition parentId="roster" childId="61b5f9c6-9b04-4615-b04a-8f82186fca7e" field="selections" type="equal to" value="1.0"/>
+          </conditions><conditionGroups/></modifier>
+      </modifiers><rules>
+        <rule id="Camouflage###DATA###" name="Camouflage"><description>This model gains an additional +2 DEF when benefiting from concealment or cover.</description></rule>
+        <rule id="Stealth###DATA###" name="Stealth"/>
+        <rule id="Pathfinder###DATA###" name="Pathfinder"/>
+        <rule id="Advance Deployment###DATA###" name="Advance Deployment"/>
+        <rule id="Fearless###DATA###" name="Fearless"/>
+        <rule id="Mercenary###DATA###" name="Mercenary"><description>This model will work fro Cygnar, Khador, the Protectorate, and the Retribution.</description></rule>
+        <rule id="Retribution Partisan###DATA###" name="Retribution Partisan"><description>When included in a Retribution army, this model is a Retribution model instead of a Mercenary model.</description></rule>
+        <rule id="Sniper###DATA###" name="Sniper"><description>When damaging a warjack or warbeast with a ranged attack, choose which column or branch suffers damage. Instead of rolling damage on a ranged attack, this model can inflict 1 damage point. A model that participates in a combined ranged attack loses Sniper until the attack is resolved.</description></rule>
+        <rule id="Technological Interference###DATA###" name="Technological Interference"><description>While within 5" of this model, non-myrmidon warjacks cannot channel spells or be allocated focus.</description></rule>
+        <rule id="Whiplash###DATA###" name="Whiplash"><description>When an enemy model misses this model with a magic attack, the attacking model becomes the target and is automatically hit by the attack. AOE magic attacks that miss are centered on the attacking model. the model with Whiplash is the point of origin for all these attacks.</description></rule>
+        <rule id="Arcane Interference###DATA###" name="Arcane Interference"><description>When this model hits another model with an attack, upkeep spells and animi on the model hit expire and it loses the focus points on it. When this model hits a warjack with an attack, that warjack suffers Disrution. (A warjack suffering Disruption loses its focus points and cannot be allocated focus or channel spells for one round).</description></rule>
+      </rules><profiles>
+        <profile id="Eiryss, Angel of the Retribution (Epic)###DATA###" name="Eiryss, Angel of the Retribution (Epic)" profileTypeId="Trooper###DATA###"><characteristics>
+            <characteristic characteristicId="SPD###DATA###" name="SPD" value="7"/>
+            <characteristic characteristicId="STR###DATA###" name="STR" value="4"/>
+            <characteristic characteristicId="MAT###DATA###" name="MAT" value="6"/>
+            <characteristic characteristicId="RAT###DATA###" name="RAT" value="9"/>
+            <characteristic characteristicId="DEF###DATA###" name="DEF" value="16"/>
+            <characteristic characteristicId="ARM###DATA###" name="ARM" value="12"/>
+            <characteristic characteristicId="CMD###DATA###" name="CMD" value="9"/>
+            <characteristic characteristicId="Damage###DATA###" name="Damage" value="5"/>
+          </characteristics></profile>
+        <profile id="Crossbow###DATA###" name="Crossbow" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="12"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="10"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H"/>
+          </characteristics></profile>
+        <profile id="Bayonet###DATA###" name="Bayonet" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="-"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="2"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="6"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+          </characteristics></profile>
+        <profile id="Saber###DATA###" name="Saber" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="-"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="3"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="7"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Solo###DATA###" id="61b5f9c6-9b04-4615-b04a-8f82186fca7e" name="Eiryss, Mage Hunter of Ios" points="3.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries/><entryGroups/><modifiers>
+        <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0"><conditions>
+            <condition parentId="roster" childId="88032214-df58-4a37-920d-c5c6a145de4b" field="selections" type="equal to" value="1.0"/>
+          </conditions><conditionGroups/></modifier>
+      </modifiers><rules>
+        <rule id="Camouflage###DATA###" name="Camouflage"><description>This model gains an additional +2 DEF when benefiting from concealment or cover.</description></rule>
+        <rule id="Stealth###DATA###" name="Stealth"/>
+        <rule id="Pathfinder###DATA###" name="Pathfinder"/>
+        <rule id="Advance Deployment###DATA###" name="Advance Deployment"/>
+        <rule id="Fearless###DATA###" name="Fearless"/>
+        <rule id="Mercenary###DATA###" name="Mercenary"><description>This model will work fro Cygnar, Khador, the Protectorate, and the Retribution.</description></rule>
+        <rule id="Retribution Partisan###DATA###" name="Retribution Partisan"><description>When included in a Retribution army, this model is a Retribution model instead of a Mercenary model.</description></rule>
+        <rule id="Attack Type###DATA###" name="Attack Type"><description>Each time this model makes a normal ranged attack, choose one of the following abilities: 1) Death Bolt: Instead of rolling damage, a model hit suffers 3 damage points. When damaging a warjack or warbeast, choose which column or branch suffers the damage; 2) Disruptor Bolt: A model hit loses all focus points. a model hit with the Focus Manipulation special rule does not replenish focus points next turn. A warjack hit suffers Disrution for one round. (A warjack suffering Disruption loses its focus points and cannot be allocated focus or channel spells for one round); 3) Phantom Seeker: This model ignores LOS when making ranged attacks. That model ignores concealment and cover when resolving ranged attacks.</description></rule>
+        <rule id="Technological Intolerance###DATA###" name="Technological Intolerance"><description>When this model ends its normal movement within 5" of a friendly non-myrmidon warjack, its activation ends immediately.</description></rule>
+      </rules><profiles>
+        <profile id="Eiryss, Mage Hunter of Ios###DATA###" name="Eiryss, Mage Hunter of Ios" profileTypeId="Trooper###DATA###"><characteristics>
+            <characteristic characteristicId="SPD###DATA###" name="SPD" value="7"/>
+            <characteristic characteristicId="STR###DATA###" name="STR" value="4"/>
+            <characteristic characteristicId="MAT###DATA###" name="MAT" value="6"/>
+            <characteristic characteristicId="RAT###DATA###" name="RAT" value="9"/>
+            <characteristic characteristicId="DEF###DATA###" name="DEF" value="16"/>
+            <characteristic characteristicId="ARM###DATA###" name="ARM" value="12"/>
+            <characteristic characteristicId="CMD###DATA###" name="CMD" value="9"/>
+            <characteristic characteristicId="Damage###DATA###" name="Damage" value="5"/>
+          </characteristics></profile>
+        <profile id="Saber###DATA###" name="Saber" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="-"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="3"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="7"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+          </characteristics></profile>
+        <profile id="Bayonet###DATA###" name="Bayonet" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="-"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="2"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="6"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+          </characteristics></profile>
+        <profile id="Crossbow###DATA###" name="Crossbow" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="12"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="10"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Solo###DATA###" id="66c78a1e-76e4-4fce-8538-2d5c1689c9d2" name="Fane Knight Skeryth Issyen" points="5.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries/><entryGroups/><modifiers/><rules>
+        <rule id="Dragoon###DATA###" name="Dragoon"><description>While mounted, this model has base SPD 8 and base ARM 17. While dismounted, it has base SPD 6, base ARM 15.</description></rule>
+        <rule id="Righteous Fury###DATA###" name="Righteous Fury"><description>When one or more friendly Faction warrior models are destroyed by an enemy attack while in this model's command range, this model gains +2 STR and ARM for one round.</description></rule>
+        <rule id="Rapid Strike###DATA###" name="Rapid Strike"><description>This model can make one additional melee attack each combat action.</description></rule>
+        <rule id="Needle of Lacyr - Weapon Master###DATA###" name="Needle of Lacyr - Weapon Master"/>
+        <rule id="Needle of Lacyr - Reach###DATA###" name="Needle of Lacyr - Reach"/>
+        <rule id="Needle of Lacyr - Magical Weapon###DATA###" name="Needle of Lacyr - Magical Weapon"/>
+        <rule id="Needle of Lacyr - Blessed###DATA###" name="Needle of Lacyr - Blessed"><description>When making an attack with this weapon, ignore spell effects that add to a model's ARM or DEF.</description></rule>
+      </rules><profiles>
+        <profile id="Fane Knight Skeryth Issyen###DATA###" name="Fane Knight Skeryth Issyen" profileTypeId="Trooper###DATA###"><characteristics>
+            <characteristic characteristicId="SPD###DATA###" name="SPD" value="8/6"/>
+            <characteristic characteristicId="STR###DATA###" name="STR" value="7"/>
+            <characteristic characteristicId="MAT###DATA###" name="MAT" value="8"/>
+            <characteristic characteristicId="RAT###DATA###" name="RAT" value="4"/>
+            <characteristic characteristicId="DEF###DATA###" name="DEF" value="13"/>
+            <characteristic characteristicId="ARM###DATA###" name="ARM" value="17/15"/>
+            <characteristic characteristicId="CMD###DATA###" name="CMD" value="9"/>
+            <characteristic characteristicId="Damage###DATA###" name="Damage" value="10/5"/>
+          </characteristics></profile>
+        <profile id="Mount###DATA###" name="Mount" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="-"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="10"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="-"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+          </characteristics></profile>
+        <profile id="Needle of Lacyr###DATA###" name="Needle of Lacyr" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="-"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="6"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="13"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Warcaster###DATA###" id="18ad9fdf-bc90-4ece-bb8b-84f1868057cf" name="Garryth, blade of the Retribution" points="-5.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries/><entryGroups/><modifiers/><rules>
+        <rule id="Psychic Vampire###DATA###" name="Psychic Vampire"><description>When an enemy model casts a spells or use an animus while in this model's control area, the enemy model suffers 1 damage point and this models heals 1 damage point.</description></rule>
+        <rule id="Mirage###DATA###" name="Mirage"><description>Target friendly Faction model / unit gains Apparition. During your Control Phase, place models with Apparition anywhere completely within 2" of their current locations. If Mirage affects a unit, only model in formation can be placed.</description></rule>
+        <rule id="Gallows###DATA###" name="Gallows"><description>When an enemy model is hit by this attack, it can be pushed d6" directly toward Gallows' point of origin.</description></rule>
+        <rule id="Feat: Vortex Lock###DATA###" name="Feat: Vortex Lock"><description>For one round, while in Garryth's control area enemy models cannot cast spells, channel spells, spend focus points, or be moved by place effects. </description></rule>
+        <rule id="Death Sentence###DATA###" name="Death Sentence"><description>When a friendly Faction model misses target enemy model / unit with an attack, it can reroll the attack roll. Each attack roll can be rerolled only once as a result of Death Sentence.</description></rule>
+        <rule id="Pathfinder###DATA###" name="Pathfinder"/>
+        <rule id="Stealth###DATA###" name="Stealth"/>
+        <rule id="Arcane Assassin###DATA###" name="Arcane Assassin"><description>When making attacks, ignore focus points overboosting the target's Power Field and spell effects adding to its ARM or DEF. </description></rule>
+        <rule id="Parry###DATA###" name="Parry"><description>This model cannot be targeted by free strikes.</description></rule>
+        <rule id="Pistols - Magical Weapon###DATA###" name="Pistols - Magical Weapon"/>
+        <rule id="Bades - Magical Weapon###DATA###" name="Bades - Magical Weapon"/>
+        <rule id="Blades - Weapon Master###DATA###" name="Blades - Weapon Master"/>
+        <rule id="Blades - Grievous Wounds###DATA###" name="Blades - Grievous Wounds"><description>When a model is hit by this weapon, for one round it loses Tough, cannot heal or be healed, and cannot transfer damage.</description></rule>
+      </rules><profiles>
+        <profile id="Garryth###DATA###" name="Garryth" profileTypeId="Warcaster###DATA###"><characteristics>
+            <characteristic characteristicId="SPD###DATA###" name="SPD" value="7"/>
+            <characteristic characteristicId="STR###DATA###" name="STR" value="6"/>
+            <characteristic characteristicId="MAT###DATA###" name="MAT" value="8"/>
+            <characteristic characteristicId="RAT###DATA###" name="RAT" value="6"/>
+            <characteristic characteristicId="DEF###DATA###" name="DEF" value="16"/>
+            <characteristic characteristicId="ARM###DATA###" name="ARM" value="14"/>
+            <characteristic characteristicId="CMD###DATA###" name="CMD" value="8"/>
+            <characteristic characteristicId="Focus###DATA###" name="Focus" value="6"/>
+            <characteristic characteristicId="Damage###DATA###" name="Damage" value="16"/>
+          </characteristics></profile>
+        <profile id="Blades###DATA###" name="Blades" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="-"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="5"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="11"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="L+R"/>
+          </characteristics></profile>
+        <profile id="Pistols###DATA###" name="Pistols" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="12"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="12"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="-"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="L+R"/>
+          </characteristics></profile>
+        <profile id="Psychic Vampire###DATA###" name="Psychic Vampire" profileTypeId="Spell###DATA###"><characteristics>
+            <characteristic characteristicId="COST###DATA###" name="COST" value="3"/>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="SELF"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="CTRL"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="-"/>
+            <characteristic characteristicId="UP###DATA###" name="UP" value="YES"/>
+            <characteristic characteristicId="OFF###DATA###" name="OFF" value="NO"/>
+          </characteristics></profile>
+        <profile id="Mirage###DATA###" name="Mirage" profileTypeId="Spell###DATA###"><characteristics>
+            <characteristic characteristicId="COST###DATA###" name="COST" value="3"/>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="6"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="-"/>
+            <characteristic characteristicId="UP###DATA###" name="UP" value="YES"/>
+            <characteristic characteristicId="OFF###DATA###" name="OFF" value="NO"/>
+          </characteristics></profile>
+        <profile id="Gallows###DATA###" name="Gallows" profileTypeId="Spell###DATA###"><characteristics>
+            <characteristic characteristicId="COST###DATA###" name="COST" value="3"/>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="10"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="13"/>
+            <characteristic characteristicId="UP###DATA###" name="UP" value="NO"/>
+            <characteristic characteristicId="OFF###DATA###" name="OFF" value="YES"/>
+          </characteristics></profile>
+        <profile id="Death Sentence###DATA###" name="Death Sentence" profileTypeId="Spell###DATA###"><characteristics>
+            <characteristic characteristicId="COST###DATA###" name="COST" value="2"/>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="8"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="-"/>
+            <characteristic characteristicId="UP###DATA###" name="UP" value="YES"/>
+            <characteristic characteristicId="OFF###DATA###" name="OFF" value="YES"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Solo###DATA###" id="c8a184b0-8a58-4aff-ba6a-5981f854bf22" name="Ghost Sniper" points="2.0" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="2" collective="false"><entries/><entryGroups/><modifiers/><rules>
+        <rule id="Pathfinder###DATA###" name="Pathfinder"/>
+        <rule id="Stealth###DATA###" name="Stealth"/>
+        <rule id="Arcane Cannon - Deadly Shot (* Attack)###DATA###" name="Arcane Cannon - Deadly Shot (* Attack)"><description>Instead of rolling damage, a model hit suffers 3 damage points. When damaging a warjack or warbeast, choose which column or branch suffers the damage.</description></rule>
+        <rule id="Swift Hunter###DATA###" name="Swift Hunter"><description>When this model destroys an enemy model whit a normal ranged attack, immediately after the attack is resolved it can advance up to 2".</description></rule>
+        <rule id="Camouflage###DATA###" name="Camouflage"><description>This model gains an additional +2 DEF when benefiting from concealment or cover.</description></rule>
+      </rules><profiles>
+        <profile id="Sword###DATA###" name="Sword" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="-"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="3"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="7"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+          </characteristics></profile>
+        <profile id="Arcane Cannon###DATA###" name="Arcane Cannon" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="14"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="10"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="-"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+          </characteristics></profile>
+        <profile id="Ghost Sniper###DATA###" name="Ghost Sniper" profileTypeId="Trooper###DATA###"><characteristics>
+            <characteristic characteristicId="SPD###DATA###" name="SPD" value="6"/>
+            <characteristic characteristicId="STR###DATA###" name="STR" value="4"/>
+            <characteristic characteristicId="MAT###DATA###" name="MAT" value="4"/>
+            <characteristic characteristicId="RAT###DATA###" name="RAT" value="7"/>
+            <characteristic characteristicId="DEF###DATA###" name="DEF" value="14"/>
+            <characteristic characteristicId="ARM###DATA###" name="ARM" value="11"/>
+            <characteristic characteristicId="CMD###DATA###" name="CMD" value="8"/>
+            <characteristic characteristicId="Damage###DATA###" name="Damage" value="5"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Warjack###DATA###" id="09f2dfb6-faab-420d-93a6-ae450284576d" name="Gorgon" points="5.0" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules>
+        <rule id="Field Dependent###DATA###" name="Field Dependent"><description>While its Field Generator system is crippled, this model loses the Force Lock ability and cannot make Polarity Cannon attacks.</description></rule>
+        <rule id="Force Lock###DATA###" name="Force Lock"><description>Enemy models in this model's melee range cannot advance except to change facing.</description></rule>
+        <rule id="Polarity Cannon - Kinetic Grip###DATA###" name="Polarity Cannon - Kinetic Grip"><description>When a model is hit by this attack, it cannot charge this model for one round.</description></rule>
+        <rule id="Glaive - Open Fist###DATA###" name="Glaive - Open Fist"/>
+        <rule id="Glaive - Combo Strike (* Attack)###DATA###" name="Glaive - Combo Strike (* Attack)"><description>Make a melee attack. Instead of making a normal damage roll, the POW of the damage roll is equal to this model's STR plus twice the POW of this weapon.</description></rule>
+        <rule id="Polarity Cannon - Magical Weapon###DATA###" name="Polarity Cannon - Magical Weapon"/>
+      </rules><profiles>
+        <profile id="Gorgon###DATA###" name="Gorgon" profileTypeId="Myrmidon###DATA###"><characteristics>
+            <characteristic characteristicId="SPD###DATA###" name="SPD" value="6"/>
+            <characteristic characteristicId="STR###DATA###" name="STR" value="8"/>
+            <characteristic characteristicId="MAT###DATA###" name="MAT" value="6"/>
+            <characteristic characteristicId="RAT###DATA###" name="RAT" value="5"/>
+            <characteristic characteristicId="DEF###DATA###" name="DEF" value="12"/>
+            <characteristic characteristicId="ARM###DATA###" name="ARM" value="16"/>
+            <characteristic characteristicId="CMD###DATA###" name="CMD" value="-"/>
+            <characteristic characteristicId="Field Damage###DATA###" name="Field Damage" value="6"/>
+          </characteristics></profile>
+        <profile id="Glaive###DATA###" name="Glaive" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="-"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="4"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="12"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="L+R"/>
+          </characteristics></profile>
+        <profile id="Polarity Cannon###DATA###" name="Polarity Cannon" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="10"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="10"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="-"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Warjack###DATA###" id="43cfc52f-e07d-46a7-b50e-4e0f83f9999c" name="Griffon" points="4.0" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules>
+        <rule id="Pathfinder###DATA###" name="Pathfinder"/>
+        <rule id="Field Dependent###DATA###" name="Field Dependent"><description>While its Field Generator system is crippled, this model loses the Pathfinder and Fleet abilities.</description></rule>
+        <rule id="Fleet###DATA###" name="Fleet"><description>At the start of this model's activation, it can spend 1 focus point once to gain +2" movement for one turn.</description></rule>
+        <rule id="Shield###DATA###" name="Shield"/>
+        <rule id="Halberd - Powerful Charge###DATA###" name="Halberd - Powerful Charge"><description>This model gains +2 to charge attack rolls with this weapon.</description></rule>
+        <rule id="Halberd - Reach###DATA###" name="Halberd - Reach"/>
+      </rules><profiles>
+        <profile id="Halberd###DATA###" name="Halberd" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="5"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="13"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="R"/>
+          </characteristics></profile>
+        <profile id="Griffon###DATA###" name="Griffon" profileTypeId="Myrmidon###DATA###"><characteristics>
+            <characteristic characteristicId="SPD###DATA###" name="SPD" value="6"/>
+            <characteristic characteristicId="STR###DATA###" name="STR" value="8"/>
+            <characteristic characteristicId="MAT###DATA###" name="MAT" value="6"/>
+            <characteristic characteristicId="RAT###DATA###" name="RAT" value="5"/>
+            <characteristic characteristicId="DEF###DATA###" name="DEF" value="12"/>
+            <characteristic characteristicId="ARM###DATA###" name="ARM" value="16"/>
+            <characteristic characteristicId="CMD###DATA###" name="CMD" value="-"/>
+            <characteristic characteristicId="Field Damage###DATA###" name="Field Damage" value="6"/>
+          </characteristics></profile>
+        <profile id="Shield###DATA###" name="Shield" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="-"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="1"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="9"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="L"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Unit###DATA###" id="8e79ec8b-5e54-41e4-9e96-0bb269cd7710" name="House Shyeel Battle Mages (06)" points="5.0" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="2" collective="false"><entries>
+        <entry categoryId="Unit###DATA###" id="3aa68460-1ab5-49ac-83e9-1a2c5a7b6eee" name="Soulless Escort (WA)" points="1.0" type="upgrade" minSelections="0" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="3" collective="false"><entries/><entryGroups/><modifiers/><rules>
+            <rule id="Tag Along###DATA###" name="Tag Along"><description>This model does not gain the abilities of the unit to which it is attached except Advance Deployment.</description></rule>
+            <rule id="Sword - Magical Weapon###DATA###" name="Sword - Magical Weapon"/>
+            <rule id="Soulless###DATA###" name="Soulless"><description>This model does not generate a soul token when it is destroyed.</description></rule>
+            <rule id="Mage Static###DATA###" name="Mage Static"><description>While this model is in formation, enemy magic attacks targeting a model in this model's unit suffer -5 RNG.</description></rule>
+            <rule id="Flank [Another model in this unit]###DATA###" name="Flank [Another model in this unit]"><description>When this model makes a melee attack against an enemy model within the melee range of a friendly model of the listed type, this model gains +2 to attack rolls and gains an additional damage die.</description></rule>
+            <rule id="Disbinding (* Action)###DATA###" name="Disbinding (* Action)"><description>Enemy upkeep spells on this model and/or its unit immediately expire.</description></rule>
+            <rule id="Attachment [Any Retribution Unit]###DATA###" name="Attachment [Any Retribution Unit]"><description>This attachment can be added to a unit of the type listed.</description></rule>
+          </rules><profiles>
+            <profile id="Soulless Escort - Sword###DATA###" name="Soulless Escort - Sword" profileTypeId="Weapon###DATA###"><characteristics>
+                <characteristic characteristicId="RNG###DATA###" name="RNG" value="-"/>
+                <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+                <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+                <characteristic characteristicId="POW###DATA###" name="POW" value="3"/>
+                <characteristic characteristicId="P+S###DATA###" name="P+S" value="9"/>
+                <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+              </characteristics></profile>
+            <profile id="Soulless Escort###DATA###" name="Soulless Escort" profileTypeId="Trooper###DATA###"><characteristics>
+                <characteristic characteristicId="SPD###DATA###" name="SPD" value="6"/>
+                <characteristic characteristicId="STR###DATA###" name="STR"/>
+                <characteristic characteristicId="MAT###DATA###" name="MAT" value="5"/>
+                <characteristic characteristicId="RAT###DATA###" name="RAT" value="3"/>
+                <characteristic characteristicId="DEF###DATA###" name="DEF" value="13"/>
+                <characteristic characteristicId="ARM###DATA###" name="ARM" value="12"/>
+                <characteristic characteristicId="CMD###DATA###" name="CMD" value="10"/>
+                <characteristic characteristicId="Damage###DATA###" name="Damage" value="1"/>
+              </characteristics></profile>
+          </profiles></entry>
+      </entries><entryGroups/><modifiers/><rules>
+        <rule id="Magic Ability [6] - Force Bolt (* Attack)###DATA###" name="Magic Ability [6] - Force Bolt (* Attack)"><description>Force Bolt is a RNG 10, POW 10 magic attack. An enemy model hit by this attack may be pushed d3" directly toward or away from this model. On critical hit, the enemy model is also knocked down after being pushed.</description></rule>
+        <rule id="Power Gauntlets - Beat Back###DATA###" name="Power Gauntlets - Beat Back"><description>Immediately after a normal attack with this weapon is resolved during this model's combat action, the enemy model hit can be pushed 1" directly away from the attacking model. After the enemy model is pushed, the attacking model can advance up to 1".</description></rule>
+        <rule id="Power Gauntlets - Magical Weapon###DATA###" name="Power Gauntlets - Magical Weapon"/>
+        <rule id="Force Barrier###DATA###" name="Force Barrier"><description>This model gains +2 DEF against ranged attack rolls and does not suffer blast damage.</description></rule>
+      </rules><profiles>
+        <profile id="Power Gauntlets###DATA###" name="Power Gauntlets" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="-"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="4"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="11"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="L+R"/>
+          </characteristics></profile>
+        <profile id="Battle Mage###DATA###" name="Battle Mage" profileTypeId="Trooper###DATA###"><characteristics>
+            <characteristic characteristicId="SPD###DATA###" name="SPD" value="6"/>
+            <characteristic characteristicId="STR###DATA###" name="STR" value="7"/>
+            <characteristic characteristicId="MAT###DATA###" name="MAT" value="6"/>
+            <characteristic characteristicId="RAT###DATA###" name="RAT" value="4"/>
+            <characteristic characteristicId="DEF###DATA###" name="DEF" value="13"/>
+            <characteristic characteristicId="ARM###DATA###" name="ARM" value="12"/>
+            <characteristic characteristicId="CMD###DATA###" name="CMD" value="9"/>
+            <characteristic characteristicId="Damage###DATA###" name="Damage" value="1"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Solo###DATA###" id="29b6cfb9-0f55-4bfa-a2ab-6779765a4d91" name="House Shyeel Magister" points="2.0" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="2" collective="false"><entries/><entryGroups/><modifiers/><rules>
+        <rule id="Power Gauntlet - Combo Smite (* Attack)###DATA###" name="Power Gauntlet - Combo Smite (* Attack)"><description>Make a melee attack. On a hit, instead of making a normal damage roll, the target model is slammed d6" directly away from this model and suffers a damage roll with POW equal to this model's STR plus the POW of this weapon. The POW of collateral damage is equal to this model's STR.</description></rule>
+        <rule id="Power Gauntlet - Magical Weapon###DATA###" name="Power Gauntlet - Magical Weapon"/>
+        <rule id="Magic Ability [7] - Whip Snap (* Attack)###DATA###" name="Magic Ability [7] - Whip Snap (* Attack)"><description>Whip Snap is a RNG 6, POW 12 magic attack. If this attack hits an enemy model, immediately after the attack is resolved this model or a friendly model within 3" of it can advance up to 3". A friendly model can advance as a result of this spell only once per turn.</description></rule>
+        <rule id="Force Barrier###DATA###" name="Force Barrier"><description>This model gains +2 DEF against ranged attack rolls and does not suffer blast damage.</description></rule>
+        <rule id="Power Gauntlet - Beat Back###DATA###" name="Power Gauntlet - Beat Back"><description>Immediately after a normal attack with this weapon is resolved during this model's combat action, the enemy model hit can be pushed 1" directly away from the attacking model. After the enemy model is pushed, the attacking model can advance up to 1".</description></rule>
+        <rule id="Magic Ability [7] - Force Bolt (* Attack)###DATA###" name="Magic Ability [7] - Force Bolt (* Attack)"><description>Force Bolt is a RNG 10, POW 10 magic attack. An enemy model hit by this attack may be pushed d3" directly toward or away from this model. On critical hit, the enemy model is also knocked down after being pushed.</description></rule>
+      </rules><profiles>
+        <profile id="Power Gauntlet###DATA###" name="Power Gauntlet" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="-"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="4"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="11"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="L+R"/>
+          </characteristics></profile>
+        <profile id="House Shyeel Magister###DATA###" name="House Shyeel Magister" profileTypeId="Trooper###DATA###"><characteristics>
+            <characteristic characteristicId="SPD###DATA###" name="SPD" value="6"/>
+            <characteristic characteristicId="STR###DATA###" name="STR" value="7"/>
+            <characteristic characteristicId="MAT###DATA###" name="MAT" value="7"/>
+            <characteristic characteristicId="RAT###DATA###" name="RAT" value="4"/>
+            <characteristic characteristicId="DEF###DATA###" name="DEF" value="13"/>
+            <characteristic characteristicId="ARM###DATA###" name="ARM" value="12"/>
+            <characteristic characteristicId="CMD###DATA###" name="CMD" value="9"/>
+            <characteristic characteristicId="Damage###DATA###" name="Damage" value="5"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Unit###DATA###" id="47109d9d-88a6-467d-af10-000b85798bf1" name="Houseguard Halberdiers (06)" points="4.0" type="upgrade" minSelections="0" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="3" collective="false"><entries>
+        <entry categoryId="Unit###DATA###" id="b74b12d8-cc53-4af8-b4e3-bb1c37325d00" name="Soulless Escort (WA)" points="1.0" type="upgrade" minSelections="0" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="3" collective="false"><entries/><entryGroups/><modifiers/><rules>
+            <rule id="Tag Along###DATA###" name="Tag Along"><description>This model does not gain the abilities of the unit to which it is attached except Advance Deployment.</description></rule>
+            <rule id="Sword - Magical Weapon###DATA###" name="Sword - Magical Weapon"/>
+            <rule id="Soulless###DATA###" name="Soulless"><description>This model does not generate a soul token when it is destroyed.</description></rule>
+            <rule id="Mage Static###DATA###" name="Mage Static"><description>While this model is in formation, enemy magic attacks targeting a model in this model's unit suffer -5 RNG.</description></rule>
+            <rule id="Flank [Another model in this unit]###DATA###" name="Flank [Another model in this unit]"><description>When this model makes a melee attack against an enemy model within the melee range of a friendly model of the listed type, this model gains +2 to attack rolls and gains an additional damage die.</description></rule>
+            <rule id="Disbinding (* Action)###DATA###" name="Disbinding (* Action)"><description>Enemy upkeep spells on this model and/or its unit immediately expire.</description></rule>
+            <rule id="Attachment [Any Retribution Unit]###DATA###" name="Attachment [Any Retribution Unit]"><description>This attachment can be added to a unit of the type listed.</description></rule>
+          </rules><profiles>
+            <profile id="Soulless Escort - Sword###DATA###" name="Soulless Escort - Sword" profileTypeId="Weapon###DATA###"><characteristics>
+                <characteristic characteristicId="RNG###DATA###" name="RNG" value="-"/>
+                <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+                <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+                <characteristic characteristicId="POW###DATA###" name="POW" value="3"/>
+                <characteristic characteristicId="P+S###DATA###" name="P+S" value="9"/>
+                <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+              </characteristics></profile>
+            <profile id="Soulless Escort###DATA###" name="Soulless Escort" profileTypeId="Trooper###DATA###"><characteristics>
+                <characteristic characteristicId="SPD###DATA###" name="SPD" value="6"/>
+                <characteristic characteristicId="STR###DATA###" name="STR"/>
+                <characteristic characteristicId="MAT###DATA###" name="MAT" value="5"/>
+                <characteristic characteristicId="RAT###DATA###" name="RAT" value="3"/>
+                <characteristic characteristicId="DEF###DATA###" name="DEF" value="13"/>
+                <characteristic characteristicId="ARM###DATA###" name="ARM" value="12"/>
+                <characteristic characteristicId="CMD###DATA###" name="CMD" value="10"/>
+                <characteristic characteristicId="Damage###DATA###" name="Damage" value="1"/>
+              </characteristics></profile>
+          </profiles></entry>
+        <entry categoryId="(No Category)" id="bfbfaebb-cdbb-4313-9384-4f8bdc1e35a8" name="Houseguard Halberdiers Upgrade (06--&gt;10)" points="3.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+        <entry categoryId="(No Category)" id="aa3f17cb-4942-437c-ba6c-59c21fff5981" name="Houseguard Halberdier Officer &amp; Standard Bearer (UA)" points="2.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries/><entryGroups/><modifiers/><rules>
+            <rule id="Attachment [Houseguard Halberdiers]###DATA###" name="Attachment [Houseguard Halberdiers]"><description>This attachment can be added to a unit of the type listed.</description></rule>
+            <rule id="Officer###DATA###" name="Officer"/>
+            <rule id="Standard Bearer###DATA###" name="Standard Bearer"><description>Details...</description></rule>
+            <rule id="Combined Melee Attack###DATA###" name="Combined Melee Attack"/>
+            <rule id="Granted: Reform###DATA###" name="Granted: Reform"><description>While this model is in play, after all models in its unit have completed their actions, each can advance up to 3".</description></rule>
+            <rule id="Ranked Attacks###DATA###" name="Ranked Attacks"><description>Friendly Faction models can ignore this model when determining LOS.</description></rule>
+            <rule id="Team Effort###DATA###" name="Team Effort"><description>Once per game while in formation, this model can use this ability during its unit's activation. This activation, models in this unit gain +2 to attack and damage rolls when making a melee attack targeting an enemy model in melee range of another model in this unit.</description></rule>
+            <rule id="Halberd - Reach###DATA###" name="Halberd - Reach"/>
+            <rule id="Halberd - Brutal Charge###DATA###" name="Halberd - Brutal Charge"><description>This model gains +2 to charge attack damage rolls with this weapon.</description></rule>
+            <rule id="Halberd - Set Defense###DATA###" name="Halberd - Set Defense"><description>A model in this model's front arc suffers -2 on charge, slam power attack, and impact attack rolls against this model.</description></rule>
+          </rules><profiles>
+            <profile id="Houseguard Halberdier Standard Bearer###DATA###" name="Houseguard Halberdier Standard Bearer" profileTypeId="Trooper###DATA###"><characteristics>
+                <characteristic characteristicId="SPD###DATA###" name="SPD" value="6"/>
+                <characteristic characteristicId="STR###DATA###" name="STR" value="5"/>
+                <characteristic characteristicId="MAT###DATA###" name="MAT" value="6"/>
+                <characteristic characteristicId="RAT###DATA###" name="RAT" value="4"/>
+                <characteristic characteristicId="DEF###DATA###" name="DEF" value="13"/>
+                <characteristic characteristicId="ARM###DATA###" name="ARM" value="14"/>
+                <characteristic characteristicId="CMD###DATA###" name="CMD" value="8"/>
+                <characteristic characteristicId="Damage###DATA###" name="Damage" value="1"/>
+              </characteristics></profile>
+            <profile id="Houseguard Halberdier Officer###DATA###" name="Houseguard Halberdier Officer" profileTypeId="Trooper###DATA###"><characteristics>
+                <characteristic characteristicId="SPD###DATA###" name="SPD" value="6"/>
+                <characteristic characteristicId="STR###DATA###" name="STR" value="5"/>
+                <characteristic characteristicId="MAT###DATA###" name="MAT" value="7"/>
+                <characteristic characteristicId="RAT###DATA###" name="RAT" value="4"/>
+                <characteristic characteristicId="DEF###DATA###" name="DEF" value="13"/>
+                <characteristic characteristicId="ARM###DATA###" name="ARM" value="14"/>
+                <characteristic characteristicId="CMD###DATA###" name="CMD" value="9"/>
+                <characteristic characteristicId="Damage###DATA###" name="Damage" value="5"/>
+              </characteristics></profile>
+          </profiles></entry>
+      </entries><entryGroups/><modifiers/><rules>
+        <rule id="Combined Melee Attack###DATA###" name="Combined Melee Attack"/>
+        <rule id="Ranked Attacks###DATA###" name="Ranked Attacks"><description>Friendly Faction models can ignore this model when determining LOS.</description></rule>
+        <rule id="Shield Wall (Order)###DATA###" name="Shield Wall (Order)"><description>For one round, each affected model gains +4 ARM bonus while B2B with another affected model in its unit. This bonus does not apply to damage originating in the model's back arc. Models in this unit can begin the game affected by Shield Wall.</description></rule>
+        <rule id="Halberd - Reach###DATA###" name="Halberd - Reach"/>
+        <rule id="Halberd - Brutal Charge###DATA###" name="Halberd - Brutal Charge"><description>This model gains +2 to charge attack damage rolls with this weapon.</description></rule>
+        <rule id="Halberd - Set Defense###DATA###" name="Halberd - Set Defense"><description>A model in this model's front arc suffers -2 on charge, slam power attack, and impact attack rolls against this model.</description></rule>
+      </rules><profiles>
+        <profile id="Halberd###DATA###" name="Halberd" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="-"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="5"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="10"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+          </characteristics></profile>
+        <profile id="Houseguard Halberdier###DATA###" name="Houseguard Halberdier" profileTypeId="Trooper###DATA###"><characteristics>
+            <characteristic characteristicId="SPD###DATA###" name="SPD" value="6"/>
+            <characteristic characteristicId="STR###DATA###" name="STR" value="5"/>
+            <characteristic characteristicId="MAT###DATA###" name="MAT" value="6"/>
+            <characteristic characteristicId="RAT###DATA###" name="RAT" value="4"/>
+            <characteristic characteristicId="DEF###DATA###" name="DEF" value="13"/>
+            <characteristic characteristicId="ARM###DATA###" name="ARM" value="14"/>
+            <characteristic characteristicId="CMD###DATA###" name="CMD" value="8"/>
+            <characteristic characteristicId="Damage###DATA###" name="Damage" value="1"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Unit###DATA###" id="770a25c5-d6cb-4c14-bb6c-52fd5ed17df2" name="Houseguard Riflemen (06)" points="5.0" type="upgrade" minSelections="0" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="3" collective="false"><entries>
+        <entry categoryId="Unit###DATA###" id="0da634a4-e71f-4d92-b4f5-1404b9b4cf40" name="Soulless Escort (WA)" points="1.0" type="upgrade" minSelections="0" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="3" collective="false"><entries/><entryGroups/><modifiers/><rules>
+            <rule id="Tag Along###DATA###" name="Tag Along"><description>This model does not gain the abilities of the unit to which it is attached except Advance Deployment.</description></rule>
+            <rule id="Sword - Magical Weapon###DATA###" name="Sword - Magical Weapon"/>
+            <rule id="Soulless###DATA###" name="Soulless"><description>This model does not generate a soul token when it is destroyed.</description></rule>
+            <rule id="Mage Static###DATA###" name="Mage Static"><description>While this model is in formation, enemy magic attacks targeting a model in this model's unit suffer -5 RNG.</description></rule>
+            <rule id="Flank [Another model in this unit]###DATA###" name="Flank [Another model in this unit]"><description>When this model makes a melee attack against an enemy model within the melee range of a friendly model of the listed type, this model gains +2 to attack rolls and gains an additional damage die.</description></rule>
+            <rule id="Disbinding (* Action)###DATA###" name="Disbinding (* Action)"><description>Enemy upkeep spells on this model and/or its unit immediately expire.</description></rule>
+            <rule id="Attachment [Any Retribution Unit]###DATA###" name="Attachment [Any Retribution Unit]"><description>This attachment can be added to a unit of the type listed.</description></rule>
+          </rules><profiles>
+            <profile id="Soulless Escort - Sword###DATA###" name="Soulless Escort - Sword" profileTypeId="Weapon###DATA###"><characteristics>
+                <characteristic characteristicId="RNG###DATA###" name="RNG" value="-"/>
+                <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+                <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+                <characteristic characteristicId="POW###DATA###" name="POW" value="3"/>
+                <characteristic characteristicId="P+S###DATA###" name="P+S" value="9"/>
+                <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+              </characteristics></profile>
+            <profile id="Soulless Escort###DATA###" name="Soulless Escort" profileTypeId="Trooper###DATA###"><characteristics>
+                <characteristic characteristicId="SPD###DATA###" name="SPD" value="6"/>
+                <characteristic characteristicId="STR###DATA###" name="STR"/>
+                <characteristic characteristicId="MAT###DATA###" name="MAT" value="5"/>
+                <characteristic characteristicId="RAT###DATA###" name="RAT" value="3"/>
+                <characteristic characteristicId="DEF###DATA###" name="DEF" value="13"/>
+                <characteristic characteristicId="ARM###DATA###" name="ARM" value="12"/>
+                <characteristic characteristicId="CMD###DATA###" name="CMD" value="10"/>
+                <characteristic characteristicId="Damage###DATA###" name="Damage" value="1"/>
+              </characteristics></profile>
+          </profiles></entry>
+        <entry categoryId="(No Category)" id="f3b8250c-e0d1-41ae-985b-e3dfce23cd9a" name="Houseguard Riflemen Upgrade (06--&gt;10)" points="3.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+        <entry categoryId="(No Category)" id="b2b8f93a-7637-41b4-b2be-386e4471df92" name="Houseguard Rifleman Officer &amp; Standard Bearer (UA)" points="2.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries/><entryGroups/><modifiers/><rules>
+            <rule id="Attachment [Houseguard Riflemen]###DATA###" name="Attachment [Houseguard Riflemen]"><description>This attachment can be added to a unit of the type listed.</description></rule>
+            <rule id="Officer###DATA###" name="Officer"/>
+            <rule id="Standard Bearer###DATA###" name="Standard Bearer"><description>Details...</description></rule>
+            <rule id="Combined Ranged Attack###DATA###" name="Combined Ranged Attack"/>
+            <rule id="Granted: War Tempered###DATA###" name="Granted: War Tempered"><description>While this model is in play, models in its unit can make combined ranged attacks targeting models in melee.</description></rule>
+            <rule id="Ranked Attacks###DATA###" name="Ranked Attacks"><description>Friendly Faction models can ignore this model when determining LOS.</description></rule>
+            <rule id="White Of Their Eyes###DATA###" name="White Of Their Eyes"><description>Once per game while in formation, this model can use this ability during its unit's activation. This activation, models in this unit gain an additional die on ranged attack rolls against models within 8" of it.</description></rule>
+          </rules><profiles>
+            <profile id="Houseguard Rifleman Standard Bearer###DATA###" name="Houseguard Rifleman Standard Bearer" profileTypeId="Trooper###DATA###"><characteristics>
+                <characteristic characteristicId="SPD###DATA###" name="SPD" value="6"/>
+                <characteristic characteristicId="STR###DATA###" name="STR" value="4"/>
+                <characteristic characteristicId="MAT###DATA###" name="MAT" value="5"/>
+                <characteristic characteristicId="RAT###DATA###" name="RAT" value="5"/>
+                <characteristic characteristicId="DEF###DATA###" name="DEF" value="13"/>
+                <characteristic characteristicId="ARM###DATA###" name="ARM" value="13"/>
+                <characteristic characteristicId="CMD###DATA###" name="CMD" value="8"/>
+                <characteristic characteristicId="Damage###DATA###" name="Damage" value="1"/>
+              </characteristics></profile>
+            <profile id="Houseguard Rifleman Officer###DATA###" name="Houseguard Rifleman Officer" profileTypeId="Trooper###DATA###"><characteristics>
+                <characteristic characteristicId="SPD###DATA###" name="SPD" value="6"/>
+                <characteristic characteristicId="STR###DATA###" name="STR" value="5"/>
+                <characteristic characteristicId="MAT###DATA###" name="MAT" value="6"/>
+                <characteristic characteristicId="RAT###DATA###" name="RAT" value="6"/>
+                <characteristic characteristicId="DEF###DATA###" name="DEF" value="13"/>
+                <characteristic characteristicId="ARM###DATA###" name="ARM" value="13"/>
+                <characteristic characteristicId="CMD###DATA###" name="CMD" value="9"/>
+                <characteristic characteristicId="Damage###DATA###" name="Damage" value="5"/>
+              </characteristics></profile>
+          </profiles></entry>
+      </entries><entryGroups/><modifiers/><rules>
+        <rule id="Combined Ranged Attack###DATA###" name="Combined Ranged Attack"/>
+        <rule id="Ranked Attacks###DATA###" name="Ranked Attacks"><description>Friendly Faction models can ignore this model when determining LOS.</description></rule>
+      </rules><profiles>
+        <profile id="Houseguard Rifleman###DATA###" name="Houseguard Rifleman" profileTypeId="Trooper###DATA###"><characteristics>
+            <characteristic characteristicId="SPD###DATA###" name="SPD" value="6"/>
+            <characteristic characteristicId="STR###DATA###" name="STR" value="4"/>
+            <characteristic characteristicId="MAT###DATA###" name="MAT" value="5"/>
+            <characteristic characteristicId="RAT###DATA###" name="RAT" value="5"/>
+            <characteristic characteristicId="DEF###DATA###" name="DEF" value="13"/>
+            <characteristic characteristicId="ARM###DATA###" name="ARM" value="13"/>
+            <characteristic characteristicId="CMD###DATA###" name="CMD" value="8"/>
+            <characteristic characteristicId="Damage###DATA###" name="Damage" value="1"/>
+          </characteristics></profile>
+        <profile id="Sword###DATA###" name="Sword" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="-"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="3"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="7"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+          </characteristics></profile>
+        <profile id="Long Rifle###DATA###" name="Long Rifle" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="14"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="10"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="-"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Warjack###DATA###" id="c879bee1-341a-47a5-9ccc-b7f361d7ac55" name="Hydra" points="9.0" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules>
+        <rule id="Field Dependent###DATA###" name="Field Dependent"><description>While its Field Generator system is crippled, this model loses the Kinetic Capacitor ability and cannot attack with the Force Cannon.</description></rule>
+        <rule id="Focus Battery###DATA###" name="Focus Battery"><description>During the Maintenance Phase, do not remove unspent focus points from this model. Focus point remaining on this model at the start of your Control Phase count toward its focus allocation limit.</description></rule>
+        <rule id="Kinetic Capacitor###DATA###" name="Kinetic Capacitor"><description>When this model is hit by an enemy melee or ranged attack, after the attack is resolved this model gains 1 focus point.</description></rule>
+        <rule id="Force Cannon - Magical Weapon###DATA###" name="Force Cannon - Magical Weapon"/>
+        <rule id="Force Cannon - Focus Powered###DATA###" name="Force Cannon - Focus Powered"><description>For each focus point on this model when it declares an attack with this weapon, the weapon gains +1RNG and +1 POW for the rest of the attack.</description></rule>
+        <rule id="Force Fist - Open Fist###DATA###" name="Force Fist - Open Fist"/>
+        <rule id="Force Fist - Chain Attack: Grab &amp; Smash###DATA###" name="Force Fist - Chain Attack: Grab &amp; Smash"><description>If this model hits the same model with both its initial attacks with this weapon, after resolving the attacks it can immediately make a double-hand throw, head-butt, head/weapon/arm lock, push, or throw power attack against that target.</description></rule>
+      </rules><profiles>
+        <profile id="Hydra###DATA###" name="Hydra" profileTypeId="Myrmidon###DATA###"><characteristics>
+            <characteristic characteristicId="SPD###DATA###" name="SPD" value="6"/>
+            <characteristic characteristicId="STR###DATA###" name="STR" value="10"/>
+            <characteristic characteristicId="MAT###DATA###" name="MAT" value="6"/>
+            <characteristic characteristicId="RAT###DATA###" name="RAT" value="5"/>
+            <characteristic characteristicId="DEF###DATA###" name="DEF" value="12"/>
+            <characteristic characteristicId="ARM###DATA###" name="ARM" value="18"/>
+            <characteristic characteristicId="CMD###DATA###" name="CMD" value="-"/>
+            <characteristic characteristicId="Field Damage###DATA###" name="Field Damage" value="10"/>
+          </characteristics></profile>
+        <profile id="Force Fist###DATA###" name="Force Fist" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="-"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="4"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="14"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="L+R"/>
+          </characteristics></profile>
+        <profile id="Force Cannon###DATA###" name="Force Cannon" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="12"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="12"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="-"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Warcaster###DATA###" id="61aadec4-7abc-4437-881b-98322ee5402a" name="Kaelyssa, Night's Whisper" points="-7.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries/><entryGroups/><modifiers/><rules>
+        <rule id="Feat: The Vanishing###DATA###" name="Feat: The Vanishing"/>
+        <rule id="Pathfinder###DATA###" name="Pathfinder"/>
+        <rule id="Witch Hound###DATA###" name="Witch Hound"><description>If a model in this model's battlegroup in its control area is hit by an enemy magic attack, immediately after the attack is resolved one model in this model's battlegroup in its control area can make a full advance and make one normal attack.</description></rule>
+        <rule id="True Sight###DATA###" name="True Sight"><description>This model ignores conceleament, Camouflage, and Stealth.</description></rule>
+        <rule id="Vengeance - Magical Weapon###DATA###" name="Vengeance - Magical Weapon"/>
+        <rule id="Runebolt Cannon - Magical Weapon###DATA###" name="Runebolt Cannon - Magical Weapon"/>
+        <rule id="Vengeance - Energy Siphon###DATA###" name="Vengeance - Energy Siphon"><description>When this attack hits an enemy model with 1 or more focus or fury points on it, that model loses 1 focus or fury point and this model gains 1 focus point.</description></rule>
+        <rule id="Runebolt Cannon - Energy Siphon###DATA###" name="Runebolt Cannon - Energy Siphon"><description>When this attack hits an enemy model with 1 or more focus or fury points on it, that model loses 1 focus or fury point and this model gains 1 focus point.</description></rule>
+        <rule id="Phantom Hunter###DATA###" name="Phantom Hunter"><description>Target model in this model's battlegroup ignores LOS when making charges, slams and attacks. That model ignores conceleament and cover when resolving attacks.</description></rule>
+        <rule id="Banishing Ward###DATA###" name="Banishing Ward"><description>Enemy upkeep spells on target friendly model / unit expire. Affected models cannot be targeted by enemy spells or animi.</description></rule>
+        <rule id="Backlash###DATA###" name="Backlash"><description>When target enemy warjack that is part of a battlegroup is damaged, its controller suffers 1 damage point.</description></rule>
+        <rule id="Arcantrik Bolt###DATA###" name="Arcantrik Bolt"><description>A warjack damaged by this attack becomes stationary for one round.</description></rule>
+        <rule id="Arcane Reckoning###DATA###" name="Arcane Reckoning"><description>Target friendly Faction model / unit gain Whiplash. (When an enemy model misses a model with Whiplash with a magic attack, the attacking model becomes the target and is automatically hit by the attack. AOE magic attacks that miss are centered on the attacking model. the model with Whiplash is the point of origin for all these attacks.)</description></rule>
+        <rule id="Rift###DATA###" name="Rift"><description>The  AOE is rough terrain and remains in play for one round.</description></rule>
+      </rules><profiles>
+        <profile id="Kaelyssa###DATA###" name="Kaelyssa" profileTypeId="Warcaster###DATA###"><characteristics>
+            <characteristic characteristicId="SPD###DATA###" name="SPD" value="6"/>
+            <characteristic characteristicId="STR###DATA###" name="STR" value="6"/>
+            <characteristic characteristicId="MAT###DATA###" name="MAT" value="6"/>
+            <characteristic characteristicId="RAT###DATA###" name="RAT" value="7"/>
+            <characteristic characteristicId="DEF###DATA###" name="DEF" value="16"/>
+            <characteristic characteristicId="ARM###DATA###" name="ARM" value="14"/>
+            <characteristic characteristicId="CMD###DATA###" name="CMD" value="8"/>
+            <characteristic characteristicId="Focus###DATA###" name="Focus" value="7"/>
+            <characteristic characteristicId="Damage###DATA###" name="Damage" value="16"/>
+          </characteristics></profile>
+        <profile id="Vengeance###DATA###" name="Vengeance" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="-"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="6"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="12"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+          </characteristics></profile>
+        <profile id="Runebolt Cannon###DATA###" name="Runebolt Cannon" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="12"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="3"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="10"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="-"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+          </characteristics></profile>
+        <profile id="Rift###DATA###" name="Rift" profileTypeId="Spell###DATA###"><characteristics>
+            <characteristic characteristicId="COST###DATA###" name="COST" value="3"/>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="8"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="4"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="13"/>
+            <characteristic characteristicId="UP###DATA###" name="UP" value="NO"/>
+            <characteristic characteristicId="OFF###DATA###" name="OFF" value="YES"/>
+          </characteristics></profile>
+        <profile id="Phantom Hunter###DATA###" name="Phantom Hunter" profileTypeId="Spell###DATA###"><characteristics>
+            <characteristic characteristicId="COST###DATA###" name="COST" value="2"/>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="6"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="-"/>
+            <characteristic characteristicId="UP###DATA###" name="UP" value="YES"/>
+            <characteristic characteristicId="OFF###DATA###" name="OFF" value="NO"/>
+          </characteristics></profile>
+        <profile id="Banishing Ward###DATA###" name="Banishing Ward" profileTypeId="Spell###DATA###"><characteristics>
+            <characteristic characteristicId="COST###DATA###" name="COST" value="2"/>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="6"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="-"/>
+            <characteristic characteristicId="UP###DATA###" name="UP" value="YES"/>
+            <characteristic characteristicId="OFF###DATA###" name="OFF" value="NO"/>
+          </characteristics></profile>
+        <profile id="Backlash###DATA###" name="Backlash" profileTypeId="Spell###DATA###"><characteristics>
+            <characteristic characteristicId="COST###DATA###" name="COST" value="3"/>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="8"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="-"/>
+            <characteristic characteristicId="UP###DATA###" name="UP" value="YES"/>
+            <characteristic characteristicId="OFF###DATA###" name="OFF" value="YES"/>
+          </characteristics></profile>
+        <profile id="Arcane Reckoning###DATA###" name="Arcane Reckoning" profileTypeId="Spell###DATA###"><characteristics>
+            <characteristic characteristicId="COST###DATA###" name="COST" value="3"/>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="6"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="-"/>
+            <characteristic characteristicId="UP###DATA###" name="UP" value="YES"/>
+            <characteristic characteristicId="OFF###DATA###" name="OFF" value="NO"/>
+          </characteristics></profile>
+        <profile id="Arcantrik Bolt###DATA###" name="Arcantrik Bolt" profileTypeId="Spell###DATA###"><characteristics>
+            <characteristic characteristicId="COST###DATA###" name="COST" value="2"/>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="10"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="12"/>
+            <characteristic characteristicId="UP###DATA###" name="UP" value="NO"/>
+            <characteristic characteristicId="OFF###DATA###" name="OFF" value="YES"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Unit###DATA###" id="8d164b83-225c-40be-8cd6-f3d701eefe0a" name="Lady Aiyana &amp; Master Holt" points="4.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+        <profile id="Master Holt###DATA###" name="Master Holt" profileTypeId="Trooper###DATA###"><characteristics>
+            <characteristic characteristicId="SPD###DATA###" name="SPD" value="6"/>
+            <characteristic characteristicId="STR###DATA###" name="STR" value="5"/>
+            <characteristic characteristicId="MAT###DATA###" name="MAT" value="5"/>
+            <characteristic characteristicId="RAT###DATA###" name="RAT" value="8"/>
+            <characteristic characteristicId="DEF###DATA###" name="DEF" value="15"/>
+            <characteristic characteristicId="ARM###DATA###" name="ARM" value="11"/>
+            <characteristic characteristicId="CMD###DATA###" name="CMD" value="8"/>
+            <characteristic characteristicId="Damage###DATA###" name="Damage" value="5"/>
+          </characteristics></profile>
+        <profile id="Lady Aiyana###DATA###" name="Lady Aiyana" profileTypeId="Trooper###DATA###"><characteristics>
+            <characteristic characteristicId="SPD###DATA###" name="SPD" value="6"/>
+            <characteristic characteristicId="STR###DATA###" name="STR" value="4"/>
+            <characteristic characteristicId="MAT###DATA###" name="MAT" value="4"/>
+            <characteristic characteristicId="RAT###DATA###" name="RAT" value="4"/>
+            <characteristic characteristicId="DEF###DATA###" name="DEF" value="15"/>
+            <characteristic characteristicId="ARM###DATA###" name="ARM" value="11"/>
+            <characteristic characteristicId="CMD###DATA###" name="CMD" value="9"/>
+            <characteristic characteristicId="Damage###DATA###" name="Damage" value="5"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Solo###DATA###" id="e0f5f5d1-071a-4009-b790-ad717a850072" name="Lanyssa Ryssyll" points="2.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+        <profile id="Lanyssa Ryssyll###DATA###" name="Lanyssa Ryssyll" profileTypeId="Trooper###DATA###"><characteristics>
+            <characteristic characteristicId="SPD###DATA###" name="SPD" value="6"/>
+            <characteristic characteristicId="STR###DATA###" name="STR" value="5"/>
+            <characteristic characteristicId="MAT###DATA###" name="MAT" value="6"/>
+            <characteristic characteristicId="RAT###DATA###" name="RAT" value="4"/>
+            <characteristic characteristicId="DEF###DATA###" name="DEF" value="15"/>
+            <characteristic characteristicId="ARM###DATA###" name="ARM" value="11"/>
+            <characteristic characteristicId="CMD###DATA###" name="CMD" value="9"/>
+            <characteristic characteristicId="Damage###DATA###" name="Damage" value="5"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Solo###DATA###" id="c776719c-5d28-4f39-84b5-77245ae9b0bb" name="Madelyn Corbeau" points="2.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles>
+        <profile id="Madelyn Corbeau###DATA###" name="Madelyn Corbeau" profileTypeId="Trooper###DATA###"><characteristics>
+            <characteristic characteristicId="SPD###DATA###" name="SPD" value="6"/>
+            <characteristic characteristicId="STR###DATA###" name="STR" value="4"/>
+            <characteristic characteristicId="MAT###DATA###" name="MAT" value="4"/>
+            <characteristic characteristicId="RAT###DATA###" name="RAT" value="4"/>
+            <characteristic characteristicId="DEF###DATA###" name="DEF" value="14"/>
+            <characteristic characteristicId="ARM###DATA###" name="ARM" value="12"/>
+            <characteristic characteristicId="CMD###DATA###" name="CMD" value="9"/>
+            <characteristic characteristicId="Damage###DATA###" name="Damage" value="5(?)"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Solo###DATA###" id="0a489a34-c99c-4333-992a-8b7ba94bfa54" name="Mage Hunter Assassin" points="2.0" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="2" collective="false"><entries/><entryGroups/><modifiers/><rules>
+        <rule id="Chain Blade - Decapitation###DATA###" name="Chain Blade - Decapitation"><description>Damage exceding the ARM of the model hit is doubled. A model disabled by this attack cannot make a Tough roll.</description></rule>
+        <rule id="Chain Blade - Chain Weapon###DATA###" name="Chain Blade - Chain Weapon"><description>This attack ignores the Buckler and Shield advantages nad Shield Wall.</description></rule>
+        <rule id="Chain Blade - Chain Strike###DATA###" name="Chain Blade - Chain Strike"><description>This weapon has a 4" melee range during this model's activation.</description></rule>
+        <rule id="Chain Blade - Weapon Master###DATA###" name="Chain Blade - Weapon Master"/>
+        <rule id="Arcane Assassin###DATA###" name="Arcane Assassin"><description>When making attacks, ignore focus points overboosting the target's Power Field and spell effects adding to its ARM or DEF.</description></rule>
+        <rule id="Stealth###DATA###" name="Stealth"/>
+        <rule id="Pathfinder###DATA###" name="Pathfinder"/>
+        <rule id="Advance Deployment###DATA###" name="Advance Deployment"/>
+      </rules><profiles>
+        <profile id="Chain Blade###DATA###" name="Chain Blade" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="4"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="9"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+          </characteristics></profile>
+        <profile id="Mage Hunter Assassin###DATA###" name="Mage Hunter Assassin" profileTypeId="Trooper###DATA###"><characteristics>
+            <characteristic characteristicId="SPD###DATA###" name="SPD" value="7"/>
+            <characteristic characteristicId="STR###DATA###" name="STR" value="5"/>
+            <characteristic characteristicId="MAT###DATA###" name="MAT" value="7"/>
+            <characteristic characteristicId="RAT###DATA###" name="RAT" value="4"/>
+            <characteristic characteristicId="DEF###DATA###" name="DEF" value="15"/>
+            <characteristic characteristicId="ARM###DATA###" name="ARM" value="12"/>
+            <characteristic characteristicId="CMD###DATA###" name="CMD" value="9"/>
+            <characteristic characteristicId="Damage###DATA###" name="Damage" value="5"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Unit###DATA###" id="ae5571b8-2dab-4094-a269-942e8ea0b461" name="Mage Hunter Strike Force (06)" points="5.0" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="2" collective="false"><entries>
+        <entry categoryId="Unit###DATA###" id="e54575e5-6d68-4735-a8e5-9ef2eb4d17a4" name="Soulless Escort (WA)" points="1.0" type="upgrade" minSelections="0" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="3" collective="false"><entries/><entryGroups/><modifiers/><rules>
+            <rule id="Tag Along###DATA###" name="Tag Along"><description>This model does not gain the abilities of the unit to which it is attached except Advance Deployment.</description></rule>
+            <rule id="Sword - Magical Weapon###DATA###" name="Sword - Magical Weapon"/>
+            <rule id="Soulless###DATA###" name="Soulless"><description>This model does not generate a soul token when it is destroyed.</description></rule>
+            <rule id="Mage Static###DATA###" name="Mage Static"><description>While this model is in formation, enemy magic attacks targeting a model in this model's unit suffer -5 RNG.</description></rule>
+            <rule id="Flank [Another model in this unit]###DATA###" name="Flank [Another model in this unit]"><description>When this model makes a melee attack against an enemy model within the melee range of a friendly model of the listed type, this model gains +2 to attack rolls and gains an additional damage die.</description></rule>
+            <rule id="Disbinding (* Action)###DATA###" name="Disbinding (* Action)"><description>Enemy upkeep spells on this model and/or its unit immediately expire.</description></rule>
+            <rule id="Attachment [Any Retribution Unit]###DATA###" name="Attachment [Any Retribution Unit]"><description>This attachment can be added to a unit of the type listed.</description></rule>
+          </rules><profiles>
+            <profile id="Soulless Escort - Sword###DATA###" name="Soulless Escort - Sword" profileTypeId="Weapon###DATA###"><characteristics>
+                <characteristic characteristicId="RNG###DATA###" name="RNG" value="-"/>
+                <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+                <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+                <characteristic characteristicId="POW###DATA###" name="POW" value="3"/>
+                <characteristic characteristicId="P+S###DATA###" name="P+S" value="9"/>
+                <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+              </characteristics></profile>
+            <profile id="Soulless Escort###DATA###" name="Soulless Escort" profileTypeId="Trooper###DATA###"><characteristics>
+                <characteristic characteristicId="SPD###DATA###" name="SPD" value="6"/>
+                <characteristic characteristicId="STR###DATA###" name="STR"/>
+                <characteristic characteristicId="MAT###DATA###" name="MAT" value="5"/>
+                <characteristic characteristicId="RAT###DATA###" name="RAT" value="3"/>
+                <characteristic characteristicId="DEF###DATA###" name="DEF" value="13"/>
+                <characteristic characteristicId="ARM###DATA###" name="ARM" value="12"/>
+                <characteristic characteristicId="CMD###DATA###" name="CMD" value="10"/>
+                <characteristic characteristicId="Damage###DATA###" name="Damage" value="1"/>
+              </characteristics></profile>
+          </profiles></entry>
+        <entry categoryId="(No Category)" id="b4158344-4a3f-4662-83c0-cb5b01f1b42c" name="Mage Hunter Strike Force Commander (UA)" points="2.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries/><entryGroups/><modifiers/><rules>
+            <rule id="Attachment [Mage Hunter Strike Force]###DATA###" name="Attachment [Mage Hunter Strike Force]"><description>This attachment can be added to a unit of the type listed.</description></rule>
+            <rule id="Officer###DATA###" name="Officer"/>
+            <rule id="Tactics: Phantom Seeker###DATA###" name="Tactics: Phantom Seeker"><description>Models in this unit gain Phantom Seeker. (A model with Phantom Seeker ignores LOS when making ranged attacks. That model ignores concealment and cover when resolving ranged attacks).</description></rule>
+            <rule id="Tactics: Advance Deployment###DATA###" name="Tactics: Advance Deployment"><description>Models in this unit gain Advance Deployment.</description></rule>
+            <rule id="Arcane Assassin###DATA###" name="Arcane Assassin"><description>When making attacks, ignore focus points overboosting the target's Power Field and spell effects adding to its ARM or DEF. </description></rule>
+            <rule id="Combined Melee Attack###DATA###" name="Combined Melee Attack"/>
+            <rule id="'Jack Hunter###DATA###" name="'Jack Hunter"><description>This model gains an additional die to its melee and ranged damage rolls against warjacks.</description></rule>
+            <rule id="Pathfinder###DATA###" name="Pathfinder"/>
+            <rule id="Stealth###DATA###" name="Stealth"/>
+          </rules><profiles>
+            <profile id="Commander###DATA###" name="Commander" profileTypeId="Trooper###DATA###"><characteristics>
+                <characteristic characteristicId="SPD###DATA###" name="SPD" value="6"/>
+                <characteristic characteristicId="STR###DATA###" name="STR" value="5"/>
+                <characteristic characteristicId="MAT###DATA###" name="MAT" value="7"/>
+                <characteristic characteristicId="RAT###DATA###" name="RAT" value="7"/>
+                <characteristic characteristicId="DEF###DATA###" name="DEF" value="14"/>
+                <characteristic characteristicId="ARM###DATA###" name="ARM" value="11"/>
+                <characteristic characteristicId="CMD###DATA###" name="CMD" value="9"/>
+                <characteristic characteristicId="Damage###DATA###" name="Damage" value="5"/>
+              </characteristics></profile>
+          </profiles></entry>
+        <entry categoryId="(No Category)" id="e8fa9e99-42d6-40d4-9f67-2865510aff74" name="Mage Hunter Strike Force Upgrade (06--&gt;10)" points="3.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules/><profiles/></entry>
+      </entries><entryGroups/><modifiers/><rules>
+        <rule id="'Jack Hunter###DATA###" name="'Jack Hunter"><description>This model gains an additional die to its melee and ranged damage rolls against warjacks.</description></rule>
+        <rule id="Stealth###DATA###" name="Stealth"/>
+        <rule id="Pathfinder###DATA###" name="Pathfinder"/>
+        <rule id="Combined Melee Attack###DATA###" name="Combined Melee Attack"/>
+        <rule id="Arcane Assassin###DATA###" name="Arcane Assassin"><description>When making attacks, ignore focus points overboosting the target's Power Field and spell effects adding to its ARM or DEF. </description></rule>
+      </rules><profiles>
+        <profile id="Mage Hunter###DATA###" name="Mage Hunter" profileTypeId="Trooper###DATA###"><characteristics>
+            <characteristic characteristicId="SPD###DATA###" name="SPD" value="6"/>
+            <characteristic characteristicId="STR###DATA###" name="STR" value="5"/>
+            <characteristic characteristicId="MAT###DATA###" name="MAT" value="6"/>
+            <characteristic characteristicId="RAT###DATA###" name="RAT" value="6"/>
+            <characteristic characteristicId="DEF###DATA###" name="DEF" value="14"/>
+            <characteristic characteristicId="ARM###DATA###" name="ARM" value="11"/>
+            <characteristic characteristicId="CMD###DATA###" name="CMD" value="9"/>
+            <characteristic characteristicId="Damage###DATA###" name="Damage" value="1"/>
+          </characteristics></profile>
+        <profile id="Saber###DATA###" name="Saber" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="-"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="4"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="9"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+          </characteristics></profile>
+        <profile id="Crossbow###DATA###" name="Crossbow" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="12"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="10"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="-"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Warjack###DATA###" id="2316f35a-3d13-4b24-9b94-1d96270dd701" name="Manticore" points="8.0" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules>
+        <rule id="Field Dependent###DATA###" name="Field Dependent"><description>While its Field Generator system is crippled, this model loses the Force Generator ability, cannot attack with the Cyclone Cannon, and cannot make Covering Fire special action.</description></rule>
+        <rule id="Saber Fist - Combo Strike (* Attack)###DATA###" name="Saber Fist - Combo Strike (* Attack)"><description>Make a melee attack. Instead of making a normal damage roll, the POW of the damage roll is equal to this model's STR plus twice the POW of this weapon.</description></rule>
+        <rule id="Saber Fist - Open Fist###DATA###" name="Saber Fist - Open Fist"/>
+        <rule id="Cyclone Cannon - Magical Weapon###DATA###" name="Cyclone Cannon - Magical Weapon"/>
+        <rule id="Force Generator###DATA###" name="Force Generator"><description>At the start of this model's activation, it can spend 1 focus point once to gain +3 STR for one turn.</description></rule>
+        <rule id="Cyclone Cannon - Covering Fire (* Action)###DATA###" name="Cyclone Cannon - Covering Fire (* Action)"><description>Place a 3" AOE anywhere completely within this weapon's RNG. The canter point of the AOE must be in this model's LOS, ignoring intervening models. A model entering or ending its activation in the AOE suffers a damage roll with POW equal to the POW of this weapon. The AOE remains in play for one round or until this model is destroyed or removed from play.</description></rule>
+      </rules><profiles>
+        <profile id="Saber Fist###DATA###" name="Saber Fist" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="-"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="15"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="L+R"/>
+          </characteristics></profile>
+        <profile id="Manticore###DATA###" name="Manticore" profileTypeId="Myrmidon###DATA###"><characteristics>
+            <characteristic characteristicId="SPD###DATA###" name="SPD" value="6"/>
+            <characteristic characteristicId="STR###DATA###" name="STR" value="10"/>
+            <characteristic characteristicId="MAT###DATA###" name="MAT" value="6"/>
+            <characteristic characteristicId="RAT###DATA###" name="RAT" value="5"/>
+            <characteristic characteristicId="DEF###DATA###" name="DEF" value="12"/>
+            <characteristic characteristicId="ARM###DATA###" name="ARM" value="18"/>
+            <characteristic characteristicId="CMD###DATA###" name="CMD" value="-"/>
+            <characteristic characteristicId="Field Damage###DATA###" name="Field Damage" value="10"/>
+          </characteristics></profile>
+        <profile id="Cyclone Cannon###DATA###" name="Cyclone Cannon" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="12"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="3"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="12"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="-"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Solo###DATA###" id="4cc85a0f-a6da-47a2-b6a4-b9a6ca3b7254" name="Narn, Mage Hunter of Ios" points="3.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries/><entryGroups/><modifiers/><rules>
+        <rule id="Advance Deployment###DATA###" name="Advance Deployment"/>
+        <rule id="Fearless###DATA###" name="Fearless"/>
+        <rule id="Pathfinder###DATA###" name="Pathfinder"/>
+        <rule id="Stealth###DATA###" name="Stealth"/>
+        <rule id="Arcane Assassin###DATA###" name="Arcane Assassin"><description>When making attacks, ignore focus points overboosting the target's Power Field and spell effects adding to its ARM or DEF. </description></rule>
+        <rule id="Saber - Weapon Master###DATA###" name="Saber - Weapon Master"/>
+        <rule id="Sprint###DATA###" name="Sprint"><description>At the end of this model's activation, if it destroyed one or more enemy models with melee attacks this activation it can make a full advance.</description></rule>
+        <rule id="Acrobatics###DATA###" name="Acrobatics"><description>This model can advance through other models if it has enough movement to move completely past their bases. This model cannot be targeted by free strikes. This models ignores intervening models when declaring its charge target.</description></rule>
+      </rules><profiles>
+        <profile id="Narn###DATA###" name="Narn" profileTypeId="Trooper###DATA###"><characteristics>
+            <characteristic characteristicId="SPD###DATA###" name="SPD" value="7"/>
+            <characteristic characteristicId="STR###DATA###" name="STR" value="7"/>
+            <characteristic characteristicId="MAT###DATA###" name="MAT" value="8"/>
+            <characteristic characteristicId="RAT###DATA###" name="RAT" value="6"/>
+            <characteristic characteristicId="DEF###DATA###" name="DEF" value="15"/>
+            <characteristic characteristicId="ARM###DATA###" name="ARM" value="13"/>
+            <characteristic characteristicId="CMD###DATA###" name="CMD" value="9"/>
+            <characteristic characteristicId="Damage###DATA###" name="Damage" value="5"/>
+          </characteristics></profile>
+        <profile id="Saber###DATA###" name="Saber" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="-"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="4"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="11"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="L+R"/>
+          </characteristics></profile>
+        <profile id="Crossbow###DATA###" name="Crossbow" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="12"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="10"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="-"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Solo###DATA###" id="2d5f768c-83db-4dbc-946f-0bc7ab07524a" name="Nayl" points="2.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries/><entryGroups/><modifiers/><rules>
+        <rule id="Advance Deployment###DATA###" name="Advance Deployment"/>
+        <rule id="Fearless###DATA###" name="Fearless"/>
+        <rule id="Stealth###DATA###" name="Stealth"/>
+        <rule id="Two-Handed Sword - Magical Weapon###DATA###" name="Two-Handed Sword - Magical Weapon"/>
+        <rule id="Two-Handed Sword - Reach###DATA###" name="Two-Handed Sword - Reach"/>
+        <rule id="Spell Ward###DATA###" name="Spell Ward"><description>This model cannot be targeted by spells.</description></rule>
+        <rule id="Arcane Annihilation###DATA###" name="Arcane Annihilation"><description>When this model is destroyed by an enemy attack, models within 8" of it lose their focus and fury points and cannot cast spells, channel, or use their animi for one round.</description></rule>
+        <rule id="Soulless###DATA###" name="Soulless"><description>This model does not generate a soul token when it is destroyed.</description></rule>
+      </rules><profiles>
+        <profile id="Nayl###DATA###" name="Nayl" profileTypeId="Trooper###DATA###"><characteristics>
+            <characteristic characteristicId="SPD###DATA###" name="SPD" value="7"/>
+            <characteristic characteristicId="STR###DATA###" name="STR" value="7"/>
+            <characteristic characteristicId="MAT###DATA###" name="MAT" value="7"/>
+            <characteristic characteristicId="RAT###DATA###" name="RAT" value="3"/>
+            <characteristic characteristicId="DEF###DATA###" name="DEF" value="13"/>
+            <characteristic characteristicId="ARM###DATA###" name="ARM" value="12"/>
+            <characteristic characteristicId="CMD###DATA###" name="CMD" value="10"/>
+            <characteristic characteristicId="Damage###DATA###" name="Damage" value="5"/>
+          </characteristics></profile>
+        <profile id="Two-Handed Sword###DATA###" name="Two-Handed Sword" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="-"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="13"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Warjack###DATA###" id="6cbab30f-51f9-45fa-bf9f-6e9e21645857" name="Phoenix" points="10.0" type="upgrade" minSelections="0" maxSelections="-1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="-1" collective="false"><entries/><entryGroups/><modifiers/><rules>
+        <rule id="Arc Node###DATA###" name="Arc Node"/>
+        <rule id="Field Dependent###DATA###" name="Field Dependent"><description>While its Field Generator system is crippled, this model loses the Phoenix Field ability and cannot attack with the Halo Cannon.</description></rule>
+        <rule id="Combustion (* Attack)###DATA###" name="Combustion (* Attack)"><description>Models within 2" of this model suffer a POW 12 fire damage roll and the Fire continuous effect. This model can make additional melee attacks after making this special attack.</description></rule>
+        <rule id="Phoenix Field###DATA###" name="Phoenix Field"><description>Remove d6 damage points form this model's force field after resolving continuous effects during your Maintenance Phase.</description></rule>
+        <rule id="Thermal Blade - Reach###DATA###" name="Thermal Blade - Reach"/>
+        <rule id="Thermal Blade - Continuous Effect: Fire###DATA###" name="Thermal Blade - Continuous Effect: Fire"/>
+        <rule id="Thermal Blade - Magical Weapon###DATA###" name="Thermal Blade - Magical Weapon"/>
+        <rule id="Halo Cannon - Magical Weapon###DATA###" name="Halo Cannon - Magical Weapon"/>
+        <rule id="Halo Cannon - Damage Type: Fire###DATA###" name="Halo Cannon - Damage Type: Fire"/>
+        <rule id="Halo Cannon - Critical Fire###DATA###" name="Halo Cannon - Critical Fire"/>
+        <rule id="Open Fist###DATA###" name="Open Fist"><description>Details...</description></rule>
+      </rules><profiles>
+        <profile id="Thermal Blade###DATA###" name="Thermal Blade" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="-"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="7"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="17"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="R"/>
+          </characteristics></profile>
+        <profile id="Phoenix###DATA###" name="Phoenix" profileTypeId="Myrmidon###DATA###"><characteristics>
+            <characteristic characteristicId="SPD###DATA###" name="SPD" value="6"/>
+            <characteristic characteristicId="STR###DATA###" name="STR" value="10"/>
+            <characteristic characteristicId="MAT###DATA###" name="MAT" value="6"/>
+            <characteristic characteristicId="RAT###DATA###" name="RAT" value="5"/>
+            <characteristic characteristicId="DEF###DATA###" name="DEF" value="12"/>
+            <characteristic characteristicId="ARM###DATA###" name="ARM" value="18"/>
+            <characteristic characteristicId="CMD###DATA###" name="CMD" value="-"/>
+            <characteristic characteristicId="Field Damage###DATA###" name="Field Damage" value="10"/>
+          </characteristics></profile>
+        <profile id="Open Fist###DATA###" name="Open Fist" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="-"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="3"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="13"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="L"/>
+          </characteristics></profile>
+        <profile id="Halo Cannon###DATA###" name="Halo Cannon" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="10"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="3"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="14"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="-"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Warcaster###DATA###" id="395d4532-65b5-4620-a643-ed6eed66985c" name="Ravyn, Eternal Light" points="-6.0" type="upgrade" minSelections="0" maxSelections="1" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="1" collective="false"><entries/><entryGroups/><modifiers/><rules>
+        <rule id="Feat: Fire Storm###DATA###" name="Feat: Fire Storm"><description>While in Ravyn's control area this turn, friendly Faction models gain boosted ranged attack rolls and Swift Hunter.</description></rule>
+        <rule id="Virtuoso###DATA###" name="Virtuoso"><description>This model can make melee and ranged attack during the same combat action. When this model makes its initial attacks, it can make both its initial ranged and melee attacks.</description></rule>
+        <rule id="Swift Hunter###DATA###" name="Swift Hunter"><description>When this model destroys an enemy model whit a normal ranged attack, immediately after the attack is resolved it can advance up to 2".</description></rule>
+        <rule id="Quick Work###DATA###" name="Quick Work"><description>When this model destroys one or more enemy models with a melee attack during its combat action, immediately after that attack is resolved this model can make one normal ranged attack. Attacks gained from Quick Work do not count against a weapon's ROF.</description></rule>
+        <rule id="Gunfighter###DATA###" name="Gunfighter"/>
+        <rule id="Hellebore - Blaster###DATA###" name="Hellebore - Blaster"><description>When this model makes an attack with this weapon, before the attack roll it can spend 1 focus point to give the attack a 3" AOE.</description></rule>
+        <rule id="Hellebore - Magical Weapon###DATA###" name="Hellebore - Magical Weapon"/>
+        <rule id="Blade - Thresher (* Attack)###DATA###" name="Blade - Thresher (* Attack)"><description>This model makes one melee attack with this weapon against each model in its LOS and this weapon's melee range.</description></rule>
+        <rule id="Blade - Reach###DATA###" name="Blade - Reach"/>
+        <rule id="Blade - Magical Weapon###DATA###" name="Blade - Magical Weapon"/>
+        <rule id="Vortex of Destruction###DATA###" name="Vortex of Destruction"><description>Damage rolls against enemy models in this model's melee range are automatically boosted.</description></rule>
+        <rule id="Veil of Mist###DATA###" name="Veil of Mist"><description>Place a 4" AOE cloud effect anywhere completely in this model's control area. This AOE does not block friendly Faction model's LOS. While in the AOE, friendly Faction models gain Pathfinder and can move through obstructions and other models if they have enough movement to move completely past them.</description></rule>
+        <rule id="Snipe###DATA###" name="Snipe"><description>Target friendly model's / unit's ranged weapon gain +4 RNG</description></rule>
+        <rule id="Locomotion###DATA###" name="Locomotion"><description>This model spends up to 3 focus points to cast Locomotion. Target warjack in this model's battlegroup immediately advances up to 1" for each focus point spent. A warjack can be targeted by Locomotion only once per turn.</description></rule>
+        <rule id="Eliminator###DATA###" name="Eliminator"><description>Immediately after this attack is resolved, this model can advance up to 2" for each enemy model destroyed by the attack.</description></rule>
+      </rules><profiles>
+        <profile id="Ravyn###DATA###" name="Ravyn" profileTypeId="Warcaster###DATA###"><characteristics>
+            <characteristic characteristicId="SPD###DATA###" name="SPD" value="6"/>
+            <characteristic characteristicId="STR###DATA###" name="STR" value="6"/>
+            <characteristic characteristicId="MAT###DATA###" name="MAT" value="7"/>
+            <characteristic characteristicId="RAT###DATA###" name="RAT" value="7"/>
+            <characteristic characteristicId="DEF###DATA###" name="DEF" value="15"/>
+            <characteristic characteristicId="ARM###DATA###" name="ARM" value="16"/>
+            <characteristic characteristicId="CMD###DATA###" name="CMD" value="9"/>
+            <characteristic characteristicId="Focus###DATA###" name="Focus" value="6"/>
+            <characteristic characteristicId="Damage###DATA###" name="Damage" value="16"/>
+          </characteristics></profile>
+        <profile id="Hellebore###DATA###" name="Hellebore" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="12"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="12"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="-"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+          </characteristics></profile>
+        <profile id="Blade###DATA###" name="Blade" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="-"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="7"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="13"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+          </characteristics></profile>
+        <profile id="Vortex of Destruction###DATA###" name="Vortex of Destruction" profileTypeId="Spell###DATA###"><characteristics>
+            <characteristic characteristicId="COST###DATA###" name="COST" value="2"/>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="SELF"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="-"/>
+            <characteristic characteristicId="UP###DATA###" name="UP" value="YES"/>
+            <characteristic characteristicId="OFF###DATA###" name="OFF" value="NO"/>
+          </characteristics></profile>
+        <profile id="Veil of Mist###DATA###" name="Veil of Mist" profileTypeId="Spell###DATA###"><characteristics>
+            <characteristic characteristicId="COST###DATA###" name="COST" value="3"/>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="CTRL"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="4"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="-"/>
+            <characteristic characteristicId="UP###DATA###" name="UP" value="YES"/>
+            <characteristic characteristicId="OFF###DATA###" name="OFF" value="NO"/>
+          </characteristics></profile>
+        <profile id="Snipe###DATA###" name="Snipe" profileTypeId="Spell###DATA###"><characteristics>
+            <characteristic characteristicId="COST###DATA###" name="COST" value="2"/>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="6"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="-"/>
+            <characteristic characteristicId="UP###DATA###" name="UP" value="YES"/>
+            <characteristic characteristicId="OFF###DATA###" name="OFF" value="NO"/>
+          </characteristics></profile>
+        <profile id="Locomotion###DATA###" name="Locomotion" profileTypeId="Spell###DATA###"><characteristics>
+            <characteristic characteristicId="COST###DATA###" name="COST" value="*"/>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="6"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="-"/>
+            <characteristic characteristicId="UP###DATA###" name="UP" value="NO"/>
+            <characteristic characteristicId="OFF###DATA###" name="OFF" value="NO"/>
+          </characteristics></profile>
+        <profile id="Eliminator###DATA###" name="Eliminator" profileTypeId="Spell###DATA###"><characteristics>
+            <characteristic characteristicId="COST###DATA###" name="COST" value="3"/>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="8"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="3"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="13"/>
+            <characteristic characteristicId="UP###DATA###" name="UP" value="NO"/>
+            <characteristic characteristicId="OFF###DATA###" name="OFF" value="YES"/>
+          </characteristics></profile>
+      </profiles></entry>
+    <entry categoryId="Unit###DATA###" id="631c4ea7-46d0-43b6-9411-ecc723522512" name="Stormfall Archers (04)" points="5.0" type="upgrade" minSelections="0" maxSelections="2" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="2" collective="false"><entries>
+        <entry categoryId="Unit###DATA###" id="147fd76f-545e-42f9-a623-62a44bee194b" name="Soulless Escort (WA)" points="1.0" type="upgrade" minSelections="0" maxSelections="3" minPoints="0.0" maxPoints="-1.0" minInRoster="0" maxInRoster="3" collective="false"><entries/><entryGroups/><modifiers/><rules>
+            <rule id="Tag Along###DATA###" name="Tag Along"><description>This model does not gain the abilities of the unit to which it is attached except Advance Deployment.</description></rule>
+            <rule id="Sword - Magical Weapon###DATA###" name="Sword - Magical Weapon"/>
+            <rule id="Soulless###DATA###" name="Soulless"><description>This model does not generate a soul token when it is destroyed.</description></rule>
+            <rule id="Mage Static###DATA###" name="Mage Static"><description>While this model is in formation, enemy magic attacks targeting a model in this model's unit suffer -5 RNG.</description></rule>
+            <rule id="Flank [Another model in this unit]###DATA###" name="Flank [Another model in this unit]"><description>When this model makes a melee attack against an enemy model within the melee range of a friendly model of the listed type, this model gains +2 to attack rolls and gains an additional damage die.</description></rule>
+            <rule id="Disbinding (* Action)###DATA###" name="Disbinding (* Action)"><description>Enemy upkeep spells on this model and/or its unit immediately expire.</description></rule>
+            <rule id="Attachment [Any Retribution Unit]###DATA###" name="Attachment [Any Retribution Unit]"><description>This attachment can be added to a unit of the type listed.</description></rule>
+          </rules><profiles>
+            <profile id="Soulless Escort - Sword###DATA###" name="Soulless Escort - Sword" profileTypeId="Weapon###DATA###"><characteristics>
+                <characteristic characteristicId="RNG###DATA###" name="RNG" value="-"/>
+                <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+                <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+                <characteristic characteristicId="POW###DATA###" name="POW" value="3"/>
+                <characteristic characteristicId="P+S###DATA###" name="P+S" value="9"/>
+                <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+              </characteristics></profile>
+            <profile id="Soulless Escort###DATA###" name="Soulless Escort" profileTypeId="Trooper###DATA###"><characteristics>
+                <characteristic characteristicId="SPD###DATA###" name="SPD" value="6"/>
+                <characteristic characteristicId="STR###DATA###" name="STR"/>
+                <characteristic characteristicId="MAT###DATA###" name="MAT" value="5"/>
+                <characteristic characteristicId="RAT###DATA###" name="RAT" value="3"/>
+                <characteristic characteristicId="DEF###DATA###" name="DEF" value="13"/>
+                <characteristic characteristicId="ARM###DATA###" name="ARM" value="12"/>
+                <characteristic characteristicId="CMD###DATA###" name="CMD" value="10"/>
+                <characteristic characteristicId="Damage###DATA###" name="Damage" value="1"/>
+              </characteristics></profile>
+          </profiles></entry>
+      </entries><entryGroups/><modifiers/><rules>
+        <rule id="Attack Type###DATA###" name="Attack Type"><description>Each time this model makes a normal ranged attack, choose one of the following abilities: 1) Brutal Shot: Gain an additional die on the damage roll against a model directly hit; 2) Snipe: This attack gains +4" RNG; 3) Star Strike: This attack causes no damage. Instead, on a direct hit models in the AOE suffer the Fire continuous effect.</description></rule>
+      </rules><profiles>
+        <profile id="Sword###DATA###" name="Sword" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="-"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="-"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="-"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="3"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="7"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+          </characteristics></profile>
+        <profile id="Great Bow###DATA###" name="Great Bow" profileTypeId="Weapon###DATA###"><characteristics>
+            <characteristic characteristicId="RNG###DATA###" name="RNG" value="12"/>
+            <characteristic characteristicId="ROF###DATA###" name="ROF" value="1"/>
+            <characteristic characteristicId="AOE###DATA###" name="AOE" value="3"/>
+            <characteristic characteristicId="POW###DATA###" name="POW" value="12"/>
+            <characteristic characteristicId="P+S###DATA###" name="P+S" value="-"/>
+            <characteristic characteristicId="L/R/H###DATA###" name="L/R/H" value="-"/>
+          </characteristics></profile>
+        <profile id="Stormfall Archer###DATA###" name="Stormfall Archer" profileTypeId="Trooper###DATA###"><characteristics>
+            <characteristic characteristicId="SPD###DATA###" name="SPD" value="5"/>
+            <characteristic characteristicId="STR###DATA###" name="STR" value="4"/>
+            <characteristic characteristicId="MAT###DATA###" name="MAT" value="5"/>
+            <characteristic characteristicId="RAT###DATA###" name="RAT" value="5"/>
+            <characteristic characteristicId="DEF###DATA###" name="DEF" value="13"/>
+            <characteristic characteristicId="ARM###DATA###" name="ARM" value="13"/>
+            <characteristic characteristicId="CMD###DATA###" name="CMD" value="8"/>
+            <characteristic characteristicId="Damage###DATA###" name="Damage" value="1"/>
+          </characteristics></profile>
+      </profiles></entry>
+  </entries><rules>
+    <rule id="Myrmidon Arcantrik Field###DATA###" name="Myrmidon Arcantrik Field"><description>Myrmidons have two damage tracks: a set of boxes representing their force fields and another representing their damage grids.Mark the field boxes before marking the damage grids.The G Boxes of a myrmidon'sdamage grid represent its Field Generator.Once per turn during its activation, a myrmidon can spend 1 focus point to remove d3 damage points from its field damage track unless its Field Generator is crippled.</description></rule>
+  </rules></catalogue>
