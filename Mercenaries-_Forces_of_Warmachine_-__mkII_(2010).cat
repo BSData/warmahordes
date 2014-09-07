@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5382cf4f-6e74-72c4-0e90-5366d1192ea7" revision="5" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="3" battleScribeVersion="1.14b" name="Mercenaries- Forces of Warmachine -  mkII (2010)" books="Mercenaries- Forces of Warmachine" authorName="Obiken" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5382cf4f-6e74-72c4-0e90-5366d1192ea7" revision="6" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="3" battleScribeVersion="1.14b" name="Mercenaries- Forces of Warmachine -  mkII (2010)" books="Mercenaries- Forces of Warmachine" authorName="Obiken" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="8058c02e-db92-21aa-3d1d-a2e86070623a" name="Alexia Ciannor, The Risen, &amp; Thrall Warrior" points="5.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="51">
       <entries/>
@@ -281,6 +281,74 @@
           <modifiers/>
         </link>
         <link id="c3f9247c-8055-1961-04f3-b3f8d1fa2bc4" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="57618a9b-b56c-fcee-dbda-cb0bc493cdf9" name="Bloody Bradigan" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="116">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="05e8dcac-2d9e-56bc-fdf9-52a07d8c8a91" name="Berserk" hidden="false">
+          <modifiers/>
+        </rule>
+        <rule id="97c0922a-bb3e-82c7-85b4-9992e6ac2656" name="Stumbling Drunk" hidden="false">
+          <modifiers/>
+        </rule>
+        <rule id="26a18651-1d9e-dc98-6df5-294beb97a00f" name="Wrapped Fists: Weapon Master" hidden="false" book="Warmachine Prime mkII">
+          <modifiers/>
+        </rule>
+        <rule id="dadbb1c8-b087-96e7-feae-1c8affd41147" name="Wrapped Fists: Critical Knockdown" hidden="false" book="Mercenaries - Forces of Warmachine" page="54">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="264a8dec-f69b-5582-717c-6fd93666406d" profileTypeId="54726f6f70657223232344415441232323" name="Bloody Bradigan" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="8"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="3"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="14"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="4"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="312f1c8a-e57f-9ed8-c213-27685003ec12" profileTypeId="576561706f6e23232344415441232323" name="Wrapped Fists (x2)" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="1"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="9"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="9d5351a4-13b7-42c2-8322-07ad754e82d1" targetId="400b902b-958e-5f17-8920-0df3fad42c49" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="df4c397e-7b53-1f87-6e5c-846225bcc55a" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9e81bc36-6f33-7e45-92a5-dd7ac8e67b2c" targetId="620138ec-e75c-a8a8-feb9-6b1a5455ef94" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="824281bd-3adf-9338-6761-3f543a267c86" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e87906ee-7dcb-9103-39a5-e7cff4148a3e" targetId="96d5dd34-f0ed-fb33-631b-9a81327caf31" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ae2a4848-f3fa-bff7-b5a7-7dcd1b451e0f" targetId="2bcee8cd-2274-bda3-b76b-aae0edfa68ca" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2b4aa711-1913-6a7f-a530-b869cab3afa6" targetId="df472e7f-e01b-9e08-6aa6-c93b45cffe17" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -1819,6 +1887,95 @@
         </link>
       </links>
     </entry>
+    <entry id="fb3c9758-b770-b263-4c6c-9dd9e6200218" name="Lady Aiyana &amp; Master Holt" points="4.0" categoryId="556e697423232344415441232323" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="114">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="c413001b-4b3f-e39e-fb32-17ebc25ed321" name="Master Holt: Gunfighter" hidden="false" book="Warmachine Prime mkII">
+          <modifiers/>
+        </rule>
+        <rule id="16ddf9fd-85b3-fceb-f928-ff261b05d1ef" name="Lady Aiyana: Officer" hidden="false" book="Warmachine Prime mkII">
+          <modifiers/>
+        </rule>
+        <rule id="f4f29819-4f38-abef-677d-80e567168606" name="Lady Aiyana: Magic Ability [8]" hidden="false">
+          <description>- Ayisla&apos;s Veil (* Action)
+- Kiss of Lyliss (* Attack)
+- Lurynsar&apos;s Touch (* Action)</description>
+          <modifiers/>
+        </rule>
+        <rule id="87eb695b-906f-7397-4c06-3dc3d388aaa7" name="Master Holt: Quick Draw" hidden="false" book="Mercenaries - Forces of Warmachine" page="34">
+          <modifiers/>
+        </rule>
+        <rule id="3b99e678-9557-5276-4f63-cd89f8f64179" name="Master Holt: Virtuoso" hidden="false" book="Mercenaries - Forces of Warmachine" page="34">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="7d143255-e60b-6014-cf04-99b5e4eb079a" profileTypeId="54726f6f70657223232344415441232323" name="Lady Aiyana" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="4"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="4"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="15"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="11"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="8f48c912-92f3-d6ed-46a2-a6d9dc49db03" profileTypeId="54726f6f70657223232344415441232323" name=" Master Holt" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="5"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="5"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="8"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="15"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="11"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="8ee91a5b-e279-4bbb-dafe-5043f75395e3" profileTypeId="576561706f6e23232344415441232323" name="Master Holt: Hand Cannon (x2)" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="12"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="176754ef-cb1c-fbf3-3ce5-e97ce968714a" profileTypeId="576561706f6e23232344415441232323" name="Master Holt: Gun Blades (x2)" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="8"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="b8fcf855-ba25-0612-896d-63ed9dd89415" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4603937d-3484-7e23-852d-cbed85c01fc3" targetId="620138ec-e75c-a8a8-feb9-6b1a5455ef94" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7ec0d6fe-83f8-ed32-4e35-03759ebb71a2" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f10e8332-b8b2-9f46-bdd8-8ba41d2aac0f" targetId="97f58bb9-027c-4bce-dbfa-9bda08bdf183" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="aed7dd75-df6d-194d-3fa5-fe2d547bac1b" name="Madelyn Corbeau, Ordic Courtesan" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="70">
       <entries/>
       <entryGroups/>
@@ -2360,6 +2517,116 @@
         </link>
       </links>
     </entry>
+    <entry id="a7c18b37-200e-53a1-ec93-8058f816e0be" name="Press Gangers" points="4.0" categoryId="556e697423232344415441232323" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="105">
+      <entries>
+        <entry id="2272ba52-c043-d5d6-abb0-0699201b58b3" name="Lass &amp; 5 Grunts -&gt; Lass &amp; 9 Grunts" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="b0569831-b9dd-c958-8933-f4df80c72130" name="Lass: Advance Deployment" hidden="false" book="Warmachine Prime mkII">
+          <modifiers/>
+        </rule>
+        <rule id="f0b75db6-857d-17a2-ceec-aa0734bc8365" name="Grunts: Advance Deployment" hidden="false" book="Warmachine Prime mkII">
+          <modifiers/>
+        </rule>
+        <rule id="85c24364-527d-3972-e04c-d5ca2f8369ec" name="Lass: Tough" hidden="false" book="Warmachine Prime mkII">
+          <modifiers/>
+        </rule>
+        <rule id="4f8091d4-30d0-6147-21d3-3f2854304bf0" name="Grunts: Tough" hidden="false" book="Warmachine Prime mkII">
+          <modifiers/>
+        </rule>
+        <rule id="ce59b5cd-f6f8-fd66-ea1c-b923059ca4f5" name="Lass: Officer" hidden="false" book="Warmachine Prime mkII">
+          <modifiers/>
+        </rule>
+        <rule id="950826d9-a6a4-e87d-f6a7-9e1996dac3a8" name="Lass: Gang" hidden="false" book="Mercenaries - Forces of Warmachine" page="105">
+          <modifiers/>
+        </rule>
+        <rule id="0f521f00-069a-15b7-20b5-d035fd239e3a" name="Lass: Seduction (* Action)" hidden="false" book="">
+          <modifiers/>
+        </rule>
+        <rule id="1d40aee5-9d06-efa1-0907-810967c2c935" name="Lass: Shanghai" hidden="false">
+          <modifiers/>
+        </rule>
+        <rule id="7930263a-3a47-47ad-2205-ea9f86948494" name="Grunts: Shanghai" hidden="false">
+          <modifiers/>
+        </rule>
+        <rule id="04a1b8b7-8503-02b5-9765-b3b496b0d094" name="Grunts: Gang" hidden="false" book="Mercenaries - Forces of Warmachine" page="105">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="ad40b607-7673-b3f5-cd23-be0bcf7d5731" profileTypeId="54726f6f70657223232344415441232323" name="Lass" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="5"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="12"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value=""/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="94cd14d7-af1f-cd8a-2e31-710e0afd924c" profileTypeId="576561706f6e23232344415441232323" name="Lass: Hand Weapons" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="9"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="a574402a-54cd-0286-6047-663944a29a3b" profileTypeId="54726f6f70657223232344415441232323" name="Grunts" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="5"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="12"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value=""/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="ea639d0e-4bc6-6d98-1919-78f98fac92ba" profileTypeId="576561706f6e23232344415441232323" name="Grunts: Hand Weapons" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="9"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="55fea7c2-565b-7915-f59f-810682c7c4dc" targetId="400b902b-958e-5f17-8920-0df3fad42c49" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="96b6d3b9-c5ac-e0d8-2744-1655d2a23434" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="610f75bb-8f49-2262-aa89-18503778f622" targetId="620138ec-e75c-a8a8-feb9-6b1a5455ef94" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3dc36cf8-9fcc-4aa8-6aa9-837d7b7b572d" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="262b9ec2-a6b7-a001-0cdb-8538d4380f0d" name="Reinholdt, Gobber Speculator" points="1.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="80">
       <entries/>
       <entryGroups/>
@@ -2567,6 +2834,294 @@
           <modifiers/>
         </link>
         <link id="fabe3822-98d0-ca48-8a3a-4bdd49cc26ec" targetId="fe198e38-f51b-4d1c-2051-eea9ddbdce00" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="52ff8af6-e8ba-9dc2-2025-b1a991e509ef" name="Sea Dog Crew" points="5.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="106">
+      <entries>
+        <entry id="882f8b3a-36bb-8568-fd04-a952901e1a21" name="Sea Dog Rifleman" points="1.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="108">
+          <entries>
+            <entry id="cd947eb9-5a3b-67c5-5552-1bcdd204d465" name="Additional Riflemen" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="7e15bf05-c79d-512f-ef92-44d110db5da8" name="Attachement [Sea Dog Crew]" hidden="false">
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="dbaea96e-128f-c1db-0fe7-75d1cf8e51cc" profileTypeId="54726f6f70657223232344415441232323" name="Rifleman" hidden="false" book="Mercenaries - Forces of Warmachine" page="108">
+              <characteristics>
+                <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+                <characteristic characteristicId="53545223232344415441232323" name="STR" value="5"/>
+                <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="5"/>
+                <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+                <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
+                <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="12"/>
+                <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="7"/>
+                <characteristic characteristicId="44616d61676523232344415441232323" name="Damage"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+            <profile id="364db74b-def7-148c-5440-cf67f82b5ca5" profileTypeId="576561706f6e23232344415441232323" name="Long Rifle" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="14"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="10"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+            <profile id="fc600c62-e76b-1d5b-8340-3d5c250622d7" profileTypeId="576561706f6e23232344415441232323" name="Hand Weapon" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="8"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="9a6c93ff-f226-42e5-09e0-95e8f3264ab4" targetId="a72f45ed-6bd7-cb33-4400-49e12b434fee" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="4b27016c-50f6-7a5a-1092-9efb9ed65b97" targetId="edfe05ba-7675-41f8-c5d5-25072a5adb8c" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="4a25488e-c794-9d76-8fef-a884ba9346d6" targetId="a1d81d1a-4ecc-53bc-3e7d-83d58b43a1a8" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="550ff862-7d21-177c-7c32-1a2e9979ae74" name="Leader &amp; 5 Grunts -&gt; Leader &amp; 9 Grunts" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="11f54c4b-323b-4f6a-bf43-9edc3476c4ba" name="Mr. Walls, The Quartermaster" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="110">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="5334a9ae-1008-e6a7-52a1-32e1bce51769" name="Monkey Bite" hidden="false">
+              <modifiers/>
+            </rule>
+            <rule id="fb717e6e-dc0f-a7f9-0717-46bcf88eb927" name="No Quarter" hidden="false">
+              <modifiers/>
+            </rule>
+            <rule id="913d5c92-b398-09e6-a193-ebefe4f84eba" name="Tactics: Advance Deployment" hidden="false">
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="c074f624-f326-bbae-bb26-e5f784ec69bb" profileTypeId="54726f6f70657223232344415441232323" name="Mr. Walls" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+                <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
+                <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+                <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+                <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
+                <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="12"/>
+                <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
+                <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+            <profile id="0ead7358-09d5-6247-42d1-609d804d218e" profileTypeId="576561706f6e23232344415441232323" name="Heavy Pistols (x2)" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="8"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="a4f65177-baca-fc5d-7672-5b193b5c7d7f" targetId="43190c68-0893-f7d9-ad1f-cec11538fc72" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="2b108f57-adce-a5dc-2cbe-c03c8372140b" targetId="2bcee8cd-2274-bda3-b76b-aae0edfa68ca" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="4b8850fc-9ff3-d295-aa30-086acd9c6060" targetId="d9bde7b1-fc2e-d6b9-eef3-1a07c166363f" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="1525dd39-8f08-34c4-3c6e-d24b08082e3d" targetId="edfe05ba-7675-41f8-c5d5-25072a5adb8c" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="baffd83f-1c90-f258-4a87-5b6899a2413c" profileTypeId="54726f6f70657223232344415441232323" name="Leader &amp; Grunts" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="5"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="5"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="12"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="7"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value=""/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="bb781c52-8cb0-58bb-85c5-1bb07e7165bb" profileTypeId="576561706f6e23232344415441232323" name="Pistol" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="8"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="10"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="a37f227d-88ef-5596-aa11-69ceca7b2f98" profileTypeId="576561706f6e23232344415441232323" name="Hand Weapon" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="8"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="fbe72c1b-7f0d-4c48-7d7e-410b48816418" targetId="400b902b-958e-5f17-8920-0df3fad42c49" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="924eb68d-8a22-ea4e-a82f-07b280546d17" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2230d3ae-4cfa-8f93-f59f-ff6b8fa40710" targetId="620138ec-e75c-a8a8-feb9-6b1a5455ef94" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="bb590eb1-3706-e76a-ae6f-07832d32e4c7" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a17d207a-c870-58a1-9bfe-1f11d0e301f8" targetId="d9bde7b1-fc2e-d6b9-eef3-1a07c166363f" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="44c108ae-24be-7c92-7a83-76ac9b1ec220" targetId="edfe05ba-7675-41f8-c5d5-25072a5adb8c" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="ed77ed93-b4dc-5341-6f61-b08938a674b0" name="Sea Dog Deck Gun" points="2.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="109">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="7571e315-8c10-0673-11de-815bf460521b" name="Deck Gun: Light Artillery" hidden="false">
+          <modifiers/>
+        </rule>
+        <rule id="ab74549f-60ec-b461-5ea9-28fb8ff8ed7e" name="Deck Gun: Range Finder" hidden="false">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="0460c7e7-041b-a976-7d86-7f55073d959a" profileTypeId="54726f6f70657223232344415441232323" name="Leader" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="4"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="5"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="5"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="12"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="7"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value=""/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="b25c4ec1-042b-9fa8-f263-ede79e26919c" profileTypeId="54726f6f70657223232344415441232323" name="Grunt" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="19ba4864-f8fb-fa7c-f2eb-fd7bb39bf47a" profileTypeId="4d79726d69646f6e23232344415441232323" name="Leader: Deck Gun" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD"/>
+            <characteristic characteristicId="4669656c642044616d61676523232344415441232323" name="Field Damage"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="56517035-c453-cae2-ad4d-2b50da4bba6d" profileTypeId="576561706f6e23232344415441232323" name="Leader: Hand Weapon" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="8"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="0dbc94b7-1051-973f-01f3-42b8a61d20fb" profileTypeId="576561706f6e23232344415441232323" name="Grunt: Hand Weapon" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="8"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="6e59e02b-f557-3b2b-da7f-e48c348e6230" targetId="400b902b-958e-5f17-8920-0df3fad42c49" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="51ec8be9-077a-09d8-48e7-5042e21d1bc4" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="20f9275e-301b-b320-84f1-6752c3a8538f" targetId="620138ec-e75c-a8a8-feb9-6b1a5455ef94" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="976eb750-b670-52d5-9af1-031b596f1e27" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3500cd42-096b-807a-0e8e-f5644e78ef04" targetId="d9bde7b1-fc2e-d6b9-eef3-1a07c166363f" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -2979,477 +3534,6 @@
         </link>
       </links>
     </entry>
-    <entry id="8355d5d3-e68c-f778-0f76-ae34b3e260cc" name="Vanguard" points="5.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="44">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="259ec909-2684-aa9a-7351-bc9f12dd1de5" name="Tower Shield: Shield" hidden="false" book="Warmachine Prime mkII">
-          <modifiers/>
-        </rule>
-        <rule id="ec0b8b3a-8560-c567-2cda-eea8f8af07b8" name="Guisarme: Reach" hidden="false" book="Warmachine Prime mkII">
-          <modifiers/>
-        </rule>
-        <rule id="e3876a98-d052-4f06-138c-ca3d44c6a596" name="Guisarme: Set Defence" hidden="false" book="Mercenaries - Forces of Warmachine" page="44">
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="02d02440-e618-6eb3-9c45-4c029d0ff832" profileTypeId="5761726a61636b23232344415441232323" name="Vanguard" hidden="false" book="Mercenaries - Forces of Warmachine" page="44">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="9"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="6"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="17"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value=""/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="2d5ce4fb-5186-c521-80a5-392e54ec9095" profileTypeId="576561706f6e23232344415441232323" name="Shield Gun" hidden="false" book="Mercenaries - Forces of Warmachine" page="44">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="8"/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="e95f917e-14a2-a23a-2398-4194554de52b" profileTypeId="576561706f6e23232344415441232323" name="Tower Shield" hidden="false" book="Mercenaries - Forces of Warmachine" page="44">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="1"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="10"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="5289c839-2f3d-040b-07a7-64da3b38eba4" profileTypeId="576561706f6e23232344415441232323" name="Guisarme" hidden="false" book="Mercenaries - Forces of Warmachine" page="44">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="13"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="a385f193-f96c-f73f-ae3c-acb6222d1045" targetId="50d02130-ad44-6a6d-eefd-0ee7e6d65065" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="52d52b8c-e303-1828-4ef3-f1f3b93a603c" targetId="4158ad6a-dee0-b6de-4f0f-79440d26d798" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="a7c18b37-200e-53a1-ec93-8058f816e0be" name="Press Gangers" points="4.0" categoryId="556e697423232344415441232323" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="105">
-      <entries>
-        <entry id="2272ba52-c043-d5d6-abb0-0699201b58b3" name="Lass &amp; 5 Grunts -&gt; Lass &amp; 9 Grunts" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="b0569831-b9dd-c958-8933-f4df80c72130" name="Lass: Advance Deployment" hidden="false" book="Warmachine Prime mkII">
-          <modifiers/>
-        </rule>
-        <rule id="f0b75db6-857d-17a2-ceec-aa0734bc8365" name="Grunts: Advance Deployment" hidden="false" book="Warmachine Prime mkII">
-          <modifiers/>
-        </rule>
-        <rule id="85c24364-527d-3972-e04c-d5ca2f8369ec" name="Lass: Tough" hidden="false" book="Warmachine Prime mkII">
-          <modifiers/>
-        </rule>
-        <rule id="4f8091d4-30d0-6147-21d3-3f2854304bf0" name="Grunts: Tough" hidden="false" book="Warmachine Prime mkII">
-          <modifiers/>
-        </rule>
-        <rule id="ce59b5cd-f6f8-fd66-ea1c-b923059ca4f5" name="Lass: Officer" hidden="false" book="Warmachine Prime mkII">
-          <modifiers/>
-        </rule>
-        <rule id="950826d9-a6a4-e87d-f6a7-9e1996dac3a8" name="Lass: Gang" hidden="false" book="Mercenaries - Forces of Warmachine" page="105">
-          <description></description>
-          <modifiers/>
-        </rule>
-        <rule id="0f521f00-069a-15b7-20b5-d035fd239e3a" name="Lass: Seduction (* Action)" hidden="false" book="">
-          <modifiers/>
-        </rule>
-        <rule id="1d40aee5-9d06-efa1-0907-810967c2c935" name="Lass: Shanghai" hidden="false">
-          <modifiers/>
-        </rule>
-        <rule id="7930263a-3a47-47ad-2205-ea9f86948494" name="Grunts: Shanghai" hidden="false">
-          <modifiers/>
-        </rule>
-        <rule id="04a1b8b7-8503-02b5-9765-b3b496b0d094" name="Grunts: Gang" hidden="false" book="Mercenaries - Forces of Warmachine" page="105">
-          <description></description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="ad40b607-7673-b3f5-cd23-be0bcf7d5731" profileTypeId="54726f6f70657223232344415441232323" name="Lass" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="5"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="12"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
-            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value=""/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="94cd14d7-af1f-cd8a-2e31-710e0afd924c" profileTypeId="576561706f6e23232344415441232323" name="Lass: Hand Weapons" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="9"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="a574402a-54cd-0286-6047-663944a29a3b" profileTypeId="54726f6f70657223232344415441232323" name="Grunts" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="5"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="12"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
-            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value=""/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="ea639d0e-4bc6-6d98-1919-78f98fac92ba" profileTypeId="576561706f6e23232344415441232323" name="Grunts: Hand Weapons" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="9"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="55fea7c2-565b-7915-f59f-810682c7c4dc" targetId="400b902b-958e-5f17-8920-0df3fad42c49" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="96b6d3b9-c5ac-e0d8-2744-1655d2a23434" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="610f75bb-8f49-2262-aa89-18503778f622" targetId="620138ec-e75c-a8a8-feb9-6b1a5455ef94" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="3dc36cf8-9fcc-4aa8-6aa9-837d7b7b572d" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="52ff8af6-e8ba-9dc2-2025-b1a991e509ef" name="Sea Dog Crew" points="5.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="106">
-      <entries>
-        <entry id="882f8b3a-36bb-8568-fd04-a952901e1a21" name="Sea Dog Rifleman" points="1.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="108">
-          <entries>
-            <entry id="cd947eb9-5a3b-67c5-5552-1bcdd204d465" name="Additional Riflemen" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <rules>
-            <rule id="7e15bf05-c79d-512f-ef92-44d110db5da8" name="Attachement [Sea Dog Crew]" hidden="false">
-              <modifiers/>
-            </rule>
-          </rules>
-          <profiles>
-            <profile id="dbaea96e-128f-c1db-0fe7-75d1cf8e51cc" profileTypeId="54726f6f70657223232344415441232323" name="Rifleman" hidden="false" book="Mercenaries - Forces of Warmachine" page="108">
-              <characteristics>
-                <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
-                <characteristic characteristicId="53545223232344415441232323" name="STR" value="5"/>
-                <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="5"/>
-                <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
-                <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
-                <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="12"/>
-                <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="7"/>
-                <characteristic characteristicId="44616d61676523232344415441232323" name="Damage"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-            <profile id="364db74b-def7-148c-5440-cf67f82b5ca5" profileTypeId="576561706f6e23232344415441232323" name="Long Rifle" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="14"/>
-                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
-                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="10"/>
-                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
-                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-            <profile id="fc600c62-e76b-1d5b-8340-3d5c250622d7" profileTypeId="576561706f6e23232344415441232323" name="Hand Weapon" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
-                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="8"/>
-                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links>
-            <link id="9a6c93ff-f226-42e5-09e0-95e8f3264ab4" targetId="a72f45ed-6bd7-cb33-4400-49e12b434fee" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="4b27016c-50f6-7a5a-1092-9efb9ed65b97" targetId="edfe05ba-7675-41f8-c5d5-25072a5adb8c" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="4a25488e-c794-9d76-8fef-a884ba9346d6" targetId="a1d81d1a-4ecc-53bc-3e7d-83d58b43a1a8" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="550ff862-7d21-177c-7c32-1a2e9979ae74" name="Leader &amp; 5 Grunts -&gt; Leader &amp; 9 Grunts" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
-        <entry id="11f54c4b-323b-4f6a-bf43-9edc3476c4ba" name="Mr. Walls, The Quartermaster" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="110">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules>
-            <rule id="5334a9ae-1008-e6a7-52a1-32e1bce51769" name="Monkey Bite" hidden="false">
-              <modifiers/>
-            </rule>
-            <rule id="fb717e6e-dc0f-a7f9-0717-46bcf88eb927" name="No Quarter" hidden="false">
-              <modifiers/>
-            </rule>
-            <rule id="913d5c92-b398-09e6-a193-ebefe4f84eba" name="Tactics: Advance Deployment" hidden="false">
-              <modifiers/>
-            </rule>
-          </rules>
-          <profiles>
-            <profile id="c074f624-f326-bbae-bb26-e5f784ec69bb" profileTypeId="54726f6f70657223232344415441232323" name="Mr. Walls" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
-                <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
-                <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
-                <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
-                <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
-                <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="12"/>
-                <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
-                <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-            <profile id="0ead7358-09d5-6247-42d1-609d804d218e" profileTypeId="576561706f6e23232344415441232323" name="Heavy Pistols (x2)" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="8"/>
-                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
-                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
-                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
-                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links>
-            <link id="a4f65177-baca-fc5d-7672-5b193b5c7d7f" targetId="43190c68-0893-f7d9-ad1f-cec11538fc72" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="2b108f57-adce-a5dc-2cbe-c03c8372140b" targetId="2bcee8cd-2274-bda3-b76b-aae0edfa68ca" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="4b8850fc-9ff3-d295-aa30-086acd9c6060" targetId="d9bde7b1-fc2e-d6b9-eef3-1a07c166363f" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="1525dd39-8f08-34c4-3c6e-d24b08082e3d" targetId="edfe05ba-7675-41f8-c5d5-25072a5adb8c" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="baffd83f-1c90-f258-4a87-5b6899a2413c" profileTypeId="54726f6f70657223232344415441232323" name="Leader &amp; Grunts" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="5"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="5"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="12"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="7"/>
-            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value=""/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="bb781c52-8cb0-58bb-85c5-1bb07e7165bb" profileTypeId="576561706f6e23232344415441232323" name="Pistol" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="8"/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="10"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="a37f227d-88ef-5596-aa11-69ceca7b2f98" profileTypeId="576561706f6e23232344415441232323" name="Hand Weapon" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="8"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="fbe72c1b-7f0d-4c48-7d7e-410b48816418" targetId="400b902b-958e-5f17-8920-0df3fad42c49" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="924eb68d-8a22-ea4e-a82f-07b280546d17" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="2230d3ae-4cfa-8f93-f59f-ff6b8fa40710" targetId="620138ec-e75c-a8a8-feb9-6b1a5455ef94" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="bb590eb1-3706-e76a-ae6f-07832d32e4c7" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="a17d207a-c870-58a1-9bfe-1f11d0e301f8" targetId="d9bde7b1-fc2e-d6b9-eef3-1a07c166363f" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="44c108ae-24be-7c92-7a83-76ac9b1ec220" targetId="edfe05ba-7675-41f8-c5d5-25072a5adb8c" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="ed77ed93-b4dc-5341-6f61-b08938a674b0" name="Sea Dog Deck Gun" points="2.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="109">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="7571e315-8c10-0673-11de-815bf460521b" name="Deck Gun: Light Artillery" hidden="false">
-          <modifiers/>
-        </rule>
-        <rule id="ab74549f-60ec-b461-5ea9-28fb8ff8ed7e" name="Deck Gun: Range Finder" hidden="false">
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="0460c7e7-041b-a976-7d86-7f55073d959a" profileTypeId="54726f6f70657223232344415441232323" name="Leader" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="4"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="5"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="5"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="12"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="7"/>
-            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value=""/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="b25c4ec1-042b-9fa8-f263-ede79e26919c" profileTypeId="54726f6f70657223232344415441232323" name="Grunt" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD"/>
-            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="19ba4864-f8fb-fa7c-f2eb-fd7bb39bf47a" profileTypeId="4d79726d69646f6e23232344415441232323" name="Leader: Deck Gun" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD"/>
-            <characteristic characteristicId="4669656c642044616d61676523232344415441232323" name="Field Damage"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="56517035-c453-cae2-ad4d-2b50da4bba6d" profileTypeId="576561706f6e23232344415441232323" name="Leader: Hand Weapon" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="8"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="0dbc94b7-1051-973f-01f3-42b8a61d20fb" profileTypeId="576561706f6e23232344415441232323" name="Grunt: Hand Weapon" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="8"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="6e59e02b-f557-3b2b-da7f-e48c348e6230" targetId="400b902b-958e-5f17-8920-0df3fad42c49" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="51ec8be9-077a-09d8-48e7-5042e21d1bc4" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="20f9275e-301b-b320-84f1-6752c3a8538f" targetId="620138ec-e75c-a8a8-feb9-6b1a5455ef94" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="976eb750-b670-52d5-9af1-031b596f1e27" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="3500cd42-096b-807a-0e8e-f5644e78ef04" targetId="d9bde7b1-fc2e-d6b9-eef3-1a07c166363f" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
     <entry id="eea53855-8d06-300c-eade-825d161c20ed" name="The Commodore Cannon &amp; Crew" points="4.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="112">
       <entries/>
       <entryGroups/>
@@ -3478,7 +3562,6 @@
           <modifiers/>
         </rule>
         <rule id="01da568a-0fbf-3437-8095-6455ab08504f" name="Commodore: Heavy Artillery" hidden="false" book="Mercenaries - Forces of Warmachine" page="112">
-          <description></description>
           <modifiers/>
         </rule>
         <rule id="6bee7366-a43c-6bbb-2a0f-a417b984fa30" name="Cannon: Ammo Type" hidden="false">
@@ -3551,60 +3634,182 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="fb3c9758-b770-b263-4c6c-9dd9e6200218" name="Lady Aiyana &amp; Master Holt" points="4.0" categoryId="556e697423232344415441232323" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="114">
+    <entry id="8355d5d3-e68c-f778-0f76-ae34b3e260cc" name="Vanguard" points="5.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="44">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules>
-        <rule id="c413001b-4b3f-e39e-fb32-17ebc25ed321" name="Master Holt: Gunfighter" hidden="false" book="Warmachine Prime mkII">
+        <rule id="259ec909-2684-aa9a-7351-bc9f12dd1de5" name="Tower Shield: Shield" hidden="false" book="Warmachine Prime mkII">
           <modifiers/>
         </rule>
-        <rule id="16ddf9fd-85b3-fceb-f928-ff261b05d1ef" name="Lady Aiyana: Officer" hidden="false" book="Warmachine Prime mkII">
+        <rule id="ec0b8b3a-8560-c567-2cda-eea8f8af07b8" name="Guisarme: Reach" hidden="false" book="Warmachine Prime mkII">
           <modifiers/>
         </rule>
-        <rule id="f4f29819-4f38-abef-677d-80e567168606" name="Lady Aiyana: Magic Ability [8]" hidden="false">
-          <description>- Ayisla&apos;s Veil (* Action)
-- Kiss of Lyliss (* Attack)
-- Lurynsar&apos;s Touch (* Action)</description>
-          <modifiers/>
-        </rule>
-        <rule id="87eb695b-906f-7397-4c06-3dc3d388aaa7" name="Master Holt: Quick Draw" hidden="false" book="Mercenaries - Forces of Warmachine" page="34">
-          <modifiers/>
-        </rule>
-        <rule id="3b99e678-9557-5276-4f63-cd89f8f64179" name="Master Holt: Virtuoso" hidden="false" book="Mercenaries - Forces of Warmachine" page="34">
+        <rule id="e3876a98-d052-4f06-138c-ca3d44c6a596" name="Guisarme: Set Defence" hidden="false" book="Mercenaries - Forces of Warmachine" page="44">
           <modifiers/>
         </rule>
       </rules>
       <profiles>
-        <profile id="7d143255-e60b-6014-cf04-99b5e4eb079a" profileTypeId="54726f6f70657223232344415441232323" name="Lady Aiyana" hidden="false">
+        <profile id="02d02440-e618-6eb3-9c45-4c029d0ff832" profileTypeId="5761726a61636b23232344415441232323" name="Vanguard" hidden="false" book="Mercenaries - Forces of Warmachine" page="44">
           <characteristics>
             <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="4"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="4"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="15"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="11"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
-            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="9"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="6"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="17"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value=""/>
           </characteristics>
           <modifiers/>
         </profile>
-        <profile id="8f48c912-92f3-d6ed-46a2-a6d9dc49db03" profileTypeId="54726f6f70657223232344415441232323" name=" Master Holt" hidden="false">
+        <profile id="2d5ce4fb-5186-c521-80a5-392e54ec9095" profileTypeId="576561706f6e23232344415441232323" name="Shield Gun" hidden="false" book="Mercenaries - Forces of Warmachine" page="44">
           <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="5"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="5"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="8"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="15"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="11"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="8"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="e95f917e-14a2-a23a-2398-4194554de52b" profileTypeId="576561706f6e23232344415441232323" name="Tower Shield" hidden="false" book="Mercenaries - Forces of Warmachine" page="44">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="1"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="10"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="5289c839-2f3d-040b-07a7-64da3b38eba4" profileTypeId="576561706f6e23232344415441232323" name="Guisarme" hidden="false" book="Mercenaries - Forces of Warmachine" page="44">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="13"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="a385f193-f96c-f73f-ae3c-acb6222d1045" targetId="50d02130-ad44-6a6d-eefd-0ee7e6d65065" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="52d52b8c-e303-1828-4ef3-f1f3b93a603c" targetId="4158ad6a-dee0-b6de-4f0f-79440d26d798" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="302ba464-efaf-dc16-8970-c6f66aa94915" name="Bosun Grogspar" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="118">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="e7635d66-6ecb-cb67-5ede-038a9b913bf7" name="No Sleepin on the Job" hidden="false">
+          <modifiers/>
+        </rule>
+        <rule id="09b70af5-4697-d345-fd2a-feda65ed13f0" name="Giant Hook: Pitch" hidden="false" book="Mercenaries - Forces of Warmachine" page="118">
+          <description></description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="caf12ff3-5722-f345-6d90-fec74ab2a273" profileTypeId="54726f6f70657223232344415441232323" name="Bosun Grogspar" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="8"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="15"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="c95b9042-69ff-9e82-2edf-2924e3ca5e15" profileTypeId="576561706f6e23232344415441232323" name="Harpoon Gun" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="10"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="3"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="7a3a4e3e-6280-b7af-204c-bc7f0e6a8415" profileTypeId="576561706f6e23232344415441232323" name="Giant Hook" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="12"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="b5dbe86a-e51a-8b56-f4fe-1b753a65d980" targetId="400b902b-958e-5f17-8920-0df3fad42c49" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="039d2e73-89da-5b68-c008-fbdabef879cf" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="593f1f87-f597-1079-57f7-1719d6234063" targetId="620138ec-e75c-a8a8-feb9-6b1a5455ef94" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4bce5b3a-6eae-319b-a67e-c83a12a21f39" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c3c90bc6-0b8b-9082-6ab2-e0a90a2c48c9" targetId="1abe39ec-9a1b-3cd1-ea3a-f4623024026f" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8c7a89ae-c324-8a40-a8e4-05058da5427f" targetId="2bcee8cd-2274-bda3-b76b-aae0edfa68ca" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="7c9aa71e-7da7-e3cc-81a9-7e773d4f9f21" name="Dirty Meg" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="120">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="424760f7-2b43-928f-9885-aafc77b4dc8c" name="Drive: Off Road" hidden="false" book="Mercenaries - Forces of Warmachine" page="120">
+          <description></description>
+          <modifiers/>
+        </rule>
+        <rule id="be5bdc94-22cc-5479-3fea-90bf638b2311" name="Repair[8] (* Action)" hidden="false" book="Mercenaries - Forces of Warmachine" page="120">
+          <description></description>
+          <modifiers/>
+        </rule>
+        <rule id="636c54b8-de44-08ac-02f3-76d7343a4869" name="Junker: Stall" hidden="false" book="Mercenaries - Forces of Warmachine" page="43">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="f86cd9ea-42f5-d3c4-e22c-46cbcadeec6d" profileTypeId="54726f6f70657223232344415441232323" name="Dirty Meg" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="13"/>
             <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
             <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
           </characteristics>
           <modifiers/>
         </profile>
-        <profile id="8ee91a5b-e279-4bbb-dafe-5043f75395e3" profileTypeId="576561706f6e23232344415441232323" name="Master Holt: Hand Cannon (x2)" hidden="false">
+        <profile id="e08863b7-7702-6529-e523-d3b18f88fc34" profileTypeId="576561706f6e23232344415441232323" name="Junker" hidden="false">
           <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="12"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="10"/>
             <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
             <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
             <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
@@ -3613,71 +3818,12 @@
           </characteristics>
           <modifiers/>
         </profile>
-        <profile id="176754ef-cb1c-fbf3-3ce5-e97ce968714a" profileTypeId="576561706f6e23232344415441232323" name="Master Holt: Gun Blades (x2)" hidden="false">
+        <profile id="535b112b-7591-975d-b738-42afdfb5be79" profileTypeId="576561706f6e23232344415441232323" name="Great Wrench" hidden="false">
           <characteristics>
             <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
             <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
             <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
             <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="8"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="b8fcf855-ba25-0612-896d-63ed9dd89415" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="4603937d-3484-7e23-852d-cbed85c01fc3" targetId="620138ec-e75c-a8a8-feb9-6b1a5455ef94" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="7ec0d6fe-83f8-ed32-4e35-03759ebb71a2" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="f10e8332-b8b2-9f46-bdd8-8ba41d2aac0f" targetId="97f58bb9-027c-4bce-dbfa-9bda08bdf183" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="57618a9b-b56c-fcee-dbda-cb0bc493cdf9" name="Bloody Bradigan" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="116">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="05e8dcac-2d9e-56bc-fdf9-52a07d8c8a91" name="Berserk" hidden="false">
-          <modifiers/>
-        </rule>
-        <rule id="97c0922a-bb3e-82c7-85b4-9992e6ac2656" name="Stumbling Drunk" hidden="false">
-          <modifiers/>
-        </rule>
-        <rule id="26a18651-1d9e-dc98-6df5-294beb97a00f" name="Wrapped Fists: Weapon Master" hidden="false" book="Warmachine Prime mkII">
-          <modifiers/>
-        </rule>
-        <rule id="dadbb1c8-b087-96e7-feae-1c8affd41147" name="Wrapped Fists: Critical Knockdown" hidden="false" book="Mercenaries - Forces of Warmachine" page="54">
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="264a8dec-f69b-5582-717c-6fd93666406d" profileTypeId="54726f6f70657223232344415441232323" name="Bloody Bradigan" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="8"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="3"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="14"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="4"/>
-            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="312f1c8a-e57f-9ed8-c213-27685003ec12" profileTypeId="576561706f6e23232344415441232323" name="Wrapped Fists (x2)" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="1"/>
             <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="9"/>
             <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
           </characteristics>
@@ -3685,28 +3831,351 @@
         </profile>
       </profiles>
       <links>
-        <link id="9d5351a4-13b7-42c2-8322-07ad754e82d1" targetId="400b902b-958e-5f17-8920-0df3fad42c49" linkType="rule">
+        <link id="76a005fd-bbd9-f547-93b7-5c9986010a0d" targetId="620138ec-e75c-a8a8-feb9-6b1a5455ef94" linkType="rule">
           <modifiers/>
         </link>
-        <link id="df4c397e-7b53-1f87-6e5c-846225bcc55a" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
+        <link id="fd235315-f87e-851a-4d2c-5b009ff4ec99" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
           <modifiers/>
         </link>
-        <link id="9e81bc36-6f33-7e45-92a5-dd7ac8e67b2c" targetId="620138ec-e75c-a8a8-feb9-6b1a5455ef94" linkType="rule">
+        <link id="50524790-9d97-e0a1-3dc9-29b051b84dca" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
           <modifiers/>
         </link>
-        <link id="824281bd-3adf-9338-6761-3f543a267c86" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
+        <link id="47d8b72a-4d6f-d80e-8721-bded06854f5a" targetId="d485f991-df61-4cad-0d14-ab2aa75bb361" linkType="rule">
           <modifiers/>
         </link>
-        <link id="e87906ee-7dcb-9103-39a5-e7cff4148a3e" targetId="96d5dd34-f0ed-fb33-631b-9a81327caf31" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="ae2a4848-f3fa-bff7-b5a7-7dcd1b451e0f" targetId="2bcee8cd-2274-bda3-b76b-aae0edfa68ca" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="2b4aa711-1913-6a7f-a530-b869cab3afa6" targetId="df472e7f-e01b-9e08-6aa6-c93b45cffe17" linkType="rule">
+        <link id="0befe4e8-bb8d-92b6-380e-9b5a9b6db6f3" targetId="2bcee8cd-2274-bda3-b76b-aae0edfa68ca" linkType="rule">
           <modifiers/>
         </link>
       </links>
+    </entry>
+    <entry id="ba76d09a-a0ee-9164-4095-2d78cad3ed7e" name="Doc Killingsworth" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="122">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="a8c79458-cf8d-e4de-5e44-d7d17015ee1b" name="No, I&apos;m Fine" hidden="false">
+          <modifiers/>
+        </rule>
+        <rule id="19fec444-3e55-98f3-7c69-839ee7d437ec" name="Surgery (* Action)" hidden="false">
+          <modifiers/>
+        </rule>
+        <rule id="e3068fa8-b1e0-bc32-2aae-e6d922c4839a" name="Dirty Throwing Knives: Poison" hidden="false" book="Mercenaries - Forces of Warmachine" page="58">
+          <modifiers/>
+        </rule>
+        <rule id="9ce18155-a17f-fc93-82ba-89154aee47aa" name="Dirty Throwing Knives: Thrown" hidden="false" book="Mercenaries - Forces of Warmachine" page="66">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="ed181398-e7be-d3dc-6a94-4b0fa4416bd0" profileTypeId="54726f6f70657223232344415441232323" name="Doc Killingsworth" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="7"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="12"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="13"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="7"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="4f83121e-e0ff-e56a-5b00-3a434f1b4214" profileTypeId="576561706f6e23232344415441232323" name="Dirty Throwing Knives" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="2"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="5dafba66-103e-4a7e-60d9-046f8812682f" profileTypeId="576561706f6e23232344415441232323" name="Meat Cleaver" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="11"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="7571c21d-8662-42b0-2bd4-935d244f44f9" targetId="400b902b-958e-5f17-8920-0df3fad42c49" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4cd91bd4-0b4a-b9ba-ecf6-0d2e65f57d1f" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3e7661aa-5a42-450a-4745-eb52fbcc44e2" targetId="620138ec-e75c-a8a8-feb9-6b1a5455ef94" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="372c23bc-d726-1b1e-5004-c214ff24f07c" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="075f65e6-22b1-248c-76c8-e0faac89853e" targetId="2bcee8cd-2274-bda3-b76b-aae0edfa68ca" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b4aa329b-5bbe-a88c-5580-bec9d3e164ae" targetId="5d5b3f7c-b8cc-81d1-4076-eabafbc081f0" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="a983f35b-f70f-4a8c-6acf-701bb5d96f33" name="First Mate Hawk" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="124">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="62b520d6-046e-3e47-cc1e-e90bc2238ddf" name="Inspiration [Sea Dogs]" hidden="false" book="Mercenaries - Forces of Warmachine" page="124">
+          <description></description>
+          <modifiers/>
+        </rule>
+        <rule id="d5be31ac-405e-7c24-7a69-80c15916888c" name="Object of Desire" hidden="false">
+          <modifiers/>
+        </rule>
+        <rule id="7c40a265-b66b-c65e-4d04-458a79dc806f" name="Cutlass: Weapon Master" hidden="false" book="Warmachine Prime mkII">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="d3b8e578-dac4-dea3-af40-a513ced4ecd9" profileTypeId="54726f6f70657223232344415441232323" name="Hawk" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="7"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="5"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="15"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="13"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="c54703b5-f3b7-37e1-c7a9-98dcd4245ff2" profileTypeId="576561706f6e23232344415441232323" name="Cutlass (x2)" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="9"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="cae251ff-5033-ceb0-c274-c077e1d6ac50" targetId="400b902b-958e-5f17-8920-0df3fad42c49" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a5ce0b94-47e5-ce97-0cd0-a5a6cc5ea58c" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="97c169cc-7de7-71ff-5f44-c33c51cf82ae" targetId="620138ec-e75c-a8a8-feb9-6b1a5455ef94" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6a6d0c95-f322-0525-2a46-545648d8f1ae" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="61882dfd-1b7d-5f4b-009f-d65699ca9c6b" targetId="1abe39ec-9a1b-3cd1-ea3a-f4623024026f" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8a54824c-5a1a-c8ec-f707-1bb9d9408219" targetId="2bcee8cd-2274-bda3-b76b-aae0edfa68ca" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b57da019-2f43-f724-8965-6dfdd06cfe23" targetId="e302df5b-0331-d4fa-50d1-f5c890076c02" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9302877d-ae04-58a0-e93e-2f8947e332a6" targetId="48272ed3-828b-3003-5a54-ef50d72c746d" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="49645651-56aa-5761-88e2-1e9eef1700cc" name="Lord Rockbottom, Expedition Financier" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="126">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="c3cb346e-9b04-08ba-0a07-fe1ae148efdd" name="Rockbottom&apos;s Coins: 5" hidden="false">
+          <modifiers/>
+        </rule>
+        <rule id="8c900c03-6aca-a81c-76a0-569ee10f8c06" name="Bought Loyalty" hidden="false">
+          <modifiers/>
+        </rule>
+        <rule id="bf149e39-b99a-6a5f-98e8-4734a90c4a1c" name="Coin" hidden="false">
+          <modifiers/>
+        </rule>
+        <rule id="de0bb81b-a5b5-0349-df28-8675ded13a50" name="Paymaster" hidden="false">
+          <description>- Money Shot
+- Payday
+- Walk It Off</description>
+          <modifiers/>
+        </rule>
+        <rule id="f154ffff-1d08-ab6e-5a11-908e916c084b" name="Fire Breather: Continous Effect: Fire" hidden="false" book="Warmachine Prime mk II">
+          <modifiers/>
+        </rule>
+        <rule id="d5084cf4-fb40-cf8b-759c-59f03e93cce0" name="Fire Breather: Damage Type: Fire" hidden="false" book="Warmachine Prime mkII">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="6bd6ffb6-18df-0405-f410-c7c8a97829f3" profileTypeId="54726f6f70657223232344415441232323" name="Lord Rockbottom, Expedition Financier" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="4"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="6"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="12"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="14"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="6"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="534a3cb0-8a4b-3588-56b3-8928e57c7aaf" profileTypeId="576561706f6e23232344415441232323" name="Fire Breather" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SP 8"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="636b435c-4ab6-1293-6e95-397009b20370" profileTypeId="576561706f6e23232344415441232323" name="Cutlass" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="10"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="13f1b75f-1e8f-afa3-1f41-cafce36f2a0b" targetId="400b902b-958e-5f17-8920-0df3fad42c49" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="faf57cf3-58a6-d0e5-ca84-367926651c74" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="93edfcdf-1503-0c4a-e268-0a7128290b32" targetId="620138ec-e75c-a8a8-feb9-6b1a5455ef94" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="26e763e2-cffc-5182-9c0b-a2189a119196" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="97759f3b-abb9-a57f-11c3-886c17f06220" targetId="2bcee8cd-2274-bda3-b76b-aae0edfa68ca" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="45148ce7-9bbe-eb73-e021-711b9ee17dfe" name="Master Gunner Dougal MacNaile" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="128">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="392b1ecd-3de7-d4bb-ed92-253d1735c62f" name="Quad Iron: Multi-Fire (* Attack)" hidden="false" book="Mercenaries - Forces of Warmachine" page="86">
+          <modifiers/>
+        </rule>
+        <rule id="a11cc47a-589c-516b-f117-2b06e3703082" name="Grenade: Cumbersome" hidden="false" book="Mercenaries - Forces of Warmachine" page="128">
+          <description></description>
+          <modifiers/>
+        </rule>
+        <rule id="3d5d7d26-fd9e-94e1-c300-52d4171180ec" name="Double Powder Ration" hidden="false">
+          <modifiers/>
+        </rule>
+        <rule id="b622876e-31ad-fa89-00f8-af0e7d73dcce" name="Field Officer [Sea Dog Deck Gun Crew]" hidden="false">
+          <modifiers/>
+        </rule>
+        <rule id="d6d0afe6-f20f-9b45-37c9-58ae528b9e67" name="Hit the Deck!" hidden="false">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="cc3cb047-59ba-fb94-b0f4-22ea59b2d14f" profileTypeId="54726f6f70657223232344415441232323" name="Master Gunner Dougal MacNaile" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="5"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="7"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="14"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="13"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="8ba87f4d-898d-6452-1eb8-65ad590be471" profileTypeId="576561706f6e23232344415441232323" name="Grenade" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="3"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="4ef06057-c5b1-bba3-2afa-88662471212f" profileTypeId="576561706f6e23232344415441232323" name="Quad Iron" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="10"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="10"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="f8c7722e-bdf3-2b58-7cdc-b1f95ef13cf2" profileTypeId="576561706f6e23232344415441232323" name="Cutlass" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="9"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="dde616c2-e858-f19f-e56f-1845ba7d62ad" targetId="400b902b-958e-5f17-8920-0df3fad42c49" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f2784947-7931-0c30-1ff7-35f58ce4c7bb" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7518b852-790d-1a2d-19b7-ca6c26471b70" targetId="620138ec-e75c-a8a8-feb9-6b1a5455ef94" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="deb668e7-0b66-1ea4-deaf-f7a862713aa6" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7e19cf30-2310-8b6c-3418-4a823f320b86" targetId="1abe39ec-9a1b-3cd1-ea3a-f4623024026f" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b385ee5b-7df2-c8f4-993d-51a525cd69e3" targetId="2bcee8cd-2274-bda3-b76b-aae0edfa68ca" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4b5bef2f-7295-9715-056c-cd6416ae6997" targetId="f4d761fa-11cc-0dbb-8814-13fe337094da" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="9ec452e1-1ee5-ee51-e520-1ac0157a2d4d" name="New Entry" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
     </entry>
   </entries>
   <rules/>
@@ -3789,6 +4258,9 @@
     <rule id="1abe39ec-9a1b-3cd1-ea3a-f4623024026f" name="Commander" hidden="false" book="Warmachine Prime mkII">
       <modifiers/>
     </rule>
+    <rule id="f5eca188-0c78-0183-50d1-4ff2baa25fab" name="Construct" hidden="false" book="Warmachine Prime mkII">
+      <modifiers/>
+    </rule>
     <rule id="e54182e1-ce0b-cb6f-f54a-23595ae98d20" name="Critical Devastation" hidden="false" book="Mercenaries - Forces of Warmachine" page="46">
       <modifiers/>
     </rule>
@@ -3825,6 +4297,9 @@
     <rule id="d9214b3b-a77a-fc26-a692-a75b12a9136e" name="Flank []" hidden="false" book="Mercenaries - Forces of Warmachine" page="84">
       <modifiers/>
     </rule>
+    <rule id="d9bde7b1-fc2e-d6b9-eef3-1a07c166363f" name="Gang" hidden="false" book="Mercenaries - Forces of Warmachine" page="105">
+      <modifiers/>
+    </rule>
     <rule id="df472e7f-e01b-9e08-6aa6-c93b45cffe17" name="Gang Fighter" hidden="false" book="Mercenaries - Forces of Warmachine" page="36">
       <modifiers/>
     </rule>
@@ -3838,6 +4313,9 @@
       <modifiers/>
     </rule>
     <rule id="0bdd1f37-95e2-11ad-334f-ae603a868a24" name="Heavy" hidden="false" book="Mercenaries - Forces of Warmachine" page="60">
+      <modifiers/>
+    </rule>
+    <rule id="81cb9f23-b0f8-0281-5ed4-97f9dd018848" name="Heavy Artillery" hidden="false" book="Mercenaries - Forces of Warmachine" page="112">
       <modifiers/>
     </rule>
     <rule id="fb1a9703-d9ee-2586-a59f-d2dd4e0b509c" name="Hunter" hidden="false" book="Mercenaries - Forces of Warmachine" page="62">
@@ -3862,6 +4340,9 @@
       <modifiers/>
     </rule>
     <rule id="8ee33815-291e-3902-b153-2f6802af64df" name="Lash" hidden="false" book="Mercenaries - Forces of Warmachine" page="103">
+      <modifiers/>
+    </rule>
+    <rule id="4b21cfe1-b9f8-555d-fd75-98b9d1b1aa12" name="Light Artillery" hidden="false">
       <modifiers/>
     </rule>
     <rule id="ecb4e0f7-050c-5f26-812f-6b1fd341668a" name="Loader" hidden="false" book="Mercenaries - Forces of Warmachine" page="104">
@@ -3913,6 +4394,9 @@
       <modifiers/>
     </rule>
     <rule id="052e99e9-4d49-0010-76c1-fdf68b96ed66" name="Pathfinder" hidden="false" book="Warmachine Prime mkII">
+      <modifiers/>
+    </rule>
+    <rule id="edfe05ba-7675-41f8-c5d5-25072a5adb8c" name="Point Blank" hidden="false" book="Mercenaries - Forces of Warmachine" page="106">
       <modifiers/>
     </rule>
     <rule id="d70137e8-554f-c4d0-125e-aaf341018675" name="Poison" hidden="false" book="Mercenaries - Forces of Warmachine" page="58">
@@ -3984,6 +4468,9 @@
     <rule id="ee55069e-290b-48c7-50ce-14a54d18da29" name="Take Down" hidden="false" book="Mercenaries - Forces of Warmachine" page="54">
       <modifiers/>
     </rule>
+    <rule id="a1d81d1a-4ecc-53bc-3e7d-83d58b43a1a8" name="Take Up" hidden="false" book="Mercenaries - Forces of Warmachine" page="108">
+      <modifiers/>
+    </rule>
     <rule id="579ab18e-eb22-6aae-f01d-28868792128f" name="Thresher (* Attack)" hidden="false" book="Mercenaries - Forces of Warmachine" page="45">
       <modifiers/>
     </rule>
@@ -4011,26 +4498,44 @@
     <rule id="6b49fd32-7ec7-56db-2429-b3ed7592ca45" name="Weapon Master" hidden="false" book="Warmachine Prime mkII">
       <modifiers/>
     </rule>
-    <rule id="d9bde7b1-fc2e-d6b9-eef3-1a07c166363f" name="Gang" hidden="false" book="Mercenaries - Forces of Warmachine" page="105">
+    <rule id="06763b96-e7fe-7393-a080-e44f5d3989a8" name="Pitch" hidden="false" book="Mercenaries - Forces of Warmachine" page="118">
       <description></description>
       <modifiers/>
     </rule>
-    <rule id="edfe05ba-7675-41f8-c5d5-25072a5adb8c" name="Point Blank" hidden="false" book="Mercenaries - Forces of Warmachine" page="106">
+    <rule id="2301693f-d6d3-f0a8-4f3f-db8ff0c13e81" name="Drive: Off Road" hidden="false" book="Mercenaries - Forces of Warmachine" page="120">
       <description></description>
       <modifiers/>
     </rule>
-    <rule id="a1d81d1a-4ecc-53bc-3e7d-83d58b43a1a8" name="Take Up" hidden="false" book="Mercenaries - Forces of Warmachine" page="108">
+    <rule id="16d1ece1-d456-63ca-5c0c-74ea34967e03" name="Repair[] (* Action)" hidden="false" book="Mercenaries - Forces of Warmachine" page="120">
       <description></description>
       <modifiers/>
     </rule>
-    <rule id="f5eca188-0c78-0183-50d1-4ff2baa25fab" name="Construct" hidden="false" book="Warmachine Prime mkII">
+    <rule id="5d5b3f7c-b8cc-81d1-4076-eabafbc081f0" name="Anatomical Precision" hidden="false" book="Mercenaries - Forces of Warmachine" page="122">
       <modifiers/>
     </rule>
-    <rule id="81cb9f23-b0f8-0281-5ed4-97f9dd018848" name="Heavy Artillery" hidden="false" book="Mercenaries - Forces of Warmachine" page="112">
+    <rule id="e302df5b-0331-d4fa-50d1-f5c890076c02" name="Acrobatics" hidden="false" book="Mercenaries - Forces of Warmachine" page="124">
       <description></description>
       <modifiers/>
     </rule>
-    <rule id="4b21cfe1-b9f8-555d-fd75-98b9d1b1aa12" name="Light Artillery" hidden="false">
+    <rule id="0aa30333-beb3-2fd8-6f93-eb5881cf9383" name="Inspiration []" hidden="false" book="Mercenaries - Forces of Warmachine" page="124">
+      <description></description>
+      <modifiers/>
+    </rule>
+    <rule id="48272ed3-828b-3003-5a54-ef50d72c746d" name="Sucker!" hidden="false" book="Mercenaries - Forces of Warmachine" page="124">
+      <description></description>
+      <modifiers/>
+    </rule>
+    <rule id="08e8ccc0-f0de-5579-5f9f-ffe8507684ba" name="Continous Effect: Fire" hidden="false" book="Warmachine Prime mk II">
+      <modifiers/>
+    </rule>
+    <rule id="e7563dcc-d2ea-74ef-fba7-f1ebc160d64b" name="Damage Type: Fire" hidden="false" book="Warmachine Prime mkII">
+      <modifiers/>
+    </rule>
+    <rule id="f4d761fa-11cc-0dbb-8814-13fe337094da" name="Artillerist (* Action)" hidden="false" book="Mercenaries - Forces of Warmachine" page="128">
+      <modifiers/>
+    </rule>
+    <rule id="979b5094-8500-5ef8-0050-0ba61ef9eec0" name="Cumbersome" hidden="false" book="Mercenaries - Forces of Warmachine" page="128">
+      <description></description>
       <modifiers/>
     </rule>
   </sharedRules>
