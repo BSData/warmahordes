@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0a25b8d1-d5a5-b952-f63f-b348ba4aaa13" revision="1" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="3" battleScribeVersion="1.14b" name="Circle Orboros" authorName="Hulkken" authorContact="deltao@msn.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0a25b8d1-d5a5-b952-f63f-b348ba4aaa13" revision="2" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="3" battleScribeVersion="1.14b" name="Circle Orboros" authorName="Hulkken" authorContact="deltao@msn.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="49bcf91d-062f-6fa2-91b6-97c43e677158" name="Argus" points="4.0" categoryId="576172626561737423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Circle of Orboros" page="56">
       <entries/>
@@ -255,6 +255,252 @@
           <modifiers/>
         </link>
         <link id="a345fbd8-3a8c-0a78-7c73-1a048c554892" targetId="cac64bab-d83b-6441-dafd-a0d35effa7c4" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="0f18e2d8-90cf-5815-8d17-9a23bd310c88" name="Druid of Orboros Overseer" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Ciricle of Orboros" page="71">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="14ca64eb-8eac-2817-91f3-f8622cb92756" name="Attachment (Druids of Orboros)" hidden="false" book="Forces of Hordes - Ciricle of Orboros" page="71">
+          <description>This attachment can be added to a Druids of Orboros unit.</description>
+          <modifiers/>
+        </rule>
+        <rule id="84fb8a5d-4b29-53d4-1493-4da34a455b33" name="Beast Master" hidden="false" book="Forces of Hordes - Ciricle of Orboros" page="71">
+          <description>This model can force friendly Faction warbeast in its command range as if it were their controlling warlock.</description>
+          <modifiers/>
+        </rule>
+        <rule id="f644db8d-6718-978a-1a73-a44d2fd4ed41" name="Camouflage" hidden="false" book="Forces of Hordes - Ciricle of Orboros" page="71">
+          <description>This model gains an additional +2 DEF when benefiting from concealment or cover.</description>
+          <modifiers/>
+        </rule>
+        <rule id="0d4ed3eb-8234-6364-2ee9-24b7f14fcdae" name="Magic Ability (8)" hidden="false" book="Forces of Hordes - Ciricle of Orboros" page="71">
+          <description>• Elemental Protection (*Action) - Models in its unti gain Immunity: Cold, Immunity: Eectricity, and immunity: FIre for one round.
+
+• Medicate (*Action) - RNG 3. Target friendly Faction warbeast. If the warbeast is in range, it heals d3 damage points. A warbeast can be affected by Medicate only once per turn.
+
+• Summon Vortex (*Action) - Center a 3&quot; AOE cloud effect on thsi model. Enemy models suffer -2 to attack rolls while in the AOE. Summon Vortex lasts for one round.
+
+• The Devouring (*Attack) - The Devouring is a RNG 10, AOE 4, POW 8 magic attack. Add 1 to the POW of the attack for each model in this unit.</description>
+          <modifiers/>
+        </rule>
+        <rule id="a01fa633-87f2-df2f-eaaf-46169640abe0" name="Tactics: Advance Deployment" hidden="false" book="Forces of Hordes - Ciricle of Orboros" page="71">
+          <description>Models in this unit gain Advance Deployment.</description>
+          <modifiers/>
+        </rule>
+        <rule id="6efb7f1e-f8c4-21d7-89f0-27d2c7350195" name="Voulge: Magical Weapon" hidden="false" book="Forces of Hordes - Ciricle of Orboros" page="71">
+          <modifiers/>
+        </rule>
+        <rule id="2709df35-66e3-2f41-adc2-a7ebc21e0da4" name="Voulge: Reach" hidden="false" book="Forces of Hordes - Ciricle of Orboros" page="71">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="924c43df-a992-e8f8-3fd4-1415fc78cd70" profileTypeId="54726f6f70657223232344415441232323" name="Overseer" hidden="false" book="Forces of Hordes - Ciricle of Orboros" page="71">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="14"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="13"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="813fefac-7aa6-99cd-4036-f5d9035c21a7" profileTypeId="576561706f6e23232344415441232323" name="Voulge" hidden="false" book="Forces of Hordes - Ciricle of Orboros" page="71">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="10"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="bbaa0ee6-dead-0868-5ded-34cbd1ae9313" targetId="a245f1e0-8f34-d44d-7889-b90ca7029b1b" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3a2b57f3-0f13-3a2f-7659-13251010147e" targetId="c9c8987e-c80f-ed4e-222c-5abde09b04e6" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="823f849f-1315-339d-a608-29be193da5d2" name="Druid Stoneward &amp; Woldstalkers" points="5.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Ciricle of Orboros" page="72">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="e765d51b-d030-833c-17ae-492d2ae72a2e" name="Stoneward: Officer" hidden="false" book="Forces of Hordes - Circle of Orboros" page="72">
+          <description>This model is an Officer. The Officer is the unit commander of its unit.</description>
+          <modifiers/>
+        </rule>
+        <rule id="161913cd-faf3-3cd2-7f56-62683b222b25" name="Stoneward: Pathfinder" hidden="false" book="Forces of Hordes - Circle of Orboros" page="72">
+          <description>This model can advance through rough terrain without penalty and can charge and make slam and trample power attacks across obstacles.</description>
+          <modifiers/>
+        </rule>
+        <rule id="462909d1-2222-4d56-e27f-fc580dd45aa6" name="Stoneward: Magic Ability" hidden="false" book="Forces of Hordes - Circle of Orboros" page="72">
+          <description>• Concentrated Fire (*Action) - This activation models in this unit gain a +1 cumulative bonus to ranged damage rolls for each other model in this unit that has hit an enemy model with a ranged attack this activation.
+
+• Zephyr (*Action) - Models in this unit that are in formation can immediately advance up to 3&quot;. They cannot be targeted by free strikes during this movement.</description>
+          <modifiers/>
+        </rule>
+        <rule id="20002f83-2b8b-c1d9-3b57-2bfcc817390f" name="Stoneward: Self-Sacrifice" hidden="false" book="Forces of Hordes - Circle of Orboros" page="72">
+          <description>If this model is disabled by an enemy attack, you can choose a non-disabled model in this unit within 3&quot; of his model to be destroyed. If another model is destroyed as a result of Self-Sacrifice, this model heals 1 damage point.</description>
+          <modifiers/>
+        </rule>
+        <rule id="4e3b9fd0-30a1-eef8-e06b-6606ba38a6b5" name="Stoneward: Stone Heart" hidden="false" book="Forces of Hordes - Circle of Orboros" page="72">
+          <description>This model never flees and automatically passes command checks.</description>
+          <modifiers/>
+        </rule>
+        <rule id="a5062d11-6bdc-36a9-decd-7713276b1081" name="Woldstalker Grunt: Construct" hidden="false" book="Forces of Hordes - Circle of Orboros" page="72">
+          <description>This model is not a living model, never flees, and automatically passes comand checks.</description>
+          <modifiers/>
+        </rule>
+        <rule id="98cffa55-7d40-57f0-0e54-93c18bddb440" name="Woldstalker Grunt: Pathfinder" hidden="false" book="Forces of Hordes - Circle of Orboros" page="72">
+          <description>This model can advance through rough terrain without penalty and can charge and make slam and trample power attacks across obstacles.</description>
+          <modifiers/>
+        </rule>
+        <rule id="6d3b1a2d-3d69-b1b0-663a-e9a6978f6b41" name="Voulge: Magical Weapon" hidden="false" book="Forces of Hordes - Circle of Orboros" page="72">
+          <modifiers/>
+        </rule>
+        <rule id="fe118e5a-ff49-2648-8ec6-ac0595fd0138" name="Voulge: Reach" hidden="false" book="Forces of Hordes - Circle of Orboros" page="72">
+          <modifiers/>
+        </rule>
+        <rule id="ac77ae18-5026-e189-790f-fa5914d8a7cc" name="Arcane Strike: Magical Weapon" hidden="false" book="Forces of Hordes - Circle of Orboros" page="72">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="01363371-0647-bfda-ed92-e72a2fdab0b5" profileTypeId="54726f6f70657223232344415441232323" name="Stoneward" hidden="false" book="Forces of Hordes - Ciricle of Orboros" page="72">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="14"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="13"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="f87bf145-b242-60a3-cd5c-bfb025c765a2" profileTypeId="54726f6f70657223232344415441232323" name="Woldstalkers Grunt" hidden="false" book="Forces of Hordes - Ciricle of Orboros" page="72">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="4"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="0"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="6"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="12"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="15"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="4"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="9ebadf79-058b-6c22-1af2-2b54ca7d7afe" profileTypeId="576561706f6e23232344415441232323" name="Stoneward: Voulge" hidden="false" book="Forces of Hordes - Ciricle of Orboros" page="72">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="10"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="d5c4a9b8-b730-1cd9-a6c9-f8f6f4d41838" profileTypeId="576561706f6e23232344415441232323" name="Woldstalkers Grunt: Arcane Strike" hidden="false" book="Forces of Hordes - Ciricle of Orboros" page="72">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="10"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="6e17308a-d11c-6952-dc2f-10d6105864a8" name="Druids of Orboros" points="7.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Circle of Orboros" page="70">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="7c3c3dd7-b8e7-40df-a746-109655b6cf82" name="Leader: Camouflage" hidden="false" book="Forces of Hordes - Circle of Orboros" page="70">
+          <description>This model gains an additional +2 DEF when benefiting from concealment or cover.</description>
+          <modifiers/>
+        </rule>
+        <rule id="07168b8d-0578-9493-883b-bc5abe926fbe" name="Leader: Magic Ability (7)" hidden="false" book="Forces of Hordes - Circle of Orboros" page="70">
+          <description>	• Counter Magic (*Action) - This model cannot be target by enemy spells. While within 3&apos; of this model +1&apos; for each other model in this unit that is in formation, friendly models cannot be targeted by enemy spells and enemy models cannot cast spells. Counter Magic lasts for one round.
+
+	• Force Bolt (*Attack) - Force Bolt is RNG 10, POW 10 magic attack. An enemy model hit by this attack can be pushed d3&quot; directly toward or away from this model. Choose the direction before rolling the distance. On a critical hit, the enemy model is knocked down after being pushed.
+
+	• Medicate (*Action) -  RNG 3. Target friendly Faction warbeast. If the warbeast is in range, it heals d3 damge points. A warbeast can be affected by Medicate only once per turn.
+
+	• Summon Vortex (*Action) - Center a 3&quot; AOE cloud effect on this model. Enemy models suffer -2 to attack rolls while in the AOE Summon Vortex Lasts for one round.</description>
+          <modifiers/>
+        </rule>
+        <rule id="9454ce66-f13d-aced-e443-792b02cb9d42" name="Grunts: Pathfinder" hidden="false" book="Forces of Hordes - Circle of Orboros" page="70">
+          <description>This model can advance through rough terrain without penalty and can charge and make slam and trample power attacks across obstacles.</description>
+          <modifiers/>
+        </rule>
+        <rule id="751b4423-8081-65bf-5a0c-f9c61fe478a7" name="Grunts: Camouflage" hidden="false" book="Forces of Hordes - Circle of Orboros" page="70">
+          <description>This model gains an additional +2 DEF when benefiting from concealment or cover.</description>
+          <modifiers/>
+        </rule>
+        <rule id="6d115213-b1ea-5f8f-de79-060d3cad6f7e" name="Grunts: Magic Ability (7)" hidden="false" book="Forces of Hordes - Circle of Orboros" page="70">
+          <description>	• Counter Magic (*Action) - This model cannot be target by enemy spells. While within 3&apos; of this model +1&apos; for each other model in this unit that is in formation, friendly models cannot be targeted by enemy spells and enemy models cannot cast spells. Counter Magic lasts for one round.
+
+	• Force Bolt (*Attack) - Force Bolt is RNG 10, POW 10 magic attack. An enemy model hit by this attack can be pushed d3&quot; directly toward or away from this model. Choose the direction before rolling the distance. On a critical hit, the enemy model is knocked down after being pushed.
+
+	• Medicate (*Action) -  RNG 3. Target friendly Faction warbeast. If the warbeast is in range, it heals d3 damge points. A warbeast can be affected by Medicate only once per turn.
+
+	• Summon Vortex (*Action) - Center a 3&quot; AOE cloud effect on this model. Enemy models suffer -2 to attack rolls while in the AOE Summon Vortex Lasts for one round.</description>
+          <modifiers/>
+        </rule>
+        <rule id="6bf47e10-5d15-fb46-4245-8a0e73877ae1" name="Voulge: Magical Weapon" hidden="false" book="Forces of Hordes - Ciricle of Orboros" page="70">
+          <modifiers/>
+        </rule>
+        <rule id="832939a9-63c9-c36f-5880-925f9e331ba6" name="Voulge: Reach" hidden="false" book="Forces of Hordes - Ciricle of Orboros" page="70">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="10158f2b-d4ab-a1b3-a2c1-110a79a15df3" profileTypeId="54726f6f70657223232344415441232323" name="Druids of Orboros" hidden="false" book="Forces of Hordes - Circle of Orboros" page="70">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="5"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="14"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="13"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="-"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="9899642a-965f-1db4-3eb4-5a3b6d6c959d" profileTypeId="576561706f6e23232344415441232323" name="Voulge" hidden="false" book="Forces of Hordes - Circle of Orboros" page="70">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="10"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="801baec2-3cee-0855-560e-7fd79cfc1856" targetId="c9c8987e-c80f-ed4e-222c-5abde09b04e6" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -963,6 +1209,87 @@
         </link>
       </links>
     </entry>
+    <entry id="e0b765ba-a55c-cf08-01c7-30c9c372998b" name="Megalith" points="11.0" categoryId="576172626561737423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Circle of Orboros" page="67">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="82f3413b-34b6-912c-8099-f3b70975afd5" name="Affinity (Baldur)" hidden="false" book="Forces of Hordes - Circle of Orboros" page="67">
+          <description>If this model is in Baldur&apos;s control area at the start of Baldur&apos;s activation, Baldur automatically heals d3 damage points.</description>
+          <modifiers/>
+        </rule>
+        <rule id="cc671dc9-df5b-a4c9-e151-8742762a3523" name="Bountiful Restoration" hidden="false" book="Forces of Hordes - Circle of Orboros" page="67">
+          <description>During your Control Phase, remove d3 damage points from this model. During your Control Phase, remove 1 damage point from friendly Woldwardens B2B with it.</description>
+          <modifiers/>
+        </rule>
+        <rule id="94af69b8-1471-0098-81fb-f8ca46851aca" name="Geomancy" hidden="false" book="Forces of Hordes - Circle of Orboros" page="67">
+          <description>Once per activation while in its controller&apos;s control area, thsi model can be forced to cast one of its warlock&apos;s spells with COST of 3 or less. This models&apos;s controller is considered to have cast the spell but this model is its point of orgin. When making a magic attack roll, this model uses its controller&apos;s FURY. This model cannot cast spells with a RNG of SELF or CTRL.</description>
+          <modifiers/>
+        </rule>
+        <rule id="f73ce721-9f0e-6de1-8a9e-f26e45e5e05a" name="Rune Fist: Magcial Weapon" hidden="false" book="Forces of Hordes - Circle of Orboros" page="67">
+          <modifiers/>
+        </rule>
+        <rule id="b4a897f6-72bc-7882-0be6-f59bebd0ea59" name="Rune Fist: Open Fist" hidden="false" book="Forces of Hordes - Circle of Orboros" page="67">
+          <modifiers/>
+        </rule>
+        <rule id="0d16d15d-765d-d05f-2bd8-4843aac58f03" name="Weight of Stone" hidden="false" book="Forces of Hordes - Circle of Orboros" page="67">
+          <description>When a model is damaged by this weapon it suffers -3 SPD and DEF for one round.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="27254133-cb50-2491-5995-7cbfac432ad5" profileTypeId="576172626561737423232344415441232323" name="Megalith" hidden="false" book="Forces of Hordes - Circle of Orboros" page="67">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="11"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="10"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="19"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="-"/>
+            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="4"/>
+            <characteristic characteristicId="5468726573686f6c6423232344415441232323" name="Threshold" value="-"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="79ea115f-64ee-2385-cf50-ad98c8f6855f" profileTypeId="576561706f6e23232344415441232323" name="Rune Fist" hidden="false" book="Forces of Hordes - Circle of Orboros" page="67">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="5"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="16"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="33f7ac0f-72fe-c90b-5f2f-062324f3f133" profileTypeId="576561706f6e23232344415441232323" name="Rune Fist" hidden="false" book="Forces of Hordes - Circle of Orboros" page="67">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="5"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="16"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="dc9f7bc5-73ec-ea4d-d318-678d082719da" targetId="fd764118-7b63-7b7f-9d7c-6db3196ccfd6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9d31457a-d5c5-a8c5-9db2-285ffd9f2842" targetId="c9c8987e-c80f-ed4e-222c-5abde09b04e6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7429b77e-08d0-67d8-60c2-11eae9fd074e" targetId="730e0217-5055-e219-31c9-b376703b414f" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="65b8a699-13ef-e551-2468-f0d5f163af0d" targetId="96d4f411-5e97-be5e-bf42-70d268ed1180" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="f8010dfb-62d3-f376-d6bb-9b7d08ed874c" name="Mohsar The Desertwalker" points="-5.0" categoryId="5761726c6f636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Circle of Orboros" page="50">
       <entries/>
       <entryGroups/>
@@ -1131,6 +1458,87 @@
         </link>
       </links>
     </entry>
+    <entry id="7f67a6f7-dabc-2d98-df37-493458841aac" name="Nuala the Huntress" points="2.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Circle of Orboros" page="79">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="a68b0e57-c456-85a9-a3ad-37f53b615280" name="Attachment (Tharn Bloodtracker)" hidden="false" book="Forces of Hordes - Circle of Orboros" page="79">
+          <description>This attachment can be added to a Tharn Bloodtracker unit.</description>
+          <modifiers/>
+        </rule>
+        <rule id="67f64d63-0a67-45d1-e3c5-a3c477cfb95c" name="Granted: Reform" hidden="false" book="Forces of Hordes - Circle of Orboros" page="79">
+          <description>While this model is in play, after all models in its unit have completed their actions, each can advance up to 3&quot;.</description>
+          <modifiers/>
+        </rule>
+        <rule id="89c59d62-c82d-9dee-93f0-dc6ffd3774ba" name="Prey" hidden="false" book="Forces of Hordes - Circle of Orboros" page="79">
+          <description>After deployment but before the first player&apos;s turn, choos an enemy model/unit to be this model/unit&apos;s prey. This model gains +2 to attack and damge rolls against its prey. When this model begins its activation within 10&quot; of its prey, it gains +2&quot; movement that activation. When the prey is destroyed or removed from play, choose another model/unit to be the prey.</description>
+          <modifiers/>
+        </rule>
+        <rule id="aebb7bf1-4eeb-be95-73c3-bf0e3d25577a" name="Tactics: Quick Work" hidden="false" book="Forces of Hordes - Circle of Orboros" page="79">
+          <description>Models in this unit gain Quick Work. (When a model with Quick Work destroys one or more enemy models with a melee attack during its combat action, immediately after the attack is resolved it can make one nomal ranged attack. atacks gained from Quick Work do not count against a weapon&apos;s ROF.)</description>
+          <modifiers/>
+        </rule>
+        <rule id="a242cd0f-80fd-0f04-59d3-12865113a627" name="Thrown Javelin: Weapon Master" hidden="false" book="Forces of Hordes - Circle of Orboros" page="79">
+          <modifiers/>
+        </rule>
+        <rule id="02204fcd-84a0-02e8-a8b4-e12e26ad8e2a" name="Thrown" hidden="false" book="Forces of Hordes - Circle of Orboros" page="79">
+          <description>Add this model&apos;s STR to the POW of this ranged attack.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="5262b870-4a84-f6d5-eff7-45c34bf192c9" profileTypeId="54726f6f70657223232344415441232323" name="Nuala the Huntress" hidden="false" book="Forces of Hordes - Circle of Orboros" page="79">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="7"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="8"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="7"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="14"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="11"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="1f1ba0b5-4912-ce60-d9a9-5b7e5e76487a" profileTypeId="576561706f6e23232344415441232323" name="Thrown Javelin" hidden="false" book="Forces of Hordes - Circle of Orboros" page="79">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="7"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="e2907a55-4349-4efc-2416-4c54c4d9da28" profileTypeId="576561706f6e23232344415441232323" name="Fighting Claw" hidden="false" book="Forces of Hordes - Circle of Orboros" page="79">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="9"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="53fe7c8d-1b08-cdd8-c8f0-bb5e62760ace" targetId="b2a35539-271b-a334-e50f-0cf74dcafc82" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="339a7e52-96b7-2e42-714e-28ccb8992b70" targetId="a245f1e0-8f34-d44d-7889-b90ca7029b1b" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2198ed07-0327-0870-8b45-148bdc04a5d8" targetId="c9c8987e-c80f-ed4e-222c-5abde09b04e6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8a8b0217-a535-91ba-642d-2c38720431a1" targetId="94c1371d-a183-9b7d-8aa7-6024f427ad39" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="f6a3e9e2-2339-f187-9d20-1a1e269487ee" name="Pureblood Warpwolf" points="9.0" categoryId="576172626561737423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Circle of Oboros" page="63">
       <entries/>
       <entryGroups/>
@@ -1216,6 +1624,293 @@
         </link>
       </links>
     </entry>
+    <entry id="dcf93c98-a929-1b9d-8bac-dc08cec73ac1" name="Reeve of Orboros Chieftain &amp; Standard" points="2.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Circle of Orboros" page="77">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="742bfc52-29e4-3490-0e8d-779f0c1abfa2" name="Attachment ( Reeves of Orboros)" hidden="false" book="Forces of Hordes - Circle of Orboros" page="77">
+          <description>This attachment can be added to a Reeves of Orboros unit.</description>
+          <modifiers/>
+        </rule>
+        <rule id="8533ea8d-4e0c-cc59-9e2e-d891d1a77d2d" name="Chieftain: Combined Ranged Attack" hidden="false" book="Forces of Hordes - Circle of Orboros" page="77">
+          <description>This model can participate in combined ranged attacks with other models in its unit.</description>
+          <modifiers/>
+        </rule>
+        <rule id="a99fdef6-4ec4-cf2c-70ff-8138ff192f0e" name="Chieftain: Officer" hidden="false" book="This model can participate in combined ranged attacks with other models in its unit." page="77">
+          <description>This model is an Officer. The Officer is the unit commander of its unit.</description>
+          <modifiers/>
+        </rule>
+        <rule id="ca38f941-2d24-b5a2-859a-b265f6c9127f" name="Chieftain: Pathfinder" hidden="false" book="This model is an Officer. The Officer is the unit commander of its unit." page="77">
+          <description>This model can advance through rough terrain without penalty and can charge and make slam and trample power attacks across obstacles.</description>
+          <modifiers/>
+        </rule>
+        <rule id="046a71b9-fa76-d0cd-3916-9bcd161b04b6" name="Chieftain: Granted: Swift Hunter" hidden="false" book="Forces of Hordes - Circle of Orboros" page="77">
+          <description>While this model is in play, models in this unit gain Swift Hunter. (When a model with Swift Hunter destroys an enemy model with normal ranged attack, immediately after the attack is resolved it can advance up to 2&quot;.)</description>
+          <modifiers/>
+        </rule>
+        <rule id="0d130456-69ba-c8b5-e0f3-8f6cd94bdb80" name="Chieftain: Hunter" hidden="false" book="Forces of Hordes - Circle of Orboros" page="7">
+          <description>This model ignores forests, concealment, and cover when determining LOS or making ranged attack.</description>
+          <modifiers/>
+        </rule>
+        <rule id="c1ea2671-55a7-0759-0e68-4e0ff81d94d2" name="Chiefttain: Snap Fire" hidden="false" book="Forces of Hordes - Circle of Orboros" page="76">
+          <description>When this model destroys one or more enemy models with a ranged attack during its combat action, immediately after that attack is resolved this model can make one normal ranged attack. Attacks gained from Snap Fire do not count against a weapon&apos;s ROF and cannot generate additonal attacks from Snap Fire.</description>
+          <modifiers/>
+        </rule>
+        <rule id="abe40b78-2d3b-f4a1-2637-9313b917d3f0" name="Chieftain: Tactics: Ranked Attacks" hidden="false" book="Forces of Hordes - Circle of Orboros" page="77">
+          <description>Models in this unit gain Ranked Attacks. (Friendly Faction models can ignore models with Ranked Attacks when Determining LOS.)</description>
+          <modifiers/>
+        </rule>
+        <rule id="a36b1fc3-02e1-178f-c2b2-0adb84c8ab00" name="Standard Bearer: Pathfinder" hidden="false" book="Forces of Hordes - Circle of Orboros" page="77">
+          <modifiers/>
+        </rule>
+        <rule id="cc39cc88-ca1e-a095-b41c-59504419f03f" name="Standard Bearer: Standard Bearer" hidden="false" book="Forces of Hordes - Circle of Orboros" page="77">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="6527686e-dcf6-059c-c4f1-d21d0b96c320" profileTypeId="54726f6f70657223232344415441232323" name="Chieftain" hidden="false" book="Forces of Hordes - Circle of Orboros" page="77">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="5"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="6"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="13"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="ed9c6363-55da-05c3-0310-716a591ab190" profileTypeId="576561706f6e23232344415441232323" name="Double Crossbow" hidden="false" book="Forces of Hordes - Circle of Orboros" page="77">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="12"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="10"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="dec9a676-7f15-a390-ab4c-633195a34825" profileTypeId="576561706f6e23232344415441232323" name="Battle Blade" hidden="false" book="Forces of Hordes - Circle of Orboros" page="77">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="8"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="93a3db83-75e7-ee40-e605-a131e38041ef" profileTypeId="54726f6f70657223232344415441232323" name="Standard Bearer" hidden="false" book="Forces of Hordes - Circle of Orboros" page="77">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="5"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="5"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="13"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="56506994-2310-fe39-c749-2b1ad5aa1c6f" name="Reeves of Orboros" points="6.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Circle of Orboros" page="76">
+      <entries>
+        <entry id="d59c87a9-4e2c-d816-4741-d38ead7d4d76" name="Leader &amp; 5 Grunts -&gt; Leader &amp; 9 Grunts" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Circle of Orboros" page="76">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="10.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="56506994-2310-fe39-c749-2b1ad5aa1c6f" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="minInForce" value="6.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="56506994-2310-fe39-c749-2b1ad5aa1c6f" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule id="e6ab1228-516f-bd8d-656b-34acc4c21ea9" name="Hunter" hidden="false" book="Forces of Hordes - Circle of Orboros" page="76">
+          <description>This model ignores forests, concealment, and cover when determining LOS or making a ranged attack.</description>
+          <modifiers/>
+        </rule>
+        <rule id="23b12155-c3a3-77c5-f142-4f5549a4cff4" name="Snap Fire" hidden="false" book="Forces of Hordes - Circle of Orboros" page="76">
+          <description>When this model destroys one or more enemy models with a ranged attack during its combat action, immediately after that attack is resolved this model can make one normal ranged attack. Attacks gained from Snap Fire do not count against a weapon&apos;s ROF and cannot generate additonal attacks from Snap Fire.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="3884e152-28c1-9c10-cd9b-6689c46c9b86" profileTypeId="54726f6f70657223232344415441232323" name="Leader &amp; Grunts" hidden="false" book="Forces of Hordes - Circle of Orboros" page="76">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="5"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="5"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="13"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="f49df9a8-c7ff-8f26-6169-1f18313ef3ad" profileTypeId="576561706f6e23232344415441232323" name="Double Crossebow" hidden="false" book="Forces of Hordes - Circle of Orboros" page="76">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="12"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="10"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="9a3152f0-39ca-9988-39eb-785907432b58" profileTypeId="576561706f6e23232344415441232323" name="Battle Blade" hidden="false" book="Forces of Hordes - Circle of Orboros" page="76">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="8"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="e771f073-4acd-9631-1888-8a7e5baeea12" targetId="fd8a9aa4-a0ea-cdf3-98c7-8d082a9994be" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="50dcb801-4aa1-c158-2245-4e171ed337c6" targetId="c9c8987e-c80f-ed4e-222c-5abde09b04e6" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="c51792f4-f031-6c2d-7eac-c1dc6f718a04" name="Sentry Stone &amp; Mannikins" points="3.0" categoryId="536f6c6f23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Circle of Orboros" page="73">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="cf091825-af7f-3f5c-f9e6-3452a2a10dd8" name="Sentry Stone: Adcanced Deployment" hidden="false" book="Forces of Hordes - Circle of Orboros" page="73">
+          <description>Place this model after normal deployment, up to 6&quot; beyond the established deployment zone.</description>
+          <modifiers/>
+        </rule>
+        <rule id="450738e0-49a7-004c-0706-63550d24cf54" name="Sentry Stone: Constuct" hidden="false" book="Forces of Hordes - Circle of Orboros" page="73">
+          <description>This model is not a living model, never flees, and automatically passes comand checks.</description>
+          <modifiers/>
+        </rule>
+        <rule id="ba17cc5e-4d76-42c6-2751-88d8ac28328c" name="Sentry Stone: officer" hidden="false" book="Forces of Hordes - Circle of Orboros" page="73">
+          <description>This model is an Officer. The Officer is the unit commander of its unit.</description>
+          <modifiers/>
+        </rule>
+        <rule id="c6ba2797-8b4f-9e54-16ab-25d99386f515" name="Sentry Stone: Stealth" hidden="false" book="Forces of Hordes - Circle of Orboros" page="73">
+          <description>Ranged and magic attacks declared against this model when the point of orgin of the attack is greater than 5&quot; away automatically miss.</description>
+          <modifiers/>
+        </rule>
+        <rule id="252ef879-7c49-7777-34c1-58e4d130a7f3" name="Sentry Stone: Devour Magic" hidden="false" book="Forces of Hordes - Circle of Orboros" page="73">
+          <description>Once per turn at any time during its unit&apos;s activation, this model can use Devour Magic. When it does, you can remove up to 1 focus or fury point from each enemy model in its command range. For each focus or fury point removed, placed 1 fury point on this model. A model can have focus or fury removed form it only once per turn as result of Devour Magic. This model can have up to 5 fury points at a time.</description>
+          <modifiers/>
+        </rule>
+        <rule id="359c4883-6dfb-cc7b-62b0-d94308237a6b" name="Sentry Stone: Immobile" hidden="false" book="Forces of Hordes - Circle of Orboros" page="72">
+          <description>This model has no movement or action and cannot be knocked down or moved. Its front arc extends to 360°. It has no melee range, cannot engage, and is automatically hit by melee attacks.</description>
+          <modifiers/>
+        </rule>
+        <rule id="842070ec-13d9-cf5e-5db8-db29a9e6cb6a" name="Sentry Stone: Phase" hidden="false" book="Forces of Hordes - Circle of Orboros" page="73">
+          <description>This model can spend 1 fury point to use Phase once at any time during its unit&apos;s activation. When it does, place this model anywhere within 5&quot; of its curent location.</description>
+          <modifiers/>
+        </rule>
+        <rule id="13870660-3a91-688c-9fbd-350fd0be68ba" name="Sentry Stone: Wellspring" hidden="false" book="Forces of Hordes - Circle of Orboros" page="73">
+          <description>If there are fewer than 3 fury points on the Sentry Stone at the start of its activation, place 1 fury point on it. If there are fewer than three Mannikin Grunts in this unit in play at any time during its unit&apos;s activation, this model can spend a fury point to put a Manikin Grunt into playl Place the Mannikin Grunts in formation. Mannikin Grunts cannot activate the activation they are put in play. If this model is destroyed or removed from play, the Mannikin Grunts in its unit are removed from play.</description>
+          <modifiers/>
+        </rule>
+        <rule id="23cd9723-a25e-bf26-7bb8-87b988866b0b" name="Mannikins Grunt: Advanced Deployment" hidden="false" book="Forces of Hordes - Circle of Orboros" page="73">
+          <description>Place this model after normal deployment, up to 6&quot; beyond the established deployment zone.</description>
+          <modifiers/>
+        </rule>
+        <rule id="6c4b09e6-c43a-cd96-8eee-143dd2fa98de" name="Mannikins Grunt: Construct" hidden="false" book="Forces of Hordes - Circle of Orboros" page="73">
+          <description>This model is not a living model, never flees, and automatically passes comand checks.</description>
+          <modifiers/>
+        </rule>
+        <rule id="391e2b1a-eead-8dba-8125-e4bcda1d5d1e" name="Mannikins Grunt: Pathfinder" hidden="false" book="Forces of Hordes - Circle of Orboros" page="73">
+          <description>This model can advance through rough terrain without penalty and can charge and make slam and trample power attacks across obstacles.</description>
+          <modifiers/>
+        </rule>
+        <rule id="40cac322-ae48-d9cb-bdb6-016a8ec284f6" name="Mannikins Grunt: Forest Growth (*Action)" hidden="false" book="Forces of Hordes - Circle of Orboros" page="73">
+          <description>Center a 3&quot; AOE on this model, then remove the model from play. This AOE is a forest that remains in play for one round.</description>
+          <modifiers/>
+        </rule>
+        <rule id="a391c12c-49ec-f414-38d1-9d8ca6a4f4c2" name="Mannikins Grunt: Fury Linked" hidden="false" book="Forces of Hordes - Circle of Orboros" page="73">
+          <description>While in formation, this model can spend fury on its unit command during its unit&apos;s activation to boost attack or damage rolls.</description>
+          <modifiers/>
+        </rule>
+        <rule id="1d482148-b72d-1542-3fb5-e19dc5bca2d4" name="Mannikins Grunt: Splinter Burst - Magical Burst" hidden="false" book="Forces of Hordes - Circle of Orboros" page="73">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="f92e22bd-9243-344b-2608-fc52da1c137e" profileTypeId="54726f6f70657223232344415441232323" name="Sentry Stone" hidden="false" book="Forces of Hordes - Circle of Orboros" page="73">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="-"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="0"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="0"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="0"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="5"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="18"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="6"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="bd2a1051-09bc-6ac3-fce4-c2c851c76c0f" profileTypeId="54726f6f70657223232344415441232323" name="Mannkin Grunt" hidden="false" book="Forces of Hordes - Circle of Orboros" page="73">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="7"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="5"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="12"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="12"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="-"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value=""/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="ab83f618-f81c-181a-1500-4b8825a2adbd" profileTypeId="576561706f6e23232344415441232323" name="Mannikin Grunt: Splinter Burst" hidden="false" book="Forces of Hordes - Circle of Orboros" page="73">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="8"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="10"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="ae0b229c-a4ba-c270-edb3-7541e25ed3d7" profileTypeId="576561706f6e23232344415441232323" name="Mannikin Grunt: Claw" hidden="false" book="Forces of Hordes - Circle of Orboros" page="73">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="2"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="11"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="42e62993-4bdb-27a7-415a-77ae182939cd" name="ShadowHorn Satyr" points="7.0" categoryId="576172626561737423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Circle of Oboros" page="60">
       <entries/>
       <entryGroups/>
@@ -1296,6 +1991,211 @@
         </link>
       </links>
     </entry>
+    <entry id="84589265-a347-57f6-764a-ae2516a8a4be" name="Shifting Stones" points="2.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="2" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Circle of Orboros" page="74">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="15e83254-1b4f-a6b2-5c26-7243c98ad4dc" name="Immobile" hidden="false" book="Forces of Hordes - Circle of Orboros" page="74">
+          <description>This model has no movement or action and cannot be knocked down or moved. Its front arc extends to 360°. It has no melee range, cannot engage, and is automatically hit by melee attacks.</description>
+          <modifiers/>
+        </rule>
+        <rule id="d9864502-fa2a-b131-5223-c89f4e7d85c6" name="Serenity" hidden="false" book="Forces of Hordes - Circle of Orboros" page="74">
+          <description>At the beginning of your Control Phase, before leaching, you can remove 1 fury point from a friendly Faction warbeast within 1&quot; of this model.</description>
+          <modifiers/>
+        </rule>
+        <rule id="c140eddf-fe35-8265-b6b6-a8df64da8e5d" name="Shifing Powers" hidden="false" book="Forces of Hordes - Circle of Orboros" page="74">
+          <description>Choose one of th following effects at the start of this unit&apos;s activation:
+
+• Healing Field - Models in this unit that are in formation and friendly Faction model within 1&quot; of one or more of them heal d3 damage points. Roll separately for each model. Healing Field can heal warbeasts with Construct.
+
+• Shifting - Place each model in this unit that i in formation anywhere within 8&quot; of its current location.
+
+• Teleportation - If all three Shifting Stone models in this unit are in formation, place one friendly Faction model whose base is within the triangular area between them anywhere within 8&quot; of its current location. The placed model must forfeit its movement after being placed this turn.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="93e26d43-7bae-de40-39d8-d36dc74632bd" profileTypeId="54726f6f70657223232344415441232323" name="Shifting Stones" hidden="false" book="Forces of Hordes - Circle of Orboros" page="74">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="-"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="0"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="0"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="0"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="5"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="18"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="4"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="4672e97d-2845-7842-f0c3-6578f6b9b37e" targetId="b2a35539-271b-a334-e50f-0cf74dcafc82" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4a88a43f-e48d-b7b4-4215-3bb0734806ae" targetId="fd764118-7b63-7b7f-9d7c-6db3196ccfd6" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="f2dbdee0-397a-1e36-1def-8335c24f5550" name="Stone Keeper" points="1.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Circle of Orboros" page="75">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="23cf1ba3-9642-ebab-a1d2-fb541aec2f5e" name="Attachment (Shifting Stones)" hidden="false" book="Forces of Hordes - Circle of Orboros" page="75">
+          <description>This Attachment can be added to a Shifting Stones unit.</description>
+          <modifiers/>
+        </rule>
+        <rule id="648e8e7a-eb43-301e-f11e-d0dd54f832e6" name="Disorientaion" hidden="false" book="Forces of Hordes - Circle of Orboros" page="75">
+          <description>This model cannot advance this turn after being placed by Shifting.</description>
+          <modifiers/>
+        </rule>
+        <rule id="b8cc4cc2-aa63-947b-a2b7-be115ebfea9b" name="Granted: Stealth" hidden="false" book="Forces of Hordes - Circle of Orboros" page="75">
+          <description>While this model is in play, models in its unit gain Stealth.</description>
+          <modifiers/>
+        </rule>
+        <rule id="f9ec9fe0-a669-8a3c-8017-da5280d7b5bd" name="Magic Ability (6)" hidden="false" book="Forces of Hordes - Circle of Orboros" page="75">
+          <description>• Rock Hammer (*Action) - Rock Hammer is a RNG 8, AOE 3, POW 14 magic attack. On a critical hit, models hit are knocked down.
+
+• Stone Form (*Action) - For one round or until it advances, this model gains +4 ARM, its base DEF is reduced to 5, and it is automatically hit by melee attacks.</description>
+          <modifiers/>
+        </rule>
+        <rule id="473e2486-3643-98f6-2d67-0be2292c89a4" name="Stone Heart" hidden="false" book="Forces of Hordes - Circle of Orboros" page="75">
+          <description>This model never flees and automatically passes command checks.</description>
+          <modifiers/>
+        </rule>
+        <rule id="8891e1a3-36e7-8221-c36f-ef08c3ca1abf" name="Voulge: Magical Weapon" hidden="false" book="Forces of Hordes - Circle of Orboros" page="75">
+          <modifiers/>
+        </rule>
+        <rule id="c3f7d84e-83c3-bf92-f75d-c69bdec98845" name="Voulge: Reach" hidden="false" book="Forces of Hordes - Circle of Orboros" page="75">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="96f82579-bb44-3c33-cba3-d02226c88bda" profileTypeId="54726f6f70657223232344415441232323" name="Stone Keeper" hidden="false" book="Forces of Hordes - Circle of Orboros" page="75">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="5"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="14"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="13"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="b83a4052-b0bd-4948-994e-50b38ff08b4d" profileTypeId="576561706f6e23232344415441232323" name="Voulge" hidden="false" book="Forces of Hordes - Circle of Orboros" page="75">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="10"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="dd4a547e-0432-d61b-17bf-c2a229c6eb6d" targetId="b2a35539-271b-a334-e50f-0cf74dcafc82" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ec3ed2e9-6d2a-2042-54a6-de98777d8003" targetId="a245f1e0-8f34-d44d-7889-b90ca7029b1b" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b478ec2a-6fe0-35ab-b6a2-a0ffc331e916" targetId="c9c8987e-c80f-ed4e-222c-5abde09b04e6" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="96bc94a4-f018-4557-7f8f-f954b6d59629" name="Tharn Bloodtrackers" points="5.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Circle of Orboros" page="78">
+      <entries>
+        <entry id="1d5fdff2-3293-5269-71a0-32fdbfd5821c" name="Leader &amp; 5 Grunts -&gt; Leader &amp; 9 Grunts" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Circle of Orboros" page="78">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="10.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="96bc94a4-f018-4557-7f8f-f954b6d59629" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="minInForce" value="6.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="96bc94a4-f018-4557-7f8f-f954b6d59629" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule id="ad3d3e4a-6ae5-885d-0cce-3f210737682b" name="Prey" hidden="false" book="Forces of Hordes - Circle of Orboros" page="78">
+          <description>After deployment but before the first player&apos;s turn, choose and enemy model/unit to be this model/unit&apos;s prey. This model gains +2 to attack and damage rolls against its prey. When this model 10&quot; of its prey, it gains +2&quot; movement that activation. When the prey is destroyed or removed from play, choose another model/unit to be the prey.</description>
+          <modifiers/>
+        </rule>
+        <rule id="8102508c-411e-1689-c686-b87376d45698" name="Thrown Javelin: Weapon Master" hidden="false" book="Forces of Hordes - Circle of Orboros" page="78">
+          <description>When attacking with this weapon, add an additional die to its damage rolls.</description>
+          <modifiers/>
+        </rule>
+        <rule id="a254b035-03e4-e5be-2af6-337433f720f2" name="Thrown Javelin: Thrown" hidden="false" book="When attacking with this weapon, add an additional die to its damage rolls." page="78">
+          <description>Add this model&apos;s STR to the POW of this ranged attack.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="44e93625-db15-3a73-02be-86164e97949a" profileTypeId="54726f6f70657223232344415441232323" name="Leader &amp; Grunts" hidden="false" book="Forces of Hordes - Circle of Orboros" page="78">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="7"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="6"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="14"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="11"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="f6dc0874-3f3c-3d9f-58d8-318d0fea8763" profileTypeId="576561706f6e23232344415441232323" name="Thrown Javelin" hidden="false" book="Forces of Hordes - Circle of Orboros" page="78">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="7"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="9d159b4f-60b2-9752-0bf7-949b2efe24c5" profileTypeId="576561706f6e23232344415441232323" name="Fighting Claw" hidden="false" book="Forces of Hordes - Circle of Orboros" page="78">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="9"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="8d4c6bd5-e7d5-9ff1-2cf4-e65a0bada067" targetId="b2a35539-271b-a334-e50f-0cf74dcafc82" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="954e268b-c29e-250c-2afc-c97cc9fabcdb" targetId="c9c8987e-c80f-ed4e-222c-5abde09b04e6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ac91c13d-0dfc-5eb9-a980-32ddc41c6bab" targetId="94c1371d-a183-9b7d-8aa7-6024f427ad39" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="834cfe99-11bf-c4f1-7e4e-b5ebe6c00d12" name="Warpwolf Stalker" points="10.0" categoryId="576172626561737423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Circle of Oboros" page="64">
       <entries/>
       <entryGroups/>
@@ -1365,6 +2265,150 @@
           <modifiers/>
         </link>
         <link id="3d53232b-5495-0d68-c5fb-d36da5847982" targetId="feab9ac5-65ed-078f-4600-32ce229de73b" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="a361a652-fe77-179f-1cbf-52b31d9634c1" name="Wold Guardian" points="9.0" categoryId="576172626561737423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Circle of Orboros" page="66">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="e39d6c45-5105-37e7-f8d7-48ffba8aeac3" name="Empathic Transference" hidden="false" book="Forces of Hordes - Circle of Orboros" page="66">
+          <description>A friendly Faction warlock can transfer damage to this model even if this model has a number of fury points equal to its current FURY.</description>
+          <modifiers/>
+        </rule>
+        <rule id="532a41e1-00bf-dbc1-c3ab-9f08c6efe2a8" name="Girded" hidden="false" book="Forces of Hordes - Circle of Orboros" page="66">
+          <description>This model does not suffer blast damge. Friendly models B2B with it do not suffer blast damage.</description>
+          <modifiers/>
+        </rule>
+        <rule id="09cb51eb-bfc8-ccf2-5a04-5c5b1fe46293" name="Ram Fist: Magical Weapon" hidden="false" book="Forces of Hordes - Circle of Orboros" page="66">
+          <modifiers/>
+        </rule>
+        <rule id="f3690c85-d2bb-7b60-7691-80bd40658519" name="Ram Fist: Ram" hidden="false" book="Forces of Hordes - Circle of Orboros" page="66">
+          <description>When an enemy model is hit by this weapon, it is knocked down and can be pushed 1&apos; directly away from this model. If it is pushed, this model can immediately advance directly toward the pushed model up to the distance that model was moved.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="605034f5-bedd-9312-a376-dd9b1fea8741" profileTypeId="576172626561737423232344415441232323" name="Wold Guardian" hidden="false" book="Forces of Hordes - Circle of Orboros" page="66">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="4"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="12"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="1"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="9"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="20"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="-"/>
+            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="3"/>
+            <characteristic characteristicId="5468726573686f6c6423232344415441232323" name="Threshold" value="-"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="ce208300-ad53-1b72-2583-396309d91e40" profileTypeId="576561706f6e23232344415441232323" name="Ram Fist" hidden="false" book="Forces of Hordes - Circle of Orboros" page="66">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="5"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="17"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="2eee5334-443a-1a5b-c558-3c4651e2bb35" profileTypeId="576561706f6e23232344415441232323" name="Ram Fist" hidden="false" book="Forces of Hordes - Circle of Orboros" page="66">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="5"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="17"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="01255fbf-5004-456c-406d-d00986c0937e" targetId="fd764118-7b63-7b7f-9d7c-6db3196ccfd6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2a25259d-2550-e1cb-2165-a14c99dc1da6" targetId="c9c8987e-c80f-ed4e-222c-5abde09b04e6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f6c499b4-f386-feb9-4e6f-0934c8aa9211" targetId="d5ccf1b0-4ba2-faf4-14b9-086c79de2e77" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="97ead259-ba01-4fb3-65fa-ceb56bf000f5" targetId="96d4f411-5e97-be5e-bf42-70d268ed1180" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="49d32f74-955d-f429-c802-f601d50319b7" name="WoldWarden" points="9.0" categoryId="576172626561737423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Circle of Orboros" page="65">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="558b8d85-c3e8-d9b6-b50d-bdfecb6b3101" name="Geomancy" hidden="false" book="Forces of Hordes - Circle of Orboros" page="65">
+          <description>Once per activation while in its controller&apos;s control area, thsi model can be forced to cast one of its warlock&apos;s spells with COST of 3 or less. This models&apos;s controller is considered to have cast the spell but this model is its point of orgin. When making a magic attack roll, this model uses its controller&apos;s FURY. This model cannot cast spells with a RNG of SELF or CTRL.</description>
+          <modifiers/>
+        </rule>
+        <rule id="c9556bf6-f9c6-078a-6db7-deeac1fda4bf" name="Chain Attack: Smite" hidden="false" book="Forces of Hordes - Circle of Orboros" page="65">
+          <description>If this model hits the same model with both its initial attacks with this weapon, after resolving the attacks it can immediately make one additional melee attack against that model. If the additional attack hits, the target is slammed d6&apos; directly away from thsi model. The POW of the slam damage roll is equal to the STR of this model + the POW of this weapon. The POW of collateral damage is equal to the STR of this model.</description>
+          <modifiers/>
+        </rule>
+        <rule id="ea077084-705f-8b7f-4273-7a55a32e87b9" name="Rune Fist: Magical Weapon" hidden="false" book="Forces of Hordes - Circle of Orboros" page="65">
+          <modifiers/>
+        </rule>
+        <rule id="ea8c2bc1-7268-da49-e93c-00d060c9456b" name="Rune Fist: Open Fist" hidden="false" book="Forces of Hordes - Circle of Orboros" page="65">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="4bd4e472-2d0f-49c7-0e2a-d8e68fe05322" profileTypeId="576172626561737423232344415441232323" name="WoldWarden" hidden="false" book="Forces of Hordes - Circle of Orboros" page="65">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="11"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="10"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="18"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="-"/>
+            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="3"/>
+            <characteristic characteristicId="5468726573686f6c6423232344415441232323" name="Threshold" value="-"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="b86c5e20-5e4d-05b1-a6d9-ad4af065cfd9" profileTypeId="576561706f6e23232344415441232323" name="Rune Fist" hidden="false" book="Forces of Hordes - Circle of Orboros" page="65">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="15"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="d5376f21-fbdf-524e-d2f8-0ce4fa03077a" profileTypeId="576561706f6e23232344415441232323" name="WoldWarden" hidden="false" book="Forces of Hordes - Circle of Orboros" page="65">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="15"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="8e640a9d-1cdd-08fb-c005-529b09099200" targetId="93725088-4d23-6b24-f082-f587844cb296" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="f6df7887-6dc4-558f-d233-ecc45d32f95d" targetId="c9c8987e-c80f-ed4e-222c-5abde09b04e6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="534a686f-32f7-b1ec-bcda-6c1160e20959" targetId="fd764118-7b63-7b7f-9d7c-6db3196ccfd6" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -1525,596 +2569,6 @@
           <modifiers/>
         </link>
       </links>
-    </entry>
-    <entry id="49d32f74-955d-f429-c802-f601d50319b7" name="WoldWarden" points="9.0" categoryId="576172626561737423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Circle of Orboros" page="65">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="558b8d85-c3e8-d9b6-b50d-bdfecb6b3101" name="Geomancy" hidden="false" book="Forces of Hordes - Circle of Orboros" page="65">
-          <description>Once per activation while in its controller&apos;s control area, thsi model can be forced to cast one of its warlock&apos;s spells with COST of 3 or less. This models&apos;s controller is considered to have cast the spell but this model is its point of orgin. When making a magic attack roll, this model uses its controller&apos;s FURY. This model cannot cast spells with a RNG of SELF or CTRL.</description>
-          <modifiers/>
-        </rule>
-        <rule id="c9556bf6-f9c6-078a-6db7-deeac1fda4bf" name="Chain Attack: Smite" hidden="false" book="Forces of Hordes - Circle of Orboros" page="65">
-          <description>If this model hits the same model with both its initial attacks with this weapon, after resolving the attacks it can immediately make one additional melee attack against that model. If the additional attack hits, the target is slammed d6&apos; directly away from thsi model. The POW of the slam damage roll is equal to the STR of this model + the POW of this weapon. The POW of collateral damage is equal to the STR of this model.</description>
-          <modifiers/>
-        </rule>
-        <rule id="ea077084-705f-8b7f-4273-7a55a32e87b9" name="Rune Fist: Magical Weapon" hidden="false" book="Forces of Hordes - Circle of Orboros" page="65">
-          <description></description>
-          <modifiers/>
-        </rule>
-        <rule id="ea8c2bc1-7268-da49-e93c-00d060c9456b" name="Rune Fist: Open Fist" hidden="false" book="Forces of Hordes - Circle of Orboros" page="65">
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="4bd4e472-2d0f-49c7-0e2a-d8e68fe05322" profileTypeId="576172626561737423232344415441232323" name="WoldWarden" hidden="false" book="Forces of Hordes - Circle of Orboros" page="65">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="11"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="10"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="18"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="-"/>
-            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="3"/>
-            <characteristic characteristicId="5468726573686f6c6423232344415441232323" name="Threshold" value="-"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="b86c5e20-5e4d-05b1-a6d9-ad4af065cfd9" profileTypeId="576561706f6e23232344415441232323" name="Rune Fist" hidden="false" book="Forces of Hordes - Circle of Orboros" page="65">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="15"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="d5376f21-fbdf-524e-d2f8-0ce4fa03077a" profileTypeId="576561706f6e23232344415441232323" name="WoldWarden" hidden="false" book="Forces of Hordes - Circle of Orboros" page="65">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="15"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="8e640a9d-1cdd-08fb-c005-529b09099200" targetId="93725088-4d23-6b24-f082-f587844cb296" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="f6df7887-6dc4-558f-d233-ecc45d32f95d" targetId="c9c8987e-c80f-ed4e-222c-5abde09b04e6" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="534a686f-32f7-b1ec-bcda-6c1160e20959" targetId="fd764118-7b63-7b7f-9d7c-6db3196ccfd6" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="a361a652-fe77-179f-1cbf-52b31d9634c1" name="Wold Guardian" points="9.0" categoryId="576172626561737423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Circle of Orboros" page="66">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="e39d6c45-5105-37e7-f8d7-48ffba8aeac3" name="Empathic Transference" hidden="false" book="Forces of Hordes - Circle of Orboros" page="66">
-          <description>A friendly Faction warlock can transfer damage to this model even if this model has a number of fury points equal to its current FURY.</description>
-          <modifiers/>
-        </rule>
-        <rule id="532a41e1-00bf-dbc1-c3ab-9f08c6efe2a8" name="Girded" hidden="false" book="Forces of Hordes - Circle of Orboros" page="66">
-          <description>This model does not suffer blast damge. Friendly models B2B with it do not suffer blast damage.</description>
-          <modifiers/>
-        </rule>
-        <rule id="09cb51eb-bfc8-ccf2-5a04-5c5b1fe46293" name="Ram Fist: Magical Weapon" hidden="false" book="Forces of Hordes - Circle of Orboros" page="66">
-          <modifiers/>
-        </rule>
-        <rule id="f3690c85-d2bb-7b60-7691-80bd40658519" name="Ram Fist: Ram" hidden="false" book="Forces of Hordes - Circle of Orboros" page="66">
-          <description>When an enemy model is hit by this weapon, it is knocked down and can be pushed 1&apos; directly away from this model. If it is pushed, this model can immediately advance directly toward the pushed model up to the distance that model was moved.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="605034f5-bedd-9312-a376-dd9b1fea8741" profileTypeId="576172626561737423232344415441232323" name="Wold Guardian" hidden="false" book="Forces of Hordes - Circle of Orboros" page="66">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="4"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="12"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="1"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="9"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="20"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="-"/>
-            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="3"/>
-            <characteristic characteristicId="5468726573686f6c6423232344415441232323" name="Threshold" value="-"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="ce208300-ad53-1b72-2583-396309d91e40" profileTypeId="576561706f6e23232344415441232323" name="Ram Fist" hidden="false" book="Forces of Hordes - Circle of Orboros" page="66">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="5"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="17"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="2eee5334-443a-1a5b-c558-3c4651e2bb35" profileTypeId="576561706f6e23232344415441232323" name="Ram Fist" hidden="false" book="Forces of Hordes - Circle of Orboros" page="66">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="5"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="17"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="01255fbf-5004-456c-406d-d00986c0937e" targetId="fd764118-7b63-7b7f-9d7c-6db3196ccfd6" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="2a25259d-2550-e1cb-2165-a14c99dc1da6" targetId="c9c8987e-c80f-ed4e-222c-5abde09b04e6" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="f6c499b4-f386-feb9-4e6f-0934c8aa9211" targetId="d5ccf1b0-4ba2-faf4-14b9-086c79de2e77" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="97ead259-ba01-4fb3-65fa-ceb56bf000f5" targetId="96d4f411-5e97-be5e-bf42-70d268ed1180" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="e0b765ba-a55c-cf08-01c7-30c9c372998b" name="Megalith" points="11.0" categoryId="576172626561737423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Circle of Orboros" page="67">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="82f3413b-34b6-912c-8099-f3b70975afd5" name="Affinity (Baldur)" hidden="false" book="Forces of Hordes - Circle of Orboros" page="67">
-          <description>If this model is in Baldur&apos;s control area at the start of Baldur&apos;s activation, Baldur automatically heals d3 damage points.</description>
-          <modifiers/>
-        </rule>
-        <rule id="cc671dc9-df5b-a4c9-e151-8742762a3523" name="Bountiful Restoration" hidden="false" book="Forces of Hordes - Circle of Orboros" page="67">
-          <description>During your Control Phase, remove d3 damage points from this model. During your Control Phase, remove 1 damage point from friendly Woldwardens B2B with it.</description>
-          <modifiers/>
-        </rule>
-        <rule id="94af69b8-1471-0098-81fb-f8ca46851aca" name="Geomancy" hidden="false" book="Forces of Hordes - Circle of Orboros" page="67">
-          <description>Once per activation while in its controller&apos;s control area, thsi model can be forced to cast one of its warlock&apos;s spells with COST of 3 or less. This models&apos;s controller is considered to have cast the spell but this model is its point of orgin. When making a magic attack roll, this model uses its controller&apos;s FURY. This model cannot cast spells with a RNG of SELF or CTRL.</description>
-          <modifiers/>
-        </rule>
-        <rule id="f73ce721-9f0e-6de1-8a9e-f26e45e5e05a" name="Rune Fist: Magcial Weapon" hidden="false" book="Forces of Hordes - Circle of Orboros" page="67">
-          <description></description>
-          <modifiers/>
-        </rule>
-        <rule id="b4a897f6-72bc-7882-0be6-f59bebd0ea59" name="Rune Fist: Open Fist" hidden="false" book="Forces of Hordes - Circle of Orboros" page="67">
-          <description></description>
-          <modifiers/>
-        </rule>
-        <rule id="0d16d15d-765d-d05f-2bd8-4843aac58f03" name="Weight of Stone" hidden="false" book="Forces of Hordes - Circle of Orboros" page="67">
-          <description>When a model is damaged by this weapon it suffers -3 SPD and DEF for one round.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="27254133-cb50-2491-5995-7cbfac432ad5" profileTypeId="576172626561737423232344415441232323" name="Megalith" hidden="false" book="Forces of Hordes - Circle of Orboros" page="67">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="11"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="10"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="19"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="-"/>
-            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="4"/>
-            <characteristic characteristicId="5468726573686f6c6423232344415441232323" name="Threshold" value="-"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="79ea115f-64ee-2385-cf50-ad98c8f6855f" profileTypeId="576561706f6e23232344415441232323" name="Rune Fist" hidden="false" book="Forces of Hordes - Circle of Orboros" page="67">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="5"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="16"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="33f7ac0f-72fe-c90b-5f2f-062324f3f133" profileTypeId="576561706f6e23232344415441232323" name="Rune Fist" hidden="false" book="Forces of Hordes - Circle of Orboros" page="67">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="5"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="16"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="dc9f7bc5-73ec-ea4d-d318-678d082719da" targetId="fd764118-7b63-7b7f-9d7c-6db3196ccfd6" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="9d31457a-d5c5-a8c5-9db2-285ffd9f2842" targetId="c9c8987e-c80f-ed4e-222c-5abde09b04e6" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="7429b77e-08d0-67d8-60c2-11eae9fd074e" targetId="730e0217-5055-e219-31c9-b376703b414f" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="65b8a699-13ef-e551-2468-f0d5f163af0d" targetId="96d4f411-5e97-be5e-bf42-70d268ed1180" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="6e17308a-d11c-6952-dc2f-10d6105864a8" name="Druids of Orboros" points="7.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Circle of Orboros" page="70">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="7c3c3dd7-b8e7-40df-a746-109655b6cf82" name="Leader: Camouflage" hidden="false" book="Forces of Hordes - Circle of Orboros" page="70">
-          <description>This model gains an additional +2 DEF when benefiting from concealment or cover.</description>
-          <modifiers/>
-        </rule>
-        <rule id="07168b8d-0578-9493-883b-bc5abe926fbe" name="Leader: Magic Ability (7)" hidden="false" book="Forces of Hordes - Circle of Orboros" page="70">
-          <description>	• Counter Magic (*Action) - This model cannot be target by enemy spells. While within 3&apos; of this model +1&apos; for each other model in this unit that is in formation, friendly models cannot be targeted by enemy spells and enemy models cannot cast spells. Counter Magic lasts for one round.
-
-	• Force Bolt (*Attack) - Force Bolt is RNG 10, POW 10 magic attack. An enemy model hit by this attack can be pushed d3&quot; directly toward or away from this model. Choose the direction before rolling the distance. On a critical hit, the enemy model is knocked down after being pushed.
-
-	• Medicate (*Action) -  RNG 3. Target friendly Faction warbeast. If the warbeast is in range, it heals d3 damge points. A warbeast can be affected by Medicate only once per turn.
-
-	• Summon Vortex (*Action) - Center a 3&quot; AOE cloud effect on this model. Enemy models suffer -2 to attack rolls while in the AOE Summon Vortex Lasts for one round.</description>
-          <modifiers/>
-        </rule>
-        <rule id="9454ce66-f13d-aced-e443-792b02cb9d42" name="Grunts: Pathfinder" hidden="false" book="Forces of Hordes - Circle of Orboros" page="70">
-          <description>This model can advance through rough terrain without penalty and can charge and make slam and trample power attacks across obstacles.</description>
-          <modifiers/>
-        </rule>
-        <rule id="751b4423-8081-65bf-5a0c-f9c61fe478a7" name="Grunts: Camouflage" hidden="false" book="Forces of Hordes - Circle of Orboros" page="70">
-          <description>This model gains an additional +2 DEF when benefiting from concealment or cover.</description>
-          <modifiers/>
-        </rule>
-        <rule id="6d115213-b1ea-5f8f-de79-060d3cad6f7e" name="Grunts: Magic Ability (7)" hidden="false" book="Forces of Hordes - Circle of Orboros" page="70">
-          <description>	• Counter Magic (*Action) - This model cannot be target by enemy spells. While within 3&apos; of this model +1&apos; for each other model in this unit that is in formation, friendly models cannot be targeted by enemy spells and enemy models cannot cast spells. Counter Magic lasts for one round.
-
-	• Force Bolt (*Attack) - Force Bolt is RNG 10, POW 10 magic attack. An enemy model hit by this attack can be pushed d3&quot; directly toward or away from this model. Choose the direction before rolling the distance. On a critical hit, the enemy model is knocked down after being pushed.
-
-	• Medicate (*Action) -  RNG 3. Target friendly Faction warbeast. If the warbeast is in range, it heals d3 damge points. A warbeast can be affected by Medicate only once per turn.
-
-	• Summon Vortex (*Action) - Center a 3&quot; AOE cloud effect on this model. Enemy models suffer -2 to attack rolls while in the AOE Summon Vortex Lasts for one round.</description>
-          <modifiers/>
-        </rule>
-        <rule id="6bf47e10-5d15-fb46-4245-8a0e73877ae1" name="Voulge: Magical Weapon" hidden="false" book="Forces of Hordes - Ciricle of Orboros" page="70">
-          <modifiers/>
-        </rule>
-        <rule id="832939a9-63c9-c36f-5880-925f9e331ba6" name="Voulge: Reach" hidden="false" book="Forces of Hordes - Ciricle of Orboros" page="70">
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="10158f2b-d4ab-a1b3-a2c1-110a79a15df3" profileTypeId="54726f6f70657223232344415441232323" name="Druids of Orboros" hidden="false" book="Forces of Hordes - Circle of Orboros" page="70">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="5"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="14"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="13"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
-            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="-"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="9899642a-965f-1db4-3eb4-5a3b6d6c959d" profileTypeId="576561706f6e23232344415441232323" name="Voulge" hidden="false" book="Forces of Hordes - Circle of Orboros" page="70">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="10"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="801baec2-3cee-0855-560e-7fd79cfc1856" targetId="c9c8987e-c80f-ed4e-222c-5abde09b04e6" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="0f18e2d8-90cf-5815-8d17-9a23bd310c88" name="Druid of Orboros Overseer" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Ciricle of Orboros" page="71">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="14ca64eb-8eac-2817-91f3-f8622cb92756" name="Attachment (Druids of Orboros)" hidden="false" book="Forces of Hordes - Ciricle of Orboros" page="71">
-          <description>This attachment can be added to a Druids of Orboros unit.</description>
-          <modifiers/>
-        </rule>
-        <rule id="84fb8a5d-4b29-53d4-1493-4da34a455b33" name="Beast Master" hidden="false" book="Forces of Hordes - Ciricle of Orboros" page="71">
-          <description>This model can force friendly Faction warbeast in its command range as if it were their controlling warlock.</description>
-          <modifiers/>
-        </rule>
-        <rule id="f644db8d-6718-978a-1a73-a44d2fd4ed41" name="Camouflage" hidden="false" book="Forces of Hordes - Ciricle of Orboros" page="71">
-          <description>This model gains an additional +2 DEF when benefiting from concealment or cover.</description>
-          <modifiers/>
-        </rule>
-        <rule id="0d4ed3eb-8234-6364-2ee9-24b7f14fcdae" name="Magic Ability (8)" hidden="false" book="Forces of Hordes - Ciricle of Orboros" page="71">
-          <description>• Elemental Protection (*Action) - Models in its unti gain Immunity: Cold, Immunity: Eectricity, and immunity: FIre for one round.
-
-• Medicate (*Action) - RNG 3. Target friendly Faction warbeast. If the warbeast is in range, it heals d3 damage points. A warbeast can be affected by Medicate only once per turn.
-
-• Summon Vortex (*Action) - Center a 3&quot; AOE cloud effect on thsi model. Enemy models suffer -2 to attack rolls while in the AOE. Summon Vortex lasts for one round.
-
-• The Devouring (*Attack) - The Devouring is a RNG 10, AOE 4, POW 8 magic attack. Add 1 to the POW of the attack for each model in this unit.</description>
-          <modifiers/>
-        </rule>
-        <rule id="a01fa633-87f2-df2f-eaaf-46169640abe0" name="Tactics: Advance Deployment" hidden="false" book="Forces of Hordes - Ciricle of Orboros" page="71">
-          <description>Models in this unit gain Advance Deployment.</description>
-          <modifiers/>
-        </rule>
-        <rule id="6efb7f1e-f8c4-21d7-89f0-27d2c7350195" name="Voulge: Magical Weapon" hidden="false" book="Forces of Hordes - Ciricle of Orboros" page="71">
-          <modifiers/>
-        </rule>
-        <rule id="2709df35-66e3-2f41-adc2-a7ebc21e0da4" name="Voulge: Reach" hidden="false" book="Forces of Hordes - Ciricle of Orboros" page="71">
-          <description></description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="924c43df-a992-e8f8-3fd4-1415fc78cd70" profileTypeId="54726f6f70657223232344415441232323" name="Overseer" hidden="false" book="Forces of Hordes - Ciricle of Orboros" page="71">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="14"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="13"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
-            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="813fefac-7aa6-99cd-4036-f5d9035c21a7" profileTypeId="576561706f6e23232344415441232323" name="Voulge" hidden="false" book="Forces of Hordes - Ciricle of Orboros" page="71">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="10"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="bbaa0ee6-dead-0868-5ded-34cbd1ae9313" targetId="a245f1e0-8f34-d44d-7889-b90ca7029b1b" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="3a2b57f3-0f13-3a2f-7659-13251010147e" targetId="c9c8987e-c80f-ed4e-222c-5abde09b04e6" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="823f849f-1315-339d-a608-29be193da5d2" name="Druid Stoneward &amp; Woldstalkers" points="5.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Ciricle of Orboros" page="72">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="e765d51b-d030-833c-17ae-492d2ae72a2e" name="Stoneward: Officer" hidden="false" book="Forces of Hordes - Circle of Orboros" page="72">
-          <description>This model is an Officer. The Officer is the unit commander of its unit.</description>
-          <modifiers/>
-        </rule>
-        <rule id="161913cd-faf3-3cd2-7f56-62683b222b25" name="Stoneward: Pathfinder" hidden="false" book="Forces of Hordes - Circle of Orboros" page="72">
-          <description>This model can advance through rough terrain without penalty and can charge and make slam and trample power attacks across obstacles.</description>
-          <modifiers/>
-        </rule>
-        <rule id="462909d1-2222-4d56-e27f-fc580dd45aa6" name="Stoneward: Magic Ability" hidden="false" book="Forces of Hordes - Circle of Orboros" page="72">
-          <description>• Concentrated Fire (*Action) - This activation models in this unit gain a +1 cumulative bonus to ranged damage rolls for each other model in this unit that has hit an enemy model with a ranged attack this activation.
-
-• Zephyr (*Action) - Models in this unit that are in formation can immediately advance up to 3&quot;. They cannot be targeted by free strikes during this movement.</description>
-          <modifiers/>
-        </rule>
-        <rule id="20002f83-2b8b-c1d9-3b57-2bfcc817390f" name="Stoneward: Self-Sacrifice" hidden="false" book="Forces of Hordes - Circle of Orboros" page="72">
-          <description>If this model is disabled by an enemy attack, you can choose a non-disabled model in this unit within 3&quot; of his model to be destroyed. If another model is destroyed as a result of Self-Sacrifice, this model heals 1 damage point.</description>
-          <modifiers/>
-        </rule>
-        <rule id="4e3b9fd0-30a1-eef8-e06b-6606ba38a6b5" name="Stoneward: Stone Heart" hidden="false" book="Forces of Hordes - Circle of Orboros" page="72">
-          <description>This model never flees and automatically passes command checks.</description>
-          <modifiers/>
-        </rule>
-        <rule id="a5062d11-6bdc-36a9-decd-7713276b1081" name="Woldstalker Grunt: Construct" hidden="false" book="Forces of Hordes - Circle of Orboros" page="72">
-          <description>This model is not a living model, never flees, and automatically passes comand checks.</description>
-          <modifiers/>
-        </rule>
-        <rule id="98cffa55-7d40-57f0-0e54-93c18bddb440" name="Woldstalker Grunt: Pathfinder" hidden="false" book="Forces of Hordes - Circle of Orboros" page="72">
-          <description>This model can advance through rough terrain without penalty and can charge and make slam and trample power attacks across obstacles.</description>
-          <modifiers/>
-        </rule>
-        <rule id="6d3b1a2d-3d69-b1b0-663a-e9a6978f6b41" name="Voulge: Magical Weapon" hidden="false" book="Forces of Hordes - Circle of Orboros" page="72">
-          <description></description>
-          <modifiers/>
-        </rule>
-        <rule id="fe118e5a-ff49-2648-8ec6-ac0595fd0138" name="Voulge: Reach" hidden="false" book="Forces of Hordes - Circle of Orboros" page="72">
-          <modifiers/>
-        </rule>
-        <rule id="ac77ae18-5026-e189-790f-fa5914d8a7cc" name="Arcane Strike: Magical Weapon" hidden="false" book="Forces of Hordes - Circle of Orboros" page="72">
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="01363371-0647-bfda-ed92-e72a2fdab0b5" profileTypeId="54726f6f70657223232344415441232323" name="Stoneward" hidden="false" book="Forces of Hordes - Ciricle of Orboros" page="72">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="14"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="13"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
-            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="f87bf145-b242-60a3-cd5c-bfb025c765a2" profileTypeId="54726f6f70657223232344415441232323" name="Woldstalkers Grunt" hidden="false" book="Forces of Hordes - Ciricle of Orboros" page="72">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="4"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="0"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="6"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="12"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="15"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="4"/>
-            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="9ebadf79-058b-6c22-1af2-2b54ca7d7afe" profileTypeId="576561706f6e23232344415441232323" name="Stoneward: Voulge" hidden="false" book="Forces of Hordes - Ciricle of Orboros" page="72">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="10"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="d5c4a9b8-b730-1cd9-a6c9-f8f6f4d41838" profileTypeId="576561706f6e23232344415441232323" name="Woldstalkers Grunt: Arcane Strike" hidden="false" book="Forces of Hordes - Ciricle of Orboros" page="72">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="10"/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="c51792f4-f031-6c2d-7eac-c1dc6f718a04" name="Sentry Stone &amp; Mannikins" points="3.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Circle of Orboros" page="73">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="cf091825-af7f-3f5c-f9e6-3452a2a10dd8" name="Sentry Stone: Adcanced Deployment" hidden="false" book="Forces of Hordes - Circle of Orboros" page="73">
-          <description>Place this model after normal deployment, up to 6&quot; beyond the established deployment zone.</description>
-          <modifiers/>
-        </rule>
-        <rule id="450738e0-49a7-004c-0706-63550d24cf54" name="Sentry Stone: Constuct" hidden="false" book="Forces of Hordes - Circle of Orboros" page="73">
-          <description>This model is not a living model, never flees, and automatically passes comand checks.</description>
-          <modifiers/>
-        </rule>
-        <rule id="ba17cc5e-4d76-42c6-2751-88d8ac28328c" name="Sentry Stone: officer" hidden="false" book="Forces of Hordes - Circle of Orboros" page="73">
-          <description>This model is an Officer. The Officer is the unit commander of its unit.</description>
-          <modifiers/>
-        </rule>
-        <rule id="c6ba2797-8b4f-9e54-16ab-25d99386f515" name="Sentry Stone: Stealth" hidden="false" book="Forces of Hordes - Circle of Orboros" page="73">
-          <description>Ranged and magic attacks declared against this model when the point of orgin of the attack is greater than 5&quot; away automatically miss.</description>
-          <modifiers/>
-        </rule>
-        <rule id="252ef879-7c49-7777-34c1-58e4d130a7f3" name="Sentry Stone: Devour Magic" hidden="false" book="Forces of Hordes - Circle of Orboros" page="73">
-          <description>Once per turn at any time during its unit&apos;s activation, this model can use Devour Magic. When it does, you can remove up to 1 focus or fury point from each enemy model in its command range. For each focus or fury point removed, placed 1 fury point on this model. A model can have focus or fury removed form it only once per turn as result of Devour Magic. This model can have up to 5 fury points at a time.</description>
-          <modifiers/>
-        </rule>
-        <rule id="359c4883-6dfb-cc7b-62b0-d94308237a6b" name="Sentry Stone: Immobile" hidden="false" book="Forces of Hordes - Circle of Orboros" page="72">
-          <description>This model has no movement or action and cannot be knocked down or moved. Its front arc extends to 360°. It has no melee range, cannot engage, and is automatically hit by melee attacks.</description>
-          <modifiers/>
-        </rule>
-        <rule id="842070ec-13d9-cf5e-5db8-db29a9e6cb6a" name="Sentry Stone: Phase" hidden="false" book="Forces of Hordes - Circle of Orboros" page="73">
-          <description>This model can spend 1 fury point to use Phase once at any time during its unit&apos;s activation. When it does, place this model anywhere within 5&quot; of its curent location.</description>
-          <modifiers/>
-        </rule>
-        <rule id="13870660-3a91-688c-9fbd-350fd0be68ba" name="Sentry Stone: Wellspring" hidden="false" book="Forces of Hordes - Circle of Orboros" page="73">
-          <description>If there are fewer than 3 fury points on the Sentry Stone at the start of its activation, place 1 fury point on it. If there are fewer than three Mannikin Grunts in this unit in play at any time during its unit&apos;s activation, this model can spend a fury point to put a Manikin Grunt into playl Place the Mannikin Grunts in formation. Mannikin Grunts cannot activate the activation they are put in play. If this model is destroyed or removed from play, the Mannikin Grunts in its unit are removed from play.</description>
-          <modifiers/>
-        </rule>
-        <rule id="23cd9723-a25e-bf26-7bb8-87b988866b0b" name="Mannikins Grunt: Advanced Deployment" hidden="false" book="Forces of Hordes - Circle of Orboros" page="73">
-          <description>Place this model after normal deployment, up to 6&quot; beyond the established deployment zone.</description>
-          <modifiers/>
-        </rule>
-        <rule id="6c4b09e6-c43a-cd96-8eee-143dd2fa98de" name="Mannikins Grunt: Construct" hidden="false" book="Forces of Hordes - Circle of Orboros" page="73">
-          <description>This model is not a living model, never flees, and automatically passes comand checks.</description>
-          <modifiers/>
-        </rule>
-        <rule id="391e2b1a-eead-8dba-8125-e4bcda1d5d1e" name="Mannikins Grunt: Pathfinder" hidden="false" book="Forces of Hordes - Circle of Orboros" page="73">
-          <description>This model can advance through rough terrain without penalty and can charge and make slam and trample power attacks across obstacles.</description>
-          <modifiers/>
-        </rule>
-        <rule id="40cac322-ae48-d9cb-bdb6-016a8ec284f6" name="Mannikins Grunt: Forest Growth (*Action)" hidden="false" book="Forces of Hordes - Circle of Orboros" page="73">
-          <description>Center a 3&quot; AOE on this model, then remove the model from play. This AOE is a forest that remains in play for one round.</description>
-          <modifiers/>
-        </rule>
-        <rule id="a391c12c-49ec-f414-38d1-9d8ca6a4f4c2" name="Mannikins Grunt: Fury Linked" hidden="false" book="Forces of Hordes - Circle of Orboros" page="73">
-          <description>While in formation, this model can spend fury on its unit command during its unit&apos;s activation to boost attack or damage rolls.</description>
-          <modifiers/>
-        </rule>
-        <rule id="1d482148-b72d-1542-3fb5-e19dc5bca2d4" name="Mannikins Grunt: Splinter Burst - Magical Burst" hidden="false" book="Forces of Hordes - Circle of Orboros" page="73">
-          <description></description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="f92e22bd-9243-344b-2608-fc52da1c137e" profileTypeId="54726f6f70657223232344415441232323" name="Sentry Stone" hidden="false" book="Forces of Hordes - Circle of Orboros" page="73">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="-"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="0"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="0"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="0"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="5"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="18"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="6"/>
-            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="8"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="bd2a1051-09bc-6ac3-fce4-c2c851c76c0f" profileTypeId="54726f6f70657223232344415441232323" name="Mannkin Grunt" hidden="false" book="Forces of Hordes - Circle of Orboros" page="73">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="7"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="5"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="12"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="12"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="-"/>
-            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value=""/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="ab83f618-f81c-181a-1500-4b8825a2adbd" profileTypeId="576561706f6e23232344415441232323" name="Mannikin Grunt: Splinter Burst" hidden="false" book="Forces of Hordes - Circle of Orboros" page="73">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="8"/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="10"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="ae0b229c-a4ba-c270-edb3-7541e25ed3d7" profileTypeId="576561706f6e23232344415441232323" name="Mannikin Grunt: Claw" hidden="false" book="Forces of Hordes - Circle of Orboros" page="73">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="2"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="11"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
     </entry>
   </entries>
   <rules/>
