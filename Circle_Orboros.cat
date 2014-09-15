@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0a25b8d1-d5a5-b952-f63f-b348ba4aaa13" revision="2" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="3" battleScribeVersion="1.14b" name="Circle Orboros" authorName="Hulkken" authorContact="deltao@msn.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0a25b8d1-d5a5-b952-f63f-b348ba4aaa13" revision="3" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="3" battleScribeVersion="1.14b" name="Circle Orboros" authorName="Hulkken" authorContact="deltao@msn.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="49bcf91d-062f-6fa2-91b6-97c43e677158" name="Argus" points="4.0" categoryId="576172626561737423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Circle of Orboros" page="56">
       <entries/>
@@ -141,6 +141,83 @@
           <modifiers/>
         </link>
         <link id="64a8e7ba-a15a-ca2c-c543-8f58cd20e713" targetId="7406b539-791a-c7ee-bd6d-0c4cdb9346ed" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="6d2ca4a9-ce61-47bf-6b4f-c1822da05ddb" name="Baldur the Stonesoul" points="-5.0" categoryId="5761726c6f636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="40">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="d5a9d6de-eb54-4ff6-43a1-17a10361bcea" name="Feat: Hallowed Ground" hidden="false" book="Domination" page="40">
+          <description>Friendly models currently in Baldur&apos;s control area again Roots of the Earth for one round. (A model affected by Roots of the Earth gains +3 ARM, cannot be knocked down, and cannot move or be placed.)</description>
+          <modifiers/>
+        </rule>
+        <rule id="02f35c0e-7371-b090-7461-7b93c81b3872" name="Devourer&apos;s Debt" hidden="false" book="Domination" page="40">
+          <description>During your Control Phase place one Wurm token on this model. For each Wurm token on this model it gains +1 STR. At the end of this model&apos;s activation it suffers 1 damage point for each Wurm token on it. This damage cannot be transferred.</description>
+          <modifiers/>
+        </rule>
+        <rule id="20a1b57d-0a63-a402-27da-a6fa3a3fa283" name="Elemental Mastery" hidden="false" book="Domination" page="40">
+          <description>Warbeasts in this model&apos;s battlegroup with Construct beginning their activations in this model&apos;s contorl area can charge and make power attacks without being forced. This model can heal friendly warbeasts in its battlegroup that have Construct.</description>
+          <modifiers/>
+        </rule>
+        <rule id="f5ea862e-32b3-4e3a-2e5b-c3892b0f5658" name="Ritual of Rewewal (*Action)" hidden="false" book="Domination" page="40">
+          <description>Remove all Wurm tokens from this model.</description>
+          <modifiers/>
+        </rule>
+        <rule id="c8ba4f61-d54c-a36e-d17c-0096f2c5bc4f" name="Tritus: Magical Weapon" hidden="false" book="Domination" page="40">
+          <modifiers/>
+        </rule>
+        <rule id="70b53822-0ce1-5922-7867-5311ad1771fd" name="Tritus: Reach" hidden="false" book="Domination" page="40">
+          <modifiers/>
+        </rule>
+        <rule id="774fc9b7-693d-a4bc-4ff0-5ffe247f64b4" name="Tritus: Weight of Stone" hidden="false" book="Domination" page="40">
+          <description>When a model is damaged by this weapon it suffers -3 SPD and DEF for one round.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="52703e51-0265-d147-98c3-05de8cc6b33c" profileTypeId="5761726c6f636b23232344415441232323" name="Baldur the Stonesoul" hidden="false" book="Domination" page="40">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="17"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
+            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="6"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="18"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="d5b21e3c-8348-e973-2ac9-8b63244d4816" profileTypeId="576561706f6e23232344415441232323" name="Tritus" hidden="false" book="Domination" page="40">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="7"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="14"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="59a3f4dc-3aab-aea9-e66d-d1846efa5a5f" targetId="c9c8987e-c80f-ed4e-222c-5abde09b04e6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="23170d37-bc5b-9642-e0db-9752fcb402e0" targetId="f9ad70b8-0e0e-fcee-26d1-66dcb2f54931" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="6033beae-ab39-955a-698b-60cb314a1a5b" targetId="e0ec3ab2-698e-cf69-87fc-7bd4d55b37ce" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="0c8f389d-a6ef-e1d6-3527-10454922e42c" targetId="1a8aa0fa-dad4-8f76-2997-9da362e5371f" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="527d6b6e-4e67-b0d5-2660-543d7ab18c80" targetId="0ef0fa60-b061-80f9-2f9c-8375c4f2ec50" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -319,6 +396,123 @@
           <modifiers/>
         </link>
         <link id="a345fbd8-3a8c-0a78-7c73-1a048c554892" targetId="cac64bab-d83b-6441-dafd-a0d35effa7c4" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="6b67fd82-bb90-71b4-c672-da42b2f6ae75" name="Celestial Fulcrum" points="9.0" categoryId="426174746c6520456e67696e6523232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="48">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="caaaa346-aae5-5f56-7281-af6f12cdfbf2" name="Circular Vision" hidden="false" book="Domination" page="48">
+          <description>This model&apos;s front arc extends to 360°.</description>
+          <modifiers/>
+        </rule>
+        <rule id="ca5c0fa4-e4fa-ee0e-9e50-37c4425c9e0e" name="Fury Generator" hidden="false" book="Domination" page="48">
+          <description>This model gains 1 fury point at the start of each of your Control Phases. It can have up to 3 fury points at a time. If this model is in a friendly warlock&apos;s control area, the warlock can leach fury points from it during your Control Phase. During its activation, this model can spead fury ponts to boost attack or damage rolls, at 1 fury point per boost.</description>
+          <modifiers/>
+        </rule>
+        <rule id="423be446-1f86-b4a0-a2c3-f59f9227f126" name="Interference" hidden="false" book="Domination" page="48">
+          <description>This model cannot be placed.</description>
+          <modifiers/>
+        </rule>
+        <rule id="3c5ebb12-9b73-6e19-d234-3598b6e4c4c7" name="Flame Blast: Continuous Effect - Fire" hidden="false" book="Domination" page="48">
+          <modifiers/>
+        </rule>
+        <rule id="1b50160f-7f61-6066-15c6-a27627f4443e" name="Flame Blast: Damge Type - Fire" hidden="false" book="Domination" page="48">
+          <modifiers/>
+        </rule>
+        <rule id="c6ec579b-950f-0ea9-59ac-825000a7d6a9" name="Flame Blast: Magical Weapon" hidden="false" book="Domination" page="48">
+          <modifiers/>
+        </rule>
+        <rule id="f181b314-8f81-ef30-2da8-4836df46b3d4" name="Flame Blast: Smoke" hidden="false" book="Domination" page="48">
+          <description>This weapon&apos;s AOE is a cloud effect that remains in play for one round.</description>
+          <modifiers/>
+        </rule>
+        <rule id="6fca9b21-8de7-17d5-ee05-b8c0e6923395" name="Lightning Bolt: Damage Type - Electricity" hidden="false" book="Domination" page="48">
+          <modifiers/>
+        </rule>
+        <rule id="772d22ef-35a7-b6c8-83fa-2714827c479a" name="Lightning Bolt: Magical Weapon" hidden="false" book="Domination" page="48">
+          <modifiers/>
+        </rule>
+        <rule id="0920ee39-31d2-6b75-0716-d707de572cf0" name="Lightning Bolt: Electro Leap" hidden="false" book="Domination" page="48">
+          <description>When a model is hit with this weapon, you can have lightning arc to the nearest model within 4&quot; of the model hit, ignoring the attacking model. The model the lightning arcs to sufers an unboostable POW 10 electrical damage roll.</description>
+          <modifiers/>
+        </rule>
+        <rule id="d2dc1210-f56f-b026-9975-315c64a05805" name="Winter&apos;s Rage: Damage Type - Cold" hidden="false" book="Domination" page="48">
+          <modifiers/>
+        </rule>
+        <rule id="91abd0fc-4159-1f7b-3402-e95733e81948" name="Winter&apos;s Rage: Magical Weapon" hidden="false" book="Domination" page="48">
+          <modifiers/>
+        </rule>
+        <rule id="5f9088dd-9528-f64a-798b-6313db01b3d5" name="Winter&apos;s Rage: Critical Freeze" hidden="false" book="Domination" page="48">
+          <description>On a Critical hit, the model hit becomes stationary for one round unless it has immunity: Cold.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="e3bc454f-f2c5-fbe7-a437-a94424e05767" profileTypeId="426174746c6520456e67696e6523232344415441232323" name="Celestial Fulcrum" hidden="false" book="Domination" page="48">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="10"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="-"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="6"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="10"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="18"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="10"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="20"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="b009ff1c-6d96-859a-c41b-4813aff6da99" profileTypeId="576561706f6e23232344415441232323" name="Flame Blast" hidden="false" book="Domination" page="48">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="8"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="4"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="15"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="-"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="906231be-df51-638e-641a-ee57925ecf01" profileTypeId="576561706f6e23232344415441232323" name="Lightning Bolt" hidden="false" book="Domination" page="48">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="12"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="14"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="1c67d9ba-6b76-d910-9920-6fc884eb1983" profileTypeId="576561706f6e23232344415441232323" name="Winter&apos;s Rage" hidden="false" book="Domination" page="48">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="10"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="17f329e7-6a25-30c4-1e00-f1ef662ec00d" targetId="fd764118-7b63-7b7f-9d7c-6db3196ccfd6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c8f18439-69fc-3a8d-1b64-4db32cbcd5c1" targetId="be653cfe-d0fd-5dd4-bd3f-9979450ba2a5" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="af43847e-d9e9-057a-d381-de7fd3210fb2" targetId="8a45f759-0b5e-eea2-6a90-50000bff4a76" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="46033d62-a299-d403-6225-bfe07c73d346" targetId="77af9a8f-5ef0-6667-39f5-8c8a0bda5727" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="92d72505-98f5-44db-ded5-70dd6f8adec6" targetId="ca9320d5-a4e0-ade4-02ec-59878720f1ff" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -701,6 +895,135 @@
       </profiles>
       <links>
         <link id="3dcf11b2-376f-70cb-3526-22241b3eb46c" targetId="ae1fc5cc-6961-6244-da3c-a849e01b250f" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="d3eb2db5-9172-2c43-5aaf-f976c370186f" name="Gallows Grove" points="1.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="4" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="46">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="faa67d15-2326-183c-88da-6a5aefd7ab5d" name="Channeler (friendly Faction warlock)" hidden="false" book="Domination" page="46">
+          <description>While this model is not engaged and is in a friendly Faction warlock&apos;s control area, the warlock can channel spells through it.</description>
+          <modifiers/>
+        </rule>
+        <rule id="36d16e0d-0f64-ed47-398d-d447d7186b9d" name="Entropic Force" hidden="false" book="Domination" page="46">
+          <description>While in this model&apos;s command range, enemy models lose Tough and cannot heal or be healed.</description>
+          <modifiers/>
+        </rule>
+        <rule id="42f8882e-7a85-c9b6-e6b0-6e4941cec412" name="Immobile" hidden="false" book="Domination" page="46">
+          <description>This model has no movement or action and cannot be knocked down or moved. Its front arc extends to 360°. It has no melee range, cannot engage, and is automatically hit by melee attacks.</description>
+          <modifiers/>
+        </rule>
+        <rule id="bbc45f13-54e1-2d66-a716-a29eb586be67" name="Prowl" hidden="false" book="Domination" page="46">
+          <description>Thsi model gains Stealth while within terrain that provides concealment, the AOE of a spell that provides concealment, or the AOE of a cloud effect.</description>
+          <modifiers/>
+        </rule>
+        <rule id="f6bea0f3-cb9a-f41a-9211-81af030b2ea2" name="Strange Growth" hidden="false" book="Domination" page="46">
+          <description>Once per turn during its activation, place this model anywhere within 5&quot; of its current location. This model cannot be placed except as a resault of Strange Growth.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="cfbf694e-2489-0513-f852-4c896468f105" profileTypeId="54726f6f70657223232344415441232323" name="Gallows Grove" hidden="false" book="Domination" page="46">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="-"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="0"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="0"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="0"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="5"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="16"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="3"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="5980a036-3b68-6592-66af-3f5b6fc123d4" targetId="b2a35539-271b-a334-e50f-0cf74dcafc82" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="ce391b70-e0ec-4228-f96a-7ff2eb2f85b1" name="Ghetorix" points="11.0" categoryId="576172626561737423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="44">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="57750f99-8d7c-ee07-c691-b5b0bc52f419" name="Controlled Warping" hidden="false" book="Domination" page="44">
+          <description>At the beginning of this model&apos;s activation, choose one of the following warp effects. Warp effects last for one round. If this model frenzies it must choose Warp Strength at the start of its activation.
+
+• Hyper Aggressive - When this model suffers damage from an enemy attack anytime except while it is advancing, after the attack is resolved it can immediately make a full advance directly toward the attacking model.
+
+• Snacking - When this model boxes a living model with a melee attack, this model can heal d3 damage points. If this model heals, the boxed model is removed from play.
+
+• Warp Strength - This model gains +2 STR.</description>
+          <modifiers/>
+        </rule>
+        <rule id="7b33c1e1-ddc0-154f-e872-bea2ce8b88cc" name="Regeneration (d3)" hidden="false" book="Domination" page="44">
+          <description>This model can be forced to heal d3 damage points once per activation. This model cannot use Regeneration during an activation it runs.</description>
+          <modifiers/>
+        </rule>
+        <rule id="ccb82998-1d19-1e5d-7e5c-4feeba6a80fb" name="Special Issue (kromac)" hidden="false" book="Domination" page="44">
+          <description>This model can be included in Kromac&apos;s theme forces. It can also be bonded to Kromac.</description>
+          <modifiers/>
+        </rule>
+        <rule id="e73b0bc0-0cc9-59fe-8219-90eb51c355ea" name="Unyielding" hidden="false" book="Domination" page="44">
+          <description>While engaging an enemey model, this model gains +2 ARM.</description>
+          <modifiers/>
+        </rule>
+        <rule id="f186be6f-bf76-9250-8137-2f8cc5072442" name="Great Axe: Reach" hidden="false" book="Domination" page="44">
+          <modifiers/>
+        </rule>
+        <rule id="52f680bb-430c-dc18-9b05-df903f6f23bd" name="Great Axe: Powerful Charge" hidden="false" book="Domination" page="44">
+          <description>This model gains +2 to charge attack roll with this weapon.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="04a0692d-8172-076f-8399-8ffcad088622" profileTypeId="576172626561737423232344415441232323" name="Ghetorix" hidden="false" book="Domination" page="44">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="11"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="3"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="14"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="17"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
+            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="4"/>
+            <characteristic characteristicId="5468726573686f6c6423232344415441232323" name="Threshold" value="8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="de9cf7ab-fa07-84fd-4295-8cf20545105d" profileTypeId="576561706f6e23232344415441232323" name="Bite" hidden="false" book="Domination" page="44">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="14"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="0475e74b-2aa3-487a-4a8b-e1fd49a0d0f3" profileTypeId="576561706f6e23232344415441232323" name="Great Axe" hidden="false" book="Domination" page="44">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="6"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="17"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="-"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="87e558a0-38d9-f348-b76a-385b4a5ac480" targetId="f956664c-bb46-c33c-1957-1419ccf2f000" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="e91f8b4b-d2e9-7b0b-f879-a2b559071a13" targetId="3426071f-b0da-a79b-e390-5db585750870" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -1737,6 +2060,97 @@
         </link>
       </links>
     </entry>
+    <entry id="378249ca-4ad7-488d-e677-a52b3b67c4d6" name="Morvahna the Dawnshadow" points="-5.0" categoryId="5761726c6f636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Gargantuans" page="72">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="7bf6657c-2ac4-508f-7d18-4be41f7d0b50" name="Feat: Blood Sacrifice" hidden="false" book="Gargantuans" page="72">
+          <description>Morvahna immediately suffers 1 or more damage points. This damge cannot be transferred. For each damage point she suffers, return one destroyd non-character living friendly Faction warrior model to play completely within her contorl area. Place returned trooper models in formation with their original units. Units cannot exceed the number of models they had t the start of the game as a result of Blood Sacrifice. Returned models forfeit their actions the turn they retun to play.</description>
+          <modifiers/>
+        </rule>
+        <rule id="af9d59ee-cde0-6a51-e596-65481401bb5b" name="Imperishable Conviction" hidden="false" book="Gargantuans" page="72">
+          <description>When a friendly Faction model in its control area is destroyed by an enemy attack, this model heals 1 damage ponit.</description>
+          <modifiers/>
+        </rule>
+        <rule id="6b7fef5e-80ce-20e4-00ef-62b0a1309b8f" name="Scales of Fate" hidden="false" book="Gargantuans" page="72">
+          <description>When a friendly Faction model makes an attack or damage roll during its activation while in this model&apos;s control area, this model can suffer d3 damage points to cause that model to reroll that roll. Each roll can be rerolled only once due to Scales of Fate.</description>
+          <modifiers/>
+        </rule>
+        <rule id="2cb7406f-87f2-98b1-f6d3-701d33618a45" name="Equinox: Magical Weapon" hidden="false" book="Gargantuans" page="72">
+          <modifiers/>
+        </rule>
+        <rule id="8d1ee032-e3a8-96ed-1f7f-9de451ce0c01" name="Equinox: Reach" hidden="false" book="Gargantuans" page="72">
+          <modifiers/>
+        </rule>
+        <rule id="460bffda-ddf2-f262-6137-97acc0bf8cb4" name="Equinox: Life Trader" hidden="false" book="Gargantuans" page="72">
+          <description>When an attack with this weapon hits, this model can suffer 1 damage point to gain an additional die on the damage roll against the model hit. Life Trader can be used once per attack.</description>
+          <modifiers/>
+        </rule>
+        <rule id="6e2fb79b-d7f7-bef2-7079-1567d0539686" name="Mount: Ram" hidden="false" book="Gargantuans" page="72">
+          <description>When an enemy model hit by this weapon, it is knocked down down and can be pushed 1&quot; directly away from this model. If it is pushed, this model can immediately advance directly toward the pushed model up to th distance that model was moved.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="5ba55b4c-4b9c-ff5e-61d4-0983807cac9f" profileTypeId="5761726c6f636b23232344415441232323" name="Morvahna the Dawnshadow" hidden="false" book="Gargantuans" page="72">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="8"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="5"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="15"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="15"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
+            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="7"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="16"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="da449be3-6a27-d172-9df0-386ea8de3fde" profileTypeId="576561706f6e23232344415441232323" name="Equinox" hidden="false" book="Gargantuans" page="72">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="7"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="12"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="5455bffe-e687-24f0-92bc-90c8915fcc6f" profileTypeId="576561706f6e23232344415441232323" name="Mount" hidden="false" book="Gargantuans" page="72">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="1413f69f-0da4-aea8-d28c-086d981952ce" targetId="c9c8987e-c80f-ed4e-222c-5abde09b04e6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="69b5dbc7-5552-e39b-15ce-3ac0827ef6a9" targetId="2ccc8a3a-0c67-c5b7-f743-8e1b5f9bac8d" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="aad6bae8-7cca-abad-2c35-38b2c1a89592" targetId="5cb6f403-96b8-17ca-e000-80b144b462a8" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="04dbc19e-cdcb-785a-e2b4-fd2a19d6e618" targetId="0687c429-5028-7ad4-c2ab-af12c13ac700" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="b5de51d2-6223-9afe-c64b-402912a0805a" targetId="39d0afbc-348e-3a09-7cc3-7d7515effbec" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="56a30cbd-4f2c-073d-d823-e624f8e11601" targetId="ed20deae-0fd6-33fc-53fc-54dd0e99c296" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="7f67a6f7-dabc-2d98-df37-493458841aac" name="Nuala the Huntress" points="2.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Circle of Orboros" page="79">
       <entries/>
       <entryGroups/>
@@ -1899,6 +2313,85 @@
       </profiles>
       <links>
         <link id="7d201123-a745-10fc-c5c9-ddeeeb6b7407" targetId="ab7ae0d6-9155-3d9c-db2b-7d71dfad0c2f" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="f17c103d-aa3a-20a8-d3e9-ff905ddb0835" name="Razorwing Griffon" points="5.0" categoryId="576172626561737423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Gargantuans" page="74">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="0ae1ad42-e4f9-cfc5-0a23-55cdd07037b3" name="Blade Rush" hidden="false" book="Gargantuans" page="74">
+          <description>While making a trample power attack, this model ignores free strikes and does not stop when it contacts a model with a medium or larger base, an obstacle, or an obstruction. This model makes models regardless of their base size.</description>
+          <modifiers/>
+        </rule>
+        <rule id="84463d94-124b-91f2-b41b-d2174b49fd68" name="Power Attack Trample" hidden="false" book="Gargantuans" page="74">
+          <description>This model can make trample power attacks.</description>
+          <modifiers/>
+        </rule>
+        <rule id="90cf9aac-ad98-51f4-12cb-c55968c50833" name="Claw Blades: Open Fist" hidden="false">
+          <modifiers/>
+        </rule>
+        <rule id="46eaff12-771a-bc99-0ad5-c80364c4a35e" name="Wing Bladess: Threshing Blades" hidden="false" book="Gargantuans" page="74">
+          <description>This model can add this weapon&apos;s POW to its trample power attack damage rolls.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="c3f5c79a-9927-887f-c054-d7f7006f1843" profileTypeId="576172626561737423232344415441232323" name="Razorwing Griffon" hidden="false" book="Gargantuans" page="74">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="8"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="1"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="14"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="15"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="6"/>
+            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="3"/>
+            <characteristic characteristicId="5468726573686f6c6423232344415441232323" name="Threshold" value="8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="fb50e9d0-19e5-a62b-0c95-0d54eef8bd9e" profileTypeId="576561706f6e23232344415441232323" name="Claw Blades" hidden="false" book="Gargantuans" page="74">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="12"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="bccbb881-6b95-75e5-dc24-da8f8c913602" profileTypeId="576561706f6e23232344415441232323" name="Claw Blades" hidden="false" book="Gargantuans" page="74">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="12"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="1635318d-9ee3-7c15-5a39-3fa6ac631552" profileTypeId="576561706f6e23232344415441232323" name="Wing Blades" hidden="false" book="Gargantuans" page="74">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="12  \    12 "/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="066954a4-ae8f-6aab-03b0-dd9393b6fefc" targetId="b1ee2ad9-615b-ba86-b4c1-6f0a5245013a" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="09fa9f77-0fd1-84fd-4440-ae923c14968d" targetId="c03455ab-b474-a3fd-d7f2-0197ec33bde8" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -2163,6 +2656,158 @@
           <modifiers/>
         </link>
         <link id="50dcb801-4aa1-c158-2245-4e171ed337c6" targetId="c9c8987e-c80f-ed4e-222c-5abde09b04e6" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="aa98f91c-8db3-32b1-49b4-87d531ce4f3c" name="Rip Horn Satyr" points="9.0" categoryId="576172626561737423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Gargantuans" page="75">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="6122290e-77c0-7e9b-ea67-9025bc81771b" name="Horns: Hard Head" hidden="false" book="Gargantuans" page="75">
+          <description>This model can add thsi weapon&apos;s POW to its head-butt and slam power attack damage rolls.</description>
+          <modifiers/>
+        </rule>
+        <rule id="bd4a7919-9b91-4fc1-788f-a0e313abb87c" name="Bladed Gauntlet: Open Fist" hidden="false" book="Gargantuans" page="75">
+          <modifiers/>
+        </rule>
+        <rule id="15b40c05-8af6-a5b8-ec33-4ad1703571a6" name="Bladed Gauntlet: Chain Attack - Grab and Smash" hidden="false" book="Gargantuans" page="75">
+          <description>If this model hits the same model with both its initial attacks with this weapon, after resoving the attacks it can immediately make a double-hand throw, head-butt, headlock/weapon lock, push, or throw power attack against that target.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="c09f95c1-8707-3e5d-2081-5f938e935f79" profileTypeId="576172626561737423232344415441232323" name="Rip Horn Satyr" hidden="false" book="Gargantuans" page="75">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="12"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="3"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="12"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="19"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="7"/>
+            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="4"/>
+            <characteristic characteristicId="5468726573686f6c6423232344415441232323" name="Threshold" value="9"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="b9309693-5326-1540-dd65-dca13893d640" profileTypeId="576561706f6e23232344415441232323" name="Horns" hidden="false" book="Gargantuans" page="75">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="16"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="1f911e25-5487-16d4-2cd3-1b8ee1c5b291" profileTypeId="576561706f6e23232344415441232323" name="Bladed Gauntlet" hidden="false" book="Gargantuans" page="75">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="16"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="124ba07f-3fb3-9329-889b-c276669b5e87" profileTypeId="576561706f6e23232344415441232323" name="Bladed Gauntlet" hidden="false" book="Gargantuans" page="75">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="16"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="3913162d-8fd6-4bc8-0561-b7848a59af40" targetId="ce94a2af-2ef2-e4c0-23e5-d7e0c5d82ee8" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="d0c39d41-ae1a-675a-fbbe-6333f7090229" targetId="c763d4f8-31e6-7b42-bccb-fb490235d22e" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="1bc40b19-cb82-9a3c-2387-91ce059d39d1" name="Scarsfell Griffon" points="5.0" categoryId="576172626561737423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="42">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="7d794769-cd37-8aee-47fe-f84aef2bfa74" name="Long Leash" hidden="false" book="Domination" page="42">
+          <description>When checking to see if this model is in its contorller&apos;s control area, double the area.</description>
+          <modifiers/>
+        </rule>
+        <rule id="7d59568b-cc2d-cb3b-b174-d142f897eb09" name="Claw: Open Fist" hidden="false" book="Domination" page="42">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="994612dc-0a4e-3932-762d-36380688387b" profileTypeId="576172626561737423232344415441232323" name="Scarsfell Griffon" hidden="false" book="Domination" page="42">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="8"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="1"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="14"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="15"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="6"/>
+            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="3"/>
+            <characteristic characteristicId="5468726573686f6c6423232344415441232323" name="Threshold" value="8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="5eb984fc-c9a1-d459-dcac-efddb2e645e8" profileTypeId="576561706f6e23232344415441232323" name="Beak" hidden="false" book="Domination" page="42">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="12"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="34b77091-e57d-6c28-7255-65be522a2d18" profileTypeId="576561706f6e23232344415441232323" name="Claw" hidden="false" book="Domination" page="42">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="11"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="8b509f19-9d23-4d4f-30ec-e730662968b2" profileTypeId="576561706f6e23232344415441232323" name="Claw" hidden="false" book="Domination" page="42">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="11"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="339993bd-6bad-cc23-905c-8318674d29ea" targetId="4246c903-0508-176a-3b14-300d88f4de8d" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="cb00fb9c-9706-f423-91ff-ab369aca589d" targetId="94c1371d-a183-9b7d-8aa7-6024f427ad39" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c6fb3ce5-d225-e308-d5c5-d5d8b5efe14f" targetId="7d2ffd1c-0815-c2c4-6dac-3c0fdcab5d79" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="974206a5-77f2-70b0-a662-f57fb7520100" targetId="c03455ab-b474-a3fd-d7f2-0197ec33bde8" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -2476,6 +3121,77 @@
           <modifiers/>
         </link>
         <link id="b478ec2a-6fe0-35ab-b6a2-a0ffc331e916" targetId="c9c8987e-c80f-ed4e-222c-5abde09b04e6" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="dfeb198e-75c9-6149-5340-e2eb4f23e19a" name="Tharn Blood Pack" points="7.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Gargantuans" page="76">
+      <entries>
+        <entry id="b02c77d5-44a5-f9fe-886a-36a2d86e93ef" name="Leader &amp; 3 Grunts -&gt; Leader &amp; 5 Grunts" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Gargantuans" page="76">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="67d78ece-2dcd-301d-8006-967f6eb622b0" name="Assault &amp; Battery (Order)" hidden="false" book="Gargantuans" page="76">
+          <description>Before their normal movement, affected models can make one ranged attack. During their normal movement, affected models must charge or run. The ranged attack is made before declaring a charge target.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="6b6747e4-ca5e-fc07-01c9-694981dc580a" profileTypeId="54726f6f70657223232344415441232323" name="Leader &amp; Grunts" hidden="false" book="Gargantuans" page="76">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="8"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="6"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="14"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="8 each"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="9a3bf7e1-55f3-bd62-6fca-9f2cd00f5b08" profileTypeId="576561706f6e23232344415441232323" name="Tharn Bow" hidden="false" book="Gargantuans" page="76">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="12"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="13"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="c4dff24d-699d-40b8-2c6e-56d408a9c1ce" profileTypeId="576561706f6e23232344415441232323" name="Hunter&apos;s Blade" hidden="false" book="Gargantuans" page="76">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="11"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="2d461195-1daa-176b-1128-46cb1d92c6aa" targetId="348c3769-37fa-8a92-3e7d-48835184fc30" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="56edc7ff-c2c7-8205-08a5-8f72a1ba7164" targetId="c9c8987e-c80f-ed4e-222c-5abde09b04e6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b88ece63-c4ab-40f2-574a-5c1e4bb07b22" targetId="047a84fb-966c-a0d0-e472-f0164c57ce74" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a45f12b7-68b4-b5ba-26ea-b69b5d7c210c" targetId="bd72c665-ad4b-c14d-f4f4-6e9521779a6a" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -3045,6 +3761,83 @@
         </link>
       </links>
     </entry>
+    <entry id="af9a2302-c7cd-b515-c05a-c8dd315af7a1" name="Warpborn Alpha" points="3.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Gargantuans" page="77">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="8fc0ab61-d48e-0ecc-1605-cc2a3732fc6c" name="Attachment (Warpborn Skinwarlker)" hidden="false" book="Gargantuans" page="77">
+          <description>This attachment can be added to a Warpborn Skinwalker unit.</description>
+          <modifiers/>
+        </rule>
+        <rule id="e9bbecb3-7936-f5e7-f6b3-f5bfccd99041" name="Granted : Blood Drinker" hidden="false" book="Gargantuans" page="77">
+          <description>While this model is in play, models in its unit gain Blood Drinker. (Immediately after model with Blood Drinker resolves a melee attack in which it destorys one or more living models, it can end its activation to heal d3 damage points.)</description>
+          <modifiers/>
+        </rule>
+        <rule id="0ce73682-fd6f-b891-397e-62d4a4b976a4" name="Relentless Advance" hidden="false" book="Gargantuans" page="77">
+          <description>When a model in this unit is damaged by an emeny attack, models in this unit gain +2 SPD for one round.</description>
+          <modifiers/>
+        </rule>
+        <rule id="34a40047-aba0-46f2-8ee2-d57eaacb3efa" name="Retaliatory Strike" hidden="false" book="Gargantuans" page="77">
+          <description>When this model is hit by a melee attack made by an enemy model during your opponet&apos;s turn, after the attack is resolved this model can immediately make one normal melee attack against that model. This model can make one Retaliatory Strike per turn.</description>
+          <modifiers/>
+        </rule>
+        <rule id="90fdb8ba-12fc-5e21-57c4-62e87764ff27" name="Tactics: Rapid Strike" hidden="false" book="Gargantuans" page="77">
+          <description>Models in this unit gain Rapid Strike. (A model with Rapid Strike can make one additional melee attack each combat action.)</description>
+          <modifiers/>
+        </rule>
+        <rule id="beb8a18a-790b-4857-502b-2dde7b8d607f" name="Unyielding" hidden="false" book="Gargantuans" page="77">
+          <description>While engaging an enemy model, this model gains +2 ARM.</description>
+          <modifiers/>
+        </rule>
+        <rule id="8dcf8ef8-2615-93a8-f4cb-27fef84468f0" name="Pole Axe: Reach" hidden="false" book="Gargantuans" page="77">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="2201a468-127d-f3d7-4209-c2a6928d2e02" profileTypeId="54726f6f70657223232344415441232323" name="Warpborn Alpha" hidden="false" book="Gargantuans" page="77">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="8"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="3"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="12"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="16"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="8d59fc7a-43d1-9529-f1a1-d15485f64384" profileTypeId="576561706f6e23232344415441232323" name="Pole Axe" hidden="false" book="Gargantuans" page="77">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="5"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="13"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="e59d94a4-8752-efcf-05a6-8090c289e766" targetId="18dabff9-2f10-607e-660f-bc2ece30b36c" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7c90d4a8-1dfe-1dfe-8965-22481041e3e3" targetId="348c3769-37fa-8a92-3e7d-48835184fc30" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="46bf7501-2ef0-68b7-f762-d118603ad67d" targetId="a245f1e0-8f34-d44d-7889-b90ca7029b1b" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="688a5f47-2c10-4b2e-900b-3670e8a6b76b" targetId="c9c8987e-c80f-ed4e-222c-5abde09b04e6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4fc44efc-8d03-4e22-b704-933fcf5bfdc6" targetId="3426071f-b0da-a79b-e390-5db585750870" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="f21a4016-329e-6290-28f5-2043ce290ddd" name="Warpborn Skinwalkers" points="5.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Circle of Orboros" page="85">
       <entries>
         <entry id="859ee7de-f357-ce87-f472-10ca4e1283ae" name="Leader &amp; 2 Grunts -&gt; Leader &amp; 4 Grunts" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Circle of Orboros" page="85">
@@ -3181,6 +3974,92 @@
           <modifiers/>
         </link>
         <link id="3d53232b-5495-0d68-c5fb-d36da5847982" targetId="feab9ac5-65ed-078f-4600-32ce229de73b" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="477264d7-45ee-e48b-1fb1-2b4d6d7c2e38" name="Winter Argus" points="5.0" categoryId="576172626561737423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="43">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="c362ea9a-457a-c451-454b-458c5c160e43" name="Circular Vision" hidden="false" book="Domination" page="43">
+          <description>This model&apos;s front arc extends to 360</description>
+          <modifiers/>
+        </rule>
+        <rule id="92a2d8d8-d63b-184e-a1f1-8875da26ba4e" name="Frost Breath: Damage Type - Cold" hidden="false" book="Domination" page="43">
+          <modifiers/>
+        </rule>
+        <rule id="f68ac793-567b-6da7-6309-87efb1ce0074" name="Frost Breath: Critical Freeze" hidden="false" book="Domination" page="43">
+          <description>On a critical hit, the model hit becomes stationary for one round unless it has Immunity: Cold</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="b93bef46-f82f-9e65-93c5-d585ac10e747" profileTypeId="576172626561737423232344415441232323" name="Winter Argus" hidden="false" book="Domination" page="43">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="7"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="8"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="5"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="15"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="14"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="6"/>
+            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="3"/>
+            <characteristic characteristicId="5468726573686f6c6423232344415441232323" name="Threshold" value="9"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="87cc2554-7c12-7ddb-8618-73739dfc6d85" profileTypeId="576561706f6e23232344415441232323" name="Frost Breath" hidden="false" book="Domination" page="43">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="3afa1e97-2b53-13f1-f927-766e96cf2e2d" profileTypeId="576561706f6e23232344415441232323" name="Frost Breath" hidden="false" book="Domination" page="43">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="ea1e5a6a-e013-5751-a34f-521e9c9d641b" profileTypeId="576561706f6e23232344415441232323" name="Bite" hidden="false" book="Domination" page="43">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="12"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="6616772e-14f9-d082-4dc4-630d61361af2" profileTypeId="576561706f6e23232344415441232323" name="Bite" hidden="false" book="Domination" page="43">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="12"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="6c6e343f-309e-5618-7d51-79d34fad4f39" targetId="d57f0899-357e-76a4-a0ab-848d6a5b047c" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="f73abe60-73f9-2fe6-60ae-f0244ac01453" targetId="8a45f759-0b5e-eea2-6a90-50000bff4a76" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -3706,325 +4585,84 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="6d2ca4a9-ce61-47bf-6b4f-c1822da05ddb" name="Baldur the Stonesoul" points="-5.0" categoryId="5761726c6f636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="40">
+    <entry id="3360e76a-1446-b30c-24ab-693c0a41b433" name="WoldWrath" points="20.0" categoryId="576172626561737423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Gargantuans" page="80">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules>
-        <rule id="d5a9d6de-eb54-4ff6-43a1-17a10361bcea" name="Feat: Hallowed Ground" hidden="false" book="Domination" page="40">
-          <description>Friendly models currently in Baldur&apos;s control area again Roots of the Earth for one round. (A model affected by Roots of the Earth gains +3 ARM, cannot be knocked down, and cannot move or be placed.)</description>
+        <rule id="42ef29c7-b46d-e0d0-173e-4349ac4950b1" name="Spell Ward" hidden="false" book="Gargantuans" page="80">
+          <description>This model cannot be targeted by spells</description>
           <modifiers/>
         </rule>
-        <rule id="02f35c0e-7371-b090-7461-7b93c81b3872" name="Devourer&apos;s Debt" hidden="false" book="Domination" page="40">
-          <description>During your Control Phase place one Wurm token on this model. For each Wurm token on this model it gains +1 STR. At the end of this model&apos;s activation it suffers 1 damage point for each Wurm token on it. This damage cannot be transferred.</description>
+        <rule id="f92d1caf-3559-037c-b421-4fa68afcbaf6" name="Lightning Strike: Damge Type - Electricity" hidden="false" book="Gargantuans" page="80">
           <modifiers/>
         </rule>
-        <rule id="20a1b57d-0a63-a402-27da-a6fa3a3fa283" name="Elemental Mastery" hidden="false" book="Domination" page="40">
-          <description>Warbeasts in this model&apos;s battlegroup with Construct beginning their activations in this model&apos;s contorl area can charge and make power attacks without being forced. This model can heal friendly warbeasts in its battlegroup that have Construct.</description>
+        <rule id="2bfd8096-59f1-607a-b358-be52488b3610" name="Lightning Strike: Storm Generator" hidden="false" book="Gargantuans" page="80">
+          <description>When a model is directly hit with this weapon, center 3&quot; AOE on it. You can then have lightning arc to the nearest model within 4&quot; of the model hit, ignoring the attacking model. The model the lightning arcs to suffers an unboostable POW 10 electrical damage roll. After this damage roll is resolved, center a 3&quot; AOE on the model the lightning arced to. The AOE remain in play for one round. Models entering or ending their activations in an AOE suffer a POW 10 electrical damage roll.</description>
           <modifiers/>
         </rule>
-        <rule id="f5ea862e-32b3-4e3a-2e5b-c3892b0f5658" name="Ritual of Rewewal (*Action)" hidden="false" book="Domination" page="40">
-          <description>Remove all Wurm tokens from this model.</description>
+        <rule id="583e4189-f817-1b3f-fa20-e6c57cac1198" name="Stone Fist: Open Fist" hidden="false" book="Gargantuans" page="80">
           <modifiers/>
         </rule>
-        <rule id="c8ba4f61-d54c-a36e-d17c-0096f2c5bc4f" name="Tritus: Magical Weapon" hidden="false" book="Domination" page="40">
-          <modifiers/>
-        </rule>
-        <rule id="70b53822-0ce1-5922-7867-5311ad1771fd" name="Tritus: Reach" hidden="false" book="Domination" page="40">
-          <description></description>
-          <modifiers/>
-        </rule>
-        <rule id="774fc9b7-693d-a4bc-4ff0-5ffe247f64b4" name="Tritus: Weight of Stone" hidden="false" book="Domination" page="40">
-          <description>When a model is damaged by this weapon it suffers -3 SPD and DEF for one round.</description>
+        <rule id="9d94b1cc-2eab-e558-e269-889819e4a2c5" name="Stone Fist: Earth Shaker" hidden="false" book="Gargantuans" page="80">
+          <description>When an enemy model is directly hit by an attack made with thi weapon, center a 4&quot; AOE on the model drectly hit. Models in the AOE are knocked down.</description>
           <modifiers/>
         </rule>
       </rules>
       <profiles>
-        <profile id="52703e51-0265-d147-98c3-05de8cc6b33c" profileTypeId="5761726c6f636b23232344415441232323" name="Baldur the Stonesoul" hidden="false" book="Domination" page="40">
+        <profile id="966a91db-a1ef-ba7f-58c3-3893c81cd8cb" profileTypeId="576172626561737423232344415441232323" name="WoldWrath" hidden="false" book="Gargantuans" page="80">
           <characteristics>
             <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="16"/>
             <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="17"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
-            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="6"/>
-            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="18"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="7"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="20"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="-"/>
+            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="4"/>
+            <characteristic characteristicId="5468726573686f6c6423232344415441232323" name="Threshold" value="-"/>
           </characteristics>
           <modifiers/>
         </profile>
-        <profile id="d5b21e3c-8348-e973-2ac9-8b63244d4816" profileTypeId="576561706f6e23232344415441232323" name="Tritus" hidden="false" book="Domination" page="40">
+        <profile id="1c37a023-f14b-34e0-d9fc-c0fc2028f69c" profileTypeId="576561706f6e23232344415441232323" name="Lightning Strike" hidden="false" book="Gargantuans" page="80">
           <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="7"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="14"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="14"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="15"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="-"/>
           </characteristics>
           <modifiers/>
         </profile>
-      </profiles>
-      <links>
-        <link id="59a3f4dc-3aab-aea9-e66d-d1846efa5a5f" targetId="c9c8987e-c80f-ed4e-222c-5abde09b04e6" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="23170d37-bc5b-9642-e0db-9752fcb402e0" targetId="f9ad70b8-0e0e-fcee-26d1-66dcb2f54931" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="6033beae-ab39-955a-698b-60cb314a1a5b" targetId="e0ec3ab2-698e-cf69-87fc-7bd4d55b37ce" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="0c8f389d-a6ef-e1d6-3527-10454922e42c" targetId="1a8aa0fa-dad4-8f76-2997-9da362e5371f" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="527d6b6e-4e67-b0d5-2660-543d7ab18c80" targetId="0ef0fa60-b061-80f9-2f9c-8375c4f2ec50" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="1bc40b19-cb82-9a3c-2387-91ce059d39d1" name="Scarsfell Griffon" points="5.0" categoryId="576172626561737423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="42">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="7d794769-cd37-8aee-47fe-f84aef2bfa74" name="Long Leash" hidden="false" book="Domination" page="42">
-          <description>When checking to see if this model is in its contorller&apos;s control area, double the area.</description>
-          <modifiers/>
-        </rule>
-        <rule id="7d59568b-cc2d-cb3b-b174-d142f897eb09" name="Claw: Open Fist" hidden="false" book="Domination" page="42">
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="994612dc-0a4e-3932-762d-36380688387b" profileTypeId="576172626561737423232344415441232323" name="Scarsfell Griffon" hidden="false" book="Domination" page="42">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="8"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="1"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="14"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="15"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="6"/>
-            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="3"/>
-            <characteristic characteristicId="5468726573686f6c6423232344415441232323" name="Threshold" value="8"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="5eb984fc-c9a1-d459-dcac-efddb2e645e8" profileTypeId="576561706f6e23232344415441232323" name="Beak" hidden="false" book="Domination" page="42">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="12"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="H"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="34b77091-e57d-6c28-7255-65be522a2d18" profileTypeId="576561706f6e23232344415441232323" name="Claw" hidden="false" book="Domination" page="42">
+        <profile id="4a8462e1-6ddf-8e47-4164-44ea496abe50" profileTypeId="576561706f6e23232344415441232323" name="Stone Fist" hidden="false" book="Gargantuans" page="80">
           <characteristics>
             <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
             <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
             <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
             <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="11"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="19"/>
             <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
           </characteristics>
           <modifiers/>
         </profile>
-        <profile id="8b509f19-9d23-4d4f-30ec-e730662968b2" profileTypeId="576561706f6e23232344415441232323" name="Claw" hidden="false" book="Domination" page="42">
+        <profile id="78cdd364-5175-99ed-ad4a-78069e2c32be" profileTypeId="576561706f6e23232344415441232323" name="Stone Fist" hidden="false" book="Gargantuans" page="80">
           <characteristics>
             <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
             <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
             <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
             <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="11"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="19"/>
             <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links>
-        <link id="339993bd-6bad-cc23-905c-8318674d29ea" targetId="4246c903-0508-176a-3b14-300d88f4de8d" linkType="profile">
+        <link id="a0ffbf81-0f6c-b741-c29a-84bab259a17e" targetId="222de4d9-ddde-1d12-628a-b79a45911173" linkType="profile">
           <modifiers/>
         </link>
-        <link id="cb00fb9c-9706-f423-91ff-ab369aca589d" targetId="94c1371d-a183-9b7d-8aa7-6024f427ad39" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="c6fb3ce5-d225-e308-d5c5-d5d8b5efe14f" targetId="7d2ffd1c-0815-c2c4-6dac-3c0fdcab5d79" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="974206a5-77f2-70b0-a662-f57fb7520100" targetId="c03455ab-b474-a3fd-d7f2-0197ec33bde8" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="477264d7-45ee-e48b-1fb1-2b4d6d7c2e38" name="Winter Argus" points="5.0" categoryId="576172626561737423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="43">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="c362ea9a-457a-c451-454b-458c5c160e43" name="Circular Vision" hidden="false" book="Domination" page="43">
-          <description>This model&apos;s front arc extends to 360</description>
-          <modifiers/>
-        </rule>
-        <rule id="92a2d8d8-d63b-184e-a1f1-8875da26ba4e" name="Frost Breath: Damage Type - Cold" hidden="false" book="Domination" page="43">
-          <modifiers/>
-        </rule>
-        <rule id="f68ac793-567b-6da7-6309-87efb1ce0074" name="Frost Breath: Critical Freeze" hidden="false" book="Domination" page="43">
-          <description>On a critical hit, the model hit becomes stationary for one round unless it has Immunity: Cold</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="b93bef46-f82f-9e65-93c5-d585ac10e747" profileTypeId="576172626561737423232344415441232323" name="Winter Argus" hidden="false" book="Domination" page="43">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="7"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="8"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="5"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="15"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="14"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="6"/>
-            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="3"/>
-            <characteristic characteristicId="5468726573686f6c6423232344415441232323" name="Threshold" value="9"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="87cc2554-7c12-7ddb-8618-73739dfc6d85" profileTypeId="576561706f6e23232344415441232323" name="Frost Breath" hidden="false" book="Domination" page="43">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="H"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="3afa1e97-2b53-13f1-f927-766e96cf2e2d" profileTypeId="576561706f6e23232344415441232323" name="Frost Breath" hidden="false" book="Domination" page="43">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="H"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="ea1e5a6a-e013-5751-a34f-521e9c9d641b" profileTypeId="576561706f6e23232344415441232323" name="Bite" hidden="false" book="Domination" page="43">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="12"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="H"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="6616772e-14f9-d082-4dc4-630d61361af2" profileTypeId="576561706f6e23232344415441232323" name="Bite" hidden="false" book="Domination" page="43">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="12"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="H"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="6c6e343f-309e-5618-7d51-79d34fad4f39" targetId="d57f0899-357e-76a4-a0ab-848d6a5b047c" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="f73abe60-73f9-2fe6-60ae-f0244ac01453" targetId="8a45f759-0b5e-eea2-6a90-50000bff4a76" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="ce391b70-e0ec-4228-f96a-7ff2eb2f85b1" name="Ghetorix" points="11.0" categoryId="576172626561737423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="44">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="57750f99-8d7c-ee07-c691-b5b0bc52f419" name="Controlled Warping" hidden="false" book="Domination" page="44">
-          <description>At the beginning of this model&apos;s activation, choose one of the following warp effects. Warp effects last for one round. If this model frenzies it must choose Warp Strength at the start of its activation.
-
-• Hyper Aggressive - When this model suffers damage from an enemy attack anytime except while it is advancing, after the attack is resolved it can immediately make a full advance directly toward the attacking model.
-
-• Snacking - When this model boxes a living model with a melee attack, this model can heal d3 damage points. If this model heals, the boxed model is removed from play.
-
-• Warp Strength - This model gains +2 STR.</description>
-          <modifiers/>
-        </rule>
-        <rule id="7b33c1e1-ddc0-154f-e872-bea2ce8b88cc" name="Regeneration (d3)" hidden="false" book="Domination" page="44">
-          <description>This model can be forced to heal d3 damage points once per activation. This model cannot use Regeneration during an activation it runs.</description>
-          <modifiers/>
-        </rule>
-        <rule id="ccb82998-1d19-1e5d-7e5c-4feeba6a80fb" name="Special Issue (kromac)" hidden="false" book="Domination" page="44">
-          <description>This model can be included in Kromac&apos;s theme forces. It can also be bonded to Kromac.</description>
-          <modifiers/>
-        </rule>
-        <rule id="e73b0bc0-0cc9-59fe-8219-90eb51c355ea" name="Unyielding" hidden="false" book="Domination" page="44">
-          <description>While engaging an enemey model, this model gains +2 ARM.</description>
-          <modifiers/>
-        </rule>
-        <rule id="f186be6f-bf76-9250-8137-2f8cc5072442" name="Great Axe: Reach" hidden="false" book="Domination" page="44">
-          <modifiers/>
-        </rule>
-        <rule id="52f680bb-430c-dc18-9b05-df903f6f23bd" name="Great Axe: Powerful Charge" hidden="false" book="Domination" page="44">
-          <description>This model gains +2 to charge attack roll with this weapon.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="04a0692d-8172-076f-8399-8ffcad088622" profileTypeId="576172626561737423232344415441232323" name="Ghetorix" hidden="false" book="Domination" page="44">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="11"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="3"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="14"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="17"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
-            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="4"/>
-            <characteristic characteristicId="5468726573686f6c6423232344415441232323" name="Threshold" value="8"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="de9cf7ab-fa07-84fd-4295-8cf20545105d" profileTypeId="576561706f6e23232344415441232323" name="Bite" hidden="false" book="Domination" page="44">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="14"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="H"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="0475e74b-2aa3-487a-4a8b-e1fd49a0d0f3" profileTypeId="576561706f6e23232344415441232323" name="Great Axe" hidden="false" book="Domination" page="44">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="6"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="17"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="-"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="87e558a0-38d9-f348-b76a-385b4a5ac480" targetId="f956664c-bb46-c33c-1957-1419ccf2f000" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="e91f8b4b-d2e9-7b0b-f879-a2b559071a13" targetId="3426071f-b0da-a79b-e390-5db585750870" linkType="rule">
+        <link id="1c3a44e1-16a5-6b47-9e90-6a2d85a971f3" targetId="fd764118-7b63-7b7f-9d7c-6db3196ccfd6" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -4045,6 +4683,10 @@
     </rule>
     <rule id="b2a35539-271b-a334-e50f-0cf74dcafc82" name="Advance Deployment" hidden="false" book="Hordes Primal MK II" page="33">
       <description>Place this model after normal deployment, up to 6&quot; beyond the established deployment zone.</description>
+      <modifiers/>
+    </rule>
+    <rule id="c763d4f8-31e6-7b42-bccb-fb490235d22e" name="Aggressive" hidden="false" book="Gargantuans" page="75">
+      <description>This model can run or charge without spending focus or being forced.</description>
       <modifiers/>
     </rule>
     <rule id="5ea56d9d-3812-5de8-1a6c-a4328fd58fc9" name="Arc Node" hidden="false" book="Hordes Primal MK II" page="33">
@@ -4111,12 +4753,20 @@
       <description>This model never flees.</description>
       <modifiers/>
     </rule>
+    <rule id="c03455ab-b474-a3fd-d7f2-0197ec33bde8" name="Flight" hidden="false" book="Domination" page="42">
+      <description>This model can advance through terrain and obstacles without penalty and can advance through obstructions and other models if it has enough movemnt to move completely past them. This model ignores intervening models when declaring its charge target.</description>
+      <modifiers/>
+    </rule>
     <rule id="be653cfe-d0fd-5dd4-bd3f-9979450ba2a5" name="Gunfighter" hidden="false" book="Hordes Primal MK II" page="33">
       <description>This model is a gunfighter. The gunfighter has a melee range of 0.5&quot; and can make ranged attacks targeting models in its melee range.</description>
       <modifiers/>
     </rule>
     <rule id="047a84fb-966c-a0d0-e472-f0164c57ce74" name="Heart Eater" hidden="false" book="Forces of Hordes - Circle of Orboros" page="83">
       <description>This model gains a corpse token each time it destorys a living enemy model with a melee attack. This model can have up to three corpse tokens at a time. It can spend corpse tokens during its activation to boost an attack or damage roll or to make an additional melee attack at one token per boost or additional attack.</description>
+      <modifiers/>
+    </rule>
+    <rule id="7d2ffd1c-0815-c2c4-6dac-3c0fdcab5d79" name="Hunter" hidden="false" book="Domination" page="42">
+      <description>This model ignores forests, concealment, and cover when determining LOS or making a ranged attack.</description>
       <modifiers/>
     </rule>
     <rule id="8075d42f-7091-11a3-c9cc-dcc3fa69bfda" name="Immunity: Corrosion" hidden="false" book="Hordes Primal MK II" page="35">
@@ -4219,21 +4869,35 @@ The model can also be bonded to the warlock specified on its card. This only giv
       <description>When attacking with this weapon, add an additional die to its damage rolls.</description>
       <modifiers/>
     </rule>
-    <rule id="c03455ab-b474-a3fd-d7f2-0197ec33bde8" name="Flight" hidden="false" book="Domination" page="42">
-      <description>This model can advance through terrain and obstacles without penalty and can advance through obstructions and other models if it has enough movemnt to move completely past them. This model ignores intervening models when declaring its charge target.</description>
-      <modifiers/>
-    </rule>
-    <rule id="7d2ffd1c-0815-c2c4-6dac-3c0fdcab5d79" name="Hunter" hidden="false" book="Domination" page="42">
-      <description>This model ignores forests, concealment, and cover when determining LOS or making a ranged attack.</description>
-      <modifiers/>
-    </rule>
   </sharedRules>
   <sharedProfiles>
+    <profile id="b1ee2ad9-615b-ba86-b4c1-6f0a5245013a" profileTypeId="5370656c6c23232344415441232323" name="Amuck" hidden="false" book="Gargantuans" page="74">
+      <characteristics>
+        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="1"/>
+        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+        <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="7be3b7d6-e90c-3939-e7b5-222294fda9c4" profileTypeId="5370656c6c23232344415441232323" name="Arcane Suppression" hidden="false" book="Forces of Hordes - Circle of Orboros" page="59">
       <characteristics>
         <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
         <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
         <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+        <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="c739d4e6-d543-2bf1-745a-3b79c15e158b" profileTypeId="5370656c6c23232344415441232323" name="Awareness" hidden="false" book="Domination" page="38">
+      <characteristics>
+        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
+        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
+        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="CTRL"/>
         <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
         <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
         <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
@@ -4269,6 +4933,17 @@ The model can also be bonded to the warlock specified on its card. This only giv
         <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
         <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
         <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="2ccc8a3a-0c67-c5b7-f743-8e1b5f9bac8d" profileTypeId="5370656c6c23232344415441232323" name="Carnivore" hidden="false" book="Gargantuans" page="72">
+      <characteristics>
+        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+        <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
         <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
       </characteristics>
       <modifiers/>
@@ -4317,6 +4992,17 @@ The model can also be bonded to the warlock specified on its card. This only giv
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="5cb6f403-96b8-17ca-e000-80b144b462a8" profileTypeId="5370656c6c23232344415441232323" name="Death Knell" hidden="false" book="Gargantuans" page="72">
+      <characteristics>
+        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="4"/>
+        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="8"/>
+        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="4"/>
+        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="10"/>
+        <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="YES"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="f169b601-e4e0-324f-a646-0051716aba9a" profileTypeId="5370656c6c23232344415441232323" name="Deflection" hidden="false" book="Forces of Hordes - Circle of Orboros" page="46">
       <characteristics>
         <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
@@ -4336,6 +5022,17 @@ The model can also be bonded to the warlock specified on its card. This only giv
         <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
         <characteristic characteristicId="555023232344415441232323" name="UP" value="yes"/>
         <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="yes"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="222de4d9-ddde-1d12-628a-b79a45911173" profileTypeId="5370656c6c23232344415441232323" name="Druid&apos;s Wrath" hidden="false" book="Gargantuans" page="80">
+      <characteristics>
+        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
+        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+        <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -4383,6 +5080,17 @@ The model can also be bonded to the warlock specified on its card. This only giv
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="0687c429-5028-7ad4-c2ab-af12c13ac700" profileTypeId="5370656c6c23232344415441232323" name="Fog of War" hidden="false" book="Gargantuans" page="72">
+      <characteristics>
+        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
+        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
+        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="CTRL"/>
+        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+        <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
+        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="96ea6fb5-69ab-7470-dff9-9478e1787cb1" profileTypeId="5370656c6c23232344415441232323" name="Forced Evolution" hidden="false" book="Forces of Hordes - Circle of Orboros" page="40">
       <characteristics>
         <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
@@ -4402,6 +5110,17 @@ The model can also be bonded to the warlock specified on its card. This only giv
         <characteristic characteristicId="504f5723232344415441232323" name="POW" value="13"/>
         <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
         <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="YES"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="f9ad70b8-0e0e-fcee-26d1-66dcb2f54931" profileTypeId="5370656c6c23232344415441232323" name="Ground Zero" hidden="false" book="Domination" page="40">
+      <characteristics>
+        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
+        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
+        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="5"/>
+        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="13"/>
+        <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -4445,6 +5164,17 @@ The model can also be bonded to the warlock specified on its card. This only giv
         <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
         <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
         <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
+        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="ce94a2af-2ef2-e4c0-23e5-d7e0c5d82ee8" profileTypeId="5370656c6c23232344415441232323" name="Irresistible Force" hidden="false" book="Gargantuans" page="75">
+      <characteristics>
+        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
+        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+        <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
         <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
       </characteristics>
       <modifiers/>
@@ -4515,6 +5245,17 @@ The model can also be bonded to the warlock specified on its card. This only giv
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="f956664c-bb46-c33c-1957-1419ccf2f000" profileTypeId="5370656c6c23232344415441232323" name="Ornery" hidden="false" book="Domination" page="44">
+      <characteristics>
+        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
+        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+        <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="770a3d47-19d6-ee43-5cc8-1c031aecb480" profileTypeId="5370656c6c23232344415441232323" name="Pillar of Salt" hidden="false" book="Forces of Hordes - Circle of Orboros" page="50">
       <characteristics>
         <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
@@ -4531,6 +5272,17 @@ The model can also be bonded to the warlock specified on its card. This only giv
         <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
         <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
         <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+        <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="39d0afbc-348e-3a09-7cc3-7d7515effbec" profileTypeId="5370656c6c23232344415441232323" name="Purification" hidden="false" book="Gargantuans" page="72">
+      <characteristics>
+        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
+        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
+        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="CTRL"/>
         <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
         <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
         <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
@@ -4581,6 +5333,28 @@ The model can also be bonded to the warlock specified on its card. This only giv
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="e0ec3ab2-698e-cf69-87fc-7bd4d55b37ce" profileTypeId="5370656c6c23232344415441232323" name="Rock Wall" hidden="false" book="Domination" page="40">
+      <characteristics>
+        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="CTRL"/>
+        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="Wall"/>
+        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+        <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
+        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="1a8aa0fa-dad4-8f76-2997-9da362e5371f" profileTypeId="5370656c6c23232344415441232323" name="Roots of the Earth" hidden="false" book="Domination" page="40">
+      <characteristics>
+        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+        <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="39d0df64-036d-5ba6-c607-0a2fe8aac2dd" profileTypeId="5370656c6c23232344415441232323" name="Sands of Fate" hidden="false" book="Forces of Hordes - Circle of Orboros" page="50">
       <characteristics>
         <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
@@ -4599,6 +5373,17 @@ The model can also be bonded to the warlock specified on its card. This only giv
         <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="CTRL"/>
         <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
         <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
+        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="4246c903-0508-176a-3b14-300d88f4de8d" profileTypeId="5370656c6c23232344415441232323" name="Shadow Shift" hidden="false" book="Domination" page="42">
+      <characteristics>
+        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
+        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+        <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
         <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
       </characteristics>
       <modifiers/>
@@ -4680,6 +5465,17 @@ The model can also be bonded to the warlock specified on its card. This only giv
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="a377b6dd-1c64-116b-e35f-0642d86aab4f" profileTypeId="5370656c6c23232344415441232323" name="Storm Rager" hidden="false" book="Domination" page="38">
+      <characteristics>
+        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+        <characteristic characteristicId="555023232344415441232323" name="UP" value="Yes"/>
+        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="a9a7d733-fcde-8116-1136-867248dd957c" profileTypeId="5370656c6c23232344415441232323" name="Storm Wall" hidden="false" book="Forces of Hordes - Circle of Orboros" page="48">
       <characteristics>
         <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
@@ -4697,6 +5493,17 @@ The model can also be bonded to the warlock specified on its card. This only giv
         <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="10"/>
         <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
         <characteristic characteristicId="504f5723232344415441232323" name="POW" value="11"/>
+        <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="YES"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="ed20deae-0fd6-33fc-53fc-54dd0e99c296" profileTypeId="5370656c6c23232344415441232323" name="Sunder Spirit" hidden="false" book="Gargantuans" page="72">
+      <characteristics>
+        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="10"/>
+        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
         <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
         <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="YES"/>
       </characteristics>
@@ -4812,88 +5619,11 @@ The model can also be bonded to the warlock specified on its card. This only giv
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="ab7ae0d6-9155-3d9c-db2b-7d71dfad0c2f" profileTypeId="5370656c6c23232344415441232323" name="Wraithbane" hidden="false" book="Forces of Hordes - Circle of Orboros" page="63">
-      <characteristics>
-        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
-        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
-        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
-        <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
-        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="c739d4e6-d543-2bf1-745a-3b79c15e158b" profileTypeId="5370656c6c23232344415441232323" name="Awareness" hidden="false" book="Domination" page="38">
-      <characteristics>
-        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
-        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
-        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="CTRL"/>
-        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
-        <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
-        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="a377b6dd-1c64-116b-e35f-0642d86aab4f" profileTypeId="5370656c6c23232344415441232323" name="Storm Rager" hidden="false" book="Domination" page="38">
-      <characteristics>
-        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
-        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
-        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
-        <characteristic characteristicId="555023232344415441232323" name="UP" value="Yes"/>
-        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
     <profile id="1d50c51a-fabc-9f5d-f062-45268778c38c" profileTypeId="5370656c6c23232344415441232323" name="Wind Blast" hidden="false" book="Domination" page="38">
       <characteristics>
         <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
         <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="CTRL"/>
         <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="5"/>
-        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
-        <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
-        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="f9ad70b8-0e0e-fcee-26d1-66dcb2f54931" profileTypeId="5370656c6c23232344415441232323" name="Ground Zero" hidden="false" book="Domination" page="40">
-      <characteristics>
-        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
-        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
-        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="5"/>
-        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="13"/>
-        <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
-        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="e0ec3ab2-698e-cf69-87fc-7bd4d55b37ce" profileTypeId="5370656c6c23232344415441232323" name="Rock Wall" hidden="false" book="Domination" page="40">
-      <characteristics>
-        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
-        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="CTRL"/>
-        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="Wall"/>
-        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
-        <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
-        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="1a8aa0fa-dad4-8f76-2997-9da362e5371f" profileTypeId="5370656c6c23232344415441232323" name="Roots of the Earth" hidden="false" book="Domination" page="40">
-      <characteristics>
-        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
-        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
-        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
-        <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
-        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="4246c903-0508-176a-3b14-300d88f4de8d" profileTypeId="5370656c6c23232344415441232323" name="Shadow Shift" hidden="false" book="Domination" page="42">
-      <characteristics>
-        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
-        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
-        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
         <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
         <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
         <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
@@ -4911,10 +5641,10 @@ The model can also be bonded to the warlock specified on its card. This only giv
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="f956664c-bb46-c33c-1957-1419ccf2f000" profileTypeId="5370656c6c23232344415441232323" name="Ornery" hidden="false" book="Domination" page="44">
+    <profile id="ab7ae0d6-9155-3d9c-db2b-7d71dfad0c2f" profileTypeId="5370656c6c23232344415441232323" name="Wraithbane" hidden="false" book="Forces of Hordes - Circle of Orboros" page="63">
       <characteristics>
         <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
-        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
+        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
         <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
         <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
         <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
