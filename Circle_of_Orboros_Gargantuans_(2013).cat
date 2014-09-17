@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0a25b8d1-d5a5-b952-f63f-b348ba4aaa13" revision="3" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="3" battleScribeVersion="1.14b" name="Circle Orboros" authorName="Hulkken" authorContact="deltao@msn.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0a25b8d1-d5a5-b952-f63f-b348ba4aaa13" revision="4" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="3" battleScribeVersion="1.14b" name="Circle Orboros" authorName="Hulkken" authorContact="deltao@msn.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="49bcf91d-062f-6fa2-91b6-97c43e677158" name="Argus" points="4.0" categoryId="576172626561737423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Circle of Orboros" page="56">
       <entries/>
@@ -2594,16 +2594,7 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers>
-        <modifier type="set" field="maxInForce" value="10.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="56506994-2310-fe39-c749-2b1ad5aa1c6f" incrementField="selections" incrementValue="1.0">
-          <conditions/>
-          <conditionGroups/>
-        </modifier>
-        <modifier type="set" field="minInForce" value="6.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="56506994-2310-fe39-c749-2b1ad5aa1c6f" incrementField="selections" incrementValue="1.0">
-          <conditions/>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <rules>
         <rule id="e6ab1228-516f-bd8d-656b-34acc4c21ea9" name="Hunter" hidden="false" book="Forces of Hordes - Circle of Orboros" page="76">
           <description>This model ignores forests, concealment, and cover when determining LOS or making a ranged attack.</description>
@@ -3005,7 +2996,7 @@
         </link>
       </links>
     </entry>
-    <entry id="84589265-a347-57f6-764a-ae2516a8a4be" name="Shifting Stones" points="2.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="2" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Circle of Orboros" page="74">
+    <entry id="84589265-a347-57f6-764a-ae2516a8a4be" name="Shifting Stones" points="2.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Circle of Orboros" page="74">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -3208,16 +3199,7 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers>
-        <modifier type="set" field="maxInForce" value="10.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="96bc94a4-f018-4557-7f8f-f954b6d59629" incrementField="selections" incrementValue="1.0">
-          <conditions/>
-          <conditionGroups/>
-        </modifier>
-        <modifier type="set" field="minInForce" value="6.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="96bc94a4-f018-4557-7f8f-f954b6d59629" incrementField="selections" incrementValue="1.0">
-          <conditions/>
-          <conditionGroups/>
-        </modifier>
-      </modifiers>
+      <modifiers/>
       <rules>
         <rule id="ad3d3e4a-6ae5-885d-0cce-3f210737682b" name="Prey" hidden="false" book="Forces of Hordes - Circle of Orboros" page="78">
           <description>After deployment but before the first player&apos;s turn, choose and enemy model/unit to be this model/unit&apos;s prey. This model gains +2 to attack and damage rolls against its prey. When this model 10&quot; of its prey, it gains +2&quot; movement that activation. When the prey is destroyed or removed from play, choose another model/unit to be the prey.</description>
@@ -4303,6 +4285,88 @@
         </link>
       </links>
     </entry>
+    <entry id="3360e76a-1446-b30c-24ab-693c0a41b433" name="WoldWrath" points="20.0" categoryId="576172626561737423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Gargantuans" page="80">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="42ef29c7-b46d-e0d0-173e-4349ac4950b1" name="Spell Ward" hidden="false" book="Gargantuans" page="80">
+          <description>This model cannot be targeted by spells</description>
+          <modifiers/>
+        </rule>
+        <rule id="f92d1caf-3559-037c-b421-4fa68afcbaf6" name="Lightning Strike: Damge Type - Electricity" hidden="false" book="Gargantuans" page="80">
+          <modifiers/>
+        </rule>
+        <rule id="2bfd8096-59f1-607a-b358-be52488b3610" name="Lightning Strike: Storm Generator" hidden="false" book="Gargantuans" page="80">
+          <description>When a model is directly hit with this weapon, center 3&quot; AOE on it. You can then have lightning arc to the nearest model within 4&quot; of the model hit, ignoring the attacking model. The model the lightning arcs to suffers an unboostable POW 10 electrical damage roll. After this damage roll is resolved, center a 3&quot; AOE on the model the lightning arced to. The AOE remain in play for one round. Models entering or ending their activations in an AOE suffer a POW 10 electrical damage roll.</description>
+          <modifiers/>
+        </rule>
+        <rule id="583e4189-f817-1b3f-fa20-e6c57cac1198" name="Stone Fist: Open Fist" hidden="false" book="Gargantuans" page="80">
+          <modifiers/>
+        </rule>
+        <rule id="9d94b1cc-2eab-e558-e269-889819e4a2c5" name="Stone Fist: Earth Shaker" hidden="false" book="Gargantuans" page="80">
+          <description>When an enemy model is directly hit by an attack made with thi weapon, center a 4&quot; AOE on the model drectly hit. Models in the AOE are knocked down.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="966a91db-a1ef-ba7f-58c3-3893c81cd8cb" profileTypeId="576172626561737423232344415441232323" name="WoldWrath" hidden="false" book="Gargantuans" page="80">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="16"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="7"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="20"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="-"/>
+            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="4"/>
+            <characteristic characteristicId="5468726573686f6c6423232344415441232323" name="Threshold" value="-"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="1c37a023-f14b-34e0-d9fc-c0fc2028f69c" profileTypeId="576561706f6e23232344415441232323" name="Lightning Strike" hidden="false" book="Gargantuans" page="80">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="14"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="15"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="-"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="4a8462e1-6ddf-8e47-4164-44ea496abe50" profileTypeId="576561706f6e23232344415441232323" name="Stone Fist" hidden="false" book="Gargantuans" page="80">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="19"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="78cdd364-5175-99ed-ad4a-78069e2c32be" profileTypeId="576561706f6e23232344415441232323" name="Stone Fist" hidden="false" book="Gargantuans" page="80">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="19"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="a0ffbf81-0f6c-b741-c29a-84bab259a17e" targetId="222de4d9-ddde-1d12-628a-b79a45911173" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="1c3a44e1-16a5-6b47-9e90-6a2d85a971f3" targetId="fd764118-7b63-7b7f-9d7c-6db3196ccfd6" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="54c847c1-10de-9e71-e73e-1f8d68f24af4" name="WoldWyrd" points="5.0" categoryId="576172626561737423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Circle of Oboros" page="59">
       <entries/>
       <entryGroups/>
@@ -4584,88 +4648,6 @@
         </profile>
       </profiles>
       <links/>
-    </entry>
-    <entry id="3360e76a-1446-b30c-24ab-693c0a41b433" name="WoldWrath" points="20.0" categoryId="576172626561737423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Gargantuans" page="80">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="42ef29c7-b46d-e0d0-173e-4349ac4950b1" name="Spell Ward" hidden="false" book="Gargantuans" page="80">
-          <description>This model cannot be targeted by spells</description>
-          <modifiers/>
-        </rule>
-        <rule id="f92d1caf-3559-037c-b421-4fa68afcbaf6" name="Lightning Strike: Damge Type - Electricity" hidden="false" book="Gargantuans" page="80">
-          <modifiers/>
-        </rule>
-        <rule id="2bfd8096-59f1-607a-b358-be52488b3610" name="Lightning Strike: Storm Generator" hidden="false" book="Gargantuans" page="80">
-          <description>When a model is directly hit with this weapon, center 3&quot; AOE on it. You can then have lightning arc to the nearest model within 4&quot; of the model hit, ignoring the attacking model. The model the lightning arcs to suffers an unboostable POW 10 electrical damage roll. After this damage roll is resolved, center a 3&quot; AOE on the model the lightning arced to. The AOE remain in play for one round. Models entering or ending their activations in an AOE suffer a POW 10 electrical damage roll.</description>
-          <modifiers/>
-        </rule>
-        <rule id="583e4189-f817-1b3f-fa20-e6c57cac1198" name="Stone Fist: Open Fist" hidden="false" book="Gargantuans" page="80">
-          <modifiers/>
-        </rule>
-        <rule id="9d94b1cc-2eab-e558-e269-889819e4a2c5" name="Stone Fist: Earth Shaker" hidden="false" book="Gargantuans" page="80">
-          <description>When an enemy model is directly hit by an attack made with thi weapon, center a 4&quot; AOE on the model drectly hit. Models in the AOE are knocked down.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="966a91db-a1ef-ba7f-58c3-3893c81cd8cb" profileTypeId="576172626561737423232344415441232323" name="WoldWrath" hidden="false" book="Gargantuans" page="80">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="16"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="7"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="20"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="-"/>
-            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="4"/>
-            <characteristic characteristicId="5468726573686f6c6423232344415441232323" name="Threshold" value="-"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="1c37a023-f14b-34e0-d9fc-c0fc2028f69c" profileTypeId="576561706f6e23232344415441232323" name="Lightning Strike" hidden="false" book="Gargantuans" page="80">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="14"/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="15"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="-"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="4a8462e1-6ddf-8e47-4164-44ea496abe50" profileTypeId="576561706f6e23232344415441232323" name="Stone Fist" hidden="false" book="Gargantuans" page="80">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="19"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="78cdd364-5175-99ed-ad4a-78069e2c32be" profileTypeId="576561706f6e23232344415441232323" name="Stone Fist" hidden="false" book="Gargantuans" page="80">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="19"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="a0ffbf81-0f6c-b741-c29a-84bab259a17e" targetId="222de4d9-ddde-1d12-628a-b79a45911173" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="1c3a44e1-16a5-6b47-9e90-6a2d85a971f3" targetId="fd764118-7b63-7b7f-9d7c-6db3196ccfd6" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
     </entry>
   </entries>
   <rules/>
