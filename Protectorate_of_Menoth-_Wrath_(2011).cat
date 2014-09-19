@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ccdd1364-6578-716b-2ff9-3947442f0a67" revision="8" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="3" battleScribeVersion="1.14b" name="Protectorate of Menoth" authorName="Obiken" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ccdd1364-6578-716b-2ff9-3947442f0a67" revision="9" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="3" battleScribeVersion="1.14b" name="Protectorate of Menoth" authorName="Obiken" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="5aad16ac-aec7-5983-4a1c-7a1e80cb083b" name="Allegiant of the order of the Fist" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="108">
       <entries/>
@@ -47,6 +47,56 @@
           <modifiers/>
         </link>
         <link id="7a1854ff-090a-f79b-2d17-d7a414139307" targetId="e7e47eff-a54f-c748-2169-447ab696702a" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="268952b9-5f6c-d1cb-dfb2-6e740d06dd65" name="Attendant Priest" points="2.0" categoryId="556e697423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wrath" page="53">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="066bd2ea-4877-be62-6745-664e73250728" name="Attachment [Small- or Medium-Based Mercenary]" hidden="false" book="Wrath" page="53">
+          <modifiers/>
+        </rule>
+        <rule id="5d827163-0ab3-2f64-c320-844e17a2697f" name="Prayers" hidden="false">
+          <description>- Empower
+- March
+- Warding</description>
+          <modifiers/>
+        </rule>
+        <rule id="248e8e2a-bd5b-2faa-89a3-8bf9bbf4dd3f" name="Battle Staff: Reach" hidden="false" book="Warmachine Prime" page="0">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="e3576450-31f0-fa7f-28ac-57b41c909a12" profileTypeId="54726f6f70657223232344415441232323" name="Priest" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="4"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="4"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="13"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="3cf2f981-03cc-b051-cfa0-e0335b076b04" profileTypeId="576561706f6e23232344415441232323" name="Battle Staff" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="2"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="6"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="c0a7a362-a875-e5e8-c270-b673babd240c" targetId="4f0e892d-eb41-f3f4-00f7-06b2f8ea7bac" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -185,6 +235,60 @@
           <modifiers/>
         </link>
         <link id="3309e71c-aebb-8a57-b531-31b221516376" targetId="8e8db4da-0a54-4822-2c2c-048c3441962e" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="6e946ecf-1c5b-ff89-01f1-95d4f5c5aca5" name="Blood of Martyrs" points="9.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wrath" page="51">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="0ecab6d0-6186-be3e-c0a9-7f00f14c1253" name="Affinity [Thyra]" hidden="false">
+          <modifiers/>
+        </rule>
+        <rule id="bb44c2d2-a0f7-3061-fbae-390c6b9f696f" name="Hand of Vengeance" hidden="false">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="e52894d9-c9f6-c164-c05d-0ba19a4c9fa8" profileTypeId="5761726a61636b23232344415441232323" name="Blood of Martyrs" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="11"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="10"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="19"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="-"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="8c9f979d-7138-674c-8d19-afbfd0992094" profileTypeId="576561706f6e23232344415441232323" name="Blade (L)" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="5"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="16"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="021318a6-6a8f-001c-5406-6a97e5b4e868" profileTypeId="576561706f6e23232344415441232323" name="Blade (R)" hidden="false" book="">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="5"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="16"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="54c699ad-5102-93fd-7551-a87dafb08c8b" targetId="d59e0236-1212-2bb9-d33c-6a9fd2cad3c4" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -1377,7 +1481,6 @@
           <modifiers/>
           <rules>
             <rule id="07da0128-90a6-57b4-6729-3a5f70799d9a" name="Attachment [Flameguard Cleanser]" hidden="false" book="Wrath" page="53">
-              <description></description>
               <modifiers/>
             </rule>
             <rule id="ddc1e1fa-681a-7a33-106a-939a09fddc2c" name="Scouring Flames" hidden="false">
@@ -2827,6 +2930,79 @@
         </link>
       </links>
     </entry>
+    <entry id="2a325a5f-b195-1397-74c7-8970bc88f1fb" name="Nicia, Tear of Vengeance" points="3.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wrath" page="55">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="15d34d87-a908-d625-8ee2-abb3f2146607" name="Blade: Reach" hidden="false" book="Warmachine Prime" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="16193cfa-6bf4-c8b2-a26e-290b7c38eb64" name="Blade: Weapon Master" hidden="false" book="Warmachine Prime" page="0">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="a4628342-059a-ed1c-b4c5-44d070f4b303" profileTypeId="54726f6f70657223232344415441232323" name="Nicia" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="7"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="5"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="7"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="16"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="13"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="2738f7f8-3c50-add1-9aa6-cd5e79494012" profileTypeId="576561706f6e23232344415441232323" name="Sword Cannon" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="10"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="a4f0cbbf-144c-f5fa-6a38-f1f56558d040" profileTypeId="576561706f6e23232344415441232323" name="Blade" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="5"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="10"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="b25d42aa-c204-f392-403a-6d80f57c96d2" targetId="7593a815-5a92-c7ba-5dd6-ab9d20c65a6f" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9154fe18-fd76-fbf8-8d4a-31398e8881c0" targetId="cdd0e672-57a5-9137-fdf0-7cb4589421d6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="744de525-6ab5-0624-5d67-a201d50df7a1" targetId="de167b3d-0cad-b966-bab2-c619b3336db5" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7c327c84-3377-2c1d-cd63-91708193da66" targetId="0eed6ee5-1fae-0a81-ab5f-ca9859fd5cc6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="96b1d2d4-0725-dca8-4dd8-a2aa889e84b2" targetId="7ad7931b-6028-bf3c-86c8-89cfb2efc093" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6e5cdb67-542c-1079-8b5f-3e65e6955bf6" targetId="021e31b5-4735-3ee5-2876-9cc6e76b789b" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7455d24a-4116-ce17-d57d-ab53e0e94e96" targetId="b3e9675a-dd86-21ae-1580-95e739189ba6" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="18f12d1e-2dff-4534-8438-bf167dd998e7" name="Paladin of the Order of the Wall" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="113">
       <entries/>
       <entryGroups/>
@@ -3140,6 +3316,134 @@
             <characteristic characteristicId="504f5723232344415441232323" name="POW" value="1"/>
             <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="10"/>
             <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="ed20db39-fef9-4c7f-a571-101c91106590" name="Sanctifier" points="9.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wrath" page="50">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="c91beea0-7122-8155-1b6d-8e827d15a17c" name="Open Fist: Open Fist" hidden="false" book="Warmachine Prime" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="f700af05-a501-2a90-cec8-ab1682795b1b" name="Grave Maker: Magical Weapon" hidden="false" book="Warmachine Prime" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="99e44e7b-8618-ee4e-d340-fa4870016d5b" name="Grave Maker: Reach" hidden="false" book="Warmachine Prime" page="0">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="fdf21349-94cb-2c77-ea90-45faebf88e96" profileTypeId="5761726a61636b23232344415441232323" name="Sanctifier" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="11"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="10"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="19"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="-"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="50183562-b962-3d20-800e-a73657b33bcf" profileTypeId="576561706f6e23232344415441232323" name="Open Fist" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="14"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="92eccc18-59b9-1238-bbe8-338ac0a73de0" profileTypeId="576561706f6e23232344415441232323" name="Grave Maker" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="6"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="17"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="36c7f7ab-702f-dad7-d3bb-555abf96f9b7" targetId="e7891316-5f27-4c83-ac1a-e72ce472d76a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4adb1d01-a4ee-8117-ab31-d7c790e793b9" targetId="cd7070e2-4099-84bb-dcc0-044ba03e05a4" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="c91a5978-046f-ad69-cb01-1fd9920c39eb" name="Scourge of Heresy" points="9.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wrath" page="52">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="06df4d75-4c14-5705-b60e-6e03acbfed24" name="Scourge of Heresy" hidden="false">
+          <modifiers/>
+        </rule>
+        <rule id="5a78563a-82cc-6e81-7b5e-053bc3ca40df" name="Arcane Vortex" hidden="false">
+          <modifiers/>
+        </rule>
+        <rule id="ad47c3b8-9775-ba5f-a9a3-3b447406accc" name="Imprint: Arcane Assassin" hidden="false">
+          <modifiers/>
+        </rule>
+        <rule id="af86403f-d197-e81a-1580-901d0fff2166" name="Special Issue [Reznik]" hidden="false">
+          <modifiers/>
+        </rule>
+        <rule id="91559c19-8f38-261c-2ee9-68c7e6e3a19a" name="Punisher: Continuous Effect: Fire" hidden="false" book="Warmachine Prime" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="4caa7f46-5a93-f31c-8193-4abaf88bc317" name="Punisher: Purgation" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="58">
+          <modifiers/>
+        </rule>
+        <rule id="05c7692a-97bd-e689-e23c-7e813a7be0eb" name="Blazing Star: Chain Weapon" hidden="false" book="Warmachine Prime" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="b0e9660e-5e5e-869d-cd86-28541cd85158" name="Blazing Star: Thresher (* Attack)" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="42">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="8166ea13-d4f9-efd5-a9aa-aa4b85fe18ec" profileTypeId="5761726a61636b23232344415441232323" name="Scourge of Heresy" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="4"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="11"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="10"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="19"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="-"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="e6cc1276-97ce-46f0-4209-051d3a78f02b" profileTypeId="576561706f6e23232344415441232323" name="Punisher" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="7"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="18"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="d5dd2b8e-c818-5a36-d4e1-99bf690cb782" profileTypeId="576561706f6e23232344415441232323" name="Blazing Star" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="5"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="16"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -3708,6 +4012,92 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="7bc86f5e-9e93-eff2-3dd5-70aacc0cda5c" name="Thyra, Flame of Sorrow" points="-6.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wrath" page="46">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="87f4ddb9-6e45-5be5-1be0-0c23db3ce65a" name="Feat: Shadows of Urcaen" hidden="false">
+          <modifiers/>
+        </rule>
+        <rule id="022f5994-e284-207d-fe0a-a1d77e3878e6" name="Elite Cadre [Daughter&apos;s of the Flame]" hidden="false">
+          <modifiers/>
+        </rule>
+        <rule id="310aadeb-cf37-f7c0-db8b-9c5491725648" name="Lament: Magical Weapon" hidden="false" book="Warmachine Prime" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="c1e81876-2fce-ed24-6a1d-8a9f92c02c9b" name="Grief: Magical Weapon" hidden="false" book="Warmachine Prime" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="304b4e34-d3ab-51cd-9470-1dc89d29ead6" name="Lament: Weapon Master" hidden="false" book="Warmachine Prime" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="4d2c947e-1a60-1ccd-79b2-8720c6b523d1" name="Grief: Weapon Master" hidden="false" book="Warmachine Prime" page="0">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="51d79873-01db-4dd3-83f1-a876a63cf083" profileTypeId="57617263617374657223232344415441232323" name="Thyra" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="7"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="8"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="17"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="14"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
+            <characteristic characteristicId="466f63757323232344415441232323" name="Focus" value="6"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="15"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="206bce5a-d3d7-3ae0-9b3f-0b240b11d40b" profileTypeId="576561706f6e23232344415441232323" name="Grief" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="5"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="11"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="415a49fd-f89c-1792-572d-432fcdd09870" profileTypeId="576561706f6e23232344415441232323" name="Lament" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="5"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="11"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="a111c98f-9a40-4eb4-545f-11cf229d0876" targetId="de167b3d-0cad-b966-bab2-c619b3336db5" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0b1ef9de-bdad-b8d7-8250-6eb2e40b4c62" targetId="8a07ca1e-891b-48e1-2d3b-d1d3fe42db64" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="df674ba9-6e43-4d2e-ed83-eaaa7eb48e5d" targetId="9966cc9c-768e-0800-e373-ab844ae31260" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="04a50120-92a5-73b5-e057-b66ff663a321" targetId="df400ef5-b5d6-b36e-b322-dd6679d184ef" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="28323a66-e68d-2500-c676-7bdbc9a85267" targetId="ba459965-112b-873a-f354-8d8c60fb0257" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="dddc517d-5b15-0cf9-499f-d41d9b2e8d51" targetId="b3077e77-f54c-a406-9e6f-27f228532c74" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="99f9c160-b744-6631-5f60-a568fa2ca9d9" targetId="4fed97db-e463-ad18-bd70-9ba0f35f57f6" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="9c1200d8-758d-1a7b-c849-f567b742c6fd" name="Vanquisher" points="8.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="81">
       <entries/>
       <entryGroups/>
@@ -3833,6 +4223,62 @@
       </profiles>
       <links>
         <link id="92eada44-e1db-a14d-cf6c-7545a9a7887b" targetId="b48604de-bf18-a8aa-6efd-5efbdc76b554" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="801cdc13-adb8-556e-a8ce-2552517fb1fe" name="Vessel of Judgment" points="9.0" categoryId="426174746c6520456e67696e6523232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wrath" page="56">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="b41ee7dc-a3d8-3882-4192-bba5208befe7" name="Divine Wrath: Magical Weapon" hidden="false" book="Warmachine Prime" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="5e4c7d01-dfb7-33c9-453c-ce8461bfc67d" name="Admonisher" hidden="false">
+          <modifiers/>
+        </rule>
+        <rule id="6c3327b4-f4f4-af70-c964-d32e52f94044" name="Destructive Power" hidden="false">
+          <modifiers/>
+        </rule>
+        <rule id="be0a74db-9ec5-0612-8be6-3764918a4336" name="Holy Reliquary" hidden="false">
+          <description>- Cleansing Action
+- Doors of Judgment
+- Eruption of Faith</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="21a262cd-7e63-6fa1-836a-108b92fa2a7a" profileTypeId="54726f6f70657223232344415441232323" name="Vessel of Judgment" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="10"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="-"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="6"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="10"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="20"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="10"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="24"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="d0801682-90ae-d20c-07cc-245877ac789d" profileTypeId="576561706f6e23232344415441232323" name="Divine Wrath" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="12"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="15"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="2f863c57-eb69-3c82-ef89-aecca941907a" targetId="63d74439-ede8-7bbf-69ce-3f99d998651e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2ff38bce-52f5-9656-bfed-7299a9e65f1c" targetId="5a870a67-ec3d-4cc8-536b-df3d8697337d" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -4150,450 +4596,203 @@
         </link>
       </links>
     </entry>
-    <entry id="7bc86f5e-9e93-eff2-3dd5-70aacc0cda5c" name="Thyra, Flame of Sorrow" points="-6.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wrath" page="46">
+    <entry id="d1d4fcd5-0d6c-720c-e065-2edbb35bee54" name="Intercessor Kreoss" points="-5.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Colossals" page="72">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules>
-        <rule id="87f4ddb9-6e45-5be5-1be0-0c23db3ce65a" name="Feat: Shadows of Urcaen" hidden="false">
+        <rule id="c1ff0e34-8c52-e83e-4afb-df20f1bbee07" name="Feat: Invocations of the True Law" hidden="false">
           <modifiers/>
         </rule>
-        <rule id="022f5994-e284-207d-fe0a-a1d77e3878e6" name="Elite Cadre [Daughter&apos;s of the Flame]" hidden="false">
+        <rule id="5769138e-65a6-019b-36ce-a71ed28c6f57" name="Conviction: Brutal Charge" hidden="false" book="Colossals" page="72">
           <modifiers/>
         </rule>
-        <rule id="310aadeb-cf37-f7c0-db8b-9c5491725648" name="Lament: Magical Weapon" hidden="false" book="Warmachine Prime" page="0">
+        <rule id="60e43ed4-802f-e977-4bf4-fad0c44af10f" name="Conviction: Reach" hidden="false" book="Warmachine Prime" page="0">
           <modifiers/>
         </rule>
-        <rule id="c1e81876-2fce-ed24-6a1d-8a9f92c02c9b" name="Grief: Magical Weapon" hidden="false" book="Warmachine Prime" page="0">
+        <rule id="cc3268c6-e061-ae85-6714-5ffb82975a3c" name="Conviction: Blessed" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="64">
           <modifiers/>
         </rule>
-        <rule id="304b4e34-d3ab-51cd-9470-1dc89d29ead6" name="Lament: Weapon Master" hidden="false" book="Warmachine Prime" page="0">
-          <modifiers/>
-        </rule>
-        <rule id="4d2c947e-1a60-1ccd-79b2-8720c6b523d1" name="Grief: Weapon Master" hidden="false" book="Warmachine Prime" page="0">
+        <rule id="f8200397-7a4b-d5dc-8f65-f42b3a18ba0b" name="Conviction: Magical Weapon" hidden="false" book="Warmachine Prime" page="0">
           <modifiers/>
         </rule>
       </rules>
       <profiles>
-        <profile id="51d79873-01db-4dd3-83f1-a876a63cf083" profileTypeId="57617263617374657223232344415441232323" name="Thyra" hidden="false">
+        <profile id="21bcfe8c-2e16-9364-23f1-0aea9e0171e4" profileTypeId="57617263617374657223232344415441232323" name="Kreoss" hidden="false">
           <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="7"/>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="8"/>
             <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
             <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="8"/>
             <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="17"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="14"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
-            <characteristic characteristicId="466f63757323232344415441232323" name="Focus" value="6"/>
-            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="15"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="14"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="17"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="10"/>
+            <characteristic characteristicId="466f63757323232344415441232323" name="Focus" value="7"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="18"/>
           </characteristics>
           <modifiers/>
         </profile>
-        <profile id="206bce5a-d3d7-3ae0-9b3f-0b240b11d40b" profileTypeId="576561706f6e23232344415441232323" name="Grief" hidden="false">
+        <profile id="0a7f7823-111f-e1af-fa8c-e0bc7703dc04" profileTypeId="576561706f6e23232344415441232323" name="Conviction" hidden="false">
           <characteristics>
             <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
             <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
             <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="5"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="11"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="415a49fd-f89c-1792-572d-432fcdd09870" profileTypeId="576561706f6e23232344415441232323" name="Lament" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="5"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="11"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="a111c98f-9a40-4eb4-545f-11cf229d0876" targetId="de167b3d-0cad-b966-bab2-c619b3336db5" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="0b1ef9de-bdad-b8d7-8250-6eb2e40b4c62" targetId="8a07ca1e-891b-48e1-2d3b-d1d3fe42db64" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="df674ba9-6e43-4d2e-ed83-eaaa7eb48e5d" targetId="9966cc9c-768e-0800-e373-ab844ae31260" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="04a50120-92a5-73b5-e057-b66ff663a321" targetId="df400ef5-b5d6-b36e-b322-dd6679d184ef" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="28323a66-e68d-2500-c676-7bdbc9a85267" targetId="ba459965-112b-873a-f354-8d8c60fb0257" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="dddc517d-5b15-0cf9-499f-d41d9b2e8d51" targetId="b3077e77-f54c-a406-9e6f-27f228532c74" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="99f9c160-b744-6631-5f60-a568fa2ca9d9" targetId="4fed97db-e463-ad18-bd70-9ba0f35f57f6" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="ed20db39-fef9-4c7f-a571-101c91106590" name="Sanctifier" points="9.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wrath" page="50">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="c91beea0-7122-8155-1b6d-8e827d15a17c" name="Open Fist: Open Fist" hidden="false" book="Warmachine Prime" page="0">
-          <modifiers/>
-        </rule>
-        <rule id="f700af05-a501-2a90-cec8-ab1682795b1b" name="Grave Maker: Magical Weapon" hidden="false" book="Warmachine Prime" page="0">
-          <modifiers/>
-        </rule>
-        <rule id="99e44e7b-8618-ee4e-d340-fa4870016d5b" name="Grave Maker: Reach" hidden="false" book="Warmachine Prime" page="0">
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="fdf21349-94cb-2c77-ea90-45faebf88e96" profileTypeId="5761726a61636b23232344415441232323" name="Sanctifier" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="11"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="10"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="19"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="-"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="50183562-b962-3d20-800e-a73657b33bcf" profileTypeId="576561706f6e23232344415441232323" name="Open Fist" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="8"/>
             <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="14"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="92eccc18-59b9-1238-bbe8-338ac0a73de0" profileTypeId="576561706f6e23232344415441232323" name="Grave Maker" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="6"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="17"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="36c7f7ab-702f-dad7-d3bb-555abf96f9b7" targetId="e7891316-5f27-4c83-ac1a-e72ce472d76a" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="4adb1d01-a4ee-8117-ab31-d7c790e793b9" targetId="cd7070e2-4099-84bb-dcc0-044ba03e05a4" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="6e946ecf-1c5b-ff89-01f1-95d4f5c5aca5" name="Blood of Martyrs" points="9.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wrath" page="51">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="0ecab6d0-6186-be3e-c0a9-7f00f14c1253" name="Affinity [Thyra]" hidden="false">
-          <modifiers/>
-        </rule>
-        <rule id="bb44c2d2-a0f7-3061-fbae-390c6b9f696f" name="Hand of Vengeance" hidden="false">
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="e52894d9-c9f6-c164-c05d-0ba19a4c9fa8" profileTypeId="5761726a61636b23232344415441232323" name="Blood of Martyrs" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="11"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="10"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="19"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="-"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="8c9f979d-7138-674c-8d19-afbfd0992094" profileTypeId="576561706f6e23232344415441232323" name="Blade (L)" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="5"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="16"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="021318a6-6a8f-001c-5406-6a97e5b4e868" profileTypeId="576561706f6e23232344415441232323" name="Blade (R)" hidden="false" book="">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="5"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="16"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="54c699ad-5102-93fd-7551-a87dafb08c8b" targetId="d59e0236-1212-2bb9-d33c-6a9fd2cad3c4" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="c91a5978-046f-ad69-cb01-1fd9920c39eb" name="Scourge of Heresy" points="9.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wrath" page="52">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="06df4d75-4c14-5705-b60e-6e03acbfed24" name="Scourge of Heresy" hidden="false">
-          <modifiers/>
-        </rule>
-        <rule id="5a78563a-82cc-6e81-7b5e-053bc3ca40df" name="Arcane Vortex" hidden="false">
-          <modifiers/>
-        </rule>
-        <rule id="ad47c3b8-9775-ba5f-a9a3-3b447406accc" name="Imprint: Arcane Assassin" hidden="false">
-          <modifiers/>
-        </rule>
-        <rule id="af86403f-d197-e81a-1580-901d0fff2166" name="Special Issue [Reznik]" hidden="false">
-          <modifiers/>
-        </rule>
-        <rule id="91559c19-8f38-261c-2ee9-68c7e6e3a19a" name="Punisher: Continuous Effect: Fire" hidden="false" book="Warmachine Prime" page="0">
-          <modifiers/>
-        </rule>
-        <rule id="4caa7f46-5a93-f31c-8193-4abaf88bc317" name="Punisher: Purgation" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="58">
-          <modifiers/>
-        </rule>
-        <rule id="05c7692a-97bd-e689-e23c-7e813a7be0eb" name="Blazing Star: Chain Weapon" hidden="false" book="Warmachine Prime" page="0">
-          <modifiers/>
-        </rule>
-        <rule id="b0e9660e-5e5e-869d-cd86-28541cd85158" name="Blazing Star: Thresher (* Attack)" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="42">
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="8166ea13-d4f9-efd5-a9aa-aa4b85fe18ec" profileTypeId="5761726a61636b23232344415441232323" name="Scourge of Heresy" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="4"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="11"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="10"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="19"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="-"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="e6cc1276-97ce-46f0-4209-051d3a78f02b" profileTypeId="576561706f6e23232344415441232323" name="Punisher" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="7"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="18"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="d5dd2b8e-c818-5a36-d4e1-99bf690cb782" profileTypeId="576561706f6e23232344415441232323" name="Blazing Star" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="5"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="16"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="268952b9-5f6c-d1cb-dfb2-6e740d06dd65" name="Attendant Priest" points="2.0" categoryId="556e697423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wrath" page="53">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="066bd2ea-4877-be62-6745-664e73250728" name="Attachment [Small- or Medium-Based Mercenary]" hidden="false" book="Wrath" page="53">
-          <description></description>
-          <modifiers/>
-        </rule>
-        <rule id="5d827163-0ab3-2f64-c320-844e17a2697f" name="Prayers" hidden="false">
-          <description>- Empower
-- March
-- Warding</description>
-          <modifiers/>
-        </rule>
-        <rule id="248e8e2a-bd5b-2faa-89a3-8bf9bbf4dd3f" name="Battle Staff: Reach" hidden="false" book="Warmachine Prime" page="0">
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="e3576450-31f0-fa7f-28ac-57b41c909a12" profileTypeId="54726f6f70657223232344415441232323" name="Priest" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="4"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="4"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="13"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
-            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="3cf2f981-03cc-b051-cfa0-e0335b076b04" profileTypeId="576561706f6e23232344415441232323" name="Battle Staff" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="2"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="6"/>
             <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
           </characteristics>
           <modifiers/>
         </profile>
-      </profiles>
-      <links>
-        <link id="c0a7a362-a875-e5e8-c270-b673babd240c" targetId="4f0e892d-eb41-f3f4-00f7-06b2f8ea7bac" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="2a325a5f-b195-1397-74c7-8970bc88f1fb" name="Nicia, Tear of Vengeance" points="3.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wrath" page="55">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="15d34d87-a908-d625-8ee2-abb3f2146607" name="Blade: Reach" hidden="false" book="Warmachine Prime" page="0">
-          <modifiers/>
-        </rule>
-        <rule id="16193cfa-6bf4-c8b2-a26e-290b7c38eb64" name="Blade: Weapon Master" hidden="false" book="Warmachine Prime" page="0">
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="a4628342-059a-ed1c-b4c5-44d070f4b303" profileTypeId="54726f6f70657223232344415441232323" name="Nicia" hidden="false">
+        <profile id="b484f0ce-5e85-443c-1f7c-95f65775e593" profileTypeId="576561706f6e23232344415441232323" name="Mount" hidden="false">
           <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="7"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="5"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="7"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="16"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="13"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
-            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="2738f7f8-3c50-add1-9aa6-cd5e79494012" profileTypeId="576561706f6e23232344415441232323" name="Sword Cannon" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="10"/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
             <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
             <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
             <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
           </characteristics>
           <modifiers/>
         </profile>
-        <profile id="a4f0cbbf-144c-f5fa-6a38-f1f56558d040" profileTypeId="576561706f6e23232344415441232323" name="Blade" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="5"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="10"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
-          </characteristics>
-          <modifiers/>
-        </profile>
       </profiles>
       <links>
-        <link id="b25d42aa-c204-f392-403a-6d80f57c96d2" targetId="7593a815-5a92-c7ba-5dd6-ab9d20c65a6f" linkType="rule">
+        <link id="1484c2be-8e4b-8eb4-59a4-5bb2bcebb567" targetId="3a06cd74-0157-5d1f-c77f-f5da6951be2d" linkType="rule">
           <modifiers/>
         </link>
-        <link id="9154fe18-fd76-fbf8-8d4a-31398e8881c0" targetId="cdd0e672-57a5-9137-fdf0-7cb4589421d6" linkType="rule">
+        <link id="e5b6705b-8d7e-3b85-41e5-eedde678f047" targetId="d814ea36-0946-4019-da0a-e41543fa9d41" linkType="rule">
           <modifiers/>
         </link>
-        <link id="744de525-6ab5-0624-5d67-a201d50df7a1" targetId="de167b3d-0cad-b966-bab2-c619b3336db5" linkType="rule">
+        <link id="968cc62f-8358-c01b-1aa6-0685d4f0f730" targetId="940b8848-e071-f932-8aff-d2598d4ae37b" linkType="rule">
           <modifiers/>
         </link>
-        <link id="7c327c84-3377-2c1d-cd63-91708193da66" targetId="0eed6ee5-1fae-0a81-ab5f-ca9859fd5cc6" linkType="rule">
+        <link id="7094e715-8bf3-7a00-65d7-c0350a17cc1f" targetId="be413e03-af50-11fa-e4b6-8ad8bacf85fd" linkType="profile">
           <modifiers/>
         </link>
-        <link id="96b1d2d4-0725-dca8-4dd8-a2aa889e84b2" targetId="7ad7931b-6028-bf3c-86c8-89cfb2efc093" linkType="rule">
+        <link id="26d8e101-4aa6-6162-8b3e-c21da634f15b" targetId="765c0bb1-f0c9-3a88-b378-dcdf92986209" linkType="profile">
           <modifiers/>
         </link>
-        <link id="6e5cdb67-542c-1079-8b5f-3e65e6955bf6" targetId="021e31b5-4735-3ee5-2876-9cc6e76b789b" linkType="rule">
+        <link id="2571b654-7108-e29b-470d-034ce474fa81" targetId="44baefc3-8ad4-0936-eb91-a19690904a13" linkType="profile">
           <modifiers/>
         </link>
-        <link id="7455d24a-4116-ce17-d57d-ab53e0e94e96" targetId="b3e9675a-dd86-21ae-1580-95e739189ba6" linkType="rule">
+        <link id="8d539e95-eb54-da98-7be6-a927bfb5746b" targetId="89ad58eb-7464-b414-f7e5-e21eafcfcea3" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="66771e65-564a-0021-8a72-aac39737b8d7" targetId="833c97da-5799-3c38-cfae-11e107fcc48a" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="5a7a3669-e5cc-4407-e7c5-e4098f9cae4b" targetId="483ebc56-04ef-9574-aee4-88c0792e83c6" linkType="profile">
           <modifiers/>
         </link>
       </links>
     </entry>
-    <entry id="801cdc13-adb8-556e-a8ce-2552517fb1fe" name="Vessel of Judgment" points="9.0" categoryId="426174746c6520456e67696e6523232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wrath" page="56">
+    <entry id="134e167c-1ad1-b4a4-4b4b-2e70936ba952" name="Judicator" points="18.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Colossals" page="76">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules>
-        <rule id="b41ee7dc-a3d8-3882-4192-bba5208befe7" name="Divine Wrath: Magical Weapon" hidden="false" book="Warmachine Prime" page="0">
+        <rule id="a98833fe-33ef-88d4-bf62-51a5fd039a6a" name="Reliquary" hidden="false" book="Colossals" page="76">
+          <description></description>
           <modifiers/>
         </rule>
-        <rule id="5e4c7d01-dfb7-33c9-453c-ce8461bfc67d" name="Admonisher" hidden="false">
+        <rule id="bb97be48-d802-bd5b-58f7-e4624d0175a2" name="Rocket Pod: Inaccurate" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="70">
           <modifiers/>
         </rule>
-        <rule id="6c3327b4-f4f4-af70-c964-d32e52f94044" name="Destructive Power" hidden="false">
+        <rule id="05b93ab3-ec4b-4109-bfa9-a3f1dbd77fff" name="Rocket Pod: Secondary Blast" hidden="false" book="Colossals" page="76">
+          <description></description>
           <modifiers/>
         </rule>
-        <rule id="be0a74db-9ec5-0612-8be6-3764918a4336" name="Holy Reliquary" hidden="false">
-          <description>- Cleansing Action
-- Doors of Judgment
-- Eruption of Faith</description>
+        <rule id="64ee38a4-f52d-be6c-24e5-bd3e92cc2e02" name="Flamethrower: Continuous Effect: Fire" hidden="false" book="Warmachine Prime" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="b5e15483-9eaf-9aa9-84f4-d72a58655b27" name="Damage Type: Fire" hidden="false" book="Warmachine Prime" page="0">
+          <modifiers/>
+        </rule>
+        <rule id="57222f98-33c8-db9b-981b-71c6a01c27e5" name="Fist: Open Fist" hidden="false" book="Warmachine Prime" page="0">
           <modifiers/>
         </rule>
       </rules>
       <profiles>
-        <profile id="21a262cd-7e63-6fa1-836a-108b92fa2a7a" profileTypeId="54726f6f70657223232344415441232323" name="Vessel of Judgment" hidden="false">
+        <profile id="01622d3d-e98b-df00-e98f-1d89eed5cecf" profileTypeId="5761726a61636b23232344415441232323" name="Judicator" hidden="false">
           <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="10"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="-"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="6"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="10"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="20"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="10"/>
-            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="24"/>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="4"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="17"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="8"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="19"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="-"/>
           </characteristics>
           <modifiers/>
         </profile>
-        <profile id="d0801682-90ae-d20c-07cc-245877ac789d" profileTypeId="576561706f6e23232344415441232323" name="Divine Wrath" hidden="false">
+        <profile id="c3c81357-552e-d6ba-8315-305614c9ef5d" profileTypeId="576561706f6e23232344415441232323" name="Rocket Pod (L)" hidden="false">
           <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="12"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="14"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="3"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="14"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="e1b350a5-b3e5-615c-55ec-972a9e822f08" profileTypeId="576561706f6e23232344415441232323" name="Rocket Pod (R)" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="14"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="3"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="14"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="5e4fdd0c-2359-1456-41ab-ef6823d2cdc2" profileTypeId="576561706f6e23232344415441232323" name="Flamethrower(L)" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SP 8"/>
             <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
             <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="15"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
             <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="54180fa4-0086-c0cb-e11f-5a326b429088" profileTypeId="576561706f6e23232344415441232323" name="Flamethrower(R)" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SP 8"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="2529f186-f065-ce87-c874-f531e6b6f7c6" profileTypeId="576561706f6e23232344415441232323" name="Fist (L)" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="20"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="5377d9e1-98ac-a603-a254-0200f08e6c0e" profileTypeId="576561706f6e23232344415441232323" name="Fist (R)" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="20"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links>
-        <link id="2f863c57-eb69-3c82-ef89-aecca941907a" targetId="63d74439-ede8-7bbf-69ce-3f99d998651e" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="2ff38bce-52f5-9656-bfed-7299a9e65f1c" targetId="5a870a67-ec3d-4cc8-536b-df3d8697337d" linkType="rule">
+        <link id="36fb2451-b74c-f302-431c-5b0e52821725" targetId="0fd83fdf-6664-a932-1f74-4a46d8f89f0b" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -4616,6 +4815,9 @@
     <rule id="d1fac78b-e79c-02fb-273b-ee9fbaec34a2" name="Aegis" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="56">
       <modifiers/>
     </rule>
+    <rule id="e60cbd94-45dc-e42b-a0de-90706a686762" name="Affinity []" hidden="false">
+      <modifiers/>
+    </rule>
     <rule id="cc0ca243-26f0-dc1e-5e42-c3286994f8cb" name="Anatomical Precision" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="89">
       <modifiers/>
     </rule>
@@ -4629,6 +4831,9 @@
       <modifiers/>
     </rule>
     <rule id="7005c7d4-d76d-a13d-e878-4de46c2518ce" name="Assault" hidden="false" book="Warmachine Prime" page="0">
+      <modifiers/>
+    </rule>
+    <rule id="3c889a83-db22-1af5-330e-bf1abdaff632" name="Attachment []" hidden="false" book="Wrath" page="53">
       <modifiers/>
     </rule>
     <rule id="12d041bd-1fd8-43d2-a65b-c567c63c302f" name="Awe" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="48">
@@ -4649,7 +4854,13 @@
     <rule id="561d508d-19b9-4d34-9d8f-ad908b3a5fc5" name="Brother&apos;s Keeper" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="118">
       <modifiers/>
     </rule>
+    <rule id="070e5a76-d293-5daf-4cd5-c3b48168fe5d" name="Bushwack (Order)" hidden="false" book="Wrath" page="54">
+      <modifiers/>
+    </rule>
     <rule id="83e01b4a-8a44-da10-bd0e-0861328e3a43" name="Camouflage" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="102">
+      <modifiers/>
+    </rule>
+    <rule id="e7891316-5f27-4c83-ac1a-e72ce472d76a" name="Cenotaph" hidden="false" book="Wrath" page="50">
       <modifiers/>
     </rule>
     <rule id="a1d7f3e7-8072-96d7-a1ad-144ec203bb39" name="Chain Weapon" hidden="false" book="Warmachine Prime" page="0">
@@ -4674,6 +4885,9 @@
       <modifiers/>
     </rule>
     <rule id="c6580794-12d0-5bfa-ff24-342c90163801" name="Communion (* Action)" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="114">
+      <modifiers/>
+    </rule>
+    <rule id="63d74439-ede8-7bbf-69ce-3f99d998651e" name="Construct" hidden="false" book="Warmachine Prime mkII">
       <modifiers/>
     </rule>
     <rule id="376a12f2-5b6c-a40d-4a10-08b9c5103847" name="Continuous Effect: Fire" hidden="false" book="Warmachine Prime" page="0">
@@ -4712,10 +4926,13 @@
     <rule id="5e535060-2fda-b15b-418a-23c927395b4a" name="Elite Cadre [Exemplar]" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="56">
       <modifiers/>
     </rule>
-    <rule id="949bc359-f687-90a4-7b55-75aad2594e6d" name="Elite Cadre [Paladins of t he Order of the Wall]" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="120">
+    <rule id="949bc359-f687-90a4-7b55-75aad2594e6d" name="Elite Cadre [Paladins of the Order of the Wall]" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="120">
       <modifiers/>
     </rule>
     <rule id="8738cfbb-8ab7-c50f-6225-c9f3d88bc80c" name="Excruciator" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="58">
+      <modifiers/>
+    </rule>
+    <rule id="cd7070e2-4099-84bb-dcc0-044ba03e05a4" name="Exorcist" hidden="false" book="Wrath" page="50">
       <modifiers/>
     </rule>
     <rule id="cdd0e672-57a5-9137-fdf0-7cb4589421d6" name="Fearless" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="92">
@@ -4781,6 +4998,12 @@
     <rule id="178c7dc6-f20d-2206-27f9-da9aacd1c20d" name="Open Fist" hidden="false" book="Warmachine Prime" page="0">
       <modifiers/>
     </rule>
+    <rule id="8a07ca1e-891b-48e1-2d3b-d1d3fe42db64" name="Overtake" hidden="false" book="Wrath" page="46">
+      <modifiers/>
+    </rule>
+    <rule id="d59e0236-1212-2bb9-d33c-6a9fd2cad3c4" name="Parry" hidden="false" book="Wrath" page="51">
+      <modifiers/>
+    </rule>
     <rule id="07ab20f0-0ec6-5f3e-f549-a7af3e3cd4b0" name="Pathfinder" hidden="false" book="Warmachine Prime" page="0">
       <modifiers/>
     </rule>
@@ -4793,7 +5016,16 @@
     <rule id="0c746ab5-f779-bcec-1bc8-93395b8cd6a8" name="Purgation" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="58">
       <modifiers/>
     </rule>
+    <rule id="021e31b5-4735-3ee5-2876-9cc6e76b789b" name="Quick Work" hidden="false" book="Wrath" page="55">
+      <modifiers/>
+    </rule>
     <rule id="3067112a-f37e-632f-0853-241fb4a60c18" name="Range Finder" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="91">
+      <modifiers/>
+    </rule>
+    <rule id="4c3bea4c-947f-acc9-8272-ade9c311f9a1" name="Ranking Officer" hidden="false" book="Wrath" page="53">
+      <modifiers/>
+    </rule>
+    <rule id="7ad7931b-6028-bf3c-86c8-89cfb2efc093" name="Rapid Strike" hidden="false" book="Wrath" page="55">
       <modifiers/>
     </rule>
     <rule id="2e8800ea-525d-7fb2-4a8a-80d28e663379" name="Reach" hidden="false" book="Warmachine Prime" page="0">
@@ -4862,7 +5094,13 @@
     <rule id="bdb242dd-05da-9201-92b5-6d4a27e8bfc0" name="Spell Ward" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="109">
       <modifiers/>
     </rule>
+    <rule id="b3e9675a-dd86-21ae-1580-95e739189ba6" name="Sprint" hidden="false" book="Wrath" page="55">
+      <modifiers/>
+    </rule>
     <rule id="0ea03eff-c854-af86-17f9-e2e5e211755b" name="Standard Bearer" hidden="false" book="Warmachine Prime" page="0">
+      <modifiers/>
+    </rule>
+    <rule id="0eed6ee5-1fae-0a81-ab5f-ca9859fd5cc6" name="Stealth" hidden="false" book="Warmachine Prime mkII">
       <modifiers/>
     </rule>
     <rule id="563da374-da5e-25bc-d427-97194812a43d" name="Stone-and-Mortar Stance" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="113">
@@ -4889,53 +5127,23 @@
     <rule id="6b9dc662-b430-a8aa-fb77-58663757f4df" name="Witch Hound" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="58">
       <modifiers/>
     </rule>
-    <rule id="8a07ca1e-891b-48e1-2d3b-d1d3fe42db64" name="Overtake" hidden="false" book="Wrath" page="46">
+    <rule id="3a06cd74-0157-5d1f-c77f-f5da6951be2d" name="Divine Inspiration" hidden="false" book="Colossals" page="72">
       <description></description>
       <modifiers/>
     </rule>
-    <rule id="e7891316-5f27-4c83-ac1a-e72ce472d76a" name="Cenotaph" hidden="false" book="Wrath" page="50">
+    <rule id="d814ea36-0946-4019-da0a-e41543fa9d41" name="Elite Cadre [Exemplar Vengers]" hidden="false" book="Colossals" page="72">
       <description></description>
       <modifiers/>
     </rule>
-    <rule id="cd7070e2-4099-84bb-dcc0-044ba03e05a4" name="Exorcist" hidden="false" book="Wrath" page="50">
+    <rule id="940b8848-e071-f932-8aff-d2598d4ae37b" name="Imperishable Conviction" hidden="false" book="Colossals" page="72">
       <description></description>
       <modifiers/>
     </rule>
-    <rule id="e60cbd94-45dc-e42b-a0de-90706a686762" name="Affinity []" hidden="false">
+    <rule id="38ccaf14-2843-6878-633a-8691c7b7660a" name="Brutal Charge" hidden="false" book="Colossals" page="72">
       <modifiers/>
     </rule>
-    <rule id="d59e0236-1212-2bb9-d33c-6a9fd2cad3c4" name="Parry" hidden="false" book="Wrath" page="51">
+    <rule id="0fd83fdf-6664-a932-1f74-4a46d8f89f0b" name="Colossal" hidden="false" book="Colossals" page="20">
       <description></description>
-      <modifiers/>
-    </rule>
-    <rule id="3c889a83-db22-1af5-330e-bf1abdaff632" name="Attachment []" hidden="false" book="Wrath" page="53">
-      <description></description>
-      <modifiers/>
-    </rule>
-    <rule id="4c3bea4c-947f-acc9-8272-ade9c311f9a1" name="Ranking Officer" hidden="false" book="Wrath" page="53">
-      <description></description>
-      <modifiers/>
-    </rule>
-    <rule id="070e5a76-d293-5daf-4cd5-c3b48168fe5d" name="Bushwack (Order)" hidden="false" book="Wrath" page="54">
-      <description></description>
-      <modifiers/>
-    </rule>
-    <rule id="0eed6ee5-1fae-0a81-ab5f-ca9859fd5cc6" name="Stealth" hidden="false" book="Warmachine Prime mkII">
-      <modifiers/>
-    </rule>
-    <rule id="021e31b5-4735-3ee5-2876-9cc6e76b789b" name="Quick Work" hidden="false" book="Wrath" page="55">
-      <description></description>
-      <modifiers/>
-    </rule>
-    <rule id="7ad7931b-6028-bf3c-86c8-89cfb2efc093" name="Rapid Strike" hidden="false" book="Wrath" page="55">
-      <description></description>
-      <modifiers/>
-    </rule>
-    <rule id="b3e9675a-dd86-21ae-1580-95e739189ba6" name="Sprint" hidden="false" book="Wrath" page="55">
-      <description></description>
-      <modifiers/>
-    </rule>
-    <rule id="63d74439-ede8-7bbf-69ce-3f99d998651e" name="Construct" hidden="false" book="Warmachine Prime mkII">
       <modifiers/>
     </rule>
   </sharedRules>
@@ -4993,6 +5201,17 @@
         <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="CTRL"/>
         <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="3"/>
         <characteristic characteristicId="504f5723232344415441232323" name="POW" value=""/>
+        <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="9966cc9c-768e-0800-e373-ab844ae31260" profileTypeId="5370656c6c23232344415441232323" name="Carnage" hidden="false" book="Wrath" page="46">
+      <characteristics>
+        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
+        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
+        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="CTRL"/>
+        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
         <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
         <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
       </characteristics>
@@ -5152,7 +5371,7 @@
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="97f1709b-2df0-6904-56b0-edffee0fe2ed" profileTypeId="5370656c6c23232344415441232323" name="Fire step" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="46">
+    <profile id="97f1709b-2df0-6904-56b0-edffee0fe2ed" profileTypeId="5370656c6c23232344415441232323" name="Fire Step" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="46">
       <characteristics>
         <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
         <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
@@ -5196,7 +5415,7 @@
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="6b42f22f-44d5-de94-6e07-6be1d0f08ecf" profileTypeId="5370656c6c23232344415441232323" name="Hex blast" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="58">
+    <profile id="6b42f22f-44d5-de94-6e07-6be1d0f08ecf" profileTypeId="5370656c6c23232344415441232323" name="Hex Blast" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="58">
       <characteristics>
         <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
         <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="10"/>
@@ -5207,7 +5426,7 @@
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="c0f2dff3-e304-406b-0de0-05abae0be33d" profileTypeId="5370656c6c23232344415441232323" name="Hex hammer" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="44">
+    <profile id="c0f2dff3-e304-406b-0de0-05abae0be33d" profileTypeId="5370656c6c23232344415441232323" name="Hex Hammer" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="44">
       <characteristics>
         <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
         <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
@@ -5218,7 +5437,7 @@
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="833c97da-5799-3c38-cfae-11e107fcc48a" profileTypeId="5370656c6c23232344415441232323" name="Holy ward" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="62">
+    <profile id="833c97da-5799-3c38-cfae-11e107fcc48a" profileTypeId="5370656c6c23232344415441232323" name="Holy Ward" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="62">
       <characteristics>
         <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
         <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
@@ -5306,6 +5525,17 @@
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="df400ef5-b5d6-b36e-b322-dd6679d184ef" profileTypeId="5370656c6c23232344415441232323" name="Occultation" hidden="false" book="Wrath" page="46">
+      <characteristics>
+        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+        <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
+        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="0f41fbfb-c77e-a9b3-f572-e77c125f45e6" profileTypeId="5370656c6c23232344415441232323" name="Perdition" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="58">
       <characteristics>
         <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
@@ -5325,6 +5555,17 @@
         <characteristic characteristicId="504f5723232344415441232323" name="POW" value=""/>
         <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
         <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="ba459965-112b-873a-f354-8d8c60fb0257" profileTypeId="5370656c6c23232344415441232323" name="Pursuit" hidden="false" book="Wrath" page="46">
+      <characteristics>
+        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="8"/>
+        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+        <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
+        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="YES"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -5369,6 +5610,28 @@
         <characteristic characteristicId="504f5723232344415441232323" name="POW"/>
         <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
         <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="b3077e77-f54c-a406-9e6f-27f228532c74" profileTypeId="5370656c6c23232344415441232323" name="Silence of Death" hidden="false" book="Wrath" page="46">
+      <characteristics>
+        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+        <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
+        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="4fed97db-e463-ad18-bd70-9ba0f35f57f6" profileTypeId="5370656c6c23232344415441232323" name="Stranglehold" hidden="false" book="Wrath" page="46">
+      <characteristics>
+        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="10"/>
+        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="11"/>
+        <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="YES"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -5427,58 +5690,36 @@
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="9966cc9c-768e-0800-e373-ab844ae31260" profileTypeId="5370656c6c23232344415441232323" name="Carnage" hidden="false" book="Wrath" page="46">
+    <profile id="be413e03-af50-11fa-e4b6-8ad8bacf85fd" profileTypeId="5370656c6c23232344415441232323" name="Crevasse" hidden="false" book="Colossals" page="72">
       <characteristics>
         <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
+        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="8"/>
+        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
+        <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="YES"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="765c0bb1-f0c9-3a88-b378-dcdf92986209" profileTypeId="5370656c6c23232344415441232323" name="Force Hammer" hidden="false" book="Colossals" page="72">
+      <characteristics>
+        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="4"/>
+        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="10"/>
+        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
+        <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="YES"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="44baefc3-8ad4-0936-eb91-a19690904a13" profileTypeId="5370656c6c23232344415441232323" name="Warpath" hidden="false" book="Colossals" page="72">
+      <characteristics>
+        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
         <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
         <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="CTRL"/>
         <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
-        <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
-        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="df400ef5-b5d6-b36e-b322-dd6679d184ef" profileTypeId="5370656c6c23232344415441232323" name="Occultation" hidden="false" book="Wrath" page="46">
-      <characteristics>
-        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
-        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
-        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
         <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
         <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="b3077e77-f54c-a406-9e6f-27f228532c74" profileTypeId="5370656c6c23232344415441232323" name="Silence of Death" hidden="false" book="Wrath" page="46">
-      <characteristics>
-        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
-        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
-        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
-        <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
-        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="4fed97db-e463-ad18-bd70-9ba0f35f57f6" profileTypeId="5370656c6c23232344415441232323" name="Stranglehold" hidden="false" book="Wrath" page="46">
-      <characteristics>
-        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
-        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="10"/>
-        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="11"/>
-        <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
-        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="YES"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="ba459965-112b-873a-f354-8d8c60fb0257" profileTypeId="5370656c6c23232344415441232323" name="Pursuit" hidden="false" book="Wrath" page="46">
-      <characteristics>
-        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
-        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="8"/>
-        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
-        <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
-        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="YES"/>
       </characteristics>
       <modifiers/>
     </profile>
