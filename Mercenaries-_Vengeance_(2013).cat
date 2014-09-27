@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5382cf4f-6e74-72c4-0e90-5366d1192ea7" revision="12" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="3" battleScribeVersion="1.14b" name="Mercenaries- Forces of Warmachine -  mkII (2010)" books="Mercenaries- Forces of Warmachine" authorName="Obiken" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5382cf4f-6e74-72c4-0e90-5366d1192ea7" revision="13" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="3" battleScribeVersion="1.14b" name="Mercenaries- Forces of Warmachine -  mkII (2010)" books="Mercenaries- Forces of Warmachine" authorName="Obiken" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="8058c02e-db92-21aa-3d1d-a2e86070623a" name="Alexia Ciannor, The Risen, &amp; Thrall Warrior" points="5.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="51">
       <entries/>
@@ -7,9 +7,11 @@
       <modifiers/>
       <rules>
         <rule id="c13aa29b-c053-dc35-2620-aace8f55e62a" name="Alexia: Arcane Disjunction" hidden="false" book="Mercenaries - Forces of Warmachine" page="51">
+          <description>While in this model&apos;s command range, enemy models pay double the focus or fury point cost to cast or upkeep spells.</description>
           <modifiers/>
         </rule>
         <rule id="b335c86f-c88e-a741-d520-c56132be8a49" name="Alexia: Death Magic" hidden="false" book="Mercenaries - Forces of Warmachine" page="51">
+          <description>This model can remove friendly Risen in its command range from play to make an additional attack or to boost and attack or damage roll for each Risen model removed. When this model suffers damage, it can remove friendly non-damaged Risen models in its command range from play to heal 1 damage point for each Risen model removed.</description>
           <modifiers/>
         </rule>
         <rule id="c7fffb52-1045-b9a3-e1a6-6575dcd1612c" name="Alexia: Fearless" hidden="false" book="Warmachine Prime mkII">
@@ -19,27 +21,34 @@
           <modifiers/>
         </rule>
         <rule id="7f667113-c099-8bc1-d413-b7051d817c88" name="Alexia: Magic Ability [8]" hidden="false" book="Mercenaries - Forces of Warmachine" page="51">
-          <description>* Craft Thrall Rune (* Action)
-* Disbinding (* Action)
-* Dominate Undead (* Attack)</description>
+          <description>* Craft Thrall Rune (* Action) - Choose a Risen Grunt in this unit in formation and replace it with a Thrall Warrior solo. Remove the Risen Grunt model from play.
+
+* Disbinding (* Action) - Enemy upkeep spells on this model and/or its unit immediately expire.
+
+* Dominate Undead (* Attack) - Dominate Undead is a RNG 10 magic attack. Take control of target enemy non-warcaster, non-warlock undead model hit. You can immediately make a full advance with the undead model followed by a nomral melee attack, then Dominate Undead expires. The undead model cannot be targeted by free strikes during this movement.</description>
           <modifiers/>
         </rule>
         <rule id="a2da35ba-eebe-c034-40d9-ffd1d6d40d4c" name="Alexia: Raise Dead" hidden="false" book="Mercenaries - Forces of Warmachine" page="51">
+          <description>When a living model is destroyed in this model&apos;s command range, this model gains one corpse token. At the end of your next Control Phase, remove all corpse tokens from this model and add one Risen Grunt to this unit for each corpse token removed. Risen Grunts must be place in formation. This unit cannot h ave more than 20 Risen Grunts in play at a time.</description>
           <modifiers/>
         </rule>
-        <rule id="ce6b577e-6193-8aa2-c8f7-5125d29b30da" name="Risen Grunts: Undead" hidden="false" book="Warmachine Prime mkII">
+        <rule id="ce6b577e-6193-8aa2-c8f7-5125d29b30da" name="Risen Grunts: Undead" hidden="false" book="Warmachine Prime mkII" page="34">
+          <description>This model is not a living model and never flees.</description>
           <modifiers/>
         </rule>
         <rule id="3bf8d729-8857-e44f-2a49-76e694900938" name="Risen Grunts: Combined Melee Attack" hidden="false" book="Warmachine Prime mkII">
           <modifiers/>
         </rule>
-        <rule id="02f49733-4ed0-aee2-9bba-54e0f33bb2b6" name="Witchfire: Magical Weapon" hidden="false" book="Warmachine Prime mkII">
+        <rule id="02f49733-4ed0-aee2-9bba-54e0f33bb2b6" name="Witchfire: Magical Weapon" hidden="false" book="Warmachine Prime mkII" page="36">
+          <description>This weapon is a magical weapon (p. 68).</description>
           <modifiers/>
         </rule>
         <rule id="7295df1b-8a4c-d853-f4f5-f63fc38e0a9f" name="Thrall Warrior: Created" hidden="false">
+          <description>This model does not begin the game in play.</description>
           <modifiers/>
         </rule>
-        <rule id="0775af0a-6a2c-e28d-671a-da0bb79a5d12" name="Thrall Warrior: Undead" hidden="false" book="Warmachine Prime mkII">
+        <rule id="0775af0a-6a2c-e28d-671a-da0bb79a5d12" name="Thrall Warrior: Undead" hidden="false" book="Warmachine Prime mkII" page="34">
+          <description>This model is not a living model and never flees.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -143,17 +152,20 @@
       <modifiers/>
       <rules>
         <rule id="34263541-8fc0-e821-c751-6ba584416e6f" name="Animosity [Morrowan]" hidden="false" book="Colossals" page="128">
+          <description>This model cannot be included in an army that includes one or more models of the listed type.</description>
           <modifiers/>
         </rule>
         <rule id="5b4139a4-1f8f-2e34-e655-1edc1d8084ec" name="Magic Ability [8]" hidden="false" book="Colossal" page="128">
-          <description>- Grave Summons (* Action)
-- Hellfire (* Attack)</description>
+          <description>- Grave Summons (* Action) - When this model uses Grave Summons it can spend any number of soul tokens. For each soul token spent put one friendly Thrall Warrior solo into play anywhere completely within 3&quot; of this model.
+- Hellfire (* Attack) - Hellfire is a RNG 10, POW 14 magic attack. A model/unit hit by Hellfire must pass a command check or flee.</description>
           <modifiers/>
         </rule>
         <rule id="341ce7a8-0917-091f-b2f3-ad58dba95057" name="Witchfire: Mage Killer" hidden="false" book="Colossals" page="128">
+          <description>Gain an additional damage die on this weapon&apos;s damage rolls against models with Spellcaster or Magic Ability.</description>
           <modifiers/>
         </rule>
-        <rule id="b42fa09d-0796-724c-f35d-330da6ec9584" name="Witchfire: Magical Weapon" hidden="false" book="Warmachine Prime mkII">
+        <rule id="b42fa09d-0796-724c-f35d-330da6ec9584" name="Witchfire: Magical Weapon" hidden="false" book="Warmachine Prime mkII" page="36">
+          <description>This weapon is a magical weapon (p. 68).</description>
           <modifiers/>
         </rule>
       </rules>
@@ -297,9 +309,11 @@
       <modifiers/>
       <rules>
         <rule id="18e306a7-b415-d83c-9920-7362c6e6502b" name="Feat: Roulette" hidden="false" book="Mercenaries - Forces of Warmachine" page="34">
+          <description>While in Ashlynn&apos;s control area, models gain two additional dice on their attack rolls. For each of those attack rolls, you choose two of the dice rolled to be discarded. Roulette lasts for one round.</description>
           <modifiers/>
         </rule>
-        <rule id="03fdba08-7601-254b-d75a-dc3a3f68bea0" name="Nemesis: Magical Weapon" hidden="false" book="Warmachine Prime mkII">
+        <rule id="03fdba08-7601-254b-d75a-dc3a3f68bea0" name="Nemesis: Magical Weapon" hidden="false" book="Warmachine Prime mkII" page="36">
+          <description>This weapon is a magical weapon (p. 68).</description>
           <modifiers/>
         </rule>
         <rule id="ede5ed5e-c6f7-ecc9-9727-5397ade7b152" name="Nemesis: Weapon Master" hidden="false" book="Warmachine Prime mkII">
@@ -381,6 +395,7 @@
           <modifiers/>
         </rule>
         <rule id="dadbb1c8-b087-96e7-feae-1c8affd41147" name="Wrapped Fists: Critical Knockdown" hidden="false" book="Mercenaries - Forces of Warmachine" page="54">
+          <description>On a critical hit, the model hit is knocked down.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -510,9 +525,11 @@
       <modifiers/>
       <rules>
         <rule id="d9e5d1ed-0195-2b6a-0139-8e48a4873463" name="Net: Knockdown" hidden="false" book="Mercenaries - Forces of Warmachine" page="38">
+          <description>When a model is hit by an attack with this weapon, it is knocked down.</description>
           <modifiers/>
         </rule>
-        <rule id="1795659f-b3da-8921-7f38-511eb02eaf80" name="Gaff: Reach" hidden="false" book="Warmachine Prime mkII">
+        <rule id="1795659f-b3da-8921-7f38-511eb02eaf80" name="Gaff: Reach" hidden="false" book="Warmachine Prime mkII" page="36">
+          <description>This weapon has a 2&quot; melee range (p. 50).</description>
           <modifiers/>
         </rule>
       </rules>
@@ -556,6 +573,9 @@
         <link id="087e5145-5488-85a1-9896-9915fb845f05" targetId="50d02130-ad44-6a6d-eefd-0ee7e6d65065" linkType="rule">
           <modifiers/>
         </link>
+        <link id="4bc2fadb-2739-b5e4-6e16-c6e05407ccb8" targetId="c3f33ffc-417a-3fcc-6b8f-869aeb5bf81e" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="5d3aa8ec-9594-6956-ba39-bccfc13996e8" name="Captain Bartolo Montador" points="-5.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="98">
@@ -572,7 +592,8 @@
         <rule id="45264754-b639-e0b4-c7b0-18e457e605bf" name="Overtake" hidden="false">
           <modifiers/>
         </rule>
-        <rule id="9d34188b-9a0e-078c-ac5b-360333815c18" name="Red Tide: Magical Weapon" hidden="false" book="Warmachine Prime mkII">
+        <rule id="9d34188b-9a0e-078c-ac5b-360333815c18" name="Red Tide: Magical Weapon" hidden="false" book="Warmachine Prime mkII" page="36">
+          <description>This weapon is a magical weapon (p. 68).</description>
           <modifiers/>
         </rule>
       </rules>
@@ -663,13 +684,15 @@
 - Money Shot</description>
           <modifiers/>
         </rule>
-        <rule id="b02503f2-eae5-5812-6bee-faf381d3094d" name="Judgment: Magical Weapon" hidden="false" book="Warmachine Prime mkII">
+        <rule id="b02503f2-eae5-5812-6bee-faf381d3094d" name="Judgment: Magical Weapon" hidden="false" book="Warmachine Prime mkII" page="36">
+          <description>This weapon is a magical weapon (p. 68).</description>
           <modifiers/>
         </rule>
         <rule id="ddeb6ab7-cea3-796a-2a05-b00094b3370b" name="Judgment: Blaster" hidden="false">
           <modifiers/>
         </rule>
-        <rule id="0c423568-0a95-1c05-eed6-48a3aeae5dea" name="Glory: Magical Weapon" hidden="false" book="Warmachine Prime mkII">
+        <rule id="0c423568-0a95-1c05-eed6-48a3aeae5dea" name="Glory: Magical Weapon" hidden="false" book="Warmachine Prime mkII" page="36">
+          <description>This weapon is a magical weapon (p. 68).</description>
           <modifiers/>
         </rule>
       </rules>
@@ -755,7 +778,8 @@
         <rule id="56698aec-0613-1231-5697-19768b5b29f1" name="Squall: Beat Back" hidden="false" book="Mercenaries - Forces of Warmachine" page="54">
           <modifiers/>
         </rule>
-        <rule id="ffd3e609-2965-95d4-1fca-9eaff5020984" name="Squall: Magical Weapon" hidden="false" book="Warmachine Prime mkII">
+        <rule id="ffd3e609-2965-95d4-1fca-9eaff5020984" name="Squall: Magical Weapon" hidden="false" book="Warmachine Prime mkII" page="36">
+          <description>This weapon is a magical weapon (p. 68).</description>
           <modifiers/>
         </rule>
       </rules>
@@ -837,24 +861,31 @@
           <modifiers/>
         </rule>
         <rule id="71f09d48-be7b-d1c1-cd01-7830417ec08f" name="Sam: Drive: Pronto" hidden="false" book="Mercenaries - Forces of Warmachine" page="60">
+          <description>This model can attempt to Drive each warjack under its control in its command range. To Drive a warjack, this model must make a command check at any time during its activation. If the check succeeds, the warjack immediately makes a full advance. If the check fails, the warjack does not benefit from &apos;Jack Marshal this turn.</description>
           <modifiers/>
         </rule>
         <rule id="11e869bb-8bd7-a2d7-08cc-84f7936a648a" name="Sam: Iron Wall" hidden="false" book="Mercenaries - Forces of Warmachine" page="60">
+          <description>This model gains +2 ARM for each warjack it controls B2B with it. When this model is directly hti by an enemy ranged or magic attack, you can choose to have onbe of those warjacks become the target and automatically be hit by the attack instead.</description>
           <modifiers/>
         </rule>
-        <rule id="4ec3a67d-c1c2-6ef4-0289-9925341e005c" name="Grunt: Combined Ranged Attack" hidden="false" book="Warmachine Prime mkII">
+        <rule id="4ec3a67d-c1c2-6ef4-0289-9925341e005c" name="Grunt: Combined Ranged Attack" hidden="false" book="Warmachine Prime mkII" page="33">
+          <description>This model can participate in combined ranged attacks with other models in its unit (p. 62).</description>
           <modifiers/>
         </rule>
         <rule id="b1fef2c0-a829-e043-c86f-8e25c7992600" name="Stun Gun: Stall" hidden="false" book="Mercenaries - Forces of Warmachine" page="43">
+          <description>A warjack hit by this attack suffers the Stall continuous effect. While a warjack is suffering Stall, its base DEF becomes 7 and it cannot run or charge.</description>
           <modifiers/>
         </rule>
         <rule id="57b86e41-4e74-3cf3-4bef-c3ce5d15f4e7" name="Net: Entangle" hidden="false" book="Mercenaries - Forces of Warmachine" page="60">
+          <description>When a warjack or warbeast is hit by this weapon it is knocked down.</description>
           <modifiers/>
         </rule>
         <rule id="d6d6bd23-a5a3-357e-0840-71a77aa85752" name="Net: Heavy" hidden="false" book="Mercenaries - Forces of Warmachine" page="60">
+          <description>If this model attacks with this weapon during its activation, it cannot attack with another melee weapon that activation. If this model attacked with another melee weapon this activation, it cannot attack with this weapon.</description>
           <modifiers/>
         </rule>
         <rule id="a33af4d9-8010-d983-98ef-ecbedebf09dd" name="Pick Axe: Trash" hidden="false" book="Mercenaries - Forces of Warmachine" page="60">
+          <description>Gain an additional damage die against knocked down targets.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -973,7 +1004,8 @@
         <rule id="b7fc3c36-474b-3c30-a367-33fe9e5ae45e" name="Hiss: Silencer" hidden="false" book="Mercenaries - Forces of Warmachine" page="58">
           <modifiers/>
         </rule>
-        <rule id="097651f9-25b8-b314-3e78-f68d71b289b7" name="Hiss: Magical Weapon" hidden="false" book="Warmachine Prime mkII">
+        <rule id="097651f9-25b8-b314-3e78-f68d71b289b7" name="Hiss: Magical Weapon" hidden="false" book="Warmachine Prime mkII" page="36">
+          <description>This weapon is a magical weapon (p. 68).</description>
           <modifiers/>
         </rule>
         <rule id="d1704bf0-a535-eb9e-b7d8-a13052b20367" name="Grunt: Pathfinder" hidden="false" book="Warmachine Prime mkII">
@@ -1228,7 +1260,8 @@
         <rule id="6f75c033-9429-c8b5-8aeb-0c7f0a26d10b" name="Great Sword: Backswing (* Attack)" hidden="false" book="Mercenaries - Forces of Warmachine" page="49">
           <modifiers/>
         </rule>
-        <rule id="5ca7c5b6-7e15-2f0d-63af-76cfcee4a661" name="Great Sword: Reach" hidden="false" book="Warmachine Prime mkII">
+        <rule id="5ca7c5b6-7e15-2f0d-63af-76cfcee4a661" name="Great Sword: Reach" hidden="false" book="Warmachine Prime mkII" page="36">
+          <description>This weapon has a 2&quot; melee range (p. 50).</description>
           <modifiers/>
         </rule>
         <rule id="fe0c6ad8-12b0-1133-6805-55fc95329b31" name="Blythe: Huntsman" hidden="false" book="Mercenaries - Forces of Warmachine" page="54">
@@ -1244,9 +1277,11 @@
           <modifiers/>
         </rule>
         <rule id="cd52379d-315b-a492-fda0-6db177afdd2e" name="Demolisher: Critical Knockdown" hidden="false" book="Mercenaries - Forces of Warmachine" page="54">
+          <description>On a critical hit, the model hit is knocked down.</description>
           <modifiers/>
         </rule>
         <rule id="fc6e6efd-c10c-915c-b86a-8b0cdd38f2bc" name="Demolisher: Rapid Fire [d3]" hidden="false" book="Mercenaries - Forces of Warmachine" page="54">
+          <description>When you decide to make initial attacks with this weapon at the beginning of this model&apos;s combat action, roll a d3. The total rolled is the number of initial attacks this model can make with this weapon during the combat action, ignoring ROF.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -1421,6 +1456,7 @@
           <modifiers/>
         </rule>
         <rule id="e3068fa8-b1e0-bc32-2aae-e6d922c4839a" name="Dirty Throwing Knives: Poison" hidden="false" book="Mercenaries - Forces of Warmachine" page="58">
+          <description>Gains an additional die on this weapon&apos;s damage rolls against living models.</description>
           <modifiers/>
         </rule>
         <rule id="9ce18155-a17f-fc93-82ba-89154aee47aa" name="Dirty Throwing Knives: Thrown" hidden="false" book="Mercenaries - Forces of Warmachine" page="66">
@@ -1491,15 +1527,19 @@
       <modifiers/>
       <rules>
         <rule id="807a196a-eaf4-2302-9db7-f39588babaa0" name="Feat: True Grit" hidden="false" book="Mercenaries - Forces of Warmachine" page="36">
+          <description>Choose a number of friendly non-warcaster Faction warrios models currently in MacBain&apos;s control area up to the number of foucs points on him +5. When a chosen model is disabled, it heals 1 damage point and is knocked down. True Grit lasts for one round.</description>
           <modifiers/>
         </rule>
-        <rule id="13dc38cb-3a87-0171-c22a-4dd154ab345a" name="Undertaker: Magical Weapon" hidden="false" book="Warmachine Prime mkII">
+        <rule id="13dc38cb-3a87-0171-c22a-4dd154ab345a" name="Undertaker: Magical Weapon" hidden="false" book="Warmachine Prime mkII" page="36">
+          <description>This weapon is a magical weapon (p. 68).</description>
           <modifiers/>
         </rule>
-        <rule id="f3e52da3-73ea-d6b1-d04d-f89e37f662cb" name="Undertaker: Reach" hidden="false" book="Warmachine Prime mkII">
+        <rule id="f3e52da3-73ea-d6b1-d04d-f89e37f662cb" name="Undertaker: Reach" hidden="false" book="Warmachine Prime mkII" page="36">
+          <description>This weapon has a 2&quot; melee range (p. 50).</description>
           <modifiers/>
         </rule>
         <rule id="94a6c754-2438-7979-7a20-400a58a87387" name="Undertaker: Grievous Wounds" hidden="false" book="Mercenaries - Forces of Warmachine" page="36">
+          <description>When a model is hit by this weapon, for one round it loses Tough, cannot heal or be healed, and cannot transfer damage.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -1558,9 +1598,6 @@
         <link id="5b3c7ad5-8471-cd02-677e-0035e43f8700" targetId="6965d2e6-feda-852e-2b4a-8dc21bf218cd" linkType="profile">
           <modifiers/>
         </link>
-        <link id="7df9340a-80f7-b189-ca89-91c4ce471293" targetId="6965d2e6-feda-852e-2b4a-8dc21bf218cd" linkType="profile">
-          <modifiers/>
-        </link>
         <link id="14b9a9a5-f249-9984-3ebf-b046db40764b" targetId="2cca3438-efc9-0f94-7019-f9052bc1bea5" linkType="profile">
           <modifiers/>
         </link>
@@ -1571,6 +1608,9 @@
           <modifiers/>
         </link>
         <link id="1bdabf6c-ba53-52f9-c5f8-cac5aa3aedf7" targetId="79898b15-a18c-d220-4bc5-b5f4562f406b" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="3bb98bfa-33ed-0f5e-a3c1-0fcacbf691c7" targetId="3bf9f6f6-917b-9d0d-ef1e-555c0bba7295" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -1587,6 +1627,7 @@
           <modifiers/>
         </rule>
         <rule id="78c8eea8-c42c-37e5-889f-9a434f3ef3ce" name="Buster: Arcing Fire" hidden="false" book="Mercenaries - Forces of Warmachine" page="42">
+          <description>When attacking with this weapon, this model can ignore intervening models except those within 1&quot; of the target.</description>
           <modifiers/>
         </rule>
         <rule id="839774d8-1551-417d-9912-8fc02878a5cd" name="Buster: Carpet Bomb (* Attack)" hidden="false">
@@ -1595,10 +1636,12 @@
         <rule id="278a181b-c957-ffdf-6dd2-407eb4d969de" name="Buster: Case Cracker (* Attack)" hidden="false">
           <modifiers/>
         </rule>
-        <rule id="1c2b1d15-b9aa-f42a-6985-39efff292129" name="Leveler: Magical Weapon" hidden="false" book="Warmachine Prime mkII">
+        <rule id="1c2b1d15-b9aa-f42a-6985-39efff292129" name="Leveler: Magical Weapon" hidden="false" book="Warmachine Prime mkII" page="36">
+          <description>This weapon is a magical weapon (p. 68).</description>
           <modifiers/>
         </rule>
-        <rule id="7eea234b-a290-4a79-38bb-840cd9a66ac2" name="Leveler: Reach" hidden="false" book="Warmachine Prime mkII">
+        <rule id="7eea234b-a290-4a79-38bb-840cd9a66ac2" name="Leveler: Reach" hidden="false" book="Warmachine Prime mkII" page="36">
+          <description>This weapon has a 2&quot; melee range (p. 50).</description>
           <modifiers/>
         </rule>
         <rule id="2e530ffd-b8a3-51de-5c5e-e6f8e45acd32" name="Leveler: Back Blast" hidden="false">
@@ -1681,19 +1724,16 @@
       <entryGroups/>
       <modifiers/>
       <rules>
-        <rule id="d600bcad-3610-9675-ec3e-5b5a5bdf36df" name="Sniper" hidden="false">
-          <modifiers/>
-        </rule>
-        <rule id="a1207da8-c8c8-5bd6-7fa8-5268d9227930" name="Retribution Partisan" hidden="false">
-          <modifiers/>
-        </rule>
         <rule id="3ce7bf76-1aaf-424d-0f15-10a50e798435" name="Technological Interference" hidden="false">
+          <description>While within 5&quot; of this model, non-myrmidon warjacks cannot channel spells or be allocated focus.</description>
           <modifiers/>
         </rule>
         <rule id="512d4ac2-ce92-e3e6-6e11-71dd5b83fa74" name="Arcane Interference" hidden="false">
+          <description>When this model hits another model with an attack, upkeep spells and animi on the model hit expire and it loses the focus points on it. When this model hits a warjack with and attack, that warjack suffers Disruption. (A warjack suffering Disruption loses its focus points and cannot be allocated focus or channel spells for one round.)</description>
           <modifiers/>
         </rule>
         <rule id="4150e3d8-5703-3684-f2ec-453ca72d0914" name="Whiplash" hidden="false">
+          <description>When an enemy model misses this model with a magic attack, the attacking model becomes the target and is automatically hit by the attack. AOE magic attacks that miss are centered on the attacking model. This model is the point of origin for all these attacks.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -1773,6 +1813,12 @@
         <link id="94d4faa6-e03d-eb65-a53b-e2dc5aa8c6fa" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
           <modifiers/>
         </link>
+        <link id="446bfaa7-1822-d41e-9082-385736fd376e" targetId="436ec278-32b6-b1d3-2be5-0a2e80af82ca" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ddf6e1a7-e907-25e1-3b09-43e9219bacb2" targetId="3300c3df-350e-9d5b-094a-ffae33419f0d" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="6104ef30-a38d-1b92-2c1a-d783c32e6852" name="Eiryss, Mage Hunter of Ios" points="3.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="74">
@@ -1781,15 +1827,17 @@
       <modifiers/>
       <rules>
         <rule id="de2422b8-d47f-3711-9f7e-e78ab23be158" name="Attack Type" hidden="false">
-          <description>- Death Bolt
-- Disruptor Bolt
-- Phantom Seeker</description>
-          <modifiers/>
-        </rule>
-        <rule id="9aee0df0-bc2f-2ce5-06b7-188c7cba49b0" name="Retribution Partisan" hidden="false">
+          <description>Eahc time this model makes a normal ranged attack, choose one of the following abilities:
+
+- Death Bolt - Instead of rolling damage, a model hit suffers 3 damage points. When damaging a warjack or warbeast, choose which column or branch suffers the damage.
+
+- Disruptor Bolt - A model h it loses all focus points. A model hit with Focus Manipulation special rule does not replenish focus points next turn. A warjack hit suffers Disruption for one round. (A warjack suffering Disruption loses its focus points and cannot be allocated focus or channel spells for one round.)
+
+- Phantom Seeker - This model ignores LOS when making ranged attacks. This model ignores concealment and cover when resolving ranged attacks.</description>
           <modifiers/>
         </rule>
         <rule id="4a58f343-9afa-edd0-7e59-4942dffb5b77" name="Technological Intolerance" hidden="false">
+          <description>When this model ends its normal movement within 5&quot; of a friendly non-myrmidon warjack, its activation ends immediately.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -1869,6 +1917,9 @@
         <link id="f3a18fa5-62da-39ff-eb3f-0085b82a5a98" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
           <modifiers/>
         </link>
+        <link id="e0de7ab0-0123-22eb-8d0a-7d5e253c2f56" targetId="436ec278-32b6-b1d3-2be5-0a2e80af82ca" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="50267099-1a27-ecba-675d-e27ab87b189a" name="Fiona the Black" points="-6.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="96">
@@ -1888,13 +1939,16 @@
         <rule id="d01179fe-a16f-13bb-6d50-9c57ed4ee011" name="Whiplash" hidden="false">
           <modifiers/>
         </rule>
-        <rule id="8712d5d9-e15c-3b55-a9f3-be9aa3020620" name="Viper: Magical Weapon" hidden="false" book="Warmachine Prime mkII">
+        <rule id="8712d5d9-e15c-3b55-a9f3-be9aa3020620" name="Viper: Magical Weapon" hidden="false" book="Warmachine Prime mkII" page="36">
+          <description>This weapon is a magical weapon (p. 68).</description>
           <modifiers/>
         </rule>
-        <rule id="4afdcb7d-4b36-00d9-7200-0fc6222e8081" name="Viper: Reach" hidden="false" book="Warmachine Prime mkII">
+        <rule id="4afdcb7d-4b36-00d9-7200-0fc6222e8081" name="Viper: Reach" hidden="false" book="Warmachine Prime mkII" page="36">
+          <description>This weapon has a 2&quot; melee range (p. 50).</description>
           <modifiers/>
         </rule>
         <rule id="916f660a-deef-6411-4722-b247781a2d74" name="Viper: Blessed" hidden="false" book="Mercenaries - Forces of Warmachine" page="86">
+          <description>When making an attack with this weapon, ignore spell effects that add to a model&apos;s ARM or DEF.</description>
           <modifiers/>
         </rule>
         <rule id="c086539a-4c86-65a7-c33a-2e57cadde13d" name="Viper: Grievous Wounds" hidden="false" book="Mercenaries - Forces of Warmachine" page="36">
@@ -2036,7 +2090,8 @@
         <rule id="4dec8d66-4d1c-4e1b-9dee-73ccd1bac9d6" name="Jury-Rigged [Speed]" hidden="false">
           <modifiers/>
         </rule>
-        <rule id="68b6d486-2022-89b1-dfe7-4d5f954cebf1" name="Clamp (both): Open Fist" hidden="false" book="Warmachine Prime mkII">
+        <rule id="68b6d486-2022-89b1-dfe7-4d5f954cebf1" name="Clamp (both): Open Fist" hidden="false" book="Warmachine Prime mkII" page="36">
+          <description>This weapon is an Open Fist. A warjack&apos;s Open Fist enables it to make certain power attacks. A warjack with an Open Fist can make arm lock, headlock, and throw power attacks; a warjack with two Open Fists can also make double-hand throw power attacks. A warjack cannot  use a crippled Open Fist to make power attacks.</description>
           <modifiers/>
         </rule>
         <rule id="ca697f27-3a05-7ef1-99ca-3c10c439a924" name="Clamp (both): Chain Attack: Grab &amp; Smash" hidden="false" book="Mercenaries - Forces of Warmachine" page="103">
@@ -2089,6 +2144,9 @@
         <link id="f32702d7-5804-be50-e3f5-2553b1f45cae" targetId="8ee33815-291e-3902-b153-2f6802af64df" linkType="rule">
           <modifiers/>
         </link>
+        <link id="5626be7f-f8ab-1e4c-a09b-77381e6b4073" targetId="c3f33ffc-417a-3fcc-6b8f-869aeb5bf81e" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="519dc39b-2212-06c4-ab82-d910e44485cc" name="Galleon" points="18.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Colossals" page="126">
@@ -2097,12 +2155,15 @@
       <modifiers/>
       <rules>
         <rule id="a7669074-6e0c-8e33-652f-57b08ea3d6b9" name="Gun Port: Rapid Fire [d3]" hidden="false" book="Mercenaries - Forces of Warmachine" page="54">
+          <description>When you decide to make initial attacks with this weapon at the beginning of this model&apos;s combat action, roll a d3. The total rolled is the number of initial attacks this model can make with this weapon during the combat action, ignoring ROF.</description>
           <modifiers/>
         </rule>
         <rule id="fea9fd43-1958-f7f7-5947-39e1517c176a" name="Harpoon Cannon: Drag" hidden="false" book="Colossals" page="126">
+          <description>If this weapon damages an enemy model with an equal or smaller base, immediately after the attack is resolved the damaged model can be pushed any distance directly toward this model. After the damaged model is moved, this model can make one normal melee attack against the model pushed. After resolving this melee attack, this model can make additional melee attacks during its combat action.</description>
           <modifiers/>
         </rule>
-        <rule id="8dc83e3e-bfcb-74da-67b6-f56892d85d47" name="Cargo Claw: Open Fist" hidden="false" book="Warmachine Prime mkII">
+        <rule id="8dc83e3e-bfcb-74da-67b6-f56892d85d47" name="Cargo Claw: Open Fist" hidden="false" book="Warmachine Prime mkII" page="36">
+          <description>This weapon is an Open Fist. A warjack&apos;s Open Fist enables it to make certain power attacks. A warjack with an Open Fist can make arm lock, headlock, and throw power attacks; a warjack with two Open Fists can also make double-hand throw power attacks. A warjack cannot  use a crippled Open Fist to make power attacks.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -2179,6 +2240,9 @@
         <link id="d8edc75d-7f87-c751-f8f2-15e11ebf87f3" targetId="0ee276b5-7c8e-f798-95b7-1f7b1b370ca0" linkType="rule">
           <modifiers/>
         </link>
+        <link id="c734079f-9b29-53ea-741b-42caa0d30e99" targetId="c3f33ffc-417a-3fcc-6b8f-869aeb5bf81e" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="1c862071-ebf1-540f-f054-75b6a1f432ee" name="Gastonne Crosse" points="3.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Vengeance" page="110">
@@ -2186,13 +2250,16 @@
       <entryGroups/>
       <modifiers/>
       <rules>
-        <rule id="7b528a4d-e28f-64ef-7d1c-e1cce9ded613" name="Flank [warjack]" hidden="false">
+        <rule id="7b528a4d-e28f-64ef-7d1c-e1cce9ded613" name="Flank [warjack]" hidden="false" book="Vengeance" page="110">
+          <description>When this model makes a melee attack against an enemy model within the mlee range of a friendly model of the type indicated, this model gains +2 to attack rolls and gains an additiional damage die.</description>
           <modifiers/>
         </rule>
-        <rule id="dbe9f4c4-c695-16c7-c214-e37e8d98ae5f" name="Scavenger [Vanguard]" hidden="false">
+        <rule id="dbe9f4c4-c695-16c7-c214-e37e8d98ae5f" name="Scavenger [Vanguard]" hidden="false" book="Vengeance" page="110">
+          <description>Reduce the point cost of Vanguard warjacks in this model&apos;s battlegroup by 1.</description>
           <modifiers/>
         </rule>
-        <rule id="30fd1f6b-fce5-8680-5261-8b8dc2e07c2d" name="Gypsy Kiss: Magical Weapon" hidden="false" book="Warmachine Prime mkII">
+        <rule id="30fd1f6b-fce5-8680-5261-8b8dc2e07c2d" name="Gypsy Kiss: Magical Weapon" hidden="false" book="Warmachine Prime mkII" page="36">
+          <description>This weapon is a magical weapon (p. 68).</description>
           <modifiers/>
         </rule>
       </rules>
@@ -2269,13 +2336,16 @@
       <entryGroups/>
       <modifiers/>
       <rules>
-        <rule id="11d0616e-4e89-6864-5472-42dc576fa737" name="Feat: Perfect Plan" hidden="false">
+        <rule id="11d0616e-4e89-6864-5472-42dc576fa737" name="Feat: Perfect Plan" hidden="false" book="Vengeance" page="122">
+          <description>While in Ossrum&apos;s control range, friendly Rhulic models gain +2 ARM. Friendly Rhulic models/units activating in this model&apos;s control area gain +2 SPD and Pathfinder. Perfect Plan lasts for one round.</description>
           <modifiers/>
         </rule>
-        <rule id="c699d31b-a30f-22e2-7ba7-d0355a1acc82" name="Oathkeeper: Magical Weapon" hidden="false" book="Warmachine Prime mkII">
+        <rule id="c699d31b-a30f-22e2-7ba7-d0355a1acc82" name="Oathkeeper: Magical Weapon" hidden="false" book="Warmachine Prime mkII" page="36">
+          <description>This weapon is a magical weapon (p. 68).</description>
           <modifiers/>
         </rule>
         <rule id="b0058cf3-fa5f-bfe9-7d6b-1f57e328d36a" name="Oathkeeper: Critical Decapitation" hidden="false" book="Wrath" page="122">
+          <description>On a critical hit, double the damage exceeding the ARM of the model hit. A model disabled by this attack cannot make a Tough roll.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -2458,10 +2528,12 @@
       <entryGroups/>
       <modifiers/>
       <rules>
-        <rule id="999902ec-8f25-e6f9-dd64-1e9e12cad57e" name="Grappler: Open Fist" hidden="false" book="Warmachine Prime mkII">
+        <rule id="999902ec-8f25-e6f9-dd64-1e9e12cad57e" name="Grappler: Open Fist" hidden="false" book="Warmachine Prime mkII" page="36">
+          <description>This weapon is an Open Fist. A warjack&apos;s Open Fist enables it to make certain power attacks. A warjack with an Open Fist can make arm lock, headlock, and throw power attacks; a warjack with two Open Fists can also make double-hand throw power attacks. A warjack cannot  use a crippled Open Fist to make power attacks.</description>
           <modifiers/>
         </rule>
         <rule id="7f571eb0-4100-4cc3-8a06-aa52a7914660" name="Drill: Sustained Attack" hidden="false" book="Mercenaries - Forces of Warmachine" page="42">
+          <description>During this model&apos;s activation, when it makes and attack with this weapon against the last model hit by the weapon this activation, the attack automatically hits.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -2507,21 +2579,27 @@
         </link>
       </links>
     </entry>
-    <entry id="b11c4385-a10f-9644-a906-e4cc06a7982c" name="Ghordson Earthbreaker" points="19.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Vengeance">
+    <entry id="b11c4385-a10f-9644-a906-e4cc06a7982c" name="Ghordson Earthbreaker" points="19.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Vengeance" page="104">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules>
         <rule id="87f790a6-43f9-09ae-4234-4ac1e6d3067d" name="Torpedo: Ammo Type" hidden="false">
-          <description>- Crater
-- Quake
-- Driller</description>
+          <description>Each time this weapon is uised to make an attack, choose one of the folowing abilities:
+- Crater- The AOE is rough terrain and remains in play for one round.
+- Quake - On a direct hit against an enemy model, all models hit are knocked down.</description>
           <modifiers/>
         </rule>
-        <rule id="dd707037-7842-e437-dbfa-cd23305eb689" name="Repeating Cannon: Rapid Fire [d3]" hidden="false">
+        <rule id="dd707037-7842-e437-dbfa-cd23305eb689" name="Repeating Cannon: Rapid Fire [d3]" hidden="false" book="Colossals" page="104">
+          <description>When you decide to make initial attacks with this weapon at the beginning of this model&apos;s combat action, roll a d3. The total rolled is the number of initial attacks this model can make with this weapon during the combat action, ignoring ROF.</description>
           <modifiers/>
         </rule>
-        <rule id="4ba2990a-4e83-40da-84ea-2bdcea500949" name="Steam Claws: Open Fist" hidden="false" book="Warmachine Prime mkII">
+        <rule id="4ba2990a-4e83-40da-84ea-2bdcea500949" name="Steam Claws: Open Fist" hidden="false" book="Warmachine Prime mkII" page="36">
+          <description>This weapon is an Open Fist. A warjack&apos;s Open Fist enables it to make certain power attacks. A warjack with an Open Fist can make arm lock, headlock, and throw power attacks; a warjack with two Open Fists can also make double-hand throw power attacks. A warjack cannot  use a crippled Open Fist to make power attacks.</description>
+          <modifiers/>
+        </rule>
+        <rule id="bfa767ad-961f-7ef1-8e1b-8df1a25f80d6" name="Torpedo: Driller" hidden="false" book="Vengeance" page="104">
+          <description>When making an attack with this weapon, ignore cover and the +2 DEF bonus for elevation.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -2699,15 +2777,19 @@
       <modifiers/>
       <rules>
         <rule id="45fd0004-5d19-a558-5604-9a49ae97b1d7" name="Feat: Landslide" hidden="false">
+          <description>Choose a table edge and a distance up to 8&quot;. Enemy models currently in Gorten&apos;s control area are pushed the chosen distance directly towards the chosen table edge in the order you choose. For one round, affected models cannotr give or receive orders and suffer -3 SPD, RAT and DEF.</description>
           <modifiers/>
         </rule>
         <rule id="b397e427-0d28-c029-6d3e-f5b16c192517" name="Forge Father: Critical Smite" hidden="false" book="Mercenaries - Forces of Warmachine" page="136">
+          <description>On a critical hit, this model can slam the model hit instead of rolling damage normally. The model hit is slammed d6&quot; directly away from this model and suffers a damage roll with POW equal to this model&apos;s STR plus the POW of this weapon. The POW of collateral damage is equal to this model&apos;s STR.</description>
           <modifiers/>
         </rule>
-        <rule id="75f91690-9bae-c6c0-5cec-56325f3d8496" name="Forge Father: Magical Weapon" hidden="false" book="Warmachine Prime mkII">
+        <rule id="75f91690-9bae-c6c0-5cec-56325f3d8496" name="Forge Father: Magical Weapon" hidden="false" book="Warmachine Prime mkII" page="36">
+          <description>This weapon is a magical weapon (p. 68).</description>
           <modifiers/>
         </rule>
         <rule id="972c24a0-daf3-77cd-fd99-3c9031b933d8" name="Dual Hand Cannon: Both Barrels (* Attack)" hidden="false" book="Mercenaries - Forces of Warmachine" page="136">
+          <description>This model gains +4 to the damage roll for this attack. This model cannot make additional ranged attacks with this weapon during an activation it makes a Both Barrels attack.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -2814,9 +2896,13 @@
           <modifiers/>
         </rule>
         <rule id="5944e9cc-2cd6-359a-95ee-3831c8eff3e2" name="Boomhowler: Fell Howl" hidden="false" book="Mercenaries - Forces of Warmachine" page="56">
-          <description>- Call of Defiance
-- Call to Action
-- Rage Howler</description>
+          <description>This model can make one of the following fell calls anytime during its unit&apos;s activation. A friendly Faction model/unit can be affected by only one fell call each turn.
+
+- Call of Defiance - When a model in this unit that is in formation makes a Tough roll of 4, 5, or 6, it heals 1 damage point and is knocked down. Call of Defiance lasts for one round.
+
+- Call to Action - Knocked down models in th is unit in formation immediately stand up.
+
+- Rage Howler - Enemy models/units currently in this model&apos;s command range must pass a command check or flee. Warjacks and warbeasts currently in this model&apos;s command range suffer -2 to attack rolls for one round.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -3178,27 +3264,34 @@
           <modifiers/>
         </rule>
         <rule id="d5b170be-9813-ce14-5d2c-f74b3c9b0be7" name="Witch Hunter" hidden="false">
+          <description>After an enemy model casts a spell within 10&quot; of this model, this model may immediately make a normal ranged attack targeting that model.</description>
           <modifiers/>
         </rule>
-        <rule id="08741cb3-4e2c-1711-0290-b1d43ec13c54" name="Malleus: Magical Weapon" hidden="false" book="Warmachine Prime mkII">
+        <rule id="08741cb3-4e2c-1711-0290-b1d43ec13c54" name="Malleus: Magical Weapon" hidden="false" book="Warmachine Prime mkII" page="36">
+          <description>This weapon is a magical weapon (p. 68).</description>
           <modifiers/>
         </rule>
-        <rule id="82a2d130-3dd9-81df-8e6c-9a2925cacab9" name="Sword: Magical Weapon" hidden="false" book="Warmachine Prime mkII">
+        <rule id="82a2d130-3dd9-81df-8e6c-9a2925cacab9" name="Sword: Magical Weapon" hidden="false" book="Warmachine Prime mkII" page="36">
+          <description>This weapon is a magical weapon (p. 68).</description>
           <modifiers/>
         </rule>
         <rule id="7730cec5-04f5-ac51-7487-7cd428adad0e" name="Malleus: Purgation" hidden="false" book="Mercenaries - Forces of Warmachine" page="86">
+          <description>Gain an additional die on attack and damage rolls with this weapon against models with an enemy upkeep spell on them.</description>
           <modifiers/>
         </rule>
         <rule id="07068b48-6241-8484-6b48-b4fc190632f3" name="Sword: Purgation" hidden="false" book="Mercenaries - Forces of Warmachine" page="86">
           <modifiers/>
         </rule>
         <rule id="347b5b70-4705-3fbc-f5a7-caf8e43ed6ea" name="Malleus: Multi-Fire (* Attack)" hidden="false" book="Mercenaries - Forces of Warmachine" page="86">
+          <description>Make an attack with this weapon. On a hit, after resolving the attack this model can immediately make one additional attack with this weapon targeting the last  model hit or another model within 2&quot; of the last model hit, ignoring ROF. This model can make up to four attacks during its activation as a result of Multi-Fire.</description>
           <modifiers/>
         </rule>
         <rule id="80f92115-df0a-5f97-5e00-aa63804f68ae" name="Malleus: Blessed" hidden="false" book="Mercenaries - Forces of Warmachine" page="86">
+          <description>When making an attack with this weapon, ignore spell effects that add to a model&apos;s ARM or DEF.</description>
           <modifiers/>
         </rule>
         <rule id="6e449274-9e7e-dc1a-2412-e9c8473720f3" name="Sword: Blessed" hidden="false" book="Mercenaries - Forces of Warmachine" page="86">
+          <description>When making an attack with this weapon, ignore spell effects that add to a model&apos;s ARM or DEF.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -3362,6 +3455,7 @@
       <modifiers/>
       <rules>
         <rule id="aea97dbb-f34b-fc5c-1d27-2a7edaf18994" name="Siege Cannon: Arcing Fire" hidden="false" book="Mercenaries - Forces of Warmachine" page="42">
+          <description>When attacking with this weapon, this model can ignore intervening models except those within 1&quot; of the target.</description>
           <modifiers/>
         </rule>
         <rule id="eaf9cad9-b82a-e583-8870-7b5130249e38" name="Siege Cannon: Light Artillery" hidden="false">
@@ -3455,7 +3549,8 @@
       <entryGroups/>
       <modifiers/>
       <rules>
-        <rule id="fcf2f40e-c120-d04c-14cf-1b12c95753a0" name="Mechanikal Hammer: Reach" hidden="false" book="Warmachine Prime mkII">
+        <rule id="fcf2f40e-c120-d04c-14cf-1b12c95753a0" name="Mechanikal Hammer: Reach" hidden="false" book="Warmachine Prime mkII" page="36">
+          <description>This weapon has a 2&quot; melee range (p. 50).</description>
           <modifiers/>
         </rule>
         <rule id="0912206d-4512-3b13-4f11-7415bd1ab6b7" name="Mechanikal Hammer: Weapon Master" hidden="false" book="Warmachine Prime mkII">
@@ -3511,7 +3606,8 @@
       <entryGroups/>
       <modifiers/>
       <rules>
-        <rule id="ef09ba43-787d-dcf3-ccd1-efd89086ce0b" name="Silence: Magical Weapon" hidden="false" book="Warmachine Prime mkII">
+        <rule id="ef09ba43-787d-dcf3-ccd1-efd89086ce0b" name="Silence: Magical Weapon" hidden="false" book="Warmachine Prime mkII" page="36">
+          <description>This weapon is a magical weapon (p. 68).</description>
           <modifiers/>
         </rule>
       </rules>
@@ -3748,20 +3844,7 @@
       <entries/>
       <entryGroups/>
       <modifiers/>
-      <rules>
-        <rule id="5f498d96-46f1-3443-bfdb-c45527fef0e0" name="Advisor" hidden="false">
-          <modifiers/>
-        </rule>
-        <rule id="5fe0b9cc-011d-60e6-7428-52857a6bb2c9" name="Intrigue" hidden="false">
-          <modifiers/>
-        </rule>
-        <rule id="7ef3668a-a874-8316-99ae-15840ea1aa66" name="Seduction (* Action)" hidden="false" book="Mercenaries - Forces of Warmachine" page="70">
-          <modifiers/>
-        </rule>
-        <rule id="8e96be98-5ba1-1504-06a7-8d094908eb97" name="Sucker!" hidden="false" book="Mercenaries - Forces of Warmachine" page="70">
-          <modifiers/>
-        </rule>
-      </rules>
+      <rules/>
       <profiles>
         <profile id="ba668a6b-2972-0cea-eb46-954f5ecca21e" profileTypeId="54726f6f70657223232344415441232323" name="Madelyn Corbeau, Ordic Courtesan" hidden="false">
           <characteristics>
@@ -3790,6 +3873,18 @@
         <link id="9ee947db-dd0b-8771-bb34-4c942e4a3a6f" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
           <modifiers/>
         </link>
+        <link id="ce916487-e1b7-5a88-1781-50f966c24260" targetId="086e1cfe-ad3d-07a6-be9d-df9a64c916b3" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3bbf64f3-026c-2f5f-0c55-db00901ad74a" targetId="a29290f5-5f47-af5a-5aa4-f8450451859d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="724817ea-7d75-6aa9-a62e-7d3011a2f1ff" targetId="3163f8df-14ce-49e2-f47f-55fd58751325" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8df9c2a2-54a1-696d-6d94-61dc19cb9d76" targetId="48272ed3-828b-3003-5a54-ef50d72c746d" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="853141c2-df2f-2c18-6112-289683d7f24c" name="Magnus the Traitor" points="-6.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="38">
@@ -3805,15 +3900,18 @@
       </modifiers>
       <rules>
         <rule id="91eb5909-c88c-eee2-0cfe-e3ca64438254" name="Feat: Hit and Run" hidden="false" book="Mercenaries - Forces of Warmachine" page="38">
+          <description>Models in Magnus&apos; battlegroup currently in his control area can make a full advance or run after all friendly models have completed their activations this turn. Warjacks do not have to spend focus to run during this movement. During this movement models cannot be targeted by free strikes.</description>
           <modifiers/>
         </rule>
-        <rule id="8683de73-67e0-d068-17f0-6f62006589cb" name="Foecleaver: Magical Weapon" hidden="false" book="Warmachine Prime mkII">
+        <rule id="8683de73-67e0-d068-17f0-6f62006589cb" name="Foecleaver: Magical Weapon" hidden="false" book="Warmachine Prime mkII" page="36">
+          <description>This weapon is a magical weapon (p. 68).</description>
           <modifiers/>
         </rule>
         <rule id="d21d1cad-45ee-7739-a814-19b29ed65a9c" name="Foecleaver: Powerful Attack" hidden="false" book="Mercenaries - Forces of Warmachine" page="38">
           <modifiers/>
         </rule>
         <rule id="1470e835-d158-9d98-db63-149810722f8a" name="Mechanical Arm: Knockdown" hidden="false" book="Mercenaries - Forces of Warmachine" page="38">
+          <description>When a model is hit by an attack with this weapon, it is knocked down.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -3910,12 +4008,15 @@
       </modifiers>
       <rules>
         <rule id="aab82ac1-7250-d4b9-d3ea-927723ff1d0c" name="Feat: Kill Box" hidden="false" book="Mercenaries - Forces of Warmachine" page="40">
+          <description>Choose two table edges. Enemy models beginning an advance in Magnus&apos; control area cannot advance toward those table edges for one round.</description>
           <modifiers/>
         </rule>
         <rule id="ff9e2407-cc7e-e35d-7273-89c91d60efef" name="Warjack Bond" hidden="false" book="Mercenaries - Forces of Warmachine" page="40">
+          <description>One non-character warjack in Magnus&apos; battlegroup can begin the game bonded to him. The warjack gains Backstab.</description>
           <modifiers/>
         </rule>
-        <rule id="37cef2a8-febb-1821-8749-10167e1a1d2a" name="Foecleaver X: Magical Weapon" hidden="false" book="Warmachine Prime mkII">
+        <rule id="37cef2a8-febb-1821-8749-10167e1a1d2a" name="Foecleaver X: Magical Weapon" hidden="false" book="Warmachine Prime mkII" page="36">
+          <description>This weapon is a magical weapon (p. 68).</description>
           <modifiers/>
         </rule>
         <rule id="7b676b49-ffc1-0f5a-108e-6b39cfbdc916" name="Foecleaver X: Armor Piercing (* Attack)" hidden="false" book="Mercenaries - Forces of Warmachine" page="40">
@@ -3925,6 +4026,7 @@
           <modifiers/>
         </rule>
         <rule id="bfb73016-1641-eaf8-ec4e-e6db14289ba7" name="Mechanical Arm: Knockdown" hidden="false" book="Mercenaries - Forces of Warmachine" page="38">
+          <description>When a model is hit by an attack with this weapon, it is knocked down.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -4013,10 +4115,12 @@
         <rule id="53e3fe53-06a2-22de-3e3f-8688868f36b0" name="Wrecker: Chain Weapon" hidden="false" book="Mercenaries - Forces of Warmachine" page="45">
           <modifiers/>
         </rule>
-        <rule id="79e25388-f09a-c5c9-5c21-05756aa046c7" name="Wrecker: Reach" hidden="false" book="Warmachine Prime mkII">
+        <rule id="79e25388-f09a-c5c9-5c21-05756aa046c7" name="Wrecker: Reach" hidden="false" book="Warmachine Prime mkII" page="36">
+          <description>This weapon has a 2&quot; melee range (p. 50).</description>
           <modifiers/>
         </rule>
-        <rule id="fc99f786-c006-6eaf-8222-85893623b44b" name="Punching Spike: Open Fist" hidden="false" book="Warmachine Prime mkII">
+        <rule id="fc99f786-c006-6eaf-8222-85893623b44b" name="Punching Spike: Open Fist" hidden="false" book="Warmachine Prime mkII" page="36">
+          <description>This weapon is an Open Fist. A warjack&apos;s Open Fist enables it to make certain power attacks. A warjack with an Open Fist can make arm lock, headlock, and throw power attacks; a warjack with two Open Fists can also make double-hand throw power attacks. A warjack cannot  use a crippled Open Fist to make power attacks.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -4121,6 +4225,7 @@
       <modifiers/>
       <rules>
         <rule id="392b1ecd-3de7-d4bb-ed92-253d1735c62f" name="Quad Iron: Multi-Fire (* Attack)" hidden="false" book="Mercenaries - Forces of Warmachine" page="86">
+          <description>Make an attack with this weapon. On a hit, after resolving the attack this model can immediately make one additional attack with this weapon targeting the last  model hit or another model within 2&quot; of the last model hit, ignoring ROF. This model can make up to four attacks during its activation as a result of Multi-Fire.</description>
           <modifiers/>
         </rule>
         <rule id="a11cc47a-589c-516b-f117-2b06e3703082" name="Grenade: Cumbersome" hidden="false" book="Mercenaries - Forces of Warmachine" page="128">
@@ -4214,6 +4319,7 @@
       <modifiers/>
       <rules>
         <rule id="b0a934ac-6113-9cba-e6d9-22276a8646d1" name="Steam Lobber: Arcing Fire" hidden="false" book="Mercenaries - Forces of Warmachine" page="42">
+          <description>When attacking with this weapon, this model can ignore intervening models except those within 1&quot; of the target.</description>
           <modifiers/>
         </rule>
         <rule id="18143152-f036-8b7e-e20c-a57cd4996862" name="Steam Lobber: Critical Devastation" hidden="false" book="Mercenaries - Forces of Warmachine" page="46">
@@ -4222,7 +4328,8 @@
         <rule id="e2729504-49a5-cbd4-7c77-46b531f444e9" name="Steam Lobber: Steam Pressure" hidden="false" book="Mercenaries - Forces of Warmachine" page="46">
           <modifiers/>
         </rule>
-        <rule id="5b238a8d-6449-1e5c-677d-1b1e9cbbd2e6" name="Battle Mace: Reach" hidden="false" book="Warmachine Prime mkII">
+        <rule id="5b238a8d-6449-1e5c-677d-1b1e9cbbd2e6" name="Battle Mace: Reach" hidden="false" book="Warmachine Prime mkII" page="36">
+          <description>This weapon has a 2&quot; melee range (p. 50).</description>
           <modifiers/>
         </rule>
       </rules>
@@ -4262,20 +4369,27 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="e20b9316-3d73-3d73-672e-de8dcbb2a6d2" targetId="c3f33ffc-417a-3fcc-6b8f-869aeb5bf81e" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="f4fe5361-69ea-6a26-b23d-6acc28886e75" name="Nomad" points="6.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="47">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules>
-        <rule id="3e5836a6-09d9-f6f2-bc27-7cee183eb310" name="Open Fist: Buckler" hidden="false" book="Warmachine Prime mkII">
+        <rule id="3e5836a6-09d9-f6f2-bc27-7cee183eb310" name="Open Fist: Buckler" hidden="false" book="Warmachine Prime mkII" page="35">
+          <description>This weaspon has an integral buckler that gives the model a cumulative +1 ARM bonus; for example, a model with two of them gains a bonus of +2 arm. A model does not gain this bonus while the weapon system with the buckler is crippled or being held in a weapon lock or when resolving damage that originates in its back arc.</description>
           <modifiers/>
         </rule>
-        <rule id="da3fa663-13cd-3096-5342-f7380cf590d3" name="Open Fist: Open Fist" hidden="false" book="Warmachine Prime mkII">
+        <rule id="da3fa663-13cd-3096-5342-f7380cf590d3" name="Open Fist: Open Fist" hidden="false" book="Warmachine Prime mkII" page="36">
+          <description>This weapon is an Open Fist. A warjack&apos;s Open Fist enables it to make certain power attacks. A warjack with an Open Fist can make arm lock, headlock, and throw power attacks; a warjack with two Open Fists can also make double-hand throw power attacks. A warjack cannot  use a crippled Open Fist to make power attacks.</description>
           <modifiers/>
         </rule>
-        <rule id="a9b72fdc-a819-a134-2c1a-f74136ccd933" name="Battle Blade: Reach" hidden="false" book="Warmachine Prime mkII">
+        <rule id="a9b72fdc-a819-a134-2c1a-f74136ccd933" name="Battle Blade: Reach" hidden="false" book="Warmachine Prime mkII" page="36">
+          <description>This weapon has a 2&quot; melee range (p. 50).</description>
           <modifiers/>
         </rule>
       </rules>
@@ -4315,7 +4429,11 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="ca293487-4af0-1cbd-16e1-23d325f62ca7" targetId="c3f33ffc-417a-3fcc-6b8f-869aeb5bf81e" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="f3796be2-0d01-5781-36f3-0f7df43ad67c" name="Ogrun Assault Corps" points="6.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wrath" page="134">
       <entries>
@@ -4394,7 +4512,8 @@
         <rule id="d8afe841-a73d-d238-7c34-129523905a89" name="Power Attack Slam" hidden="false">
           <modifiers/>
         </rule>
-        <rule id="26bf5058-f734-aada-587e-2ebd6fb8edde" name="Ogrun Pole Arm: Reach" hidden="false" book="Warmachine Prime mkII">
+        <rule id="26bf5058-f734-aada-587e-2ebd6fb8edde" name="Ogrun Pole Arm: Reach" hidden="false" book="Warmachine Prime mkII" page="36">
+          <description>This weapon has a 2&quot; melee range (p. 50).</description>
           <modifiers/>
         </rule>
         <rule id="955543a2-4237-0ce5-045d-aacc80559c3c" name="Ogrun Pole Arm: Powerful Charge" hidden="false" book="Mercenaries - Forces of Warmachine" page="43">
@@ -4459,15 +4578,19 @@
       <modifiers/>
       <rules>
         <rule id="cdb0fbf5-d5a4-4961-9df8-fd5f5eabc7b9" name="Magic Ability [7]" hidden="false">
-          <description>- Arc Lightning (* Attack)
-- Null Magic (* Action)
-- Stealth (* Action)</description>
+          <description>- Arc Lightning (* Attack) - Arc Lightning is a RNG 10 magic attack. A model hit by this spell suffers a POW 10 electrical damage roll, and ligntining arcs from it to d3 consecutive additional models. The lightning arcs to the nearest model it has not arced to within 4&quot; of the last model it araced to, ignoring this model. Each model the lightning arcs to suffers a POW 10 electrical damage roll.
+
+- Null Magic (* Action) - For one round, models cannot cast spells while within 12&quot; of this model.
+
+- Stealth (* Action) -  This model gains Stealth for one round.</description>
           <modifiers/>
         </rule>
-        <rule id="564b3364-f206-166d-f563-a14992336691" name="Void Staff: Reach" hidden="false" book="Warmachine Prime mkII">
+        <rule id="564b3364-f206-166d-f563-a14992336691" name="Void Staff: Reach" hidden="false" book="Warmachine Prime mkII" page="36">
+          <description>This weapon has a 2&quot; melee range (p. 50).</description>
           <modifiers/>
         </rule>
         <rule id="aff8d087-f180-e299-1e73-4f5eed337851" name="Void Staff: Energy Vacuum" hidden="false">
+          <description>When an enemy model casts a spell while within 12&quot; of this model, this model gains one power token. It can have up to three power tokens at a time. During its activation, this model can spend power tokens to gain additional attacks or to boost attack or damage rolls at one token per attack or boost.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -4629,18 +4752,22 @@
       <entryGroups/>
       <modifiers/>
       <rules>
-        <rule id="2d797763-8035-4f7d-6b58-7a32c8de11d3" name="Animosity [Morrowan]" hidden="false" book="Wrath 136">
+        <rule id="2d797763-8035-4f7d-6b58-7a32c8de11d3" name="Animosity [Morrowan]" hidden="false" book="Wrath" page="136">
+          <description>This model cannot be included in an army that includes one or more models of the listed type.</description>
           <modifiers/>
         </rule>
         <rule id="a0865005-8b4a-9b90-3f51-035fa6bf9fa3" name="Magical Ability [7]" hidden="false">
-          <description>- Bone Shaker (* Attack)
-- Death Field (* Action)</description>
+          <description>- Bone Shaker (* Attack) - Bone Shaker is a RNG 8, POW 12 magic attack. When this spell boxes a living or undead non-warcaster, non-warlock enemy warrior model, you can immediately take control of the model and make a full advance with the enemy model followed by a normal melee attack, then the boxed model is removed from play. The boxed model cannot be targeted by free strikes during this movement.
+
+- Death Field (* Action) - This model gains Dark Shroud. While within 3&quot; of this model, frienldy models also gain Dark Shroud. Death Field lasts for one turn. (While in the melee range of a model with Dark Shroud, enemy models suffer -2 ARM.)</description>
           <modifiers/>
         </rule>
-        <rule id="3731e954-9591-4ee8-0d6e-e3a4fe385290" name="Sacrificial Pawn [living]" hidden="false">
+        <rule id="3731e954-9591-4ee8-0d6e-e3a4fe385290" name="Sacrificial Pawn [living]" hidden="false" book="Wrath" page="136">
+          <description>When this model is directly hit by an enemy ranged attack, you can choose to have one friendly, non-incorporeal living model within 3&quot; of this model directly hit instead. That model is automatically hit and sufers all damage and effects.</description>
           <modifiers/>
         </rule>
-        <rule id="078a35e2-8933-ed9f-b30a-3409f9e117ff" name="Walking Stick: Magical Weapon" hidden="false" book="Warmachine Prime mkII">
+        <rule id="078a35e2-8933-ed9f-b30a-3409f9e117ff" name="Walking Stick: Magical Weapon" hidden="false" book="Warmachine Prime mkII" page="36">
+          <description>This weapon is a magical weapon (p. 68).</description>
           <modifiers/>
         </rule>
       </rules>
@@ -4690,10 +4817,12 @@
       <entryGroups/>
       <modifiers/>
       <rules>
-        <rule id="1c55e139-3e8a-5412-1996-310e0bfc0da4" name="Drive: Hog Wild" hidden="false">
+        <rule id="1c55e139-3e8a-5412-1996-310e0bfc0da4" name="Drive: Hog Wild" hidden="false" book="Vengeance" page="108">
+          <description>This model can attempt to Drive each warjack under its control in its command range. To Drive a warjack, thjis model must make a command check at any time during its activation. If it passes, the warjack can make one ranged attack this activation before its normal movement. After its normal movement, the warjack can only make melee attacks that activation. If it fails, the warjack does not benefit from &apos;Jack Marshal this turn.	</description>
           <modifiers/>
         </rule>
         <rule id="603d93f0-6c6f-7cd6-cb55-4204d24912a7" name="Repair[8] (* Action)" hidden="false" book="Mercenaries - Forces of Warmachine" page="120">
+          <description>This model can attempt repairs on any damaged friendly Faction warjack. To attempt repairs, this model must be B2B with the damaged warjack and make a skill check. If successful, remove d6 damage points from the warjack&apos;s damage grid.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -4773,9 +4902,13 @@
       <modifiers/>
       <rules>
         <rule id="4e4f2901-01d8-a670-9cb2-fac978eea8f6" name="Warcaster Benefits" hidden="false">
-          <description>- Lucky Charm (* Action)
-- Reload (* Action)
-- Spyglass (* Action)</description>
+          <description>While this model is B2B with a friendly warcaster, this model can use one of the following special abilities:
+
+- Lucky Charm (* Action) - During his activation this turn, the warcaster can gain an additional die on an attack or damage roll. Discard the lowest die.
+
+- Reload (* Action) - During his activation this turn, the warcaster can make one additional ranged attack ignoring ROF.
+
+- Spyglass (* Action) - Measure the distance betwen two models within the warcaster&apos;s LOS.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -4812,12 +4945,15 @@
           <modifiers/>
         </rule>
         <rule id="57aefa3a-9726-e4aa-2e01-37feac25c633" name="Obliterator: Arcing Fire" hidden="false" book="Mercenaries - Forces of Warmachine" page="42">
+          <description>When attacking with this weapon, this model can ignore intervening models except those within 1&quot; of the target.</description>
           <modifiers/>
         </rule>
-        <rule id="31a418fc-d68f-e436-2e0c-cd28da5926f5" name="Obliterator: Buckler" hidden="false" book="Warmachine Prime mkII">
+        <rule id="31a418fc-d68f-e436-2e0c-cd28da5926f5" name="Obliterator: Buckler" hidden="false" book="Warmachine Prime mkII" page="35">
+          <description>This weaspon has an integral buckler that gives the model a cumulative +1 ARM bonus; for example, a model with two of them gains a bonus of +2 arm. A model does not gain this bonus while the weapon system with the buckler is crippled or being held in a weapon lock or when resolving damage that originates in its back arc.</description>
           <modifiers/>
         </rule>
         <rule id="7bee6c8e-69db-e5f2-51f6-813290200d5c" name="Obliterator: Knockdown" hidden="false" book="Mercenaries - Forces of Warmachine" page="38">
+          <description>When a model is hit by an attack with this weapon, it is knocked down.</description>
           <modifiers/>
         </rule>
         <rule id="a5ee1144-b976-4249-30b4-950a86116d6c" name="Obliterator: One Shot" hidden="false" book="Mercenaries - Forces of Warmachine" page="42">
@@ -4827,6 +4963,7 @@
           <modifiers/>
         </rule>
         <rule id="d3ce8e3d-ee06-8814-47fc-0c71270f44f7" name="Shredder: Sustained Attack" hidden="false" book="Mercenaries - Forces of Warmachine" page="42">
+          <description>During this model&apos;s activation, when it makes and attack with this weapon against the last model hit by the weapon this activation, the attack automatically hits.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -4870,6 +5007,9 @@
         <link id="9bab57ed-944a-08b5-db2a-0b0c832b847f" targetId="4cc50386-4b6b-fd8e-b3b6-8d44b9354a0d" linkType="rule">
           <modifiers/>
         </link>
+        <link id="60e31301-62e1-5420-9d5b-9d5d4575e751" targetId="c3f33ffc-417a-3fcc-6b8f-869aeb5bf81e" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="129e6118-e68b-16dc-c00e-7c2bfcb92605" name="Rhupert  Carvolo, Piper of Ord" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="72">
@@ -4878,9 +5018,13 @@
       <modifiers/>
       <rules>
         <rule id="e788074a-0bb8-9959-518b-90b55508d2a4" name="Piper" hidden="false">
-          <description>- Dirge of Mists
-- Heroic Call
-- March</description>
+          <description>During its activation this model can play one of the following tunes. When it does, choose a friendly unit. The tunes affects this model and will affect the unit if it is currently in this model&apos;s command range.
+
+- Dirge of Mists - affected models gain +1 DEF and Terror for one round.
+
+- Heroic Call - Affected models gain Fearless and Tough for one round.
+
+- March - Affected models gain Pathfinder for one turn.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -4925,9 +5069,11 @@
       <modifiers/>
       <rules>
         <rule id="452086a4-35d2-ae89-4f6f-1fdf73036e65" name="Affinity [Damiano]" hidden="false">
+          <description>While in Damiano&apos;s control area, this model gains Quick Work. (When a model with Quick Work destroys one or more enemy models with a melee attack during its combat action, immediately after the attack is resolved it can make one normal ranged attack. Attacks gained from Quick Work do not count against a weapon&apos;s ROF.)</description>
           <modifiers/>
         </rule>
-        <rule id="a50ec049-2eb4-1f90-27ad-185c31c2318a" name="Battle Blade: Reach" hidden="false" book="Warmachine Prime mkII">
+        <rule id="a50ec049-2eb4-1f90-27ad-185c31c2318a" name="Battle Blade: Reach" hidden="false" book="Warmachine Prime mkII" page="36">
+          <description>This weapon has a 2&quot; melee range (p. 50).</description>
           <modifiers/>
         </rule>
       </rules>
@@ -4972,6 +5118,9 @@
           <modifiers/>
         </link>
         <link id="07da213b-b653-5a27-fbc1-1d9cc15386df" targetId="7c458fa2-7926-0ece-ab44-c1f529fdab16" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f82b603b-b54f-49df-f382-d1f272744ce8" targetId="c3f33ffc-417a-3fcc-6b8f-869aeb5bf81e" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -5036,6 +5185,9 @@
         <link id="be46d2bf-3692-7582-fbb2-43f58efe7d1d" targetId="edfe05ba-7675-41f8-c5d5-25072a5adb8c" linkType="rule">
           <modifiers/>
         </link>
+        <link id="7e9b2b15-6ba3-5212-72cd-c69f46f874a9" targetId="c3f33ffc-417a-3fcc-6b8f-869aeb5bf81e" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="b25ab85f-d733-00ec-60f1-d2e0b90d5f10" name="Rutger Shaw, Professional Adventurer" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="84">
@@ -5044,15 +5196,19 @@
       <modifiers/>
       <rules>
         <rule id="999b414e-61a5-008a-5fc3-dc17cf5a11dc" name="Flank [Warjack this model controls]" hidden="false" book="Mercenaries - Forces of Warmachine" page="84">
+          <description>When this model makes a melee attack against an enemy model within the melee range of a friendly model of the type indicated, this model gains +2 to attack rolls and gains an additional damage die.</description>
           <modifiers/>
         </rule>
         <rule id="dbda7d4d-25f1-dde4-7932-18de9ba14169" name="Flank [Taryn di la Rovissi]" hidden="false" book="Mercenaries - Forces of Warmachine" page="84">
+          <description>When this model makes a melee attack against an enemy model within the melee range of a friendly model of the type indicated, this model gains +2 to attack rolls and gains an additional damage die.</description>
           <modifiers/>
         </rule>
         <rule id="3bbd30fa-d6b1-1324-3198-2398e9d643d2" name="Drive: Reroll" hidden="false">
+          <description>This model can attempt to Drive each warjack under its control in its command range. To Drive a warjack, this model must make a command check at any time during its activation. If the check succeeds, the warjack can reroll one missed attack roll during its activation this turn. If the check fails, the warjack does not benefit from &apos;Jack Marshal this turn.</description>
           <modifiers/>
         </rule>
-        <rule id="fcdad28a-7371-d5ba-9ea7-c3bf66cf5e3c" name="Mechanikal Sword: Magical Weapon" hidden="false" book="Warmachine Prime mkII">
+        <rule id="fcdad28a-7371-d5ba-9ea7-c3bf66cf5e3c" name="Mechanikal Sword: Magical Weapon" hidden="false" book="Warmachine Prime mkII" page="36">
+          <description>This weapon is a magical weapon (p. 68).</description>
           <modifiers/>
         </rule>
       </rules>
@@ -5390,7 +5546,8 @@
       <entryGroups/>
       <modifiers/>
       <rules>
-        <rule id="879dec16-b84d-292c-c5b4-14101eae399a" name="Thrasher: Reach" hidden="false" book="Warmachine Prime mkII">
+        <rule id="879dec16-b84d-292c-c5b4-14101eae399a" name="Thrasher: Reach" hidden="false" book="Warmachine Prime mkII" page="36">
+          <description>This weapon has a 2&quot; melee range (p. 50).</description>
           <modifiers/>
         </rule>
         <rule id="b48d33fb-1703-d1bd-9c4b-ca676f0f6f45" name="Thrasher: Backswing (* Attack)" hidden="false" book="Mercenaries - Forces of Warmachine" page="49">
@@ -5479,9 +5636,11 @@
       <modifiers/>
       <rules>
         <rule id="5e45ff49-d2c2-d587-1f7e-b49e58c98125" name="Halberd: Powerful Charge" hidden="false" book="Mercenaries - Forces of Warmachine" page="43">
+          <description>This model gains +2 to charge attack rolls with this weapon.</description>
           <modifiers/>
         </rule>
-        <rule id="e0020ce9-77f3-4e67-b6da-9bf9a17c5ad5" name="Halberd: Reach" hidden="false" book="Warmachine Prime mkII">
+        <rule id="e0020ce9-77f3-4e67-b6da-9bf9a17c5ad5" name="Halberd: Reach" hidden="false" book="Warmachine Prime mkII" page="36">
+          <description>This weapon has a 2&quot; melee range (p. 50).</description>
           <modifiers/>
         </rule>
         <rule id="6ff8ccd1-9651-67a4-1b9f-045f1ad97641" name="Halberd: Set Defence" hidden="false" book="Mercenaries - Forces of Warmachine" page="44">
@@ -5549,7 +5708,8 @@
         <rule id="91ca14ba-bf7f-6cdf-556e-3c7cdeb17971" name="Flank [Steelhead Halberdiers]" hidden="false" book="Mercenaries - Forces of Warmachine" page="49">
           <modifiers/>
         </rule>
-        <rule id="42f3a1f7-29cb-f448-c580-48269c8f1d89" name="Cavalry Axe: Reach" hidden="false" book="Warmachine Prime mkII">
+        <rule id="42f3a1f7-29cb-f448-c580-48269c8f1d89" name="Cavalry Axe: Reach" hidden="false" book="Warmachine Prime mkII" page="36">
+          <description>This weapon has a 2&quot; melee range (p. 50).</description>
           <modifiers/>
         </rule>
         <rule id="dc372aaf-7e93-71d0-f442-88639b7f59ac" name="Cavalry Axe: Backswing (* Attack)" hidden="false" book="Mercenaries - Forces of Warmachine" page="49">
@@ -5686,13 +5846,16 @@
       <entryGroups/>
       <modifiers/>
       <rules>
-        <rule id="07136a5b-5425-530a-cee3-ba3794aac858" name="Arcane Secrets (* Action)" hidden="false">
+        <rule id="07136a5b-5425-530a-cee3-ba3794aac858" name="Arcane Secrets (* Action)" hidden="false" book="Wrath" page="135">
+          <description>RNG 3. Target this model&apos;s warcaster. If the warcaster is in range, it gains an additional die on magic attack and magic damage rolls for the next spell it casts. Discard the lowest die in each roll. Arcane Secrets lasts for one turn.</description>
           <modifiers/>
         </rule>
-        <rule id="8e57c1f6-10ac-e418-6e8a-3d5ebb3d7d70" name="Staff of Seeking: Magical Weapon" hidden="false" book="Warmachine Prime mkII">
+        <rule id="8e57c1f6-10ac-e418-6e8a-3d5ebb3d7d70" name="Staff of Seeking: Magical Weapon" hidden="false" book="Warmachine Prime mkII" page="36">
+          <description>This weapon is a magical weapon (p. 68).</description>
           <modifiers/>
         </rule>
-        <rule id="79fe4a42-a0b4-70e3-9ac2-7b91e1ef8a07" name="Staff of Seeking: Reach" hidden="false" book="Warmachine Prime mkII">
+        <rule id="79fe4a42-a0b4-70e3-9ac2-7b91e1ef8a07" name="Staff of Seeking: Reach" hidden="false" book="Warmachine Prime mkII" page="36">
+          <description>This weapon has a 2&quot; melee range (p. 50).</description>
           <modifiers/>
         </rule>
       </rules>
@@ -5751,10 +5914,10 @@
       <entryGroups/>
       <modifiers/>
       <rules>
-        <rule id="d6ed5b96-4694-28e3-182b-64335d52952d" name="Magic Ability [7]" hidden="false">
-          <description>- Flame Blast (* Attack)
-- Smoke Bombs (* Action)
-- Vortex of Flames (* Action)</description>
+        <rule id="d6ed5b96-4694-28e3-182b-64335d52952d" name="Magic Ability [7]" hidden="false" book="Vengeance" page="104">
+          <description>- Flame Blast (* Attack) - Flame Blast is a RNG 10, AOE 3, POW 13 magic attack that causes fire damage. On a critical hit, models hit suffer the Fire continuous effect.
+- Smoke Bombs (* Action) - Place a 3&quot; AOE cloud effect in play. It&apos;s center point must be within 1&quot; of this model. This AOE remains in play for one round.
+- Vortex of Flames (* Action) - This model gains Righteous Flames for one round. (An enemy model that ends its activation within 2&quot; of a model with Righteous Flames suffers thge Fire continuous effect.)</description>
           <modifiers/>
         </rule>
         <rule id="8c9b81ab-56e9-3f2f-5879-9f0fc671cdcc" name="Thermo Mace: Flame Burst" hidden="false" book="Vengeance" page="106">
@@ -5810,13 +5973,15 @@
         <rule id="ea70993b-6a7a-fb9e-32a4-4d9034630890" name="Shield: Shield" hidden="false" book="Warmachine Prime mkII">
           <modifiers/>
         </rule>
-        <rule id="2df23fc7-6091-18c1-f42b-9d1698e17a35" name="Stun Lance: Reach" hidden="false" book="Warmachine Prime mkII">
+        <rule id="2df23fc7-6091-18c1-f42b-9d1698e17a35" name="Stun Lance: Reach" hidden="false" book="Warmachine Prime mkII" page="36">
+          <description>This weapon has a 2&quot; melee range (p. 50).</description>
           <modifiers/>
         </rule>
         <rule id="7147be9a-c7f9-6d35-8320-f66f7c463d73" name="Stun Lance: Stall" hidden="false" book="Mercenaries - Forces of Warmachine" page="43">
           <modifiers/>
         </rule>
         <rule id="c36a8574-a110-ec7e-d1ac-df35f6e74cc7" name="Stun Lance: Powerful Charge" hidden="false" book="Mercenaries - Forces of Warmachine" page="43">
+          <description>This model gains +2 to charge attack rolls with this weapon.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -5856,7 +6021,11 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="8a567458-1977-1a0f-60d4-817970f594e5" targetId="c3f33ffc-417a-3fcc-6b8f-869aeb5bf81e" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="03378a81-6ecd-446b-dbb4-0a55740974bb" name="Taryn di la Rovissi, Llaelese Gun Mage" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="82">
       <entries/>
@@ -5864,15 +6033,21 @@
       <modifiers/>
       <rules>
         <rule id="8eb819f8-c0a2-fcf4-dac2-38a79b8cd06c" name="Attack Type" hidden="false">
-          <description>- Black Penny
-- Iron Rot
-- Shadow Fire</description>
+          <description>Each time this model makes a normal ranged attack, choose one of the following abilities:
+
+- Black Penny - This attack ignores the firing into melee penalty.
+
+- Iron Rot When a warjack is hit by this attack, it suffers d3 points of corrosion damage to its Hull damage boxes.
+
+- Shadow Fire - Friendly Faction models can ignore the model hit when determining LOS and making ranged or magic attacks this turn.</description>
           <modifiers/>
         </rule>
         <rule id="1e15e7dd-1c64-5f2a-6bc3-a05abc2b88f5" name="Partner [Rutger Shaw]" hidden="false">
+          <description>While in Rutger Shaw&apos;s command range, this model gains Dodge and Tough.</description>
           <modifiers/>
         </rule>
-        <rule id="b4834bea-6b4a-961c-a9a5-5a26995c3d3f" name="Magelock Pistol: Magical Weapon" hidden="false" book="Warmachine Prime mkII">
+        <rule id="b4834bea-6b4a-961c-a9a5-5a26995c3d3f" name="Magelock Pistol: Magical Weapon" hidden="false" book="Warmachine Prime mkII" page="36">
+          <description>This weapon is a magical weapon (p. 68).</description>
           <modifiers/>
         </rule>
       </rules>
@@ -6098,7 +6273,8 @@
         <rule id="259ec909-2684-aa9a-7351-bc9f12dd1de5" name="Tower Shield: Shield" hidden="false" book="Warmachine Prime mkII">
           <modifiers/>
         </rule>
-        <rule id="ec0b8b3a-8560-c567-2cda-eea8f8af07b8" name="Guisarme: Reach" hidden="false" book="Warmachine Prime mkII">
+        <rule id="ec0b8b3a-8560-c567-2cda-eea8f8af07b8" name="Guisarme: Reach" hidden="false" book="Warmachine Prime mkII" page="36">
+          <description>This weapon has a 2&quot; melee range (p. 50).</description>
           <modifiers/>
         </rule>
         <rule id="e3876a98-d052-4f06-138c-ca3d44c6a596" name="Guisarme: Set Defence" hidden="false" book="Mercenaries - Forces of Warmachine" page="44">
@@ -6159,14 +6335,18 @@
         <link id="52d52b8c-e303-1828-4ef3-f1f3b93a603c" targetId="4158ad6a-dee0-b6de-4f0f-79440d26d798" linkType="rule">
           <modifiers/>
         </link>
+        <link id="566b49eb-7d0e-666a-a07a-c18fcaf5ba74" targetId="c3f33ffc-417a-3fcc-6b8f-869aeb5bf81e" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
-    <entry id="60855cb4-bfb7-f951-dd89-19d4aa516bf0" name="Wroughthammer Rockram" points="0.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="145">
+    <entry id="60855cb4-bfb7-f951-dd89-19d4aa516bf0" name="Wroughthammer Rockram" points="8.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="145">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules>
-        <rule id="f683bafd-e306-53f6-e206-957b7b4b6d50" name="Sledge Cannon: Buckler" hidden="false" book="Warmachine Prime mkII">
+        <rule id="f683bafd-e306-53f6-e206-957b7b4b6d50" name="Sledge Cannon: Buckler" hidden="false" book="Warmachine Prime mkII" page="35">
+          <description>This weaspon has an integral buckler that gives the model a cumulative +1 ARM bonus; for example, a model with two of them gains a bonus of +2 arm. A model does not gain this bonus while the weapon system with the buckler is crippled or being held in a weapon lock or when resolving damage that originates in its back arc.</description>
           <modifiers/>
         </rule>
         <rule id="99ad49b3-d6cc-ff2e-c1a8-c5d38f911ce1" name="Pulverizer: Critical Stagger" hidden="false" book="Mercenaries - Forces of Warmachine" page="145">
@@ -6231,12 +6411,20 @@
       <description> This model is a &apos;jack marshal (p. 80). If this advantage is on a unit, only the unit commander is a &apos;jack marshal.</description>
       <modifiers/>
     </rule>
+    <rule id="ef15e40b-6b87-20c8-8e6e-ecc3a787c5e4" name="Abomination" hidden="false" book="Warmachine Prime mkII" page="33">
+      <description>The model is a terrifying entity (p. 84). Models and units - friendly and enemy - within 3&quot; of this model must pass a command check or flee.</description>
+      <modifiers/>
+    </rule>
     <rule id="e302df5b-0331-d4fa-50d1-f5c890076c02" name="Acrobatics" hidden="false" book="Mercenaries - Forces of Warmachine" page="124">
       <description>This model can advance through other model if it has enough movement to move completely past their bases. This model cannot be targeted by free strikes. This model ignores intervening models when declaring its charge attack.</description>
       <modifiers/>
     </rule>
     <rule id="1f8d5503-7901-355c-93cd-ce8ef5cf66f3" name="Advance Deployment" hidden="false" book="Warmachine Prime mkII" page="33">
       <description>Place this model after normal deployment, up to 6&quot; beyond the established deployment zone.</description>
+      <modifiers/>
+    </rule>
+    <rule id="086e1cfe-ad3d-07a6-be9d-df9a64c916b3" name="Advisor" hidden="false" book="Mercenaries - Forces of Warmachine" page="70">
+      <description>While B2B with this model, friendly warcastes and solos gain +1 CMD.</description>
       <modifiers/>
     </rule>
     <rule id="4786ddd1-859f-a9f6-b6dc-19077c82fd91" name="Ambush" hidden="false" book="Mercenaries - Forces of Warmachine" page="66">
@@ -6260,36 +6448,47 @@
       <modifiers/>
     </rule>
     <rule id="0ba7de66-e56e-ebf5-686b-9f281c74d8c8" name="Arcane Assist" hidden="false" book="Wrath" page="135">
+      <description>Ifg its warcaster is in this model&apos;s command range during your Contreol Phase, the warcaster can upkeep  one spell without spending focus.</description>
       <modifiers/>
     </rule>
-    <rule id="bdfa34c9-ec11-901f-51a8-10e3b9d8bf89" name="Arcane Vortex" hidden="false" book="Wrath" page="128">
+    <rule id="bdfa34c9-ec11-901f-51a8-10e3b9d8bf89" name="Arcane Vortex" hidden="false" book="Colossals" page="128">
+      <description>This model can immediately negate any spell that targets it or a model within 3&quot; of it by spending 1 soul token before the RNG of the spell is measured. The negated spell does not take effect, but its COST remains spent.</description>
       <modifiers/>
     </rule>
     <rule id="1190f14c-e530-15eb-7a53-cb571bafe626" name="Arcing Fire" hidden="false" book="Mercenaries - Forces of Warmachine" page="42">
+      <description>When attacking with this weapon, this model can ignore intervening models except those within 1&quot; of the target.</description>
       <modifiers/>
     </rule>
     <rule id="3f79c3c8-5611-b192-f6be-adae43bab364" name="Armor Piercing (* Attack)" hidden="false" book="Mercenaries - Forces of Warmachine" page="40">
+      <description>When calculating damage from this attack, halve the base ARM stats of the models hit that have medium or larger bases. This attack gains +2 to damage rolls against model swith small bases.</description>
       <modifiers/>
     </rule>
     <rule id="f4d761fa-11cc-0dbb-8814-13fe337094da" name="Artillerist (* Action)" hidden="false" book="Mercenaries - Forces of Warmachine" page="128">
+      <description>Choose a friendly Faction model. While in this model&apos;s command range, the chosen model gains +2 to AOE ranged attack rolls. When the chosen model&apos;s AOE ranged attacks deviate, you can reroll the direction and/or distance of the deviation. Each roll can be rerolled only once as a result of Artillerist. Artillerist lasts for one turn.</description>
       <modifiers/>
     </rule>
     <rule id="50d02130-ad44-6a6d-eefd-0ee7e6d65065" name="Assault" hidden="false" book="Mercenaries - Forces of Warmachine" page="44">
+      <description>As part of a charge, after moving but before making its charge attack, this model can make one ranged attack targeting the model charged unless they were in melee with each other at the start of this model&apos;s activation. When resolving an Assault ranged attack, the attacking model does not suffer the target in mele penalty. If the target is not in melee range after moving, this model can make the Assault ranged attack before it&apos;s activation ends.</description>
       <modifiers/>
     </rule>
     <rule id="d77b3fcd-bad8-470f-ccae-6e061d9e1d6b" name="Assault (Order)" hidden="false" book="Mercenaries - Forces of Warmachine" page="49">
+      <description>Affected models must charge or run. As part of a charge, after moving but before making its charge attack, an affected model can make one ranged attack targeting the model charged unless they were in melee with each other at the start of this model&apos;s activation.Models that received this order cannot make combined ranged attacks this activation.  When resolving an Assault ranged attack, the attacking model does not suffer the target in mele penalty. If the target is not in melee range after moving, the affected model can make the Assault ranged attack before it&apos;s activation ends.</description>
       <modifiers/>
     </rule>
     <rule id="c9d67764-40da-0a9b-b568-cf894ad311c0" name="Attached" hidden="false" book="Wrath" page="135">
+      <description>Before start of the game, attach this model to a friendly warcaster for the rest of the game. Each warcaster can have only one model attached to it.</description>
       <modifiers/>
     </rule>
     <rule id="b23dca36-046b-cd8f-f956-11921b17faeb" name="Backstab" hidden="false" book="Mercenaries - Forces of Warmachine" page="38">
+      <description>This model gains an additional die on its back strike damage rolls.</description>
       <modifiers/>
     </rule>
     <rule id="9545312f-dd4b-7a8a-fbba-c7556415ff84" name="Backswing (* Attack)" hidden="false" book="Mercenaries - Forces of Warmachine" page="49">
+      <description>Make two attack with this weapon.</description>
       <modifiers/>
     </rule>
     <rule id="a682afa5-bbdf-8e04-3d1b-b947b6339237" name="Battle Wizard" hidden="false" book="Vengeance" page="106">
+      <description>Once per turn, when this model destroys one or more enemy models with a melee attack during its activation, immediately after the attack is resolved it can make one Magic Ability special attack or special action.</description>
       <modifiers/>
     </rule>
     <rule id="815c41c2-2359-9a1f-23c0-c7e13bb126a7" name="Beat Back" hidden="false" book="Mercenaries - Forces of Warmachine" page="54">
@@ -6297,12 +6496,15 @@
       <modifiers/>
     </rule>
     <rule id="bdb2fc15-8d1f-5e9f-c518-2b7b55abdb4a" name="Blessed" hidden="false" book="Mercenaries - Forces of Warmachine" page="86">
+      <description>When making an attack with this weapon, ignore spell effects that add to a model&apos;s ARM or DEF.</description>
       <modifiers/>
     </rule>
     <rule id="354f488c-bbe0-d555-6e14-d5e14b2240cd" name="Both Barrels (* Attack)" hidden="false" book="Mercenaries - Forces of Warmachine" page="136">
+      <description>This model gains +4 to the damage roll for this attack. This model cannot make additional ranged attacks with this weapon during an activation it makes a Both Barrels attack.</description>
       <modifiers/>
     </rule>
     <rule id="f9810b50-8fea-40b9-5628-9fe47f087e16" name="Brutal Charge" hidden="false" book="Mercenaries - Forces of Warmachine" page="49">
+      <description>This model gains +2 to charge attack damage rolls with this weapon.</description>
       <modifiers/>
     </rule>
     <rule id="75d0ccd1-3078-c8f6-a1f0-993a0b441693" name="Buckler" hidden="false" book="Warmachine Prime mkII" page="35">
@@ -6310,21 +6512,26 @@
       <modifiers/>
     </rule>
     <rule id="53464679-0e98-1f4f-b6ea-657eac9138e6" name="Bushwhack (Order)" hidden="false" book="Mercenaries - Forces of Warmachine" page="58">
+      <description>During this unit&apos;s activation, affected models make their combat actions before their normal movement. Affected models must make a full advance as their normal movement this activation.</description>
       <modifiers/>
     </rule>
     <rule id="7e1255b7-157e-5025-a1e9-981a9c2e7b16" name="Camoflague" hidden="false" book="Mercenaries - Forces of Warmachine" page="74">
+      <description>This model gains an additional +2 DEF when benefiting from concealment or cover.</description>
       <modifiers/>
     </rule>
     <rule id="f71bfcfc-ca75-d346-8ac7-f8c056b3b6ec" name="Chain Attack: Grab &amp; Smash" hidden="false" book="Mercenaries - Forces of Warmachine" page="103">
       <modifiers/>
     </rule>
     <rule id="7aa5787b-85dd-fd13-2384-ec32ad1df31f" name="Chain Weapon" hidden="false" book="Mercenaries - Forces of Warmachine" page="45">
+      <description>This attack ignores the Buckler and Shield weapon qualities and Shield Wall.</description>
       <modifiers/>
     </rule>
     <rule id="0ee276b5-7c8e-f798-95b7-1f7b1b370ca0" name="Colossal" hidden="false" book="Colossals" page="20">
+      <description>Please refer to pages 20 to 23 of Colossals for full rules for colossals.</description>
       <modifiers/>
     </rule>
     <rule id="01b6e1d8-ec1e-54a2-a2ae-373b4ada0078" name="Combined Arms" hidden="false" book="Mercenaries - Forces of Warmachine" page="49">
+      <description>When this model misses and attack roll for a combined ranged attack, it can reroll that attack roll. Each attack roll can be rerolled only once as a result of Combined Arms.</description>
       <modifiers/>
     </rule>
     <rule id="a25ad4f2-ec5d-7dbd-c929-cd95c4fda530" name="Combined Melee Attack" hidden="false" book="Warmachine Prime mkII" page="33">
@@ -6343,6 +6550,10 @@
       <description>This model is not a living model, never flees, and automatically passes command checks. All warjack models have this advantage.</description>
       <modifiers/>
     </rule>
+    <rule id="3f45d97a-a610-d64f-07e7-14f53fb15d38" name="Continuous Effect: Corrosion" hidden="false" book="Warmachine Prime mkII" page="35">
+      <description>A model hit by this attack suffers the Corrosion continuous effect (p. 69).</description>
+      <modifiers/>
+    </rule>
     <rule id="08e8ccc0-f0de-5579-5f9f-ffe8507684ba" name="Continuous Effect: Fire" hidden="false" book="Warmachine Prime mk II" page="35">
       <description>A model hit by this attack suffers the Fire continuous effect (p. 69).</description>
       <modifiers/>
@@ -6350,25 +6561,50 @@
     <rule id="3e698f29-ec13-c41b-7a6a-e7785ddd1601" name="Critical Catastrophic Damage" hidden="false" book="Mercenaries - Forces of Warmachine" page="145">
       <modifiers/>
     </rule>
-    <rule id="ead0d9b8-a55d-2e8a-b3c4-e5300235727a" name="Critical Decapitation" hidden="false" book="Wrath" page="122">
+    <rule id="7bc77567-e5bf-0454-f09c-e1585cee886f" name="Critical Corrosion" hidden="false" book="Warmachine Prime mkII" page="35">
+      <description>On a critical hit, the model hit by this attack suffers the Corrosion continuous effect(p. 69).</description>
+      <modifiers/>
+    </rule>
+    <rule id="ead0d9b8-a55d-2e8a-b3c4-e5300235727a" name="Critical Decapitation" hidden="false" book="Vengeance" page="122">
+      <description>On a critical hit, double the damage exceeding the ARM of the model hit. A model disabled by this attack cannot make a Tough roll.</description>
       <modifiers/>
     </rule>
     <rule id="e54182e1-ce0b-cb6f-f54a-23595ae98d20" name="Critical Devastation" hidden="false" book="Mercenaries - Forces of Warmachine" page="46">
+      <description>On a critical hit, instead of suffering a normal damage roll, each model in the AOE is thrown d6&quot; directly away from the attacker regardlessof its base size. Move models furthest from the attacker first. The model directly hit by the attack sufers a POW 15 damage roll. Other model shit by the attack suffer a POW 8 damage roll. The POW of collateral damage is equal to the POW of the damage roll suffered by the thrown model.</description>
+      <modifiers/>
+    </rule>
+    <rule id="327708b6-72f9-6e01-d872-b00f3d1aa6fb" name="Critical Fire" hidden="false" book="Warmachine Prime mkII" page="35">
+      <description>On a critical hit, the model hit by this attack suffers the Fire continuous effect (p.69).</description>
       <modifiers/>
     </rule>
     <rule id="107dd7f7-39ae-6416-0421-1406d4ea886b" name="Critical Knockdown" hidden="false" book="Mercenaries - Forces of Warmachine" page="54">
+      <description>On a critical hit, the model hit is knocked down.</description>
       <modifiers/>
     </rule>
     <rule id="43668173-8fcc-80f8-e683-4a209f09feca" name="Critical Shred" hidden="false" book="Mercenaries - Forces of Warmachine" page="42">
+      <description>On a critical hit, after the attack is resolved this model can make one additional attack against the model hit.</description>
       <modifiers/>
     </rule>
     <rule id="fde24c3d-93bd-f9ae-adbd-8739f01d2d30" name="Critical Smite" hidden="false" book="Mercenaries - Forces of Warmachine" page="136">
+      <description>On a critical hit, this model can slam the model hit instead of rolling damage normally. The model hit is slammed d6&quot; directly away from this model and suffers a damage roll with POW equal to this model&apos;s STR plus the POW of this weapon. The POW of collateral damage is equal to this model&apos;s STR.</description>
       <modifiers/>
     </rule>
     <rule id="80ca1cee-f0bb-f1f8-ebe7-c30f12c5191a" name="Critical Stagger" hidden="false" book="Mercenaries - Forces of Warmachine" page="145">
       <modifiers/>
     </rule>
     <rule id="979b5094-8500-5ef8-0050-0ba61ef9eec0" name="Cumbersome" hidden="false" book="Mercenaries - Forces of Warmachine" page="128">
+      <modifiers/>
+    </rule>
+    <rule id="4cdb58a9-89c7-e86d-6b6b-554a6cee3d42" name="Damage Type: Cold" hidden="false" book="Warmachine Prime mkII" page="35">
+      <description>This weapon causes cold damage (p.68).</description>
+      <modifiers/>
+    </rule>
+    <rule id="a97181c0-e9ea-5063-8069-ecf1bb286402" name="Damage Type: Corrosion" hidden="false" book="Warmachine Prime mkII" page="35">
+      <description>This weapon causes corrosion damage (p. 68).</description>
+      <modifiers/>
+    </rule>
+    <rule id="f4dce6be-217f-0c24-6f50-d00d547dd53c" name="Damage Type: Electricitiy" hidden="false" book="Warmachine Prime mkII" page="35">
+      <description>This weapon causes electrical damage (p. 68).</description>
       <modifiers/>
     </rule>
     <rule id="e7563dcc-d2ea-74ef-fba7-f1ebc160d64b" name="Damage Type: Fire" hidden="false" book="Warmachine Prime mkII" page="36">
@@ -6379,12 +6615,15 @@
       <modifiers/>
     </rule>
     <rule id="4836e3c0-a23c-7927-1ae5-4724bcf42e11" name="Defensive Strike" hidden="false" book="Mercenaries - Forces of Warmachine" page="68">
+      <description>Once per turn, when an enemy model advances into and ends its movement in this model&apos;s melee range, this model can immediately make one normal melee attack against it.</description>
       <modifiers/>
     </rule>
     <rule id="fe198e38-f51b-4d1c-2051-eea9ddbdce00" name="Dodge" hidden="false" book="Mercenaries - Forces of Warmachine" page="84">
+      <description>This model can advance up to 2&quot; immediately after an enemy attack that missed it is resolved unless it was missed while advancing. It cannot be targeted by free strikes during this movement.</description>
       <modifiers/>
     </rule>
     <rule id="fbef461f-5381-9275-c86c-7363da1efd4e" name="Drag" hidden="false" book="Colossals" page="126">
+      <description>If this weapon damages an enemy model with an equal or smaller base, immediately after the attack is resolved the damaged model can be pushed any distance directly toward this model. After the damaged model is moved, this model can make one normal melee attack against the model pushed. After resolving this melee attack, this model can make additional melee attacks during its combat action.</description>
       <modifiers/>
     </rule>
     <rule id="2301693f-d6d3-f0a8-4f3f-db8ff0c13e81" name="Drive: Off Road" hidden="false" book="Mercenaries - Forces of Warmachine" page="120">
@@ -6394,13 +6633,19 @@
       <modifiers/>
     </rule>
     <rule id="659bfdee-0c48-b5e4-5182-eda5c1caeff6" name="Dual Shot" hidden="false" book="Mercenaries - Forces of Warmachine" page="64">
+      <description>When this model forfeits its movment to gain the aiming bonus it can also make one additional ranged attack this activation.</description>
       <modifiers/>
     </rule>
     <rule id="c257636d-3a74-43a7-7644-18309b9e0f5f" name="Entangle" hidden="false" book="Mercenaries - Forces of Warmachine" page="60">
+      <description>When a warjack or warbeast is hit by this weapon it is knocked down.</description>
       <modifiers/>
     </rule>
     <rule id="79d00749-2d75-1015-d228-b23ab19ded71" name="Espionage (* Action)" hidden="false" book="Mercenaries - Forces of Warmachine" page="66">
       <description>RNG 5. Target enemy warcaster or warlock. If the enemy warcazster or warlock is in range, firendly models/units in this model&apos;s command range can immediately make a full advance and a normal attack.</description>
+      <modifiers/>
+    </rule>
+    <rule id="88fe4770-1b4a-45fc-3368-ebc1dfdf8095" name="Eyeless Sight" hidden="false" book="Warmachine Prime mkII" page="34">
+      <description>This model ignores cloud effects (p. 69) and forests (p. 87) when determining line of sight. This model ignores concealment (p. 57) and Stealth when making attacks.</description>
       <modifiers/>
     </rule>
     <rule id="96d5dd34-f0ed-fb33-631b-9a81327caf31" name="Fearless" hidden="false" book="Warmachine Prime mkII" page="34">
@@ -6408,15 +6653,18 @@
       <modifiers/>
     </rule>
     <rule id="ec7176be-683f-c244-4ea4-0ce6b83805c6" name="Feign Death" hidden="false" book="Mercenaries - Forces of Warmachine" page="38">
+      <description>This model cannot be targeted by ranged or magic attacks while knocked down.</description>
       <modifiers/>
     </rule>
     <rule id="9f54b7ad-2378-e32d-63e8-1698878d6200" name="Flak Field" hidden="false" book="Mercenaries - Forces of Warmachine" page="143">
       <modifiers/>
     </rule>
     <rule id="75b6b088-158d-13cf-6110-fc4d6f77997c" name="Flame Burst" hidden="false" book="Vengeance" page="106">
+      <description>When this model boxes an enemy model with this weapon, enemy models within 1&quot; of the boxed model suffer the Fire continous effect.</description>
       <modifiers/>
     </rule>
     <rule id="d9214b3b-a77a-fc26-a692-a75b12a9136e" name="Flank []" hidden="false" book="Mercenaries - Forces of Warmachine" page="84">
+      <description>When this model makes a melee attack against an enemy model within the mlee range of a friendly model of the type indicated, this model gains +2 to attack rolls and gains an additiional damage die.</description>
       <modifiers/>
     </rule>
     <rule id="9ac311c9-e74c-7205-e41d-1c7257e09bf9" name="Follow Up" hidden="false" book="Mercenaries - Forces of Warmachine" page="143">
@@ -6426,15 +6674,18 @@
       <modifiers/>
     </rule>
     <rule id="df472e7f-e01b-9e08-6aa6-c93b45cffe17" name="Gang Fighter" hidden="false" book="Mercenaries - Forces of Warmachine" page="36">
+      <description>When making a melee attack targeting an enemy model in melee range of another friendly Faction warrior model, this model gains +2 to melee attack and melee damage rolls.</description>
       <modifiers/>
     </rule>
     <rule id="ec150418-a831-6ef4-807f-a146f83da400" name="Ghost Shield" hidden="false" book="Colossals" page="128">
+      <description>This model gains +1 ARM for each sould token currently on it.</description>
       <modifiers/>
     </rule>
     <rule id="c6d0e5da-8a35-6bdb-1cee-5f819c2951cf" name="Grand Slam" hidden="false" book="Mercenaries - Forces of Warmachine" page="143">
       <modifiers/>
     </rule>
     <rule id="b0ff3d87-fb22-0a4a-aef5-4266187a61ed" name="Grievous Wounds" hidden="false" book="Mercenaries - Forces of Warmachine" page="36">
+      <description>When a model is hit by this weapon, for one round it loses Tough, cannot heal or be healed, and cannot transfer damage.</description>
       <modifiers/>
     </rule>
     <rule id="2f38a06b-e591-f709-03d4-ddbed7df1c59" name="Groundwork" hidden="false" book="Mercenaries - Forces of Warmachine" page="100">
@@ -6442,6 +6693,7 @@
       <modifiers/>
     </rule>
     <rule id="7c458fa2-7926-0ece-ab44-c1f529fdab16" name="Guard Dog" hidden="false" book="Wrath" page="133">
+      <description>While this model is within 3&quot; of its warcaster and is not knocked down or stationary, its warcaster cannot be targeted by free strikes and gains +2 DEF against melee attack rolls, and models attacking the warcaster do not gain back strike bonuses.</description>
       <modifiers/>
     </rule>
     <rule id="0f37354d-35b3-56bc-f761-9232ddb34687" name="Gunfighter" hidden="false" book="Warmachine Prime mkII" page="34">
@@ -6452,6 +6704,7 @@
       <modifiers/>
     </rule>
     <rule id="0bdd1f37-95e2-11ad-334f-ae603a868a24" name="Heavy" hidden="false" book="Mercenaries - Forces of Warmachine" page="60">
+      <description>If this model attacks with this weapon during its activation, it cannot attack with another melee weapon that activation. If this model attacked with another melee weapon this activation, it cannot attack with this weapon.</description>
       <modifiers/>
     </rule>
     <rule id="81cb9f23-b0f8-0281-5ed4-97f9dd018848" name="Heavy Artillery" hidden="false" book="Mercenaries - Forces of Warmachine" page="112">
@@ -6462,14 +6715,27 @@
       <modifiers/>
     </rule>
     <rule id="84c4ec15-4682-6935-ddb9-b7cda05d33fb" name="Huntsman" hidden="false" book="Mercenaries - Forces of Warmachine" page="54">
+      <description>After deployment but before the first player&apos;s turn, choose an enemy model/unit to be this unit&apos;s prey. While this model is in play, each model in its unit beginning its activation within 10&quot; of the prey gains +2&quot; movement that activation. While this model is in play, models in its unit gain +2 to attack and damage rolls against the prey. When the prey is destroyed or mreoved from play, choose another model/unit as the prey.</description>
+      <modifiers/>
+    </rule>
+    <rule id="a6b32d6a-2924-cc8b-c5d5-c8062443b105" name="Immunity: Cold" hidden="false" book="Warmachine Prime mkII" page="34">
+      <description>This model does not suffer cold damage (p. 68).</description>
       <modifiers/>
     </rule>
     <rule id="7834cc43-076a-eb30-b774-9bd146307ab6" name="Immunity: Corrosion" hidden="false" book="Warmachine Prime mkII" page="34">
       <description>This model does not suffer corrosion damage and is immune to the Corrosion continuous effect (p. 68).</description>
       <modifiers/>
     </rule>
+    <rule id="da2f1b89-2efb-b8a7-851d-3d22b25dd7e0" name="Immunity: Electricity" hidden="false" book="Warmachine Prime mkII" page="34">
+      <description>This model does not suffer electrical damage (p. 68).</description>
+      <modifiers/>
+    </rule>
     <rule id="b8369371-48fb-3195-4861-cb0c15a94307" name="Immunity: Fire" hidden="false" book="Warmachine Prime mkII" page="34">
       <description>This model does not suffer fire damage and is immune to the Fire continuous effect (p. 68).</description>
+      <modifiers/>
+    </rule>
+    <rule id="6271732a-5465-02f2-d4ca-f3f7e3cea9d8" name="Incorporeal" hidden="false" book="Warmachine Prime mkII" page="34">
+      <description>This model can move through rough terrain and obstacles without penalty. It can move through obstructions and other models if it has enough movement to move completely past them. Other models, including slammed, pushed, or thrown models, can move through this model without effect if they have enough movement to move completely past it. This model does not count as an intervening model. This model suffers damage and effects only from magical weapons, magic attacks, animi, spells, and feats and is immune to continous effects. This model cannot be move by a slam. When this model makes a melee or ranged attack, before the attack roll is made it loses Incorporeal for one round.</description>
       <modifiers/>
     </rule>
     <rule id="0aa30333-beb3-2fd8-6f93-eb5881cf9383" name="Inspiration [X]" hidden="false" book="Mercenaries - Forces of Warmachine" page="124">
@@ -6480,13 +6746,20 @@
       <description>You gain +1 to the starting roll determining the order of deployment and play.</description>
       <modifiers/>
     </rule>
+    <rule id="a29290f5-5f47-af5a-5aa4-f8450451859d" name="Intrigue" hidden="false" book="Mercenaries - Forces of Warmachine" page="70">
+      <description>If one or more enemy models are in this model&apos;s command range during your Maintenance Phase, one friendly warrior model in this model&apos;s command range can advance up to 3&quot;.</description>
+      <modifiers/>
+    </rule>
     <rule id="308a275e-8e96-8a10-b5af-4414ee45f4f7" name="Iron Wall" hidden="false" book="Mercenaries - Forces of Warmachine" page="60">
+      <description>This model gains +2 ARM for each warjack it controls B2B with it. When this model is directly hti by an enemy ranged or magic attack, you can choose to have onbe of those warjacks become the target and automatically be hit by the attack instead.</description>
       <modifiers/>
     </rule>
     <rule id="9fc627d4-842f-6766-8ed6-b3a2a8bf5d39" name="Journeyman Warcaster" hidden="false" book="Vengeance" page="110">
+      <description>This model is not a warcaster but has the following warcaste special rules: Battlegroup Commander, Control Area, Focus Manipulation, Power Field, and Spellcaster.</description>
       <modifiers/>
     </rule>
     <rule id="ffe6a837-697b-00ec-b808-057d08b5ba0a" name="Knockdown" hidden="false" book="Mercenaries - Forces of Warmachine" page="38">
+      <description>When a model is hit by an attack with this weapon, it is knocked down.</description>
       <modifiers/>
     </rule>
     <rule id="8ee33815-291e-3902-b153-2f6802af64df" name="Lash" hidden="false" book="Mercenaries - Forces of Warmachine" page="103">
@@ -6499,6 +6772,7 @@
       <modifiers/>
     </rule>
     <rule id="fe022d2a-5d02-f3ed-6407-ad1a4443adc7" name="Mage Killer" hidden="false" book="Colossals" page="128">
+      <description>Gain an additional damage die on this weapon&apos;s damage rolls against models with Spellcaster or Magic Ability.</description>
       <modifiers/>
     </rule>
     <rule id="02c53d03-05a0-0c80-4e45-473c92102dd0" name="Magic Ability []" hidden="false">
@@ -6509,9 +6783,14 @@
       <modifiers/>
     </rule>
     <rule id="6e472eb2-2f98-cf4e-d92e-aefe63a7eb77" name="Martial Discipline" hidden="false" book="Wrath" page="122">
+      <description>Friendly living Faction warrior models with small or medium bases can ignore friendly Faction warrior models in this model&apos;s command range when determining LOS and can advance through friendly Faction warrior models in this model&apos;s command range if they have enough movement to move completely past them.</description>
       <modifiers/>
     </rule>
     <rule id="c953e3b8-aa17-e0d9-f550-e66e0bd85a4b" name="Mechanikally Adept" hidden="false" book="Vengeance" page="108">
+      <description>This model can attempt to repair friendly non-Faction warjacks and battle engines.</description>
+      <modifiers/>
+    </rule>
+    <rule id="c3f33ffc-417a-3fcc-6b8f-869aeb5bf81e" name="Mercenary Warjack" hidden="false">
       <modifiers/>
     </rule>
     <rule id="400b902b-958e-5f17-8920-0df3fad42c49" name="Mercenary: Cryx" hidden="false">
@@ -6536,6 +6815,7 @@
       <modifiers/>
     </rule>
     <rule id="05776992-f058-cd8b-e073-e047f1d5fcb7" name="Minion Warcaster [Skorne]" hidden="false" book="Mercenaries - Forces of Warmachine" page="40">
+      <description>If you can have two or more warlocks in your army, this model and warjacks in its battlegroup can take the place of a Skorne warlock. This model counts toward the maximum number of warlocks allowed in an army and counts as a warlock for FA.</description>
       <modifiers/>
     </rule>
     <rule id="3b8ae9e0-1f73-b467-bcb4-b8233aade5fb" name="Minion: Blindwater Congregation" hidden="false" book="Vengeance" page="108">
@@ -6554,6 +6834,7 @@
       <modifiers/>
     </rule>
     <rule id="07907045-fd54-a779-8c0c-4d8d28bac422" name="Multi-Fire (* Attack)" hidden="false" book="Mercenaries - Forces of Warmachine" page="86">
+      <description>Make an attack with this weapon. On a hit, after resolving the attack this model can immediately make one additional attack with this weapon targeting the last  model hit or another model within 2&quot; of the last model hit, ignoring ROF. This model can make up to four attacks during its activation as a result of Multi-Fire.</description>
       <modifiers/>
     </rule>
     <rule id="43190c68-0893-f7d9-ad1f-cec11538fc72" name="Officer" hidden="false" book="Warmachine Prime mkII" page="34">
@@ -6561,6 +6842,7 @@
       <modifiers/>
     </rule>
     <rule id="067df19b-201e-b79b-8873-52afef15474d" name="One Shot" hidden="false" book="Mercenaries - Forces of Warmachine" page="42">
+      <description>An attack with this weapon can be made only once per game.</description>
       <modifiers/>
     </rule>
     <rule id="f1ebe717-5e03-7003-60f4-1b14bc6103a1" name="Open Fist" hidden="false" book="Warmachine Prime mkII" page="36">
@@ -6579,25 +6861,31 @@
       <modifiers/>
     </rule>
     <rule id="edfe05ba-7675-41f8-c5d5-25072a5adb8c" name="Point Blank" hidden="false" book="Mercenaries - Forces of Warmachine" page="106">
+      <description>During its activation, this model can make melee attacks with its ranged weapon, with a 1/2&quot; melee range. Do not add this model&apos;s STR to damage rolls made with ranged attacks. Charge attacks made with ranged weapons are not boosted.</description>
       <modifiers/>
     </rule>
     <rule id="d70137e8-554f-c4d0-125e-aaf341018675" name="Poison" hidden="false" book="Mercenaries - Forces of Warmachine" page="58">
-      <description>Gasin an additional die on this weapon&apos;s damage rolls against living models.</description>
+      <description>Gains an additional die on this weapon&apos;s damage rolls against living models.</description>
       <modifiers/>
     </rule>
     <rule id="ee00e1fd-f8f4-c05b-73cd-cb20d3a9cc24" name="Powerful Attack" hidden="false" book="Mercenaries - Forces of Warmachine" page="38">
+      <description>When attacking with this weapon, this model can spend 1 focus point to boost all attack and damage rolls for the attack.</description>
       <modifiers/>
     </rule>
     <rule id="fe66e0f0-fe62-cb05-d692-3ca184428240" name="Powerful Charge" hidden="false" book="Mercenaries - Forces of Warmachine" page="43">
+      <description>This model gains +2 to charge attack rolls with this weapon.</description>
       <modifiers/>
     </rule>
     <rule id="0bd56eb3-cf8a-d779-47a9-cd05c6fa2bee" name="Prowl" hidden="false" book="Mercenaries - Forces of Warmachine" page="64">
+      <description>This model gains Stealth while within terrain that provides concealment, the AOE of a spell that provides concealment, or the AOE of a cloud effect.</description>
       <modifiers/>
     </rule>
     <rule id="b40624bc-e1a4-ea04-100d-74f86e8d16fe" name="Purgation" hidden="false" book="Mercenaries - Forces of Warmachine" page="86">
+      <description>Gain an additional die on attack and damage rolls with this weapon against models with an enemy upkeep spell on them.</description>
       <modifiers/>
     </rule>
     <rule id="a3f068bd-47d2-b2be-d9e6-4f3292bc1c71" name="Quick Draw" hidden="false" book="Mercenaries - Forces of Warmachine" page="34">
+      <description>Once during your opponent&apos;s turn, when an enemy model within 12&quot; of this model that is in its LOS targets this model with a ranged attack, this model can make a ranged attack against the model beofre it makes its attack roll. If this model&apos;s ranged attack hits, the enemy model suffers no damage but its attack automatically misses.</description>
       <modifiers/>
     </rule>
     <rule id="ab69551f-8198-8e3d-0e3f-b5c8e85ba647" name="Range Finder" hidden="false" book="Mercenaries - Forces of Warmachine" page="149">
@@ -6607,6 +6895,7 @@
       <modifiers/>
     </rule>
     <rule id="3df75c4b-8e93-31c3-c51f-dda706cfd63c" name="Rapid Fire [d3]" hidden="false" book="Mercenaries - Forces of Warmachine" page="54">
+      <description>When you decide to make initial attacks with this weapon at the beginning of this model&apos;s combat action, roll a d3. The total rolled is the number of initial attacks this model can make with this weapon during the combat action, ignoring ROF.</description>
       <modifiers/>
     </rule>
     <rule id="c950cf4c-33a0-1369-1946-ff2bb9ca7528" name="Reach" hidden="false" book="Warmachine Prime mkII" page="36">
@@ -6614,30 +6903,43 @@
       <modifiers/>
     </rule>
     <rule id="16d1ece1-d456-63ca-5c0c-74ea34967e03" name="Repair[] (* Action)" hidden="false" book="Mercenaries - Forces of Warmachine" page="120">
+      <description>This model can attempt repairs on any damaged friendly Faction warjack. To attempt repairs, this model must be B2B with the damaged warjack and make a skill check. If successful, remove d6 damage points from the warjack&apos;s damage grid.</description>
       <modifiers/>
     </rule>
     <rule id="302699f5-235c-648b-9c46-2f61b2d4b9a8" name="Resourceful" hidden="false" book="Mercenaries - Forces of Warmachine" page="38">
+      <description>This model can upkeep spells on models in its battlegroup without spending focus.</description>
       <modifiers/>
     </rule>
     <rule id="436ec278-32b6-b1d3-2be5-0a2e80af82ca" name="Retribution Partisan" hidden="false" book="Wrath" page="135">
+      <description>When included in a Retribution army, this model is a Retribution model instead of a Mercenary model.</description>
       <modifiers/>
     </rule>
     <rule id="82b156b4-3f02-a439-bb1d-e4b6d2f98482" name="Rhulic &apos;Jack Marshal" hidden="false" book="Mercenaries - Forces of Warmachine" page="146">
+      <description>This model can control and reactivate only friendly Mercenary Rhulic warjacks.</description>
       <modifiers/>
     </rule>
     <rule id="4af73d7d-513d-460d-d311-f77d7fb1c569" name="Rhulic Warcaster" hidden="false" book="Mercenaries - Forces of Warmachine" page="136">
+      <description>This model can have only Mercenary Rhulic warjacks in its battlegroup and can reactivate only frienldy Mercenary Rhulic warjacks.</description>
       <modifiers/>
     </rule>
     <rule id="0550463d-2bf0-f90e-be93-391bc183ae50" name="Rhulic Warjack" hidden="false" book="Mercenaries - Forces of Warmachine" page="140">
+      <description>This model can be included only in a battlegroup controlled by a Mercenary Rhulic warcaster or assigned to a Mercenary Rhulic &apos;jack marshal. This model can be reactivated only by a friendly Mercenary Rhulic warcaster or a friendly Mercenary Rhulic &apos;jack marshal.</description>
       <modifiers/>
     </rule>
     <rule id="7b569554-81f9-c378-ba26-7d6a17a88b63" name="Riposte" hidden="false" book="Mercenaries - Forces of Warmachine" page="34">
+      <description>When this model is missed by an enemy melee attack, immediately after the attack is resolved it can make one normal melee attack against the attacking model.</description>
       <modifiers/>
     </rule>
     <rule id="fa82b6bb-0535-0018-51e6-39606cc75e01" name="Sacred Ward" hidden="false" book="Mercenaries - Forces of Warmachine" page="86">
+      <description>This model cannot be targeted by enemy spells.</description>
+      <modifiers/>
+    </rule>
+    <rule id="3163f8df-14ce-49e2-f47f-55fd58751325" name="Seduction (* Action)" hidden="false" book="Mercenaries - Forces of Warmachine" page="70">
+      <description>Take control of a living enemy non-warcaster, non-warlock warrior model B2B with this model. You can immediately make a full advance with the enemy model followed by a normal melee attack, then Seduction expires. The nemey model cannot be targeted by free strikes duringt his movement.</description>
       <modifiers/>
     </rule>
     <rule id="5258690f-6843-cf78-d51e-1c0a2d7224e8" name="Set Defence" hidden="false" book="Mercenaries - Forces of Warmachine" page="44">
+      <description>A model in this model&apos;s front arc suffers -2 on charge, slam power attack, and impact attack rolls against this model.</description>
       <modifiers/>
     </rule>
     <rule id="31938085-8f8f-ecbc-1282-4d5071791dc9" name="Shield" hidden="false" book="Warmachine Prime mkII" page="36">
@@ -6645,24 +6947,34 @@
       <modifiers/>
     </rule>
     <rule id="4158ad6a-dee0-b6de-4f0f-79440d26d798" name="Shield Guard" hidden="false" book="Mercenaries - Forces of Warmachine" page="44">
+      <description>Once per round, when a friendly model is directly hit by a ranged attack during your opponent&apos;s turn while within 2&quot; of this model, this model can become the target of the attack and be automatically hit instead. This model cannot use Shield Guard if it is incorporeal, knocked down, or stationary.</description>
       <modifiers/>
     </rule>
     <rule id="54a0b552-0fcb-09a7-56d8-04643de1dd68" name="Shield Wall (Order)" hidden="false" book="Mercenaries - Forces of Warmachine" page="146">
       <modifiers/>
     </rule>
     <rule id="51a648ec-bed3-9295-8417-cb916b4bc76a" name="Silencer" hidden="false" book="Mercenaries - Forces of Warmachine" page="58">
+      <description>A model directly hit by this weapon cannot cast spells for one round.</description>
       <modifiers/>
     </rule>
     <rule id="3300c3df-350e-9d5b-094a-ffae33419f0d" name="Sniper" hidden="false" book="Mercenaries - Forces of Warmachine" page="64">
+      <description>When damaging a warjack or warbeast with a ranged attack, choose which column or branch suffers damage. Instead of rolling damage on a ranged attack, this model can inflict 1 damage point. A model that participates in a combined ranged attack loses Sniper until the attack is resolved.</description>
       <modifiers/>
     </rule>
     <rule id="7e5e7684-d2a1-b0a8-7a78-2ad80d661910" name="Soul Collector" hidden="false" book="Colossal" page="128">
+      <description>This model gains one soul token when a living enemy model is destroyed in it&apos;s command range. This model can have up to three soul tokens at a time. During its activation, this model can spend soul tokens to gain additional attacks or to boost attack or damage rolls at one token per attack or boost.</description>
       <modifiers/>
     </rule>
     <rule id="0d84a364-a143-f976-c439-143a98896e34" name="Spiritual Conduit" hidden="false" book="Wrath" page="135">
+      <description>While its warcaster is in this model&apos;s command range, when the warcaster casts a spell and is the point of origin for the spell, the spell gains +2 RNG.</description>
       <modifiers/>
     </rule>
     <rule id="c6bcf30f-c558-19a6-d099-8a6213aa189e" name="Stall" hidden="false" book="Mercenaries - Forces of Warmachine" page="43">
+      <description>A warjack hit by this attack suffers the Stall continuous effect. While a warjack is suffering Stall, its base DEF becomes 7 and it cannot run or charge.</description>
+      <modifiers/>
+    </rule>
+    <rule id="ea4b6c9d-9e17-58f3-8163-8ea99d5db0fe" name="Standard bearer" hidden="false" book="Warmachine Prime mkII" page="34">
+      <description>This model is a standard bearer (p. 70).</description>
       <modifiers/>
     </rule>
     <rule id="e99c4320-7ab1-4678-8245-f6bb01e712e0" name="Stealth" hidden="false" book="Warmachine Prime mkII">
@@ -6670,13 +6982,15 @@
       <modifiers/>
     </rule>
     <rule id="f5b6f1f0-a386-5b3a-5615-fa215e79d478" name="Steam Pressure" hidden="false" book="Mercenaries - Forces of Warmachine" page="46">
+      <description>This model can forfeit its movement to give this weapon +4 RNG this activation and gain the aiming bonus.</description>
       <modifiers/>
     </rule>
     <rule id="48272ed3-828b-3003-5a54-ef50d72c746d" name="Sucker!" hidden="false" book="Mercenaries - Forces of Warmachine" page="124">
-      <description>If this model is directly hit by an enemey ranged attack, choose a friendly living non-incorporeal warrior model within 2&quot; of it to be directly hit instead. That model is automatically hit and suffers all damage and effects.</description>
+      <description>If this model is directly hit by an enemy ranged attack, choose a friendly living non-incorporeal warrior model within 2&quot; of it to be directly hit instead. That model is automatically hit and suffers all damage and effects.</description>
       <modifiers/>
     </rule>
     <rule id="428827b6-84f5-099c-0b03-a5d1704d23b1" name="Sustained Attack" hidden="false" book="Mercenaries - Forces of Warmachine" page="42">
+      <description>During this model&apos;s activation, when it makes and attack with this weapon against the last model hit by the weapon this activation, the attack automatically hits.</description>
       <modifiers/>
     </rule>
     <rule id="cd8922ea-6a52-8f4f-74f2-5dbc915d873f" name="Swashbuckler" hidden="false" book="Mercenaries - Forces of Warmachine" page="100">
@@ -6684,9 +6998,11 @@
       <modifiers/>
     </rule>
     <rule id="36760907-dacd-359c-33bb-1e80c1cdec40" name="Tactician [Steelhead]" hidden="false" book="Mercenaries - Forces of Warmachine" page="68">
+      <description>While in this model&apos;s command range, friendly Steelhead models ignore other friendly Steelhead models when determining LOS. Friendly Steelhead models can advance through other friendløy Steelhead models in this model&apos;s command range without effect if they have enough movement to move completely past them.</description>
       <modifiers/>
     </rule>
     <rule id="ee55069e-290b-48c7-50ce-14a54d18da29" name="Take Down" hidden="false" book="Mercenaries - Forces of Warmachine" page="54">
+      <description>Models disabled by a melee attack made by this model cannot make a Tough roll. Models boxed by a melee attack made by this model are removed from play.</description>
       <modifiers/>
     </rule>
     <rule id="a1d81d1a-4ecc-53bc-3e7d-83d58b43a1a8" name="Take Up" hidden="false" book="Mercenaries - Forces of Warmachine" page="108">
@@ -6697,6 +7013,7 @@
       <modifiers/>
     </rule>
     <rule id="579ab18e-eb22-6aae-f01d-28868792128f" name="Thresher (* Attack)" hidden="false" book="Mercenaries - Forces of Warmachine" page="45">
+      <description>This model makes one melee attack with this weapon against each model in its LOS and this weapon&apos;s melee range.</description>
       <modifiers/>
     </rule>
     <rule id="19bbdf49-10f8-f841-3a28-29826fe83d7d" name="Thrown" hidden="false" book="Mercenaries - Forces of Warmachine" page="66">
@@ -6708,6 +7025,7 @@
       <modifiers/>
     </rule>
     <rule id="987eb0e3-9cd1-6f29-0206-5efb57bb3b86" name="Trash" hidden="false" book="Mercenaries - Forces of Warmachine" page="60">
+      <description>Gain an additional damage die against knocked down targets.</description>
       <modifiers/>
     </rule>
     <rule id="21b0922f-4ce2-396f-8960-5747cf7bddca" name="Undead" hidden="false" book="Warmachine Prime mkII" page="34">
@@ -6715,9 +7033,11 @@
       <modifiers/>
     </rule>
     <rule id="bfc7d9b7-b37f-6c3a-ebe4-e15026e94d2d" name="Unyielding" hidden="false" book="Mercenaries - Forces of Warmachine" page="36">
+      <description>While engaging an enemy model, this model gains +2 ARM.</description>
       <modifiers/>
     </rule>
     <rule id="8e4642a1-94bf-fc25-1e28-3c0c7c022176" name="Virtuoso" hidden="false" book="Mercenaries - Forces of Warmachine" page="34">
+      <description>This model can make melee and ranged attacks during the same combat action. When this model makes its initial attacks, it can make both its initial ranged and melee attacks.</description>
       <modifiers/>
     </rule>
     <rule id="6d802814-ea85-2b83-91cd-befd3e7b1757" name="Warjack Bond" hidden="false" book="Mercenaries - Forces of Warmachine">
@@ -6725,54 +7045,6 @@
     </rule>
     <rule id="6b49fd32-7ec7-56db-2429-b3ed7592ca45" name="Weapon Master" hidden="false" book="Warmachine Prime mkII" page="36">
       <description>When attacking wiht this weapon, add and additional die to its damage rolls.</description>
-      <modifiers/>
-    </rule>
-    <rule id="ef15e40b-6b87-20c8-8e6e-ecc3a787c5e4" name="Abomination" hidden="false" book="Warmachine Prime mkII" page="33">
-      <description>The model is a terrifying entity (p. 84). Models and units - friendly and enemy - within 3&quot; of this model must pass a command check or flee.</description>
-      <modifiers/>
-    </rule>
-    <rule id="88fe4770-1b4a-45fc-3368-ebc1dfdf8095" name="Eyeless Sight" hidden="false" book="Warmachine Prime mkII" page="34">
-      <description>This model ignores cloud effects (p. 69) and forests (p. 87) when determining line of sight. This model ignores concealment (p. 57) and Stealth when making attacks.</description>
-      <modifiers/>
-    </rule>
-    <rule id="6271732a-5465-02f2-d4ca-f3f7e3cea9d8" name="Incorporeal" hidden="false" book="Warmachine Prime mkII" page="34">
-      <description>This model can move through rough terrain and obstacles without penalty. It can move through obstructions and other models if it has enough movement to move completely past them. Other models, including slammed, pushed, or thrown models, can move through this model without effect if they have enough movement to move completely past it. This model does not count as an intervening model. This model suffers damage and effects only from magical weapons, magic attacks, animi, spells, and feats and is immune to continous effects. This model cannot be move by a slam. When this model makes a melee or ranged attack, before the attack roll is made it loses Incorporeal for one round.</description>
-      <modifiers/>
-    </rule>
-    <rule id="ea4b6c9d-9e17-58f3-8163-8ea99d5db0fe" name="Standard bearer" hidden="false" book="Warmachine Prime mkII" page="34">
-      <description>This model is a standard bearer (p. 70).</description>
-      <modifiers/>
-    </rule>
-    <rule id="a6b32d6a-2924-cc8b-c5d5-c8062443b105" name="Immunity: Cold" hidden="false" book="Warmachine Prime mkII" page="34">
-      <description>This model does not suffer cold damage (p. 68).</description>
-      <modifiers/>
-    </rule>
-    <rule id="da2f1b89-2efb-b8a7-851d-3d22b25dd7e0" name="Immunity: Electricity" hidden="false" book="Warmachine Prime mkII" page="34">
-      <description>This model does not suffer electrical damage (p. 68).</description>
-      <modifiers/>
-    </rule>
-    <rule id="3f45d97a-a610-d64f-07e7-14f53fb15d38" name="Continuous Effect: Corrosion" hidden="false" book="Warmachine Prime mkII" page="35">
-      <description>A model hit by this attack suffers the Corrosion continuous effect (p. 69).</description>
-      <modifiers/>
-    </rule>
-    <rule id="7bc77567-e5bf-0454-f09c-e1585cee886f" name="Critical Corrosion" hidden="false" book="Warmachine Prime mkII" page="35">
-      <description>On a critical hit, the model hit by this attack suffers the Corrosion continuous effect(p. 69).</description>
-      <modifiers/>
-    </rule>
-    <rule id="327708b6-72f9-6e01-d872-b00f3d1aa6fb" name="Critical Fire" hidden="false" book="Warmachine Prime mkII" page="35">
-      <description>On a critical hit, the model hit by this attack suffers the Fire continuous effect (p.69).</description>
-      <modifiers/>
-    </rule>
-    <rule id="4cdb58a9-89c7-e86d-6b6b-554a6cee3d42" name="Damage Type: Cold" hidden="false" book="Warmachine Prime mkII" page="35">
-      <description>This weapon causes cold damage (p.68).</description>
-      <modifiers/>
-    </rule>
-    <rule id="a97181c0-e9ea-5063-8069-ecf1bb286402" name="Damage Type: Corrosion" hidden="false" book="Warmachine Prime mkII" page="35">
-      <description>This weapon causes corrosion damage (p. 68).</description>
-      <modifiers/>
-    </rule>
-    <rule id="f4dce6be-217f-0c24-6f50-d00d547dd53c" name="Damage Type: Electricitiy" hidden="false" book="Warmachine Prime mkII" page="35">
-      <description>This weapon causes electrical damage (p. 68).</description>
       <modifiers/>
     </rule>
   </sharedRules>
