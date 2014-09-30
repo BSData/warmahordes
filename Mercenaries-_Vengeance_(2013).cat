@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5382cf4f-6e74-72c4-0e90-5366d1192ea7" revision="14" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="3" battleScribeVersion="1.14b" name="Mercenaries- Forces of Warmachine -  mkII (2010)" books="Mercenaries- Forces of Warmachine" authorName="Obiken" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5382cf4f-6e74-72c4-0e90-5366d1192ea7" revision="15" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="3" battleScribeVersion="1.14b" name="Mercenaries- Forces of Warmachine -  mkII (2010)" books="Mercenaries- Forces of Warmachine" authorName="Obiken" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="8058c02e-db92-21aa-3d1d-a2e86070623a" name="Alexia Ciannor, The Risen, &amp; Thrall Warrior" points="5.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="51">
       <entries/>
@@ -2764,15 +2764,21 @@
       <modifiers/>
       <rules>
         <rule id="e31be8f5-4874-cbb1-0951-48141b31fb6b" name="Alchemical Mask" hidden="false">
+          <description>This model ignores gas effect. When determining LOS or resolving attacks, this model ignores cloud effects.</description>
           <modifiers/>
         </rule>
         <rule id="5c101566-172a-e49d-9521-e6835199ea38" name="Attack Type" hidden="false">
-          <description>- Acid Bomb
-- Black Oil
-- Rust</description>
+          <description>Each time this model makes a normalranged attack, choose one of the following abilities:
+
+- Acid Bomb - Models in the AOE are hit and suffer a POW 12 corrosion damage roll and teh Corrosion contuous effect.
+
+- Black Oil - This attack causes no damage. Instead, models in the AOE are hit and suffer Blind for one round. (A blind model cannot make ranged or magic attacks, suffer -4 MAT and DEF, cannot run or charge, and must forfeit either its movement or action during its next activation.)
+
+- Rust - This attack causes no damage. Instead warjacks in the AOE are hit and suffer -2 ARM for one turn.</description>
           <modifiers/>
         </rule>
         <rule id="66af9a97-dde0-cc93-057a-5dc8dc52d5a5" name="Smoke Bombs (* Action)" hidden="false">
+          <description>Place a 3&quot; AOE clod effect in play. Its center point must be within 1&quot; of this model. This AOE remains in play for one round.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -3070,6 +3076,7 @@
       <modifiers/>
       <rules>
         <rule id="ebc9c2e4-159c-2a80-cb04-3ce2eeb76d0c" name="Hail Shot Cannon: Powerful Attack" hidden="false" book="Mercenaries - Forces of Warmachine" page="38">
+          <description>When attacking with this weapon, this model can spend 1 focus point to boost all attack and damage rolls for the attack.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -3121,6 +3128,7 @@
       <modifiers/>
       <rules>
         <rule id="3ec8cf39-5e5a-5713-2058-a926402d2ee4" name="Cannon: Powerful Attack" hidden="false" book="Mercenaries - Forces of Warmachine" page="38">
+          <description>When attacking with this weapon, this model can spend 1 focus point to boost all attack and damage rolls for the attack.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -3333,6 +3341,7 @@
       <modifiers/>
       <rules>
         <rule id="755af37f-c255-30ed-b41e-5aa3c6e51ad2" name="Animosity [Thamarite and Undead]" hidden="false">
+          <description>This model cannot be included in an army that includes one or more models of the listed type.</description>
           <modifiers/>
         </rule>
         <rule id="d5b170be-9813-ce14-5d2c-f74b3c9b0be7" name="Witch Hunter" hidden="false">
@@ -3352,6 +3361,7 @@
           <modifiers/>
         </rule>
         <rule id="07068b48-6241-8484-6b48-b4fc190632f3" name="Sword: Purgation" hidden="false" book="Mercenaries - Forces of Warmachine" page="86">
+          <description>Gain an additional die on attack and damage rolls with this weapon against models with an enemy upkeep spell on them.</description>
           <modifiers/>
         </rule>
         <rule id="347b5b70-4705-3fbc-f5a7-caf8e43ed6ea" name="Malleus: Multi-Fire (* Attack)" hidden="false" book="Mercenaries - Forces of Warmachine" page="86">
@@ -3432,9 +3442,11 @@
           <modifiers/>
         </rule>
         <rule id="56acae37-d6cc-7b31-c088-fae9f56a72ed" name="Barrage Aquebus: Range Finder" hidden="false" book="Mercenaries - Forces of Warmachine" page="149">
+          <description>While B2B with one or more grunts in this unit, this model gains +2 to attack rolls with this weapon.</description>
           <modifiers/>
         </rule>
         <rule id="1c29fc50-d743-fb2b-1a32-1f5e7404bc7d" name="Barrage Arquebus: Scattershot (* Attack)" hidden="false">
+          <description>To make a Scattershot special attack, Herne and Jonne must be B2B. Make a normal attack with this weapon. After determining point of impact for that attack, roll deviation for two additional 3&quot; AOEs centered on that point. Models in an AOE are hit and suffer a POW 7 blast damage roll.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -3532,9 +3544,11 @@
           <modifiers/>
         </rule>
         <rule id="eaf9cad9-b82a-e583-8870-7b5130249e38" name="Siege Cannon: Light Artillery" hidden="false">
+          <description>This weapon cannot be used to make attacks or special actions during activations this model moves. This model cannot gain the aiming bonus when attacking wiht whis model and cannot charge. If this model attacks with this weapon during its activation, it cannot attack with any other weapons that activation.</description>
           <modifiers/>
         </rule>
         <rule id="5485aa8c-cd30-20cf-cd49-5990507a59c6" name="Siege Cannon: Range Finder" hidden="false" book="Mercenaries - Forces of Warmachine" page="149">
+          <description>While B2B with one or more grunts in this unit, this model gains +2 to attack rolls with this weapon.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -3758,15 +3772,19 @@
           <modifiers/>
         </rule>
         <rule id="f4f29819-4f38-abef-677d-80e567168606" name="Lady Aiyana: Magic Ability [8]" hidden="false">
-          <description>- Ayisla&apos;s Veil (* Action)
-- Kiss of Lyliss (* Attack)
-- Lurynsar&apos;s Touch (* Action)</description>
+          <description>- Ayisla&apos;s Veil (* Action) - This model gains Stealth. While Holt is B2B with her, he also gains Stealth, Ayisla&apos;s Veil lasts for one round.
+
+- Kiss of Lyliss (* Attack) - Kiss of Lyliss is a RNG 10 magic attack. For one round, when a model/unit hit by Kiss of Lyliss suffers a damage roll add +2 to the roll.
+
+- Lurynsar&apos;s Touch (* Action) - RNG CMD. Target friendly model/unit. If the model /unit is in range, its weapons gain Magical Weapon for one turn.</description>
           <modifiers/>
         </rule>
         <rule id="87eb695b-906f-7397-4c06-3dc3d388aaa7" name="Master Holt: Quick Draw" hidden="false" book="Mercenaries - Forces of Warmachine" page="34">
+          <description>Once during your opponent&apos;s turn, when an enemy model within 12&quot; of this model that is in its LOS targets this model with a ranged attack, this model can make a ranged attack against the model beofre it makes its attack roll. If this model&apos;s ranged attack hits, the enemy model suffers no damage but its attack automatically misses.</description>
           <modifiers/>
         </rule>
         <rule id="3b99e678-9557-5276-4f63-cd89f8f64179" name="Master Holt: Virtuoso" hidden="false" book="Mercenaries - Forces of Warmachine" page="34">
+          <description>This model can make melee and ranged attacks during the same combat action. When this model makes its initial attacks, it can make both its initial ranged and melee attacks.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -3844,18 +3862,25 @@
           <modifiers/>
         </rule>
         <rule id="8c900c03-6aca-a81c-76a0-569ee10f8c06" name="Bought Loyalty" hidden="false">
+          <description>When a friendly Faction model/unit fails a command check in this modelæs command range, you can mark one of this model&apos;s five coin boxes to cause the model/unit to pass the failed check.</description>
           <modifiers/>
         </rule>
         <rule id="bf149e39-b99a-6a5f-98e8-4734a90c4a1c" name="Coin" hidden="false">
+          <description>This model gains +1 CMD for each of its unmarked coin boxes.</description>
           <modifiers/>
         </rule>
         <rule id="de0bb81b-a5b5-0349-df28-8675ded13a50" name="Paymaster" hidden="false">
-          <description>- Money Shot
-- Payday
-- Walk It Off</description>
+          <description>During this model&apos;s activation, you can mark one or more coin boxes on its card. For each coin box you mark, you can use Paymaster once. When you do, choose one of the following incentives. Incentives are RNG CMD, and can target only friendly Sea Dog units. A Sea Dog unit can be affected by an incentive only once per turn. When all five of its coin boxes have b een marked, this model loses Paymaster for the rest of the game.
+
+- Money Shot - Affected models gain +2 to ranged attack and damage rolls for one turn.
+
+- Payday - Affected models&apos; melee attack rolls are boosted. When an affected model destroys an enemy model with a normal melee attack, immediately after the attack is resolved the affected model can advance up to 1&quot;. Payday lasts for one turn.
+
+- Walk It Off - Affecte models gain Tough for one round.</description>
           <modifiers/>
         </rule>
-        <rule id="f154ffff-1d08-ab6e-5a11-908e916c084b" name="Fire Breather: Continous Effect: Fire" hidden="false" book="Warmachine Prime mk II">
+        <rule id="f154ffff-1d08-ab6e-5a11-908e916c084b" name="Fire Breather: Continuous Effect: Fire" hidden="false" book="Warmachine Prime mk II">
+          <description>A model hit by this attack suffers the Fire continuous effect (p. 69).</description>
           <modifiers/>
         </rule>
         <rule id="d5084cf4-fb40-cf8b-759c-59f03e93cce0" name="Fire Breather: Damage Type: Fire" hidden="false" book="Warmachine Prime mkII" page="36">
@@ -3986,6 +4011,7 @@
           <modifiers/>
         </rule>
         <rule id="d21d1cad-45ee-7739-a814-19b29ed65a9c" name="Foecleaver: Powerful Attack" hidden="false" book="Mercenaries - Forces of Warmachine" page="38">
+          <description>When attacking with this weapon, this model can spend 1 focus point to boost all attack and damage rolls for the attack.</description>
           <modifiers/>
         </rule>
         <rule id="1470e835-d158-9d98-db63-149810722f8a" name="Mechanical Arm: Knockdown" hidden="false" book="Mercenaries - Forces of Warmachine" page="38">
@@ -4098,9 +4124,11 @@
           <modifiers/>
         </rule>
         <rule id="7b676b49-ffc1-0f5a-108e-6b39cfbdc916" name="Foecleaver X: Armor Piercing (* Attack)" hidden="false" book="Mercenaries - Forces of Warmachine" page="40">
+          <description>When calculating damage from this attack, halve the base ARM stats of the models hit that have medium or larger bases. This attack gains +2 to damage rolls against model swith small bases.</description>
           <modifiers/>
         </rule>
         <rule id="cba43c1f-4bfe-ea35-91a1-a4439d9a41cf" name="Foecleaver X: Powerful Attack" hidden="false" book="Mercenaries - Forces of Warmachine" page="38">
+          <description>When attacking with this weapon, this model can spend 1 focus point to boost all attack and damage rolls for the attack.</description>
           <modifiers/>
         </rule>
         <rule id="bfb73016-1641-eaf8-ec4e-e6db14289ba7" name="Mechanical Arm: Knockdown" hidden="false" book="Mercenaries - Forces of Warmachine" page="38">
@@ -4188,9 +4216,11 @@
       <modifiers/>
       <rules>
         <rule id="ffc0ba15-498b-077b-9598-0878bae9d0e6" name="Wrecker: Thresher (* Attack)" hidden="false" book="Mercenaries - Forces of Warmachine" page="45">
+          <description>This model makes one melee attack with this weapon against each model in its LOS and this weapon&apos;s melee range.</description>
           <modifiers/>
         </rule>
         <rule id="53e3fe53-06a2-22de-3e3f-8688868f36b0" name="Wrecker: Chain Weapon" hidden="false" book="Mercenaries - Forces of Warmachine" page="45">
+          <description>This attack ignores the Buckler and Shield weapon qualities and Shield Wall.</description>
           <modifiers/>
         </rule>
         <rule id="79e25388-f09a-c5c9-5c21-05756aa046c7" name="Wrecker: Reach" hidden="false" book="Warmachine Prime mkII" page="36">
@@ -4246,9 +4276,11 @@
       <modifiers/>
       <rules>
         <rule id="7349bd66-bf94-dac2-cb3d-f059d95773cd" name="Ship Gun: Loader" hidden="false" book="Mercenaries - Forces of Warmachine" page="104">
+          <description>This model must be B2B with a friendly living Faction warrior model to make an attack with this weapon.</description>
           <modifiers/>
         </rule>
         <rule id="59484aec-984e-1cb9-2e1b-fb9b07ebb72a" name="Anchor: Thresher (* Attack)" hidden="false" book="Mercenaries - Forces of Warmachine" page="45">
+          <description>This model makes one melee attack with this weapon against each model in its LOS and this weapon&apos;s melee range.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -4307,15 +4339,19 @@
           <modifiers/>
         </rule>
         <rule id="a11cc47a-589c-516b-f117-2b06e3703082" name="Grenade: Cumbersome" hidden="false" book="Mercenaries - Forces of Warmachine" page="128">
+          <description>If this model attack with this weapon during its activation, it cannot attack with another ranged weapon that activation. If this model attacked with another ranged weapon this activation, it cannot attack with this weapon.</description>
           <modifiers/>
         </rule>
         <rule id="3d5d7d26-fd9e-94e1-c300-52d4171180ec" name="Double Powder Ration" hidden="false">
+          <description>Once per game during its activation, this model can use Double Powder Ration. Ranged attacks made by friendly Faction models while in this model&apos;s command range gain +2 RNG. Double Powder Ration lasts for one turn.</description>
           <modifiers/>
         </rule>
         <rule id="b622876e-31ad-fa89-00f8-af0e7d73dcce" name="Field Officer [Sea Dog Deck Gun Crew]" hidden="false">
+          <description>If this model is included in an army, you can include one additional Sea Dog Deck Gun Crew unit over that unit&apos;s FA.</description>
           <modifiers/>
         </rule>
         <rule id="d6d0afe6-f20f-9b45-37c9-58ae528b9e67" name="Hit the Deck!" hidden="false">
+          <description>This model cannot be hit by AOE attacks. If it would be h it by an AOE attack, it is instead knocked down. While this model is knocked down, ranged attacks targeting it automatically miss.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -4401,9 +4437,11 @@
           <modifiers/>
         </rule>
         <rule id="18143152-f036-8b7e-e20c-a57cd4996862" name="Steam Lobber: Critical Devastation" hidden="false" book="Mercenaries - Forces of Warmachine" page="46">
+          <description>On a critical hit, instead of suffering a normal damage roll, each model in the AOE is thrown d6&quot; directly away from the attacker regardlessof its base size. Move models furthest from the attacker first. The model directly hit by the attack sufers a POW 15 damage roll. Other model shit by the attack suffer a POW 8 damage roll. The POW of collateral damage is equal to the POW of the damage roll suffered by the thrown model.</description>
           <modifiers/>
         </rule>
         <rule id="e2729504-49a5-cbd4-7c77-46b531f444e9" name="Steam Lobber: Steam Pressure" hidden="false" book="Mercenaries - Forces of Warmachine" page="46">
+          <description>This model can forfeit its movement to give this weapon +4 RNG this activation and gain the aiming bonus.</description>
           <modifiers/>
         </rule>
         <rule id="5b238a8d-6449-1e5c-677d-1b1e9cbbd2e6" name="Battle Mace: Reach" hidden="false" book="Warmachine Prime mkII" page="36">
@@ -4585,9 +4623,11 @@
       <modifiers/>
       <rules>
         <rule id="78cecd34-eb01-3382-0fe2-78fb642b8135" name="Client" hidden="false" book="Mercenaries - Forces of Warmachine" page="152">
+          <description>Before the start of the game, choose one friendly warcaster, solo, or unit commander to be the Bokur&apos;s client. This model cannot be the client of another Bokur or have the same client as another Bokur. If its client leaves play, the Bokur loses all client benefits even if that client is replaced by another model. While within 6&quot; of its client this model gains +2 to attack and damage rolls and never flees. If this model&apos;s client has Advance Deployment, this model gain Advance Deployment.</description>
           <modifiers/>
         </rule>
         <rule id="d8afe841-a73d-d238-7c34-129523905a89" name="Power Attack Slam" hidden="false">
+          <description>This model can make slam power attacks.</description>
           <modifiers/>
         </rule>
         <rule id="26bf5058-f734-aada-587e-2ebd6fb8edde" name="Ogrun Pole Arm: Reach" hidden="false" book="Warmachine Prime mkII" page="36">
@@ -4595,6 +4635,7 @@
           <modifiers/>
         </rule>
         <rule id="955543a2-4237-0ce5-045d-aacc80559c3c" name="Ogrun Pole Arm: Powerful Charge" hidden="false" book="Mercenaries - Forces of Warmachine" page="43">
+          <description>This model gains +2 to charge attack rolls with this weapon.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -5030,6 +5071,7 @@
       <modifiers/>
       <rules>
         <rule id="04da06f1-a817-7019-d575-a4503d0d4671" name="Custom Warjack [Magnus]" hidden="false" book="Mercenaries - Forces of Warmachine" page="42">
+          <description>This model can be included only in a battlegroup controlled by Magnus.</description>
           <modifiers/>
         </rule>
         <rule id="57aefa3a-9726-e4aa-2e01-37feac25c633" name="Obliterator: Arcing Fire" hidden="false" book="Mercenaries - Forces of Warmachine" page="42">
@@ -5045,9 +5087,11 @@
           <modifiers/>
         </rule>
         <rule id="a5ee1144-b976-4249-30b4-950a86116d6c" name="Obliterator: One Shot" hidden="false" book="Mercenaries - Forces of Warmachine" page="42">
+          <description>An attack with this weapon can be made only once per game.</description>
           <modifiers/>
         </rule>
         <rule id="502d30b5-3b08-ce08-e93b-08f0de2e2618" name="Shredder: Critical Shred" hidden="false" book="Mercenaries - Forces of Warmachine" page="42">
+          <description>On a critical hit, after the attack is resolved this model can make one additional attack against the model hit.</description>
           <modifiers/>
         </rule>
         <rule id="d3ce8e3d-ee06-8814-47fc-0c71270f44f7" name="Shredder: Sustained Attack" hidden="false" book="Mercenaries - Forces of Warmachine" page="42">
@@ -5219,6 +5263,7 @@
       <modifiers/>
       <rules>
         <rule id="fe765e36-1e45-ad0e-b13e-0bc9087f1bbd" name="Shield: Shield" hidden="false" book="Warmachine Prime mkII">
+          <description>This weapon is a shield that gives the model a cumulative +2 ARM bonus; for example, a model with two of them gains a bonus of +4 ARM. A model does not gain this bonus while the weapon system with the shield is crippled or being held in a weapon lock or when resolving damage that originates in its back arc.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -5358,6 +5403,7 @@
           <modifiers/>
           <rules>
             <rule id="7e15bf05-c79d-512f-ef92-44d110db5da8" name="Attachement [Sea Dog Crew]" hidden="false">
+              <description>This attachment can be added to a Sea Dog Crew unit.</description>
               <modifiers/>
             </rule>
           </rules>
@@ -5424,9 +5470,11 @@
           <modifiers/>
           <rules>
             <rule id="5334a9ae-1008-e6a7-52a1-32e1bce51769" name="Monkey Bite" hidden="false">
+              <description>Living enemy models suffer -2 to melee attack rolls while in melee with this model.</description>
               <modifiers/>
             </rule>
             <rule id="fb717e6e-dc0f-a7f9-0717-46bcf88eb927" name="No Quarter" hidden="false">
+              <description>Once per game during its unit&apos;s activation, this model can use No Quarter. Models in this unit gain Fearless, Pathfinder and Terror. A model in this unit that charges gains +2&quot; movement. No Quarter lasts for one round.</description>
               <modifiers/>
             </rule>
             <rule id="913d5c92-b398-09e6-a193-ebefe4f84eba" name="Tactics: Advance Deployment" hidden="false" page="33">
@@ -5543,9 +5591,11 @@
       <modifiers/>
       <rules>
         <rule id="7571e315-8c10-0673-11de-815bf460521b" name="Deck Gun: Light Artillery" hidden="false">
+          <description>This weapon cannot be used to make attacks or special actions during activations this model moves. This model cannot gain the aiming bonus when attacking wiht whis model and cannot charge. If this model attacks with this weapon during its activation, it cannot attack with any other weapons that activation.</description>
           <modifiers/>
         </rule>
         <rule id="ab74549f-60ec-b461-5ea9-28fb8ff8ed7e" name="Deck Gun: Range Finder" hidden="false">
+          <description>While B2B with one or more grunts in this unit, this model gains +2 to attack rolls with this weapon.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -5640,9 +5690,11 @@
           <modifiers/>
         </rule>
         <rule id="b48d33fb-1703-d1bd-9c4b-ca676f0f6f45" name="Thrasher: Backswing (* Attack)" hidden="false" book="Mercenaries - Forces of Warmachine" page="49">
+          <description>Make two attack with this weapon.</description>
           <modifiers/>
         </rule>
         <rule id="edefc738-3f31-a155-a0e7-e4f9dea573fa" name="Thrasher: Brutal Charge" hidden="false" book="Mercenaries - Forces of Warmachine" page="49">
+          <description>This model gains +2 to charge attack damage rolls with this weapon.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -5796,6 +5848,7 @@
       <modifiers/>
       <rules>
         <rule id="91ca14ba-bf7f-6cdf-556e-3c7cdeb17971" name="Flank [Steelhead Halberdiers]" hidden="false" book="Mercenaries - Forces of Warmachine" page="49">
+          <description>When this model makes a melee attack against an enemy model within the mlee range of a friendly model of the type indicated, this model gains +2 to attack rolls and gains an additiional damage die.</description>
           <modifiers/>
         </rule>
         <rule id="42f3a1f7-29cb-f448-c580-48269c8f1d89" name="Cavalry Axe: Reach" hidden="false" book="Warmachine Prime mkII" page="36">
@@ -5803,9 +5856,11 @@
           <modifiers/>
         </rule>
         <rule id="dc372aaf-7e93-71d0-f442-88639b7f59ac" name="Cavalry Axe: Backswing (* Attack)" hidden="false" book="Mercenaries - Forces of Warmachine" page="49">
+          <description>Make two attack with this weapon.</description>
           <modifiers/>
         </rule>
         <rule id="217e4c8a-68cf-977f-d68a-b9410c7c0b25" name="Cavalry Axe: Brutal Charge" hidden="false" book="Mercenaries - Forces of Warmachine" page="49">
+          <description>This model gains +2 to charge attack damage rolls with this weapon.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -6011,6 +6066,7 @@
           <modifiers/>
         </rule>
         <rule id="8c9b81ab-56e9-3f2f-5879-9f0fc671cdcc" name="Thermo Mace: Flame Burst" hidden="false" book="Vengeance" page="106">
+          <description>When this model boxes an enemy model with this weapon, enemy models within 1&quot; of the boxed model suffer the Fire continous effect.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -6061,6 +6117,7 @@
       <modifiers/>
       <rules>
         <rule id="ea70993b-6a7a-fb9e-32a4-4d9034630890" name="Shield: Shield" hidden="false" book="Warmachine Prime mkII">
+          <description>This weapon is a shield that gives the model a cumulative +2 ARM bonus; for example, a model with two of them gains a bonus of +4 ARM. A model does not gain this bonus while the weapon system with the shield is crippled or being held in a weapon lock or when resolving damage that originates in its back arc.</description>
           <modifiers/>
         </rule>
         <rule id="2df23fc7-6091-18c1-f42b-9d1698e17a35" name="Stun Lance: Reach" hidden="false" book="Warmachine Prime mkII" page="36">
@@ -6068,6 +6125,7 @@
           <modifiers/>
         </rule>
         <rule id="7147be9a-c7f9-6d35-8320-f66f7c463d73" name="Stun Lance: Stall" hidden="false" book="Mercenaries - Forces of Warmachine" page="43">
+          <description>A warjack hit by this attack suffers the Stall continuous effect. While a warjack is suffering Stall, its base DEF becomes 7 and it cannot run or charge.</description>
           <modifiers/>
         </rule>
         <rule id="c36a8574-a110-ec7e-d1ac-df35f6e74cc7" name="Stun Lance: Powerful Charge" hidden="false" book="Mercenaries - Forces of Warmachine" page="43">
@@ -6193,27 +6251,37 @@
           <modifiers/>
         </rule>
         <rule id="666c4441-bc42-de86-0d77-f9e61edc7686" name="Crewmen: Cross-Trained" hidden="false">
+          <description>A Sea Dog Crew Grunt ending its normal movement within 3&quot; of the Commodore can join this unit if it has fewer than three Crewmen. Replace the Grunt with the Crewman model. The Crewman has effects that were on the replaced Grunt, except for upkeep spells on the Grunt&apos;s unit. Sea Dog Crew Grunts replaced this way do not count toward Massive Casualties in their original unit.</description>
           <modifiers/>
         </rule>
         <rule id="091e0e61-c4fe-6e9a-f533-4a55c1cba51d" name="Crewmen: Fire! (* Attack)" hidden="false">
+          <description>This model must be B2B with the Commodore and not engaged to make a Fire! special attack each activation. This model makes a ranged attack with the Commodore. Both models must have LOS to the target. The Commodore cannot gain the aiming bonus. Base the RNG and all modifiers for the attack on the Commodore.</description>
           <modifiers/>
         </rule>
         <rule id="aa08b0f6-e922-a946-cea1-64f6cce82632" name="Crewmen: Gunnery (* Action)" hidden="false">
+          <description>RNG 2. Target Commodore. If teh Commodore is in range, a model attacking with the Commodore this activation gains a cumulative +2 to its attack roll.</description>
           <modifiers/>
         </rule>
-        <rule id="6426b4b5-0fad-97cb-b432-7afa0035edc7" name="Commodore: Construct" hidden="false" book="Warmachine Prime mkII">
+        <rule id="6426b4b5-0fad-97cb-b432-7afa0035edc7" name="Commodore: Construct" hidden="false" book="Warmachine Prime mkII" page="34">
+          <description>This model is not a living model, never flees, and automatically passes command checks. All warjack models have this advantage.</description>
           <modifiers/>
         </rule>
         <rule id="2da7f360-fa36-4052-faa6-e3d1491f0756" name="Commodore: Focal Point" hidden="false">
+          <description>This model&apos;s unit has no unit commander. Models in this unit within 8&quot; of this model are in formation. If a model in this model&apos;s unit is out of formation when beginning its normal movement, it must either advance toward this model and forfeit its action or run directly toward this model. If this model is destroyed or removed from play, remove the remaining models in this unit from play.</description>
           <modifiers/>
         </rule>
         <rule id="01da568a-0fbf-3437-8095-6455ab08504f" name="Commodore: Heavy Artillery" hidden="false" book="Mercenaries - Forces of Warmachine" page="112">
+          <description>This model is not a warrior model. It does not activate but can advance up to 1&quot; for each Crewman B2B with it at the beginning of its unit&apos;s activation. If this model is moved during its unit&apos;s activation, Crewmen in the unit cannot make a Fire! special attack that activation. This model is automatically hit by melee attacks. This model cannot be knocked down or made stationary.</description>
           <modifiers/>
         </rule>
         <rule id="6bee7366-a43c-6bbb-2a0f-a417b984fa30" name="Cannon: Ammo Type" hidden="false">
-          <description>- Canister Shot
-- Cannonball
-- Incendiary Shot	</description>
+          <description>Each time this weapon is used to make an attack, choose one of the following abilities:
+
+- Canister Shot - This weapon&apos;s base stats become RNG SP 10, AOE -, and POW 20. When resolving this attack, the firing model gains +2 to attack rolls.
+
+- Cannonball - This weapon&apos;s base stats become RNG 20, AOE -, and POW 16. Regardless of its base size, a model directly hit is slammed d6&quot; directly away from the Commodore. Collateral damage from this slam is POW 16. If the model directly hit cannot be slammed, it suffers a POW 16 damage roll.
+
+- Incendiary Shot - This weapon&apos;s base stats become RNG 16, AOE 4, and POW 14 for this attack. This attack causes fire damage, and models hit suffer the Fire continuos effect.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -6286,9 +6354,11 @@
       <modifiers/>
       <rules>
         <rule id="185c2d0c-29ad-ba56-dcdf-41ae18be6c2a" name="Repair[9] (* Action)" hidden="false" book="Mercenaries - Forces of Warmachine" page="120">
+          <description>This model can attempt repairs on any damaged friendly Faction warjack. To attempt repairs, this model must be B2B with the damaged warjack and make a skill check. If successful, remove d6 damage points from the warjack&apos;s damage grid.</description>
           <modifiers/>
         </rule>
         <rule id="a4cbf858-05e0-5cf0-9575-be6102c56597" name="Tune Up [Rhulic] (* Action)" hidden="false">
+          <description>RNG 5. Target friendly Mercenary Rhulic warjack. If the warjack is in range, its attack or damage rolls are boosted this turn.</description>
           <modifiers/>
         </rule>
         <rule id="8b2bde0c-aead-6e32-6177-0b7c76211f4f" name="Blowtorch: Continuous Effect: Fire" hidden="false" book="Warmachine Prime mk II" page="35">
@@ -6364,6 +6434,7 @@
       <modifiers/>
       <rules>
         <rule id="259ec909-2684-aa9a-7351-bc9f12dd1de5" name="Tower Shield: Shield" hidden="false" book="Warmachine Prime mkII">
+          <description>This weapon is a shield that gives the model a cumulative +2 ARM bonus; for example, a model with two of them gains a bonus of +4 ARM. A model does not gain this bonus while the weapon system with the shield is crippled or being held in a weapon lock or when resolving damage that originates in its back arc.</description>
           <modifiers/>
         </rule>
         <rule id="ec0b8b3a-8560-c567-2cda-eea8f8af07b8" name="Guisarme: Reach" hidden="false" book="Warmachine Prime mkII" page="36">
