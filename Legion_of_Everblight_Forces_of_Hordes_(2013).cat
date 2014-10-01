@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="20446671-4aa6-a917-23cb-5caa465894fa" revision="2" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="3" battleScribeVersion="1.14b" name="Legion of Everblight_Forces of Hordes - Legion of Everblight (2010)" books="Forces of Hordes - Legion of Everblight (2010)" authorName="Hulkken (matt)" authorContact="deltao@msn.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="20446671-4aa6-a917-23cb-5caa465894fa" revision="3" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="3" battleScribeVersion="1.14b" name="Legion of Everblight_Forces of Hordes - Legion of Everblight (2010)" books="Forces of Hordes - Legion of Everblight (2010)" authorName="Hulkken (matt)" authorContact="deltao@msn.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="b9ce0c5e-fea8-cda3-3f70-2c15d63f24b3" name="Abssylonia, Terror of Everblight" points="-5.0" categoryId="5761726c6f636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Legion of Everblight" page="32">
       <entries/>
@@ -2971,6 +2971,423 @@
         </link>
       </links>
     </entry>
+    <entry id="8ba9ede8-25e1-8e38-ce6d-826b2dfd7e0d" name="Blighted Nyss Shepherd" points="1.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Legion of Everblight" page="89">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="864bcf67-b05b-acb6-4766-84432303d326" name="Beast Manipulation" hidden="false" book="Forces of Hordes - Legion of Everblight" page="89">
+          <description>A warbeast can be affected by only one Beast Manipulation special action each turn.
+
+• Condition (*Action) - RNG 3. Target friendly Faction warbeast. If the warbeast is in range, place any number of fury points on or remove any number of fury points from it.
+
+• Medicte (*Action) - RNG 3. Target friendly Faction warbeast. If the warbeast is in range, it heals d3 damage points. A warbeast can be affected by Medicate only once per turn.</description>
+          <modifiers/>
+        </rule>
+        <rule id="226cbe8e-7bc2-1e88-268a-6825c0866b7e" name="Crooked Staff: Reach" hidden="false" book="Forces of Hordes - Legion of Everblight" page="89">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="c79478bf-deb0-b0b9-c351-8520562ed69f" profileTypeId="54726f6f70657223232344415441232323" name="Blighted Nyss Shepherd" hidden="false" book="Forces of Hordes - Legion of Everblight" page="89">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="5"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="5"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="14"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="12"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="e13892fd-2ca7-7bae-4c98-aebf18eec383" profileTypeId="576561706f6e23232344415441232323" name="Crooked Staff" hidden="false" book="Forces of Hordes - Legion of Everblight" page="89">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="9"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="504c8c3d-3d6b-8e97-967c-7fefc08f03be" targetId="fea3ad00-398b-883e-2164-2e1286de9638" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="f2fc3296-d27d-e7ea-cd57-e0948533fecc" name="Blighted Nys Sorceress &amp; Hellion" points="4.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Legion of Everblight" page="89">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="2c5410d6-a43d-a91b-5967-e3dc9353fcd4" name="Magic Ability (7)" hidden="false" book="Forces of Hordes - Legion of Everblight" page="89">
+          <description>• Blight Storm (*Action) - Place a 5&quot; AOE anywhere completely in this model&apos;s commmand range. When an enemy model in the AOE is directly hit by an attack and the damage roll fails to exceed its ARM, it auomatically suffers 1 damage point. Blight Storm lasts for one round.
+
+• Frostbite (*Attack) - Frostbite is RNG SP 8 magic attack. models hit suffer a POW 12 cold damage roll.
+
+• Wind Ravager (*Action) - While in this model&apos;s command range, enemy models cannot make ranged attacks for one round.</description>
+          <modifiers/>
+        </rule>
+        <rule id="cf700cf4-2f85-c453-5138-c4305c5fed43" name="Spear: Magical Weapon" hidden="false" book="Forces of Hordes - Legion of Everblight" page="89">
+          <modifiers/>
+        </rule>
+        <rule id="5463f2af-2099-cd68-f65a-0ca72e594b6a" name="Spear: Reach" hidden="false" book="Forces of Hordes - Legion of Everblight" page="89">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="226075d1-7c90-1b71-fa9f-1cd85aa7e291" profileTypeId="54726f6f70657223232344415441232323" name="Sorcress" hidden="false" book="Forces of Hordes - Legion of Everblight" page="89">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="8"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="5"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="14"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="16"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="559fedad-7570-3dd4-1da8-cbd2a68e6130" profileTypeId="576561706f6e23232344415441232323" name="Spear" hidden="false" book="Forces of Hordes - Legion of Everblight" page="89">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="9"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="b5158221-3fdd-0d6c-2686-cbdf1a0ccdf6" profileTypeId="576561706f6e23232344415441232323" name="Mount" hidden="false" book="Forces of Hordes - Legion of Everblight" page="89">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="10"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="27b7f3c5-1b2f-7fe8-aff1-bd2350ee3266" targetId="2fa34f20-d2f9-47b5-2918-a1083217ff90" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d00c0ac7-8cdc-b6a5-e6fa-11d51f1d137a" targetId="e5861d64-2f93-38d6-09e1-30195198e4e1" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="7030a466-8b8b-c270-bfdc-a351a1160def" name="The Forsaken" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Legion of Everblight" page="91">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="f24ffe30-853a-6f13-9b37-bc6f7e4fc2fa" profileTypeId="54726f6f70657223232344415441232323" name="The Forsaken" hidden="false" book="Forces of Hordes - Legion of Everblight" page="91">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="7"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="5"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="14"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="14"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="a37d9226-5d27-8f9c-59c7-b2ed78f0cc6c" profileTypeId="576561706f6e23232344415441232323" name="Claw" hidden="false" book="Forces of Hordes - Legion of Everblight" page="91">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="5"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="12"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="c7032658-1a38-2fbe-3185-dc543e58276b" targetId="dd7c752a-3375-96c7-70a4-e80202b66249" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9f981fee-ed1d-6d88-2868-e8a24ef4ce16" targetId="925b2e88-9202-c7ed-de82-0a0017a50157" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="db205e1e-e3bb-5adc-0fc0-35838bd02b3b" targetId="fe31e46a-45f2-32d7-09e3-faeee3bde60b" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="047164c2-4701-090e-b951-6d797e921b72" targetId="d2d1ad6a-9d87-4f09-e753-7147c9eb452b" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b74d168f-96b6-038d-5c1a-f11fa278596e" targetId="73c702e9-ba69-4ca7-297f-8056463d1746" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="1c449b61-2963-b2b0-0d63-2c0b03e2e035" name="Incubus" points="5.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Legion of Everblight" page="92">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="ab0e2531-3f0a-d3c5-28f0-51eaafb1808a" name="Claws: Combo Strike (*Attack)" hidden="false" book="Forces of Hordes - Legion of Everblight" page="92">
+          <description>Make a melee attack. Instead of making a normal damage roll, the POW of the damage roll is equal to this model&apos;s STR plus twice the POW of this weapon.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="44573fea-1aca-f8c8-1e13-cc015e58daae" profileTypeId="54726f6f70657223232344415441232323" name="Incubus" hidden="false" book="Forces of Hordes - Legion of Everblight" page="92">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="8"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="3"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="12"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="15"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="6"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="c67ceca9-b7c1-d547-dafa-6b2de1de3af4" profileTypeId="576561706f6e23232344415441232323" name="Claw" hidden="false" book="Forces of Hordes - Legion of Everblight" page="92">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="2"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="11"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="fe8330b1-eebf-917b-1f15-b00284ebe82d" targetId="925b2e88-9202-c7ed-de82-0a0017a50157" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d76c746b-c34e-ad89-d8d7-30600126991f" targetId="48e80b0e-098d-ff93-b9e3-30fff6d537dc" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c0e37249-575a-4f80-7efc-4edfeb100c83" targetId="9ee2b179-9139-cebf-e2f5-692edf34f349" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="0227b4d1-a8f0-e35d-58f6-2fa53f04b856" name="Strider Deathstalker" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Legion of Everblight" page="93">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="624fd508-b877-4a51-6705-fccdffe621d1" profileTypeId="576561706f6e23232344415441232323" name="Nyss Longbow" hidden="false" book="Forces of Hordes - Legion of Everblight" page="93">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="12"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="10"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="557b864d-fe2d-46ab-ae51-cbbab533216f" profileTypeId="576561706f6e23232344415441232323" name="Sword" hidden="false" book="Forces of Hordes - Legion of Everblight" page="93">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="9"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="cb8287fa-925f-64ff-3c90-51d68565e416" profileTypeId="54726f6f70657223232344415441232323" name="Strider Deathstalker" hidden="false" book="Forces of Hordes - Legion of Everblight" page="93">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="7"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="8"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="15"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="11"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="1f0347cd-2a51-eb9c-11bd-154e578e9808" targetId="c9756aa2-b300-3490-698b-b2bc8a7ebbdc" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f191e4cf-34dd-c681-332a-797031e13d06" targetId="483ea263-c83a-57ac-3626-92d4624cb0b2" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b9cab236-b31f-6b37-8319-edcf84329b27" targetId="c699b679-5bae-ce2b-7141-2ecdd46e25e2" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="aa12d1ca-0121-3855-22ab-7d04b63999b4" targetId="3e970b13-96a7-f96f-cb08-e1423537059f" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0fea7ea8-0e9a-c2cc-a076-5a29e7e710e6" targetId="666fb774-435f-ed47-aac1-f0ba9dce3fcf" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="96303db4-7be7-c455-300e-2818e1e51f39" targetId="fb4ed645-d1ec-2da1-0fd5-c4ebb8c60572" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="64408119-99a8-d921-3867-361ad277b47c" targetId="87590586-af1a-03ba-cd7d-d92f4e3befe7" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="123b163d-2c22-0f96-0911-137affc1badb" name="Spell Martyer" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Legion of Everblight" page="94">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="d424fba5-d545-9fd9-45d2-43128091b3c6" profileTypeId="54726f6f70657223232344415441232323" name="Spell Martyer" hidden="false" book="Forces of Hordes - Legion of Everblight" page="94">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="5"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="4"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="1"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="12"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="6"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="7453753c-90c7-e3ba-1217-59d59e97b0a4" profileTypeId="576561706f6e23232344415441232323" name="Claw" hidden="false" book="Forces of Hordes - Legion of Everblight" page="94">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="8"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="ac993a8b-3d6c-730c-7900-0721cfd20174" targetId="925b2e88-9202-c7ed-de82-0a0017a50157" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="34a47f07-c044-73f1-d2d5-fe3ae47f8d82" targetId="9ee2b179-9139-cebf-e2f5-692edf34f349" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="669065ea-e999-715b-1fb7-51443f118084" targetId="16122741-0bf8-24f5-9625-c87ebd1e41c2" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="b8eb3145-f351-bb7b-c811-5f9df65be49a" name="Warmonger War Chief" points="3.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Legion of Everblight" page="95">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="a4a01263-ba43-e4b4-d248-d1c13b107702" name="War Cleaver: Reach" hidden="false" book="Forces of Hordes - Legion of Everblight" page="95">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles/>
+      <links>
+        <link id="019c6731-620d-c749-f3ac-670cacb01780" targetId="925b2e88-9202-c7ed-de82-0a0017a50157" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="162aa3c0-2643-7e5b-5376-92c028545457" targetId="e0292bdc-9b4e-725f-f69f-6e2b6d4dc253" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ff60582b-9c52-e5df-4488-86dc453b4dcf" targetId="ec3bde9f-244d-35bb-7ba2-64206d209e99" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a6f41715-da96-4f73-9349-5e0d74f24403" targetId="58e6242b-b1f0-7467-47e0-96d470b6d0f5" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="bc073619-11b5-a2e5-61e8-45da9c58a538" targetId="35f4b21f-21c0-3878-8d68-9c79f94b2904" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="91a560c9-f0bd-e05f-bba8-fdc50f9eee69" name="Annyssa Ryvaal, Talon of Everblight" points="4.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Legion of Everblight" page="96">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="8d3b1d26-4d6f-c3b8-7977-9cc39c0ed56d" name="Nyss Longbow: Poison" hidden="false" book="Force of Hordes - Legion of Everblight" page="96">
+          <description>Gain an additional die on this weapon&apos;s damage rolls against living models.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="e7de510b-2f0f-3962-d03c-baafbe69857d" profileTypeId="54726f6f70657223232344415441232323" name="Annyssa Ryvaal, Talon of Everblight" hidden="false" book="Forces of Hordes - Legion of Everblight" page="96">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="9"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="7"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="15"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="15"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="d84501db-5f94-6d03-37ad-53bd7e5b28c5" profileTypeId="576561706f6e23232344415441232323" name="Nyss Longbow" hidden="false" book="Forces of Hordes - Legion of Everblight" page="96">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="12"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="1"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="10"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="bf70090a-6041-d29d-c48d-35ce307f3289" profileTypeId="576561706f6e23232344415441232323" name="Mount" hidden="false" book="Forces of Hordes - Legion of Everblight" page="96">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="f725d4e0-21e3-a4e6-bbf4-7de6a99246ca" targetId="483ea263-c83a-57ac-3626-92d4624cb0b2" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a5700092-55cb-6ef5-9562-e14e4c42471f" targetId="c699b679-5bae-ce2b-7141-2ecdd46e25e2" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="798e669b-911e-6c06-9d95-b58307159758" targetId="b8ee51a6-3b40-df06-30d0-b73c6e8a2d10" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8ea85ca8-c7f0-5948-2122-b72851c36f2c" targetId="75495235-2bdd-fd78-6c0e-cb4639d794b8" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="35da0868-e99a-1d0c-91e4-65bbfbd2f85a" targetId="666fb774-435f-ed47-aac1-f0ba9dce3fcf" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e0cd92a8-5c7c-6b3d-6d34-2f378095e979" targetId="26a09372-6b9b-a6b4-1867-18201389af38" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </entries>
   <rules/>
   <links/>
@@ -3149,6 +3566,10 @@
       <description>This model can advance through terrain and obstacles without penalty and can advance through obstructions and other models if it has enough movemnt to move completely past them. This model ignores intervening models when declaring its charge target.</description>
       <modifiers/>
     </rule>
+    <rule id="7a247396-9639-b2a9-8940-9ffdecf47f3e" name="Focal Point" hidden="false" book="Foces of Hordes - Legion of Everblgiht" page="88">
+      <description>This model&apos;s unit has no unit commander. Models in this unit within 8&quot; of thsi model are in formation. If a model in this model&apos;s unit is out of formation when begining its normal movement, it must either advance toward this model. If this model is destoryed or removed from play, remove te remaining models in this unit from play.</description>
+      <modifiers/>
+    </rule>
     <rule id="57b2cc13-3d3f-ec78-6a4b-405b6db2c6c8" name="Force Barrier" hidden="false" book="Forces of Hordes - Legion of Everblight" page="44">
       <description>This model gains + DEF against ranged attack rolls and does not suffer blast damage.</description>
       <modifiers/>
@@ -3187,6 +3608,10 @@
     </rule>
     <rule id="7ca4a720-f6df-bdc0-85be-91fb907d1ed7" name="Incorporeal" hidden="false" book="Hordes Primal MK II" page="34">
       <description>This model can move through rough terrain and obstacles without penalty.  It can move through obstructions and other models if it has enough movement to move completely past them.</description>
+      <modifiers/>
+    </rule>
+    <rule id="e3f5069d-33ca-e574-2845-6887a5e4419d" name="Last Call" hidden="false" book="Forces of Hordes - Legion of Everblight" page="88">
+      <description>If this model is disabled by an enemy attack, it can immediatley make special action.</description>
       <modifiers/>
     </rule>
     <rule id="58e6242b-b1f0-7467-47e0-96d470b6d0f5" name="Leadership (Blighted Ogrun)" hidden="false" book="Forces of Hordes - Legion of Everblight" page="95">
@@ -3230,7 +3655,7 @@ Attacks made with magical weapons are not magic attacks.</description>
       <description>This model cannot be targeted byh combined melee attakcs, combined ranged attacks, or free strikes. Models do not gain back strike bonuses against this model. When kncoked down, this model can stand up during its activation without forfeiting its movement or action if it is able to forfeit its movement or action to stand up.</description>
       <modifiers/>
     </rule>
-    <rule id="b8ee51a6-3b40-df06-30d0-b73c6e8a2d10" name="Perry" hidden="false" book="Forces of Hordes - Legion of Everblight" page="96">
+    <rule id="b8ee51a6-3b40-df06-30d0-b73c6e8a2d10" name="Parry" hidden="false" book="Forces of Hordes - Legion of Everblight" page="96">
       <description>This model cannot be targeted by free strikes.</description>
       <modifiers/>
     </rule>
@@ -3248,6 +3673,10 @@ Attacks made with magical weapons are not magic attacks.</description>
     </rule>
     <rule id="68790af6-c6f9-92ca-13da-d97a3f1c5853" name="Reach" hidden="false" book="Hordes Primal MK II" page="50">
       <description>This weapon has a 2&quot; melee range.</description>
+      <modifiers/>
+    </rule>
+    <rule id="9a03c51a-1c62-d53b-d8d8-ec73fb8f7842" name="Recycle" hidden="false" book="Forces of Hordes - Legion of Everblight" page="88">
+      <description>When a living model is destroyed within 4&quot; of ths model +1&quot; for each Grunt in this unit that is in formation, place one corpse token on this model. This model can have up o three corpse tokens at a time.</description>
       <modifiers/>
     </rule>
     <rule id="6cb14c66-099c-e2b5-a97b-3fb4cd2d4d3c" name="Regeneration (d3)" hidden="false" book="Forces of Hordes - Legion of Everblight" page="68">
@@ -3297,6 +3726,10 @@ Attacks made with magical weapons are not magic attacks.</description>
     </rule>
     <rule id="9ee2b179-9139-cebf-e2f5-692edf34f349" name="Soulless" hidden="false" book="Forces of Hordes - Legion of Everblight" page="37">
       <description>This model does not generate a soul token when it is destoryed.</description>
+      <modifiers/>
+    </rule>
+    <rule id="5328f716-12d5-c3c6-aade-dab6d4c92bfa" name="Spawn Horror (*Action)" hidden="false" book="Forces of Hordes - Legion of Everblight" page="88">
+      <description>Remove three corpse tokens from this model to place a non-character Faction lesser warbeast into play under your control. Place the warbeasts within 3&quot; of this model and choose a friendly Faction warlock. This warbeast becomes part of that warlock&apos;s battlegroup.</description>
       <modifiers/>
     </rule>
     <rule id="843545c8-502e-f7e6-a94f-ef87e02a276b" name="Special Issue" hidden="false" book="Forces of Hordes - Legion of Everblight">
@@ -3387,20 +3820,28 @@ The model can also be bonded to the warlock specified on its card. This only giv
       <description>When attacking with this weapon, add an additional die to its damage rolls.</description>
       <modifiers/>
     </rule>
-    <rule id="7a247396-9639-b2a9-8940-9ffdecf47f3e" name="Focal Point" hidden="false" book="Foces of Hordes - Legion of Everblgiht" page="88">
-      <description>This model&apos;s unit has no unit commander. Models in this unit within 8&quot; of thsi model are in formation. If a model in this model&apos;s unit is out of formation when begining its normal movement, it must either advance toward this model. If this model is destoryed or removed from play, remove te remaining models in this unit from play.</description>
+    <rule id="fe31e46a-45f2-32d7-09e3-faeee3bde60b" name="Blight Shroud (*Action)" hidden="false" book="Forces of Hordes - Legion of Everblight" page="89">
+      <description>Remove all fury points from this model. Enemy models within 1&quot; of this model for each fury point removed suffer a POW 8 damage roll. Add an additional die to the damage roll for each forcus or fury point on the enemy model.</description>
       <modifiers/>
     </rule>
-    <rule id="e3f5069d-33ca-e574-2845-6887a5e4419d" name="Last Call" hidden="false" book="Forces of Hordes - Legion of Everblight" page="88">
-      <description>If this model is disabled by an enemy attack, it can immediatley make special action.</description>
+    <rule id="d2d1ad6a-9d87-4f09-e753-7147c9eb452b" name="Consume Fury (*Action)" hidden="false" book="Forces of Hordes - Legion of Everblight" page="89">
+      <description>RNG CMD. Target friendly Faction warbeast. If the warbeast is in range, remove up to 5 fury points from it andput them on this model. This model can have up to 5 fury points at a time.</description>
       <modifiers/>
     </rule>
-    <rule id="9a03c51a-1c62-d53b-d8d8-ec73fb8f7842" name="Recycle" hidden="false" book="Forces of Hordes - Legion of Everblight" page="88">
-      <description>When a living model is destroyed within 4&quot; of ths model +1&quot; for each Grunt in this unit that is in formation, place one corpse token on this model. This model can have up o three corpse tokens at a time.</description>
+    <rule id="48e80b0e-098d-ff93-b9e3-30fff6d537dc" name="Host" hidden="false" book="Forces of Hordes - Legion of Everblight" page="89">
+      <description>Incubi models do not begin the game in play. When a friendly living non-living, non-warlock, small-based Faction warrior model is estoryed, you can mark its center point and remove that model from play. you can only mark up to one point for each Incubus you have that has not been put into play or removed from play. During you next Maintenace Phase, put one Incubus model into play within 2&quot; of each point marked. If there is not room to place an Incubus model, remove the marker from the table and remove from play one Incubi that has not been put into play.</description>
       <modifiers/>
     </rule>
-    <rule id="5328f716-12d5-c3c6-aade-dab6d4c92bfa" name="Spawn Horror (*Action)" hidden="false" book="Forces of Hordes - Legion of Everblight" page="88">
-      <description>Remove three corpse tokens from this model to place a non-character Faction lesser warbeast into play under your control. Place the warbeasts within 3&quot; of this model and choose a friendly Faction warlock. This warbeast becomes part of that warlock&apos;s battlegroup.</description>
+    <rule id="3e970b13-96a7-f96f-cb08-e1423537059f" name="Leadership (Striders)" hidden="false" book="Forces of Hordes - Legion of Everblight" page="95">
+      <description>While in this model&apos;s command range, friendly Blighted Ogrun models gain Blood Drinker.</description>
+      <modifiers/>
+    </rule>
+    <rule id="e0292bdc-9b4e-725f-f69f-6e2b6d4dc253" name="Berserk" hidden="false" book="Forces of Hordes - Legion of Everblight" page="95">
+      <description>When this model destorys one or more models with a melee attack during its combat action, immediately after the attack is resolved it must make one additional melee attack against another model in its melee range.</description>
+      <modifiers/>
+    </rule>
+    <rule id="26a09372-6b9b-a6b4-1867-18201389af38" name="Veteran Leader (Raptor)" hidden="false" book="Forces of Hordes - Legion of Everblight" page="95">
+      <description>Friendly Blighted Ogrun trooper models +2 to attack rolls while this model is in their LOS.</description>
       <modifiers/>
     </rule>
   </sharedRules>
