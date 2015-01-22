@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" id="7de19a40-913f-934b-e5f9-5f5d464ce1ad" revision="1" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="3" battleScribeVersion="1.15" name="Minions_Forces_Of_Hordes_(2010)" books="Forces of Hordes - Minions" authorName="Matt (Halkken)" authorContact="deltao@msn.com">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="7de19a40-913f-934b-e5f9-5f5d464ce1ad" revision="1" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="3" battleScribeVersion="1.15" name="Minions_Domination_(2011)" books="Forces of Hordes - Minions, Domination" authorName="Matt (Halkken)" authorContact="deltao@msn.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="babeebfd-e63a-8eb9-b3e8-6d75059c3256" name="Alten Ashley" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Minions" page="26">
       <entries/>
@@ -152,7 +153,7 @@
       <modifiers/>
       <rules>
         <rule id="ca21baed-bdc0-a099-e290-b0cc09db47a1" name="Feat: Black Tide" hidden="false" book="Forces of Hordes - Minions" page="52">
-          <description>Non-amphibiou enemy models currently in Barnabas's control area are knocked down.</description>
+          <description>Non-amphibiou enemy models currently in Barnabas&apos;s control area are knocked down.</description>
           <modifiers/>
         </rule>
         <rule id="6eba1de9-63f9-7a8a-9878-49a3df0d7431" name="Bite: Critical Consume" hidden="false" book="Forces of Hordes - Minions" page="52">
@@ -310,6 +311,62 @@
         </link>
       </links>
     </entry>
+    <entry id="608c-a578-72e4-fa11" name="Boneswarm" points="4.0" categoryId="576172626561737423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="90">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="6d3a-5cde-3bbd-d28a" profileTypeId="576172626561737423232344415441232323" name="Boneswarm" hidden="false" book="Domination" page="90">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="8"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="15"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="7"/>
+            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="3"/>
+            <characteristic characteristicId="5468726573686f6c6423232344415441232323" name="Threshold" value="9"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="6cc5-827c-7822-a821" profileTypeId="576561706f6e23232344415441232323" name="Bone Strike" hidden="false" book="Domination" page="90">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="12"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="-"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="3c14-8d33-4357-dab4" targetId="be51-bb14-c34c-d120" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="76e7-e130-4084-9fce" targetId="0d331277-2786-797d-84cd-472d4e205fdb" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7318-bf3b-5bd1-ebd4" targetId="1d857562-59bc-02fc-a523-195a55b657c5" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d17b-0f59-428d-d956" targetId="07eda051-a145-4f77-23c3-1dbfa4d8e24b" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ee7f-c456-a3e2-4088" targetId="663f-347e-7424-91b7" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8708-2ea1-a704-1367" targetId="0e846fe2-c33a-938b-b0d0-ef4d0cc497fe" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8f5b-4573-cc54-913d" targetId="3b3063ad-db80-8f06-075b-1b52d906b221" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="69e9ccab-0942-2d97-31e8-d37922c2e95b" name="Brun Cragback &amp; Lug" points="9.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Minions" page="28">
       <entries/>
       <entryGroups/>
@@ -320,11 +377,11 @@
           <modifiers/>
         </rule>
         <rule id="ea8de7aa-edce-7c2c-e1e2-aa709bd78d3e" name="Limited Battlegroup" hidden="false" book="Forces of Hordes - Minions" page="28">
-          <description>The only warbeast that can be in this model's battlegroup is Lug.</description>
+          <description>The only warbeast that can be in this model&apos;s battlegroup is Lug.</description>
           <modifiers/>
         </rule>
         <rule id="4e448139-df22-66f9-5bff-5e010861dc36" name="Companion (Brun Cragback)" hidden="false" book="Forces of Hordes - Minions" page="31">
-          <description>This model is included in any army tht includes Brun Cragback. If Cragback is destroyed or removed from play, remove this model from play. This model is part of Cragback's battlegroup.</description>
+          <description>This model is included in any army tht includes Brun Cragback. If Cragback is destroyed or removed from play, remove this model from play. This model is part of Cragback&apos;s battlegroup.</description>
           <modifiers/>
         </rule>
         <rule id="38993345-2eb3-8ed1-b5f8-1aeb0d29d87b" name="Flank (Brun Cragback)" hidden="false" book="Forces of Hordes - Minions" page="31">
@@ -332,7 +389,7 @@
           <modifiers/>
         </rule>
         <rule id="c3b0bf0e-6a93-3ba8-82bb-9e7fe1b46180" name="Warbeast Bond (Brun Cragback)" hidden="false" book="Forces of Hordes - Minions" page="31">
-          <description>This model is bonded to Brun Cragback. While it is within 3" of Cragback and is not stationary, Cragback cannot be targeted by free strikes and gains +2 DEF against melee attacks, and models do not gain back strike bonuses while attacks Cragback.</description>
+          <description>This model is bonded to Brun Cragback. While it is within 3&quot; of Cragback and is not stationary, Cragback cannot be targeted by free strikes and gains +2 DEF against melee attacks, and models do not gain back strike bonuses while attacks Cragback.</description>
           <modifiers/>
         </rule>
         <rule id="ddeaa81a-c36e-bac9-2921-21d6dc7d60c9" name="Lug: Claw - Open Fist" hidden="false" book="Forces of Hordes - Minions" page="31">
@@ -453,7 +510,7 @@
       <modifiers/>
       <rules>
         <rule id="653f90c4-c268-a05c-3d28-a4e7793bf3a6" name="Bite: Susained Attack" hidden="false" book="Forces of Hordes -Minions" page="56">
-          <description>During his model's activation, when it makes an attack with this weapon against the last model hit by the weapon this activation, the attack automatically hits.</description>
+          <description>During his model&apos;s activation, when it makes an attack with this weapon against the last model hit by the weapon this activation, the attack automatically hits.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -508,18 +565,18 @@
       <modifiers/>
       <rules>
         <rule id="1d9ea4df-f4b6-67dc-9a9c-2fc61eca8581" name="Feat: Death Harvest" hidden="false" book="Forces of Hordes - Minions" page="54">
-          <description>Each time a Friendly model destroys an enemy model while the friendly model is in Calaban's contorl area, Calaban gains 1 fury point. Immediately after resolving an attack in which a model in Calaban's control area destorys one or more enemy models, Calaban can boost attack and damage rolls on spells cast as a result of Death Harvest. Death Harvest lasts for one turn.</description>
+          <description>Each time a Friendly model destroys an enemy model while the friendly model is in Calaban&apos;s contorl area, Calaban gains 1 fury point. Immediately after resolving an attack in which a model in Calaban&apos;s control area destorys one or more enemy models, Calaban can boost attack and damage rolls on spells cast as a result of Death Harvest. Death Harvest lasts for one turn.</description>
           <modifiers/>
         </rule>
         <rule id="3105d840-63d8-b450-90af-67c1ce22ff10" name="Heart Stopper: Magical Weapon" hidden="false" book="Forces of Hordes - Minions" page="54">
           <modifiers/>
         </rule>
         <rule id="104aba96-e126-75ac-a184-af92e0333ae6" name="Heart Stopper: Grave Door" hidden="false" book="Forces of Hordes - Minions" page="54">
-          <description>When a living enemy model is boxed by this attack, it heals 1 damage point. For the rest of the turn, this model can channel spells through the enemy model if it is in this model's control area and is not engaged. At the end of the turn, the enemy model is destroyed.</description>
+          <description>When a living enemy model is boxed by this attack, it heals 1 damage point. For the rest of the turn, this model can channel spells through the enemy model if it is in this model&apos;s control area and is not engaged. At the end of the turn, the enemy model is destroyed.</description>
           <modifiers/>
         </rule>
         <rule id="9b95bc7d-7bc6-c92b-66be-5d796b13e815" name="Bite: Sustaind Attack" hidden="false" book="Forces of Hordes - Minions" page="54">
-          <description>During this model's activation, when it makes an attack with this weapon against the last model hit by the weapon this activation, the attack automatically hits.</description>
+          <description>During this model&apos;s activation, when it makes an attack with this weapon against the last model hit by the weapon this activation, the attack automatically hits.</description>
           <modifiers/>
         </rule>
         <rule id="b4fd5d28-fec3-2abc-a094-25adb15ab89e" name="Carcass: Magical Weapon" hidden="false" book="Forces of Hordes - Minions" page="43">
@@ -615,18 +672,18 @@
       <modifiers/>
       <rules>
         <rule id="0cc912bb-d38b-09a5-9b2a-d885e7a90597" name="Thrown Spear: Poison" hidden="false" book="Forces of Hordes - Minions" page="62">
-          <description>Gain an additional die on this weapon's damage rolls against living models.</description>
+          <description>Gain an additional die on this weapon&apos;s damage rolls against living models.</description>
           <modifiers/>
         </rule>
         <rule id="24c063fe-9e5c-2777-7d41-9d8793ce43e8" name="Thrown Spear: Thrown" hidden="false" book="Forces of Hordes - Minions" page="62">
-          <description>Add this model's STR to the POW of this ranged attack.</description>
+          <description>Add this model&apos;s STR to the POW of this ranged attack.</description>
           <modifiers/>
         </rule>
         <rule id="9060b590-7b55-3e3a-b5eb-48ca781b865e" name="Spear: Reach" hidden="false" book="Forces of Hordes - Minions" page="62">
           <modifiers/>
         </rule>
         <rule id="ee2097b8-ca02-f922-af17-5b9d051f8f28" name="Spear: Poison" hidden="false" book="Forces of Hordes - Minions" page="62">
-          <description>Gain an additional die on this weapon's damage rolls against living models.</description>
+          <description>Gain an additional die on this weapon&apos;s damage rolls against living models.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -703,11 +760,11 @@
       <modifiers/>
       <rules>
         <rule id="b1aa83f4-2fb7-b09a-604f-d752bfc6b8d6" name="Companion (Dahlia Hallyr)" hidden="false" book="Forces of Hordes - Minions" page="37">
-          <description>This model is included in any army that includes Dahlia Hallyr. If Hallyr is destoryed or removed from play, remove this model from play. This model is part of Hallyr's battlegroup.</description>
+          <description>This model is included in any army that includes Dahlia Hallyr. If Hallyr is destoryed or removed from play, remove this model from play. This model is part of Hallyr&apos;s battlegroup.</description>
           <modifiers/>
         </rule>
         <rule id="cfc737c2-bac9-4574-6473-86ab4daeb0e2" name="Warbeast Bond (Dahlia Hallyr)" hidden="false" book="Forces of Hordes - Minions" page="37">
-          <description>This model is bonded to Dahlia Hallyr. When this model frenzies in Hallyr's control range, you choose the frenzy target.</description>
+          <description>This model is bonded to Dahlia Hallyr. When this model frenzies in Hallyr&apos;s control range, you choose the frenzy target.</description>
           <modifiers/>
         </rule>
         <rule id="5dc56549-ef06-4f03-1bc2-93390894dad4" name="Acid Spray: Continuous Effect - Corrosion" hidden="false" book="Forces of Hordes - Minions" page="37">
@@ -815,7 +872,7 @@
       <modifiers/>
       <rules>
         <rule id="2abea527-80c2-7d4f-26d1-5f205652a169" name="Feat: Monster Mayhem" hidden="false" book="Forces of Hordes - Minions" page="72">
-          <description>Warbeasts in Arkadius' battlegroup can immediately frenzy. A model can frenzy even if it has already activated this turn and does not affect whether it can activate later this turn.</description>
+          <description>Warbeasts in Arkadius&apos; battlegroup can immediately frenzy. A model can frenzy even if it has already activated this turn and does not affect whether it can activate later this turn.</description>
           <modifiers/>
         </rule>
         <rule id="5db8093f-efcc-6743-9a4c-ad6b62255cb2" name="Combat Syringe: Magical Weapon" hidden="false" book="Forces of Hordes - Minions" page="72">
@@ -886,6 +943,275 @@
           <modifiers/>
         </link>
         <link id="193c70f0-2b09-db5e-9986-0fb33b43d74c" targetId="1d0c2e34-9f0d-d0b8-774a-ce245d2b54d1" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="f787b993-bebf-9365-cf08-3385aa241e3f" name="Farow Razorback Crew" points="3.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Minions" page="80">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="55d7522d-336a-997f-9a30-ea93793fac67" name="Razorback: Light Artillery" hidden="false" book="Forces of Hordes - Minions" page="80">
+          <description>This weapon cannot be used to make attacks or special actions during activations this model moves. This model cannot gain the aiming bonus when attacking with this weapon and cannot charge. If this model attacks with this weapon during its activation, it cannot attack with any other weapons that activatoin.</description>
+          <modifiers/>
+        </rule>
+        <rule id="cf28ea01-1e60-63b4-cdf8-3c025c15b57a" name="Razorback: Range Finder" hidden="false" book="Forces of Hordes - Minions" page="80">
+          <description>While B2B with one or more grunts in this unit, this model gains +2 to attack rolls with this weapon.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="2cb459ce-108c-211d-249d-712dbf7b5c5d" profileTypeId="54726f6f70657223232344415441232323" name="Leader" hidden="false" book="Forces of Hordes - Minions" page="80">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="4"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="12"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="14"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="d3d1fcdc-1dc8-00a3-6143-f42ac2337f46" profileTypeId="54726f6f70657223232344415441232323" name="Grunt" hidden="false" book="Forces of Hordes - Minions" page="80">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="4"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="12"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="14"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="32b670a9-3ac8-ca07-a2a7-96098b16c358" profileTypeId="576561706f6e23232344415441232323" name="Leader: Razorback" hidden="false" book="Forces of Hordes - Minions" page="80">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="14"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="3"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="15"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="c4307a3c-7bff-4f84-abd4-24c7d1dcafc9" profileTypeId="576561706f6e23232344415441232323" name="Leader: Club" hidden="false" book="Forces of Hordes - Minions" page="80">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="10"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="afd82836-4e73-1e22-3d46-a26127e0c9ac" profileTypeId="576561706f6e23232344415441232323" name="Grunt: Pig Iron" hidden="false" book="Forces of Hordes - Minions" page="80">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="10"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="a58ffba9-c463-d538-a2ab-42eda1ae88e8" profileTypeId="576561706f6e23232344415441232323" name="Grunt: Club" hidden="false" book="Forces of Hordes - Minions" page="80">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="10"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="2b01fae5-f002-7385-0c11-2b92fc0d859e" targetId="1c1beb4a-e34e-59df-797c-ab79b68069b2" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3c84a9be-4c3e-4392-79da-c9745258008b" targetId="e19274cb-2bb9-e63f-fa4c-13dd53981741" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="824bf0d2-a493-893b-02a5-31b1c855f62b" name="Farrow Bone Grinders" points="2.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Minions" page="78">
+      <entries>
+        <entry id="8c1cb37e-96a0-98ab-621f-2ae12a767667" name="Leader &amp; 3 Grunts -&gt; Leader &amp; 5 Grunts" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Minions" page="78">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="0349691c-d898-5dca-be30-a3ac385588de" name="Magic Ability (6)" hidden="false" book="Forces of Hordes - Minions" page="78">
+          <description>• Arcane Bolt (*Attack) - Arcane Bolt is RNG 12, POW 11 magic attack.
+
+• Bone Magic (*Action or Attack) - This model casts the animus of one friendly destroyed warbeast as a spell with out spending fury points. This model Cannot cast an animus with a RNG of SELF. This model must make a special attack to cast an offensive spell. Other spells are cast by making a specail action.
+
+• Craft Tailsman (*Action) - Target a friendly warlock within 3&quot; of a model in this unit that is in formation. If the warlock is in range, when he casts a spell and is its point of orgin, the spell gains +2 RNG. Spells with RNG SELF, SP, or CTRL are not affected. Craft Tailsman lasts for one turn.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="34d06852-c22f-01a1-e6c7-7aff3c07b762" profileTypeId="54726f6f70657223232344415441232323" name="Leader &amp; Grunts" hidden="false" book="Forces of Hordes - Minions" page="77">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="5"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="12"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="14"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="49e832a2-ad74-f08b-4d47-56ab2a784fd8" profileTypeId="576561706f6e23232344415441232323" name="Knife" hidden="false" book="Forces of Hordes - Minions" page="78">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="9"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="be98d602-951d-ada0-0a97-2c8fe0c8e2cb" targetId="1c1beb4a-e34e-59df-797c-ab79b68069b2" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="796fadc3-872d-ddc2-d1b4-197e57599ea6" targetId="92ee0fe1-f5c2-b4dc-ccc5-99d64e2e8441" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="bdce9f54-c274-f730-4a10-94b2e79c8491" name="Farrow Brigands" points="5.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Minions" page="79">
+      <entries>
+        <entry id="2afc2944-8461-3037-4b12-039924e0cb28" name="Leader &amp; 5 Grunts -&gt; Leader &amp; 9 Grunts" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Minions" page="79">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="c7af7792-8d60-d20f-47eb-876670e0f099" profileTypeId="54726f6f70657223232344415441232323" name="Leader &amp; Grunts" hidden="false" book="Forces of Hordes - Minions" page="79">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="12"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="14"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="72e8f239-a7c1-909f-eea9-4590ae4555a4" profileTypeId="576561706f6e23232344415441232323" name="Pig Iron" hidden="false" book="Forces of Hordes - Minions" page="79">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="10"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="2b75339f-963e-a266-3771-619ca87e0f3d" profileTypeId="576561706f6e23232344415441232323" name="Club" hidden="false" book="Forces of Hordes - Minions" page="79">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="10"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="69ac347a-9e72-eafe-65fe-b7103814946e" targetId="1c1beb4a-e34e-59df-797c-ab79b68069b2" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="47daab31-375e-3287-0b09-95497116dbc9" targetId="e19274cb-2bb9-e63f-fa4c-13dd53981741" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="21249f2e-464a-1fde-2520-d258282f27b1" targetId="e415f9d0-6450-3531-c12e-e0f089ce0785" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="cc45-e5f5-04da-3292" name="Farrow Slaughterhousers" points="6.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="94">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="130a-e0a1-65b2-f228" name="Pole Cleaver: Reach" hidden="false" book="Domination" page="94">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="8b54-58d6-fcf1-6473" profileTypeId="54726f6f70657223232344415441232323" name="Leader &amp; Grunts" hidden="false" book="Domination" page="94">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="7"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="12"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="15"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="d830-6eac-99a6-d858" profileTypeId="576561706f6e23232344415441232323" name="Pole Cleaver" hidden="false" book="Domination" page="94">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="11"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="1c03-e154-0c00-cd63" targetId="1c1beb4a-e34e-59df-797c-ab79b68069b2" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ce00-759c-bfff-5f1b" targetId="1825eb84-75bc-45d1-075a-73923524097d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ca43-af97-e997-e0f8" targetId="33d0e5dc-aa1b-8b03-c4e7-fbfef9a4646a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9b66-7e4d-5b23-071c" targetId="bbfb-398a-4577-85ac" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d837-636c-c154-e123" targetId="5f770008-d674-b09e-edbb-65dc86f256ff" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -997,6 +1323,73 @@
           <modifiers/>
         </link>
         <link id="78cd53f5-386a-76dc-6a3c-97276f5ffa46" targetId="ee67a666-c361-2a14-9b85-1999ad89e8c9" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="9ab4f9d4-54b6-96a4-d64e-7e2f4ef43dd9" name="Gun Boar" points="5.0" categoryId="576172626561737423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Minions" page="76">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="e148a3e0-2748-490b-bccb-c44bff500a47" name="Open Fist: Open Fist" hidden="false" book="Forces of Hordes - Minions" page="76">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="8d345e20-a2e9-3084-5727-399306dcd12a" profileTypeId="576172626561737423232344415441232323" name="Gun Boar" hidden="false" book="Forces of Hordes - Minions" page="76">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="8"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="5"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="12"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="17"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="6"/>
+            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="3"/>
+            <characteristic characteristicId="5468726573686f6c6423232344415441232323" name="Threshold" value="7"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="9d5b9d11-bd9e-cddb-6b13-1ffaa748e057" profileTypeId="576561706f6e23232344415441232323" name="Big Gun" hidden="false" book="Forces of Hordes - Minions" page="76">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="10"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="3"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="13"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="-"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="1b15a986-49e0-e2b4-4dfd-08c281ad0f4f" profileTypeId="576561706f6e23232344415441232323" name="Open Fist" hidden="false" book="Forces of Hordes - Minions" page="76">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="11"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="b50a996d-150f-599a-7de7-cf589435f93d" profileTypeId="576561706f6e23232344415441232323" name="Open Fist" hidden="false" book="Forces of Hordes - Minions" page="76">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="11"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="58084cf1-f12f-76bb-d773-b5acb28d0391" targetId="61ae4bc2-bbb2-77ee-d2e8-ba8f3d883485" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="94164971-3561-12dd-a054-8e29ace3ca0f" targetId="9b02d7f5-7d6d-8b80-f09c-a3bf77e26fb4" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -1163,11 +1556,11 @@
           <modifiers/>
         </rule>
         <rule id="c27d135b-2ecc-0da9-2cc7-3dfde100f6d2" name="Magic Ability (7)" hidden="false" book="Forces of Hordes - Minions" page="42">
-          <description>• Hunter's Mark (*Attack) - Hunter's Mark is RNG 10 mgaic attack that causes no damage. Friendly models can charge or make a slam power attack against an enemy model hit by Hunter's Mark without being forced or spending forcus. A friendly model charging an enemy model hit b Hunter's Mark gains +2" of movement. Hunter's Mark lasts for one turn.
+          <description>• Hunter&apos;s Mark (*Attack) - Hunter&apos;s Mark is RNG 10 mgaic attack that causes no damage. Friendly models can charge or make a slam power attack against an enemy model hit by Hunter&apos;s Mark without being forced or spending forcus. A friendly model charging an enemy model hit b Hunter&apos;s Mark gains +2&quot; of movement. Hunter&apos;s Mark lasts for one turn.
 
 • Ice Bolt (*Action) - Ice Bolt is RNG 10 magic attack. A model hit suffers a POW 12 cold damge roll. On a critical hit, the model hit becomes stationary for one round unless it has Immunity: Cold.
 
-• Winter Storm (*Action) - Enemy models that begin their activation in this model's command range lose Eyeless Sight, Flight, and Pathfinder during their activations. Winter Storm lasts for one round.</description>
+• Winter Storm (*Action) - Enemy models that begin their activation in this model&apos;s command range lose Eyeless Sight, Flight, and Pathfinder during their activations. Winter Storm lasts for one round.</description>
           <modifiers/>
         </rule>
         <rule id="646854be-6e75-5830-2d30-281eaeb3170d" name="Sorrow: Magical Weapon" hidden="false" book="Forces of Hordes - Minions" page="42">
@@ -1207,6 +1600,429 @@
           <modifiers/>
         </link>
         <link id="12a6d6da-80e7-5313-f915-e33b53b75d51" targetId="2114846b-62eb-e0ce-1c40-232ea74ec96d" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="f66b882f-10f5-03aa-771a-b11d5d299774" name="Lord Carver, BMMD, ESW. lll" points="-6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Minions">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="d7aca785-331e-a541-6139-f86dadab9322" name="Feat: Hog Heaven" hidden="false" book="Forces of Hordes - Minions" page="74">
+          <description>While in Carver&apos;s control area, friendly Farrow models gain Overtake and an additional die on melee damage rolls. Hog Heaven lasts for one turn. (When a model with Overtake destorys one or more enemy warrior models with a normal melee attack, after the attack is resolved the model with Overtake can immediately advance up to 1&quot;.)</description>
+          <modifiers/>
+        </rule>
+        <rule id="bc1fabf6-f842-f733-e50b-610b7598c451" name="Carver: Tough" hidden="false" book="Forces of Hordes - Minions" page="74">
+          <modifiers/>
+        </rule>
+        <rule id="faf3f952-aabf-e879-440b-4d37c7bf9862" name="Carver: Elite Cadre (Farrow Brigands)" hidden="false" book="Forces of Hordes - Minions" page="74">
+          <description>Friendly Farrow Brigand models gain Combined Ranged Attack.</description>
+          <modifiers/>
+        </rule>
+        <rule id="30597181-a0a9-8142-0485-10fbeeb9b597" name="Lord Carver, BMMD, ESW. lll" hidden="false">
+          <modifiers/>
+        </rule>
+        <rule id="121d4d38-d917-b71d-764d-20130bdae977" name="Sawed-Off Scattergun: Both Barrels (*Attack)" hidden="false" book="Forces of Hordes - Minions" page="74">
+          <description>This model gains +4 to the damage roll for this attack. This model cannot make additional ranged attacks with this weapon during an activation it makes a Both Barrels attack.</description>
+          <modifiers/>
+        </rule>
+        <rule id="f4b03030-c6ce-6ea1-1f47-d3c9d497c6b5" name="Hand of GOd: Magical Weapon" hidden="false" book="Forces of Hordes - Minions" page="74">
+          <modifiers/>
+        </rule>
+        <rule id="983ea7b5-7bdf-dc65-6482-4639aa5fa1d6" name="Hand of God: Reach" hidden="false" book="Forces of Hordes - Minions" page="74">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="c1464a2a-5434-37f8-e984-a776be466945" profileTypeId="5761726c6f636b23232344415441232323" name="Lord Carver, BMMD, ESW. lll" hidden="false" book="Forces of Hordes - Minions" page="74">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="8"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="6"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="15"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="17"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
+            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="6"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="16"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="32037296-c919-b76a-b721-c7be92d3efb8" profileTypeId="576561706f6e23232344415441232323" name="Sawed-Off Scattergun" hidden="false" book="Forces of Hordes - Minions" page="74">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SP 6"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="2"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="1df47add-4185-8184-e5b9-05fdd2ae8be0" profileTypeId="576561706f6e23232344415441232323" name="Hand Of God" hidden="false" book="Forces of Hordes - Minions" page="74">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="7"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="15"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="e3074977-fc46-c0b1-f4ce-6ddcfb2f9507" targetId="1c1beb4a-e34e-59df-797c-ab79b68069b2" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="535cd3c1-f908-0774-029b-cace07fb2819" targetId="ed46194f-fe7b-afde-121c-51c40120d612" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="4fcc99f1-3e31-ffa0-07d0-3f7ae93deb8f" targetId="db761dce-4b8d-d00a-3200-3e0a2355d9ba" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="792335c3-def7-d4c3-a3ae-9ee5b3019952" targetId="76ca71c8-e392-a3e9-5c30-54457d8dba12" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="adac5ec0-a2eb-d508-eec4-1639a717e4c8" targetId="c3f8ca64-02b5-a40d-bea1-97d7e86c9029" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="cc63d37b-a984-4905-be8c-9303715f8770" targetId="8e65f3fa-9e03-2dbb-bb8d-4ff654d154ac" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6071ed2f-dafa-795c-5589-1c8b2b30a2a1" targetId="55a7a595-4fd2-8509-b859-8c0b0ae770e8" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="28c0-06f6-8981-63f7" name="Maelok The Deadbound" points="-6.0" categoryId="5761726c6f636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="86">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="fca3-f645-2123-5263" name="FEAT: Spirit World" hidden="false" book="Domination" page="86">
+          <modifiers/>
+        </rule>
+        <rule id="e471-07c8-602d-d15f" name="Bite: Magical Weapon" hidden="false" book="Domination">
+          <modifiers/>
+        </rule>
+        <rule id="1fa2-2044-3d3b-018e" name="Bite: Spirit Eater" hidden="false" book="Domination">
+          <modifiers/>
+        </rule>
+        <rule id="5ff4-7b63-d913-9bc1" name="Claw: Magical Weapon" hidden="false" book="Domination">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="3b7e-0497-0e10-f5b6" profileTypeId="5761726c6f636b23232344415441232323" name="Maelok The Deadbound" hidden="false" book="Domination" page="86">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="7"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="14"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="17"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="7"/>
+            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="6"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="17"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="928e-9dff-871c-f96d" profileTypeId="576561706f6e23232344415441232323" name="Bite" hidden="false" book="Domination" page="86">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="5"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="12"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="a172-b27a-0513-2aba" profileTypeId="576561706f6e23232344415441232323" name="Claw" hidden="false" book="Domination" page="86">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="2"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="5"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="12"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="c5d6-7deb-ca4c-03d8" targetId="1c1beb4a-e34e-59df-797c-ab79b68069b2" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1c08-46db-cf5d-5d66" targetId="0d331277-2786-797d-84cd-472d4e205fdb" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9e71-94d9-5366-61be" targetId="1d857562-59bc-02fc-a523-195a55b657c5" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9fd8-4722-0545-23fc" targetId="07eda051-a145-4f77-23c3-1dbfa4d8e24b" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5f1d-a25d-9880-b1a0" targetId="2032-4a65-a834-c2f4" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8665-2c54-246d-11a3" targetId="0e846fe2-c33a-938b-b0d0-ef4d0cc497fe" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3982-3516-b707-850b" targetId="435b-6527-6c7c-dac9" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="9bc5-434a-6838-9227" targetId="0a1d-bd05-52d2-c697" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="1741-c906-56d4-75a2" targetId="731f-c937-8859-fa89" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="53b7-e60f-156e-8e8e" targetId="29d6-e714-a9e3-e123" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="1b69-76a4-ff95-d8ac" name="Road Hog" points="9.0" categoryId="576172626561737423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="91">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="c808-d3fc-b7a2-e1b5" name="Heavy Flamethrower: Continuous Effect - Fire" hidden="false" book="Domination" page="91">
+          <modifiers/>
+        </rule>
+        <rule id="7d20-ed47-38fd-47e2" name="Heavy Flamethrower: Damage Type - Fire" hidden="false" book="Domination" page="91">
+          <modifiers/>
+        </rule>
+        <rule id="86b8-6929-f766-4299" name="Mechano-Claw: Open Fist" hidden="false" book="Domination" page="91">
+          <modifiers/>
+        </rule>
+        <rule id="3d16-1c44-a736-9546" name="Gore: Critical Knockdown" hidden="false" book="Domination" page="91">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="3e7c-73b6-c96b-883c" profileTypeId="576172626561737423232344415441232323" name="Road Hog" hidden="false" book="Domination" page="91">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="10"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="12"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="18"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="6"/>
+            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="4"/>
+            <characteristic characteristicId="5468726573686f6c6423232344415441232323" name="Threshold" value="8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="7594-3d91-d13a-5cce" profileTypeId="576561706f6e23232344415441232323" name="Heavy Flamethrower" hidden="false" book="Domination" page="91">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SP 10"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="d8e9-2cdd-b530-59b4" profileTypeId="576561706f6e23232344415441232323" name="Mechano-Claw" hidden="false" book="Domination" page="91">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="14"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="5f54-32d0-505f-69a5" profileTypeId="576561706f6e23232344415441232323" name="Gore" hidden="false" book="Domination" page="91">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="14"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="aecf-21d6-f518-60a0" targetId="23c9-826d-f90d-eed8" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="9970-8f24-bfeb-4765" targetId="d80c-0aa9-d211-e54d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a33c-2a4b-bce0-376c" targetId="8e65f3fa-9e03-2dbb-bb8d-4ff654d154ac" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="fc28-1e2b-1f8b-44f9" targetId="00a7-1b07-76e9-0e44" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="3d32f415-6898-9288-e6d3-89e97e6627dd" name="Rosh &amp; Brine" points="9.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Minions" page="81">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="813a0071-db8b-9dad-0825-c7ff105215b6" name="Brine: Bacon" hidden="false" book="Forces of Hordes - Minions" page="83">
+          <modifiers/>
+        </rule>
+        <rule id="e4d77463-687c-bebc-cf70-f98d8856fb0d" name="Brine: Pain Response" hidden="false" book="Forces of Hordes - Minions" page="83">
+          <modifiers/>
+        </rule>
+        <rule id="72f4d079-a1a1-ca7f-fb1c-8bc9c2abeace" name="Brine: Pigheaded" hidden="false" book="Forces of Hordes - Minions" page="83">
+          <modifiers/>
+        </rule>
+        <rule id="daf900dc-6e01-7b37-3aad-312bdded94be" name="Brine: Claw - Open Fist" hidden="false" book="Forces of Hordes - Minions" page="83">
+          <modifiers/>
+        </rule>
+        <rule id="e377a968-176d-3b69-edb9-48528e27256a" name="Brine: Gore - Critical Knockdown" hidden="false" book="Forces of Hordes - Minions" page="83">
+          <description>On a critical hit, the model hit is knocked down.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="7fa762af-c009-ef2e-3ed2-6a416c03e158" profileTypeId="5761726c6f636b23232344415441232323" name="Rorsh" hidden="false" book="Forces of Hordes - Minions" page="81">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="7"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="16"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
+            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="3"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="2fdea514-568d-7327-ce75-6f2d28313ff5" profileTypeId="576561706f6e23232344415441232323" name="Dynomite" hidden="false" book="Forces of Hordes - Minions" page="81">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="4"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="6c92c794-4314-9740-fc38-6330623e3e94" profileTypeId="576561706f6e23232344415441232323" name="Lever Action Pig Iron" hidden="false" book="Forces of Hordes - Minions" page="81">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="10"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="2"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="145853a5-ce4a-9292-3b99-62c4fd3173f7" profileTypeId="576561706f6e23232344415441232323" name="Cleaver" hidden="false" book="Forces of Hordes - Minions" page="81">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="11"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="35f83d18-5730-d509-0d78-4fc79e590f86" profileTypeId="576172626561737423232344415441232323" name="Brine" hidden="false" book="Forces of Hordes - Minions" page="83">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="11"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="1"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="12"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="17"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="6"/>
+            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="4"/>
+            <characteristic characteristicId="5468726573686f6c6423232344415441232323" name="Threshold" value="8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="81316fb3-8c42-d817-9582-c14cae0ed0d9" profileTypeId="576561706f6e23232344415441232323" name="Brine: Gore" hidden="false" book="Forces of Hordes - Minions" page="83">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="15"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="23c655d0-3aa4-eaa3-aea5-75eff0e9e1a1" profileTypeId="576561706f6e23232344415441232323" name="Brine: Claw" hidden="false" book="Forces of Hordes - Minions" page="83">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="14"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="0e13f17e-876d-3aa2-2f82-4b7fd8b062c0" profileTypeId="576561706f6e23232344415441232323" name="Brine: Claw" hidden="false" book="Forces of Hordes - Minions" page="83">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="14"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="b72c5386-f3c9-3594-3684-a964c05f8435" targetId="23322b29-f5eb-3ebf-d45a-568daa3c3247" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="8d0ce6a1-1109-9400-bd24-6b8468527c6f" targetId="82b0b2ce-a5db-b855-9b9a-6c5abb1d3613" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a87e3e2a-b876-9285-433f-c8a5d23da246" targetId="1c1beb4a-e34e-59df-797c-ab79b68069b2" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9e56df5e-8e56-b211-2787-ddb8114e3320" targetId="1825eb84-75bc-45d1-075a-73923524097d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e27c7cc9-427b-1819-7eda-c6333f7a2a4d" targetId="33d0e5dc-aa1b-8b03-c4e7-fbfef9a4646a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="30d9a192-1297-ba69-5b81-e2191393bfb3" targetId="e19274cb-2bb9-e63f-fa4c-13dd53981741" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d0d4ae57-62c5-2e72-8563-63cee4e6f605" targetId="208d51c2-4788-7c29-9489-4d800d63a281" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="bf2f29d9-44a3-ddfd-39d3-5d0a539ab35d" targetId="8e65f3fa-9e03-2dbb-bb8d-4ff654d154ac" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e51e58c3-f767-729c-1b59-66dd7d537785" targetId="85c2bd22-3a2f-e4df-8f23-2d0830e3d324" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f7fe686f-2510-2b22-0165-2744619915a0" targetId="bb27e99f-5b35-e54e-6363-b5d00303fc98" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4064b3fb-bf2e-5d46-8d82-a755064cb93a" targetId="e17113f2-604d-86e8-2c3e-c22dd0e6e6c3" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="454427e8-ad23-1db3-72ec-a593182a0b93" targetId="df1a8ef2-dd11-afb6-6ea1-e1438036150d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d5919a46-8e30-e671-3a96-ac2f45495216" targetId="d9189e0e-16c9-a6cf-407b-8b84eed92692" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -1302,6 +2118,130 @@
         </link>
       </links>
     </entry>
+    <entry id="ccf8-0772-f728-962b" name="Sturm &amp; Drang" points="-5.0" categoryId="5761726c6f636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="88">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="8d7a-4268-bacd-5297" name="Feat: Psychic Apocalypse" hidden="false" book="Domination" page="88">
+          <description>Refer to page 88.</description>
+          <modifiers/>
+        </rule>
+        <rule id="5666-d17e-0a83-4fc5" name="Sturm: Farrow Warlock" hidden="false" book="Domination" page="88">
+          <modifiers/>
+        </rule>
+        <rule id="28bb-9328-2c9e-6ab8" name="Sturm: Struggle of Wills" hidden="false" book="Domination" page="88">
+          <modifiers/>
+        </rule>
+        <rule id="535e-d5e0-0031-45f7" name="Drang: Farrow Warlock" hidden="false" book="Domination" page="88">
+          <modifiers/>
+        </rule>
+        <rule id="e1f6-73d9-0b59-25ed" name="Drang: Goad" hidden="false" book="Domination" page="88">
+          <modifiers/>
+        </rule>
+        <rule id="e047-7c91-68f6-c11f" name="Drang: Pack Hunters" hidden="false" book="Domination" page="88">
+          <modifiers/>
+        </rule>
+        <rule id="1261-63d6-a0df-98b2" name="Drang: Shortsighted" hidden="false" book="Domination" page="88">
+          <modifiers/>
+        </rule>
+        <rule id="56a4-4637-777d-fd55" name="Drang: Struggle of Wills" hidden="false" book="Domination" page="88">
+          <modifiers/>
+        </rule>
+        <rule id="cf6e-9687-aa06-d7a4" name="Stum: Brain Burn - Magical Weapon" hidden="false" book="Domination" page="88">
+          <modifiers/>
+        </rule>
+        <rule id="6455-329a-2bb8-b95d" name="Drang&apos;s Mechano Fist: Critical Pitch" hidden="false" book="Domination" page="88">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="7390-2e30-3bc0-6b6a" profileTypeId="5761726c6f636b23232344415441232323" name="Sturm" hidden="false" book="Domination" page="88">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="5"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="14"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="16"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
+            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="7"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="18"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="f401-1762-022e-79ce" profileTypeId="5761726c6f636b23232344415441232323" name="Drang" hidden="false" book="Domination" page="88">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="10"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="3"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="14"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="16"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="6"/>
+            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="7"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="18"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="3972-bc98-b040-6d05" profileTypeId="576561706f6e23232344415441232323" name="Sturm: Brain Burn" hidden="false" book="Domination" page="88">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SP 8"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="8b37-96c1-dbe1-7b09" profileTypeId="576561706f6e23232344415441232323" name="Sturm: Mechano Fist" hidden="false" book="Domination" page="88">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="2"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="5"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="11"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="443a-390e-ff6b-bc93" profileTypeId="576561706f6e23232344415441232323" name="Drang: Mechano Fist" hidden="false" book="Domination" page="88">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="2"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="5"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="15"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="6beb-f50d-18f2-b583" targetId="1c1beb4a-e34e-59df-797c-ab79b68069b2" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a106-3c7b-8bcd-5cad" targetId="0521-39f5-cbb0-c07b" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="1f52-6d32-42e1-079e" targetId="a442-eb4d-a08e-ae38" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="c407-2ef5-03fa-6cb7" targetId="cbf0-f7b6-da96-e548" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="3824-32e2-08fe-9e16" targetId="eac4-8ca1-629f-a72b" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="5ad4-79d2-1710-a771" targetId="7bab-d967-7e14-35ba" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="6a12-bd5c-8480-f40f" targetId="767b-9175-d91e-99cd" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="b387b529-d40d-2b8a-d913-8b082dea7430" name="Swamp Gobber Bellows Crew" points="1.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Minions" page="61">
       <entries/>
       <entryGroups/>
@@ -1341,6 +2281,99 @@
           <modifiers/>
         </link>
         <link id="85457103-6920-f39a-7949-4c76aee13f3f" targetId="11489071-7aef-4429-3e17-d176726ff261" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="0447-1d79-4ac9-495a" name="Swamp Horror" points="8.0" categoryId="576172626561737423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="92">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="f23f-0c80-53e0-4fc2" name="Beak: Critical Catastrophic Damage" hidden="false" book="Domination" page="92">
+          <modifiers/>
+        </rule>
+        <rule id="3763-0f38-2ade-4ec9" name="Tentacles: Open Fist" hidden="false" book="Domination" page="92">
+          <modifiers/>
+        </rule>
+        <rule id="a355-204a-2ec6-b023" name="Tentacles: Reach" hidden="false" book="Domination" page="92">
+          <modifiers/>
+        </rule>
+        <rule id="a70f-0632-f2b1-9f0b" name="Tentacles: Pull" hidden="false" book="Domination" page="92">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="f0f4-c452-2596-d80c" profileTypeId="576172626561737423232344415441232323" name="Swamp Horror" hidden="false" book="Domination" page="92">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="4"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="10"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="1"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="10"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="17"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="6"/>
+            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="4"/>
+            <characteristic characteristicId="5468726573686f6c6423232344415441232323" name="Threshold" value="8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="731a-cd18-bf75-f457" profileTypeId="576561706f6e23232344415441232323" name="Beak" hidden="false" book="Domination" page="92">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="6"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="16"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="131b-2a17-5085-4225" profileTypeId="576561706f6e23232344415441232323" name="Tentacles" hidden="false" book="Domination" page="92">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="2"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="12"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="-"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="7393-bde9-6779-88a3" profileTypeId="576561706f6e23232344415441232323" name="Tentacles" hidden="false" book="Domination" page="92">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="2"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="12"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="-"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="4b0e-77fb-043c-8969" profileTypeId="576561706f6e23232344415441232323" name="Tentacles" hidden="false" book="Domination" page="92">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="2"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="12"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="-"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="78fb-1f1a-6ed1-22b0" targetId="07eda051-a145-4f77-23c3-1dbfa4d8e24b" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="62c3-0df8-b18e-6aa4" targetId="b316-dc10-9d63-2277" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="65c6-9777-2d9d-12d8" targetId="4139-a70b-2274-56f7" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1a76-33b1-3a6a-1631" targetId="81d9-d1ca-b31b-97c4" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -1588,6 +2621,74 @@
         </link>
       </links>
     </entry>
+    <entry id="c06c7bd0-7fa4-2a06-6c54-86fd78ddd065" name="War Hog" points="8.0" categoryId="576172626561737423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Minions" page="77">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="8464b995-e92d-c5ca-052f-4c96a6f84f52" name="Gore: Critical Knockdown" hidden="false" book="Forces of Hordes - Minions" page="77">
+          <description>On a critical hit, the model hit is knocked down.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="f594cbc0-62b8-97d6-cb18-c25a2fe0d0a5" profileTypeId="5761726c6f636b23232344415441232323" name="War Hog" hidden="false" book="Forces of Hordes - Minions" page="77">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="4"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="11"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="1"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="12"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="18"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="6"/>
+            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="4"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="8249e747-5697-9d42-aa9f-4aad07215cdc" profileTypeId="576561706f6e23232344415441232323" name="War Cleaver" hidden="false" book="Forces of Hordes - Minions" page="77">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="5"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="16"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="0fee1cb7-0af1-8274-f1dd-c3159a287e10" profileTypeId="576561706f6e23232344415441232323" name="War Cleaver" hidden="false" book="Forces of Hordes - Minions" page="77">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="5"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="16"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="43b2ca66-ee3e-6df6-0b5d-592f7c82992c" profileTypeId="576561706f6e23232344415441232323" name="Gore" hidden="false" book="Forces of Hordes - Minions" page="77">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="15"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="53ae8089-9aab-f7cf-0803-b1bc9031c69f" targetId="8d52ee4c-c9f1-d58d-fda5-f76af5b07dc2" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="4d68b16e-c0d1-a032-c5b9-f009a731b652" targetId="95df7b04-129d-981b-08e0-66b51dce97df" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="319ae53c-a76d-8586-179e-1e9481f2979e" name="Wrong Eye &amp; Snapjaw" points="9.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Minions" page="63">
       <entries/>
       <entryGroups/>
@@ -1607,14 +2708,14 @@
           <modifiers/>
         </rule>
         <rule id="1fcf69f6-30db-969c-7628-37f8cb2b2773" name="Companion (Wrong Eye)" hidden="false" book="Forces of Hordes - Minions" page="65">
-          <description>This model is included in any army that includes Wrong Eye. If Wrong Eye is destoryed or removed from play, remove this model from play. This model is part of Wrong Eye's battlegroup.</description>
+          <description>This model is included in any army that includes Wrong Eye. If Wrong Eye is destoryed or removed from play, remove this model from play. This model is part of Wrong Eye&apos;s battlegroup.</description>
           <modifiers/>
         </rule>
         <rule id="072b40b9-e7f2-007f-c97c-37a2a453822e" name="Snapjaw: Man-Eater" hidden="false" book="Forces of Hordes - Minions" page="65">
           <modifiers/>
         </rule>
         <rule id="c11ca768-f154-5bff-0499-104746f314c3" name="Snapjaw: Warbeast Bond (Wrong Eye)" hidden="false" book="Forces of Hordes - Minions" page="65">
-          <description>Snapjaw is bonded to Wrong Eye. When Snapjaw boxes a living model with a melee attack in Wrong Eye's control area, the model is removed from play and either Snapjaw or Wrong Eye heals d3 damage points.</description>
+          <description>Snapjaw is bonded to Wrong Eye. When Snapjaw boxes a living model with a melee attack in Wrong Eye&apos;s control area, the model is removed from play and either Snapjaw or Wrong Eye heals d3 damage points.</description>
           <modifiers/>
         </rule>
         <rule id="17d14e15-dff5-61e7-c558-b40961c67252" name="Snapjaw: Tail - Reach" hidden="false" book="Forces of Hordes - Minions" page="65">
@@ -1729,511 +2830,48 @@
         </link>
       </links>
     </entry>
-    <entry id="f66b882f-10f5-03aa-771a-b11d5d299774" name="Lord Carver, BMMD, ESW. lll" points="-6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Minions">
+    <entry id="e3b5-7c0d-59e2-1269" name="Gatorman Witch Doctor" points="3.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="95">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules>
-        <rule id="d7aca785-331e-a541-6139-f86dadab9322" name="Feat: Hog Heaven" hidden="false" book="Forces of Hordes - Minions" page="74">
-          <description>While in Carver's control area, friendly Farrow models gain Overtake and an additional die on melee damage rolls. Hog Heaven lasts for one turn. (When a model with Overtake destorys one or more enemy warrior models with a normal melee attack, after the attack is resolved the model with Overtake can immediately advance up to 1".)</description>
+        <rule id="7e25-74b5-94c0-7436" name="Magic Ability (7)" hidden="false" book="Domination" page="95">
+          <description>• Dominate Undead (*Attack)
+• Sacrificial Strike (*Action)
+• Zombify (*Action)
+</description>
           <modifiers/>
         </rule>
-        <rule id="bc1fabf6-f842-f733-e50b-610b7598c451" name="Carver: Tough" hidden="false" book="Forces of Hordes - Minions" page="74">
-          <description/>
-          <modifiers/>
-        </rule>
-        <rule id="faf3f952-aabf-e879-440b-4d37c7bf9862" name="Carver: Elite Cadre (Farrow Brigands)" hidden="false" book="Forces of Hordes - Minions" page="74">
-          <description>Friendly Farrow Brigand models gain Combined Ranged Attack.</description>
-          <modifiers/>
-        </rule>
-        <rule id="30597181-a0a9-8142-0485-10fbeeb9b597" name="Lord Carver, BMMD, ESW. lll" hidden="false">
-          <modifiers/>
-        </rule>
-        <rule id="121d4d38-d917-b71d-764d-20130bdae977" name="Sawed-Off Scattergun: Both Barrels (*Attack)" hidden="false" book="Forces of Hordes - Minions" page="74">
-          <description>This model gains +4 to the damage roll for this attack. This model cannot make additional ranged attacks with this weapon during an activation it makes a Both Barrels attack.</description>
-          <modifiers/>
-        </rule>
-        <rule id="f4b03030-c6ce-6ea1-1f47-d3c9d497c6b5" name="Hand of GOd: Magical Weapon" hidden="false" book="Forces of Hordes - Minions" page="74">
-          <description/>
-          <modifiers/>
-        </rule>
-        <rule id="983ea7b5-7bdf-dc65-6482-4639aa5fa1d6" name="Hand of God: Reach" hidden="false" book="Forces of Hordes - Minions" page="74">
+        <rule id="bb2b-ea4f-9d3a-bf65" name="Sacral Blade: Magical Weapon" hidden="false" book="Domination" page="95">
           <modifiers/>
         </rule>
       </rules>
       <profiles>
-        <profile id="c1464a2a-5434-37f8-e984-a776be466945" profileTypeId="5761726c6f636b23232344415441232323" name="Lord Carver, BMMD, ESW. lll" hidden="false" book="Forces of Hordes - Minions" page="74">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="8"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="6"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="15"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="17"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
-            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="6"/>
-            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="16"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="32037296-c919-b76a-b721-c7be92d3efb8" profileTypeId="576561706f6e23232344415441232323" name="Sawed-Off Scattergun" hidden="false" book="Forces of Hordes - Minions" page="74">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SP 6"/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="2"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="1df47add-4185-8184-e5b9-05fdd2ae8be0" profileTypeId="576561706f6e23232344415441232323" name="Hand Of God" hidden="false" book="Forces of Hordes - Minions" page="74">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="7"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="15"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="e3074977-fc46-c0b1-f4ce-6ddcfb2f9507" targetId="1c1beb4a-e34e-59df-797c-ab79b68069b2" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="535cd3c1-f908-0774-029b-cace07fb2819" targetId="ed46194f-fe7b-afde-121c-51c40120d612" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="4fcc99f1-3e31-ffa0-07d0-3f7ae93deb8f" targetId="db761dce-4b8d-d00a-3200-3e0a2355d9ba" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="792335c3-def7-d4c3-a3ae-9ee5b3019952" targetId="76ca71c8-e392-a3e9-5c30-54457d8dba12" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="adac5ec0-a2eb-d508-eec4-1639a717e4c8" targetId="c3f8ca64-02b5-a40d-bea1-97d7e86c9029" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="cc63d37b-a984-4905-be8c-9303715f8770" targetId="8e65f3fa-9e03-2dbb-bb8d-4ff654d154ac" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="6071ed2f-dafa-795c-5589-1c8b2b30a2a1" targetId="55a7a595-4fd2-8509-b859-8c0b0ae770e8" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="9ab4f9d4-54b6-96a4-d64e-7e2f4ef43dd9" name="Gun Boar" points="5.0" categoryId="576172626561737423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Minions" page="76">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="e148a3e0-2748-490b-bccb-c44bff500a47" name="Open Fist: Open Fist" hidden="false" book="Forces of Hordes - Minions" page="76">
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="8d345e20-a2e9-3084-5727-399306dcd12a" profileTypeId="576172626561737423232344415441232323" name="Gun Boar" hidden="false" book="Forces of Hordes - Minions" page="76">
+        <profile id="77e1-d964-c73f-a57b" profileTypeId="54726f6f70657223232344415441232323" name="Gatorman Witch Doctor" hidden="false" book="Domination" page="95">
           <characteristics>
             <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="8"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="5"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="12"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="17"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="6"/>
-            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="3"/>
-            <characteristic characteristicId="5468726573686f6c6423232344415441232323" name="Threshold" value="7"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="9d5b9d11-bd9e-cddb-6b13-1ffaa748e057" profileTypeId="576561706f6e23232344415441232323" name="Big Gun" hidden="false" book="Forces of Hordes - Minions" page="76">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="10"/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="3"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="13"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="-"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="1b15a986-49e0-e2b4-4dfd-08c281ad0f4f" profileTypeId="576561706f6e23232344415441232323" name="Open Fist" hidden="false" book="Forces of Hordes - Minions" page="76">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="11"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="b50a996d-150f-599a-7de7-cf589435f93d" profileTypeId="576561706f6e23232344415441232323" name="Open Fist" hidden="false" book="Forces of Hordes - Minions" page="76">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="11"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="58084cf1-f12f-76bb-d773-b5acb28d0391" targetId="61ae4bc2-bbb2-77ee-d2e8-ba8f3d883485" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="94164971-3561-12dd-a054-8e29ace3ca0f" targetId="9b02d7f5-7d6d-8b80-f09c-a3bf77e26fb4" linkType="profile">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="c06c7bd0-7fa4-2a06-6c54-86fd78ddd065" name="War Hog" points="8.0" categoryId="576172626561737423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Minions" page="77">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="8464b995-e92d-c5ca-052f-4c96a6f84f52" name="Gore: Critical Knockdown" hidden="false" book="Forces of Hordes - Minions" page="77">
-          <description>On a critical hit, the model hit is knocked down.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="f594cbc0-62b8-97d6-cb18-c25a2fe0d0a5" profileTypeId="5761726c6f636b23232344415441232323" name="War Hog" hidden="false" book="Forces of Hordes - Minions" page="77">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="4"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="11"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="1"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="12"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="18"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="6"/>
-            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="4"/>
-            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="8"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="8249e747-5697-9d42-aa9f-4aad07215cdc" profileTypeId="576561706f6e23232344415441232323" name="War Cleaver" hidden="false" book="Forces of Hordes - Minions" page="77">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="5"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="16"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="0fee1cb7-0af1-8274-f1dd-c3159a287e10" profileTypeId="576561706f6e23232344415441232323" name="War Cleaver" hidden="false" book="Forces of Hordes - Minions" page="77">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="5"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="16"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="43b2ca66-ee3e-6df6-0b5d-592f7c82992c" profileTypeId="576561706f6e23232344415441232323" name="Gore" hidden="false" book="Forces of Hordes - Minions" page="77">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="15"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="H"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="53ae8089-9aab-f7cf-0803-b1bc9031c69f" targetId="8d52ee4c-c9f1-d58d-fda5-f76af5b07dc2" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="4d68b16e-c0d1-a032-c5b9-f009a731b652" targetId="95df7b04-129d-981b-08e0-66b51dce97df" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="824bf0d2-a493-893b-02a5-31b1c855f62b" name="Farrow Bone Grinders" points="2.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Minions" page="78">
-      <entries>
-        <entry id="8c1cb37e-96a0-98ab-621f-2ae12a767667" name="Leader &amp; 3 Grunts -&gt; Leader &amp; 5 Grunts" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Minions" page="78">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="0349691c-d898-5dca-be30-a3ac385588de" name="Magic Ability (6)" hidden="false" book="Forces of Hordes - Minions" page="78">
-          <description>• Arcane Bolt (*Attack) - Arcane Bolt is RNG 12, POW 11 magic attack.
-
-• Bone Magic (*Action or Attack) - This model casts the animus of one friendly destroyed warbeast as a spell with out spending fury points. This model Cannot cast an animus with a RNG of SELF. This model must make a special attack to cast an offensive spell. Other spells are cast by making a specail action.
-
-• Craft Tailsman (*Action) - Target a friendly warlock within 3" of a model in this unit that is in formation. If the warlock is in range, when he casts a spell and is its point of orgin, the spell gains +2 RNG. Spells with RNG SELF, SP, or CTRL are not affected. Craft Tailsman lasts for one turn.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="34d06852-c22f-01a1-e6c7-7aff3c07b762" profileTypeId="54726f6f70657223232344415441232323" name="Leader &amp; Grunts" hidden="false" book="Forces of Hordes - Minions" page="77">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="5"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="12"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="14"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
-            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="49e832a2-ad74-f08b-4d47-56ab2a784fd8" profileTypeId="576561706f6e23232344415441232323" name="Knife" hidden="false" book="Forces of Hordes - Minions" page="78">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="9"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="be98d602-951d-ada0-0a97-2c8fe0c8e2cb" targetId="1c1beb4a-e34e-59df-797c-ab79b68069b2" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="796fadc3-872d-ddc2-d1b4-197e57599ea6" targetId="92ee0fe1-f5c2-b4dc-ccc5-99d64e2e8441" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="bdce9f54-c274-f730-4a10-94b2e79c8491" name="Farrow Brigands" points="5.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Minions" page="79">
-      <entries>
-        <entry id="2afc2944-8461-3037-4b12-039924e0cb28" name="Leader &amp; 5 Grunts -&gt; Leader &amp; 9 Grunts" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Minions" page="79">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles>
-        <profile id="c7af7792-8d60-d20f-47eb-876670e0f099" profileTypeId="54726f6f70657223232344415441232323" name="Leader &amp; Grunts" hidden="false" book="Forces of Hordes - Minions" page="79">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="12"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="14"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
-            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="72e8f239-a7c1-909f-eea9-4590ae4555a4" profileTypeId="576561706f6e23232344415441232323" name="Pig Iron" hidden="false" book="Forces of Hordes - Minions" page="79">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="10"/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="2b75339f-963e-a266-3771-619ca87e0f3d" profileTypeId="576561706f6e23232344415441232323" name="Club" hidden="false" book="Forces of Hordes - Minions" page="79">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="10"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="69ac347a-9e72-eafe-65fe-b7103814946e" targetId="1c1beb4a-e34e-59df-797c-ab79b68069b2" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="47daab31-375e-3287-0b09-95497116dbc9" targetId="e19274cb-2bb9-e63f-fa4c-13dd53981741" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="21249f2e-464a-1fde-2520-d258282f27b1" targetId="e415f9d0-6450-3531-c12e-e0f089ce0785" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="f787b993-bebf-9365-cf08-3385aa241e3f" name="Farow Razorback Crew" points="3.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Minions" page="80">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="55d7522d-336a-997f-9a30-ea93793fac67" name="Razorback: Light Artillery" hidden="false" book="Forces of Hordes - Minions" page="80">
-          <description>This weapon cannot be used to make attacks or special actions during activations this model moves. This model cannot gain the aiming bonus when attacking with this weapon and cannot charge. If this model attacks with this weapon during its activation, it cannot attack with any other weapons that activatoin.</description>
-          <modifiers/>
-        </rule>
-        <rule id="cf28ea01-1e60-63b4-cdf8-3c025c15b57a" name="Razorback: Range Finder" hidden="false" book="Forces of Hordes - Minions" page="80">
-          <description>While B2B with one or more grunts in this unit, this model gains +2 to attack rolls with this weapon.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="2cb459ce-108c-211d-249d-712dbf7b5c5d" profileTypeId="54726f6f70657223232344415441232323" name="Leader" hidden="false" book="Forces of Hordes - Minions" page="80">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="4"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="12"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="14"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
-            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="d3d1fcdc-1dc8-00a3-6143-f42ac2337f46" profileTypeId="54726f6f70657223232344415441232323" name="Grunt" hidden="false" book="Forces of Hordes - Minions" page="80">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="4"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="12"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="14"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
-            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="32b670a9-3ac8-ca07-a2a7-96098b16c358" profileTypeId="576561706f6e23232344415441232323" name="Leader: Razorback" hidden="false" book="Forces of Hordes - Minions" page="80">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="14"/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="3"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="15"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="c4307a3c-7bff-4f84-abd4-24c7d1dcafc9" profileTypeId="576561706f6e23232344415441232323" name="Leader: Club" hidden="false" book="Forces of Hordes - Minions" page="80">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="10"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="afd82836-4e73-1e22-3d46-a26127e0c9ac" profileTypeId="576561706f6e23232344415441232323" name="Grunt: Pig Iron" hidden="false" book="Forces of Hordes - Minions" page="80">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="10"/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="a58ffba9-c463-d538-a2ab-42eda1ae88e8" profileTypeId="576561706f6e23232344415441232323" name="Grunt: Club" hidden="false" book="Forces of Hordes - Minions" page="80">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="10"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="2b01fae5-f002-7385-0c11-2b92fc0d859e" targetId="1c1beb4a-e34e-59df-797c-ab79b68069b2" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="3c84a9be-4c3e-4392-79da-c9745258008b" targetId="e19274cb-2bb9-e63f-fa4c-13dd53981741" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="3d32f415-6898-9288-e6d3-89e97e6627dd" name="Rosh &amp; Brine" points="9.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Minions" page="81">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="813a0071-db8b-9dad-0825-c7ff105215b6" name="Brine: Bacon" hidden="false" book="Forces of Hordes - Minions" page="83">
-          <modifiers/>
-        </rule>
-        <rule id="e4d77463-687c-bebc-cf70-f98d8856fb0d" name="Brine: Pain Response" hidden="false" book="Forces of Hordes - Minions" page="83">
-          <modifiers/>
-        </rule>
-        <rule id="72f4d079-a1a1-ca7f-fb1c-8bc9c2abeace" name="Brine: Pigheaded" hidden="false" book="Forces of Hordes - Minions" page="83">
-          <modifiers/>
-        </rule>
-        <rule id="daf900dc-6e01-7b37-3aad-312bdded94be" name="Brine: Claw - Open Fist" hidden="false" book="Forces of Hordes - Minions" page="83">
-          <modifiers/>
-        </rule>
-        <rule id="e377a968-176d-3b69-edb9-48528e27256a" name="Brine: Gore - Critical Knockdown" hidden="false" book="Forces of Hordes - Minions" page="83">
-          <description>On a critical hit, the model hit is knocked down.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="7fa762af-c009-ef2e-3ed2-6a416c03e158" profileTypeId="5761726c6f636b23232344415441232323" name="Rorsh" hidden="false" book="Forces of Hordes - Minions" page="81">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
             <characteristic characteristicId="53545223232344415441232323" name="STR" value="7"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="3"/>
             <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
             <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="16"/>
             <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
-            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="3"/>
             <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="8"/>
           </characteristics>
           <modifiers/>
         </profile>
-        <profile id="2fdea514-568d-7327-ce75-6f2d28313ff5" profileTypeId="576561706f6e23232344415441232323" name="Dynomite" hidden="false" book="Forces of Hordes - Minions" page="81">
+        <profile id="e747-762e-e908-b61c" profileTypeId="576561706f6e23232344415441232323" name="Bite" hidden="false" book="Domination" page="95">
           <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="4"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="5"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="11"/>
             <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
           </characteristics>
           <modifiers/>
         </profile>
-        <profile id="6c92c794-4314-9740-fc38-6330623e3e94" profileTypeId="576561706f6e23232344415441232323" name="Lever Action Pig Iron" hidden="false" book="Forces of Hordes - Minions" page="81">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="10"/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="2"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="145853a5-ce4a-9292-3b99-62c4fd3173f7" profileTypeId="576561706f6e23232344415441232323" name="Cleaver" hidden="false" book="Forces of Hordes - Minions" page="81">
+        <profile id="e0d7-5196-c143-59d2" profileTypeId="576561706f6e23232344415441232323" name="Sacral Blade" hidden="false" book="Domination" page="95">
           <characteristics>
             <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
             <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
@@ -2244,92 +2882,68 @@
           </characteristics>
           <modifiers/>
         </profile>
-        <profile id="35f83d18-5730-d509-0d78-4fc79e590f86" profileTypeId="576172626561737423232344415441232323" name="Brine" hidden="false" book="Forces of Hordes - Minions" page="83">
+      </profiles>
+      <links>
+        <link id="55f1-e63f-b601-48b2" targetId="1c1beb4a-e34e-59df-797c-ab79b68069b2" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="87a9-096b-57c7-8f91" targetId="07eda051-a145-4f77-23c3-1dbfa4d8e24b" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2c3e-3ec2-99f2-9d6f" targetId="bdac-34f8-86bc-6c5b" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="47cb-6498-bbdc-4374" name="Targ" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="96">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="0ce9-12ce-8128-8ccd" name="Ancillary Attack (*Action)" hidden="false" book="Domination" page="96">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="3d65-5bb8-1ef2-3dba" profileTypeId="54726f6f70657223232344415441232323" name="Targ" hidden="false" book="Domination" page="96">
           <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="11"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="1"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="12"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="17"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="6"/>
-            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="4"/>
-            <characteristic characteristicId="5468726573686f6c6423232344415441232323" name="Threshold" value="8"/>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="7"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="5"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="14"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="7"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
           </characteristics>
           <modifiers/>
         </profile>
-        <profile id="81316fb3-8c42-d817-9582-c14cae0ed0d9" profileTypeId="576561706f6e23232344415441232323" name="Brine: Gore" hidden="false" book="Forces of Hordes - Minions" page="83">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="15"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="H"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="23c655d0-3aa4-eaa3-aea5-75eff0e9e1a1" profileTypeId="576561706f6e23232344415441232323" name="Brine: Claw" hidden="false" book="Forces of Hordes - Minions" page="83">
+        <profile id="2379-ef31-9482-47f4" profileTypeId="576561706f6e23232344415441232323" name="Butcher Knife" hidden="false" book="Domination" page="96">
           <characteristics>
             <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
             <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
             <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
             <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="14"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="0e13f17e-876d-3aa2-2f82-4b7fd8b062c0" profileTypeId="576561706f6e23232344415441232323" name="Brine: Claw" hidden="false" book="Forces of Hordes - Minions" page="83">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="14"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="10"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links>
-        <link id="b72c5386-f3c9-3594-3684-a964c05f8435" targetId="23322b29-f5eb-3ebf-d45a-568daa3c3247" linkType="profile">
+        <link id="4915-08dd-d84d-6aeb" targetId="1c1beb4a-e34e-59df-797c-ab79b68069b2" linkType="rule">
           <modifiers/>
         </link>
-        <link id="8d0ce6a1-1109-9400-bd24-6b8468527c6f" targetId="82b0b2ce-a5db-b855-9b9a-6c5abb1d3613" linkType="rule">
+        <link id="0df3-7026-408c-ab36" targetId="33d0e5dc-aa1b-8b03-c4e7-fbfef9a4646a" linkType="rule">
           <modifiers/>
         </link>
-        <link id="a87e3e2a-b876-9285-433f-c8a5d23da246" targetId="1c1beb4a-e34e-59df-797c-ab79b68069b2" linkType="rule">
+        <link id="dbe6-45c6-70eb-df7c" targetId="84f82b78-04c8-f34b-ed86-6d571c2251c9" linkType="rule">
           <modifiers/>
         </link>
-        <link id="9e56df5e-8e56-b211-2787-ddb8114e3320" targetId="1825eb84-75bc-45d1-075a-73923524097d" linkType="rule">
+        <link id="7e83-599c-4bf3-a9ea" targetId="02de97f4-99e7-5fef-067a-3a480277e663" linkType="rule">
           <modifiers/>
         </link>
-        <link id="e27c7cc9-427b-1819-7eda-c6333f7a2a4d" targetId="33d0e5dc-aa1b-8b03-c4e7-fbfef9a4646a" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="30d9a192-1297-ba69-5b81-e2191393bfb3" targetId="e19274cb-2bb9-e63f-fa4c-13dd53981741" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="d0d4ae57-62c5-2e72-8563-63cee4e6f605" targetId="208d51c2-4788-7c29-9489-4d800d63a281" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="bf2f29d9-44a3-ddfd-39d3-5d0a539ab35d" targetId="8e65f3fa-9e03-2dbb-bb8d-4ff654d154ac" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="e51e58c3-f767-729c-1b59-66dd7d537785" targetId="85c2bd22-3a2f-e4df-8f23-2d0830e3d324" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="f7fe686f-2510-2b22-0165-2744619915a0" targetId="bb27e99f-5b35-e54e-6363-b5d00303fc98" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="4064b3fb-bf2e-5d46-8d82-a755064cb93a" targetId="e17113f2-604d-86e8-2c3e-c22dd0e6e6c3" linkType="profile">
-          <modifiers/>
-        </link>
-        <link id="454427e8-ad23-1db3-72ec-a593182a0b93" targetId="df1a8ef2-dd11-afb6-6ea1-e1438036150d" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="d5919a46-8e30-e671-3a96-ac2f45495216" targetId="d9189e0e-16c9-a6cf-407b-8b84eed92692" linkType="rule">
+        <link id="8df3-cf83-2cf4-6882" targetId="433e-0e83-0487-28da" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -2341,11 +2955,11 @@
   <sharedEntryGroups/>
   <sharedRules>
     <rule id="630f3385-6dd9-2bd5-26a3-a9567011daf1" name="Abomination" hidden="false" book="Hordes Primal MK II" page="33">
-      <description>This model is a terrifying entity. Models and units-friendly and enemy-within 3" of this model must pass a command check or flee</description>
+      <description>This model is a terrifying entity. Models and units-friendly and enemy-within 3&quot; of this model must pass a command check or flee</description>
       <modifiers/>
     </rule>
     <rule id="137b368a-ff78-db3d-2fea-5dec4fc6d250" name="Advance Deployment" hidden="false" book="Hordes Primal MK II" page="33">
-      <description>Place this model after normal deployment, up to 6" beyond the established deployment zone.</description>
+      <description>Place this model after normal deployment, up to 6&quot; beyond the established deployment zone.</description>
       <modifiers/>
     </rule>
     <rule id="95df7b04-129d-981b-08e0-66b51dce97df" name="Aggression Dial" hidden="false" book="Forces of Hordes - Minions" page="77">
@@ -2353,7 +2967,7 @@
       <modifiers/>
     </rule>
     <rule id="154edc3e-acbc-cca3-35cb-c319d6b24400" name="Ambush" hidden="false" book="Forces of Hordes - Minions" page="59">
-      <description>You can choose not to deploy this unit at the start of the game. If it is not deployed normally, you can put it into play at the end of any of your Control Phases after your first turn. When you do, choose any table edge except the back of your opponent's deployment zone. Place all models in this unit formation within 3" of the chosen table edge.</description>
+      <description>You can choose not to deploy this unit at the start of the game. If it is not deployed normally, you can put it into play at the end of any of your Control Phases after your first turn. When you do, choose any table edge except the back of your opponent&apos;s deployment zone. Place all models in this unit formation within 3&quot; of the chosen table edge.</description>
       <modifiers/>
     </rule>
     <rule id="07eda051-a145-4f77-23c3-1dbfa4d8e24b" name="Amphibious" hidden="false" book="">
@@ -2361,15 +2975,18 @@
       <modifiers/>
     </rule>
     <rule id="64bb7def-6adb-2704-baf3-882c763c6c3e" name="Arance Consumption" hidden="false" book="Forces of Hordes - Minions" page="25">
-      <description>When an enemy model casts a spell or uses an animus while in this model's command range, after the spell is cast the enemy model suffers 1 damage point and this model heals 1 damage point.</description>
+      <description>When an enemy model casts a spell or uses an animus while in this model&apos;s command range, after the spell is cast the enemy model suffers 1 damage point and this model heals 1 damage point.</description>
       <modifiers/>
     </rule>
     <rule id="504fda4a-23f5-91b4-96f4-bda77b521b96" name="Arcane Assist" hidden="false" book="Domination" page="75">
-      <description>If its warlock is in this model's command range during your Control Phase, the warlock can upkeep one spell without spending fury.</description>
+      <description>If its warlock is in this model&apos;s command range during your Control Phase, the warlock can upkeep one spell without spending fury.</description>
       <modifiers/>
     </rule>
     <rule id="af6b6965-6fe9-00df-3bac-fce612d68c8b" name="Arcane interference" hidden="false" book="Forces of Hordes - Minions" page="25">
       <description>When this model hits another model with an attack, upkeep spells and animi on the model hit expire and its loses the forcus points on it. When this model hits a warjack with an attack, that warjack suffers Disruption. (A warjack suffering Disruption loses its forucs points and cannot be allocated forcus or channel spells for one round.)</description>
+      <modifiers/>
+    </rule>
+    <rule id="d80c-0aa9-d211-e54d" name="Assault" hidden="false" book="Domination">
       <modifiers/>
     </rule>
     <rule id="84f82b78-04c8-f34b-ed86-6d571c2251c9" name="Attached" hidden="false" book="Domination" page="75">
@@ -2392,6 +3009,10 @@
       <description>RNG 3. Target friendly warrior model/unit. If the model/unit is in range, it gains boosted attack rolls against warbeasts for one turn.</description>
       <modifiers/>
     </rule>
+    <rule id="bdac-34f8-86bc-6c5b" name="Beast Master" hidden="false" book="Domination">
+      <description>This model can force friendly Faction warbeasts in its command range as if it were their contorlling warlock.</description>
+      <modifiers/>
+    </rule>
     <rule id="8c1bf52e-7c41-988f-bfe1-b98c33c04183" name="Berserk" hidden="false" book="Forces of Hordes - Minions" page="32">
       <description>When this model destorys one or more models with a melee attack during its combat action, immediatley after the attack is resolved it must make one additional melee against another model in its melee range.</description>
       <modifiers/>
@@ -2408,6 +3029,10 @@
       <description>When it charges living warrior models without being forced.</description>
       <modifiers/>
     </rule>
+    <rule id="663f-347e-7424-91b7" name="Bone Picker" hidden="false" book="Domination" page="90">
+      <description>Refer to page 90.</description>
+      <modifiers/>
+    </rule>
     <rule id="b909fea5-5674-7b5a-ff48-8808557496a3" name="Buckler" hidden="false" book="Hordes Primal MK II" page="35">
       <description>This weapon has an integral buckler that gives the model a cumulative +1 ARM bonus. A model does not gain this bonus while the location the buckler is in is being held in a weapon lock or when resolving damage that orgiinates in its back arc.</description>
       <modifiers/>
@@ -2417,11 +3042,11 @@
       <modifiers/>
     </rule>
     <rule id="3b4d8b1c-0a06-e4ec-f2d4-f9537b52e86c" name="Charmer" hidden="false" book="Forces of Hordes - Minions" page="34">
-      <description>When a friendly warbeast frenzies in this model's control area, the warbeast can forfeit its activation.</description>
+      <description>When a friendly warbeast frenzies in this model&apos;s control area, the warbeast can forfeit its activation.</description>
       <modifiers/>
     </rule>
     <rule id="6e9c7f59-9be7-e380-8bf6-635bde83e562" name="Circular Vision" hidden="false" book="">
-      <description>This model's front arc extends to 360°.</description>
+      <description>This model&apos;s front arc extends to 360°.</description>
       <modifiers/>
     </rule>
     <rule id="0d7ad7dd-3c67-10af-a459-69a6fac72d22" name="Cleave" hidden="false" book="Domination" page="78">
@@ -2437,15 +3062,15 @@
       <modifiers/>
     </rule>
     <rule id="a2e91979-52da-72d9-1860-437f3518a266" name="Commander" hidden="false" book="Hordes Primal MK II" page="33">
-      <description>A friendly faction model or unit in this model's command range can replace its current CMD with the current CMD of the commander when making command checks.</description>
+      <description>A friendly faction model or unit in this model&apos;s command range can replace its current CMD with the current CMD of the commander when making command checks.</description>
       <modifiers/>
     </rule>
     <rule id="df1a8ef2-dd11-afb6-6ea1-e1438036150d" name="Companion (Rorsh)" hidden="false" book="Forces of Hordes - Minions" page="83">
-      <description>This model is included in any army that includes Rorsh. If Rorsh is Destroyed or removed from play, remove this model is part of Rorsh's battlegroupl.</description>
+      <description>This model is included in any army that includes Rorsh. If Rorsh is Destroyed or removed from play, remove this model is part of Rorsh&apos;s battlegroupl.</description>
       <modifiers/>
     </rule>
     <rule id="92ee0fe1-f5c2-b4dc-ccc5-99d64e2e8441" name="Confluence" hidden="false" book="Forces of Hordes - Minions" page="78">
-      <description>This model gains a cumulative +1 on magic attack rolls for each other model in this unit that is within 1" of it.</description>
+      <description>This model gains a cumulative +1 on magic attack rolls for each other model in this unit that is within 1&quot; of it.</description>
       <modifiers/>
     </rule>
     <rule id="dcd95c51-bc0d-22d8-0a1c-2da797cb25f8" name="Construct" hidden="false" book="Hordes Primal MK II" page="33">
@@ -2461,11 +3086,11 @@
       <modifiers/>
     </rule>
     <rule id="11489071-7aef-4429-3e17-d176726ff261" name="Could Cover (Order)" hidden="false" book="Forces of Hordes - Minions" page="61">
-      <description>Models who received this order must forfeit their actions. After this units normal movement, place a 3" AOE cloud effect in play with its center point within 1" of the Leader. If the Grunt is B2B with the Leader, place a 5" AOE instead. This AOE remains in play for one round.</description>
+      <description>Models who received this order must forfeit their actions. After this units normal movement, place a 3&quot; AOE cloud effect in play with its center point within 1&quot; of the Leader. If the Grunt is B2B with the Leader, place a 5&quot; AOE instead. This AOE remains in play for one round.</description>
       <modifiers/>
     </rule>
     <rule id="c159fd34-1725-218c-1de7-4945f08b63d6" name="Counter Charge" hidden="false" book="Forces of Hordes - Minions" page="52">
-      <description>When an enemy model advacnes and ends its movement within 6" of this model and in its LOS, this model can immediately charge it. it cannot make another counter charge until after your next turn. This model cannot make a counter charge while engaged.</description>
+      <description>When an enemy model advacnes and ends its movement within 6&quot; of this model and in its LOS, this model can immediately charge it. it cannot make another counter charge until after your next turn. This model cannot make a counter charge while engaged.</description>
       <modifiers/>
     </rule>
     <rule id="37043cde-5bca-90a0-d098-86227a09abc7" name="Critical Corrosion" hidden="false" book="Hordes Primal MK II" page="35">
@@ -2474,6 +3099,10 @@
     </rule>
     <rule id="7de3eb8f-f50f-bb41-9d72-2fbbe539c48f" name="Critical Fire" hidden="false" book="Hordes Primal MK II" page="35">
       <description>on a critical hit, the model hit by this attack suffers the Fire continuous effect.</description>
+      <modifiers/>
+    </rule>
+    <rule id="2032-4a65-a834-c2f4" name="Cull Soul" hidden="false" book="Domination" page="86">
+      <description>refer to page 86.</description>
       <modifiers/>
     </rule>
     <rule id="ce91d015-7c9b-5951-ce65-e7d36a8168bb" name="Damage Type: Cold" hidden="false" book="Hordes Primal MK II" page="35">
@@ -2505,11 +3134,31 @@
       <modifiers/>
     </rule>
     <rule id="208d51c2-4788-7c29-9489-4d800d63a281" name="Diversionary Tactic (*Action)" hidden="false" book="Forces of Hordes - Minions" page="81">
-      <description>Center a 4" AOE on Rorsh. Models in th AOE other Than Rorsh and Brine suffer a POW 6 blast damage roll. After these damage rolls are resolved, Rorsh can make a full advance. If Brine was also in the AOE, it can make a full advance as well. They cannot be targeted by free strikes during this movement.</description>
+      <description>Center a 4&quot; AOE on Rorsh. Models in th AOE other Than Rorsh and Brine suffer a POW 6 blast damage roll. After these damage rolls are resolved, Rorsh can make a full advance. If Brine was also in the AOE, it can make a full advance as well. They cannot be targeted by free strikes during this movement.</description>
       <modifiers/>
     </rule>
     <rule id="f798c3d5-1102-6dd9-a911-7bdc275757fe" name="Draconic Consort" hidden="false" book="Gargantuans" page="111">
       <description>Thi moel is not a warlock but has the following warlock special rules: Battlegroup Commander, Control Area, Damage Transference, Forcing, Fury Manipulation, Healing, and Spellcaster. This model can have only non-character Faction lesser warbeasts in its battlegroup.</description>
+      <modifiers/>
+    </rule>
+    <rule id="7072-d81c-84ac-9c6a" name="Drang: Farrow Warlock" hidden="false" book="Domination" page="88">
+      <description>Refer to page 88.</description>
+      <modifiers/>
+    </rule>
+    <rule id="94e0-6870-c775-8660" name="Drang: Goad" hidden="false" book="Domination" page="88">
+      <description>Refer to page 88.</description>
+      <modifiers/>
+    </rule>
+    <rule id="3c91-1b09-57e0-e460" name="Drang: Pack hunters" hidden="false" book="Domination" page="88">
+      <description>Refer to page 88.</description>
+      <modifiers/>
+    </rule>
+    <rule id="b2d5-6f50-b028-a13c" name="Drang: Shortsighted" hidden="false" book="Domination" page="88">
+      <description>Refer to page 88.</description>
+      <modifiers/>
+    </rule>
+    <rule id="d5f2-d1ab-94b0-a2d6" name="Drange: Struggle of Wills" hidden="false" book="Domination" page="88">
+      <description>Refer to page 88.</description>
       <modifiers/>
     </rule>
     <rule id="987ab36c-e05e-68b0-d13e-22d9ca6a9791" name="Duck" hidden="false" book="Forces of Hordes - Minions" page="40">
@@ -2537,7 +3186,10 @@
       <modifiers/>
     </rule>
     <rule id="c3c8df42-988d-03b0-ee07-5d437f271328" name="Field Marshal (Aggressive)" hidden="false" book="Gargantuans" page="111">
-      <description>Models in this model's battlegroup gain Aggressive. (A model with Aggrsive can run or charge without spending focus or being forced.)</description>
+      <description>Models in this model&apos;s battlegroup gain Aggressive. (A model with Aggrsive can run or charge without spending focus or being forced.)</description>
+      <modifiers/>
+    </rule>
+    <rule id="bbfb-398a-4577-85ac" name="Finisher" hidden="false" book="Domination">
       <modifiers/>
     </rule>
     <rule id="0b98debc-b835-c33d-41a5-47260bb34f30" name="Flank (Lug)" hidden="false" book="Gargantuans" page="111">
@@ -2546,6 +3198,9 @@
     </rule>
     <rule id="3ddc945e-f75e-4b8a-f2e1-ccb4ae31f748" name="Flight" hidden="false" book="Forces of Hordes - Legion of Everblight" page="48">
       <description>This model can advance through terrain and obstacles without penalty and can advance through obstructions and other models if it has enough movemnt to move completely past them. This model ignores intervening models when declaring its charge target.</description>
+      <modifiers/>
+    </rule>
+    <rule id="00a7-1b07-76e9-0e44" name="Full Boar" hidden="false" book="Domination">
       <modifiers/>
     </rule>
     <rule id="97789744-5fe5-47d6-d70d-f8f00321c102" name="Gang Fighter" hidden="false" book="Forces of Hordes - Minions" page="62">
@@ -2561,12 +3216,12 @@
       <description>This model does not sufer blast damage. Friendly models B2B with it do not suffer blast damage.</description>
       <modifiers/>
     </rule>
-    <rule id="3b3063ad-db80-8f06-075b-1b52d906b221" name="Gross Anatomy" hidden="false" book="Domination" page="80">
+    <rule id="3b3063ad-db80-8f06-075b-1b52d906b221" name="Gross Anatomy" hidden="false" book="Domination" page="80,90">
       <description>During its activation, this model can spend corpse token to heal damage. For each corpse token spent remove d3 damage from this model.</description>
       <modifiers/>
     </rule>
     <rule id="5e6058fb-90ea-a457-dbc7-66469fd1147a" name="Gunfighter" hidden="false" book="Hordes Primal MK II" page="33">
-      <description>This model is a gunfighter. The gunfighter has a melee range of 0.5" and can make ranged attacks targeting models in its melee range.</description>
+      <description>This model is a gunfighter. The gunfighter has a melee range of 0.5&quot; and can make ranged attacks targeting models in its melee range.</description>
       <modifiers/>
     </rule>
     <rule id="24655d4c-5048-934f-381a-d836fd31a680" name="Hangover" hidden="false" book="Forces of Hordes - Minions" page="32">
@@ -2578,7 +3233,7 @@
       <modifiers/>
     </rule>
     <rule id="02de97f4-99e7-5fef-067a-3a480277e663" name="Herding" hidden="false" book="Domination" page="76">
-      <description>While this model is in its warlock's control area, the warlock can force, leach, reave, heal, and transfer damage to the warbeasts in its battlegroup that are in this model's command range.</description>
+      <description>While this model is in its warlock&apos;s control area, the warlock can force, leach, reave, heal, and transfer damage to the warbeasts in its battlegroup that are in this model&apos;s command range.</description>
       <modifiers/>
     </rule>
     <rule id="20647711-2c73-e59a-fe43-6d40d880a3e3" name="Hunter" hidden="false" book="Forces of Hordes - Legion of Everblight">
@@ -2586,7 +3241,7 @@
       <modifiers/>
     </rule>
     <rule id="bde07f71-2600-4210-0c17-e69a68827800" name="Huntsman" hidden="false" book="Gargantuans" page="110">
-      <description>After deployment but before the first player's turn, choose an enemy model/unit to be this unit's prey, each model in its unit beginning its activation within 10" of the prey gains +2" movement that activation. While this model is in play, models in its unit gain +2 to attack and damage rolls against the prey. When the prey is destroyed or removed from play, choose another model/unit as the prey.</description>
+      <description>After deployment but before the first player&apos;s turn, choose an enemy model/unit to be this unit&apos;s prey, each model in its unit beginning its activation within 10&quot; of the prey gains +2&quot; movement that activation. While this model is in play, models in its unit gain +2 to attack and damage rolls against the prey. When the prey is destroyed or removed from play, choose another model/unit as the prey.</description>
       <modifiers/>
     </rule>
     <rule id="21be4179-2a42-15df-3ac2-a8bffe09dd62" name="Hyper Regeneratoin" hidden="false" book="Domination" page="70">
@@ -2609,6 +3264,9 @@
       <description>This model does not suffer cold damge.</description>
       <modifiers/>
     </rule>
+    <rule id="b316-dc10-9d63-2277" name="Impervios Flesh" hidden="false" book="Domination">
+      <modifiers/>
+    </rule>
     <rule id="63966615-88bf-94be-d96d-276b6eca3e30" name="Incorporeal" hidden="false" book="Hordes Primal MK II" page="34">
       <description>This model can move through rough terrain and obstacles without penalty.  It can move through obstructions and other models if it has enough movement to move completely past them.</description>
       <modifiers/>
@@ -2618,15 +3276,15 @@
       <modifiers/>
     </rule>
     <rule id="55a7a595-4fd2-8509-b859-8c0b0ae770e8" name="Inspiration (Farrow)" hidden="false" book="Forces of Hordes - Minions" page="74">
-      <description>Friendly Farrow models/units in this model's command range never and immediately rally.</description>
+      <description>Friendly Farrow models/units in this model&apos;s command range never and immediately rally.</description>
       <modifiers/>
     </rule>
     <rule id="5ab614b6-cb58-1f14-6a0a-aa3fa963ade8" name="Iron Zeal" hidden="false" book="Domination" page="78">
-      <description>Once per game during its unit's activation, this model can use Iron Zeal. For one round, while in formation models in this unit gain +4 ARM and cannot become stationary or be knocked down.</description>
+      <description>Once per game during its unit&apos;s activation, this model can use Iron Zeal. For one round, while in formation models in this unit gain +4 ARM and cannot become stationary or be knocked down.</description>
       <modifiers/>
     </rule>
     <rule id="47c180aa-add2-c141-9505-17d2928bde4b" name="Jump" hidden="false" book="">
-      <description>After using its normal movement to make a ful advance but before performing an action, you can place thsi model anywhere completely within 5" of its current location. Any effects that prevent it from charging also prevent it from using Jump.</description>
+      <description>After using its normal movement to make a ful advance but before performing an action, you can place thsi model anywhere completely within 5&quot; of its current location. Any effects that prevent it from charging also prevent it from using Jump.</description>
       <modifiers/>
     </rule>
     <rule id="1a946b96-d57d-3aab-225d-e956dcb6d6e2" name="Lesser Warbeast" hidden="false" book="">
@@ -2638,7 +3296,7 @@
       <modifiers/>
     </rule>
     <rule id="13947fae-d41f-d4dd-c68b-530ca84a7a57" name="Limited Battlegrouop (Skarath)" hidden="false" book="Forces of Hordes - Minons" page="34">
-      <description>The only warbeast thta can be in this model's battlegroup is Skarath.</description>
+      <description>The only warbeast thta can be in this model&apos;s battlegroup is Skarath.</description>
       <modifiers/>
     </rule>
     <rule id="baad9a5e-ea83-201b-ad39-67517e0e9768" name="Magical Weapon" hidden="false" book="Hordes Primal MK II" page="68">
@@ -2714,7 +3372,7 @@ Attacks made with magical weapons are not magic attacks.</description>
       <modifiers/>
     </rule>
     <rule id="cd0ba61c-b2b9-df88-715f-4e67e8f38fa7" name="Open Fist" hidden="false" book="Hordes Primal MK II" page="36">
-      <description>This weapon is an Open Fist. A warbeast's Open Fist enables it to make certain power attacks. A warbeast with an Open Fist can make arm lock, headlock, and throw power attacks; a warbeast with two Open Fists can also make double-hand throw power attacks.s</description>
+      <description>This weapon is an Open Fist. A warbeast&apos;s Open Fist enables it to make certain power attacks. A warbeast with an Open Fist can make arm lock, headlock, and throw power attacks; a warbeast with two Open Fists can also make double-hand throw power attacks.s</description>
       <modifiers/>
     </rule>
     <rule id="09731aa7-1624-926c-be27-f85ac902e751" name="Pain Response" hidden="false" book="Forces of Hordes - Minions" page="83">
@@ -2730,7 +3388,7 @@ Attacks made with magical weapons are not magic attacks.</description>
       <modifiers/>
     </rule>
     <rule id="8c1b2ab5-c715-46f9-29e5-a3c1f1443b44" name="Pigheaded" hidden="false" book="Forces of Hordes - Minions" page="83">
-      <description>If this model is destroyed by an enemy attack or if Rorsh is destroyed or removed from play by an enemy attack, before this model is removed from the table it can advance up to 3" and make one melee attack it ignores the effects of lost aspects. It cannot be targeted b free strikes during this movement.</description>
+      <description>If this model is destroyed by an enemy attack or if Rorsh is destroyed or removed from play by an enemy attack, before this model is removed from the table it can advance up to 3&quot; and make one melee attack it ignores the effects of lost aspects. It cannot be targeted b free strikes during this movement.</description>
       <modifiers/>
     </rule>
     <rule id="1a4a8bd4-d66f-9d2e-f9b9-676c3783283f" name="Power Attack Trample" hidden="false" book="Gargantuans" page="106">
@@ -2738,7 +3396,7 @@ Attacks made with magical weapons are not magic attacks.</description>
       <modifiers/>
     </rule>
     <rule id="e415f9d0-6450-3531-c12e-e0f089ce0785" name="Prayers (Farrow Brigands)" hidden="false" book="Forces of Hordes - Minions" page="79">
-      <description>The Leader of this unit can recite one of the following prayers each turn anytime during its unit's activation. Each model in this unit gains the benefits listed.
+      <description>The Leader of this unit can recite one of the following prayers each turn anytime during its unit&apos;s activation. Each model in this unit gains the benefits listed.
 
 • Heroic Call - Affected models gain Fearless and Tough for one round.
 
@@ -2749,7 +3407,7 @@ Attacks made with magical weapons are not magic attacks.</description>
       <modifiers/>
     </rule>
     <rule id="3abeca6a-7cab-35a4-e0f5-df6ee2c599c2" name="Prayers (Gatorman Posse)" hidden="false" book="Forces of Hordes - Minions" page="60">
-      <description>The Leader of this unit can recite one of the following prayers each turn anytime during its unit's activation. Each model in this unit gains the benefits listed.
+      <description>The Leader of this unit can recite one of the following prayers each turn anytime during its unit&apos;s activation. Each model in this unit gains the benefits listed.
 
 • Cold Blood - Affected models can reroll missed attack rolls against living models this turn. Each roll can be rerolled only once as a result of Cold Blood.
 
@@ -2759,7 +3417,7 @@ Attacks made with magical weapons are not magic attacks.</description>
       <modifiers/>
     </rule>
     <rule id="58770fbb-842e-643a-a28a-da6a21b47e5a" name="Prey" hidden="false">
-      <description>After deployment but before the first player's turn, choose an enemy model/unit to be this model/unit's prey. this model gains +2 to attack and damage rolls against its prey. When this model begins its activation within 10" of its prey. it gains +2" movement that activation. When the prey is destroyed or removed from play, choose another model/unit to be the prey.</description>
+      <description>After deployment but before the first player&apos;s turn, choose an enemy model/unit to be this model/unit&apos;s prey. this model gains +2 to attack and damage rolls against its prey. When this model begins its activation within 10&quot; of its prey. it gains +2&quot; movement that activation. When the prey is destroyed or removed from play, choose another model/unit to be the prey.</description>
       <modifiers/>
     </rule>
     <rule id="4ea3e78b-ded0-e42e-60dd-a026298fa717" name="Primal Magic" hidden="false" book="Gargantuans" page="108">
@@ -2771,7 +3429,7 @@ Attacks made with magical weapons are not magic attacks.</description>
       <modifiers/>
     </rule>
     <rule id="9f57c31f-6d11-3ee6-9128-9c1034f82be9" name="Quick Draw" hidden="false" book="Domination" page="72">
-      <description>Once during your opponent's turn, when an enemy model within 10" of this model that is in its LOS targets this model with ranged attack, this model can make a ranged attck against the enemy model before it makes its attack roll. If this model's ranged attack hits, the enem model suffers no damage but its attack automatically misses.</description>
+      <description>Once during your opponent&apos;s turn, when an enemy model within 10&quot; of this model that is in its LOS targets this model with ranged attack, this model can make a ranged attck against the enemy model before it makes its attack roll. If this model&apos;s ranged attack hits, the enem model suffers no damage but its attack automatically misses.</description>
       <modifiers/>
     </rule>
     <rule id="d9a68ccc-b7c8-b4e4-d061-73354636fef8" name="Reconnaissance (*Action)" hidden="false" book="Forces of Hordes - Minions" page="38">
@@ -2787,7 +3445,7 @@ Attacks made with magical weapons are not magic attacks.</description>
       <modifiers/>
     </rule>
     <rule id="20269789-6503-488d-77bc-e7425e5768e2" name="Serenity" hidden="false" book="Domination" page="72">
-      <description>At the begining of your Control Phase, before leaching, you can remove 1 fury point from a friendly Faction warbeast within 1" of this model.</description>
+      <description>At the begining of your Control Phase, before leaching, you can remove 1 fury point from a friendly Faction warbeast within 1&quot; of this model.</description>
       <modifiers/>
     </rule>
     <rule id="d5363472-82c6-edae-e91a-5d579810036f" name="Serpentine" hidden="false" book="Forces of Hordes - Minions" page="37">
@@ -2804,7 +3462,7 @@ Attacks made with magical weapons are not magic attacks.</description>
       <modifiers/>
     </rule>
     <rule id="bb27e99f-5b35-e54e-6363-b5d00303fc98" name="Souie!" hidden="false" book="Forces of Hordes - Minions" page="81">
-      <description>If Brine is outside this model's control area during your Control Phase, before you models leach fury Brine can make a full advance directly toward this model.</description>
+      <description>If Brine is outside this model&apos;s control area during your Control Phase, before you models leach fury Brine can make a full advance directly toward this model.</description>
       <modifiers/>
     </rule>
     <rule id="21c1693c-96be-ece4-53b3-d5e75b311a44" name="Spell Ward" hidden="false">
@@ -2815,19 +3473,30 @@ Attacks made with magical weapons are not magic attacks.</description>
       <modifiers/>
     </rule>
     <rule id="ce0d40c3-081e-b4a9-7c10-9235c7451950" name="Sprint" hidden="false" book="Forces of Hordes - Legion of Everblight">
-      <description>At the end of this model's activation, if it destroyed one or more enemy models with melee attacks this activation it can make a full advance.</description>
+      <description>At the end of this model&apos;s activation, if it destroyed one or more enemy models with melee attacks this activation it can make a full advance.</description>
       <modifiers/>
     </rule>
     <rule id="aa16b9c3-ace9-d8c9-0367-118d75968827" name="Standard bearer" hidden="false" book="Hordes Primal MK II" page="34">
       <description>This model is a standard bearer.</description>
       <modifiers/>
     </rule>
+    <rule id="4139-a70b-2274-56f7" name="Steady" hidden="false" book="Domination">
+      <modifiers/>
+    </rule>
     <rule id="5df7a975-be60-19ff-331c-41aaaeced0a7" name="Stealth" hidden="false" book="Hordes Primal MK II" page="34">
-      <description>Ranged and magic attacks declared against this model when the point of orgin of the attack is greater than 5" away automatically miss.</description>
+      <description>Ranged and magic attacks declared against this model when the point of orgin of the attack is greater than 5&quot; away automatically miss.</description>
+      <modifiers/>
+    </rule>
+    <rule id="894b-bb34-5bc4-91e5" name="Strum: Struggle of Wills" hidden="false" book="Domination" page="88">
+      <description>Refer to page 88.</description>
+      <modifiers/>
+    </rule>
+    <rule id="7e43-de76-d455-08ba" name="Sturm: Farrow Warlock" hidden="false" book="Domination" page="88">
+      <description>Refer to page 88.</description>
       <modifiers/>
     </rule>
     <rule id="126eb320-89f4-82cf-21c6-7b882af379e5" name="Swift Hunter" hidden="false">
-      <description>When this model destorys an enemy model with a normal ranged attack, immediately after the attack is resovled it can advanced up to 2".</description>
+      <description>When this model destorys an enemy model with a normal ranged attack, immediately after the attack is resovled it can advanced up to 2&quot;.</description>
       <modifiers/>
     </rule>
     <rule id="38446c5e-65ed-e69a-b962-dc213a722041" name="Tactics: Relentless Charge " hidden="false" book="Gargantuans" page="110">
@@ -2838,12 +3507,12 @@ Attacks made with magical weapons are not magic attacks.</description>
       <description>Models in this unit gain Set Defense. (A model in the front arc of a model with Set Defense suffers -2 on charge, slam power attack, and impact attack rolls against the model with Set Defense.)</description>
       <modifiers/>
     </rule>
-    <rule id="5f770008-d674-b09e-edbb-65dc86f256ff" name="Take Down" hidden="false" book="Forces of Hordes - Minions" page="38">
+    <rule id="5f770008-d674-b09e-edbb-65dc86f256ff" name="Take Down" hidden="false" book="Forces of Hordes - Minions, Domination">
       <description>Models disabled by a melee attack made by this model cannot make a Tough roll. Models boxed by a melee attack made by this model are removed from play.</description>
       <modifiers/>
     </rule>
     <rule id="bee5e6b1-bcf4-349f-deca-18e988bfd0bc" name="Telemetry" hidden="false" book="Gargantuans" page="108">
-      <description>Other friendly Faction models gain +2 to magic attack rolls against enemy models within 5" of this model.</description>
+      <description>Other friendly Faction models gain +2 to magic attack rolls against enemy models within 5&quot; of this model.</description>
       <modifiers/>
     </rule>
     <rule id="0d331277-2786-797d-84cd-472d4e205fdb" name="Terror" hidden="false" book="Hordes Primal MK II" page="34">
@@ -2855,7 +3524,7 @@ Attacks made with magical weapons are not magic attacks.</description>
       <modifiers/>
     </rule>
     <rule id="220e756b-28c7-339b-2025-405b812e54a5" name="Torpid" hidden="false" book="Forces of Hordes - Minions" page="56">
-      <description>If this model destorys a living enemy model with a normal melee attack, this model's activation ends immediately after the attack is resolved and you can remove 1 fury point from this model.</description>
+      <description>If this model destorys a living enemy model with a normal melee attack, this model&apos;s activation ends immediately after the attack is resolved and you can remove 1 fury point from this model.</description>
       <modifiers/>
     </rule>
     <rule id="33d0e5dc-aa1b-8b03-c4e7-fbfef9a4646a" name="Tough" hidden="false" book="Hordes Primal MK II" page="34">
@@ -2863,7 +3532,7 @@ Attacks made with magical weapons are not magic attacks.</description>
       <modifiers/>
     </rule>
     <rule id="92ac7d35-bd3d-9bdc-950f-5b121814d67c" name="Unconquerable" hidden="false" book="Domination" page="70">
-      <description>While in this model's command range, friendly Faction warrior models gain Unyielding. (While engaging an enemy model, a model with Unyiedling gains +2 ARM.)</description>
+      <description>While in this model&apos;s command range, friendly Faction warrior models gain Unyielding. (While engaging an enemy model, a model with Unyiedling gains +2 ARM.)</description>
       <modifiers/>
     </rule>
     <rule id="1d857562-59bc-02fc-a523-195a55b657c5" name="Undead" hidden="false" book="Hordes Primal MK II" page="34">
@@ -2896,6 +3565,9 @@ Attacks made with magical weapons are not magic attacks.</description>
     </rule>
     <rule id="8e68e487-7a76-9cdb-dbb4-2af0ac48d773" name="Wrastler" hidden="false" book="Forces of Hordes - Minions" page="57">
       <description>While knocked down, this model can make</description>
+      <modifiers/>
+    </rule>
+    <rule id="433e-0e83-0487-28da" name="Medicate (*Action)" hidden="false" book="Domination" page="96">
       <modifiers/>
     </rule>
   </sharedRules>
@@ -2977,6 +3649,39 @@ Attacks made with magical weapons are not magic attacks.</description>
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="435b-6527-6c7c-dac9" profileTypeId="5370656c6c23232344415441232323" name="Death Pact" hidden="false" book="Domination" page="86">
+      <characteristics>
+        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+        <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
+        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="0521-39f5-cbb0-c07b" profileTypeId="5370656c6c23232344415441232323" name="Deflection" hidden="false" book="Domination" page="88">
+      <characteristics>
+        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
+        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="CTRL"/>
+        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+        <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="81d9-d1ca-b31b-97c4" profileTypeId="5370656c6c23232344415441232323" name="Elasticity" hidden="false" book="Domination" page="92">
+      <characteristics>
+        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+        <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="29c22196-e1ff-0a3d-1760-7fb943706f2f" profileTypeId="5370656c6c23232344415441232323" name="Flesh Eater" hidden="false" book="Forces of Hordes - Minions" page="52">
       <characteristics>
         <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
@@ -3043,6 +3748,39 @@ Attacks made with magical weapons are not magic attacks.</description>
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="7bab-d967-7e14-35ba" profileTypeId="5370656c6c23232344415441232323" name="Killing Ground" hidden="false" book="Domination" page="88">
+      <characteristics>
+        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
+        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="CTRL"/>
+        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+        <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="23c9-826d-f90d-eed8" profileTypeId="5370656c6c23232344415441232323" name="Lightning Strike" hidden="false" book="Domination" page="91">
+      <characteristics>
+        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+        <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="0a1d-bd05-52d2-c697" profileTypeId="5370656c6c23232344415441232323" name="Malediction" hidden="false" book="Domination" page="86">
+      <characteristics>
+        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
+        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="*"/>
+        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="_"/>
+        <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
+        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="8d52ee4c-c9f1-d58d-fda5-f76af5b07dc2" profileTypeId="5370656c6c23232344415441232323" name="Massacre" hidden="false" book="Forces of Hordes - Minions" page="77">
       <characteristics>
         <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
@@ -3073,6 +3811,17 @@ Attacks made with magical weapons are not magic attacks.</description>
         <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
         <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
         <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="767b-9175-d91e-99cd" profileTypeId="5370656c6c23232344415441232323" name="Obliteration" hidden="false" book="Domination" page="88">
+      <characteristics>
+        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="4"/>
+        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="10"/>
+        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="4"/>
+        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="15"/>
+        <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="YES"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -3164,6 +3913,17 @@ Attacks made with magical weapons are not magic attacks.</description>
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="731f-c937-8859-fa89" profileTypeId="5370656c6c23232344415441232323" name="Revive" hidden="false" book="Domination" page="86">
+      <characteristics>
+        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
+        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="CTRL"/>
+        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+        <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="c3f8ca64-02b5-a40d-bea1-97d7e86c9029" profileTypeId="5370656c6c23232344415441232323" name="RIFT" hidden="false" book="Forces of Hordes - Minions" page="74">
       <characteristics>
         <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
@@ -3241,6 +4001,50 @@ Attacks made with magical weapons are not magic attacks.</description>
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="be51-bb14-c34c-d120" profileTypeId="5370656c6c23232344415441232323" name="Swarm" hidden="false" book="Domination" page="90">
+      <characteristics>
+        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
+        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+        <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="a442-eb4d-a08e-ae38" profileTypeId="5370656c6c23232344415441232323" name="Telekinesis" hidden="false" book="Domination" page="88">
+      <characteristics>
+        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="8"/>
+        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+        <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="*"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="29d6-e714-a9e3-e123" profileTypeId="5370656c6c23232344415441232323" name="Venom" hidden="false" book="Domination" page="86">
+      <characteristics>
+        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SP 8"/>
+        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="10"/>
+        <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="YES"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="cbf0-f7b6-da96-e548" profileTypeId="5370656c6c23232344415441232323" name="Vision" hidden="false" book="Domination" page="88">
+      <characteristics>
+        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+        <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
+        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="d7d6b5f9-544f-8ee2-020b-efbe40be3e83" profileTypeId="5370656c6c23232344415441232323" name="Voodo Doll" hidden="false" book="Forces of Hordes - Minions" page="63">
       <characteristics>
         <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
@@ -3257,6 +4061,17 @@ Attacks made with magical weapons are not magic attacks.</description>
         <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
         <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
         <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="CTRL"/>
+        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+        <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
+        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="eac4-8ca1-629f-a72b" profileTypeId="5370656c6c23232344415441232323" name="Watcher" hidden="false" book="Domination" page="88">
+      <characteristics>
+        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
+        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
+        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
         <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
         <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
         <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
