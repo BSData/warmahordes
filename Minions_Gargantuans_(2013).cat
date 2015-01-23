@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7de19a40-913f-934b-e5f9-5f5d464ce1ad" revision="1" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="3" battleScribeVersion="1.15" name="Minions_Domination_(2011)" books="Forces of Hordes - Minions, Domination" authorName="Matt (Halkken)" authorContact="deltao@msn.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7de19a40-913f-934b-e5f9-5f5d464ce1ad" revision="2" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="3" battleScribeVersion="1.15" name="Minions_Gargantuans_(2013)" books="Forces of Hordes - Minions, Domination, Gargantuans" authorName="Matt (Halkken)" authorContact="deltao@msn.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="babeebfd-e63a-8eb9-b3e8-6d75059c3256" name="Alten Ashley" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Minions" page="26">
       <entries/>
@@ -1327,6 +1327,71 @@
         </link>
       </links>
     </entry>
+    <entry id="e3b5-7c0d-59e2-1269" name="Gatorman Witch Doctor" points="3.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="95">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="7e25-74b5-94c0-7436" name="Magic Ability (7)" hidden="false" book="Domination" page="95">
+          <description>• Dominate Undead (*Attack)
+• Sacrificial Strike (*Action)
+• Zombify (*Action)
+</description>
+          <modifiers/>
+        </rule>
+        <rule id="bb2b-ea4f-9d3a-bf65" name="Sacral Blade: Magical Weapon" hidden="false" book="Domination" page="95">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="77e1-d964-c73f-a57b" profileTypeId="54726f6f70657223232344415441232323" name="Gatorman Witch Doctor" hidden="false" book="Domination" page="95">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="7"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="3"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="16"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="e747-762e-e908-b61c" profileTypeId="576561706f6e23232344415441232323" name="Bite" hidden="false" book="Domination" page="95">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="5"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="11"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="e0d7-5196-c143-59d2" profileTypeId="576561706f6e23232344415441232323" name="Sacral Blade" hidden="false" book="Domination" page="95">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="11"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="55f1-e63f-b601-48b2" targetId="1c1beb4a-e34e-59df-797c-ab79b68069b2" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="87a9-096b-57c7-8f91" targetId="07eda051-a145-4f77-23c3-1dbfa4d8e24b" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2c3e-3ec2-99f2-9d6f" targetId="bdac-34f8-86bc-6c5b" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="9ab4f9d4-54b6-96a4-d64e-7e2f4ef43dd9" name="Gun Boar" points="5.0" categoryId="576172626561737423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Minions" page="76">
       <entries/>
       <entryGroups/>
@@ -1781,6 +1846,213 @@
           <modifiers/>
         </link>
         <link id="53b7-e60f-156e-8e8e" targetId="29d6-e714-a9e3-e123" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="bdcb-b1e9-9417-f353" name="Midas" points="-5.0" categoryId="5761726c6f636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Gargantuans" page="122">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="d0cf-1933-9cbe-2c10" name="Feat: Pet Cemetery" hidden="false" book="Gargantuans" page="122">
+          <description>Refer to page 122.</description>
+          <modifiers/>
+        </rule>
+        <rule id="081a-254e-b8f4-01d8" name="Curse [Bone Grinder]" hidden="false" book="Gargantuans" page="122">
+          <modifiers/>
+        </rule>
+        <rule id="b215-0b38-b2f3-29d2" name="Bone Saw: Magical Weapon" hidden="false" book="Gargantuans" page="122">
+          <modifiers/>
+        </rule>
+        <rule id="58ec-b117-571d-3457" name="Bone Grinder: Soul Food" hidden="false" book="Gargantuans" page="122">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="2879-a93a-71be-850a" profileTypeId="5761726c6f636b23232344415441232323" name="Midas" hidden="false" book="Gargantuans" page="122">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="7"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="14"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="16"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
+            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="6"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="16"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="a3b6-6d1c-7b10-c6d4" profileTypeId="576561706f6e23232344415441232323" name="Bone Saw" hidden="false" book="Gargantuans" page="122">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="6"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="13"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="0eb0-4cf6-9871-d2d6" targetId="1c1beb4a-e34e-59df-797c-ab79b68069b2" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5b55-72f3-2d48-22c6" targetId="e6f58ffa-28e1-83a7-5a7f-faa0734ffe54" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4e8f-1328-c6a6-aaba" targetId="8e65f3fa-9e03-2dbb-bb8d-4ff654d154ac" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9e48-0968-6809-d2e8" targetId="ce39-af3c-964d-7e8f" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a8c9-adbb-f0e0-08b9" targetId="c31c-38d7-e57c-5785" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="5805-d80f-ac0c-77fe" targetId="0cd3-af80-42b5-e189" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="2564-164d-29d0-b500" targetId="103c-a7c6-138c-b0c7" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="167f-5a99-1637-f151" targetId="d5ddea46-a801-8233-0f34-c1c79b88fa42" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="5295-6d04-7b87-c7ca" name="Rask" points="-6.0" categoryId="5761726c6f636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Gargantuans" page="124">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="96bf-d3c6-a6a3-c23d" name="Feat: Dark Waters" hidden="false" book="Gargantuans" page="124">
+          <modifiers/>
+        </rule>
+        <rule id="80ed-a5a5-b49c-61bb" name="Call to Sacrifice [Bog Trog]" hidden="false" book="Gargantuans" page="124">
+          <modifiers/>
+        </rule>
+        <rule id="6b19-920d-11f6-1661" name="Trident Cannon: Magical Weapon" hidden="false" book="Gargantuans" page="124">
+          <modifiers/>
+        </rule>
+        <rule id="9c64-37a2-51b4-7321" name="Trident Cannon: Ammo Type" hidden="false" book="Gargantuans" page="124">
+          <description>• Arcane Interference
+• Energy Siphon
+• Paralysis</description>
+          <modifiers/>
+        </rule>
+        <rule id="04ca-b47c-ef4d-ba99" name="Sacral Blade: Magical Weapon" hidden="false" book="Gargantuans" page="124">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="c27b-81ff-5b45-fb1e" profileTypeId="5761726c6f636b23232344415441232323" name="Rask" hidden="false" book="Gargantuans" page="124">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="7"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="7"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="15"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="15"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="5"/>
+            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="6"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="15"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="cdc8-a161-fd97-a40a" profileTypeId="576561706f6e23232344415441232323" name="Trident Cannon" hidden="false" book="Gargantuans" page="124">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="10"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="27bf-8536-a0b3-15c8" profileTypeId="576561706f6e23232344415441232323" name="Sacral Blade" hidden="false" book="Gargantuans" page="124">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="11"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="01e4-ca82-90d7-d058" targetId="1c1beb4a-e34e-59df-797c-ab79b68069b2" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="70c8-034f-d17a-e5b7" targetId="07eda051-a145-4f77-23c3-1dbfa4d8e24b" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="752f-2979-5d3a-5ab3" targetId="0e846fe2-c33a-938b-b0d0-ef4d0cc497fe" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2525-9632-491c-3ecc" targetId="092a-2093-7164-9945" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="6ae7-7eb8-62c0-191e" targetId="6563-ac31-e47c-d66f" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="6723-8882-7d0c-a50e" targetId="858d-8b1f-d244-493f" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="b5bb-47ff-3e85-7702" targetId="59ef-8f50-f263-d9b5" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="5906-2ad0-aafe-f6af" name="Razor Boar" points="2.0" categoryId="576172626561737423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Gargantuans" page="126">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="e261-0604-8205-5f95" name="Ripping Tucks: Brutal Charge" hidden="false" book="Gargantuans" page="126">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="22b5-66a8-357a-6114" profileTypeId="576172626561737423232344415441232323" name="Razor Boar" hidden="false" book="Gargantuans" page="126">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="5"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="3"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="14"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="5"/>
+            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="2"/>
+            <characteristic characteristicId="5468726573686f6c6423232344415441232323" name="Threshold" value="6"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="4060-b1f9-f82c-58ae" profileTypeId="576561706f6e23232344415441232323" name="Ripping Tusks" hidden="false" book="Gargantuans" page="126">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="10"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="a679-5ea4-ec8e-5db9" targetId="61ae4bc2-bbb2-77ee-d2e8-ba8f3d883485" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ebb2-0047-e132-068c" targetId="1a946b96-d57d-3aab-225d-e956dcb6d6e2" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6bd7-029c-bd95-1e28" targetId="5599-091a-bd8e-a58f" linkType="profile">
           <modifiers/>
         </link>
       </links>
@@ -2378,6 +2650,59 @@
         </link>
       </links>
     </entry>
+    <entry id="47cb-6498-bbdc-4374" name="Targ" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="96">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="0ce9-12ce-8128-8ccd" name="Ancillary Attack (*Action)" hidden="false" book="Domination" page="96">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="3d65-5bb8-1ef2-3dba" profileTypeId="54726f6f70657223232344415441232323" name="Targ" hidden="false" book="Domination" page="96">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="7"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="5"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="14"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="7"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="2379-ef31-9482-47f4" profileTypeId="576561706f6e23232344415441232323" name="Butcher Knife" hidden="false" book="Domination" page="96">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="10"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="4915-08dd-d84d-6aeb" targetId="1c1beb4a-e34e-59df-797c-ab79b68069b2" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0df3-7026-408c-ab36" targetId="33d0e5dc-aa1b-8b03-c4e7-fbfef9a4646a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="dbe6-45c6-70eb-df7c" targetId="84f82b78-04c8-f34b-ed86-6d571c2251c9" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7e83-599c-4bf3-a9ea" targetId="02de97f4-99e7-5fef-067a-3a480277e663" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8df3-cf83-2cf4-6882" targetId="433e-0e83-0487-28da" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="e22828f8-6f54-dba5-82fe-fe61b731b8cf" name="Thrullg" points="3.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Minions" page="25">
       <entries/>
       <entryGroups/>
@@ -2830,95 +3155,108 @@
         </link>
       </links>
     </entry>
-    <entry id="e3b5-7c0d-59e2-1269" name="Gatorman Witch Doctor" points="3.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="95">
+    <entry id="9757-589c-d374-ef9c" name="Gobber Tinker" points="1.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Gargantuans" page="127">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules>
-        <rule id="7e25-74b5-94c0-7436" name="Magic Ability (7)" hidden="false" book="Domination" page="95">
-          <description>• Dominate Undead (*Attack)
-• Sacrificial Strike (*Action)
-• Zombify (*Action)
-</description>
+        <rule id="41a2-5f47-b9a9-8522" name="Mechanikally Adept" hidden="false" book="Gargantuans" page="127">
           <modifiers/>
         </rule>
-        <rule id="bb2b-ea4f-9d3a-bf65" name="Sacral Blade: Magical Weapon" hidden="false" book="Domination" page="95">
+        <rule id="98dc-41e3-218b-1690" name="Point Blank" hidden="false" book="Gargantuans" page="127">
+          <modifiers/>
+        </rule>
+        <rule id="3f5d-e64e-8b59-72cf" name="Repair [8] (*Action)" hidden="false" book="Gargantuans" page="127">
           <modifiers/>
         </rule>
       </rules>
       <profiles>
-        <profile id="77e1-d964-c73f-a57b" profileTypeId="54726f6f70657223232344415441232323" name="Gatorman Witch Doctor" hidden="false" book="Domination" page="95">
+        <profile id="2214-b44b-fbcf-93a8" profileTypeId="54726f6f70657223232344415441232323" name="Gobber Tinker" hidden="false" book="Gargantuans" page="127">
           <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="7"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="3"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="16"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
-            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="8"/>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="4"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="4"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="14"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="12"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="7"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
           </characteristics>
           <modifiers/>
         </profile>
-        <profile id="e747-762e-e908-b61c" profileTypeId="576561706f6e23232344415441232323" name="Bite" hidden="false" book="Domination" page="95">
+        <profile id="ada9-10db-6594-034c" profileTypeId="576561706f6e23232344415441232323" name="Pistol" hidden="false" book="Gargantuans" page="127">
           <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="5"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="11"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="e0d7-5196-c143-59d2" profileTypeId="576561706f6e23232344415441232323" name="Sacral Blade" hidden="false" book="Domination" page="95">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="11"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="8"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="10"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
             <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links>
-        <link id="55f1-e63f-b601-48b2" targetId="1c1beb4a-e34e-59df-797c-ab79b68069b2" linkType="rule">
+        <link id="b6c2-43b2-aa38-bc59" targetId="5a97-2a45-a039-d7c3" linkType="rule">
           <modifiers/>
         </link>
-        <link id="87a9-096b-57c7-8f91" targetId="07eda051-a145-4f77-23c3-1dbfa4d8e24b" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="2c3e-3ec2-99f2-9d6f" targetId="bdac-34f8-86bc-6c5b" linkType="rule">
+        <link id="4579-2951-218f-d147" targetId="1c1beb4a-e34e-59df-797c-ab79b68069b2" linkType="rule">
           <modifiers/>
         </link>
       </links>
     </entry>
-    <entry id="47cb-6498-bbdc-4374" name="Targ" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="96">
+    <entry id="883d-6576-08ab-754f" name="Gatorman Bokor &amp; Bog Trog Swamp Shamblers" points="6.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Gargantuans" page="128">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules>
-        <rule id="0ce9-12ce-8128-8ccd" name="Ancillary Attack (*Action)" hidden="false" book="Domination" page="96">
+        <rule id="be52-dd86-e275-9a81" name="Bokor: Death Magic" hidden="false" book="Gargantuans" page="128">
+          <modifiers/>
+        </rule>
+        <rule id="40a1-a4d6-b9d6-878f" name="Bokor: Magic Ability [6]" hidden="false" book="Gargantuans" page="128">
+          <description>• Hand of Glory (*Attack)</description>
+          <modifiers/>
+        </rule>
+        <rule id="8b23-15c3-3839-a3b7" name="Bokor: Raise Dead" hidden="false" book="Gargantuans" page="128">
+          <description></description>
+          <modifiers/>
+        </rule>
+        <rule id="f6df-8a14-2944-2ab5" name="Swamp Shamblers: Combinded Melee Attack" hidden="false" book="Gargantuans" page="128">
+          <modifiers/>
+        </rule>
+        <rule id="5dd1-fd8d-a948-6464" name="Swamp Shambler: Undead" hidden="false" book="Gargantuans" page="128">
+          <modifiers/>
+        </rule>
+        <rule id="61aa-c5ad-a7f8-ebe0" name="Swamp Shambler: Amphibious" hidden="false" book="Gargantuans" page="128">
           <modifiers/>
         </rule>
       </rules>
       <profiles>
-        <profile id="3d65-5bb8-1ef2-3dba" profileTypeId="54726f6f70657223232344415441232323" name="Targ" hidden="false" book="Domination" page="96">
+        <profile id="1f15-4fae-d35f-07d7" profileTypeId="54726f6f70657223232344415441232323" name="Bokor" hidden="false" book="Gargantuans" page="128">
           <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
             <characteristic characteristicId="53545223232344415441232323" name="STR" value="7"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="5"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="14"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="7"/>
-            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="3"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="12"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="16"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="8"/>
           </characteristics>
           <modifiers/>
         </profile>
-        <profile id="2379-ef31-9482-47f4" profileTypeId="576561706f6e23232344415441232323" name="Butcher Knife" hidden="false" book="Domination" page="96">
+        <profile id="c599-f0fa-53b1-f181" profileTypeId="576561706f6e23232344415441232323" name="Bokor: Bite" hidden="false" book="Gargantuans" page="128">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="5"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="12"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="725f-a46c-80da-a373" profileTypeId="576561706f6e23232344415441232323" name="Bokor: Tail Strike" hidden="false" book="Gargantuans" page="128">
           <characteristics>
             <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
             <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
@@ -2929,21 +3267,42 @@
           </characteristics>
           <modifiers/>
         </profile>
+        <profile id="44f4-9e77-390c-882d" profileTypeId="54726f6f70657223232344415441232323" name="Swamp Shambler" hidden="false" book="Gargantuans" page="128">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="5"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="3"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="10"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="13"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="6"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="eb69-eee1-3582-3b76" profileTypeId="576561706f6e23232344415441232323" name="Swamp Shambler: Claw" hidden="false" book="Gargantuans" page="128">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="2"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="8"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
       </profiles>
       <links>
-        <link id="4915-08dd-d84d-6aeb" targetId="1c1beb4a-e34e-59df-797c-ab79b68069b2" linkType="rule">
+        <link id="35b4-7176-4ce6-642c" targetId="1c1beb4a-e34e-59df-797c-ab79b68069b2" linkType="rule">
           <modifiers/>
         </link>
-        <link id="0df3-7026-408c-ab36" targetId="33d0e5dc-aa1b-8b03-c4e7-fbfef9a4646a" linkType="rule">
+        <link id="806f-0aa4-16ec-2d02" targetId="1825eb84-75bc-45d1-075a-73923524097d" linkType="rule">
           <modifiers/>
         </link>
-        <link id="dbe6-45c6-70eb-df7c" targetId="84f82b78-04c8-f34b-ed86-6d571c2251c9" linkType="rule">
+        <link id="a84f-cf46-2422-138a" targetId="0185cef5-a3c9-603c-100d-c470bee8d29f" linkType="rule">
           <modifiers/>
         </link>
-        <link id="7e83-599c-4bf3-a9ea" targetId="02de97f4-99e7-5fef-067a-3a480277e663" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="8df3-cf83-2cf4-6882" targetId="433e-0e83-0487-28da" linkType="rule">
+        <link id="f748-762b-52ac-4787" targetId="07eda051-a145-4f77-23c3-1dbfa4d8e24b" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -3035,6 +3394,9 @@
     </rule>
     <rule id="b909fea5-5674-7b5a-ff48-8808557496a3" name="Buckler" hidden="false" book="Hordes Primal MK II" page="35">
       <description>This weapon has an integral buckler that gives the model a cumulative +1 ARM bonus. A model does not gain this bonus while the location the buckler is in is being held in a weapon lock or when resolving damage that orgiinates in its back arc.</description>
+      <modifiers/>
+    </rule>
+    <rule id="ce39-af3c-964d-7e8f" name="Butchery" hidden="false" book="Gargantuans" page="122">
       <modifiers/>
     </rule>
     <rule id="ab9f1b48-943b-5dd7-7788-039d101d536c" name="Camouflage" hidden="false">
@@ -3312,6 +3674,9 @@ Attacks made with magical weapons are not magic attacks.</description>
       <description>This model can charge living warrior models without being forced.</description>
       <modifiers/>
     </rule>
+    <rule id="433e-0e83-0487-28da" name="Medicate (*Action)" hidden="false" book="Domination" page="96">
+      <modifiers/>
+    </rule>
     <rule id="de3f0596-2f8d-242d-b217-36c118a900f8" name="Mercenaries (Cryx)" hidden="false" book="Forces of Hordes - Minions" page="63">
       <description>These models will work for Cryx.</description>
       <modifiers/>
@@ -3330,6 +3695,10 @@ Attacks made with magical weapons are not magic attacks.</description>
     </rule>
     <rule id="1d9fdc3d-e2f3-f2b7-9c24-a82c869f6ffa" name="Mercenary (Cryx, Cygnar, and Khador)" hidden="false" book="Forces of Hordes - Minions" page="32">
       <description>This model will work for Cryx, Cygnar, and Khador.</description>
+      <modifiers/>
+    </rule>
+    <rule id="5a97-2a45-a039-d7c3" name="Mercenary (Cygnar and Khador)" hidden="false" book="Gargantuans" page="127">
+      <description>This model will work for Cygnar and Khador.</description>
       <modifiers/>
     </rule>
     <rule id="0c715a29-083a-1063-a879-4bc5d52b4c05" name="Mercenary (Cygnar and Retribution)" hidden="false">
@@ -3567,11 +3936,19 @@ Attacks made with magical weapons are not magic attacks.</description>
       <description>While knocked down, this model can make</description>
       <modifiers/>
     </rule>
-    <rule id="433e-0e83-0487-28da" name="Medicate (*Action)" hidden="false" book="Domination" page="96">
-      <modifiers/>
-    </rule>
   </sharedRules>
   <sharedProfiles>
+    <profile id="092a-2093-7164-9945" profileTypeId="5370656c6c23232344415441232323" name="Admonition" hidden="false" book="Gargantuans" page="124">
+      <characteristics>
+        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+        <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
+        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="60cd00cf-7833-a31f-daed-3bffb7c786a4" profileTypeId="5370656c6c23232344415441232323" name="Aggravator" hidden="false" book="Forces of Hordes - Minions" page="72">
       <characteristics>
         <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
@@ -3583,11 +3960,33 @@ Attacks made with magical weapons are not magic attacks.</description>
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="c31c-38d7-e57c-5785" profileTypeId="5370656c6c23232344415441232323" name="Bad Blood" hidden="false" book="Gargantuans" page="122">
+      <characteristics>
+        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="10"/>
+        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+        <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
+        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="YES"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="ed46194f-fe7b-afde-121c-51c40120d612" profileTypeId="5370656c6c23232344415441232323" name="Batten Down the Hatches" hidden="false" book="Forces of Hordes - Minions" page="74">
       <characteristics>
         <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
         <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
         <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="CTRL"/>
+        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+        <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="0cd3-af80-42b5-e189" profileTypeId="5370656c6c23232344415441232323" name="Battle Lust" hidden="false" book="Gargantuans" page="122">
+      <characteristics>
+        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
+        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
         <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
         <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
         <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
@@ -3612,6 +4011,28 @@ Attacks made with magical weapons are not magic attacks.</description>
         <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
         <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
         <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="YES"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="6563-ac31-e47c-d66f" profileTypeId="5370656c6c23232344415441232323" name="Boundless Charge" hidden="false" book="Gargantuans" page="124">
+      <characteristics>
+        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+        <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="103c-a7c6-138c-b0c7" profileTypeId="5370656c6c23232344415441232323" name="Calamity" hidden="false" book="Gargantuans" page="122">
+      <characteristics>
+        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
+        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="8"/>
+        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+        <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
         <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="YES"/>
       </characteristics>
       <modifiers/>
@@ -3704,6 +4125,17 @@ Attacks made with magical weapons are not magic attacks.</description>
       </characteristics>
       <modifiers/>
     </profile>
+    <profile id="858d-8b1f-d244-493f" profileTypeId="5370656c6c23232344415441232323" name="Fury" hidden="false" book="Gargantuans" page="124">
+      <characteristics>
+        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+        <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
+        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
     <profile id="717abba5-41bd-1fbb-0358-f64aa64872e4" profileTypeId="5370656c6c23232344415441232323" name="Haunting Melody" hidden="false" book="Forces of Hordes - Minions" page="34">
       <characteristics>
         <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
@@ -3715,7 +4147,7 @@ Attacks made with magical weapons are not magic attacks.</description>
       </characteristics>
       <modifiers/>
     </profile>
-    <profile id="d5ddea46-a801-8233-0f34-c1c79b88fa42" profileTypeId="5370656c6c23232344415441232323" name="Hex Blast" hidden="false" book="Forces of Hordes - Minions" page="54">
+    <profile id="d5ddea46-a801-8233-0f34-c1c79b88fa42" profileTypeId="5370656c6c23232344415441232323" name="Hex Blast" hidden="false" book="Forces of Hordes - Minions, Gargantuans" page="54">
       <characteristics>
         <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
         <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="10"/>
@@ -3734,6 +4166,17 @@ Attacks made with magical weapons are not magic attacks.</description>
         <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
         <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
         <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="YES"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="59ef-8f50-f263-d9b5" profileTypeId="5370656c6c23232344415441232323" name="Inhospitable Ground" hidden="false" book="Gargantuans" page="124">
+      <characteristics>
+        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
+        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
+        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="CTRL"/>
+        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+        <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
       </characteristics>
       <modifiers/>
     </profile>
@@ -4031,6 +4474,17 @@ Attacks made with magical weapons are not magic attacks.</description>
         <characteristic characteristicId="504f5723232344415441232323" name="POW" value="10"/>
         <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
         <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="YES"/>
+      </characteristics>
+      <modifiers/>
+    </profile>
+    <profile id="5599-091a-bd8e-a58f" profileTypeId="5370656c6c23232344415441232323" name="Vicious" hidden="false" book="Gargantuans" page="124">
+      <characteristics>
+        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+        <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
       </characteristics>
       <modifiers/>
     </profile>
