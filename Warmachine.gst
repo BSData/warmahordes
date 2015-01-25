@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" battleScribeVersion="1.15" id="b978a3ef-974a-4354-b82d-7965f519d3df" revision="3" name="Warmachine">
+<?xml version="1.0" encoding="UTF-8"?><gameSystem xmlns="http://www.battlescribe.net/schema/gameSystemSchema" battleScribeVersion="1.15" id="b978a3ef-974a-4354-b82d-7965f519d3df" revision="4" name="Warmachine">
 <forceTypes>
 <forceType id="Standard###DATA###" name="Standard">
 <categories>
