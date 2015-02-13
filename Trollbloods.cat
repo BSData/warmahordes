@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="928f-031b-28c3-f734" revision="2" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="4" battleScribeVersion="1.15" name="Trollbloods" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="928f-031b-28c3-f734" revision="3" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="4" battleScribeVersion="1.15" name="Trollbloods" books="Forces of Hordes - Trollbloods" authorName="Obiken" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="babeebfd-e63a-8eb9-b3e8-6d75059c3256" name="Alten Ashley" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Minions" page="26">
       <entries/>
@@ -3430,6 +3430,145 @@
         </link>
       </links>
     </entry>
+    <entry id="49ca-d998-daac-1bfa" name="Janissa Stonetide" points="3.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Trollbloods" page="94">
+      <entries>
+        <entry id="b4b4-408a-9fcd-e931" name="Earthsplitter" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="daac-0c03-b247-28c3" profileTypeId="576561706f6e23232344415441232323" name="Earthsplitter" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="9"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="0e3c-baa8-6657-cdd6" targetId="baad9a5e-ea83-201b-ad39-67517e0e9768" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="3090-a357-c377-51d6" targetId="7b6c-898d-15b3-92d1" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="b2bc-560a-f525-9f89" name="Leadership [Runeshapers]" hidden="false">
+          <description>While in this model&apos;s command range, friendly Runeshaper models gain Force Lock.</description>
+          <modifiers/>
+        </rule>
+        <rule id="c87c-fec6-e558-6487" name="Magic Ability [8]" hidden="false">
+          <description>* Rock Hammer (*Attack) - Rock Hammer is a RNG 8, AOE 3, POW 14 magic attack. On a critical hit, models hit are knocked down.
+* Tectonic shift (*Action) - Choose a table edge. Enemy models currently within 3&quot; of this model are pushed 3&quot; directly toward the chosen table edge in the order you choose.
+* Wall of Stone (*Action) - Place a wall template anywhere completely within 5&quot; of this model where it does not touch a model&apos;s base, an obstruction, or an obstacle. The wall is a linear obstacle that provides cover. Wall of Stone lasts for one round.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="1c70-ec39-34bf-d2da" profileTypeId="54726f6f70657223232344415441232323" name="Stonetide" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="12"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="15"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="f378-fecd-f2d0-6fbd" targetId="33d0e5dc-aa1b-8b03-c4e7-fbfef9a4646a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0643-8daf-e4c5-042f" targetId="bbd8a6eb-2793-1454-fc0f-81ef8aaef586" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="984d-eca9-3d79-4629" targetId="1ea0-a32a-753b-a709" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="1b21-cdc1-d4ca-8501" name="Pyg Burrowers" points="4.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Trollbloods" page="73">
+      <entries>
+        <entry id="bb59-c243-a5fd-9775" name="Leader &amp; 5 Grunts -&gt; Leader &amp; 9 Grunts" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="f4d1-6e84-fdfd-fb2d" name="Tunneling (Order)" hidden="false">
+          <description>Before this unit&apos;s normal movement, replace the unit commander with the tunneling marker, then remove the remaining models in this unit from the table. Remove those that were not in formation from play. Effects on models in this unit expire. Then move the tunneling marker up to 5&quot;. During your next Maintenance Phase, place models in this unit within 5&quot; of the tunneling marker and remove it from the table. Models that cannot be placed are removed from play. This unit cannot receive the Tunneling order if it received it during its last activation.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="2584-d56f-39e5-f6bf" profileTypeId="54726f6f70657223232344415441232323" name="Leader &amp; Grunts" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="5"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="4"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="12"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="7"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="1"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="c804-ea1f-4b07-10b5" profileTypeId="576561706f6e23232344415441232323" name="Slug gun" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="4"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="14"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+        <profile id="22ec-afb3-cf69-263a" profileTypeId="576561706f6e23232344415441232323" name="Hand weapon" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
+            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="8"/>
+            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="3456-f576-b3e6-d17c" targetId="137b368a-ff78-db3d-2fea-5dec4fc6d250" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0efb-311e-d9fc-6845" targetId="33d0e5dc-aa1b-8b03-c4e7-fbfef9a4646a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c00d-0bc7-8e21-01d4" targetId="0bf0-7aed-e9db-f3da" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </entries>
   <rules/>
   <links/>
@@ -4200,6 +4339,18 @@ Attacks made with magical weapons are not magic attacks.</description>
     </rule>
     <rule id="8e68e487-7a76-9cdb-dbb4-2af0ac48d773" name="Wrastler" hidden="false" book="Forces of Hordes - Minions" page="57">
       <description>While knocked down, this model can make</description>
+      <modifiers/>
+    </rule>
+    <rule id="1ea0-a32a-753b-a709" name="Force Lock" hidden="false" book="Forces of Hordes - Trollbloods" page="94">
+      <description>Enemy models in this model&apos;s melee range cannot advance except to change facing.</description>
+      <modifiers/>
+    </rule>
+    <rule id="7b6c-898d-15b3-92d1" name="Armor Piercing (*Attack)" hidden="false" book="Forces of Hordes - Trollbloods" page="94">
+      <description>When calculating damage from this attack, halve the base ARM stats of models hit that have medium or larger bases. This attack gains +2 to damage rolls against models with small bases.</description>
+      <modifiers/>
+    </rule>
+    <rule id="0bf0-7aed-e9db-f3da" name="Point Blank" hidden="false" book="Forces of Hordes - Trollbloods" page="73">
+      <description>During its activation, this model can make melee attacks with its ranged weapon, with a 0.5&quot; melee range. Do not add this model&apos;s STR to damage rolls made with ranged weapons. Charge attacks made with ranged weapons are not boosted.</description>
       <modifiers/>
     </rule>
   </sharedRules>
