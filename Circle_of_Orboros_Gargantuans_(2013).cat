@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0a25b8d1-d5a5-b952-f63f-b348ba4aaa13" revision="10" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="3" battleScribeVersion="1.15" name="Circle_of_Orboros_Gargantuans_(2013)" books="Forces of Hordes - Circle of Orboros, Domination and Gargantans" authorName="Hulkken (matt)" authorContact="deltao@msn.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0a25b8d1-d5a5-b952-f63f-b348ba4aaa13" revision="11" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="3" battleScribeVersion="1.15" name="Circle_of_Orboros_Gargantuans_(2013)" books="Forces of Hordes - Circle of Orboros, Domination and Gargantans" authorName="Hulkken (matt)" authorContact="deltao@msn.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="49bcf91d-062f-6fa2-91b6-97c43e677158" name="Argus" points="4.0" categoryId="576172626561737423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Circle of Orboros" page="56">
       <entries/>
@@ -4370,6 +4370,9 @@
         <link id="1c3a44e1-16a5-6b47-9e90-6a2d85a971f3" targetId="fd764118-7b63-7b7f-9d7c-6db3196ccfd6" linkType="rule">
           <modifiers/>
         </link>
+        <link id="674e-1d12-2d9b-7fd4" targetId="5c45-52ff-b360-fa40" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="54c847c1-10de-9e71-e73e-1f8d68f24af4" name="WoldWyrd" points="5.0" categoryId="576172626561737423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Circle of Oboros" page="59">
@@ -4744,6 +4747,37 @@
       <description>This model can advance through terrain and obstacles without penalty and can advance through obstructions and other models if it has enough movemnt to move completely past them. This model ignores intervening models when declaring its charge target.</description>
       <modifiers/>
     </rule>
+    <rule id="5c45-52ff-b360-fa40" name="Gargantuan" hidden="false" book="Gargantuans" page="16-18">
+      <description>- Huge base
+    Occupies the space from its base to a height of 5&quot;
+- Facing and Line of sight
+    Front arc is divided into two 90 degree fields of fire. L and R can only fire into respective field.
+- Targeting a gargantuan
+    A gargantuan never gains a DEF bonus from concealment, cover, or elevation.
+   Cloud effects and forest terrain do not block line of sight to a gargantuan.
+   A model targeting a gargantuan with a ranged or magic attack does not suffer the target in melee attack roll penalty. If a ranged or magic attack misses a gargantuan in melee, that miss is not rerolled against another model. It misses completely.
+- Predeployment
+    Gargantuans must be placed before normal deployment. If both players have models to predeploy, they predeploy their models in standard deployment order.
+- Massive
+    A gargantuan cannot be slammed, pushed, thrown, knocked down, or made stationary.
+- Gargantuan movement
+    A gargantuan can only advance during its normal movement and cannot be placed.
+- Pathfinder
+   All gargantuans have Pathfinder
+- Controlling a gargantuan
+    Gargantuans must be assigned to a battlegroup, and your opponent can never take control of your gargantuan by any means.
+- Great Beast
+    A gargantuan can never gain Advance Deployment, Incorporeal, or Stealth.
+- Ranged attacks while in melee
+   A gargantuan can make ranged attacks while in melee. A gargantuan never suffers the firing in melee penalty when targeting a model it is in melee with. A gargantuan cannot gain the aiming bonus when engaged.
+- Gargantuan melee range
+    Gargantuan melee weapons and gargantuan melee attacks have a 2&quot; melee range unless otherwise noted. This includes all power attacks made by a gargantuan.
+- Gargantuan power attacks
+    A gargantuan can make all the power attacks available to a warbeast along with two additional attacks available only to gargantuans: power strike and sweep.
+    Power Strike - at least one Open fist. Its target must be in the Open Fist&apos;s field of fire and have a smaller base than the gargantuan. Melee attack, if hits slammed d6+2&quot; directly away. POW of slam and collateral damage rolls equal to STR.
+    Sweep - at least one melee weapon in left or right field of fire. One melee attack with weapon against each model in the weapon&apos;s field of fire and within its 2&quot; melee range. Models hit suffer damage roll with POW equal STR.</description>
+      <modifiers/>
+    </rule>
     <rule id="be653cfe-d0fd-5dd4-bd3f-9979450ba2a5" name="Gunfighter" hidden="false" book="Hordes Primal MK II" page="33">
       <description>This model is a gunfighter. The gunfighter has a melee range of 0.5&quot; and can make ranged attacks targeting models in its melee range.</description>
       <modifiers/>
@@ -4854,6 +4888,17 @@ The model can also be bonded to the warlock specified on its card. This only giv
     </rule>
     <rule id="dc5d5a5d-b5d8-0524-3681-9125068ccbff" name="Weapon Master" hidden="false" book="Hordes Primal MK II" page="36">
       <description>When attacking with this weapon, add an additional die to its damage rolls.</description>
+      <modifiers/>
+    </rule>
+    <rule id="8b0d-8819-ec97-d89d" name="Warlock unit" hidden="false" book="Gargantuans" page="19">
+      <description>Granted: Fearless
+  A warlock that is part of a warlock unit always has the Granted: Fearless ability. While the warlock is in play, the models in its unit gain Fearless.
+
+Battlegroup
+  The other models in a warlock&apos;s unit are part of its battlegroup.
+
+Atachments
+  Warlock units cannot have unit and weapon attachments like other units, but they can have warlock attachments like standard warlocks. If a warlock unit has a warlock attachment, the atachment remains a solo and does not become part of the warlock unit.</description>
       <modifiers/>
     </rule>
   </sharedRules>
