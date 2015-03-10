@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="928f-031b-28c3-f734" revision="6" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="4" battleScribeVersion="1.15" name="Trollbloods" books="Forces of Hordes - Trollbloods" authorName="Obiken" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="928f-031b-28c3-f734" revision="7" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="4" battleScribeVersion="1.15" name="Trollbloods" books="Forces of Hordes - Trollbloods" authorName="Obiken" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="babeebfd-e63a-8eb9-b3e8-6d75059c3256" name="Alten Ashley" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Minions" page="26">
       <entries/>
@@ -1877,7 +1877,7 @@
         </link>
       </links>
     </entry>
-    <entry id="df78-b585-a9e7-935c" name="Hoarluk Doomshaper" points="-7.0" categoryId="5761726c6f636b23232344415441232323" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Trollbloods" page="36">
+    <entry id="df78-b585-a9e7-935c" name="Hoarluk Doomshaper, Shaman of the Gnarls" points="-7.0" categoryId="5761726c6f636b23232344415441232323" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Trollbloods" page="36">
       <entries>
         <entry id="115b-1155-dfd6-b0fd" name="Gnarlroot" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -4456,6 +4456,298 @@
         </link>
       </links>
     </entry>
+    <entry id="1819-3f0c-226a-3076" name="Hoarluk Doomshaper, Rage of Dhunia" points="-6.0" categoryId="5761726c6f636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Trollbloods" page="38">
+      <entries>
+        <entry id="4d4f-dce1-74fb-f16b" name="Willbreaker" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="3267-8100-01bc-099e" profileTypeId="576561706f6e23232344415441232323" name="Willbreaker" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="6"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="13"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="5008-1ddb-946d-63af" targetId="baad9a5e-ea83-201b-ad39-67517e0e9768" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="fd47-4ae1-05da-5bc9" targetId="3317-7ff4-4974-5a3e" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="bbc0-520b-2cb2-2600" targetId="aa62-db07-3d8e-1ccf" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="b52f-bf37-0893-8a06" name="Feat: Scroll of Grimmr" hidden="false">
+          <description>Doomshaper and friendly Faction warbeasts in his battlegroup beginning their activations in his control area gain +3 SPD and can charge or make slam or trample power attacks without being forced. Scroll of Grimmr lasts for one turn.</description>
+          <modifiers/>
+        </rule>
+        <rule id="c462-f7ab-d4be-77fb" name="Attuned Spirit [Dire Troll]" hidden="false">
+          <description>Once per activation, this model can cast the animus of a Dire Troll warbeast in its battlegroup as a spell without spending fury.</description>
+          <modifiers/>
+        </rule>
+        <rule id="6af3-fa2b-dd92-a263" name="Hyper Regeneration" hidden="false">
+          <description>This model automatically heals d3 damage points at the start of each of its activations.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="6dc3-f8b9-67d6-e728" profileTypeId="5761726c6f636b23232344415441232323" name="Doomshaper" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="7"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="5"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="15"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="7"/>
+            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="7"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="16"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="8a58-cda5-e5a1-5484" targetId="33d0e5dc-aa1b-8b03-c4e7-fbfef9a4646a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6186-2488-8576-2806" targetId="e5b1-dc94-d73f-87be" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b78b-edc8-6080-a8fd" targetId="fe0f-0b4b-f0bf-4f1f" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="0414-20db-048d-f294" targetId="ddd3-a4f4-817d-159a" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="73d4-5bb7-bf26-2387" targetId="6016-e91d-5bed-1e8b" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="fcad-0641-9ffd-9c5c" targetId="ae35-56a1-c259-1281" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="a2a6-c20f-8183-4f5f" targetId="1fd7-c074-01a9-0da0" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="cb6b-8871-9d2f-eddd" name="Captain Gunnbjorn" points="-5.0" categoryId="5761726c6f636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Trollbloods" page="40">
+      <entries>
+        <entry id="4aec-dfef-11c3-4ee4" name="Bazooka" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="5b44-04a5-9ac4-aa52" name="Critical Devatstation" hidden="false">
+              <description>On a critical hit, instead of suffering a normal damage roll, each model in the AOE is thrown d6&quot; directly away from the attacker regardless of its base size. Move models farthest from the attacker first. The model directly hit by the attack suffer a POW 14 damage roll. Other models hit by the attack suffers a POW 7 damage roll. The POW of collateral damage is equal to the POW of the damge roll suffered by the thrown model.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="23fc-3ac1-ef30-4ba9" profileTypeId="576561706f6e23232344415441232323" name="Bazooka" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="12"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="3"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="14"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="de6e-bebf-4d33-1282" name="Axe" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="2a90-7aa2-a6e3-4d85" profileTypeId="576561706f6e23232344415441232323" name="Axe" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="11"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="28b1-98dd-faf9-601d" name="Feat: Fortification" hidden="false">
+          <description>While in Gunnbjorn&apos;s control area, friendly Faction models gain cover, do not suffer blast damage, and cannot be knocked down. Fortification lasts for one round</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="6c90-b6f5-65a6-f159" profileTypeId="5761726c6f636b23232344415441232323" name="Gunnbjorn" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="7"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="6"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="15"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="16"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
+            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="6"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="17"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="9682-041c-4a2e-4599" targetId="33d0e5dc-aa1b-8b03-c4e7-fbfef9a4646a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="91af-2d11-4163-ada0" targetId="7272-f88f-8f75-076b" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="2c07-c4bf-6e8a-741e" targetId="556e-ba04-d4df-bc55" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="052c-3d56-3842-9a21" targetId="c876-e4f0-b441-7dd7" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="72eb-aa97-783d-2b92" targetId="5ca0-fb20-6786-ddc6" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="9bbd-8808-e636-f7fe" name="Madrak Ironhide, Thornwood Chieftain" points="-6.0" categoryId="5761726c6f636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Trollbloods" page="42">
+      <entries>
+        <entry id="0ac5-b754-f5a9-9ca7" name="Thrown Rathrok" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="1610-d3c6-f46b-3768" profileTypeId="576561706f6e23232344415441232323" name="Thrown Rathrok" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="8"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="7"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="d0a1-c708-63ff-8822" targetId="8994-22ac-20bc-9b3b" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="5cd1-3937-f8b7-f231" targetId="7c14-9332-ed6e-f3d1" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="884b-5fd7-93d9-0eb6" targetId="baad9a5e-ea83-201b-ad39-67517e0e9768" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="b3ef-3fd3-32fe-b92b" name="Rathrok" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="1bda-cc2c-dfa2-c01c" profileTypeId="576561706f6e23232344415441232323" name="Rathrok" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="7"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="15"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="6ec6-457b-bca9-2e83" targetId="7c14-9332-ed6e-f3d1" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="adb4-9fec-e9d7-b37b" targetId="baad9a5e-ea83-201b-ad39-67517e0e9768" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="deb9-12c7-dd96-7954" targetId="3317-7ff4-4974-5a3e" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="0eae-91ef-d5fa-8c93" name="Feat: Crusher" hidden="false">
+          <description>While in Ironhide&apos;s control area, friendly Faction models gain Overtake. Additionally, when a friendly Faction model destroys one or more enemy models with a melee attack while the enemy model i sin Ironhide&apos;s control area, the friendly model can make an additional melee attack. (When a model with Overtake destroys one or more enemey warrior models with a normal melee attack, after the attack is resolved this model can immediately advance up to 1&quot;.)</description>
+          <modifiers/>
+        </rule>
+        <rule id="b675-19f4-75ba-5bce" name="Scroll of Grindar&apos;s Perseverance" hidden="false">
+          <description>This model can use Scroll of Grindar&apos;s Perseverance once per game, when this model is directly hit by an attack. If this model uses the scroll, it suffers no damge roll from the attack. Declare use of the scroll after the model is hit but before the damage roll is made.</description>
+          <modifiers/>
+        </rule>
+        <rule id="5df4-5d43-1f9e-d6d1" name="Talisman of Subdual" hidden="false">
+          <description>This model cannot be charged or slam power attacked by a warbeast that began the charge or slam power attack in this model&apos;s front arc. If a warbeast frenzies and would normally charge or slam Ironhide, it makes a full advance toward him instead.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="8ea5-68c5-4b5c-fd17" profileTypeId="5761726c6f636b23232344415441232323" name="Ironhide" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="8"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="6"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="14"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="16"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
+            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="5"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="18"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="6818-8279-520d-05d1" targetId="33d0e5dc-aa1b-8b03-c4e7-fbfef9a4646a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="45fc-d461-c268-921d" targetId="8bc4-09f6-3228-1878" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5fde-91b7-aa0c-dd71" targetId="946a-b2e6-f805-6e49" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="8bdc-0386-d531-5f75" targetId="a45e-2e12-68e9-8254" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="c89b-e70d-67ee-ecf5" targetId="be34-2687-9b90-4791" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </entries>
   <rules/>
   <links/>
@@ -4838,6 +5130,306 @@
             <characteristic characteristicId="504f5723232344415441232323" name="POW" value="11"/>
             <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
             <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="YES"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="fe0f-0b4b-f0bf-4f1f" name="Agitation" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Trollbloods" page="38">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="2d78-4635-d522-38af" name="Agitation" hidden="false">
+          <description>Place 1 fury point on each enemy warbeast currently in this model&apos;s control area. This spell can only be cast once per turn.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="89c1-5706-62e0-6385" profileTypeId="5370656c6c23232344415441232323" name="Agitation" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="CTRL"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="ddd3-a4f4-817d-159a" name="Primal Shock" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Trollbloods" page="38">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="470e-2398-a860-3e8d" name="Primal Shock" hidden="false">
+          <description>Choose a friendly Faction warbeast in this model&apos;s control area. Target an enemy model within 8&quot; of the chosen warbeast and make a magice attack against it. The chosen warbeast is the attack&apos;s point of origin. If the enemy model is hit, it suffers a damage roll with a POW equal to the warbeast&apos;s base STR.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="5077-22f2-c941-b158" profileTypeId="5370656c6c23232344415441232323" name="Primal Shock" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="CTRL"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="*"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="YES"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="6016-e91d-5bed-1e8b" name="Refuge" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Trollbloods" page="38">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="45ab-15d7-8075-d9d6" name="Refuge" hidden="false">
+          <description>When target friendly Faction model hits an enemy model with an attack during its activation, immediately after its combat action ends the affected can make a full advance. It cannot be targeted by free strikes during this movement.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="085c-5c24-e922-d432" profileTypeId="5370656c6c23232344415441232323" name="Refuge" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="ae35-56a1-c259-1281" name="Sunder Spirit" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Trollbloods" page="38">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="c1f1-a31e-0b08-2f9e" name="Sunder Spirit" hidden="false">
+          <description>An enemy warbesat damaged by Sunder Spirit loses its animus for one round.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="2648-69cb-294c-6213" profileTypeId="5370656c6c23232344415441232323" name="Sunder Spirit" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="10"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="YES"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="1fd7-c074-01a9-0da0" name="Wild Aggression" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="f019-30d2-2d1f-cc3f" name="Wild Aggression" hidden="false">
+          <description>Target friendly living warbeast in this model&apos;s battlegroup can run, charge, or make slam or trample power attacks without being forced and gains boosted melee attack rolls.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="9895-7380-2105-cb45" profileTypeId="5370656c6c23232344415441232323" name="Wild Aggression" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="7272-f88f-8f75-076b" name="Explosivo" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Trollbloods" page="40">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="6db5-36b2-955c-1399" name="Explosivo" hidden="false">
+          <description>When target friendly model makes a normal attack with a non-spray ranged weapon, the weapon gains Magical Weapon. If the weapon was AOE - it becomes AOE 3. An affected model cannot participate in a combined ranged attack. Models in the AOE other than the model that was directly hit suffer blast damage but do not suffer any other effects of the attack. Explosivo expires immediately after resolving target model&apos;s next ranged attack. Explosivo lasts for one turn.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="17fc-fe51-5b36-d741" profileTypeId="5370656c6c23232344415441232323" name="Explosivo" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="1"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="556e-ba04-d4df-bc55" name="Guided Fire" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Trollbloods" page="40">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="cc96-ef27-ab29-2c9d" name="Guided Fire" hidden="false">
+          <description>While in this model&apos;s control area, models in its battlegroup gain boosted ranged attack rolls for one turn.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="1003-4f86-b922-e652" profileTypeId="5370656c6c23232344415441232323" name="Guided Fire" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="CTRL"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="c876-e4f0-b441-7dd7" name="Rock Wall" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Trollbloods" page="40">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="6807-48b8-d3ae-3d5d" name="Rock Wall" hidden="false">
+          <description>Place a wall template anywhere completely in this model&apos;s control area where it does not touch a model&apos;s base, an obstruction, or an obstacle. The wall is a linear obstacle that provides cover.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="0d14-5881-5c08-95c4" profileTypeId="5370656c6c23232344415441232323" name="Rock Wall" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="CTRL"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="WALL"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="5ca0-fb20-6786-ddc6" name="Snipe" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Trollbloods" page="40">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="f8c0-99df-d7ae-6aa2" name="Snipe" hidden="false">
+          <description>Target frienldy model&apos;s/unit&apos;s ranged weapons gain +4 RNG.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="ac95-3963-72c1-17f4" profileTypeId="5370656c6c23232344415441232323" name="Snipe" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="a45e-2e12-68e9-8254" name="Carnage" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Trollbloods" page="42">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="f619-d42a-71f4-860f" name="Carnage" hidden="false">
+          <description>Friendly Faction models gain +2 to melee attack rolls against enemy models in this model&apos;s control area. Carnage lasts for one round.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="bd2b-246d-1562-a34d" profileTypeId="5370656c6c23232344415441232323" name="Carnage" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="CTRL"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="946a-b2e6-f805-6e49" name="Stranglehold" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Trollbloods" page="42">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="6cd8-3be4-60ce-118c" name="Stranglehold" hidden="false">
+          <description>A model damaged by Stranglehold forfeits either its movement or its action during its next activation, as its controller chooses.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="aad9-a907-dd9b-1159" profileTypeId="5370656c6c23232344415441232323" name="Stranglehold" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="10"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="11"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="YES"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="be34-2687-9b90-4791" name="Sure Foot" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Trollbloods" page="42">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="b888-b928-152b-164a" name="Sure Foot" hidden="false">
+          <description>Target friendly Faction model gains +2 DEF and cannot be knocked down. While within 3&quot; of the affected model, friendly Faction models also gain +2 DEF and cannot be knocked down.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="250c-e423-3613-acc8" profileTypeId="5370656c6c23232344415441232323" name="Sure Foot" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -5551,6 +6143,17 @@ Attacks made with magical weapons are not magic attacks.</description>
       <description>Brine is bonded to Rorsh. During its activation, this model can charge or make a slam power attack against an enemy model that was damaged by a melee or ranged attack made by Rorsh this turn without being forced.</description>
       <modifiers/>
     </rule>
+    <rule id="5ef1-df52-6965-f32a" name="Warlock unit" hidden="false" book="Gargantuans" page="19">
+      <description>Granted: Fearless
+  A warlock that is part of a warlock unit always has the Granted: Fearless ability. While the warlock is in play, the models in its unit gain Fearless.
+
+Battlegroup
+  The other models in a warlock&apos;s unit are part of its battlegroup.
+
+Atachments
+  Warlock units cannot have unit and weapon attachments like other units, but they can have warlock attachments like standard warlocks. If a warlock unit has a warlock attachment, the atachment remains a solo and does not become part of the warlock unit.</description>
+      <modifiers/>
+    </rule>
     <rule id="5fb2bb66-ca62-8659-18ee-17da0d80ff92" name="Weapon Master" hidden="false" book="Hordes Primal MK II" page="36">
       <description>When attacking with this weapon, add an additional die to its damage rolls.</description>
       <modifiers/>
@@ -5563,15 +6166,24 @@ Attacks made with magical weapons are not magic attacks.</description>
       <description>While knocked down, this model can make</description>
       <modifiers/>
     </rule>
-    <rule id="5ef1-df52-6965-f32a" name="Warlock unit" hidden="false" book="Gargantuans" page="19">
-      <description>Granted: Fearless
-  A warlock that is part of a warlock unit always has the Granted: Fearless ability. While the warlock is in play, the models in its unit gain Fearless.
-
-Battlegroup
-  The other models in a warlock&apos;s unit are part of its battlegroup.
-
-Atachments
-  Warlock units cannot have unit and weapon attachments like other units, but they can have warlock attachments like standard warlocks. If a warlock unit has a warlock attachment, the atachment remains a solo and does not become part of the warlock unit.</description>
+    <rule id="aa62-db07-3d8e-1ccf" name="Powerful Attack" hidden="false" book="Forces of Hordes - Trollbloods" page="38">
+      <description>When attacking with this weapon, this model can spend 1 fury point to boost all attack and damage rolls for the attack.</description>
+      <modifiers/>
+    </rule>
+    <rule id="e5b1-dc94-d73f-87be" name="Goad" hidden="false" book="Forces of Hordes - Trollbloods" page="38">
+      <description>When a warbeast in this model&apos;s battlegroup destroys one or more enemy models with a melee attack during its combat action, immediately after the attack is resolved this model can force the warbeast to advance up to 2&quot;.</description>
+      <modifiers/>
+    </rule>
+    <rule id="8bc4-09f6-3228-1878" name="Snap Fire" hidden="false" book="Forces of Hordes - Trollbloods" page="42">
+      <description>When this model destroys one or more enemy models with a ranged attack during its combat action, immediately after that attack is resolved this model can make one normal ranged attack. Attacks gained from Snap Fire do not count against a weapon&apos;s ROF and cannot generate additional attacks from Snap Fire.</description>
+      <modifiers/>
+    </rule>
+    <rule id="7c14-9332-ed6e-f3d1" name="Critical Grievous Wounds" hidden="false" book="Forces of Hordes - Trollbloods" page="42">
+      <description>On a critical hit, the model hit by this weapon loses Tough, cannot heal or be h ealed, and cannot transfer damage for one round.</description>
+      <modifiers/>
+    </rule>
+    <rule id="8994-22ac-20bc-9b3b" name="Thrown" hidden="false" book="Forces of Hordes - Trollbloods" page="42">
+      <description>Add this model&apos;s STR to the POW of this ranged attack.</description>
       <modifiers/>
     </rule>
   </sharedRules>
