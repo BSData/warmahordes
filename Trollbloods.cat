@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="928f-031b-28c3-f734" revision="9" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="4" battleScribeVersion="1.15" name="Trollbloods" books="Forces of Hordes - Trollbloods" authorName="Obiken" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="928f-031b-28c3-f734" revision="10" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="4" battleScribeVersion="1.15" name="Trollbloods" books="Forces of Hordes - Trollbloods" authorName="Obiken" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="babeebfd-e63a-8eb9-b3e8-6d75059c3256" name="Alten Ashley" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Minions" page="26">
       <entries/>
@@ -767,7 +767,7 @@
           <modifiers/>
           <rules>
             <rule id="5b44-04a5-9ac4-aa52" name="Critical Devatstation" hidden="false">
-              <description>On a critical hit, instead of suffering a normal damage roll, each model in the AOE is thrown d6&quot; directly away from the attacker regardless of its base size. Move models farthest from the attacker first. The model directly hit by the attack suffer a POW 14 damage roll. Other models hit by the attack suffers a POW 7 damage roll. The POW of collateral damage is equal to the POW of the damge roll suffered by the thrown model.</description>
+              <description>On a critical hit, instead of suffering a normal damage roll, each model in the AOE is thrown d6&quot; directly away from the attacker regardless of its base size. Roll only once for all of the affected models. Move models farthest from the attacker first. The model directly hit by the attack suffer a POW 14 damage roll. Other models hit by the attack suffers a POW 7 damage roll. The POW of collateral damage is equal to the POW of the damge roll suffered by the thrown model.</description>
               <modifiers/>
             </rule>
           </rules>
@@ -2706,6 +2706,111 @@
         </link>
       </links>
     </entry>
+    <entry id="5b47-f7cb-b4ef-5d0f" name="Grissel Bloodsong, Marshal of the Kriels" points="-6.0" categoryId="5761726c6f636b23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="24">
+      <entries>
+        <entry id="248e-8245-349b-8f37" name="Fell Blast" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="ceb5-66b2-82d2-c3f7" name="Ammo Type" hidden="false">
+              <description>Each time this weapon is used to make an attack, choose one of the following abilities:
+- Crescendo - this weapon&apos;s base stats become AOE 4 and POW 12 for this attack. This attack&apos;s AOE remains in play for one round. Enemy models and non-Faction friendly models entering or ending their activations in the AOE suffer a POW 12 damage roll.
+- Quake - On a direct hit against and enemy model, all models hit are knocked down.
+- Sonic Eruption - This weapon&apos;s base stats become RNG 10, AOE -, and POW 12 for this attack.</description>
+              <modifiers/>
+            </rule>
+            <rule id="143b-e855-9ae1-0ab6" name="Play List" hidden="false">
+              <description>This model can use each of this weapon&apos;s ammo types only once per activation.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="88d8-6158-3ba5-f8f8" profileTypeId="576561706f6e23232344415441232323" name="Fell Blast" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="8"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="3"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="3"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="14"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="f3a4-4820-d55a-df96" name="Resounder" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="b774-f360-3320-f745" profileTypeId="576561706f6e23232344415441232323" name="Resounder" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="7"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="14"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="1b04-365d-b4aa-0c21" targetId="baad9a5e-ea83-201b-ad39-67517e0e9768" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="9825-319e-8abc-3352" targetId="fe41-250d-f18e-4885" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="fdcc-0470-9ab9-6ffe" name="Feat: Call of Valor" hidden="false">
+          <description>While within Bloodsong&apos;s control area, friendly Faction models gain Hyper Aggressive and Unyielding. Call of Valor lasts for one round. (When a model with Hyper Aggressive suffers damage from an enemy attack anytime except while it is advancing, after the attack is resolved it can immediately make a full advance directly toward the attacking model.) (While engaging an enemy model, a model with Unyielding gains +2 ARM.)</description>
+          <modifiers/>
+        </rule>
+        <rule id="d955-9a02-b202-a590" name="Inspiration [Faction]" hidden="false">
+          <description>Friendly Faction models/units in this model&apos;s command range never flee and immediately rally.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="d635-0162-98a7-7bcd" profileTypeId="5761726c6f636b23232344415441232323" name="Bloodsong" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="7"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="6"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="15"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="17"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
+            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="6"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="17"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="e774-d6bb-376f-d6de" targetId="33d0e5dc-aa1b-8b03-c4e7-fbfef9a4646a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5625-4864-b8ba-7ee7" targetId="11b1-5f4b-ec50-d191" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="0321-f372-ff86-7916" targetId="6a0f-3200-2f86-a0f0" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="7720-12fc-bbf1-3632" targetId="bd63-020e-e608-2569" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="0df9e60e-bea7-f24e-d933-f670b03c0e62" name="Gundrun the Wanderer" points="3.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Minions" page="32">
       <entries/>
       <entryGroups/>
@@ -3402,6 +3507,107 @@
         </link>
       </links>
     </entry>
+    <entry id="2e5a-127b-fcbb-9528" name="Jarl Skuld, Devil of the Thornwood" points="-6.0" categoryId="5761726c6f636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="22">
+      <entries>
+        <entry id="770a-532f-caab-b913" name="Rune Pistol (x2)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="98f4-e9a7-38e0-ef46" profileTypeId="576561706f6e23232344415441232323" name="Rune Pistol" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="12"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="1706-51ce-5225-bb64" targetId="2f6c-0b32-80cc-af10" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="fd45-aec9-9b22-5f04" name="Sword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="41ec-2656-bab1-d49b" profileTypeId="576561706f6e23232344415441232323" name="Sword" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="10"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="2322-c941-2aab-5959" name="Feat: Rolling Fog" hidden="false">
+          <description>Place d3+3 4&quot; AOE cloud effects anywhere completely in this model&apos;s control area. These AOEs do not block friendly Faction models&apos; LOS.While in the AOE, friendly Faction models can advance through terrain and obstacles without penalty and can advance through obstructions and friendly models if they have enough movement to move completely past them. While in the AOE, living enemy models suffer -2 to attack rolls. Rolling Fog lasts for one round.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="a14c-dd99-563e-df6b" profileTypeId="5761726c6f636b23232344415441232323" name="Skuld" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="5"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="7"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="15"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="15"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
+            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="6"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="16"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="b857-340c-862d-39f3" targetId="5e6058fb-90ea-a457-dbc7-66469fd1147a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ccf4-a314-fbe0-9fa2" targetId="bbd8a6eb-2793-1454-fc0f-81ef8aaef586" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8904-5f5a-ab79-3ab8" targetId="33d0e5dc-aa1b-8b03-c4e7-fbfef9a4646a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5dab-1149-4a2b-96f3" targetId="7686-1c0b-c8ca-30f8" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="aea6-41a5-e797-973d" targetId="126eb320-89f4-82cf-21c6-7b882af379e5" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e250-ba22-6829-19ba" targetId="b4e9-34e8-f23b-d6f1" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="c125-f756-46f0-2197" targetId="8e84-6fa7-f6fd-3bf9" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="ff19-8f24-847e-d01b" targetId="4443-9061-063e-3792" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="329b-ffd3-60d7-331d" targetId="fac2-5790-0c3c-1851" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="e190-d3b6-a84e-96d2" name="Kriel Warriors" points="4.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="3" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Trollbloods" page="70">
       <entries>
         <entry id="0928-d5bb-196e-7f1d" name="Hand Weapon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -3642,7 +3848,7 @@
               <modifiers/>
             </rule>
             <rule id="5a78-eeb5-92b9-ed4c" name="Protective Aura" hidden="false">
-              <description>Once at any time during its unit&apos;s activation, this model can spend 1 fury point to use Protective Aura. When it does, for one round friendly Faction models gain +2 ARM while within 4&quot; of this model +1&quot; per fury point on this model.</description>
+              <description>Once at any time during its unit&apos;s activation, this model can spend 1 fury point to use Protective Aura. When it does, for one round this model and friendly Faction models gain +2 ARM while within 4˝ of this model +1˝ per fury point on this model.</description>
               <modifiers/>
             </rule>
             <rule id="c89a-18b7-e37b-6cdc" name="Self-Sacrifice" hidden="false">
@@ -3994,7 +4200,7 @@
       <modifiers/>
       <rules>
         <rule id="0eae-91ef-d5fa-8c93" name="Feat: Crusher" hidden="false">
-          <description>While in Ironhide&apos;s control area, friendly Faction models gain Overtake. Additionally, when a friendly Faction model destroys one or more enemy models with a melee attack while the enemy model i sin Ironhide&apos;s control area, the friendly model can make an additional melee attack. (When a model with Overtake destroys one or more enemey warrior models with a normal melee attack, after the attack is resolved this model can immediately advance up to 1&quot;.)</description>
+          <description>While in Ironhide&apos;s control area, friendly Faction models gain Overtake. Additionally, when a friendly Faction model destroys one or more enemy models with a melee attack while the enemy model i sin Ironhide&apos;s control area, the friendly model can make an additional melee attack. Crusher lasts for one turn. (When a model with Overtake destroys one or more enemey warrior models with a normal melee attack, after the attack is resolved this model can immediately advance up to 1&quot;.)</description>
           <modifiers/>
         </rule>
         <rule id="b675-19f4-75ba-5bce" name="Scroll of Grindar&apos;s Perseverance" hidden="false">
@@ -4121,7 +4327,7 @@
           <modifiers/>
         </rule>
         <rule id="fe48-7ae1-02a9-d748" name="Grim Salvation" hidden="false">
-          <description>When this model i sdamaged by an enemy melee or ranged attack, it does not suffer the damage and effects triggered by taking damage from the attack. Instead, remove one friendly Trollkin warrior model within 1&quot; of this model from play. If there is not a friendly Trollkin warrior model within 1&quot; of this model, it suffers the damage and effects of the attack normally.</description>
+          <description>When this model would be damaged by an enemy melee or ranged attack, it does not suffer the damage and effects triggered by taking damage from the attack. Instead, remove one friendly Trollkin warrior model within 1&quot; of this model from play. If there is not a friendly Trollkin warrior model within 1&quot; of this model, it suffers the damage and effects of the attack normally.</description>
           <modifiers/>
         </rule>
         <rule id="3bcf-7f11-8dc9-adbb" name="Tide of Death" hidden="false">
@@ -4410,7 +4616,7 @@
             </link>
           </links>
         </entry>
-        <entry id="5978-0b00-0a4e-6100" name="Amuck" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="5978-0b00-0a4e-6100" name="Animus" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4645,6 +4851,31 @@
                 <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
                 <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="12"/>
                 <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="08c4-a2ad-8ac5-25cc" name="Animus" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="ae2c-3a37-e909-05e7" name="Beguile" hidden="false">
+              <description>This model gains Allure for one round. (Living enemy non-warcaster, non-warlock models that begin an advance within 5˝ of a model with Allure can advance only toward the nearest enemy model with Allure.)</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="008b-283f-e604-03f7" profileTypeId="5370656c6c23232344415441232323" name="Beguile" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="434f535423232344415441232323" name="COST" value="1"/>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+                <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+                <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -5405,6 +5636,127 @@
           </profiles>
           <links/>
         </entry>
+        <entry id="b378-d123-9b6d-181f" name="Scattergunner Officer &amp; Standard" points="2.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="27">
+          <entries>
+            <entry id="3acf-eea4-30e9-97f8" name="Officer" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries>
+                <entry id="aec8-e296-9bbd-a475" name="Scattergun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles>
+                    <profile id="3dd6-edc7-8d64-e3a5" profileTypeId="576561706f6e23232344415441232323" name="Scattergun" hidden="false">
+                      <characteristics>
+                        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SP 8"/>
+                        <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+                        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+                        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
+                        <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
+                        <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+                      </characteristics>
+                      <modifiers/>
+                    </profile>
+                  </profiles>
+                  <links/>
+                </entry>
+                <entry id="9d3e-be47-6808-3c53" name="Gun Blade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+                  <entries/>
+                  <entryGroups/>
+                  <modifiers/>
+                  <rules/>
+                  <profiles>
+                    <profile id="0d82-0e28-6429-73cc" profileTypeId="576561706f6e23232344415441232323" name="Gun Blade" hidden="false">
+                      <characteristics>
+                        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+                        <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+                        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+                        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
+                        <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="9"/>
+                        <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
+                      </characteristics>
+                      <modifiers/>
+                    </profile>
+                  </profiles>
+                  <links/>
+                </entry>
+              </entries>
+              <entryGroups/>
+              <modifiers/>
+              <rules>
+                <rule id="fb4e-6910-1cee-a83f" name="Granted: Quick Work" hidden="false">
+                  <description>While this model is in play, models in its unit gain Quick Work. (When a model with Quick Work destroys one or more enemy models with a melee attack during its combat action, immediately after the attack is resolved it can make one normal ranged attack. Attacks gained from Quick Work do not count against a weapon&apos;s ROF.)</description>
+                  <modifiers/>
+                </rule>
+                <rule id="889d-99fa-ec47-083e" name="Tactics: Clear!" hidden="false">
+                  <description>Models in this unit gain Clear! (Ranged attacks against friendly models made by a model with Clear! automatically miss.)</description>
+                  <modifiers/>
+                </rule>
+                <rule id="db44-2211-5344-9409" name="Tactics: Combined Melee Attack" hidden="false">
+                  <description>Models in this unit gain Combined Melee Attack.</description>
+                  <modifiers/>
+                </rule>
+              </rules>
+              <profiles>
+                <profile id="9e8d-fe36-d6fe-fae9" profileTypeId="54726f6f70657223232344415441232323" name="Officer" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+                    <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
+                    <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+                    <characteristic characteristicId="52415423232344415441232323" name="RAT" value="6"/>
+                    <characteristic characteristicId="44454623232344415441232323" name="DEF" value="12"/>
+                    <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="14"/>
+                    <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
+                    <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="4cdb-aec1-eaad-5cba" targetId="33d0e5dc-aa1b-8b03-c4e7-fbfef9a4646a" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="59a8-0ff2-de5c-bd95" targetId="0185cef5-a3c9-603c-100d-c470bee8d29f" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="4560-3ec5-e1ab-3622" name="Standard Bearer" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="d5fc-8b1b-c35a-ef36" profileTypeId="4d79726d69646f6e23232344415441232323" name="Standard Bearer" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+                    <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
+                    <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="5"/>
+                    <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
+                    <characteristic characteristicId="44454623232344415441232323" name="DEF" value="12"/>
+                    <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="14"/>
+                    <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
+                    <characteristic characteristicId="4669656c642044616d61676523232344415441232323" name="Field Damage" value="1"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="6f56-9529-b1ca-4c98" targetId="aa16b9c3-ace9-d8c9-0367-118d75968827" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="f354-d764-b55e-66e2" targetId="33d0e5dc-aa1b-8b03-c4e7-fbfef9a4646a" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
       </entries>
       <entryGroups/>
       <modifiers/>
@@ -5604,7 +5956,7 @@
         <rule id="d300-1fdd-22f4-b303" name="Storytelling" hidden="false">
           <description>This model can tell one of the following stories anytime during its activation. When this model tells a story, choose a friendly Faction unit. The story affects this model and will affect the unit if it is currently in this model&apos;s command range. Stories last for one round. A unit can be affected by only one story each round.
 - Charge of the Trolls - An affected model gains +2 to melee attack and melee damage rolls against enemy models in the melee range of a friendly Faction warbeast.
-- Hero&apos;s Tragedy - An enemy warrior model that destroys one or more affected models with a melee attack during its activation is knocked down at the end of its activation.
+- Hero&apos;s Tragedy - When an enemy warrior model that destroyed one or more affected models with a melee attack during its activation ends its activation, it is knocked down. 
 - Tale of Mist - Affected models gain concealment and Feign Death. (A model with Feign Death cannot be targeted by ranged or magic attacks while knocked down.)</description>
           <modifiers/>
         </rule>
@@ -7480,8 +7832,8 @@
       <entryGroups/>
       <modifiers/>
       <rules>
-        <rule id="2ee5-5b4e-3e88-5880" name="Adjunct: [Trollkin Unit]" hidden="false">
-          <description>Before the start of the game, choose one friendly Trollkin unit to be this model&apos;s client. This model cannot have the same client as another Adjunct.If this model&apos;s client unit has Advance Deployment, this model gains Advance Deployment.</description>
+        <rule id="2ee5-5b4e-3e88-5880" name="Adjunct: [Trollkin]" hidden="false">
+          <description>Before the start of the game, choose one friendly unit made up entirely of Trollkin models to be this model’s client. This model cannot have the same client as another Adjunct. If this model’s client unit has Advance Deployment, this model gains Advance Deployment.</description>
           <modifiers/>
         </rule>
         <rule id="1fbe-3851-8403-892f" name="Battle Wizard" hidden="false">
@@ -7972,17 +8324,22 @@
         </link>
       </links>
     </entry>
-    <entry id="2e5a-127b-fcbb-9528" name="Jarl Skuld, Devil of the Thornwood" points="-6.0" categoryId="5761726c6f636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="22">
+    <entry id="70d6-f1dc-cc66-a130" name="Storm Troll" points="0.0" categoryId="576172626561737423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="26">
       <entries>
-        <entry id="770a-532f-caab-b913" name="Rune Pistol (x2)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="5568-b502-0ebd-d0c5" name="Lightning" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
-          <rules/>
+          <rules>
+            <rule id="65f3-e462-c229-83b8" name="Lightning Generator" hidden="false">
+              <description>When a model is hit with this weapon, lightning arcs from that model to d3 consecutive additional models. The lightning arcs to the nearest model it has not already arced to within 4&quot; of the last model it arced to ignoring this model. Each model the lightning arcs to suffers a POW 10 electrical damage roll.</description>
+              <modifiers/>
+            </rule>
+          </rules>
           <profiles>
-            <profile id="98f4-e9a7-38e0-ef46" profileTypeId="576561706f6e23232344415441232323" name="Rune Pistol" hidden="false">
+            <profile id="3861-b85f-c701-2808" profileTypeId="576561706f6e23232344415441232323" name="Lightning" hidden="false">
               <characteristics>
-                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="12"/>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="8"/>
                 <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
                 <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
                 <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
@@ -7993,143 +8350,594 @@
             </profile>
           </profiles>
           <links>
-            <link id="1706-51ce-5225-bb64" targetId="2f6c-0b32-80cc-af10" linkType="rule">
+            <link id="7496-f580-41a2-b9c6" targetId="a259588f-7c17-0379-fd36-b9c47244d72b" linkType="rule">
               <modifiers/>
             </link>
           </links>
         </entry>
-        <entry id="fd45-aec9-9b22-5f04" name="Sword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="e035-b953-27d0-006f" name="Claw" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="41ec-2656-bab1-d49b" profileTypeId="576561706f6e23232344415441232323" name="Sword" hidden="false">
+            <profile id="ab77-6953-a00c-88b0" profileTypeId="576561706f6e23232344415441232323" name="Claw" hidden="false">
               <characteristics>
                 <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
                 <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
                 <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
-                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="10"/>
-                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="2322-c941-2aab-5959" name="Feat: Rolling Fog" hidden="false">
-          <description>Place d3+3 4&quot; AOE cloud effects anywhere completely in this model&apos;s control area. These AOEs do not block friendly Faction models&apos; LOS. While in the AOE, friendly Faction models gain Pathfinder and can move through obstructions and friendly models if they have enough movement to move completely past them. While in the AOE, living enemy models suffer -2 to attack rolls. Rolling Fog lasts for one round.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="a14c-dd99-563e-df6b" profileTypeId="5761726c6f636b23232344415441232323" name="Skuld" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="5"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="7"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="15"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="15"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
-            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="6"/>
-            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="16"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="b857-340c-862d-39f3" targetId="5e6058fb-90ea-a457-dbc7-66469fd1147a" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="ccf4-a314-fbe0-9fa2" targetId="bbd8a6eb-2793-1454-fc0f-81ef8aaef586" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="8904-5f5a-ab79-3ab8" targetId="33d0e5dc-aa1b-8b03-c4e7-fbfef9a4646a" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="5dab-1149-4a2b-96f3" targetId="7686-1c0b-c8ca-30f8" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="aea6-41a5-e797-973d" targetId="126eb320-89f4-82cf-21c6-7b882af379e5" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="e250-ba22-6829-19ba" targetId="b4e9-34e8-f23b-d6f1" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="c125-f756-46f0-2197" targetId="8e84-6fa7-f6fd-3bf9" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="ff19-8f24-847e-d01b" targetId="4443-9061-063e-3792" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="329b-ffd3-60d7-331d" targetId="fac2-5790-0c3c-1851" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="5b47-f7cb-b4ef-5d0f" name="Grissel Bloodsong, Marshal of the Kriels" points="-6.0" categoryId="5761726c6f636b23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="24">
-      <entries>
-        <entry id="248e-8245-349b-8f37" name="Fell Blast" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules>
-            <rule id="ceb5-66b2-82d2-c3f7" name="Ammo Type" hidden="false">
-              <description>Each time this weapon is used to make an attack, choose one of the following abilities:
-- Crescendo - this weapon&apos;s base stats become AOE 4 and POW 12 for this attack. This attack&apos;s AOE remains in play for one round. Enemy models and non-Faction friendly models entering or ending their activations in the AOE suffer a POW 12 damage roll.
-- Quake - On a direct hit against and enemy model, all models hit are knocked down.
-- Sonic Eruption - This weapon&apos;s base stats become RNG 10, AOE -, and POW 12 for this attack.</description>
-              <modifiers/>
-            </rule>
-            <rule id="143b-e855-9ae1-0ab6" name="Play List" hidden="false">
-              <description>This model can use each of this weapon&apos;s ammo types only once per activation.</description>
-              <modifiers/>
-            </rule>
-          </rules>
-          <profiles>
-            <profile id="88d8-6158-3ba5-f8f8" profileTypeId="576561706f6e23232344415441232323" name="Fell Blast" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="8"/>
-                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="3"/>
-                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="3"/>
-                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="14"/>
-                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
-                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="f3a4-4820-d55a-df96" name="Resounder" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="b774-f360-3320-f745" profileTypeId="576561706f6e23232344415441232323" name="Resounder" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="7"/>
-                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="14"/>
-                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="12"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
               </characteristics>
               <modifiers/>
             </profile>
           </profiles>
           <links>
-            <link id="1b04-365d-b4aa-0c21" targetId="baad9a5e-ea83-201b-ad39-67517e0e9768" linkType="rule">
+            <link id="6f4a-e073-0caa-8494" targetId="cd0ba61c-b2b9-df88-715f-4e67e8f38fa7" linkType="rule">
               <modifiers/>
             </link>
-            <link id="9825-319e-8abc-3352" targetId="fe41-250d-f18e-4885" linkType="rule">
+            <link id="4581-6d06-fb1b-ebfb" targetId="4ddf-324b-6f26-d3d6" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="7ba4-680a-49c8-824c" name="Claw" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="cd8c-5013-aa37-6807" profileTypeId="576561706f6e23232344415441232323" name="Claw" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="12"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="6d19-be63-4b3f-c5b1" targetId="cd0ba61c-b2b9-df88-715f-4e67e8f38fa7" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="99a1-89e0-7607-4faa" targetId="4ddf-324b-6f26-d3d6" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="f12e-d6aa-6103-9c7e" name="Animus" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="e367-0fdd-b3e1-3460" name="Lightning Fists" hidden="false">
+              <description>Target friendly Faction model gain Immunity: Electricity and its melee weapons gain Electro Leap. Lightning Fists lasts for one round. (When a model is hit with a weapon with Electro Leap, you can have lightning arc to the nearest model within 4&quot; of the model hit, ignoring the attacking model. The model the lightning arcs to suffers an unboostable POW 10 electrical damage roll.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="fb8c-84fd-4c8a-bdfb" profileTypeId="5370656c6c23232344415441232323" name="Lightning Fists" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="434f535423232344415441232323" name="COST" value="1"/>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+                <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+                <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="79b0-f2dc-2f5c-2718" name="Electrostatic" hidden="false">
+          <description>If this model is h it by a melee attack after the attack is resolved the warjack suffers Disruption unless this model was destroyed or removed from play by the attack. ( A warjack suffering Disruption loses its focus points and cannot be allocated focus or channel spells for one round.)</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="bb39-51d3-7d32-7ea1" profileTypeId="576172626561737423232344415441232323" name="Storm Troll" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="9"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="5"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="12"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="16"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="6"/>
+            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="3"/>
+            <characteristic characteristicId="5468726573686f6c6423232344415441232323" name="Threshold" value="9"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="6ee4-0c3f-0d6a-41ec" targetId="3557d9d3-af71-cde5-0946-d6cbfbc494f4" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3931-1745-e92c-adb3" targetId="3900e5dd-83a2-b361-98a3-0ac05fd6f8fa" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="d82f-44e0-3932-f9e1" name="Rök" points="11.0" categoryId="576172626561737423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="28">
+      <entries>
+        <entry id="765e-cd5f-cf12-45b5" name="Frost Breath" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="5fb0-adae-914b-a2a9" profileTypeId="576561706f6e23232344415441232323" name="Frost Breath" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SP 6"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="14"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="H"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="a645-caf4-c9df-bcaa" targetId="ce91d015-7c9b-5951-ce65-e7d36a8168bb" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="336c-23b0-7358-b0e1" targetId="5d53-b0b8-7a59-d3aa" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="60b8-87d2-1fae-6261" name="Battle Axe" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="14c6-a3a8-8d32-4c4b" profileTypeId="576561706f6e23232344415441232323" name="Battle Axe" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="6"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="18"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="6af4-90b7-fcca-5796" name="Big Meaty Fist" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="315f-c182-bf58-c340" profileTypeId="576561706f6e23232344415441232323" name="Big Meaty Fist" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="16"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="2c26-17a2-cc65-73af" targetId="cd0ba61c-b2b9-df88-715f-4e67e8f38fa7" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="af92-8c09-c7b5-f7b1" name="Animus" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="9b4e-ff5a-959c-a6b5" name="Primal" hidden="false">
+              <description>Target friendly living warbeast gains +2 STR and MAT for one round and automatically frenzies during your next Control Phase.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="923c-7c4c-2c0b-9aa4" profileTypeId="5370656c6c23232344415441232323" name="Primal" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+                <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+                <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="9113-5668-8a7a-0417" name="Special Issue [Borka]" hidden="false">
+          <description>This model can be included in Borka&apos;s theme forces. It can also be bonded to Borka.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="7abc-3e17-a118-3caa" profileTypeId="576172626561737423232344415441232323" name="Rök" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="12"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="12"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="18"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="5"/>
+            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="5"/>
+            <characteristic characteristicId="5468726573686f6c6423232344415441232323" name="Threshold" value="7"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="454d-2d2f-cee1-d057" targetId="d80c-0aa9-d211-e54d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4df0-f98d-4794-cb97" targetId="8c1bf52e-7c41-988f-bfe1-b98c33c04183" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="13dd-21b8-ff1d-5b38" targetId="3557d9d3-af71-cde5-0946-d6cbfbc494f4" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="56db-4eeb-28f4-d697" targetId="5954-f512-47d9-53b0" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="50c9-e970-213b-93a9" name="Sons of Bragg" points="6.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="30">
+      <entries>
+        <entry id="bd8f-290f-7000-9a33" name="Wrathar" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="d1f7-8910-52c9-62d3" name="Great Sword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="73ad-c06f-9593-b8f0" profileTypeId="576561706f6e23232344415441232323" name="Great Sword" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                    <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                    <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                    <characteristic characteristicId="504f5723232344415441232323" name="POW" value="5"/>
+                    <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="12"/>
+                    <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="7b31-06ba-25d7-53d8" targetId="3317-7ff4-4974-5a3e" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="6583-7e30-f08b-2ff6" targetId="5fb2bb66-ca62-8659-18ee-17da0d80ff92" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="c5f6-bd9f-6882-a43b" name="Fell Concert" hidden="false">
+              <description>At the start of this unit&apos;s activation choose one of the following Fell Calls for this unit to make.
+- Call to Action - Knocked down models in this unit in formation immediately stand up.
+- Call of Defiance - When a model in this unit that is in formation makes a Tough roll of 4, 5, or 6, it heals 1 damage and is knocked down. Call of Defiance lasts for one round.
+- Fervor - Affected models gain +2 to attack and damage rolls this activation.</description>
+              <modifiers/>
+            </rule>
+            <rule id="da78-218a-8a13-fbe7" name="Theme Songs" hidden="false">
+              <description>Models in this unit are never affected by fell calls made by other friendly models.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="7688-7c25-48e8-89c9" profileTypeId="54726f6f70657223232344415441232323" name="Wrathar" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+                <characteristic characteristicId="53545223232344415441232323" name="STR" value="7"/>
+                <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
+                <characteristic characteristicId="52415423232344415441232323" name="RAT" value="6"/>
+                <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
+                <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="15"/>
+                <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
+                <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="8"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="532a-c538-6616-0445" targetId="33d0e5dc-aa1b-8b03-c4e7-fbfef9a4646a" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="1c27-a365-d358-6a00" targetId="1825eb84-75bc-45d1-075a-73923524097d" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="5349-991a-3ecd-2164" targetId="0185cef5-a3c9-603c-100d-c470bee8d29f" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="1e13-3011-20e2-a6a0" name="Tor" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="907b-e3af-b1d1-c85d" name="Sonic Blast" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="7682-a96d-01e4-68df" profileTypeId="576561706f6e23232344415441232323" name="Sonic Blast" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SP 8"/>
+                    <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+                    <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+                    <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
+                    <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
+                    <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="656c-41af-8e7b-d31e" name="Sword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="ade3-d81e-77db-81d7" profileTypeId="576561706f6e23232344415441232323" name="Sword" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                    <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                    <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                    <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
+                    <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="10"/>
+                    <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="8d35-671e-83e7-2ec9" targetId="5fb2bb66-ca62-8659-18ee-17da0d80ff92" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="66c2-f807-74bb-3f98" name="Theme Songs" hidden="false">
+              <description>Models in this unit are never affected by fell calls made by other friendly models.</description>
+              <modifiers/>
+            </rule>
+            <rule id="436c-160d-d268-4089" name="Fell Concert" hidden="false">
+              <description>At the start of this unit&apos;s activation choose one of the following Fell Calls for this unit to make.
+- Call to Action - Knocked down models in this unit in formation immediately stand up.
+- Call of Defiance - When a model in this unit that is in formation makes a Tough roll of 4, 5, or 6, it heals 1 damage and is knocked down. Call of Defiance lasts for one round.
+- Fervor - Affected models gain +2 to attack and damage rolls this activation.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="e546-92ff-dfde-4b8e" profileTypeId="54726f6f70657223232344415441232323" name="Tor" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+                <characteristic characteristicId="53545223232344415441232323" name="STR" value="7"/>
+                <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
+                <characteristic characteristicId="52415423232344415441232323" name="RAT" value="6"/>
+                <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
+                <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="15"/>
+                <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
+                <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="8"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="b5ad-6ced-4e22-a378" targetId="33d0e5dc-aa1b-8b03-c4e7-fbfef9a4646a" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="1529-3e76-682a-ff71" targetId="1825eb84-75bc-45d1-075a-73923524097d" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="637e-d6a7-3c8e-8abc" targetId="d80c-0aa9-d211-e54d" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="8a60-9ef3-9858-e5da" name="Rhudd" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="64ed-8549-ee34-8230" name="Sword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="f855-f247-71f5-755e" profileTypeId="576561706f6e23232344415441232323" name="Sword" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                    <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                    <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                    <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
+                    <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="10"/>
+                    <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="388e-d1c7-5c63-8e8b" targetId="5fb2bb66-ca62-8659-18ee-17da0d80ff92" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="d1fc-6bb8-13b7-b12d" name="Sword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="f249-fa2e-4adc-6da5" profileTypeId="576561706f6e23232344415441232323" name="Sword" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                    <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                    <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                    <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
+                    <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="10"/>
+                    <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="32b6-93ff-cbfd-0beb" targetId="5fb2bb66-ca62-8659-18ee-17da0d80ff92" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="b7f5-f387-acd8-e927" name="Theme Songs" hidden="false">
+              <description>Models in this unit are never affected by fell calls made by other friendly models.</description>
+              <modifiers/>
+            </rule>
+            <rule id="a7be-c6e3-9ef0-7b1e" name="Fell Concert" hidden="false">
+              <description>At the start of this unit&apos;s activation choose one of the following Fell Calls for this unit to make.
+- Call to Action - Knocked down models in this unit in formation immediately stand up.
+- Call of Defiance - When a model in this unit that is in formation makes a Tough roll of 4, 5, or 6, it heals 1 damage and is knocked down. Call of Defiance lasts for one round.
+- Fervor - Affected models gain +2 to attack and damage rolls this activation.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="e634-6130-d8d2-aa60" profileTypeId="54726f6f70657223232344415441232323" name="Rhudd" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+                <characteristic characteristicId="53545223232344415441232323" name="STR" value="7"/>
+                <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
+                <characteristic characteristicId="52415423232344415441232323" name="RAT" value="6"/>
+                <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
+                <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="15"/>
+                <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
+                <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="8"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="b09d-4ddf-b937-23d8" targetId="33d0e5dc-aa1b-8b03-c4e7-fbfef9a4646a" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="e238-8981-8f85-ae78" targetId="1825eb84-75bc-45d1-075a-73923524097d" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="dfce-2f50-475f-a848" name="Trollkin War Wagon" points="9.0" categoryId="426174746c6520456e67696e6523232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="32">
+      <entries>
+        <entry id="e1e2-16c4-6382-815c" name="Pounder" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="d14d-5c8e-090f-bb8a" profileTypeId="576561706f6e23232344415441232323" name="Pounder" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="10"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="5"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="16"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="-"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="3209-3f12-1c27-8e68" targetId="2339-3d93-6ddc-c58d" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="5d9e-40db-5dd0-9bb6" targetId="0c76-d42c-f1b4-599c" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="3466-995f-03cd-fd29" name="Scattergun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="3ec1-a688-e105-a8ea" profileTypeId="576561706f6e23232344415441232323" name="Scattergun" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SP 8"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="-"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="929f-cda8-e91f-3139" name="Mount" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="7678-7015-ed35-2abd" profileTypeId="576561706f6e23232344415441232323" name="Mount" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="14"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="e40e-bc93-2947-206f" targetId="bf49-b81b-294a-9435" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="0e34-890a-f800-46a2" targetId="0f83-7723-beee-793f" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -8138,42 +8946,37 @@
       <entryGroups/>
       <modifiers/>
       <rules>
-        <rule id="fdcc-0470-9ab9-6ffe" name="Feat: Call of Valor" hidden="false">
-          <description>While within Bloodsong&apos;s control area, friendly Faction models gain Hyper Aggressive and Unyielding. Call of Valor lasts for one round. (When a model with Hyper Aggressive suffers damage from an enemy attack anytime except while it is advancing, after the attack is resolved it can immediately make a full advance directly toward the attacking model.) (While engaging an enemy model, a model with Unyielding gains +2 ARM.)</description>
-          <modifiers/>
-        </rule>
-        <rule id="d955-9a02-b202-a590" name="Inspiration [Faction]" hidden="false">
-          <description>Friendly Faction models/units in this model&apos;s command range never flee and immediately rally.</description>
+        <rule id="e79a-2052-41b7-fe82" name="Power Attack Trample" hidden="false">
+          <description>This model can make trample power attacks.</description>
           <modifiers/>
         </rule>
       </rules>
       <profiles>
-        <profile id="d635-0162-98a7-7bcd" profileTypeId="5761726c6f636b23232344415441232323" name="Bloodsong" hidden="false">
+        <profile id="fb7e-5d1f-4795-aea3" profileTypeId="426174746c6520456e67696e6523232344415441232323" name="Trollkin War Wagon" hidden="false">
           <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="7"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="6"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="15"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="17"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
-            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="6"/>
-            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="17"/>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="7"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="14"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="10"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="19"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="10"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="22"/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links>
-        <link id="e774-d6bb-376f-d6de" targetId="33d0e5dc-aa1b-8b03-c4e7-fbfef9a4646a" linkType="rule">
+        <link id="eb37-73ba-7451-a627" targetId="4fef-bbd2-f901-243a" linkType="rule">
           <modifiers/>
         </link>
-        <link id="5625-4864-b8ba-7ee7" targetId="11b1-5f4b-ec50-d191" linkType="entry">
+        <link id="6b5c-64ef-06e6-aa36" targetId="dcd95c51-bc0d-22d8-0a1c-2da797cb25f8" linkType="rule">
           <modifiers/>
         </link>
-        <link id="0321-f372-ff86-7916" targetId="6a0f-3200-2f86-a0f0" linkType="entry">
+        <link id="8207-7228-2f5b-c2c4" targetId="0e5f-f27e-35f9-e866" linkType="rule">
           <modifiers/>
         </link>
-        <link id="7720-12fc-bbf1-3632" targetId="bd63-020e-e608-2569" linkType="entry">
+        <link id="0f33-35d6-1121-3233" targetId="2a30c3a8-4ffe-ac80-959b-877cbd53e7b2" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -8201,6 +9004,31 @@
             <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
             <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
             <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="11b1-5f4b-ec50-d191" name="Arcane Bolt" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="24">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="0b73-ce0e-9b93-6a7f" name="Arcane Bolt" hidden="false">
+          <description>Magical bolts of energy streak toward the target model.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="9f6e-8249-d6d1-56a4" profileTypeId="5370656c6c23232344415441232323" name="Arcane Bolt" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="12"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="11"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="YES"/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -8374,6 +9202,31 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="6a0f-3200-2f86-a0f0" name="Dash" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="3652-cbd4-0670-b748" name="Dash" hidden="false">
+          <description>While in this model&apos;s control area, friendly Faction warrior models cannot be targeted by free strikes. This model and friendly Faction warrior models activating in its control area gain +1 SPD. Dash lasts for one round.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="af43-1c65-94b0-f674" profileTypeId="5370656c6c23232344415441232323" name="Dash" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="CTRL"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="7272-f88f-8f75-076b" name="Explosivo" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Trollbloods" page="40">
       <entries/>
       <entryGroups/>
@@ -8499,6 +9352,31 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="bd63-020e-e608-2569" name="Inhospitable Ground" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="3a71-631b-c33f-872a" name="Inhospitable Ground" hidden="false">
+          <description>While in this model&apos;s control area, enemy models treat open terrain as rough terrain. Inhospitable Ground lasts for one round.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="e62a-b301-7397-4a5c" profileTypeId="5370656c6c23232344415441232323" name="Inhospitable Ground" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="CTRL"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="09d1-53b4-b010-819e" name="Iron Flesh" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Trollbloods" page="46">
       <entries/>
       <entryGroups/>
@@ -8592,6 +9470,31 @@
             <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="5"/>
             <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
             <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="b4e9-34e8-f23b-d6f1" name="Magic Bullet" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="22">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="5b9f-dbf6-24cb-07ff" name="Magic Bullet" hidden="false">
+          <description>If the target friendly Faction model&apos;s next normal ranged attack directly hits, after resolving the attack choose a model within 4&quot; of the model hit. The chosen model sufers an unboostable POW 12 magic damage roll. The point of origin for this damage is the model hit. After resolving this damage roll, Magic Bullet expires. Magic Bullet lasts for one turn.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="b779-b867-abaf-ce41" profileTypeId="5370656c6c23232344415441232323" name="Magic Bullet" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
             <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
           </characteristics>
           <modifiers/>
@@ -8755,7 +9658,7 @@
       <modifiers/>
       <rules>
         <rule id="8a2e-66f0-287e-046b" name="Pursuit" hidden="false">
-          <description>If target enemy model/unit advances during its activation, immediately after ending this movement one model in this model&apos;s battlegroup that is in its control area can make a full advance.</description>
+          <description>If target enemy model/unit advances during its normal movement, immediately after ending this movement one model in this model’s battlegroup that is in its control area can make a full advance.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -8768,6 +9671,31 @@
             <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
             <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
             <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="YES"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="8e84-6fa7-f6fd-3bf9" name="Quicken" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="22">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="1584-2dae-f9f7-ce9f" name="Quicken" hidden="false">
+          <description>Target friendly model/unit gains +2 SPD and +2 DEF against ranged and magic attack rolls.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="1c11-fed9-2489-b546" profileTypeId="5370656c6c23232344415441232323" name="Quicken" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -9066,6 +9994,31 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="4443-9061-063e-3792" name="Tactical Supremacy" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="22">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="e143-c383-a181-83d0" name="Tactical Supremacy" hidden="false">
+          <description>Target friendly model/unit can advance up to 3&quot; after all models have ended their activations on your turn.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="8227-d8b8-bd5c-4a57" profileTypeId="5370656c6c23232344415441232323" name="Tactical Supremacy" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="5e8c-e8f8-9de9-9cfd" name="Warpath" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Trollbloods" page="44">
       <entries/>
       <entryGroups/>
@@ -9082,6 +10035,31 @@
             <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
             <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
             <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="CTRL"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="fac2-5790-0c3c-1851" name="Weald Secrets" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="22">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="c167-0c0f-3db6-3c4a" name="Weald Secrets" hidden="false">
+          <description>Target friendly model/unit gains Camouflage and Pathfinder. (A model with Camouflage gains an additional +2 DEF when benefiting from concealment or cover.)</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="c499-5ca3-833b-f612" profileTypeId="5370656c6c23232344415441232323" name="Weald Secrets" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
             <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
             <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
             <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
@@ -9132,181 +10110,6 @@
             <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
             <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
             <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
-            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
-            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="b4e9-34e8-f23b-d6f1" name="Magic Bullet" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="22">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="5b9f-dbf6-24cb-07ff" name="Magic Bullet" hidden="false">
-          <description>If the target friendly Faction model&apos;s next normal ranged attack directly hits, after resolving the attack choose a model within 4&quot; of the model hit. The chosen model sufers an unboostable POW 12 magic damage roll. The point of origin for this damage is the model hit. After resolving this damage roll, Magic Bullet expires. Magic Bullet lasts for one turn.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="b779-b867-abaf-ce41" profileTypeId="5370656c6c23232344415441232323" name="Magic Bullet" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
-            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
-            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="8e84-6fa7-f6fd-3bf9" name="Quicken" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="22">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="1584-2dae-f9f7-ce9f" name="Quicken" hidden="false">
-          <description>Target friendly model/unit gains +2 SPD and +2 DEF against ranged and magic attack rolls.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="1c11-fed9-2489-b546" profileTypeId="5370656c6c23232344415441232323" name="Quicken" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
-            <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
-            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="4443-9061-063e-3792" name="Tactical Supremacy" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="22">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="e143-c383-a181-83d0" name="Tactical Supremacy" hidden="false">
-          <description>Target friendly model/unit can advance up to 3&quot; after all models have ended their activations on your turn.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="8227-d8b8-bd5c-4a57" profileTypeId="5370656c6c23232344415441232323" name="Tactical Supremacy" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
-            <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
-            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="fac2-5790-0c3c-1851" name="Weald Secrets" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="22">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="c167-0c0f-3db6-3c4a" name="Weald Secrets" hidden="false">
-          <description>Target friendly model/unit gains Camouflage and Pathfinder. (A model with Camouflage gains an additional +2 DEF when benefiting from concealment or cover.)</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="c499-5ca3-833b-f612" profileTypeId="5370656c6c23232344415441232323" name="Weald Secrets" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
-            <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
-            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="11b1-5f4b-ec50-d191" name="Arcane Bolt" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="24">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="0b73-ce0e-9b93-6a7f" name="Arcane Bolt" hidden="false">
-          <description>Magical bolts of energy streak toward the target model.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="9f6e-8249-d6d1-56a4" profileTypeId="5370656c6c23232344415441232323" name="Arcane Bolt" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="12"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="11"/>
-            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
-            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="YES"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="6a0f-3200-2f86-a0f0" name="Dash" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="3652-cbd4-0670-b748" name="Dash" hidden="false">
-          <description>While in this model&apos;s control area, friendly Faction warrior models cannot be targeted by free strikes. This model and friendly Faction warrior models activating in its control area gain +1 SPD. Dash lasts for one round.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="af43-1c65-94b0-f674" profileTypeId="5370656c6c23232344415441232323" name="Dash" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="CTRL"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
-            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
-            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="bd63-020e-e608-2569" name="Inhospitable Ground" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="3a71-631b-c33f-872a" name="Inhospitable Ground" hidden="false">
-          <description>While in this model&apos;s control area, enemy models treat open terrain as rough terrain. Inhospitable Ground lasts for one round.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="e62a-b301-7397-4a5c" profileTypeId="5370656c6c23232344415441232323" name="Inhospitable Ground" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="CTRL"/>
             <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
             <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
             <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
@@ -9370,10 +10173,6 @@
       <description>When this model is destroyed, each living warbeast B2B with it heals d3 damage points.</description>
       <modifiers/>
     </rule>
-    <rule id="3e06a32f-da0a-67c1-7329-710d506dcf3c" name="Battle Engine" hidden="false" book="Gargantuans" page="106">
-      <description>This model is  a battle engine and is not a warrior model.</description>
-      <modifiers/>
-    </rule>
     <rule id="75159797-0014-7e75-2fe0-b6493c1138ff" name="Beast Lore (*Action)" hidden="false" book="Forces of Hordes - Minions" page="40">
       <description>RNG 3. Target friendly warrior model/unit. If the model/unit is in range, it gains boosted attack rolls against warbeasts for one turn.</description>
       <modifiers/>
@@ -9388,6 +10187,10 @@
     </rule>
     <rule id="0a7d14a5-fcfe-ce5d-14b8-c42a4094a30b" name="Binge Drinking" hidden="false" book="Forces of Hordes - Minions" page="32">
       <description>Once per game during its activation, this model can use Binge Drinking. this model is knocked down.</description>
+      <modifiers/>
+    </rule>
+    <rule id="2f6c-0b32-80cc-af10" name="Black Penny" hidden="false" book="Domination" page="22">
+      <description>This attack ignores the firing into melee penalty.	</description>
       <modifiers/>
     </rule>
     <rule id="dee240d6-7846-bd77-3e36-b8d0a4f2b6e4" name="Blind Spot" hidden="false" book="Forces of Hordes - Minion" page="38">
@@ -9599,6 +10402,10 @@
     </rule>
     <rule id="07eea1bc-7623-9c72-b642-ec66c14d56ed" name="Elite Cadre (Farrow Brigands)" hidden="false" book="Forces of Hordes - Minions" page="74">
       <description>Friendly Farrow Brigand models gain Combined Ranged Attack.</description>
+      <modifiers/>
+    </rule>
+    <rule id="7686-1c0b-c8ca-30f8" name="Evasive" hidden="false" book="Domination" page="22">
+      <description>This model cannot be targeted by free strikes. This model can advance up to 2&quot; immediately after an enemy ranged attack that missed it is resolved unless it was missed while advancing.</description>
       <modifiers/>
     </rule>
     <rule id="7dd8637b-f4e8-4620-a8c2-6d96bff35569" name="Eyeless Sight" hidden="false" book="Hordes Primal MK II" page="33">
@@ -10026,7 +10833,7 @@ Attacks made with magical weapons are not magic attacks.</description>
       <modifiers/>
     </rule>
     <rule id="b0f0-249b-8b96-b37a" name="Shield Guard" hidden="false" book="Forces of Hordes - Trollbloods" page="58">
-      <description>Once per round, when a friendly model is directly hit by a ranged attack during your opponent&apos;s turn while within 2&quot; of this model, this model can become the target of the attack and be automatically hit instead. This model cannot use Shield Guard if it is incorporeal, knocked down, or stationary.</description>
+      <description>Once per round, when a friendly model is directly hit by a ranged attack during your opponent’s turn while within 2˝ of this model, you can choose to have this model directly hit instead. This model is automatically hit and suffers all damage and effects. This model cannot use Shield Guard if it is incorporeal, knocked down, or stationary.</description>
       <modifiers/>
     </rule>
     <rule id="77ed6523-406c-32cd-fc8e-fba871164b9f" name="Snacking" hidden="false" book="Forces of Hordes - Minions" page="57">
@@ -10186,12 +10993,32 @@ Atachments
       <description>While knocked down, this model can make</description>
       <modifiers/>
     </rule>
-    <rule id="7686-1c0b-c8ca-30f8" name="Evasive" hidden="false" book="Domination" page="22">
-      <description>This model cannot be targeted by free strikes. This model can advance up to 2&quot; immediately after an enemy ranged attack that missed it is resolved unless it was missed while advancing.</description>
+    <rule id="4ddf-324b-6f26-d3d6" name="Critical Disruption" hidden="false" book="Domination" page="26">
+      <description>On a critical hit on a warjack, it suffers Disruption. (A warjack suffering Disruption loses its focus points and cannot be allocated focus or channel spells for one round.)</description>
       <modifiers/>
     </rule>
-    <rule id="2f6c-0b32-80cc-af10" name="Black Penny" hidden="false" book="Domination" page="22">
-      <description>This attack ignores the firing into melee penalty.	</description>
+    <rule id="0f83-7723-beee-793f" name="Trampling Hooves" hidden="false" book="Domination" page="32">
+      <description>This model can charge and make charge attacks with this weapon. During a combat action it did not make a charge attack, this model can make one melee attacks with this weapon.</description>
+      <modifiers/>
+    </rule>
+    <rule id="4fef-bbd2-f901-243a" name="Battle Engine" hidden="false" book="Domination" page="16-17">
+      <description>Huge Base.
+Front arc is divided into two 90 degree arcs of fire.
+A battle engine never gains the DEF bonus from concealment, cover, or elevation.
+Cloud effects and forest terrain do not block line of sight to a battle engine.
+A model targeting a battle engin with a ranged or magic attack does not suffer the target in melee attack roll penalty. If a ranged or magic attack misses a battle engine in melee, that miss is not rerolled against another model. It misses completely. A battle engine can be targeted by combined ranged attacks while it is in melee.
+Predeployment. Must be placed before normal deployment.
+Massive. A battle engine cannot be slammed, pushed, thrown, knocked down, or made stationary.
+Pathfinder.
+Servicable. Friendly Faction models with the Repair ability can attempt to repair damaged battle engines. To attempt repairs, the model with Repair must be in base-to-base contact with the damaged battle engine and make a skill check. If successful, remove d6 damage points from the battle engine.</description>
+      <modifiers/>
+    </rule>
+    <rule id="2339-3d93-6ddc-c58d" name="Arcing Fire" hidden="false" book="Dominatio" page="32">
+      <description>When attacking with this weapon, this model can ignore intervening models except those within 1&quot; of the target.</description>
+      <modifiers/>
+    </rule>
+    <rule id="0c76-d42c-f1b4-599c" name="Quake" hidden="false" book="Domination" page="32">
+      <description>On a direct hit against an enemy model, all models hit are knocked down.</description>
       <modifiers/>
     </rule>
   </sharedRules>
