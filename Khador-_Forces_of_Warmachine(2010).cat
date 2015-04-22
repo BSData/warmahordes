@@ -1,210 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d979dbf7-211a-48a9-9f40-899a00d16780" revision="8" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="2" battleScribeVersion="1.15" name="Retribution of Scyrah rev" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="22db-330b-10c0-722b" revision="1" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="2" battleScribeVersion="1.15" name="Khador" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
-    <entry id="c084-3717-c3ba-3e96" name="Kommandant Irusk" points="-6.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Khador" page="42">
-      <entries>
-        <entry id="0c47-5cff-fb0a-2e6a" name="Sword Cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="5eaf-7c11-1e59-32a0" profileTypeId="576561706f6e23232344415441232323" name="Sword Cannon" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="10"/>
-                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="2"/>
-                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="13"/>
-                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
-                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="60ba-5fc6-de14-68f4" name="Onslaught" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="6638-92f1-601f-bc5c" profileTypeId="576561706f6e23232344415441232323" name="Onslaught" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="6"/>
-                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="12"/>
-                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links>
-            <link id="3fad-f97e-163e-3d50" targetId="e0f48764-b12b-acca-bb70-726be718b29d" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="97dc-d1d5-591a-9ca2" name="Feat: Undying Loyalty" hidden="false">
-          <description>While in Irusk&apos;s control area, friendly Faction warrior models/units gain Fearless, Tough, and +2 to melee and ranged attack rolls and cannot be knocked down. When a friendly Faction warrior models makes a Tough roll of 4, 5, or 6 while in Irusk&apos;s control area, that model heals 1 damage point. Undying Loyalty lasts for one round.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="c172-53ce-513d-f159" profileTypeId="57617263617374657223232344415441232323" name="Irusk" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="6"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="15"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="15"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="10"/>
-            <characteristic characteristicId="466f63757323232344415441232323" name="Focus" value="7"/>
-            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="17"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="f53d-7093-5cce-4e3a" targetId="50d02130-ad44-6a6d-eefd-0ee7e6d65065" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="c2a5-1d9d-0907-eb38" targetId="f6fd-c11f-a266-f36d" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="6d22-9627-7dd3-ef06" targetId="bd63-020e-e608-2569" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="97f8-f079-a7b9-b51f" targetId="09d1-53b4-b010-819e" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="5aca-63a3-7912-41ab" targetId="425f-d223-5e1a-bc02" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="c4d1-ef29-82c2-42c8" targetId="b2c9-6b7a-ca5c-a9d0" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="653e-faac-598f-f0cb" targetId="1f9e-8da6-8977-7b99" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="a2c4-d1d8-e036-9e44" targetId="bd38-7483-0da7-7c21" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="c644-a6ca-35ed-7e49" targetId="6215-77b2-2312-8c5d" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="c56e-f041-4bd2-6bd7" name="Supreme Kommandant Irusk" points="-5.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Khador" page="44">
-      <entries>
-        <entry id="f8b5-7d5f-1b05-b5d3" name="Hand Cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="985d-cfec-fd67-1c0c" profileTypeId="576561706f6e23232344415441232323" name="Hand Cannon" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="12"/>
-                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
-                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
-                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
-                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="6d94-7474-60d2-dea3" name="Endgame" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="c5d5-d329-fc0c-ba60" profileTypeId="576561706f6e23232344415441232323" name="Endgame" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="7"/>
-                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="13"/>
-                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links>
-            <link id="9aad-a3bc-d375-168f" targetId="e0f48764-b12b-acca-bb70-726be718b29d" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="5528-011c-290c-7933" name="Feat: Desperate Ground" hidden="false">
-          <description>Friendly Faction models currently in Irusk&apos;s control area ignore cloud effects and forests when determining LOS and gain Pathfinder. Affected models currently knocked down immediately stand up. Enemy models/units beginning their activations in Irusk&apos;s control area suffer -2 SPD and cannot give or receive orders. Desperate Ground lasts for one round.</description>
-          <modifiers/>
-        </rule>
-        <rule id="6d51-0b0f-8146-d034" name="Total Obedience" hidden="false">
-          <description>While in this model&apos;s command range, friendly living non-warcaster Faction warrior models gain Tough.</description>
-          <modifiers/>
-        </rule>
-        <rule id="5fe4-d590-3ff6-7b99" name="Warjack Bond" hidden="false">
-          <description>One non-character warjack in Irusk&apos;s battlegroup begins the game bonded to him. The warjack gains +2 DEF and cannot be knocked down.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="1c14-fbcc-2ac5-34be" profileTypeId="57617263617374657223232344415441232323" name="Supreme Kommandant Irusk" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="6"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="15"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="15"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="10"/>
-            <characteristic characteristicId="466f63757323232344415441232323" name="Focus" value="7"/>
-            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="17"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="e293-384a-2d11-0bd4" targetId="6e472eb2-2f98-cf4e-d92e-aefe63a7eb77" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="e8c7-936b-883d-2138" targetId="b2c9-6b7a-ca5c-a9d0" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="b313-45af-b99f-f298" targetId="1f9e-8da6-8977-7b99" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="8a29-b5c6-4042-7e5a" targetId="aba7-21fb-f12a-ac19" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="ff31-6c58-e42b-ed55" targetId="0aad-020b-3d3c-64bb" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="7100-c585-2658-66b5" targetId="9c49-a03c-34bd-2a68" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="b09a-259e-b16e-48d3" targetId="4443-9061-063e-3792" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
     <entry id="07b0-a1a8-04b0-b86b" name="Karchev the Terrible" points="-5.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Khador" page="46">
       <entries>
         <entry id="ef6d-0db1-7912-9a7b" name="Fissure" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -329,6 +125,107 @@
           <modifiers/>
         </link>
         <link id="b2b6-4d9b-ce56-4a36" targetId="6883-f630-44c0-4e81" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="c084-3717-c3ba-3e96" name="Kommandant Irusk" points="-6.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Khador" page="42">
+      <entries>
+        <entry id="0c47-5cff-fb0a-2e6a" name="Sword Cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="5eaf-7c11-1e59-32a0" profileTypeId="576561706f6e23232344415441232323" name="Sword Cannon" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="10"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="2"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="13"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="60ba-5fc6-de14-68f4" name="Onslaught" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="6638-92f1-601f-bc5c" profileTypeId="576561706f6e23232344415441232323" name="Onslaught" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="6"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="12"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="3fad-f97e-163e-3d50" targetId="e0f48764-b12b-acca-bb70-726be718b29d" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="97dc-d1d5-591a-9ca2" name="Feat: Undying Loyalty" hidden="false">
+          <description>While in Irusk&apos;s control area, friendly Faction warrior models/units gain Fearless, Tough, and +2 to melee and ranged attack rolls and cannot be knocked down. When a friendly Faction warrior models makes a Tough roll of 4, 5, or 6 while in Irusk&apos;s control area, that model heals 1 damage point. Undying Loyalty lasts for one round.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="c172-53ce-513d-f159" profileTypeId="57617263617374657223232344415441232323" name="Irusk" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="6"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="15"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="15"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="10"/>
+            <characteristic characteristicId="466f63757323232344415441232323" name="Focus" value="7"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="17"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="f53d-7093-5cce-4e3a" targetId="50d02130-ad44-6a6d-eefd-0ee7e6d65065" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c2a5-1d9d-0907-eb38" targetId="f6fd-c11f-a266-f36d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6d22-9627-7dd3-ef06" targetId="bd63-020e-e608-2569" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="97f8-f079-a7b9-b51f" targetId="09d1-53b4-b010-819e" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="5aca-63a3-7912-41ab" targetId="425f-d223-5e1a-bc02" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="c4d1-ef29-82c2-42c8" targetId="b2c9-6b7a-ca5c-a9d0" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="653e-faac-598f-f0cb" targetId="1f9e-8da6-8977-7b99" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="a2c4-d1d8-e036-9e44" targetId="bd38-7483-0da7-7c21" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="c644-a6ca-35ed-7e49" targetId="6215-77b2-2312-8c5d" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -544,6 +441,109 @@
       <profiles/>
       <links/>
     </entry>
+    <entry id="c56e-f041-4bd2-6bd7" name="Supreme Kommandant Irusk" points="-5.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Khador" page="44">
+      <entries>
+        <entry id="f8b5-7d5f-1b05-b5d3" name="Hand Cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="985d-cfec-fd67-1c0c" profileTypeId="576561706f6e23232344415441232323" name="Hand Cannon" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="12"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="6d94-7474-60d2-dea3" name="Endgame" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="c5d5-d329-fc0c-ba60" profileTypeId="576561706f6e23232344415441232323" name="Endgame" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="7"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="13"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="9aad-a3bc-d375-168f" targetId="e0f48764-b12b-acca-bb70-726be718b29d" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="5528-011c-290c-7933" name="Feat: Desperate Ground" hidden="false">
+          <description>Friendly Faction models currently in Irusk&apos;s control area ignore cloud effects and forests when determining LOS and gain Pathfinder. Affected models currently knocked down immediately stand up. Enemy models/units beginning their activations in Irusk&apos;s control area suffer -2 SPD and cannot give or receive orders. Desperate Ground lasts for one round.</description>
+          <modifiers/>
+        </rule>
+        <rule id="6d51-0b0f-8146-d034" name="Total Obedience" hidden="false">
+          <description>While in this model&apos;s command range, friendly living non-warcaster Faction warrior models gain Tough.</description>
+          <modifiers/>
+        </rule>
+        <rule id="5fe4-d590-3ff6-7b99" name="Warjack Bond" hidden="false">
+          <description>One non-character warjack in Irusk&apos;s battlegroup begins the game bonded to him. The warjack gains +2 DEF and cannot be knocked down.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="1c14-fbcc-2ac5-34be" profileTypeId="57617263617374657223232344415441232323" name="Supreme Kommandant Irusk" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="6"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="15"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="15"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="10"/>
+            <characteristic characteristicId="466f63757323232344415441232323" name="Focus" value="7"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="17"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="e293-384a-2d11-0bd4" targetId="6e472eb2-2f98-cf4e-d92e-aefe63a7eb77" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e8c7-936b-883d-2138" targetId="b2c9-6b7a-ca5c-a9d0" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="b313-45af-b99f-f298" targetId="1f9e-8da6-8977-7b99" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="8a29-b5c6-4042-7e5a" targetId="aba7-21fb-f12a-ac19" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="ff31-6c58-e42b-ed55" targetId="0aad-020b-3d3c-64bb" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="7100-c585-2658-66b5" targetId="9c49-a03c-34bd-2a68" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="b09a-259e-b16e-48d3" targetId="4443-9061-063e-3792" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </entries>
   <rules/>
   <links/>
@@ -623,6 +623,31 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="b2c9-6b7a-ca5c-a9d0" name="Airburst" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Khador" page="42">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="446f-edd1-742d-2cbc" name="Airburst" hidden="false">
+          <description>Target any  model in this model&apos;s control area, ignoring LOS. When resolving Airburst, ignore cover, concealment, elevation, and Stealth. Models hit suffer a POW 8 blast damage roll.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="4bda-8eef-0575-afb8" profileTypeId="5370656c6c23232344415441232323" name="Airburst" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="CTRL"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="3"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="8"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="YES"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="11b1-5f4b-ec50-d191" name="Arcane Bolt" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="24">
       <entries/>
       <entryGroups/>
@@ -690,6 +715,31 @@
             <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="10"/>
             <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
             <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="YES"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="0aad-020b-3d3c-64bb" name="Artifice of Deviation" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Khador" page="44">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="819d-f185-2ce8-3359" name="Artifice of Deviation" hidden="false">
+          <description>Place a 5&quot; AOE anywhere completely in this model&apos;s control area. While in the AOE, friendly models gain Pathfinder and can advance through obstructions and other models if they have enough movement to move completely past them. Enemy models treat the AOE as rough terrain. Artifice of Deviation lasts for one round.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="0d06-ef47-4637-6580" profileTypeId="5370656c6c23232344415441232323" name="Artifice of Deviation" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="CTRL"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="5"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="8"/>
             <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
             <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="YES"/>
           </characteristics>
@@ -816,6 +866,31 @@
             <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="CTRL"/>
             <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
             <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="1f9e-8da6-8977-7b99" name="Battle Lust" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Khador" page="42">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="54b0-7132-2577-db9b" name="Battle Lust" hidden="false">
+          <description>Target friendly Faction warrior model/unit gains Fearless and gains an additional die on melee damage rolls for one round.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="c011-0ea9-65c1-898d" profileTypeId="5370656c6c23232344415441232323" name="Battle Lust" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
             <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
           </characteristics>
           <modifiers/>
@@ -1918,6 +1993,31 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="bd38-7483-0da7-7c21" name="Grind" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Khador" page="42">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="6a6c-f543-3e66-7c2a" name="Grind" hidden="false">
+          <description>When a warjack is hit by Grind, it suffers 1 damage point to its first available Movement system box.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="c116-fd85-e850-61ba" profileTypeId="5370656c6c23232344415441232323" name="Grind" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="10"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="14"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="YES"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="1326-c275-48cf-a403" name="Ground Zero" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Khador" page="46">
       <entries/>
       <entryGroups/>
@@ -2484,6 +2584,31 @@
             <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
             <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="CTRL"/>
             <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="014c-96ce-474a-f1ea" name="Murder of Crows" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Khador" page="48">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="675b-4c1c-29c4-ea68" name="Murder of Crows" hidden="false">
+          <description>Place a 5&quot; AOE cloud effect anywhere completely in this model&apos;s control area. Any model that is not part of this model&apos;s battlegroup that enters or ends its activation in the AOE suffers an unboostable POW 8 damage roll.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="134f-cab4-0232-5b88" profileTypeId="5370656c6c23232344415441232323" name="Murder of Crows" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="CTRL"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="5"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="*"/>
             <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
             <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
           </characteristics>
@@ -3115,6 +3240,31 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="36e6-ff3f-1044-1edd" name="Sidearms" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Khador" page="46">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="9986-8d97-e93a-6dab" name="Sidearms" hidden="false">
+          <description>While in this model&apos;s control area and B2B with one or more models in this model&apos;s battlegroup, models in this model&apos;s battlegroup cannot be knocked down and gain +1 DEF for each other model in the battlegroup with which they are B2B.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="59db-598b-6b1e-171e" profileTypeId="5370656c6c23232344415441232323" name="Sidearms" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="CTRL"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="5ca0-fb20-6786-ddc6" name="Snipe" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Retribution of Scyrah" page="62">
       <entries/>
       <entryGroups/>
@@ -3388,6 +3538,31 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="6215-77b2-2312-8c5d" name="Superiority" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Khador" page="42">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="f85a-3a88-9fcd-f337" name="Superiority" hidden="false">
+          <description>Target friendly Faction warjack gains +2 SPD, MAT, and DEF and cannot be knocked down.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="7c4b-ba3f-e0d5-322d" profileTypeId="5370656c6c23232344415441232323" name="Superiority" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="be34-2687-9b90-4791" name="Sure Foot" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wrath" page="128">
       <entries/>
       <entryGroups/>
@@ -3512,6 +3687,31 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="431e-0b44-bc8f-ff19" name="Tow" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Khador" page="46">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="b8ae-2d63-3699-37f0" name="Tow" hidden="false">
+          <description>If during its normal movement this model advances within 2&quot; of a friendly warjack, at the end of that movement you can place the warjack B2B with it, completely within its back arc. Up to three warjacks can be placed by Tow each time this model ends its normal movement.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="e94a-2f65-9dab-4f8f" profileTypeId="5370656c6c23232344415441232323" name="Tow" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="764e-b1b2-a480-6929" name="Transference" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine - Convergence of Cyriss" page="44">
       <entries/>
       <entryGroups/>
@@ -3581,6 +3781,31 @@
             <characteristic characteristicId="504f5723232344415441232323" name="POW" value="10"/>
             <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
             <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="YES"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="6883-f630-44c0-4e81" name="Unearthly Rage" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Khador" page="46">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="2d7e-131b-c2c5-f398" name="Unearthly Rage" hidden="false">
+          <description>While in this model&apos;s control area, this model and warjacks in its battlegroup gain boosted melee attack and melee damage rolls, and their melee weapons gain Magical Weapon. Unearthly Rage lasts for one turn.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="61a1-8b78-b976-4e67" profileTypeId="5370656c6c23232344415441232323" name="Unearthly Rage" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="CTRL"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -3805,231 +4030,6 @@
             <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
             <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
             <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
-            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="b2c9-6b7a-ca5c-a9d0" name="Airburst" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Khador" page="42">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="446f-edd1-742d-2cbc" name="Airburst" hidden="false">
-          <description>Target any  model in this model&apos;s control area, ignoring LOS. When resolving Airburst, ignore cover, concealment, elevation, and Stealth. Models hit suffer a POW 8 blast damage roll.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="4bda-8eef-0575-afb8" profileTypeId="5370656c6c23232344415441232323" name="Airburst" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="CTRL"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="3"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="8"/>
-            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
-            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="YES"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="1f9e-8da6-8977-7b99" name="Battle Lust" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Khador" page="42">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="54b0-7132-2577-db9b" name="Battle Lust" hidden="false">
-          <description>Target friendly Faction warrior model/unit gains Fearless and gains an additional die on melee damage rolls for one round.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="c011-0ea9-65c1-898d" profileTypeId="5370656c6c23232344415441232323" name="Battle Lust" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
-            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
-            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="bd38-7483-0da7-7c21" name="Grind" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Khador" page="42">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="6a6c-f543-3e66-7c2a" name="Grind" hidden="false">
-          <description>When a warjack is hit by Grind, it suffers 1 damage point to its first available Movement system box.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="c116-fd85-e850-61ba" profileTypeId="5370656c6c23232344415441232323" name="Grind" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="10"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="14"/>
-            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
-            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="YES"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="6215-77b2-2312-8c5d" name="Superiority" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Khador" page="42">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="f85a-3a88-9fcd-f337" name="Superiority" hidden="false">
-          <description>Target friendly Faction warjack gains +2 SPD, MAT, and DEF and cannot be knocked down.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="7c4b-ba3f-e0d5-322d" profileTypeId="5370656c6c23232344415441232323" name="Superiority" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
-            <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
-            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="0aad-020b-3d3c-64bb" name="Artifice of Deviation" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Khador" page="44">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="819d-f185-2ce8-3359" name="Artifice of Deviation" hidden="false">
-          <description>Place a 5&quot; AOE anywhere completely in this model&apos;s control area. While in the AOE, friendly models gain Pathfinder and can advance through obstructions and other models if they have enough movement to move completely past them. Enemy models treat the AOE as rough terrain. Artifice of Deviation lasts for one round.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="0d06-ef47-4637-6580" profileTypeId="5370656c6c23232344415441232323" name="Artifice of Deviation" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="CTRL"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="5"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="8"/>
-            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
-            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="YES"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="36e6-ff3f-1044-1edd" name="Sidearms" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Khador" page="46">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="9986-8d97-e93a-6dab" name="Sidearms" hidden="false">
-          <description>While in this model&apos;s control area and B2B with one or more models in this model&apos;s battlegroup, models in this model&apos;s battlegroup cannot be knocked down and gain +1 DEF for each other model in the battlegroup with which they are B2B.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="59db-598b-6b1e-171e" profileTypeId="5370656c6c23232344415441232323" name="Sidearms" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="CTRL"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
-            <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
-            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="431e-0b44-bc8f-ff19" name="Tow" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Khador" page="46">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="b8ae-2d63-3699-37f0" name="Tow" hidden="false">
-          <description>If during its normal movement this model advances within 2&quot; of a friendly warjack, at the end of that movement you can place the warjack B2B with it, completely within its back arc. Up to three warjacks can be placed by Tow each time this model ends its normal movement.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="e94a-2f65-9dab-4f8f" profileTypeId="5370656c6c23232344415441232323" name="Tow" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
-            <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
-            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="6883-f630-44c0-4e81" name="Unearthly Rage" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Khador" page="46">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="2d7e-131b-c2c5-f398" name="Unearthly Rage" hidden="false">
-          <description>While in this model&apos;s control area, this model and warjacks in its battlegroup gain boosted melee attack and melee damage rolls, and their melee weapons gain Magical Weapon. Unearthly Rage lasts for one turn.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="61a1-8b78-b976-4e67" profileTypeId="5370656c6c23232344415441232323" name="Unearthly Rage" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="CTRL"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
-            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
-            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="014c-96ce-474a-f1ea" name="Murder of Crows" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Khador" page="48">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="675b-4c1c-29c4-ea68" name="Murder of Crows" hidden="false">
-          <description>Place a 5&quot; AOE cloud effect anywhere completely in this model&apos;s control area. Any model that is not part of this model&apos;s battlegroup that enters or ends its activation in the AOE suffers an unboostable POW 8 damage roll.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="134f-cab4-0232-5b88" profileTypeId="5370656c6c23232344415441232323" name="Murder of Crows" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="CTRL"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="5"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="*"/>
-            <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
             <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
           </characteristics>
           <modifiers/>
