@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="22db-330b-10c0-722b" revision="2" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="2" battleScribeVersion="1.15" name="Khador" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="22db-330b-10c0-722b" revision="3" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="2" battleScribeVersion="1.15" name="Khador" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="8058c02e-db92-21aa-3d1d-a2e86070623a" name="Alexia Ciannor, The Risen, &amp; Thrall Warrior" points="5.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="51">
       <entries>
@@ -1026,6 +1026,94 @@
       </profiles>
       <links>
         <link id="6b73-d6ce-816c-3444" targetId="d747-7710-acba-a127" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="b25b-0f0f-60ce-522c" name="Black Ivan" points="10.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wrath" page="66">
+      <entries>
+        <entry id="be8e-fa13-e78a-00d1" name="Bombard" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="2728-5b44-29c9-6ba3" profileTypeId="576561706f6e23232344415441232323" name="Bombard" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="14"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="3"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="14"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="5e04-851f-d5fd-8f2c" targetId="1190f14c-e530-15eb-7a53-cb571bafe626" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="6649-6250-3cfa-a3a5" name="Bear Claw" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="c03f-3f76-6fee-871d" profileTypeId="576561706f6e23232344415441232323" name="Bear Claw" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="16"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="9d7c-3acf-15f2-c7ad" targetId="f1ebe717-5e03-7003-60f4-1b14bc6103a1" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="9ca7-32e5-8313-674e" targetId="e236-25d0-5791-b31c" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="5b41-93c3-0799-1a38" name="Affinity [Harkevich]" hidden="false">
+          <description>While in Harkevich&apos;s control area, this model gains boosted ranged attack rolls.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="f646-ffa5-0447-f099" profileTypeId="5761726a61636b23232344415441232323" name="Black Ivan" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="4"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="12"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="12"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="20"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="-"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="4ae6-ca3d-11e3-3f7b" targetId="fe198e38-f51b-4d1c-2051-eea9ddbdce00" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="36d1-510c-6c82-5ebe" targetId="e28d-6a06-8d10-5578" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="049c-c42b-fb9a-2ed5" targetId="7d5b-7a6f-6600-2cae" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -2272,6 +2360,134 @@
       </profiles>
       <links>
         <link id="7cba-b123-71a5-e58a" targetId="815c41c2-2359-9a1f-23c0-c7e13bb126a7" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="e632-6eff-0287-8a3f" name="Demolisher" points="9.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wrath" page="66">
+      <entries>
+        <entry id="c837-12e1-5142-e6f7" name="Shield Cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="1b23-a6d9-8045-c381" profileTypeId="576561706f6e23232344415441232323" name="Shield Cannon" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="8"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="4"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="15"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="-"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="7ac6-6ce6-aaa9-46df" name="Shield Cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="ee8e-7725-81e6-cb73" profileTypeId="576561706f6e23232344415441232323" name="Shield Cannon" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="8"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="4"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="15"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="-"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="92c2-a5d0-369a-8f77" name="Shield Fist" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="0934-546e-c25e-a929" profileTypeId="576561706f6e23232344415441232323" name="Shield Fist" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="16"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="e195-2e00-0a2a-3225" targetId="f1ebe717-5e03-7003-60f4-1b14bc6103a1" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="c04e-70ef-4d20-b4e8" name="Shield Fist" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="e4d9-2151-2405-5527" profileTypeId="576561706f6e23232344415441232323" name="Shield Fist" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="16"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="5439-d91e-a73f-8160" targetId="f1ebe717-5e03-7003-60f4-1b14bc6103a1" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="2c8f-6b12-b898-34d3" name="Armored Shell" hidden="false">
+          <description>While one of its arm systems is crippled, this model&apos;s base ARM is 21; while both its arm systems are crippled, its base ARM is 17. If this model makes an attack, its base ARM is 17 until the start of its next activation. This model&apos;s arms cannot be locked.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="1353-0999-ead2-5c8d" profileTypeId="5761726a61636b23232344415441232323" name="Demolisher" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="4"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="12"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="10"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="25"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="-"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="e4dc-a9e6-4693-1598" targetId="d747-7710-acba-a127" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="79e6-929a-cea6-7a36" targetId="0f37354d-35b3-56bc-f761-9232ddb34687" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="83dd-ee33-ed42-a1a5" targetId="600d-6c9c-f794-cc7c" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6b49-6f2a-7306-8b04" targetId="e28d-6a06-8d10-5578" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -4525,6 +4741,147 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="263b-668d-1af8-b885" name="Gun Carriage" points="9.0" categoryId="426174746c6520456e67696e6523232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wrath" page="76">
+      <entries>
+        <entry id="18ad-9523-f37a-75de" name="Heavy Cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="8db4-06ab-f03c-0bd2" name="Crater" hidden="false">
+              <description>The AOE is rough terrain and remains in play for one round.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="6061-2349-5c02-4651" profileTypeId="576561706f6e23232344415441232323" name="Heavy Cannon" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="12"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="4"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="14"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="4430-2310-340a-41d5" name="Heavy Cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="5a7d-7098-286e-6063" name="Crater" hidden="false">
+              <description>The AOE is rough terrain and remains in play for one round.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="65fc-1024-7fd9-831b" profileTypeId="576561706f6e23232344415441232323" name="Heavy Cannon" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="12"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="4"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="14"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="7c76-5505-f01e-4b81" name="Military Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="cb19-20d0-d8f0-be64" name="Rear Attack" hidden="false">
+              <description>When declaring and resolving attacks with this weapon, this model&apos;s front arc extends to 360 degrees.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="ad07-a30b-78f9-0df7" profileTypeId="576561706f6e23232344415441232323" name="Military Rifle" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="10"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="11"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="-"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="ff8d-0f82-d759-c01e" name="Mount" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="2fcf-e141-14bb-6e06" name="Knockdown" hidden="false">
+              <description>When a model is hit by an attack with this weapon, it is knocked down.</description>
+              <modifiers/>
+            </rule>
+            <rule id="3e69-31ed-56c0-593b" name="Trampling Hooves" hidden="false">
+              <description>This model can charge and make charge attacks with this weapon. During a combat action it did not make a charge attack, this model can make one melee attack with this weapon.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="96c7-242c-6672-5fd3" profileTypeId="576561706f6e23232344415441232323" name="Mount" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="-"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="acc6-471e-c81d-a488" name="Khador Cavalry Battle Engine" hidden="false">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="efc1-c318-a55b-d986" profileTypeId="426174746c6520456e67696e6523232344415441232323" name="Gun Carriage" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="7"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="12"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="10"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="20"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="10"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="22"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="d871-5fb3-d08d-06f4" targetId="f5eca188-0c78-0183-50d1-4ff2baa25fab" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="fd08-f620-55f4-6db0" targetId="445c-1750-6824-4a98" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7562-3891-2524-3a4b" targetId="cc26-542b-7113-8aaa" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="cd64395a-e9f8-aa0f-06eb-d9147e501161" name="Hammerfall High Shield Gun Corps" points="5.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="146">
       <entries>
         <entry id="9bbe6013-70c7-90f0-7d19-e408f0612166" name="Leader &amp; 5 Grunts -&gt; Leader &amp; 9 Grunts" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -5601,6 +5958,73 @@
         </link>
       </links>
     </entry>
+    <entry id="c8c6-03d9-037f-fb24" name="Kayazy Eliminators" points="3.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wrath" page="74">
+      <entries>
+        <entry id="e66b-05ba-949b-84fb" name="Assasin Blade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="6f6a-9d7e-7bfa-389a" profileTypeId="576561706f6e23232344415441232323" name="Assasin Blade" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="9"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="a0a2-1df2-fc7a-a058" targetId="bf4e-9c33-3009-f780" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="ab0a-8706-c4e6-8b77" name="Khador Ally Unit" hidden="false">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="e9bd-c8c5-19d0-a9ce" profileTypeId="54726f6f70657223232344415441232323" name="Leader &amp; Grunt" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="7"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="5"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="15"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="11"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="d0ec-592c-f412-5b55" targetId="e99c4320-7ab1-4678-8245-f6bb01e712e0" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0e8c-f5b7-ef9b-9fe6" targetId="e302df5b-0331-d4fa-50d1-f5c890076c02" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e2b2-46b3-b17e-31b2" targetId="d9bde7b1-fc2e-d6b9-eef3-1a07c166363f" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7106-18ff-07c5-dd27" targetId="55a7-dec4-0527-b14a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5fb6-d4be-b662-df37" targetId="1703-fdd0-d0b2-90b1" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="04168eba-e1c7-79b3-6979-c5a8028cbf0b" name="Kell Bailoch" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="64">
       <entries>
         <entry id="623f-118c-8c27-cee1" name="Silence" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -6066,6 +6490,108 @@
           <modifiers/>
         </link>
         <link id="c644-a6ca-35ed-7e49" targetId="6215-77b2-2312-8c5d" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="f1f9-df9a-489e-15af" name="Kommander Harkevich, The Iron Wolf" points="-5.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wrath" page="66">
+      <entries>
+        <entry id="2091-79cb-f5b7-49ef" name="Hand Cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="7b0a-8751-6044-bd50" profileTypeId="576561706f6e23232344415441232323" name="Hand Cannon" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="12"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="6e7c-d5a6-00cd-3c59" name="Minister" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="916e-7f02-22a8-5b18" profileTypeId="576561706f6e23232344415441232323" name="Minister" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="7"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="14"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="0837-8ba5-b1ce-5f51" targetId="e0f48764-b12b-acca-bb70-726be718b29d" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="3bcf-464d-689f-dc89" targetId="815c41c2-2359-9a1f-23c0-c7e13bb126a7" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="5549-2aa3-8412-2f9c" targetId="80ca1cee-f0bb-f1f8-ebe7-c30f12c5191a" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="7ca2-8996-83df-5da4" name="Feat: Hour of the Wolf" hidden="false">
+          <description>While in Harkevich&apos;s control area, models in his battlegroup gain +3 ARM. Models in Harkevich battlegroup beginning their activaiton within his control area can charge or slam power attack wthout spending focus. If a model in Harkevich&apos;s battlegroup in his control area declares a charge or slam against an enemy model, it can make a normal ranged attack before advancing. Hour of the Wolf lasts for one round.</description>
+          <modifiers/>
+        </rule>
+        <rule id="aac2-3539-1c80-bda7" name="Field Marshal [Pathfinder]" hidden="false">
+          <description>Models in this model&apos;s battlegroup gain Pathfinder.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="2df9-a4f3-ffa0-5aa4" profileTypeId="57617263617374657223232344415441232323" name="Kommander Harkevich, The Iron Wolf" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="7"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="6"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="15"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="16"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
+            <characteristic characteristicId="466f63757323232344415441232323" name="Focus" value="6"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="6"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="7334-1ce6-6bda-4c46" targetId="235b-cea1-fb34-6b66" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0b32-60b7-f6dd-8789" targetId="4b9b-c7e8-b7b6-8a62" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="6714-6fd9-fdbc-73d3" targetId="6ef9-4158-a83a-496e" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="933e-4883-5e82-2b28" targetId="0ffa-03df-e1db-24d7" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="e99d-55e0-f1f5-c801" targetId="c278-e25a-c98c-cdc6" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="6171-a1b3-5a74-ad42" targetId="4f4f-e9b8-ff7b-a9fa" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -10426,6 +10952,131 @@
         </link>
       </links>
     </entry>
+    <entry id="85d2-40f4-0ac9-b124" name="Torch" points="0.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wrath" page="72">
+      <entries>
+        <entry id="0247-abf1-7db3-b453" name="Flamethrower" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="8b3e-72d4-d2ae-a3da" profileTypeId="576561706f6e23232344415441232323" name="Flamethrower" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SP 6"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="7960-813c-04fe-051e" targetId="08e8ccc0-f0de-5579-5f9f-ffe8507684ba" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="0d70-921e-e862-bad3" targetId="e7563dcc-d2ea-74ef-fba7-f1ebc160d64b" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="ee59-a33f-8f5d-2cad" name="Spiked Fist" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="61ca-9ac9-cc50-998e" profileTypeId="576561706f6e23232344415441232323" name="Spiked Fist" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="16"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="3fd1-938d-79cf-cf41" targetId="f1ebe717-5e03-7003-60f4-1b14bc6103a1" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="59db-a1a2-2148-19b0" name="Rip Saw" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="f08a-c17b-4c6f-bc8f" profileTypeId="576561706f6e23232344415441232323" name="Rip Saw" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="6"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="18"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="47e2-a83b-733f-fa23" targetId="428827b6-84f5-099c-0b03-a5d1704d23b1" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="7648-0a34-fc7e-28f2" name="Smoke Bombs (* Action)" hidden="false">
+          <description>Place a 3&quot; AOE cloud effect in play. Its center point must be within 1&quot; of this model. This AOE remains in play for one round.</description>
+          <modifiers/>
+        </rule>
+        <rule id="3707-7d1c-5d0f-bd0a" name="Special Issue [Strakhov]" hidden="false">
+          <description>This model can be included in Strakhov&apos;s theme forces. It can also be bonded to Strakhov.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="29e0-7d0f-9a37-ac37" profileTypeId="5761726a61636b23232344415441232323" name="Torch" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="4"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="12"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="10"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="20"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="-"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="bd32-1be2-095c-8076" targetId="7d5b-7a6f-6600-2cae" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="dcc6-c63f-c5a8-7ae2" targetId="0f37354d-35b3-56bc-f761-9232ddb34687" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="43f1-41fd-0176-c415" targetId="7834cc43-076a-eb30-b774-9bd146307ab6" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4792-5a75-9b2e-69dc" targetId="b8369371-48fb-3195-4861-cb0c15a94307" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="87d8-2af8-ff60-5b00" targetId="3d2f-1883-37aa-6889" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3254-770e-e1be-4d71" targetId="8e4642a1-94bf-fc25-1e28-3c0c7c022176" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="ac73-0962-d84c-15ab" name="Uhlan Kovnik Markov" points="4.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Khador" page="120">
       <entries>
         <entry id="892e-91ae-cf23-7716" name="Concussion Lance" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -11850,19 +12501,76 @@
         </link>
       </links>
     </entry>
-    <entry id="f1f9-df9a-489e-15af" name="Kommander Harkevich, The Iron Wolf" points="-5.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wrath" page="66">
+    <entry id="0ed2-827a-0683-f670" name="Vladimir Tzepesci, Great Prince of Umbery" points="-5.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Colossals" page="84">
       <entries>
-        <entry id="2091-79cb-f5b7-49ef" name="Hand Cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="8109-7a6b-17fa-43a5" name="Horse Lord&apos;s Spear" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="7b0a-8751-6044-bd50" profileTypeId="576561706f6e23232344415441232323" name="Hand Cannon" hidden="false">
+            <profile id="dbec-8be5-6755-2e77" profileTypeId="576561706f6e23232344415441232323" name="Horse Lord&apos;s Spear" hidden="false">
               <characteristics>
-                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="12"/>
-                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
-                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="6"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="12"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="3fa2-6f3f-ce70-f397" targetId="e0f48764-b12b-acca-bb70-726be718b29d" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="445d-069b-6f88-b923" targetId="c950cf4c-33a0-1369-1946-ff2bb9ca7528" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="af19-c595-d532-3258" targetId="f9810b50-8fea-40b9-5628-9fe47f087e16" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="2478-4384-103e-1320" name="Huntsman" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="3162-37cb-2bd8-7066" profileTypeId="576561706f6e23232344415441232323" name="Huntsman" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="7"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="13"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="6b78-281b-a62d-3d53" targetId="e0f48764-b12b-acca-bb70-726be718b29d" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="4a97-8d87-a7a4-b6b3" targetId="7aa5787b-85dd-fd13-2384-ec32ad1df31f" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="23ca-a8f3-e7f5-0d07" name="Mount" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="fd5b-d22c-326a-fe19" profileTypeId="576561706f6e23232344415441232323" name="Mount" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
                 <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
                 <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
                 <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
@@ -11870,34 +12578,8 @@
               <modifiers/>
             </profile>
           </profiles>
-          <links/>
-        </entry>
-        <entry id="6e7c-d5a6-00cd-3c59" name="Minister" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="916e-7f02-22a8-5b18" profileTypeId="576561706f6e23232344415441232323" name="Minister" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="7"/>
-                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="14"/>
-                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
           <links>
-            <link id="0837-8ba5-b1ce-5f51" targetId="e0f48764-b12b-acca-bb70-726be718b29d" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="3bcf-464d-689f-dc89" targetId="815c41c2-2359-9a1f-23c0-c7e13bb126a7" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="5549-2aa3-8412-2f9c" targetId="80ca1cee-f0bb-f1f8-ebe7-c30f12c5191a" linkType="rule">
+            <link id="40f2-2aee-e062-3598" targetId="107dd7f7-39ae-6416-0421-1406d4ea886b" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -11906,281 +12588,107 @@
       <entryGroups/>
       <modifiers/>
       <rules>
-        <rule id="7ca2-8996-83df-5da4" name="Feat: Hour of the Wolf" hidden="false">
-          <description>While in Harkevich&apos;s control area, models in his battlegroup gain +3 ARM. Models in Harkevich battlegroup beginning their activaiton within his control area can charge or slam power attack wthout spending focus. If a model in Harkevich&apos;s battlegroup in his control area declares a charge or slam against an enemy model, it can make a normal ranged attack before advancing. Hour of the Wolf lasts for one round.</description>
+        <rule id="96c9-32e8-9f51-09ba" name="Feat: Charge of the Horse Lords" hidden="false">
+          <description>While in Vladimir&apos;s control area, friendly Faction warjacks and cavalry models gain Side Step and Sprint. Charge of the Horse Lords lasts for one turn. (When a model with Side Step hits an enemy model with an initial melee attack or a non-power attack special attack, after the attack is resolved it can advance 2&quot;. A model with Side Step cannot be targeted by free strikes during this movement.) (At the end of its activation, if it destroyed one or more enemy models with melee attacks during its activation, a Model with Sprint can make a full advance.)</description>
           <modifiers/>
         </rule>
-        <rule id="aac2-3539-1c80-bda7" name="Field Marshal [Pathfinder]" hidden="false">
-          <description>Models in this model&apos;s battlegroup gain Pathfinder.</description>
+        <rule id="aa43-2467-822f-041f" name="Blood-Quenched" hidden="false">
+          <description>This model gains a cumulative +1 STR and ARM for each living enemy model it destroys with a melee attack during its activation. This bonus lasts for one round.</description>
+          <modifiers/>
+        </rule>
+        <rule id="234c-8062-92fc-295a" name="Khador Cavalry Epic Warcaster" hidden="false">
           <modifiers/>
         </rule>
       </rules>
       <profiles>
-        <profile id="2df9-a4f3-ffa0-5aa4" profileTypeId="57617263617374657223232344415441232323" name="Kommander Harkevich, The Iron Wolf" hidden="false">
+        <profile id="7972-bf9d-8a11-7bd2" profileTypeId="57617263617374657223232344415441232323" name="Vladimir Tzepesci, Great Prince of Umbery" hidden="false">
           <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="7"/>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="8"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
             <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
             <characteristic characteristicId="44454623232344415441232323" name="DEF" value="15"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="16"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
-            <characteristic characteristicId="466f63757323232344415441232323" name="Focus" value="6"/>
-            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="6"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="17"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
+            <characteristic characteristicId="466f63757323232344415441232323" name="Focus" value="7"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="18"/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links>
-        <link id="7334-1ce6-6bda-4c46" targetId="235b-cea1-fb34-6b66" linkType="rule">
+        <link id="1c5d-b88d-a299-7244" targetId="34fb-8abd-bbe1-7e72" linkType="rule">
           <modifiers/>
         </link>
-        <link id="0b32-60b7-f6dd-8789" targetId="4b9b-c7e8-b7b6-8a62" linkType="entry">
+        <link id="8ea9-e0a2-170b-0b38" targetId="3d2f-1883-37aa-6889" linkType="rule">
           <modifiers/>
         </link>
-        <link id="6714-6fd9-fdbc-73d3" targetId="6ef9-4158-a83a-496e" linkType="entry">
+        <link id="2529-389c-3673-4494" targetId="6a0f-3200-2f86-a0f0" linkType="entry">
           <modifiers/>
         </link>
-        <link id="933e-4883-5e82-2b28" targetId="0ffa-03df-e1db-24d7" linkType="entry">
+        <link id="e084-b0a3-93e1-3714" targetId="43a3-d0c3-91da-015e" linkType="entry">
           <modifiers/>
         </link>
-        <link id="e99d-55e0-f1f5-c801" targetId="c278-e25a-c98c-cdc6" linkType="entry">
+        <link id="c61e-74fc-c996-5826" targetId="c869-4c2c-754f-8c8c" linkType="entry">
           <modifiers/>
         </link>
-        <link id="6171-a1b3-5a74-ad42" targetId="4f4f-e9b8-ff7b-a9fa" linkType="entry">
+        <link id="955a-5383-9be9-85d3" targetId="4f4f-e9b8-ff7b-a9fa" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="e31f-152d-84d8-a992" targetId="53cb-ff2b-9d5f-bb3f" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="425c-dc29-5e35-2b12" targetId="4196-0ccf-d26a-fd48" linkType="entry">
           <modifiers/>
         </link>
       </links>
     </entry>
-    <entry id="e632-6eff-0287-8a3f" name="Demolisher" points="9.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wrath" page="66">
+    <entry id="978b-b970-e739-47a3" name="Conquest" points="19.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Colossals" page="88">
       <entries>
-        <entry id="c837-12e1-5142-e6f7" name="Shield Cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="06f0-fae4-3cac-89ec" name="Main Guns" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="1b23-a6d9-8045-c381" profileTypeId="576561706f6e23232344415441232323" name="Shield Cannon" hidden="false">
+            <profile id="6c5e-3814-39c2-a3e9" profileTypeId="576561706f6e23232344415441232323" name="Main Guns" hidden="false">
               <characteristics>
-                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="8"/>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="15"/>
                 <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
                 <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="4"/>
                 <characteristic characteristicId="504f5723232344415441232323" name="POW" value="15"/>
                 <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
-                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="-"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="7ac6-6ce6-aaa9-46df" name="Shield Cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="ee8e-7725-81e6-cb73" profileTypeId="576561706f6e23232344415441232323" name="Shield Cannon" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="8"/>
-                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
-                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="4"/>
-                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="15"/>
-                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
-                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="-"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="92c2-a5d0-369a-8f77" name="Shield Fist" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="0934-546e-c25e-a929" profileTypeId="576561706f6e23232344415441232323" name="Shield Fist" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
-                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="16"/>
-                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="S"/>
               </characteristics>
               <modifiers/>
             </profile>
           </profiles>
           <links>
-            <link id="e195-2e00-0a2a-3225" targetId="f1ebe717-5e03-7003-60f4-1b14bc6103a1" linkType="rule">
+            <link id="146e-7a01-0d26-5c88" targetId="e54182e1-ce0b-cb6f-f54a-23595ae98d20" linkType="rule">
               <modifiers/>
             </link>
           </links>
         </entry>
-        <entry id="c04e-70ef-4d20-b4e8" name="Shield Fist" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="f408-ef99-05d9-5088" name="Secondary Battery" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="e4d9-2151-2405-5527" profileTypeId="576561706f6e23232344415441232323" name="Shield Fist" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
-                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="16"/>
-                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
-              </characteristics>
+          <rules>
+            <rule id="12b9-319b-c645-4237" name="Creeping Barrage" hidden="false">
+              <description>Instead of attacking with this weapon during this model&apos;s activation, if it is not currently crippled you can place two 3&quot; AOEs anywhere completely within this weapon&apos;s RNG, centered on points in this model&apos;s LOS, ignoring intervening models. The AOEs must be placed within 1&quot; of each other. A model entering or ending its activation in one or more of the AOEs suffers an unboostable POW 6 blast damage roll. The AOEs remain in play for one round. If this model is destroyed or removed from play, immediately remove the AOEs from play.</description>
               <modifiers/>
-            </profile>
-          </profiles>
-          <links>
-            <link id="5439-d91e-a73f-8160" targetId="f1ebe717-5e03-7003-60f4-1b14bc6103a1" linkType="rule">
+            </rule>
+            <rule id="38c1-e5dc-1de8-00de" name="Linked Guns" hidden="false">
+              <description>When this model makes an initial attack with this weapon, after the initial attack has been resolved it can immediately make one additional attack against the target of the initial attack. This additional attack ignores this weapon&apos;s ROF.</description>
               <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="2c8f-6b12-b898-34d3" name="Armored Shell" hidden="false">
-          <description>While one of its arm systems is crippled, this model&apos;s base ARM is 21; while both its arm systems are crippled, its base ARM is 17. If this model makes an attack, its base ARM is 17 until the start of its next activation. This model&apos;s arms cannot be locked.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="1353-0999-ead2-5c8d" profileTypeId="5761726a61636b23232344415441232323" name="Demolisher" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="4"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="12"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="10"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="25"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="-"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="e4dc-a9e6-4693-1598" targetId="d747-7710-acba-a127" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="79e6-929a-cea6-7a36" targetId="0f37354d-35b3-56bc-f761-9232ddb34687" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="83dd-ee33-ed42-a1a5" targetId="600d-6c9c-f794-cc7c" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="6b49-6f2a-7306-8b04" targetId="e28d-6a06-8d10-5578" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="b25b-0f0f-60ce-522c" name="Black Ivan" points="10.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wrath" page="66">
-      <entries>
-        <entry id="be8e-fa13-e78a-00d1" name="Bombard" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
+            </rule>
+          </rules>
           <profiles>
-            <profile id="2728-5b44-29c9-6ba3" profileTypeId="576561706f6e23232344415441232323" name="Bombard" hidden="false">
+            <profile id="29f8-c66b-389b-2579" profileTypeId="576561706f6e23232344415441232323" name="Secondary Battery" hidden="false">
               <characteristics>
-                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="14"/>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="12"/>
                 <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
                 <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="3"/>
-                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="14"/>
-                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
-                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links>
-            <link id="5e04-851f-d5fd-8f2c" targetId="1190f14c-e530-15eb-7a53-cb571bafe626" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="6649-6250-3cfa-a3a5" name="Bear Claw" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="c03f-3f76-6fee-871d" profileTypeId="576561706f6e23232344415441232323" name="Bear Claw" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
-                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="16"/>
-                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links>
-            <link id="9d7c-3acf-15f2-c7ad" targetId="f1ebe717-5e03-7003-60f4-1b14bc6103a1" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="9ca7-32e5-8313-674e" targetId="e236-25d0-5791-b31c" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="5b41-93c3-0799-1a38" name="Affinity [Harkevich]" hidden="false">
-          <description>While in Harkevich&apos;s control area, this model gains boosted ranged attack rolls.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="f646-ffa5-0447-f099" profileTypeId="5761726a61636b23232344415441232323" name="Black Ivan" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="4"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="12"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="12"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="20"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="-"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="4ae6-ca3d-11e3-3f7b" targetId="fe198e38-f51b-4d1c-2051-eea9ddbdce00" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="36d1-510c-6c82-5ebe" targetId="e28d-6a06-8d10-5578" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="049c-c42b-fb9a-2ed5" targetId="7d5b-7a6f-6600-2cae" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="85d2-40f4-0ac9-b124" name="Torch" points="0.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wrath" page="72">
-      <entries>
-        <entry id="0247-abf1-7db3-b453" name="Flamethrower" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="8b3e-72d4-d2ae-a3da" profileTypeId="576561706f6e23232344415441232323" name="Flamethrower" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SP 6"/>
-                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
-                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
                 <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
                 <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
                 <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
@@ -12188,59 +12696,81 @@
               <modifiers/>
             </profile>
           </profiles>
-          <links>
-            <link id="7960-813c-04fe-051e" targetId="08e8ccc0-f0de-5579-5f9f-ffe8507684ba" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="0d70-921e-e862-bad3" targetId="e7563dcc-d2ea-74ef-fba7-f1ebc160d64b" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
+          <links/>
         </entry>
-        <entry id="ee59-a33f-8f5d-2cad" name="Spiked Fist" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="d123-fa78-debd-00ab" name="Secondary Battery" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="11d5-508b-1509-29d2" name="Creeping Barrage" hidden="false">
+              <description>Instead of attacking with this weapon during this model&apos;s activation, if it is not currently crippled you can place two 3&quot; AOEs anywhere completely within this weapon&apos;s RNG, centered on points in this model&apos;s LOS, ignoring intervening models. The AOEs must be placed within 1&quot; of each other. A model entering or ending its activation in one or more of the AOEs suffers an unboostable POW 6 blast damage roll. The AOEs remain in play for one round. If this model is destroyed or removed from play, immediately remove the AOEs from play.</description>
+              <modifiers/>
+            </rule>
+            <rule id="637b-67b1-af07-27f3" name="Linked Guns" hidden="false">
+              <description>When this model makes an initial attack with this weapon, after the initial attack has been resolved it can immediately make one additional attack against the target of the initial attack. This additional attack ignores this weapon&apos;s ROF.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="908f-aec0-aa89-df17" profileTypeId="576561706f6e23232344415441232323" name="Secondary Battery" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="12"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="3"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="0909-380d-4d29-159a" name="Fist" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="61ca-9ac9-cc50-998e" profileTypeId="576561706f6e23232344415441232323" name="Spiked Fist" hidden="false">
+            <profile id="d948-5751-d620-094a" profileTypeId="576561706f6e23232344415441232323" name="Fist" hidden="false">
               <characteristics>
                 <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
                 <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
                 <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
                 <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
-                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="16"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="22"/>
                 <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
               </characteristics>
               <modifiers/>
             </profile>
           </profiles>
           <links>
-            <link id="3fd1-938d-79cf-cf41" targetId="f1ebe717-5e03-7003-60f4-1b14bc6103a1" linkType="rule">
+            <link id="5dee-2c02-563c-598b" targetId="f1ebe717-5e03-7003-60f4-1b14bc6103a1" linkType="rule">
               <modifiers/>
             </link>
           </links>
         </entry>
-        <entry id="59db-a1a2-2148-19b0" name="Rip Saw" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="3291-d1cb-7e38-f1a2" name="Fist" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="f08a-c17b-4c6f-bc8f" profileTypeId="576561706f6e23232344415441232323" name="Rip Saw" hidden="false">
+            <profile id="8f01-c240-3a4e-e7e6" profileTypeId="576561706f6e23232344415441232323" name="Fist" hidden="false">
               <characteristics>
                 <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
                 <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
                 <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="6"/>
-                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="18"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="22"/>
                 <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
               </characteristics>
               <modifiers/>
             </profile>
           </profiles>
           <links>
-            <link id="47e2-a83b-733f-fa23" targetId="428827b6-84f5-099c-0b03-a5d1704d23b1" linkType="rule">
+            <link id="cc56-833b-496e-7687" targetId="f1ebe717-5e03-7003-60f4-1b14bc6103a1" linkType="rule">
               <modifiers/>
             </link>
           </links>
@@ -12249,257 +12779,25 @@
       <entryGroups/>
       <modifiers/>
       <rules>
-        <rule id="7648-0a34-fc7e-28f2" name="Smoke Bombs (* Action)" hidden="false">
-          <description>Place a 3&quot; AOE cloud effect in play. Its center point must be within 1&quot; of this model. This AOE remains in play for one round.</description>
-          <modifiers/>
-        </rule>
-        <rule id="3707-7d1c-5d0f-bd0a" name="Special Issue [Strakhov]" hidden="false">
-          <description>This model can be included in Strakhov&apos;s theme forces. It can also be bonded to Strakhov.</description>
+        <rule id="b903-12d8-d693-d4ac" name="Khador Colossal" hidden="false">
           <modifiers/>
         </rule>
       </rules>
       <profiles>
-        <profile id="29e0-7d0f-9a37-ac37" profileTypeId="5761726a61636b23232344415441232323" name="Torch" hidden="false">
+        <profile id="3a9c-345f-2da0-9cc5" profileTypeId="5761726a61636b23232344415441232323" name="Conquest" hidden="false">
           <characteristics>
             <characteristic characteristicId="53504423232344415441232323" name="SPD" value="4"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="12"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="10"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="20"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="-"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="bd32-1be2-095c-8076" targetId="7d5b-7a6f-6600-2cae" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="dcc6-c63f-c5a8-7ae2" targetId="0f37354d-35b3-56bc-f761-9232ddb34687" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="43f1-41fd-0176-c415" targetId="7834cc43-076a-eb30-b774-9bd146307ab6" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="4792-5a75-9b2e-69dc" targetId="b8369371-48fb-3195-4861-cb0c15a94307" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="87d8-2af8-ff60-5b00" targetId="3d2f-1883-37aa-6889" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="3254-770e-e1be-4d71" targetId="8e4642a1-94bf-fc25-1e28-3c0c7c022176" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="c8c6-03d9-037f-fb24" name="Kayazy Eliminators" points="3.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wrath" page="74">
-      <entries>
-        <entry id="e66b-05ba-949b-84fb" name="Assasin Blade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="6f6a-9d7e-7bfa-389a" profileTypeId="576561706f6e23232344415441232323" name="Assasin Blade" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
-                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="9"/>
-                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links>
-            <link id="a0a2-1df2-fc7a-a058" targetId="bf4e-9c33-3009-f780" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="ab0a-8706-c4e6-8b77" name="Khador Ally Unit" hidden="false">
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="e9bd-c8c5-19d0-a9ce" profileTypeId="54726f6f70657223232344415441232323" name="Leader &amp; Grunt" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="7"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="5"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="18"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
             <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="15"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="11"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
-            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="d0ec-592c-f412-5b55" targetId="e99c4320-7ab1-4678-8245-f6bb01e712e0" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="0e8c-f5b7-ef9b-9fe6" targetId="e302df5b-0331-d4fa-50d1-f5c890076c02" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="e2b2-46b3-b17e-31b2" targetId="d9bde7b1-fc2e-d6b9-eef3-1a07c166363f" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="7106-18ff-07c5-dd27" targetId="55a7-dec4-0527-b14a" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="5fb6-d4be-b662-df37" targetId="1703-fdd0-d0b2-90b1" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="263b-668d-1af8-b885" name="Gun Carriage" points="9.0" categoryId="426174746c6520456e67696e6523232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wrath" page="76">
-      <entries>
-        <entry id="18ad-9523-f37a-75de" name="Heavy Cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules>
-            <rule id="8db4-06ab-f03c-0bd2" name="Crater" hidden="false">
-              <description>The AOE is rough terrain and remains in play for one round.</description>
-              <modifiers/>
-            </rule>
-          </rules>
-          <profiles>
-            <profile id="6061-2349-5c02-4651" profileTypeId="576561706f6e23232344415441232323" name="Heavy Cannon" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="12"/>
-                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
-                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="4"/>
-                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="14"/>
-                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
-                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="4430-2310-340a-41d5" name="Heavy Cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules>
-            <rule id="5a7d-7098-286e-6063" name="Crater" hidden="false">
-              <description>The AOE is rough terrain and remains in play for one round.</description>
-              <modifiers/>
-            </rule>
-          </rules>
-          <profiles>
-            <profile id="65fc-1024-7fd9-831b" profileTypeId="576561706f6e23232344415441232323" name="Heavy Cannon" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="12"/>
-                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
-                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="4"/>
-                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="14"/>
-                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
-                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="7c76-5505-f01e-4b81" name="Military Rifle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules>
-            <rule id="cb19-20d0-d8f0-be64" name="Rear Attack" hidden="false">
-              <description>When declaring and resolving attacks with this weapon, this model&apos;s front arc extends to 360 degrees.</description>
-              <modifiers/>
-            </rule>
-          </rules>
-          <profiles>
-            <profile id="ad07-a30b-78f9-0df7" profileTypeId="576561706f6e23232344415441232323" name="Military Rifle" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="10"/>
-                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
-                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="11"/>
-                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
-                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="-"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-        <entry id="ff8d-0f82-d759-c01e" name="Mount" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules>
-            <rule id="2fcf-e141-14bb-6e06" name="Knockdown" hidden="false">
-              <description>When a model is hit by an attack with this weapon, it is knocked down.</description>
-              <modifiers/>
-            </rule>
-            <rule id="3e69-31ed-56c0-593b" name="Trampling Hooves" hidden="false">
-              <description>This model can charge and make charge attacks with this weapon. During a combat action it did not make a charge attack, this model can make one melee attack with this weapon.</description>
-              <modifiers/>
-            </rule>
-          </rules>
-          <profiles>
-            <profile id="96c7-242c-6672-5fd3" profileTypeId="576561706f6e23232344415441232323" name="Mount" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
-                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
-                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="-"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="acc6-471e-c81d-a488" name="Khador Cavalry Battle Engine" hidden="false">
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="efc1-c318-a55b-d986" profileTypeId="426174746c6520456e67696e6523232344415441232323" name="Gun Carriage" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="7"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="12"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="10"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="7"/>
             <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="20"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="10"/>
-            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="22"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="-"/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
-      <links>
-        <link id="d871-5fb3-d08d-06f4" targetId="f5eca188-0c78-0183-50d1-4ff2baa25fab" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="fd08-f620-55f4-6db0" targetId="445c-1750-6824-4a98" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="7562-3891-2524-3a4b" targetId="cc26-542b-7113-8aaa" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
+      <links/>
     </entry>
   </entries>
   <rules/>
@@ -13355,7 +13653,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="6a0f-3200-2f86-a0f0" name="Dash" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="6a0f-3200-2f86-a0f0" name="Dash" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Colossals" page="84">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -13875,7 +14173,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="43a3-d0c3-91da-015e" name="Flashing Blade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="34">
+    <entry id="43a3-d0c3-91da-015e" name="Flashing Blade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Colossals" page="84">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -14491,6 +14789,31 @@
             <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
             <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
             <characteristic characteristicId="504f5723232344415441232323" name="POW" value=""/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="c278-e25a-c98c-cdc6" name="Jump Start" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wrath" page="66">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="eb82-8f49-cc7e-5f57" name="Jump Start" hidden="false">
+          <description>Models in this model&apos;s battlegroup that are currently in its control area can immediately turn to face any direction. Affected models that are stationary or knocked down are no longer stationary and stand up. Models that were knocked down this turn are not affected by Jump Start.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="efaa-ba9a-30e5-b80a" profileTypeId="5370656c6c23232344415441232323" name="Jump Start" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="1"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="CTRL"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
             <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
             <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
           </characteristics>
@@ -16494,24 +16817,24 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="c278-e25a-c98c-cdc6" name="Jump Start" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wrath" page="66">
+    <entry id="4196-0ccf-d26a-fd48" name="Infernal Machine" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Colossals" page="84">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules>
-        <rule id="eb82-8f49-cc7e-5f57" name="Jump Start" hidden="false">
-          <description>Models in this model&apos;s battlegroup that are currently in its control area can immediately turn to face any direction. Affected models that are stationary or knocked down are no longer stationary and stand up. Models that were knocked down this turn are not affected by Jump Start.</description>
+        <rule id="ec7e-e919-7950-db45" name="Infernal Machine" hidden="false">
+          <description>Target friendly Faction model/unit gains an additional die on attack and damage rolls. Discard the low die in each roll.</description>
           <modifiers/>
         </rule>
       </rules>
       <profiles>
-        <profile id="efaa-ba9a-30e5-b80a" profileTypeId="5370656c6c23232344415441232323" name="Jump Start" hidden="false">
+        <profile id="5911-9e76-9e80-f68a" profileTypeId="5370656c6c23232344415441232323" name="Infernal Machine" hidden="false">
           <characteristics>
-            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="1"/>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="CTRL"/>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
             <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
-            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
             <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
           </characteristics>
           <modifiers/>
@@ -16767,6 +17090,10 @@ Damaging a colossal
       <description>Place a 3&quot; AOE anywhere completely within this weapon&apos;s RNG. The canter point of the AOE must be in this model&apos;s LOS, ignoring intervening models. A model entering or ending its activation in the AOE suffers a damage roll with POW equal to the POW of this weapon. The AOE remains in play for one round or until this model is destroyed or removed from play.</description>
       <modifiers/>
     </rule>
+    <rule id="e236-25d0-5791-b31c" name="Critical Brutal Damage" hidden="false" book="Wrath" page="71">
+      <description>On a critical hit, gain an additional die on this weapon&apos;s damage roll against the model directly hit.</description>
+      <modifiers/>
+    </rule>
     <rule id="3e698f29-ec13-c41b-7a6a-e7785ddd1601" name="Critical Catastrophic Damage" hidden="false" book="Mercenaries - Forces of Warmachine" page="145">
       <description>On a critical hit on a warjack or warbeast, fill in the unmarked damage boxes or circles on the last column or branch damaged.</description>
       <modifiers/>
@@ -16867,6 +17194,10 @@ Damaging a colossal
       <description>When this model forfeits its movement to gain the aiming bonus it can also make one additional ranged attack this activation.</description>
       <modifiers/>
     </rule>
+    <rule id="1703-fdd0-d0b2-90b1" name="Duelist" hidden="false" book="Wrath" page="74">
+      <description>This model gains +2 DEF against melee attack rolls.</description>
+      <modifiers/>
+    </rule>
     <rule id="cda5-be17-1ed6-8a14" name="Energy Siphon" hidden="false" book="Forces of Warmachine: Retribution of Scyrah" page="58">
       <description>When this attack hits an enemy model with 1 or more focus or fury points on it, that model loses 1 focus or fury point and this model gains 1 focus point.</description>
       <modifiers/>
@@ -16925,6 +17256,10 @@ Damaging a colossal
     </rule>
     <rule id="ec150418-a831-6ef4-807f-a146f83da400" name="Ghost Shield" hidden="false" book="Colossals" page="128">
       <description>This model gains +1 ARM for each sould token currently on it.</description>
+      <modifiers/>
+    </rule>
+    <rule id="600d-6c9c-f794-cc7c" name="Girded" hidden="false" book="Wrath" page="66">
+      <description>This model does not suffer blast damage. Friendly models B2B with it do not suffer blast damage.</description>
       <modifiers/>
     </rule>
     <rule id="c6d0e5da-8a35-6bdb-1cee-5f819c2951cf" name="Grand Slam" hidden="false" book="Mercenaries - Forces of Warmachine" page="143">
@@ -17183,6 +17518,10 @@ Damaging a colossal
       <description>Gains an additional die on this weapon&apos;s damage rolls against living models.</description>
       <modifiers/>
     </rule>
+    <rule id="445c-1750-6824-4a98" name="Power Attack Trample" hidden="false" book="Wrath" page="76">
+      <description>This model can make trample power attacks.</description>
+      <modifiers/>
+    </rule>
     <rule id="ee00e1fd-f8f4-c05b-73cd-cb20d3a9cc24" name="Powerful Attack" hidden="false" book="Mercenaries - Forces of Warmachine" page="38">
       <description>When attacking with this weapon, this model can spend 1 focus point to boost all attack and damage rolls for the attack.</description>
       <modifiers/>
@@ -17414,28 +17753,12 @@ Damaging a colossal
       <description>When attacking with this weapon, add and additional die to its damage rolls.</description>
       <modifiers/>
     </rule>
-    <rule id="ff92-34f5-ec51-e9f7" name="Witch Hound" hidden="false" book="Forces of Warmachine: Retribution of Scyrah" page="58">
-      <description>If a model in this model&apos;s battlegroup in its control area is hit by an enemy magic attack, immediately after the attack is resolved one model in this model&apos;s battlegroup in its control area can make a full advance and make one normal attack.</description>
-      <modifiers/>
-    </rule>
-    <rule id="600d-6c9c-f794-cc7c" name="Girded" hidden="false" book="Wrath" page="66">
-      <description>This model does not suffer blast damage. Friendly models B2B with it do not suffer blast damage.</description>
-      <modifiers/>
-    </rule>
-    <rule id="e236-25d0-5791-b31c" name="Critical Brutal Damage" hidden="false" book="Wrath" page="71">
-      <description>On a critical hit, gain an additional die on this weapon&apos;s damage roll against the model directly hit.</description>
-      <modifiers/>
-    </rule>
-    <rule id="1703-fdd0-d0b2-90b1" name="Duelist" hidden="false" book="Wrath" page="74">
-      <description>This model gains +2 DEF against melee attack rolls.</description>
-      <modifiers/>
-    </rule>
-    <rule id="445c-1750-6824-4a98" name="Power Attack Trample" hidden="false" book="Wrath" page="76">
-      <description>This model can make trample power attacks.</description>
-      <modifiers/>
-    </rule>
     <rule id="cc26-542b-7113-8aaa" name="Weapon Platform" hidden="false" book="Wrath" page="76">
       <description>This model can make melee and ranged attacks in the same activation. When this model makes its initial melee attacks or a power attack, it can also make its initial ranged attacks. This model can make ranged attacks even while in melee.</description>
+      <modifiers/>
+    </rule>
+    <rule id="ff92-34f5-ec51-e9f7" name="Witch Hound" hidden="false" book="Forces of Warmachine: Retribution of Scyrah" page="58">
+      <description>If a model in this model&apos;s battlegroup in its control area is hit by an enemy magic attack, immediately after the attack is resolved one model in this model&apos;s battlegroup in its control area can make a full advance and make one normal attack.</description>
       <modifiers/>
     </rule>
   </sharedRules>
