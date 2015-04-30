@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7de19a40-913f-934b-e5f9-5f5d464ce1ad" revision="9" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="3" battleScribeVersion="1.15" name="Minions_Exigence_(2015)" books="Forces of Hordes - Minions, Domination, Gargantuans, Exigence" authorName="Matt (Halkken)" authorContact="deltao@msn.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7de19a40-913f-934b-e5f9-5f5d464ce1ad" revision="10" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="3" battleScribeVersion="1.15" name="Minions_Exigence_(2015)" books="Forces of Hordes - Minions, Domination, Gargantuans, Exigence" authorName="Matt (Halkken)" authorContact="deltao@msn.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="babeebfd-e63a-8eb9-b3e8-6d75059c3256" name="Alten Ashley" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Minions" page="26">
       <entries>
@@ -494,6 +494,31 @@
           </profiles>
           <links/>
         </entry>
+        <entry id="9e08-2628-ece7-bd5c" name="Animus" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="2402-3ddd-c856-333e" name="Swarm" hidden="false">
+              <description>This model has concealment. Living enemy models suffer -2 to attack rolls within 2&quot; of this model. Swarm lasts for one round.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="f7cb-ebec-b592-afa7" profileTypeId="5370656c6c23232344415441232323" name="Swarm" hidden="false" book="Domination" page="90">
+              <characteristics>
+                <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+                <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+                <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
       </entries>
       <entryGroups/>
       <modifiers/>
@@ -519,9 +544,6 @@
         </profile>
       </profiles>
       <links>
-        <link id="3c14-8d33-4357-dab4" targetId="be51-bb14-c34c-d120" linkType="profile">
-          <modifiers/>
-        </link>
         <link id="76e7-e130-4084-9fce" targetId="0d331277-2786-797d-84cd-472d4e205fdb" linkType="rule">
           <modifiers/>
         </link>
@@ -4023,6 +4045,31 @@
             </link>
           </links>
         </entry>
+        <entry id="2c60-2f33-f797-07ea" name="Animus" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="3c8f-141e-8fa1-b095" name="Lightning Strike" hidden="false" book="">
+              <description>Target friendly model gains Sprint. Lightning Strike lasts for one turn. (At the end of its activation, if a model with Sprint destroyed one or more enemy models with melee attacks this activation it can make a full advance.)</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="e8b7-7f30-b367-5403" profileTypeId="5370656c6c23232344415441232323" name="Lightning Strike" hidden="false" book="Domination" page="91">
+              <characteristics>
+                <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+                <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+                <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
       </entries>
       <entryGroups/>
       <modifiers/>
@@ -4048,9 +4095,6 @@
         </profile>
       </profiles>
       <links>
-        <link id="aecf-21d6-f518-60a0" targetId="23c9-826d-f90d-eed8" linkType="profile">
-          <modifiers/>
-        </link>
         <link id="9970-8f24-bfeb-4765" targetId="d80c-0aa9-d211-e54d" linkType="rule">
           <modifiers/>
         </link>
@@ -5740,6 +5784,31 @@
   <rules/>
   <links/>
   <sharedEntries>
+    <entry id="ce15-ad21-c753-33d0" name="Admonition" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Gargantuans" page="124">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="b689-2bc2-ebb2-a307" name="Admonition" hidden="false">
+          <description>When an enemy model advances and ends its movement within 6&quot; of target model in this model&apos;s battlegroup, the affected model can immediately advance up to 3&quot;, then Admonition expires. The affected model cannot be targeted by free strikes during this movement.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="1995-019d-be97-ddaf" profileTypeId="5370656c6c23232344415441232323" name="Admonition" hidden="false" book="Gargantuans" page="124">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="b768-4e44-a487-fdbf" name="Aggravator" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Minions" page="72">
       <entries/>
       <entryGroups/>
@@ -5808,6 +5877,31 @@
             <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
             <characteristic characteristicId="504f5723232344415441232323" name="POW" value="11"/>
             <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="YES"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="a3c7-fe64-0800-da55" name="Bad Blood" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Gargantuans" page="122">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="1fd5-ea1b-adc1-61b6" name="Bad Blood" hidden="false">
+          <description>A warlock leaching from target warbeast suffers 1 damage point for each fury point leached. The affected warbeast cannot be healed or have damage transferred to it and loses Regnerate.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="338c-9b5b-0a01-8bbe" profileTypeId="5370656c6c23232344415441232323" name="Bad Blood" hidden="false" book="Gargantuans" page="122">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="10"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
             <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="YES"/>
           </characteristics>
           <modifiers/>
@@ -5890,6 +5984,31 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="d8d3-9651-0997-b1aa" name="Battle Lust" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Gargantuans" page="122">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="421d-4148-bb06-28ee" name="Battle Lust" hidden="false">
+          <description>Target friendly Faction warrior model/unit gains Fearless and gains an additional die on melee damage rolls for one round.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="dbd0-e808-4772-0a74" profileTypeId="5370656c6c23232344415441232323" name="Battle Lust" hidden="false" book="Gargantuans" page="122">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="eb53-9b4c-db7a-3cf7" name="Befuddle" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Trollbloods" page="50">
       <entries/>
       <entryGroups/>
@@ -5959,6 +6078,31 @@
             <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
             <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
             <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="YES"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="970d-3296-8d9f-2e6e" name="Boundless Charge" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Gargantuans" page="124">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="815c-1510-53e4-81ac" name="Boundless Charge" hidden="false">
+          <description>During its activation, target friendly model can charge without spending focus or being forced and gains +2&quot; movement and Pathfinder when it charges. Boundless Charge lasts for one turn.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="d26a-5ed1-1f4d-4e67" profileTypeId="5370656c6c23232344415441232323" name="Boundless Charge" hidden="false" book="Gargantuans" page="124">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -6190,6 +6334,31 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="6b63-d71a-cb8d-d62b" name="Death Pact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="86">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="afba-2432-dd19-1252" name="Death Pact" hidden="false">
+          <description>Target friendly Faction model/unit gains +2 ARM and Undead.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="3b3c-e12a-7c67-4752" profileTypeId="5370656c6c23232344415441232323" name="Death Pact" hidden="false" book="Domination" page="86">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="3550-2fe4-786c-8f90" name="Defender&apos;s Ward" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Exigence" page="86">
       <entries/>
       <entryGroups/>
@@ -6208,6 +6377,31 @@
             <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
             <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
             <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="c9f3-495d-8c7b-e916" name="Deflection" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="88">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="92e1-6ded-17b3-d265" name="Deflection" hidden="false">
+          <description>While in this model&apos;s control area, friendly Faction warrior models gain +2 ARM against ranged and magic attack damage rolls. Deflection lasts for one round.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="31d8-aa1c-5436-5afa" profileTypeId="5370656c6c23232344415441232323" name="Deflection" hidden="false" book="Domination" page="88">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="CTRL"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
             <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
           </characteristics>
           <modifiers/>
@@ -6409,6 +6603,31 @@
             <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
             <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
             <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="YES"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="5f7d-b9f4-f3ce-cca6" name="Fury" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Gargantuans" page="124">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="df6e-761f-858e-f74c" name="Fury" hidden="false">
+          <description>Target friendly model/unit gains +2 to melee damage rolls but suffers -1 DEF.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="4ae7-beef-7272-9c66" profileTypeId="5370656c6c23232344415441232323" name="Fury" hidden="false" book="Gargantuans" page="124">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -6739,6 +6958,31 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="d0b0-17d3-0d47-c897" name="Malediction" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="86">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="2495-eba4-ea3d-c050" name="Malediction" hidden="false">
+          <description>While within 2&quot; of this model, enemy models suffer -2 DEF and ARM.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="a5be-b52d-7995-a481" profileTypeId="5370656c6c23232344415441232323" name="Malediction" hidden="false" book="Domination" page="86">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="*"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="_"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="6288-9a89-eac2-c883" name="Marked for Death" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Trollbloods" page="32">
       <entries/>
       <entryGroups/>
@@ -6906,6 +7150,31 @@
             <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="10"/>
             <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
             <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="YES"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="1d36-f78e-2e93-85f7" name="Obliteration" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="88">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="bcb9-4c32-5ae9-83ff" name="Obliteration" hidden="false">
+          <description>The force of this attack blasts apart the earth itself.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="98b2-a436-3119-bf84" profileTypeId="5370656c6c23232344415441232323" name="Obliteration" hidden="false" book="Domination" page="88">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="4"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="10"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="4"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="15"/>
             <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
             <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="YES"/>
           </characteristics>
@@ -7179,6 +7448,31 @@
           <characteristics>
             <characteristic characteristicId="434f535423232344415441232323" name="COST" value="1"/>
             <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="60fc-397b-f9cc-3f77" name="Revive" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="86">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="dc47-219f-746e-6e90" name="Revive" hidden="false">
+          <description>Return one destroyed friendly Faction Grunt to play with one unmarked damage box. It must be placed in this model&apos;s control area in formation and within 3&quot; of another model in its unit.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="e10a-dce1-dd6f-f0cb" profileTypeId="5370656c6c23232344415441232323" name="Revive" hidden="false" book="Domination" page="86">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="CTRL"/>
             <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
             <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
             <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
@@ -7489,6 +7783,81 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="ea18-4a10-d452-a390" name="Telekinesis" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="88">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="3c3c-815a-b5d9-f14e" name="Telekinesis" hidden="false">
+          <description>Place target model completely within 2&quot; of its current location. When Telekinesis targets and enemy model, it is and offensive spell and requires a magic attack roll. A model can be affected by Telekinesis only once per turn.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="a181-c1ee-f8da-2540" profileTypeId="5370656c6c23232344415441232323" name="Telekinesis" hidden="false" book="Domination" page="88">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="8"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="*"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="cd5f-c00a-58ea-3bed" name="Venom" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="86">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="e695-91d4-11aa-21ef" name="Venom" hidden="false">
+          <description>Venom causes corrosion damage. Models hit suffer the Corrosion continuous effect.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="9d84-e030-cafa-8af5" profileTypeId="5370656c6c23232344415441232323" name="Venom" hidden="false" book="Domination" page="86">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SP 8"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="10"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="YES"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="3b03-5d6e-f46c-4786" name="Vision" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="88">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="0051-8410-3d59-cded" name="Vision" hidden="false">
+          <description>The next time target friendly Faction model is directly hit by an attack, it suffers no damage roll from the attack, then Vision expires.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="f036-699c-3637-de9d" profileTypeId="5370656c6c23232344415441232323" name="Vision" hidden="false" book="Domination" page="88">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="db6b-d9ec-afbb-c55b" name="Voodoo Doll" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Minions" page="63">
       <entries/>
       <entryGroups/>
@@ -7530,6 +7899,31 @@
             <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
             <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
             <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="CTRL"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="2587-8470-0db5-c6fa" name="Watcher" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="88">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="191d-a574-c9e5-36f3" name="Watcher" hidden="false">
+          <description>When an enemy model advances and ends its movement within 6&quot; of this model, choose a warbeast in this model&apos;s battlegroup that is in its control area. That warbeast can immediately make a full advance and then can make one normal melee or ranged attack targeting the enemy model. The attack and damage rolls against that model are boosted. After the attack is resolved, Watcher expires.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="3f87-7da4-bd2a-6fd4" profileTypeId="5370656c6c23232344415441232323" name="Watcher" hidden="false" book="Domination" page="88">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
             <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
             <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
             <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
@@ -7607,356 +8001,6 @@
             <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
             <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
             <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
-            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="6b63-d71a-cb8d-d62b" name="Death Pact" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="86">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="afba-2432-dd19-1252" name="Death Pact" hidden="false">
-          <description>Target friendly Faction model/unit gains +2 ARM and Undead.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="3b3c-e12a-7c67-4752" profileTypeId="5370656c6c23232344415441232323" name="Death Pact" hidden="false" book="Domination" page="86">
-          <characteristics>
-            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
-            <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
-            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="d0b0-17d3-0d47-c897" name="Malediction" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="86">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="2495-eba4-ea3d-c050" name="Malediction" hidden="false">
-          <description>While within 2&quot; of this model, enemy models suffer -2 DEF and ARM.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="a5be-b52d-7995-a481" profileTypeId="5370656c6c23232344415441232323" name="Malediction" hidden="false" book="Domination" page="86">
-          <characteristics>
-            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="*"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="_"/>
-            <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
-            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="60fc-397b-f9cc-3f77" name="Revive" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="86">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="dc47-219f-746e-6e90" name="Revive" hidden="false">
-          <description>Return one destroyed friendly Faction Grunt to play with one unmarked damage box. It must be placed in this model&apos;s control area in formation and within 3&quot; of another model in its unit.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="e10a-dce1-dd6f-f0cb" profileTypeId="5370656c6c23232344415441232323" name="Revive" hidden="false" book="Domination" page="86">
-          <characteristics>
-            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="CTRL"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
-            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
-            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="cd5f-c00a-58ea-3bed" name="Venom" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="86">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="e695-91d4-11aa-21ef" name="Venom" hidden="false">
-          <description>Venom causes corrosion damage. Models hit suffer the Corrosion continuous effect.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="9d84-e030-cafa-8af5" profileTypeId="5370656c6c23232344415441232323" name="Venom" hidden="false" book="Domination" page="86">
-          <characteristics>
-            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SP 8"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="10"/>
-            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
-            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="YES"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="c9f3-495d-8c7b-e916" name="Deflection" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="88">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="92e1-6ded-17b3-d265" name="Deflection" hidden="false">
-          <description>While in this model&apos;s control area, friendly Faction warrior models gain +2 ARM against ranged and magic attack damage rolls. Deflection lasts for one round.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="31d8-aa1c-5436-5afa" profileTypeId="5370656c6c23232344415441232323" name="Deflection" hidden="false" book="Domination" page="88">
-          <characteristics>
-            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="CTRL"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
-            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
-            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="ea18-4a10-d452-a390" name="Telekinesis" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="88">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="3c3c-815a-b5d9-f14e" name="Telekinesis" hidden="false">
-          <description>Place target model completely within 2&quot; of its current location. When Telekinesis targets and enemy model, it is and offensive spell and requires a magic attack roll. A model can be affected by Telekinesis only once per turn.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="a181-c1ee-f8da-2540" profileTypeId="5370656c6c23232344415441232323" name="Telekinesis" hidden="false" book="Domination" page="88">
-          <characteristics>
-            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="8"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
-            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
-            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="*"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="3b03-5d6e-f46c-4786" name="Vision" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="88">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="0051-8410-3d59-cded" name="Vision" hidden="false">
-          <description>The next time target friendly Faction model is directly hit by an attack, it suffers no damage roll from the attack, then Vision expires.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="f036-699c-3637-de9d" profileTypeId="5370656c6c23232344415441232323" name="Vision" hidden="false" book="Domination" page="88">
-          <characteristics>
-            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
-            <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
-            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="2587-8470-0db5-c6fa" name="Watcher" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="88">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="191d-a574-c9e5-36f3" name="Watcher" hidden="false">
-          <description>When an enemy model advances and ends its movement within 6&quot; of this model, choose a warbeast in this model&apos;s battlegroup that is in its control area. That warbeast can immediately make a full advance and then can make one normal melee or ranged attack targeting the enemy model. The attack and damage rolls against that model are boosted. After the attack is resolved, Watcher expires.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="3f87-7da4-bd2a-6fd4" profileTypeId="5370656c6c23232344415441232323" name="Watcher" hidden="false" book="Domination" page="88">
-          <characteristics>
-            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
-            <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
-            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="1d36-f78e-2e93-85f7" name="Obliteration" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="88">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="bcb9-4c32-5ae9-83ff" name="Obliteration" hidden="false">
-          <description>The force of this attack blasts apart the earth itself.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="98b2-a436-3119-bf84" profileTypeId="5370656c6c23232344415441232323" name="Obliteration" hidden="false" book="Domination" page="88">
-          <characteristics>
-            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="4"/>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="10"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="4"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="15"/>
-            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
-            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="YES"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="a3c7-fe64-0800-da55" name="Bad Blood" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Gargantuans" page="122">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="1fd5-ea1b-adc1-61b6" name="Bad Blood" hidden="false">
-          <description>A warlock leaching from target warbeast suffers 1 damage point for each fury point leached. The affected warbeast cannot be healed or have damage transferred to it and loses Regnerate.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="338c-9b5b-0a01-8bbe" profileTypeId="5370656c6c23232344415441232323" name="Bad Blood" hidden="false" book="Gargantuans" page="122">
-          <characteristics>
-            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="10"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
-            <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
-            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="YES"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="d8d3-9651-0997-b1aa" name="Battle Lust" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Gargantuans" page="122">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="421d-4148-bb06-28ee" name="Battle Lust" hidden="false">
-          <description>Target friendly Faction warrior model/unit gains Fearless and gains an additional die on melee damage rolls for one round.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="dbd0-e808-4772-0a74" profileTypeId="5370656c6c23232344415441232323" name="Battle Lust" hidden="false" book="Gargantuans" page="122">
-          <characteristics>
-            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
-            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
-            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="ce15-ad21-c753-33d0" name="Admonition" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Gargantuans" page="124">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="b689-2bc2-ebb2-a307" name="Admonition" hidden="false">
-          <description>When an enemy model advances and ends its movement within 6&quot; of target model in this model&apos;s battlegroup, the affected model can immediately advance up to 3&quot;, then Admonition expires. The affected model cannot be targeted by free strikes during this movement.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="1995-019d-be97-ddaf" profileTypeId="5370656c6c23232344415441232323" name="Admonition" hidden="false" book="Gargantuans" page="124">
-          <characteristics>
-            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
-            <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
-            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="970d-3296-8d9f-2e6e" name="Boundless Charge" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Gargantuans" page="124">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="815c-1510-53e4-81ac" name="Boundless Charge" hidden="false">
-          <description>During its activation, target friendly model can charge without spending focus or being forced and gains +2&quot; movement and Pathfinder when it charges. Boundless Charge lasts for one turn.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="d26a-5ed1-1f4d-4e67" profileTypeId="5370656c6c23232344415441232323" name="Boundless Charge" hidden="false" book="Gargantuans" page="124">
-          <characteristics>
-            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
-            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
-            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="5f7d-b9f4-f3ce-cca6" name="Fury" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Gargantuans" page="124">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="df6e-761f-858e-f74c" name="Fury" hidden="false">
-          <description>Target friendly model/unit gains +2 to melee damage rolls but suffers -1 DEF.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="4ae7-beef-7272-9c66" profileTypeId="5370656c6c23232344415441232323" name="Fury" hidden="false" book="Gargantuans" page="124">
-          <characteristics>
-            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
-            <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
             <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
           </characteristics>
           <modifiers/>
@@ -8048,6 +8092,10 @@
     </rule>
     <rule id="663f-347e-7424-91b7" name="Bone Picker" hidden="false" book="Domination" page="90">
       <description>Refer to page 90.</description>
+      <modifiers/>
+    </rule>
+    <rule id="7a91-4fe0-7657-31f0" name="Brutal Charge" hidden="false" book="Gargantuans" page="126">
+      <description>This model gains +2 to charge attack damage rolls with this weapon.</description>
       <modifiers/>
     </rule>
     <rule id="b909fea5-5674-7b5a-ff48-8808557496a3" name="Buckler" hidden="false" book="Hordes Primal MK II" page="35">
@@ -8143,6 +8191,9 @@
     </rule>
     <rule id="6788-8b80-0b2e-f758" name="Critical Knockdown" hidden="false" book="Forces of Hordes - Minions" page="65">
       <description>On a critical hit, the model hit is knocked down.</description>
+      <modifiers/>
+    </rule>
+    <rule id="1bea-19e9-48fa-304b" name="Critical Pitch" hidden="false" book="Domination" page="88">
       <modifiers/>
     </rule>
     <rule id="2032-4a65-a834-c2f4" name="Cull Soul" hidden="false" book="Domination" page="86">
@@ -8298,6 +8349,9 @@
       <description>This model does not suffer blast damage. Friendly models B2B with it do not suffer blast damage.</description>
       <modifiers/>
     </rule>
+    <rule id="2485-9fb1-1224-59a0" name="Goad" hidden="false" book="Domination" page="88">
+      <modifiers/>
+    </rule>
     <rule id="3b3063ad-db80-8f06-075b-1b52d906b221" name="Gross Anatomy" hidden="false" book="Domination" page="80,90">
       <description>During its activation, this model can spend corpse token to heal damage. For each corpse token spent remove d3 damage from this model.</description>
       <modifiers/>
@@ -8383,6 +8437,10 @@
     </rule>
     <rule id="85c2bd22-3a2f-e4df-8f23-2d0830e3d324" name="Lesser Warlock" hidden="false" book="Force of Hordes - Minions" page="34">
       <description>This model is not a warlock but has the following warlock special rules: Battlegroup Commander, Control Area, Damage Transference, Forcing, Fury Manipulation, Healing and Spellcaster.</description>
+      <modifiers/>
+    </rule>
+    <rule id="792d-c6e6-9043-cc46" name="Light Artillery" hidden="false" book="Forces of Hordes - Minions" page="80">
+      <description>This weapon cannot be used to make attacks or special actions during activations this model moves. This model cannot gain the aiming bonus when attacking with this weapon and cannot charge. If this model attacks with this weapon during its activation, it cannot attack with any other weapons that activatoin.</description>
       <modifiers/>
     </rule>
     <rule id="13947fae-d41f-d4dd-c68b-530ca84a7a57" name="Limited Battlegroup (Skarath)" hidden="false" book="Forces of Hordes - Minons" page="34">
@@ -8528,6 +8586,10 @@ Attacks made with magical weapons are not magic attacks.</description>
     </rule>
     <rule id="9f57c31f-6d11-3ee6-9128-9c1034f82be9" name="Quick Draw" hidden="false" book="Domination" page="72">
       <description>Once during your opponent&apos;s turn, when an enemy model within 10&quot; of this model that is in its LOS targets this model with ranged attack, this model can make a ranged attck against the enemy model before it makes its attack roll. If this model&apos;s ranged attack hits, the enem model suffers no damage but its attack automatically misses.</description>
+      <modifiers/>
+    </rule>
+    <rule id="39d0-f15b-e283-7110" name="Range Finder" hidden="false" book="Forces of Hordes - Minions" page="80">
+      <description>While B2B with one or more grunts in this unit, this model gains +2 to attack rolls with this weapon.</description>
       <modifiers/>
     </rule>
     <rule id="3317-7ff4-4974-5a3e" name="Reach" hidden="false" book="Primal mkII" page="36">
@@ -8688,80 +8750,6 @@ Attacks made with magical weapons are not magic attacks.</description>
       <description>While knocked down, this model can make</description>
       <modifiers/>
     </rule>
-    <rule id="792d-c6e6-9043-cc46" name="Light Artillery" hidden="false" book="Forces of Hordes - Minions" page="80">
-      <description>This weapon cannot be used to make attacks or special actions during activations this model moves. This model cannot gain the aiming bonus when attacking with this weapon and cannot charge. If this model attacks with this weapon during its activation, it cannot attack with any other weapons that activatoin.</description>
-      <modifiers/>
-    </rule>
-    <rule id="39d0-f15b-e283-7110" name="Range Finder" hidden="false" book="Forces of Hordes - Minions" page="80">
-      <description>While B2B with one or more grunts in this unit, this model gains +2 to attack rolls with this weapon.</description>
-      <modifiers/>
-    </rule>
-    <rule id="2485-9fb1-1224-59a0" name="Goad" hidden="false" book="Domination" page="88">
-      <modifiers/>
-    </rule>
-    <rule id="1bea-19e9-48fa-304b" name="Critical Pitch" hidden="false" book="Domination" page="88">
-      <modifiers/>
-    </rule>
-    <rule id="7a91-4fe0-7657-31f0" name="Brutal Charge" hidden="false" book="Gargantuans" page="126">
-      <description>This model gains +2 to charge attack damage rolls with this weapon.</description>
-      <modifiers/>
-    </rule>
   </sharedRules>
-  <sharedProfiles>
-    <profile id="b82c1016-f723-a74b-9edd-f412ab5feb98" profileTypeId="5370656c6c23232344415441232323" name="Iron Flesh" hidden="false" book="Forces of Hordes - Minions" page="52">
-      <characteristics>
-        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
-        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
-        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
-        <characteristic characteristicId="555023232344415441232323" name="UP" value="Yes"/>
-        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="23c9-826d-f90d-eed8" profileTypeId="5370656c6c23232344415441232323" name="Lightning Strike" hidden="false" book="Domination" page="91">
-      <characteristics>
-        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
-        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
-        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
-        <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
-        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="c312033f-1a26-d9a0-bb86-6e417e4dc141" profileTypeId="5370656c6c23232344415441232323" name="Occultation" hidden="false" book="Forces of Hordes - Minions" page="54">
-      <characteristics>
-        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
-        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
-        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
-        <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
-        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="e1764a58-6a6a-9a8c-3a92-5e169052ea0d" profileTypeId="5370656c6c23232344415441232323" name="Parasite" hidden="false" book="Forces of Hordes - Minions" page="54">
-      <characteristics>
-        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
-        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="8"/>
-        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
-        <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
-        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="YES"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-    <profile id="be51-bb14-c34c-d120" profileTypeId="5370656c6c23232344415441232323" name="Swarm" hidden="false" book="Domination" page="90">
-      <characteristics>
-        <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
-        <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
-        <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-        <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
-        <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
-        <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
-      </characteristics>
-      <modifiers/>
-    </profile>
-  </sharedProfiles>
+  <sharedProfiles/>
 </catalogue>
