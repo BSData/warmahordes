@@ -1,6 +1,112 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="20446671-4aa6-a917-23cb-5caa465894fa" revision="6" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="4" battleScribeVersion="1.15" name="Legion of Everblight_Gargantuans (2013)" books="" authorName="Hulkken (matt)" authorContact="deltao@msn.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="20446671-4aa6-a917-23cb-5caa465894fa" revision="7" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="4" battleScribeVersion="1.15" name="Legion of Everblight_Gargantuans (2013)" books="" authorName="Hulkken (matt)" authorContact="deltao@msn.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
+    <entry id="721b-0e53-0d32-7be2" name="Absylonia, Daughter of Everblight" points="-5.0" categoryId="5761726c6f636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Exigence">
+      <entries>
+        <entry id="179d-0442-360d-2b3a" name="Claw" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="3357-2038-f244-cfc8" profileTypeId="576561706f6e23232344415441232323" name="Claw" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="6"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="14"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="2adc-d445-f71e-dff5" targetId="abbf151c-2ff4-328d-175e-a112112cc55b" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="d8e6-06da-15c1-eb85" name="Stinger" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="adcb-e971-25ec-3e2a" profileTypeId="576561706f6e23232344415441232323" name="Stinger" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="12"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="a95f-150b-1753-5c40" targetId="abbf151c-2ff4-328d-175e-a112112cc55b" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="6f16-cb1a-81c5-c26f" targetId="be5d-9873-9197-c2c6" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="aec8-7d8a-1277-692f" name="Legion Epic Blighted Nyss Warlock" hidden="false">
+          <modifiers/>
+        </rule>
+        <rule id="bafd-f79e-546a-e685" name="Feat: Metamorphose" hidden="false">
+          <description>Models in Absylonia&apos;s battlegroup that are currently in her control area gain +2 STR and Flight, and their melee weapons gain Reach. Metamorphose lasts for one round.</description>
+          <modifiers/>
+        </rule>
+        <rule id="5d0a-a688-e9aa-1269" name="Conferrred Rage" hidden="false">
+          <description>Warbeasts in this model&apos;s battlegroup beginning their activations in its control area can charge or make power attacks without being forced. When this model destroys one or more enemy models during its activation, warbeasts in its battlegroup beginning their activation in its control area gain +2 SPD and MAT for one turn.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="d363-1276-cf92-26fe" profileTypeId="5761726c6f636b23232344415441232323" name="Absylonia, Daughter of Everblight" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="7"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="8"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="6"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="15"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="16"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
+            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="6"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="18"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="040e-7ad2-279e-cf83" targetId="dd7c752a-3375-96c7-70a4-e80202b66249" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="937f-1bc5-26f5-1045" targetId="e5861d64-2f93-38d6-09e1-30195198e4e1" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c85d-ef5a-7563-eca4" targetId="4567-bc7d-b9e8-3288" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="0604-b342-430b-09cf" targetId="0931-df10-dba5-c6ce" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="fdae-68bb-b609-f5ab" targetId="594a-8597-a3dc-4ea8" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="0811-a41a-5274-bbb2" targetId="e72f-3564-0dfa-394d" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="b9ce0c5e-fea8-cda3-3f70-2c15d63f24b3" name="Absylonia, Terror of Everblight" points="-5.0" categoryId="5761726c6f636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Legion of Everblight" page="32">
       <entries/>
       <entryGroups/>
@@ -805,6 +911,104 @@
       </profiles>
       <links>
         <link id="00cc443f-bf46-a03c-8317-beef1fd25257" targetId="925b2e88-9202-c7ed-de82-0a0017a50157" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="c432-60b3-40c2-ebc1" name="Blight Wasps" points="0.0" categoryId="576172626561737423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Exigence" page="74">
+      <entries>
+        <entry id="9619-2da5-fead-0f18" name="Stinger" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="b5d7-bead-9677-5c38" profileTypeId="576561706f6e23232344415441232323" name="Stinger" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="8"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="893c-0d8f-c796-e415" targetId="8b36-3141-672a-1f51" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="0dd6-a287-940a-a632" name="Animus" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="8e8d-29ff-16d1-3551" name="Overwhelm" hidden="false">
+              <description>Models in target friendly warbeast pack gain Killing Spree for one turn. (When a model with Killing Spree destroys one or more enemyu models iwth a melee attack during its combat action, after that attack is resolved the model can move up to 1&quot; and make one additional attack.)</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="d4e5-31d4-f8b5-3030" profileTypeId="5370656c6c23232344415441232323" name="Overwhelm" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+                <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+                <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="6cc2-57b9-88a4-20f2" name="Legion Warbeat Pack" hidden="false">
+          <modifiers/>
+        </rule>
+        <rule id="8de2-50c1-1890-8a37" name="Annoyance" hidden="false">
+          <description>Living models within 1&quot; of this model suffer -1 to attack rolls.</description>
+          <modifiers/>
+        </rule>
+        <rule id="fe97-8de2-0a7d-51c2" name="Hunting Pack" hidden="false">
+          <description>This model gains a +1 cumulative bonus to melee attack and damage rolls for each other model in this unit engaging the model it is attacking.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="b485-ae27-b1cc-2fbf" profileTypeId="576172626561737423232344415441232323" name="Blight Wasps" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="7"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="4"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="5"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="1"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="12"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="11"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="4"/>
+            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="*"/>
+            <characteristic characteristicId="5468726573686f6c6423232344415441232323" name="Threshold" value="8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="79fe-b102-c72e-8fba" targetId="09656b93-6b46-99af-9956-93ebd8fed95d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="73d5-6922-7f54-272e" targetId="1bafc185-c888-dc8d-c448-68a14a42579d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5522-13ca-68f7-93f4" targetId="e5861d64-2f93-38d6-09e1-30195198e4e1" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f6d2-e3bc-27b5-ff56" targetId="9ee2b179-9139-cebf-e2f5-692edf34f349" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -2724,6 +2928,119 @@
         </link>
       </links>
     </entry>
+    <entry id="6f98-2c39-bd08-c226" name="Neraph" points="7.0" categoryId="576172626561737423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Exigence">
+      <entries>
+        <entry id="467e-fef7-2f26-2733" name="Grasping Tail" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="a52e-116d-2069-5b02" profileTypeId="576561706f6e23232344415441232323" name="Grasping Tail" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="14"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="-"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="3436-5293-e34f-220e" targetId="5bd8-68bf-57ea-cb6f" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="6c9d-6f3e-a8a5-7db2" name="Hammerhead" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="805b-9b12-b7b5-78bc" profileTypeId="576561706f6e23232344415441232323" name="Hammerhead" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="6"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="16"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="H"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="2d65-0122-8654-e5a4" name="Animus" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="df20-5fdc-2b5d-e99d" name="Vortex" hidden="false">
+              <description>Enemy models currently within 2&quot; of th is model are immediately pushed 2&quot; directly toward it in the order you choose.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="86c9-46a7-f269-f5c7" profileTypeId="5370656c6c23232344415441232323" name="Vortex" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="434f535423232344415441232323" name="COST" value="1"/>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+                <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+                <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="f744-2b74-e8a5-9636" name="Legion Heavy Warbeast" hidden="false">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="57c7-9cdf-b149-ff32" profileTypeId="576172626561737423232344415441232323" name="Neraph" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="10"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="14"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="16"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="7"/>
+            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="4"/>
+            <characteristic characteristicId="5468726573686f6c6423232344415441232323" name="Threshold" value="9"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="6127-8776-daf7-83e6" targetId="09656b93-6b46-99af-9956-93ebd8fed95d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1a55-0ada-a439-3580" targetId="1bafc185-c888-dc8d-c448-68a14a42579d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9203-c06d-7c7c-f9f6" targetId="e5861d64-2f93-38d6-09e1-30195198e4e1" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="717b-8ed0-5f23-59c4" targetId="0bd49d93-8fcb-d373-e290-a8e26463aa45" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="bc55-34eb-a074-ff1f" targetId="9ee2b179-9139-cebf-e2f5-692edf34f349" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="a997a2e9-7299-e693-918e-f141070a6027" name="Proteus" points="11.0" categoryId="576172626561737423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="76">
       <entries/>
       <entryGroups/>
@@ -3562,6 +3879,70 @@
           <modifiers/>
         </link>
         <link id="8b142f30-c102-1836-665b-fb57b4796f58" targetId="e1b8a14b-a083-8be9-d537-4b4eacca3c86" linkType="profile">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="96ef-4d71-654e-0d8e" name="Strider Blightblades" points="6.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Exigence" page="77">
+      <entries>
+        <entry id="5812-af03-c211-3b3b" name="Blade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="c0fc-515c-33d4-e833" profileTypeId="576561706f6e23232344415441232323" name="Blade" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="9"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="c958-12e8-fd85-ce34" targetId="f0e7-18d1-84d0-e3ae" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="996f-3050-a144-8771" name="Legion Blighted Nyss Unit" hidden="false">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="23c9-9a16-d3c2-4aa8" profileTypeId="54726f6f70657223232344415441232323" name="Strider Blightblades" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="7"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="15"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="11"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="1"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="3287-2520-2a6b-c44e" targetId="582d7b21-343a-6a4c-cd1c-b6c783dfe910" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d7fc-3872-e9f7-5645" targetId="483ea263-c83a-57ac-3626-92d4624cb0b2" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="df28-d3b5-3ca0-4a9c" targetId="c699b679-5bae-ce2b-7141-2ecdd46e25e2" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e998-a4d6-8580-a42a" targetId="97e4-a26e-4e4e-40b2" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -4429,153 +4810,100 @@
         </link>
       </links>
     </entry>
-    <entry id="721b-0e53-0d32-7be2" name="Absylonia, Daughter of Everblight" points="-5.0" categoryId="5761726c6f636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Exigence">
+    <entry id="43f3-e37c-4a26-d916" name="Zuriel" points="10.0" categoryId="576172626561737423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Exigence" page="76">
       <entries>
-        <entry id="179d-0442-360d-2b3a" name="Claw" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="f5e7-98b7-436f-4066" name="Dragon Breath" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules/>
           <profiles>
-            <profile id="3357-2038-f244-cfc8" profileTypeId="576561706f6e23232344415441232323" name="Claw" hidden="false">
+            <profile id="6cfe-9af6-96f2-f470" profileTypeId="576561706f6e23232344415441232323" name="Dragon Breath" hidden="false">
               <characteristics>
-                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="6"/>
-                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="14"/>
-                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SP 8"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="2"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="H"/>
               </characteristics>
               <modifiers/>
             </profile>
           </profiles>
           <links>
-            <link id="2adc-d445-f71e-dff5" targetId="abbf151c-2ff4-328d-175e-a112112cc55b" linkType="rule">
+            <link id="9431-3c24-4b53-7341" targetId="03d87790-89f6-0100-d5bc-d0f8f780d9ad" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="796f-c724-d506-9170" targetId="1276a889-8baf-32cd-f6fd-a567d2c67564" linkType="rule">
               <modifiers/>
             </link>
           </links>
         </entry>
-        <entry id="d8e6-06da-15c1-eb85" name="Stinger" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="adcb-e971-25ec-3e2a" profileTypeId="576561706f6e23232344415441232323" name="Stinger" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
-                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="12"/>
-                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links>
-            <link id="a95f-150b-1753-5c40" targetId="abbf151c-2ff4-328d-175e-a112112cc55b" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="6f16-cb1a-81c5-c26f" targetId="be5d-9873-9197-c2c6" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="aec8-7d8a-1277-692f" name="Legion Epic Blighted Nyss Warlock" hidden="false">
-          <modifiers/>
-        </rule>
-        <rule id="bafd-f79e-546a-e685" name="Feat: Metamorphose" hidden="false">
-          <description>Models in Absylonia&apos;s battlegroup that are currently in her control area gain +2 STR and Flight, and their melee weapons gain Reach. Metamorphose lasts for one round.</description>
-          <modifiers/>
-        </rule>
-        <rule id="5d0a-a688-e9aa-1269" name="Conferrred Rage" hidden="false">
-          <description>Warbeasts in this model&apos;s battlegroup beginning their activations in its control area can charge or make power attacks without being forced. When this model destroys one or more enemy models during its activation, warbeasts in its battlegroup beginning their activation in its control area gain +2 SPD and MAT for one turn.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="d363-1276-cf92-26fe" profileTypeId="5761726c6f636b23232344415441232323" name="Absylonia, Daughter of Everblight" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="7"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="8"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="6"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="15"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="16"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
-            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="6"/>
-            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="18"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="040e-7ad2-279e-cf83" targetId="dd7c752a-3375-96c7-70a4-e80202b66249" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="937f-1bc5-26f5-1045" targetId="e5861d64-2f93-38d6-09e1-30195198e4e1" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="c85d-ef5a-7563-eca4" targetId="4567-bc7d-b9e8-3288" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="0604-b342-430b-09cf" targetId="0931-df10-dba5-c6ce" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="fdae-68bb-b609-f5ab" targetId="594a-8597-a3dc-4ea8" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="0811-a41a-5274-bbb2" targetId="e72f-3564-0dfa-394d" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="c432-60b3-40c2-ebc1" name="Blight Wasps" points="0.0" categoryId="576172626561737423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Exigence" page="74">
-      <entries>
-        <entry id="9619-2da5-fead-0f18" name="Stinger" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="b5d7-bead-9677-5c38" profileTypeId="576561706f6e23232344415441232323" name="Stinger" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
-                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="8"/>
-                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links>
-            <link id="893c-0d8f-c796-e415" targetId="8b36-3141-672a-1f51" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="0dd6-a287-940a-a632" name="Animus" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="0435-e0d2-c21a-aa1b" name="War Blade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
           <rules>
-            <rule id="8e8d-29ff-16d1-3551" name="Overwhelm" hidden="false">
-              <description>Models in target friendly warbeast pack gain Killing Spree for one turn. (When a model with Killing Spree destroys one or more enemyu models iwth a melee attack during its combat action, after that attack is resolved the model can move up to 1&quot; and make one additional attack.)</description>
+            <rule id="8347-89d7-de9f-8121" name="Chain Attack: Char" hidden="false">
+              <description>If this model hits the same model with both its initial attacks with this weapon, after resolving the attacks it can immediately make on ranged attack targeting that model.</description>
               <modifiers/>
             </rule>
           </rules>
           <profiles>
-            <profile id="d4e5-31d4-f8b5-3030" profileTypeId="5370656c6c23232344415441232323" name="Overwhelm" hidden="false">
+            <profile id="5a85-1fa6-f8eb-2b09" profileTypeId="576561706f6e23232344415441232323" name="War Blade" hidden="false">
               <characteristics>
-                <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
-                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="5"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="16"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="c3c4-70fc-8f97-4597" name="War Blade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="1bde-b0b5-531f-2669" name="Chain Attack: Char" hidden="false">
+              <description>If this model hits the same model with both its initial attacks with this weapon, after resolving the attacks it can immediately make on ranged attack targeting that model.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="938e-979a-134a-c21e" profileTypeId="576561706f6e23232344415441232323" name="War Blade" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="5"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="16"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="81d5-dd29-1f42-0aaf" name="Animus" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="00f1-c20d-4de3-c369" name="Predator&apos;s Instinct" hidden="false">
+              <description>This model gains an additional die on attack rolls against non-warcaster, non-warlock warrior models. Predator&apos;s Instinct lasts for one turn.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="c47c-4ada-3c13-5936" profileTypeId="5370656c6c23232344415441232323" name="Predator&apos;s Instinct" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="434f535423232344415441232323" name="COST" value="1"/>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
                 <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
                 <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
                 <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
@@ -4590,45 +4918,123 @@
       <entryGroups/>
       <modifiers/>
       <rules>
-        <rule id="6cc2-57b9-88a4-20f2" name="Legion Warbeat Pack" hidden="false">
+        <rule id="1707-866b-51dd-b643" name="Legion Nephilim Character Heavy Warbeast" hidden="false">
           <modifiers/>
         </rule>
-        <rule id="8de2-50c1-1890-8a37" name="Annoyance" hidden="false">
-          <description>Living models within 1&quot; of this model suffer -1 to attack rolls.</description>
+        <rule id="47b3-f50a-bc5b-0cb2" name="Affinity [Rhyas]" hidden="false">
+          <description>While Zuriel is in Rhyas&apos; control area, he gains Stealth.</description>
           <modifiers/>
         </rule>
-        <rule id="fe97-8de2-0a7d-51c2" name="Hunting Pack" hidden="false">
-          <description>This model gains a +1 cumulative bonus to melee attack and damage rolls for each other model in this unit engaging the model it is attacking.</description>
+        <rule id="38fd-499b-e206-7145" name="Afffinity [Saeryn]" hidden="false">
+          <description>While Zuriel is not engaged an is in Saeryn&apos;s control area, she can channel spells through him.</description>
+          <modifiers/>
+        </rule>
+        <rule id="53cc-2570-376d-3832" name="Special Issue [Rhyas or Saeryn]" hidden="false">
+          <description>This model can be included in Rhyas&apos; or Saeryn&apos;s theme forces. It can also be bonded to Rhyas or Saeryn.</description>
           <modifiers/>
         </rule>
       </rules>
       <profiles>
-        <profile id="b485-ae27-b1cc-2fbf" profileTypeId="576172626561737423232344415441232323" name="Blight Wasps" hidden="false">
+        <profile id="ad90-c107-b76d-2d55" profileTypeId="576172626561737423232344415441232323" name="Zuriel" hidden="false">
           <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="7"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="4"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="5"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="1"/>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="11"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
             <characteristic characteristicId="44454623232344415441232323" name="DEF" value="12"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="11"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="4"/>
-            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="*"/>
-            <characteristic characteristicId="5468726573686f6c6423232344415441232323" name="Threshold" value="8"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="19"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
+            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="4"/>
+            <characteristic characteristicId="5468726573686f6c6423232344415441232323" name="Threshold" value="10"/>
           </characteristics>
           <modifiers/>
         </profile>
       </profiles>
       <links>
-        <link id="79fe-b102-c72e-8fba" targetId="09656b93-6b46-99af-9956-93ebd8fed95d" linkType="rule">
+        <link id="0bfb-fa7c-03ff-a361" targetId="09656b93-6b46-99af-9956-93ebd8fed95d" linkType="rule">
           <modifiers/>
         </link>
-        <link id="73d5-6922-7f54-272e" targetId="1bafc185-c888-dc8d-c448-68a14a42579d" linkType="rule">
+        <link id="83a3-5852-cf71-df33" targetId="b42638de-960c-d0e5-874c-e09e5d438cf2" linkType="rule">
           <modifiers/>
         </link>
-        <link id="5522-13ca-68f7-93f4" targetId="e5861d64-2f93-38d6-09e1-30195198e4e1" linkType="rule">
+        <link id="f175-ab9d-d159-34cf" targetId="e5861d64-2f93-38d6-09e1-30195198e4e1" linkType="rule">
           <modifiers/>
         </link>
-        <link id="f6d2-e3bc-27b5-ff56" targetId="9ee2b179-9139-cebf-e2f5-692edf34f349" linkType="rule">
+      </links>
+    </entry>
+    <entry id="6e05-da36-0ecf-0d1e" name="Fyanna the Lash" points="3.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Exigence" page="78">
+      <entries>
+        <entry id="c30a-5060-cdcf-c5a9" name="Barbed Lash" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="d897-4b09-10a5-25bd" profileTypeId="576561706f6e23232344415441232323" name="Barbed Lash" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="5"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="12"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="0ed4-e4b8-85a2-c5e0" targetId="68790af6-c6f9-92ca-13da-d97a3f1c5853" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="9229-019e-c42c-4418" targetId="7072-3a41-5dc6-adff" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="10d0-ec9d-111d-be3b" targetId="bea6-d9b8-b02c-9596" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="bc76-d6e6-c1f3-9db3" name="Legion Blighted Nyss Character Solo" hidden="false">
+          <modifiers/>
+        </rule>
+        <rule id="b692-ec72-7494-f0e0" name="Attack type" hidden="false">
+          <description>Each time this model makes a normal melee attack, choose one of the following abilities:
+* Beat Back - Immediately after a normal attack with this weapon is resolved during this model&apos;s combat action, the enemy model hit can be pushed 1&quot; directly away from the attacking model. After the enemy model is pushed, the attacking model can advance up to 1&quot;.
+* Dismember - When this model hits a warbeast with a melee attack, roll an additional damage die.
+* Pitch - Instead of making a normal damage roll on a hit, this model can throw the model hit as if it had hit with and passed the STR check of a throw power attack. The thrown model suffers a damage roll with POW equal to this model&apos;s STR plus the POW of this weapon. The POW of collateral damage is equal to this model&apos;s STR.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="17ea-f5a8-0a91-b8d0" profileTypeId="54726f6f70657223232344415441232323" name="Fyanna the Lash" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="7"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="7"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="15"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="12"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="a36b-b4a6-f76b-c5bb" targetId="483ea263-c83a-57ac-3626-92d4624cb0b2" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a913-2bff-6f5d-487b" targetId="b5bed1a5-3359-5ce4-2e2f-278b3e6dae59" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="aa00-f005-d6fc-c754" targetId="38bf-0f67-cc03-17bd" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="25d4-abdf-85e8-f208" targetId="f084-0765-ad28-cf1f" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -4760,6 +5166,10 @@
       <description>When Typhon is forced to use Regnerate in Thagrosh&apos;s control area, instead of rolling to determine how many damage points Typhon heals, Typhon and Thagrosh each heal up to 3 damage points.</description>
       <modifiers/>
     </rule>
+    <rule id="97e4-a26e-4e4e-40b2" name="Ambush" hidden="false" book="Exigence" page="77">
+      <description>You can choose not to deploy this unit at the start of the game. If it is not deployed normally, you can put it into play at the end of any of your Control Phases after your first turn. When you do, choose any table edge except the back of your opponent&apos;s deployment zone. Place all models in this unit in formation within 3&quot; of the chosen table edge.</description>
+      <modifiers/>
+    </rule>
     <rule id="01ff3689-527e-cf4e-709b-1f6f8a21c731" name="Arcane Assist" hidden="false" book="Domination" page="75">
       <description>If its warlock is in this model&apos;s command range during your Control Phase, the warlock can upkeep one spell without spending fury.</description>
       <modifiers/>
@@ -4852,6 +5262,10 @@
       <description>When this model destroys one or more enemy models with a melee attack during its activation, immediately after the attack is resovled the model can make one additional melee attack. This model can gain only one additional attack from Cleave each activation.</description>
       <modifiers/>
     </rule>
+    <rule id="5bd8-68bf-57ea-cb6f" name="Coil" hidden="false" book="Exigence" page="75">
+      <description>When this model directly hits a model with this weapon, its melee attacks against that model automatically hit for one turn.</description>
+      <modifiers/>
+    </rule>
     <rule id="582d7b21-343a-6a4c-cd1c-b6c783dfe910" name="Combined Melee Attack" hidden="false" book="Hordes Primal MK II" page="33">
       <description>Thi model can particaipate in combined melee attacks with othr models in its unit.</description>
       <modifiers/>
@@ -4886,6 +5300,14 @@
     </rule>
     <rule id="1be9c74c-366c-6d64-e76e-0a2cbb7e2803" name="Critical Fire" hidden="false" book="Hordes Primal MK II" page="35">
       <description>on a critical hit, the model hit by this attack suffers the Fire continuous effect.</description>
+      <modifiers/>
+    </rule>
+    <rule id="f0e7-18d1-84d0-e3ae" name="Critical Grievous Wounds" hidden="false" book="Exigence" page="77">
+      <description>On a critical hit, the model hit by this weapon loses Tough, cannot heal or be healed, and cannot transfer damage for one round.</description>
+      <modifiers/>
+    </rule>
+    <rule id="8b36-3141-672a-1f51" name="Critical Poison" hidden="false" book="Exigence" page="74">
+      <description>On a critical hit, gain an additional die on this weapon&apos;s damage rolls against living models.</description>
       <modifiers/>
     </rule>
     <rule id="8f3bd0c1-da26-885e-2be7-0f7f61b549a6" name="Damage Type: Cold" hidden="false" book="Hordes Primal MK II" page="35">
@@ -4926,6 +5348,10 @@
     </rule>
     <rule id="8fbb1c97-0e1f-7523-e1bd-7ff0a58b4c43" name="Empathic Transference" hidden="false" book="Forces of Hordes - Legion of Everblight" page="58">
       <description>A friendly Faction warlock can transfer damage to this model even if this model has a number of fury points equal to its current FURY.</description>
+      <modifiers/>
+    </rule>
+    <rule id="be5d-9873-9197-c2c6" name="Energy Siphon" hidden="false" book="Exigence" page="72">
+      <description>When this attack hits an enemy model with 1 or more focus or fury points on it, that model loses 1 focus or fury point and this model gains 1 fury point.</description>
       <modifiers/>
     </rule>
     <rule id="09656b93-6b46-99af-9956-93ebd8fed95d" name="Eyeless Sight" hidden="false" book="Hordes Primal MK II" page="33">
@@ -5336,12 +5762,20 @@ Atachments
       <description>This model can make melee and ranged attacks in the same activation. When this model makes its initial melee attakcs or a power attack, it can also make its initial ranged attacks. This model can make ranged attacks even while in melee.</description>
       <modifiers/>
     </rule>
-    <rule id="be5d-9873-9197-c2c6" name="Energy Siphon" hidden="false" book="Exigence" page="72">
-      <description>When this attack hits an enemy model with 1 or more focus or fury points on it, that model loses 1 focus or fury point and this model gains 1 fury point.</description>
+    <rule id="38bf-0f67-cc03-17bd" name="Evasive" hidden="false" book="Exigence" page="78">
+      <description>This model cannot be targeted by free strikes. This model can advance up to 2&quot; immediately after an enemy ranged attack that missed it is resolved unless it was missed while advancing.</description>
       <modifiers/>
     </rule>
-    <rule id="8b36-3141-672a-1f51" name="Critical Poison" hidden="false" book="Exigence" page="74">
-      <description>On a critical hit, gain an additional die on this weapon&apos;s damage rolls against living models.</description>
+    <rule id="f084-0765-ad28-cf1f" name="Rapid Strike" hidden="false" book="Exigence" page="78">
+      <description>This model can make one additional melee attack each combat action.</description>
+      <modifiers/>
+    </rule>
+    <rule id="7072-3a41-5dc6-adff" name="Chain Strike" hidden="false" book="Exigence" page="78">
+      <description>This weapon has a 4&quot; melee range during this model&apos;s activation.</description>
+      <modifiers/>
+    </rule>
+    <rule id="bea6-d9b8-b02c-9596" name="Chain Weapon" hidden="false" book="Exigence" page="78">
+      <description>This attack ignores the Buckler and Shield weapon qualities and Shield Wall.</description>
       <modifiers/>
     </rule>
   </sharedRules>
