@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="20446671-4aa6-a917-23cb-5caa465894fa" revision="6" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="4" battleScribeVersion="1.15" name="Legion of Everblight_Gargantuans (2013)" books="Forces of Hordes - Legion of Everblight (2010)" authorName="Hulkken (matt)" authorContact="deltao@msn.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="20446671-4aa6-a917-23cb-5caa465894fa" revision="6" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="4" battleScribeVersion="1.15" name="Legion of Everblight_Gargantuans (2013)" books="" authorName="Hulkken (matt)" authorContact="deltao@msn.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="b9ce0c5e-fea8-cda3-3f70-2c15d63f24b3" name="Absylonia, Terror of Everblight" points="-5.0" categoryId="5761726c6f636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Legion of Everblight" page="32">
       <entries/>
@@ -4429,10 +4429,315 @@
         </link>
       </links>
     </entry>
+    <entry id="721b-0e53-0d32-7be2" name="Absylonia, Daughter of Everblight" points="-5.0" categoryId="5761726c6f636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Exigence">
+      <entries>
+        <entry id="179d-0442-360d-2b3a" name="Claw" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="3357-2038-f244-cfc8" profileTypeId="576561706f6e23232344415441232323" name="Claw" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="6"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="14"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="2adc-d445-f71e-dff5" targetId="abbf151c-2ff4-328d-175e-a112112cc55b" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="d8e6-06da-15c1-eb85" name="Stinger" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="adcb-e971-25ec-3e2a" profileTypeId="576561706f6e23232344415441232323" name="Stinger" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="12"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="a95f-150b-1753-5c40" targetId="abbf151c-2ff4-328d-175e-a112112cc55b" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="6f16-cb1a-81c5-c26f" targetId="be5d-9873-9197-c2c6" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="aec8-7d8a-1277-692f" name="Legion Epic Blighted Nyss Warlock" hidden="false">
+          <modifiers/>
+        </rule>
+        <rule id="bafd-f79e-546a-e685" name="Feat: Metamorphose" hidden="false">
+          <description>Models in Absylonia&apos;s battlegroup that are currently in her control area gain +2 STR and Flight, and their melee weapons gain Reach. Metamorphose lasts for one round.</description>
+          <modifiers/>
+        </rule>
+        <rule id="5d0a-a688-e9aa-1269" name="Conferrred Rage" hidden="false">
+          <description>Warbeasts in this model&apos;s battlegroup beginning their activations in its control area can charge or make power attacks without being forced. When this model destroys one or more enemy models during its activation, warbeasts in its battlegroup beginning their activation in its control area gain +2 SPD and MAT for one turn.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="d363-1276-cf92-26fe" profileTypeId="5761726c6f636b23232344415441232323" name="Absylonia, Daughter of Everblight" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="7"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="8"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="6"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="15"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="16"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
+            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="6"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="18"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="040e-7ad2-279e-cf83" targetId="dd7c752a-3375-96c7-70a4-e80202b66249" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="937f-1bc5-26f5-1045" targetId="e5861d64-2f93-38d6-09e1-30195198e4e1" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c85d-ef5a-7563-eca4" targetId="4567-bc7d-b9e8-3288" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="0604-b342-430b-09cf" targetId="0931-df10-dba5-c6ce" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="fdae-68bb-b609-f5ab" targetId="594a-8597-a3dc-4ea8" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="0811-a41a-5274-bbb2" targetId="e72f-3564-0dfa-394d" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="c432-60b3-40c2-ebc1" name="Blight Wasps" points="0.0" categoryId="576172626561737423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Exigence" page="74">
+      <entries>
+        <entry id="9619-2da5-fead-0f18" name="Stinger" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="b5d7-bead-9677-5c38" profileTypeId="576561706f6e23232344415441232323" name="Stinger" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="8"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="893c-0d8f-c796-e415" targetId="8b36-3141-672a-1f51" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="0dd6-a287-940a-a632" name="Animus" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="8e8d-29ff-16d1-3551" name="Overwhelm" hidden="false">
+              <description>Models in target friendly warbeast pack gain Killing Spree for one turn. (When a model with Killing Spree destroys one or more enemyu models iwth a melee attack during its combat action, after that attack is resolved the model can move up to 1&quot; and make one additional attack.)</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="d4e5-31d4-f8b5-3030" profileTypeId="5370656c6c23232344415441232323" name="Overwhelm" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+                <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+                <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="6cc2-57b9-88a4-20f2" name="Legion Warbeat Pack" hidden="false">
+          <modifiers/>
+        </rule>
+        <rule id="8de2-50c1-1890-8a37" name="Annoyance" hidden="false">
+          <description>Living models within 1&quot; of this model suffer -1 to attack rolls.</description>
+          <modifiers/>
+        </rule>
+        <rule id="fe97-8de2-0a7d-51c2" name="Hunting Pack" hidden="false">
+          <description>This model gains a +1 cumulative bonus to melee attack and damage rolls for each other model in this unit engaging the model it is attacking.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="b485-ae27-b1cc-2fbf" profileTypeId="576172626561737423232344415441232323" name="Blight Wasps" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="7"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="4"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="5"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="1"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="12"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="11"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="4"/>
+            <characteristic characteristicId="4675727923232344415441232323" name="Fury" value="*"/>
+            <characteristic characteristicId="5468726573686f6c6423232344415441232323" name="Threshold" value="8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="79fe-b102-c72e-8fba" targetId="09656b93-6b46-99af-9956-93ebd8fed95d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="73d5-6922-7f54-272e" targetId="1bafc185-c888-dc8d-c448-68a14a42579d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5522-13ca-68f7-93f4" targetId="e5861d64-2f93-38d6-09e1-30195198e4e1" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f6d2-e3bc-27b5-ff56" targetId="9ee2b179-9139-cebf-e2f5-692edf34f349" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
   </entries>
   <rules/>
   <links/>
-  <sharedEntries/>
+  <sharedEntries>
+    <entry id="4567-bc7d-b9e8-3288" name="Fortify" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Exigence" page="72">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="5a6d-6d13-730c-7de1" name="Fortify" hidden="false">
+          <description>Target warbeast in this model&apos;s battlegroup gains +2 ARM. The affected model and any friendly model B2B with it cannot be knocked down, pushed, or moved by a slam.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="184c-30e8-d39e-c3b8" profileTypeId="5370656c6c23232344415441232323" name="Fortify" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="0931-df10-dba5-c6ce" name="Psycho Surgery" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Exigence" page="72">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="22d5-469c-1047-e3d9" name="Psycho Surgery" hidden="false">
+          <description>Each model in this model&apos;s battlegroup currently in tis control area immediately heals d3+1 damage points. This spell can only be cast once per turn.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="4284-bc63-f547-3dfd" profileTypeId="5370656c6c23232344415441232323" name="Psycho Surgery" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="CTRL"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="594a-8597-a3dc-4ea8" name="Return Fire" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Exigence" page="72">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="18b6-92a7-df4c-7c92" name="Return Fire" hidden="false">
+          <description>When target friendly Faction model is targeted by an enemy  ranged attack, after the attack is resolved the affected model can make one normal melee or ranged attack, then Return Fire expires. Return Fire lasts for one round.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="67be-dac2-b0e4-2e22" profileTypeId="5370656c6c23232344415441232323" name="Return Fire" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="1"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="e72f-3564-0dfa-394d" name="Teleport" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Exigence" page="72">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="3e80-fe3d-866e-2fc3" name="Teleport" hidden="false">
+          <description>Place this model anywhere completely within 8&quot; of its current location, then its activation ends.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="2050-5fcf-82d6-b2ad" profileTypeId="5370656c6c23232344415441232323" name="Teleport" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+  </sharedEntries>
   <sharedEntryGroups/>
   <sharedRules>
     <rule id="dd7c752a-3375-96c7-70a4-e80202b66249" name="Abomination" hidden="false" book="Hordes Primal MK II" page="33">
@@ -5008,6 +5313,17 @@ The model can also be bonded to the warlock specified on its card. This only giv
       <description>Friendly Blighted Ogrun trooper models +2 to attack rolls while this model is in their LOS.</description>
       <modifiers/>
     </rule>
+    <rule id="5c59-757f-33f6-7786" name="Warlock unit" hidden="false" book="Gargantuans" page="19">
+      <description>Granted: Fearless
+  A warlock that is part of a warlock unit always has the Granted: Fearless ability. While the warlock is in play, the models in its unit gain Fearless.
+
+Battlegroup
+  The other models in a warlock&apos;s unit are part of its battlegroup.
+
+Atachments
+  Warlock units cannot have unit and weapon attachments like other units, but they can have warlock attachments like standard warlocks. If a warlock unit has a warlock attachment, the atachment remains a solo and does not become part of the warlock unit.</description>
+      <modifiers/>
+    </rule>
     <rule id="fec03a1c-42f2-b561-6d40-6d8e5ef47f92" name="Warp Strength" hidden="false" book="Forces of Hordes - Legion of Everblight" page="32">
       <description>This model gains +2 STR</description>
       <modifiers/>
@@ -5020,15 +5336,12 @@ The model can also be bonded to the warlock specified on its card. This only giv
       <description>This model can make melee and ranged attacks in the same activation. When this model makes its initial melee attakcs or a power attack, it can also make its initial ranged attacks. This model can make ranged attacks even while in melee.</description>
       <modifiers/>
     </rule>
-    <rule id="5c59-757f-33f6-7786" name="Warlock unit" hidden="false" book="Gargantuans" page="19">
-      <description>Granted: Fearless
-  A warlock that is part of a warlock unit always has the Granted: Fearless ability. While the warlock is in play, the models in its unit gain Fearless.
-
-Battlegroup
-  The other models in a warlock&apos;s unit are part of its battlegroup.
-
-Atachments
-  Warlock units cannot have unit and weapon attachments like other units, but they can have warlock attachments like standard warlocks. If a warlock unit has a warlock attachment, the atachment remains a solo and does not become part of the warlock unit.</description>
+    <rule id="be5d-9873-9197-c2c6" name="Energy Siphon" hidden="false" book="Exigence" page="72">
+      <description>When this attack hits an enemy model with 1 or more focus or fury points on it, that model loses 1 focus or fury point and this model gains 1 fury point.</description>
+      <modifiers/>
+    </rule>
+    <rule id="8b36-3141-672a-1f51" name="Critical Poison" hidden="false" book="Exigence" page="74">
+      <description>On a critical hit, gain an additional die on this weapon&apos;s damage rolls against living models.</description>
       <modifiers/>
     </rule>
   </sharedRules>
