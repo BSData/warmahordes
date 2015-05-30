@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fc74a78b-d6be-4a26-b4f1-f89fbfda579f" revision="1" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="3" battleScribeVersion="1.15" name="Cephalyx - Forces of Warmachine" books="FoW - Cephalyx" authorName="" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fc74a78b-d6be-4a26-b4f1-f89fbfda579f" revision="2" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="3" battleScribeVersion="1.15" name="Cephalyx" books="FoW - Cephalyx" authorName="" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="8058c02e-db92-21aa-3d1d-a2e86070623a" name="Alexia Ciannor, The Risen, &amp; Thrall Warrior" points="5.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="51">
       <entries>
@@ -192,7 +192,20 @@
     <entry id="6165-b047-b12f-9e4d" name="Bloat Thrall" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Cryx" page="0">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="e715-9ea0-9c6d-a79a" field="selections" type="equal to" value="0.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="e715-9ea0-9c6d-a79a" field="selections" type="equal to" value="0.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="816d-036b-bf2e-a900" name="Model: Undead" hidden="false" page="0">
           <modifiers/>
@@ -452,92 +465,38 @@
         </link>
       </links>
     </entry>
-    <entry id="5e68-2e6e-513d-0eec" name="Cephalyx Agitator" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="3" minInRoster="0" maxInRoster="3" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries>
-        <entry id="b021-df21-01aa-756a" name="Prosthetic Blades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="58af-79ac-cc00-60e6" profileTypeId="576561706f6e23232344415441232323" name="Prosthetic Blades" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="5"/>
-                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="11"/>
-                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-      </entries>
+    <entry id="5e68-2e6e-513d-0eec" name="Cephalyx Agitator" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="3" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
       <entryGroups/>
       <modifiers/>
-      <rules>
-        <rule id="18fe-81b9-4637-4cfc" name="Magic Ability [7]" hidden="false">
-          <description>Influence (* Attack) – Influence is a RNG 10 magic attack.  Take control of target enemy non-warcaster, non-warlock warrior model hit. The model immediately makes one normal melee attack, then Influence expires.
-
-Instigate (* Action) – While within 5˝ of this model, friendly Drudge and Monstrosity models gain +2 on attack and damage rolls. Instigate lasts for one turn.
-
-Psychic Assault (* Attack) – Psychic Assault is a RNG SP 8 magic attack. This attack ignores LOS. Models hit suffer a POW 12 damage roll.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="b0a1-47f4-36fc-8637" profileTypeId="54726f6f70657223232344415441232323" name="Cephalyx Agitator" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="14"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="13"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
-            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
+      <rules/>
+      <profiles/>
       <links>
-        <link id="f564-32f1-0ffe-bcdc" targetId="2ef6-3543-b553-ffb7" linkType="rule">
+        <link id="b858-46a4-8143-5462" targetId="251d-264e-22f2-1841" linkType="entry">
           <modifiers/>
-        </link>
-        <link id="6e0c-3d05-d54d-7bf7" targetId="96d5dd34-f0ed-fb33-631b-9a81327caf31" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="afea-362d-ae5a-48a4" targetId="052e99e9-4d49-0010-76c1-fdf68b96ed66" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="240a-8383-8bec-0cac" targetId="5d5b3f7c-b8cc-81d1-4076-eabafbc081f0" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="8f57-f8b7-8b22-89ee" targetId="fedb-0877-e966-2702" linkType="rule">
-          <modifiers>
-            <modifier type="append" field="name" value="[Drudge Grunt]" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="append" field="name" value="[Drudge Grunt]" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="append" field="name" value="[Drudge Grunt]" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="append" field="name" value="Monstrosity" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
         </link>
       </links>
     </entry>
-    <entry id="0629-2d60-1af6-3d75" name="Cephalyx Mind Bender &amp; Drudges" points="4.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Cephalyx" page="41">
+    <entry id="fcca-94a2-c378-e84c" name="Cephalyx Agitator (Free)" points="0.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="0" minInRoster="0" maxInRoster="0" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="increment" field="maxInForce" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="078b-39cc-db59-a66e" field="selections" type="at least" value="3.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="3576-b118-edab-39a1" targetId="251d-264e-22f2-1841" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="0629-2d60-1af6-3d75" name="Cephalyx Mind Bender &amp; Drudges" points="4.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Cephalyx" page="41">
       <entries>
         <entry id="4145-e89f-db8b-f3fc" name="Mind Bender" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
@@ -685,7 +644,7 @@ Psychic Assault (* Attack) – Psychic Assault is a RNG SP 8 magic attack. This 
         </link>
       </links>
     </entry>
-    <entry id="3c32-b2d7-77c2-3859" name="Cephalyx Mind Slaver &amp; Drudges" points="4.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Cephalyx" page="42">
+    <entry id="3c32-b2d7-77c2-3859" name="Cephalyx Mind Slaver &amp; Drudges" points="4.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Cephalyx" page="42">
       <entries>
         <entry id="7e64-bb97-8582-35e5" name="Drudge Grunts" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
@@ -789,16 +748,39 @@ Psychic Assault (* Attack) – Psychic Assault is a RNG SP 8 magic attack. This 
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="increment" field="maxInForce" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="e715-9ea0-9c6d-a79a" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles/>
       <links>
         <link id="1dd2-68c3-9286-9ce5" targetId="2ef6-3543-b553-ffb7" linkType="rule">
           <modifiers/>
         </link>
+        <link id="26a4-6704-c8ff-3577" targetId="4786ddd1-859f-a9f6-b6dc-19077c82fd91" linkType="rule">
+          <modifiers>
+            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition parentId="roster" childId="e715-9ea0-9c6d-a79a" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="roster" childId="078b-39cc-db59-a66e" field="selections" type="less than" value="2.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </link>
       </links>
     </entry>
-    <entry id="b985-fc10-36fc-2970" name="Cephalyx Overlords" points="4.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Cephalyx" page="43">
+    <entry id="b985-fc10-36fc-2970" name="Cephalyx Overlords" points="4.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Cephalyx" page="43">
       <entries>
         <entry id="e944-d5d0-9330-dffd" name="Prosthetic Blades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -822,7 +804,26 @@ Psychic Assault (* Attack) – Psychic Assault is a RNG SP 8 magic attack. This 
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="increment" field="maxInForce" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="e715-9ea0-9c6d-a79a" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="maxInForce" value="-1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition parentId="roster" childId="e715-9ea0-9c6d-a79a" field="selections" type="equal to" value="0.0"/>
+                <condition parentId="roster" childId="078b-39cc-db59-a66e" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="96a1-6dcf-ca96-1c33" name="Death Toll [Cephalyx Mind Slaver &amp; Drudges]" hidden="false">
           <description>When this model destroys a living enemy model with a melee attack, after the attack is resolved you can add one Grunt to a friendly Cephalyx Mind Slaver &amp; Drudges unit in this model’s command range. The Grunt must be placed in formation and within 3˝ of this model. The destroyed model is removed from play but does not provide a soul or corpse token.</description>
@@ -1066,7 +1067,12 @@ Psychic Assault (* Attack) – Psychic Assault is a RNG SP 8 magic attack. This 
           <modifiers/>
         </link>
         <link id="df59-3a8c-fe17-4346" targetId="16b0-484b-fc47-cce5" linkType="entry">
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
       </links>
     </entry>
@@ -1476,6 +1482,70 @@ Psychic Assault (* Attack) – Psychic Assault is a RNG SP 8 magic attack. This 
               <modifiers/>
             </profile>
           </profiles>
+          <links/>
+        </entry>
+        <entry id="e715-9ea0-9c6d-a79a" name="Use Puppet Masters Contract" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Cephalyx" page="35">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="078b-39cc-db59-a66e" name="Will of Darkness: Tier" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="e715-9ea0-9c6d-a79a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="set" field="maxSelections" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="roster" childId="3c32-b2d7-77c2-3859" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="roster" childId="e715-9ea0-9c6d-a79a" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="no child" field="total selections" type="at least" value="5.0"/>
+                    <condition parentId="roster" childId="b985-fc10-36fc-2970" field="selections" type="at most" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="roster" childId="3c32-b2d7-77c2-3859" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="roster" childId="e715-9ea0-9c6d-a79a" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="no child" field="total selections" type="at most" value="4.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="maxSelections" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="roster" childId="3c32-b2d7-77c2-3859" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="roster" childId="e715-9ea0-9c6d-a79a" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="roster" childId="no child" field="total selections" type="at least" value="5.0"/>
+                    <condition parentId="roster" childId="b985-fc10-36fc-2970" field="selections" type="at least" value="2.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles/>
           <links/>
         </entry>
       </entries>
@@ -2425,7 +2495,20 @@ Psychic Assault (* Attack) – Psychic Assault is a RNG SP 8 magic attack. This 
     <entry id="f62d-b7d8-7e08-7af9" name="Machine Wraith" points="1.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="3" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Cryx" page="0">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="e715-9ea0-9c6d-a79a" field="selections" type="equal to" value="0.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="e715-9ea0-9c6d-a79a" field="selections" type="equal to" value="0.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="a11a-10d5-3635-1c37" name="Model: Incorporeal" hidden="false" page="0">
           <modifiers/>
@@ -2566,7 +2649,20 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
     <entry id="d1e5-5625-c812-350f" name="Pistol Wraith" points="3.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Cryx" page="0">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="e715-9ea0-9c6d-a79a" field="selections" type="equal to" value="0.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="e715-9ea0-9c6d-a79a" field="selections" type="equal to" value="0.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="b4ad-2536-8bcc-8e86" name="Model: Gunfighter" hidden="false" page="0">
           <modifiers/>
@@ -3965,6 +4061,79 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
       </profiles>
       <links/>
     </entry>
+    <entry id="251d-264e-22f2-1841" name="Agitator" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="true" hidden="false">
+      <entries>
+        <entry id="fa7d-91e6-823a-1d95" name="Prosthetic Blades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="a94d-082e-54bc-7e8e" profileTypeId="576561706f6e23232344415441232323" name="Prosthetic Blades" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="5"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="11"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="78c8-a9cb-3024-a7fd" name="Magic Ability [7]" hidden="false">
+          <description>Influence (* Attack) – Influence is a RNG 10 magic attack.  Take control of target enemy non-warcaster, non-warlock warrior model hit. The model immediately makes one normal melee attack, then Influence expires.
+
+Instigate (* Action) – While within 5˝ of this model, friendly Drudge and Monstrosity models gain +2 on attack and damage rolls. Instigate lasts for one turn.
+
+Psychic Assault (* Attack) – Psychic Assault is a RNG SP 8 magic attack. This attack ignores LOS. Models hit suffer a POW 12 damage roll.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="5c02-2565-dd5c-6f7a" profileTypeId="54726f6f70657223232344415441232323" name="Cephalyx Agitator" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="14"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="13"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="4712-25ad-bfd1-975f" targetId="5d5b3f7c-b8cc-81d1-4076-eabafbc081f0" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ca5a-44d0-5a16-62e6" targetId="96d5dd34-f0ed-fb33-631b-9a81327caf31" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="000e-42fe-ee10-5c63" targetId="fedb-0877-e966-2702" linkType="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="Monstrosity" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="892b-5bf6-78e4-aee7" targetId="052e99e9-4d49-0010-76c1-fdf68b96ed66" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="84ed-595f-a684-24f4" targetId="2ef6-3543-b553-ffb7" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="11b1-5f4b-ec50-d191" name="Arcane Bolt" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Domination" page="24">
       <entries/>
       <entryGroups/>
@@ -4365,7 +4534,7 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
       </profiles>
       <links/>
     </entry>
-    <entry id="16b0-484b-fc47-cce5" name="Cephalyx Dominator" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Cephalyx" page="44">
+    <entry id="16b0-484b-fc47-cce5" name="Cephalyx Dominator" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Cephalyx" page="44">
       <entries>
         <entry id="fc66-ac5b-7f46-f7bd" name="Prosthetic Blades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -4389,7 +4558,14 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="increment" field="maxInForce" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="078b-39cc-db59-a66e" field="selections" type="equal to" value="4.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="37e9-5b9f-f88c-c9f1" name="Granted: Fearless" hidden="false">
           <description>While this model is in play, models in its unit gain Fearless.</description>
@@ -4406,6 +4582,17 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
         <rule id="ad73-0402-3aad-1453" name="Ranking Officer" hidden="false">
           <description>This model is a Ranking Officer.  While this model is in play, models in its unit are Mercenary Cephalyx models instead of Mercenary models.</description>
           <modifiers/>
+        </rule>
+        <rule id="8a8b-af99-2f70-5ea1" name="Granted: Advance Deployment" hidden="false">
+          <description>Puppet Masters Special Rule: Units that include Cephalyx Dominator UAs gain Advance Deployment .</description>
+          <modifiers>
+            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="e715-9ea0-9c6d-a79a" field="selections" type="equal to" value="0.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </rule>
       </rules>
       <profiles>
