@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ccdd1364-6578-716b-2ff9-3947442f0a67" revision="15" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="4" battleScribeVersion="1.15" name="Protectorate of Menoth" authorName="Obiken" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ccdd1364-6578-716b-2ff9-3947442f0a67" revision="16" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="4" battleScribeVersion="1.15" name="Protectorate of Menoth" authorName="Obiken" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="5aad16ac-aec7-5983-4a1c-7a1e80cb083b" name="Allegiant of the order of the Fist" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="108">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="aae2660b-a2e1-8ab8-a290-3940d5f9026d" name="Shifting Sands Stance" hidden="false" page="0">
           <modifiers/>
@@ -54,7 +66,19 @@
     <entry id="babeebfd-e63a-8eb9-b3e8-6d75059c3256" name="Alten Ashley" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Minions" page="26">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="b2567447-09c8-b756-9e7d-8ec196a53ea8" profileTypeId="54726f6f70657223232344415441232323" name="Alten Ashley" hidden="false" book="Forces of Hordes - Minions" page="26">
@@ -129,7 +153,19 @@
     <entry id="b6207fe2-64b1-443b-bb99-fedb5de3d980" name="Anastasia Di Bray" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="66">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="20c5665d-dac1-cf39-32bc-51044e8290aa" name="Throwing Knives: Thrown" hidden="false" book="Mercenaries - Forces of Warmachine" page="66">
           <description>Add this model&apos;s STR to the POW of this ranged attack.</description>
@@ -203,7 +239,19 @@
     <entry id="771cc367-a9ad-3b3b-bbe9-28139bd2ef47" name="Ashlynn d&apos;Elyse" points="-6.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="34">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="18e306a7-b415-d83c-9920-7362c6e6502b" name="Feat: Roulette" hidden="false" book="Mercenaries - Forces of Warmachine" page="34">
           <description>While in Ashlynn&apos;s control area, models gain two additional dice on their attack rolls. For each of those attack rolls, you choose two of the dice rolled to be discarded. Roulette lasts for one round.</description>
@@ -281,7 +329,19 @@
     <entry id="268952b9-5f6c-d1cb-dfb2-6e740d06dd65" name="Attendant Priest" points="2.0" categoryId="556e697423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wrath" page="53">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="066bd2ea-4877-be62-6745-664e73250728" name="Attachment [Small- or Medium-Based Mercenary]" hidden="false" book="Wrath" page="53">
           <modifiers/>
@@ -331,7 +391,19 @@
     <entry id="1643950c-dce5-3e10-8f74-e3877164b884" name="Avatar of Menoth" points="11.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="82">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="a4f8fdab-8a40-531e-2d21-f64bd5b27e1c" name="Holy Vessel" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="82">
           <modifiers/>
@@ -398,12 +470,27 @@
         <link id="02d2bdb5-7fdb-3478-95d7-4385421d4366" targetId="a71635d5-2fa6-f380-1382-ff884b630f62" linkType="rule">
           <modifiers/>
         </link>
+        <link id="f9a7-d54a-c785-9971" targetId="e94a-7fcd-7f53-05d6" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="2409ceb1-220c-d51c-4c5c-1180f23e7809" name="Blessing of Vengeance" points="7.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="74">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="9f68af09-48a9-662b-dd4f-21e1bb27ceaa" name="Halberd: Powerful Charge" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="72">
           <modifiers/>
@@ -469,7 +556,19 @@
     <entry id="6e946ecf-1c5b-ff89-01f1-95d4f5c5aca5" name="Blood of Martyrs" points="9.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wrath" page="51">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="0ecab6d0-6186-be3e-c0a9-7f00f14c1253" name="Affinity [Thyra]" hidden="false">
           <modifiers/>
@@ -518,12 +617,27 @@
         <link id="54c699ad-5102-93fd-7551-a87dafb08c8b" targetId="d59e0236-1212-2bb9-d33c-6a9fd2cad3c4" linkType="rule">
           <modifiers/>
         </link>
+        <link id="f8dc-965d-8251-7689" targetId="e94a-7fcd-7f53-05d6" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="57618a9b-b56c-fcee-dbda-cb0bc493cdf9" name="Bloody Bradigan" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="116">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="05e8dcac-2d9e-56bc-fdf9-52a07d8c8a91" name="Berserk" hidden="false" page="116">
           <description>When this model destroys one or more models with a melee attack during its combat action, immediately after the attack is resolved it must make one additional melee attack against another model in its melee range</description>
@@ -594,7 +708,19 @@
     <entry id="302ba464-efaf-dc16-8970-c6f66aa94915" name="Bosun Grogspar" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="118">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="e7635d66-6ecb-cb67-5ede-038a9b913bf7" name="No Sleepin on the Job [Privateer]" hidden="false">
           <description>This model and friendly Privateer models in its command range cannot be knocked down.</description>
@@ -666,7 +792,19 @@
     <entry id="5d3aa8ec-9594-6956-ba39-bccfc13996e8" name="Captain Bartolo Montador" points="-5.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="98">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="75cdb7c5-a01d-0619-be1e-b53a74bc1678" name="Feat: Typhoon" hidden="false">
           <description>Advancing enemy models that end their movement in Montador&apos;s control area are knocked down. While in Montador&apos;s control area, enemy models suffer -3 on attack rolls. Typhoon lasts for one round.</description>
@@ -761,7 +899,19 @@
     <entry id="f0de2aa0-d913-fbcd-b4df-1c71073b824c" name="Captain Damiano" points="-6.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wrath" page="128">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="7581a06e-b3b2-a0ca-53df-9fa9f7d80adb" name="Feat: Conquest" hidden="false">
           <description>While in Damioano&apos;s control area, friendly Faction models gain +3 STR and ARM and can only move or be moved during your turn.</description>
@@ -868,7 +1018,19 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="e2225d37-3d39-0128-5712-abf19ab4b9ba" name="Sam: &apos;Jack Marshal" hidden="false" book="Warmachine Prime mkII" page="34">
           <description> This model is a &apos;jack marshal (p. 80). If this advantage is on a unit, only the unit commander is a &apos;jack marshal.</description>
@@ -1054,6 +1216,9 @@
         <link id="68eee775-addd-f889-cbdd-43a096e40c2e" targetId="8d05873b-81d4-8bc9-286d-e02a0ac0dc67" linkType="rule">
           <modifiers/>
         </link>
+        <link id="e6e1-6729-9e36-cb12" targetId="e94a-7fcd-7f53-05d6" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="7fc908e4-a9c3-c4de-9b9e-c7d18667e9fc" name="Choir of Menoth" points="2.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="3" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="88">
@@ -1107,7 +1272,11 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="9fbb-09c6-7d8e-93a4" targetId="f544-189f-2523-16f6" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="f955a464-d66d-73e4-1d16-1b3a9cf9eb58" name="Croe&apos;s Cutthroats" points="7.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="58">
       <entries>
@@ -1121,7 +1290,19 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="567aa1ba-1719-66ec-0e9c-51fa0e69913f" name="Leader: Advance Deployment" hidden="false" book="Warmachine Prime mkII" page="33">
           <description>Place this model after normal deployment, up to 6&quot; beyond the established deployment zone.</description>
@@ -1296,12 +1477,28 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="2939-1f2e-a562-9571" targetId="e94a-7fcd-7f53-05d6" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="835cf6b7-12d3-9229-a2ff-fb3275b6d9de" name="Dannon Blythe &amp; Bull" points="4.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="54">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="350c389f-07c8-3131-1e93-a02c3f8b5dc4" name="Blythe: Gunfighter" hidden="false" book="Warmachine Prime mkII" page="34">
           <description>This model is a gunfighter (p. 63). The gunfighter has a melee range of 0.5&quot; and can make ranged attacks targeting models in its melee range.</description>
@@ -1438,7 +1635,19 @@
     <entry id="2dd5cb09-e4ce-66b9-d636-f4ffef6a326f" name="Daughter&apos;s of the Flame" points="5.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="89">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="5259c3c5-eb13-f49b-abe4-f86e1ce31e51" profileTypeId="54726f6f70657223232344415441232323" name="Leader &amp; grunts" hidden="false" page="0">
@@ -1479,12 +1688,27 @@
         <link id="e214fa16-12eb-d8f7-a956-038a39468920" targetId="e302df5b-0331-d4fa-50d1-f5c890076c02" linkType="rule">
           <modifiers/>
         </link>
+        <link id="d17b-cb51-f8a6-ca19" targetId="f544-189f-2523-16f6" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="dc8ffef6-9963-81af-770b-b43676167ab0" name="Deliverer Sunburst Crew" points="3.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="91">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="dd32ef82-0a70-7555-08d9-1728b9508902" profileTypeId="576561706f6e23232344415441232323" name="Leader: Sunburst" hidden="false" page="0">
@@ -1534,7 +1758,11 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="a6ee-7466-6e8a-f048" targetId="f544-189f-2523-16f6" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="44ccc299-36e9-04c7-d26b-d151a062915a" name="Deliverers" points="5.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="90">
       <entries>
@@ -1548,7 +1776,19 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="1ed6d457-13d3-df0c-0ba1-d7ac3cab1285" name="Rocket Volley" hidden="false" page="0">
           <modifiers/>
@@ -1594,7 +1834,11 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="0988-5071-f1e0-cbcd" targetId="f544-189f-2523-16f6" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="dea6c38c-e313-8b7a-c658-aaa680175251" name="Dervish" points="4.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="68">
       <entries/>
@@ -1696,7 +1940,19 @@
     <entry id="7c9aa71e-7da7-e3cc-81a9-7e773d4f9f21" name="Dirty Meg" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="120">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="424760f7-2b43-928f-9885-aafc77b4dc8c" name="Drive: Off Road" hidden="false" book="Mercenaries - Forces of Warmachine" page="120">
           <description>This model can attempt to drive each warjack under its control in its command range. To drive a warjack, this model must make a command check at any time during its activation. If it passes, the warjack gains Pathfinder and must use its normal movement and combat action to charge or make a slam power attack during its activation this turn. If it fails, the warjack does not benefit from &apos;Jack Marshal this turn.</description>
@@ -1769,7 +2025,19 @@
     <entry id="ba76d09a-a0ee-9164-4095-2d78cad3ed7e" name="Doc Killingsworth" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="122">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="a8c79458-cf8d-e4de-5e44-d7d17015ee1b" name="No, I&apos;m Fine" hidden="false">
           <description>When another friendly Privateer model makes a tough roll of 4, 5, or 6 while in this model&apos;s command range, that model heals 1 damage point and is knocked down.</description>
@@ -1849,7 +2117,19 @@
     <entry id="b38fc3b4-4992-9b2f-b9b8-dfbd6637629e" name="Drake McBain" points="-6.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="36">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="807a196a-eaf4-2302-9db7-f39588babaa0" name="Feat: True Grit" hidden="false" book="Mercenaries - Forces of Warmachine" page="36">
           <description>Choose a number of friendly non-warcaster Faction warrios models currently in MacBain&apos;s control area up to the number of foucs points on him +5. When a chosen model is disabled, it heals 1 damage point and is knocked down. True Grit lasts for one round.</description>
@@ -1943,7 +2223,19 @@
     <entry id="7ca902bf-43d4-20b9-5e71-8a1d94237d3f" name="Durgen Madhammer" points="-6.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="138">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="818a36fb-8da2-94f3-2ffd-1ae19dc99e85" name="Feat: Bombs Away" hidden="false">
           <description>While in Madhammer&apos;s control area, friendly Faction models gain an additional die on blast damage rolls and AOE ranged attack rolls this turn.</description>
@@ -2052,7 +2344,19 @@
     <entry id="621aea60-66da-90ff-ddcb-8124eb376f66" name="Eiryss, Angel of Retribution" points="3.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="76">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="3ce7bf76-1aaf-424d-0f15-10a50e798435" name="Technological Interference" hidden="false">
           <description>While within 5&quot; of this model, non-myrmidon warjacks cannot channel spells or be allocated focus.</description>
@@ -2154,7 +2458,19 @@
     <entry id="6104ef30-a38d-1b92-2c1a-d783c32e6852" name="Eiryss, Mage Hunter of Ios" points="3.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="74">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="de2422b8-d47f-3711-9f7e-e78ab23be158" name="Attack Type" hidden="false">
           <description>Eahc time this model makes a normal ranged attack, choose one of the following abilities:
@@ -2264,7 +2580,19 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="137a7393-ceea-5b68-5107-1cdf561c47c7" name="Consecrated Halberd: Magical Weapon" hidden="false" book="Warmachine Prime mkII" page="0">
           <modifiers/>
@@ -2311,6 +2639,9 @@
           <modifiers/>
         </link>
         <link id="95b8abf6-25d3-1377-6d8b-7609214e8cd6" targetId="120365c1-428e-2f82-bf35-caa20be470fb" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="bca9-be08-593a-c894" targetId="f544-189f-2523-16f6" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -2365,12 +2696,28 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="a19d-59a7-a7c3-3a65" targetId="f544-189f-2523-16f6" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="f813aae4-091f-24b6-1a00-ba20bcdd3673" name="Exemplar Errant Seneschal" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="110">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="b0b8629e-5a06-06ba-8e48-94edb348bf6f" name="Call to Sacrifice" hidden="false" page="0">
           <modifiers/>
@@ -2517,7 +2864,19 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="8cf1f475-c729-e741-593a-87aed23f170b" name="Sword: Weapon Master" hidden="false" book="Warmachine Prime mkII" page="0">
           <modifiers/>
@@ -2577,6 +2936,9 @@
         <link id="7a5ae28c-a312-1e3d-96ad-6b21fa34ac60" targetId="1f8d5503-7901-355c-93cd-ce8ef5cf66f3" linkType="rule">
           <modifiers/>
         </link>
+        <link id="22d3-7f95-dbc5-fe5c" targetId="f544-189f-2523-16f6" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="6305fbe2-7ae1-8370-f8cb-73c935e5fb81" name="Exemplar Vengers" points="7.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="94">
@@ -2591,7 +2953,19 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="423e9b80-a26e-91c0-5c20-ba64bff89ce2" name="Sword: Close Combat" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="94">
           <modifiers/>
@@ -2666,6 +3040,9 @@
         <link id="69d698b5-2654-bec2-8e33-4c33df1057bd" targetId="212afe5d-3914-430e-c0df-3bedf02339a8" linkType="rule">
           <modifiers/>
         </link>
+        <link id="5b6f-3bef-17fa-0905" targetId="f544-189f-2523-16f6" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="fb9cf4e9-2742-d5a0-259c-8c820c01d2f6" name="Feora, Priestess of the Flame" points="-6.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="44">
@@ -2677,6 +3054,17 @@
             <condition parentId="roster" childId="627ce24b-3b97-9677-a210-fc4ad5692eac" field="selections" type="equal to" value="1.0"/>
           </conditions>
           <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <rules>
@@ -2821,6 +3209,17 @@
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
       <rules>
         <rule id="0921db3f-f3e6-7559-6a90-2bdbe051f4b7" name="Immunity: Fire" hidden="false" book="Warmachine Prime mkII" page="0">
@@ -2955,7 +3354,19 @@
     <entry id="093dbac3-ce1f-1b5e-0a8f-7a2c51fa3dcc" name="Fire of Salvation" points="9.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="84">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="a1d57f00-1b1e-a90d-ae22-2f681b816ab9" name="Affinity [Kreoss]" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="84">
           <modifiers/>
@@ -3010,12 +3421,27 @@
         <link id="42fc03e1-def8-fcf4-4931-717b9020353f" targetId="7ed10f52-bbaf-0e8e-efbd-41d8615000f7" linkType="rule">
           <modifiers/>
         </link>
+        <link id="00a7-e405-1cd6-acfc" targetId="e94a-7fcd-7f53-05d6" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="a983f35b-f70f-4a8c-6acf-701bb5d96f33" name="First Mate Hawk" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="124">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="62b520d6-046e-3e47-cc1e-e90bc2238ddf" name="Inspiration [Sea Dogs]" hidden="false" book="Mercenaries - Forces of Warmachine" page="124">
           <description>Friendly Sea Dogs models/units in this model&apos;s command range never flee and immediately rally.</description>
@@ -3176,6 +3602,17 @@
         <rule id="d1ddfb2d-ae7a-a439-5c58-254fa58bb788" name="Purifier: Damage Type: Fire" hidden="false" book="Warmachine Prime mkII" page="0">
           <modifiers/>
         </rule>
+        <rule id="3678-3848-87fb-e319" name="Advance Deployment" hidden="false">
+          <description>Place this model after normal deployment, up to 6&quot; beyond the established deployment zone.</description>
+          <modifiers>
+            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="roster" childId="af69-0073-fcd4-5e43" field="selections" type="less than" value="2.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </rule>
       </rules>
       <profiles>
         <profile id="18aa8262-e522-005c-e712-62ade12dfb59" profileTypeId="54726f6f70657223232344415441232323" name="Leader &amp; Grunts" hidden="false" page="0">
@@ -3218,12 +3655,27 @@
         <link id="b92a3103-0af3-e1fb-5cef-df2978e27d08" targetId="5a870a67-ec3d-4cc8-536b-df3d8697337d" linkType="rule">
           <modifiers/>
         </link>
+        <link id="b3b8-32e7-2b83-d6ec" targetId="f544-189f-2523-16f6" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="1c862071-ebf1-540f-f054-75b6a1f432ee" name="Gastonne Crosse" points="3.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Vengeance" page="110">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="7b528a4d-e28f-64ef-7d1c-e1cce9ded613" name="Flank [warjack]" hidden="false" book="Vengeance" page="110">
           <description>When this model makes a melee attack against an enemy model within the mlee range of a friendly model of the type indicated, this model gains +2 to attack rolls and gains an additiional damage die.</description>
@@ -3309,7 +3761,19 @@
     <entry id="e22c99d1-a132-c91b-8923-acb428c2667f" name="General Ossrum" points="-5.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Colossals" page="122">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="11d0616e-4e89-6864-5472-42dc576fa737" name="Feat: Perfect Plan" hidden="false" book="Vengeance" page="122">
           <description>While in Ossrum&apos;s control range, friendly Rhulic models gain +2 ARM. Friendly Rhulic models/units activating in this model&apos;s control area gain +2 SPD and Pathfinder. Perfect Plan lasts for one round.</description>
@@ -3401,7 +3865,19 @@
     <entry id="33e9d586-6784-7eeb-c098-1007627895d1" name="Gorman di Wulfe, Rogue Alchemist" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="88">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="e31be8f5-4874-cbb1-0951-48141b31fb6b" name="Alchemical Mask" hidden="false">
           <description>This model ignores gas effect. When determining LOS or resolving attacks, this model ignores cloud effects.</description>
@@ -3487,11 +3963,22 @@
       <entries/>
       <entryGroups/>
       <modifiers>
-        <modifier type="increment" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="10f53120-f1f9-b189-5960-dacd05162714" field="selections" type="equal to" value="1.0"/>
           </conditions>
           <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <rules>
@@ -3602,11 +4089,22 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="1f7cefa7-46af-53eb-82d5-66daf320b513" name="Grand Scrutator Severius" points="-6.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="60">
+    <entry id="1f7cefa7-46af-53eb-82d5-66daf320b513" name="Grand Scrutator Severius" points="-6.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="60">
       <entries/>
       <entryGroups/>
       <modifiers>
-        <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="39b6ae45-4774-965c-ff12-3dccaa0214cc" field="selections" type="equal to" value="1.0"/>
           </conditions>
@@ -3783,12 +4281,27 @@
         <link id="6f9c1e79-8392-8081-26cf-f6e8990a2e85" targetId="4cc50386-4b6b-fd8e-b3b6-8d44b9354a0d" linkType="rule">
           <modifiers/>
         </link>
+        <link id="9288-0b02-1b4e-2929" targetId="e94a-7fcd-7f53-05d6" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="7dd7336f-8fa5-9cad-c0f5-a331f4fff369" name="Herne &amp; Jonne" points="3.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="150">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="dfa76cd8-d3f5-c2c6-8bb9-0c28095485ca" name="Herne: Officer" hidden="false" book="Warmachine Prime mkII" page="34">
           <description>This model is and Officer (p. 70). The Officer is the unit commander of its unit.</description>
@@ -3891,11 +4404,22 @@
       <entries/>
       <entryGroups/>
       <modifiers>
-        <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="1f7cefa7-46af-53eb-82d5-66daf320b513" field="selections" type="equal to" value="1.0"/>
           </conditions>
           <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <rules>
@@ -4085,7 +4609,19 @@
     <entry id="326b05ba-abca-a6be-6aaa-fac79f69a8bd" name="High Allegiant Amon Ad-Raza" points="-6.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="42">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="f4bd1b30-c969-afce-35bf-2dec2dc0277d" name="Pathfinder" hidden="false" book="Warmachine Prime mkII" page="0">
           <modifiers/>
@@ -4178,7 +4714,55 @@
       <links/>
     </entry>
     <entry id="3cb89749-1221-cd2c-9f5e-7473766fe24f" name="High Executioner Servath Reznik" points="-6.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="58">
-      <entries/>
+      <entries>
+        <entry id="af69-0073-fcd4-5e43" name="Judgement of Fire: Tier" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="force type" childId="9f95cfb0-c39d-2ec2-28c9-6c1b0928c0d0" field="selections" type="at least" value="2.0"/>
+                    <condition parentId="force type" childId="f544-189f-2523-16f6" field="selections" type="less than" value="3.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="maxSelections" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="force type" childId="9f95cfb0-c39d-2ec2-28c9-6c1b0928c0d0" field="selections" type="at least" value="2.0"/>
+                    <condition parentId="force type" childId="f544-189f-2523-16f6" field="selections" type="at least" value="3.0"/>
+                    <condition parentId="force type" childId="e94a-7fcd-7f53-05d6" field="selections" type="less than" value="2.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="maxSelections" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="force type" childId="9f95cfb0-c39d-2ec2-28c9-6c1b0928c0d0" field="selections" type="at least" value="2.0"/>
+                    <condition parentId="force type" childId="f544-189f-2523-16f6" field="selections" type="at least" value="3.0"/>
+                    <condition parentId="force type" childId="e94a-7fcd-7f53-05d6" field="selections" type="at least" value="2.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
       <entryGroups/>
       <modifiers/>
       <rules>
@@ -4202,6 +4786,17 @@
         </rule>
         <rule id="2d182b92-ec68-0a3b-8a38-01f18ee028a3" name="Confessor: Reach" hidden="false" book="Warmachine Prime mkII" page="0">
           <modifiers/>
+        </rule>
+        <rule id="88b3-50d8-0aea-4ebb" name="Judgement of Fire Tier 4 Benefit" hidden="false">
+          <description>Warjacks in the army gain +2 SPD during your first turn.</description>
+          <modifiers>
+            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="direct parent" childId="af69-0073-fcd4-5e43" field="selections" type="less than" value="4.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </rule>
       </rules>
       <profiles>
@@ -4291,7 +4886,19 @@
     <entry id="511c9ff9-59c8-412c-d179-ea8cb524157c" name="High Exemplar Gravus" points="5.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="118">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="16489d34-f3e2-eb6c-77d2-e0bb6e0f1e3e" name="Reverence: Magical Weapon" hidden="false" book="Warmachine Prime mkII" page="0">
           <modifiers/>
@@ -4368,7 +4975,7 @@
       <entries/>
       <entryGroups/>
       <modifiers>
-        <modifier type="set" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="aeb0d1b5-6065-86a3-6b44-02aa87049f5b" field="selections" type="equal to" value="1.0"/>
           </conditions>
@@ -4485,7 +5092,19 @@
     <entry id="73c8a0a6-b7f9-960d-1b26-ed832a482554" name="High Paladin Dartan Vilmon" points="3.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="120">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="82f5d25e-831a-04f1-d09d-717af99fc38f" name="Censure: Magical Weapon" hidden="false" book="Warmachine Prime mkII" page="0">
           <modifiers/>
@@ -4592,7 +5211,19 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="b41dae41-6296-60a9-6172-1c2c9db5ce52" name="Prayers" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="100">
           <description>- Fervor
@@ -4643,12 +5274,28 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="53cf-dccc-9ab9-2937" targetId="f544-189f-2523-16f6" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="21e5255b-9257-d716-6f0e-452c4b66eb1a" name="Horgenhold Artillery Corps" points="3.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="149">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="aea97dbb-f34b-fc5c-1d27-2a7edaf18994" name="Siege Cannon: Arcing Fire" hidden="false" book="Mercenaries - Forces of Warmachine" page="42">
           <description>When attacking with this weapon, this model can ignore intervening models except those within 1&quot; of the target.</description>
@@ -4745,7 +5392,19 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="fcf2f40e-c120-d04c-14cf-1b12c95753a0" name="Mechanikal Hammer: Reach" hidden="false" book="Warmachine Prime mkII" page="36">
           <description>This weapon has a 2&quot; melee range (p. 50).</description>
@@ -4921,7 +5580,19 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="466a7197-f85c-9652-ca4b-9eeda86f7939" profileTypeId="54726f6f70657223232344415441232323" name="Idrian Skirmishers" hidden="false" page="0">
@@ -4951,12 +5622,112 @@
         <link id="cba9d4d9-fa0f-b804-5ecf-f94494c0bdf9" targetId="7e1255b7-157e-5025-a1e9-981a9c2e7b16" linkType="rule">
           <modifiers/>
         </link>
+        <link id="cf22-ee74-66fa-f8c9" targetId="f544-189f-2523-16f6" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="efaa-8690-eaff-919a" name="Indictor" points="0.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Vengeance" page="44">
+      <entries>
+        <entry id="b8de-4581-4fb0-a81f" name="Shield" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="e128-808b-5e7a-c078" profileTypeId="576561706f6e23232344415441232323" name="Shield" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="1"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="12"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="2f4f-b969-b091-0670" targetId="8015d8de-0aeb-36e5-56f3-2ec2ae643391" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="4982-44c9-41d5-59e8" name="Banisher" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="9e0e-b163-bf1c-7678" profileTypeId="576561706f6e23232344415441232323" name="Banisher" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="6"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="17"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="0e35-7721-b2c2-288e" targetId="b91d002b-8f8e-16b0-46ab-24590db21389" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="b13f-9a8a-fd06-ff3d" targetId="7f26435d-5027-6ae8-a9ba-b02e8714d44b" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="988f-2096-218c-9f57" name="Consecration" hidden="false">
+          <description>While within 5˝ of this model, enemy models cannot cast spells, channel spells, or upkeep spells.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="c874-8480-aebf-176c" profileTypeId="5761726a61636b23232344415441232323" name="Indictor" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="4"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="11"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="10"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="19"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="-"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="5d5f-0412-b04f-3381" targetId="e94a-7fcd-7f53-05d6" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="8d5d-daa0-4804-ab6f" targetId="a71635d5-2fa6-f380-1382-ff884b630f62" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="d1d4fcd5-0d6c-720c-e065-2edbb35bee54" name="Intercessor Kreoss" points="-5.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Colossals" page="72">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="c1ff0e34-8c52-e83e-4afb-df20f1bbee07" name="Feat: Invocations of the True Law" hidden="false">
           <modifiers/>
@@ -5156,7 +5927,19 @@
     <entry id="04168eba-e1c7-79b3-6979-c5a8028cbf0b" name="Kell Bailoch" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="64">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="ef09ba43-787d-dcf3-ccd1-efd89086ce0b" name="Silence: Magical Weapon" hidden="false" book="Warmachine Prime mkII" page="36">
           <description>This weapon is a magical weapon (p. 68).</description>
@@ -5224,7 +6007,19 @@
     <entry id="bd41af64-b06b-82f3-679d-fc5bcba0034d" name="Knights Exemplar" points="5.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="3" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="99">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="730a157a-fc3e-0f66-3333-09bd339a95ee" name="Relic Blade: Magical Weapon" hidden="false" book="Warmachine Prime mkII" page="0">
           <modifiers/>
@@ -5266,12 +6061,27 @@
         <link id="05977721-1925-181e-01f0-885f68ed1e70" targetId="bdb2fc15-8d1f-5e9f-c518-2b7b55abdb4a" linkType="rule">
           <modifiers/>
         </link>
+        <link id="4103-ace7-6a83-760f" targetId="f544-189f-2523-16f6" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="0dbb1b4e-09e6-c1d2-2bdb-b6f454ae3d59" name="Knights Exemplar Seneschal" points="3.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="112">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="5b9fe4f1-02e8-cf29-0c8f-3bda2ec69dbe" name="Relic Blade: Magical Weapon" hidden="false" book="Warmachine Prime mkII" page="0">
           <modifiers/>
@@ -5330,7 +6140,19 @@
     <entry id="fb3c9758-b770-b263-4c6c-9dd9e6200218" name="Lady Aiyana &amp; Master Holt" points="4.0" categoryId="556e697423232344415441232323" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="114">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="c413001b-4b3f-e39e-fb32-17ebc25ed321" name="Master Holt: Gunfighter" hidden="false" book="Warmachine Prime mkII" page="34">
           <description>This model is a gunfighter (p. 63). The gunfighter has a melee range of 0.5&quot; and can make ranged attacks targeting models in its melee range.</description>
@@ -5425,7 +6247,19 @@
     <entry id="49645651-56aa-5761-88e2-1e9eef1700cc" name="Lord Rockbottom, Expedition Financier" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="126">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="c3cb346e-9b04-08ba-0a07-fe1ae148efdd" name="Rockbottom&apos;s Coins: 5" hidden="false">
           <modifiers/>
@@ -5515,7 +6349,19 @@
     <entry id="aed7dd75-df6d-194d-3fa5-fe2d547bac1b" name="Madelyn Corbeau, Ordic Courtesan" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="70">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="ba668a6b-2972-0cea-eb46-954f5ecca21e" profileTypeId="54726f6f70657223232344415441232323" name="Madelyn Corbeau, Ordic Courtesan" hidden="false">
@@ -5559,15 +6405,26 @@
         </link>
       </links>
     </entry>
-    <entry id="853141c2-df2f-2c18-6112-289683d7f24c" name="Magnus the Traitor" points="-6.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="38">
+    <entry id="853141c2-df2f-2c18-6112-289683d7f24c" name="Magnus the Traitor" points="-6.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="38">
       <entries/>
       <entryGroups/>
       <modifiers>
-        <modifier type="increment" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="6d3e52f8-0b46-639a-936b-45a879c16f3b" field="selections" type="equal to" value="1.0"/>
           </conditions>
           <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <rules>
@@ -5668,15 +6525,26 @@
         </link>
       </links>
     </entry>
-    <entry id="6d3e52f8-0b46-639a-936b-45a879c16f3b" name="Magnus the Warlord" points="-6.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="40">
+    <entry id="6d3e52f8-0b46-639a-936b-45a879c16f3b" name="Magnus the Warlord" points="-6.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="40">
       <entries/>
       <entryGroups/>
       <modifiers>
-        <modifier type="increment" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
-            <condition parentId="roster" childId="853141c2-df2f-2c18-6112-289683d7f24c" field="selections" type="equal to" value="0.0"/>
+            <condition parentId="roster" childId="853141c2-df2f-2c18-6112-289683d7f24c" field="selections" type="equal to" value="1.0"/>
           </conditions>
           <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <rules>
@@ -5782,7 +6650,19 @@
     <entry id="45148ce7-9bbe-eb73-e021-711b9ee17dfe" name="Master Gunner Dougal MacNaile" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="128">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="392b1ecd-3de7-d4bb-ed92-253d1735c62f" name="Quad Iron: Multi-Fire (* Attack)" hidden="false" book="Mercenaries - Forces of Warmachine" page="86">
           <description>Make an attack with this weapon. On a hit, after resolving the attack this model can immediately make one additional attack with this weapon targeting the last  model hit or another model within 2&quot; of the last model hit, ignoring ROF. This model can make up to four attacks during its activation as a result of Multi-Fire.</description>
@@ -5880,7 +6760,19 @@
     <entry id="2a325a5f-b195-1397-74c7-8970bc88f1fb" name="Nicia, Tear of Vengeance" points="3.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wrath" page="55">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="15d34d87-a908-d625-8ee2-abb3f2146607" name="Blade: Reach" hidden="false" book="Warmachine Prime mkII" page="0">
           <modifiers/>
@@ -5962,7 +6854,19 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="0addf93c-2f2d-57d2-a9ae-607498b93233" profileTypeId="54726f6f70657223232344415441232323" name="Leader &amp; Grunts" hidden="false">
@@ -6019,7 +6923,19 @@
     <entry id="8d3980d2-0bbd-de83-fcfa-208d925e2b6c" name="Orin Midwinter, Rogue Inquisitor" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="78">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="cdb0fbf5-d5a4-4961-9df8-fd5f5eabc7b9" name="Magic Ability [7]" hidden="false">
           <description>- Arc Lightning (* Attack) - Arc Lightning is a RNG 10 magic attack. A model hit by this spell suffers a POW 10 electrical damage roll, and ligntining arcs from it to d3 consecutive additional models. The lightning arcs to the nearest model it has not arced to within 4&quot; of the last model it araced to, ignoring this model. Each model the lightning arcs to suffers a POW 10 electrical damage roll.
@@ -6084,7 +7000,19 @@
     <entry id="18f12d1e-2dff-4534-8438-bf167dd998e7" name="Paladin of the Order of the Wall" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="113">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="1475b5ea-44cb-2e48-4ad0-552e9b737e83" name="Firebrand: Critical Fire" hidden="false" page="0">
           <modifiers/>
@@ -6143,7 +7071,19 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="b0569831-b9dd-c958-8933-f4df80c72130" name="Lass: Advance Deployment" hidden="false" book="Warmachine Prime mkII" page="33">
           <description>Place this model after normal deployment, up to 6&quot; beyond the established deployment zone.</description>
@@ -6254,7 +7194,14 @@
     <entry id="70a97809-6a51-35bf-b1da-a18c3f005d2f" name="Reckoner" points="8.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="79">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="decrement" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="47a36ce8-bb4b-34dc-e563-f60bf8e32cba" name="Condemner: Critical Fire" hidden="false" book="Warmachine Prime mkII" page="0">
           <modifiers/>
@@ -6310,6 +7257,9 @@
           <modifiers/>
         </link>
         <link id="fbfcf5b6-4d60-917f-ca24-ad457210b2d2" targetId="c0b882f6-b2d7-9363-a3f3-c3dabdeebcdc" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="036a-652a-6d6f-0600" targetId="e94a-7fcd-7f53-05d6" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -6461,7 +7411,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="f47831e2-4f11-6411-2ad1-414b8a321493" name="Revenger" points="6.0" categoryId="5761726a61636b23232344415441232323" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="72">
+    <entry id="f47831e2-4f11-6411-2ad1-414b8a321493" name="Revenger" points="6.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="72">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -6524,7 +7474,19 @@
     <entry id="129e6118-e68b-16dc-c00e-7c2bfcb92605" name="Rhupert  Carvolo, Piper of Ord" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="72">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="e788074a-0bb8-9959-518b-90b55508d2a4" name="Piper" hidden="false">
           <description>During its activation this model can play one of the following tunes. When it does, choose a friendly unit. The tunes affects this model and will affect the unit if it is currently in this model&apos;s command range.
@@ -6575,7 +7537,19 @@
     <entry id="3d32f415-6898-9288-e6d3-89e97e6627dd" name="Rorsh &amp; Brine" points="9.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Minions" page="81">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="813a0071-db8b-9dad-0825-c7ff105215b6" name="Brine: Bacon" hidden="false" book="Forces of Hordes - Minions" page="83">
           <modifiers/>
@@ -6808,12 +7782,27 @@
         <link id="4adb1d01-a4ee-8117-ab31-d7c790e793b9" targetId="cd7070e2-4099-84bb-dcc0-044ba03e05a4" linkType="rule">
           <modifiers/>
         </link>
+        <link id="5d3f-bc22-4921-0da6" targetId="e94a-7fcd-7f53-05d6" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="f22c1b8e-e103-1e00-9986-2795f2f8570a" name="Saxon Orrik" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Minions" page="38">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="8606605c-8058-54b2-64c9-a19fe407bfa1" name="Skinning Knife: Inflict Pain" hidden="false" book="Forces of Hordes - Minions" page="38">
           <description>When it its a warbeast with this weapon, this model can place 1 fury point on or remove 1 fury point from the warbeast.</description>
@@ -6916,7 +7905,19 @@
     <entry id="c91a5978-046f-ad69-cb01-1fd9920c39eb" name="Scourge of Heresy" points="9.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wrath" page="52">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="06df4d75-4c14-5705-b60e-6e03acbfed24" name="Scourge of Heresy" hidden="false">
           <modifiers/>
@@ -6979,7 +7980,11 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="7618-8999-ac3d-4779" targetId="e94a-7fcd-7f53-05d6" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="52ff8af6-e8ba-9dc2-2025-b1a991e509ef" name="Sea Dog Crew" points="5.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="106">
       <entries>
@@ -7120,7 +8125,19 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="baffd83f-1c90-f258-4a87-5b6899a2413c" profileTypeId="54726f6f70657223232344415441232323" name="Leader &amp; Grunts" hidden="false">
@@ -7183,7 +8200,19 @@
     <entry id="ed77ed93-b4dc-5341-6f61-b08938a674b0" name="Sea Dog Deck Gun" points="2.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="109">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="7571e315-8c10-0673-11de-815bf460521b" name="Deck Gun: Light Artillery" hidden="false">
           <description>This weapon cannot be used to make attacks or special actions during activations this model moves. This model cannot gain the aiming bonus when attacking wiht whis model and cannot charge. If this model attacks with this weapon during its activation, it cannot attack with any other weapons that activation.</description>
@@ -7278,7 +8307,19 @@
     <entry id="4021370a-fecd-c722-07d5-b4a5f50414ac" name="Stannis Brocker, Steelhead Commander of Ternon Crag" points="4.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="68">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="879dec16-b84d-292c-c5b4-14101eae399a" name="Thrasher: Reach" hidden="false" book="Warmachine Prime mkII" page="36">
           <description>This weapon has a 2&quot; melee range (p. 50).</description>
@@ -7369,7 +8410,19 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="5e45ff49-d2c2-d587-1f7e-b49e58c98125" name="Halberd: Powerful Charge" hidden="false" book="Mercenaries - Forces of Warmachine" page="43">
           <description>This model gains +2 to charge attack rolls with this weapon.</description>
@@ -7440,7 +8493,19 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="91ca14ba-bf7f-6cdf-556e-3c7cdeb17971" name="Flank [Steelhead Halberdiers]" hidden="false" book="Mercenaries - Forces of Warmachine" page="49">
           <description>When this model makes a melee attack against an enemy model within the mlee range of a friendly model of the type indicated, this model gains +2 to attack rolls and gains an additiional damage die.</description>
@@ -7529,7 +8594,19 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="3717b4e4-fd21-3a32-8cf9-dd0793257cc6" profileTypeId="54726f6f70657223232344415441232323" name="Steelhead Riflemen" hidden="false" book="Mercenaries - Forces of Warmachine" page="50">
@@ -7584,7 +8661,19 @@
     <entry id="03378a81-6ecd-446b-dbb4-0a55740974bb" name="Taryn di la Rovissi, Llaelese Gun Mage" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="82">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="8eb819f8-c0a2-fcf4-dac2-38a79b8cd06c" name="Attack Type" hidden="false">
           <description>Each time this model makes a normal ranged attack, choose one of the following abilities:
@@ -7697,7 +8786,11 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="3122-2641-555b-01f5" targetId="e94a-7fcd-7f53-05d6" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="80f47867-18bc-f115-aef6-23175e280553" name="Temple Flameguard" points="4.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="3" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="104">
       <entries>
@@ -7785,7 +8878,19 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="8cc499dc-f6b0-9014-b9ce-0494afcd9bb2" name="Flame Spear: Reach" hidden="false" book="Warmachine Prime mkII" page="0">
           <modifiers/>
@@ -7827,17 +8932,31 @@
         <link id="bf65c7b9-1739-eb51-2d45-7f060e6b5210" targetId="f4785eec-22aa-b034-4580-0fe286981c30" linkType="rule">
           <modifiers/>
         </link>
+        <link id="16d9-badb-6217-ff21" targetId="f544-189f-2523-16f6" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="73bcd87e-4fbd-7bf6-6ac6-b76a17fd2021" name="Testament of Menoth" points="-6.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="52">
       <entries/>
       <entryGroups/>
       <modifiers>
-        <modifier type="increment" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="10e2481f-ec98-c7c7-e887-b6da706e86ea" field="selections" type="equal to" value="1.0"/>
           </conditions>
           <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <rules>
@@ -7945,7 +9064,19 @@
     <entry id="bf82555e-4557-cffa-c3c6-9d2749d663a2" name="The Covenant of Menoth" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="109">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="6c54b624-efb9-2ab3-d9ef-5f41cb7c8c64" name="Flames of Wrath (* Action)" hidden="false" page="0">
           <modifiers/>
@@ -7990,7 +9121,19 @@
     <entry id="229ea8ea-c497-9728-79d0-9b4ab0bcf9f7" name="The Harbinger of Menoth" points="-5.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="48">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="5a1cf724-27ac-7609-470e-28869a33db9d" name="Awe" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="48">
           <modifiers/>
@@ -8099,11 +9242,22 @@
       <entries/>
       <entryGroups/>
       <modifiers>
-        <modifier type="increment" field="maxSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="roster" childId="73bcd87e-4fbd-7bf6-6ac6-b76a17fd2021" field="selections" type="equal to" value="1.0"/>
           </conditions>
           <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <rules>
@@ -8208,7 +9362,19 @@
     <entry id="7bc86f5e-9e93-eff2-3dd5-70aacc0cda5c" name="Thyra, Flame of Sorrow" points="-6.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wrath" page="46">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="87f4ddb9-6e45-5be5-1be0-0c23db3ce65a" name="Feat: Shadows of Urcaen" hidden="false">
           <modifiers/>
@@ -8345,7 +9511,11 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="91f3-2b44-878e-3731" targetId="e94a-7fcd-7f53-05d6" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="79a670d7-2234-aae2-8b13-3fcd93a10adc" name="Vassal Mechanik" points="1.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="3" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="115">
       <entries/>
@@ -8479,7 +9649,19 @@
     <entry id="ff319fe1-6f2e-a289-aaa8-c9633cc4b162" name="Vice Scrutator Vindictus" points="-6.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="64">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="e3e795f4-a412-bd16-a118-fed531841a38" name="Pathfinder" hidden="false" book="Warmachine Prime mkII" page="0">
           <modifiers/>
@@ -8647,7 +9829,19 @@
     <entry id="7226a71e-9557-4a30-1c22-30ddb909b9af" name="Visgoth Juviah Rhoven &amp; Honor Guard" points="4.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="106">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="c9560206-0290-905b-3e2a-e291f0374f72" name="Rhoven: Commander" hidden="false" book="Warmachine Prime mkII" page="0">
           <modifiers/>
@@ -8750,19 +9944,57 @@
         <link id="ca75f2ba-5b3f-f1ac-b208-97564f8c1be8" targetId="212afe5d-3914-430e-c0df-3bedf02339a8" linkType="rule">
           <modifiers/>
         </link>
+        <link id="e220-47dd-f452-acf8" targetId="6b11-292e-455d-e264" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
-    <entry id="b2ce2412-4420-bb43-2b8b-e358ac5f71f3" name="Wrack" points="1.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="117">
-      <entries/>
+    <entry id="b2ce2412-4420-bb43-2b8b-e358ac5f71f3" name="Wrack" points="1.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="117">
+      <entries>
+        <entry id="7393-b876-7c76-8829" name="Free Wracks" points="-1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="-1.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="3.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="increment" field="maxInForce" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="force type" childId="7393-b876-7c76-8829" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <rules>
-        <rule id="0a9f8e64-3a17-e81c-3879-60782d01c636" name="3 Wracks for 1 point" hidden="false" page="0">
+        <rule id="66bd-66cf-1e5b-0890" name="Judgement of Fire Benefit" hidden="false">
+          <description>Wracks can be placed up to 20&quot; from the back edge of Reznik&apos;s deployment zone.</description>
+          <modifiers>
+            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="less than" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </rule>
+        <rule id="7478-cf4e-cb3b-df6f" name="3 Wracks for 1 point" hidden="false" page="0">
+          <description>Single selection of &quot;Wrack&quot; provides 3 Wrack models</description>
           <modifiers/>
         </rule>
       </rules>
       <profiles>
-        <profile id="33474cb5-89c7-65ed-8bbe-7c9eaedfc23d" profileTypeId="54726f6f70657223232344415441232323" name="Wrack" hidden="false" page="0">
+        <profile id="0319-4b0f-8d6c-ea4f" profileTypeId="54726f6f70657223232344415441232323" name="Wrack" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="53504423232344415441232323" name="SPD" value="-"/>
             <characteristic characteristicId="53545223232344415441232323" name="STR" value="1"/>
@@ -8777,16 +10009,16 @@
         </profile>
       </profiles>
       <links>
-        <link id="49156c16-d61e-5d2d-809d-60a728c96009" targetId="1f8d5503-7901-355c-93cd-ce8ef5cf66f3" linkType="rule">
+        <link id="71af-2451-2d33-eef0" targetId="b4a77771-cd35-bc6a-e3b1-f107120ff206" linkType="rule">
           <modifiers/>
         </link>
-        <link id="f8a53650-13b0-2b33-b9c8-5a5ccb3c7b1b" targetId="cbee9210-d756-6712-f628-71c930fafa24" linkType="rule">
+        <link id="6e52-9170-1689-7748" targetId="44c6af75-bcf4-ccac-eaaf-f2a096b3b5c5" linkType="rule">
           <modifiers/>
         </link>
-        <link id="69aae07e-f75c-3cd5-aea5-de28eb42cf79" targetId="44c6af75-bcf4-ccac-eaaf-f2a096b3b5c5" linkType="rule">
+        <link id="c49e-9a9a-0efe-6e7f" targetId="cbee9210-d756-6712-f628-71c930fafa24" linkType="rule">
           <modifiers/>
         </link>
-        <link id="345d7fc6-af5f-544a-8c17-2a2668ebcc0f" targetId="b4a77771-cd35-bc6a-e3b1-f107120ff206" linkType="rule">
+        <link id="63d3-9f34-9021-da8f" targetId="1f8d5503-7901-355c-93cd-ce8ef5cf66f3" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -8794,7 +10026,36 @@
   </entries>
   <rules/>
   <links/>
-  <sharedEntries/>
+  <sharedEntries>
+    <entry id="e94a-7fcd-7f53-05d6" name="Protectorate Heavy Warjack" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="f544-189f-2523-16f6" name="Protectorate Unit" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="6b11-292e-455d-e264" name="Protectorate Character Unit" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="a3c6-f83d-3939-91f2" targetId="f544-189f-2523-16f6" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+  </sharedEntries>
   <sharedEntryGroups/>
   <sharedRules>
     <rule id="d485f991-df61-4cad-0d14-ab2aa75bb361" name="&apos;Jack Marshal" hidden="false" book="Warmachine Prime mkII" page="34">

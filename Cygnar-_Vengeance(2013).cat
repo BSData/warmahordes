@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3f7c-e510-2a70-e7ab" revision="5" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="4" battleScribeVersion="1.15" name="Cygnar" books="Forces of Warmachine - Cygnar, Wrath, Colossals, Vengeance" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3f7c-e510-2a70-e7ab" revision="6" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="4" battleScribeVersion="1.15" name="Cygnar" books="Forces of Warmachine - Cygnar, Wrath, Colossals, Vengeance" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="8058c02e-db92-21aa-3d1d-a2e86070623a" name="Alexia Ciannor, The Risen, &amp; Thrall Warrior" points="5.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="51">
       <entries>
@@ -174,7 +174,20 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles/>
       <links>
@@ -212,7 +225,20 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="34263541-8fc0-e821-c751-6ba584416e6f" name="Animosity [Morrowan]" hidden="false" book="Colossals" page="128">
           <description>This model cannot be included in an army that includes one or more models of the listed type.</description>
@@ -329,7 +355,20 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="de40c450-cb06-40cf-c373-5443f15437b9" profileTypeId="54726f6f70657223232344415441232323" name="Anastasia Di Bray" hidden="false">
@@ -513,7 +552,19 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="3798-79a7-97d2-2421" profileTypeId="54726f6f70657223232344415441232323" name="Leader &amp; Grunts" hidden="false">
@@ -590,7 +641,20 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="398e-1f41-5c9c-c657" profileTypeId="54726f6f70657223232344415441232323" name="Runewood" hidden="false">
@@ -855,7 +919,32 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="roster" childId="0581-9c85-9d9a-401c" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="dfcb-5366-6bfc-fc79" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles/>
       <links/>
@@ -891,7 +980,20 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="18e306a7-b415-d83c-9920-7362c6e6502b" name="Feat: Roulette" hidden="false" book="Mercenaries - Forces of Warmachine" page="34">
           <description>While in Ashlynn&apos;s control area, models gain two additional dice on their attack rolls. For each of those attack rolls, you choose two of the dice rolled to be discarded. Roulette lasts for one round.</description>
@@ -1027,7 +1129,11 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="49c1-ebd3-e438-cb0d" targetId="99c2-cae8-d88f-eeb5" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="75c9-270a-80db-78c1" name="Black 13th Gun Mage Strike Team" points="4.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="110">
       <entries>
@@ -1195,7 +1301,20 @@ Snipe -This attack gains +4 RNG.</description>
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles/>
       <links/>
@@ -1231,7 +1350,20 @@ Snipe -This attack gains +4 RNG.</description>
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="05e8dcac-2d9e-56bc-fdf9-52a07d8c8a91" name="Berserk" hidden="false" page="116">
           <description>When this model destroys one or more models with a melee attack during its combat action, immediately after the attack is resolved it must make one additional melee attack against another model in its melee range</description>
@@ -1328,7 +1460,20 @@ Snipe -This attack gains +4 RNG.</description>
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="e7635d66-6ecb-cb67-5ede-038a9b913bf7" name="No Sleepin on the Job [Privateer]" hidden="false">
           <description>This model and friendly Privateer models in its command range cannot be knocked down.</description>
@@ -1395,7 +1540,31 @@ Snipe -This attack gains +4 RNG.</description>
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="roster" childId="35af-69f4-354c-eb4f" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="911c-7bba-28ca-7094" name="Feat: Overkill" hidden="false">
           <description>After resolving each ranged attack that hits an enemy model, Caine gains a cumulative +1 to his spe]Jstorm Pistol damage rolls. When a model is boxed by a Spell storm Pistol attack, center a 3&quot; AOE on it and remove it from play. Models in the AOE are hit and suffer an unboostable POW 10 blast damage roll. Overkill expires at the end of Caine&apos;s activation.</description>
@@ -1501,7 +1670,20 @@ Snipe -This attack gains +4 RNG.</description>
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="db66-4bc2-669e-69e9" name="Magic Ability" hidden="false">
           <description>Evasive Action (*Action) - RNG 5. Target friendly Faction warjack. If the warjack is in range, it gains Evasive for one round. (A model with Evasive cannot be targeted by free strikes. It can advance up to 2&quot; immediately after an enemy ranged attack that missed it is resolved unless it was missed while advancing.)
@@ -1590,7 +1772,20 @@ Power Booster (*Action) - RNG 5. Target friendly Faction warjack. If the target 
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="75cdb7c5-a01d-0619-be1e-b53a74bc1678" name="Feat: Typhoon" hidden="false">
           <description>Advancing enemy models that end their movement in Montador&apos;s control area are knocked down. While in Montador&apos;s control area, enemy models suffer -3 on attack rolls. Typhoon lasts for one round.</description>
@@ -1710,7 +1905,20 @@ Power Booster (*Action) - RNG 5. Target friendly Faction warjack. If the target 
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="7581a06e-b3b2-a0ca-53df-9fa9f7d80adb" name="Feat: Conquest" hidden="false">
           <description>While in Damioano&apos;s control area, friendly Faction models gain +3 STR and ARM and can only move or be moved during your turn.</description>
@@ -1937,7 +2145,20 @@ Power Booster (*Action) - RNG 5. Target friendly Faction warjack. If the target 
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles/>
       <links/>
@@ -2010,7 +2231,20 @@ Power Booster (*Action) - RNG 5. Target friendly Faction warjack. If the target 
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="4faa-6cb2-47d4-0008" name="Feat: Horsepower" hidden="false">
           <description>Friendly knocked down Faction warjacks currently in Kraye&apos;s control area that were not knocked down this tum immediately stand up. Friendly Faction warjacks currently in his control area can immediately turn to face any direction. Affected warjacks can charge without spending focus. Affected charging models gain +2&quot; movement. Melee attack rolls made by affected warjacks are boosted. Horsepower lasts for one tum.</description>
@@ -2066,6 +2300,31 @@ Power Booster (*Action) - RNG 5. Target friendly Faction warjack. If the target 
         </link>
       </links>
     </entry>
+    <entry id="bcc9-848d-c3f6-3709" name="Captain Jonas Murdock" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="5338-9eb0-d767-ec05" targetId="6d90-a077-eb45-6eb2" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="0d33-7d27-8af1-f900" name="Captain Kara Sloan" points="-6.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine - Cygnar" page="60">
       <entries>
         <entry id="c733-87c9-e16b-2510" name="Spitfire" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2115,13 +2374,94 @@ Power Booster (*Action) - RNG 5. Target friendly Faction warjack. If the target 
           </profiles>
           <links/>
         </entry>
+        <entry id="579b-9bc5-ffea-6f72" name="Gunslingers Tier" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="FoW - Cygnar" page="37">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="force type" childId="216d-005e-dcc4-78ad" field="selections" type="at least" value="2.0"/>
+                    <condition parentId="force type" childId="99cf-a437-1f03-0269" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="force type" childId="99c2-cae8-d88f-eeb5" field="selections" type="at least" value="2.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="maxSelections" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="force type" childId="216d-005e-dcc4-78ad" field="selections" type="at least" value="2.0"/>
+                    <condition parentId="force type" childId="99cf-a437-1f03-0269" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="force type" childId="99c2-cae8-d88f-eeb5" field="selections" type="less than" value="2.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="force type" childId="216d-005e-dcc4-78ad" field="selections" type="at least" value="2.0"/>
+                    <condition parentId="force type" childId="99cf-a437-1f03-0269" field="selections" type="less than" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="c9a0-b862-d961-cb99" name="Feat: Firing Squad" hidden="false">
           <description>While in Sloan&apos;s control area, friendly Faction models gain boosted ranged attack rolls. When a model in Sloan&apos;s battlegroup that is in her control area hits an enemy model with a normal ranged attack during its activation, immediately after that attack is resolved a model in Sloan&apos;s battlegroup that is in her control area can make one normal ranged attack. A model can make only one Firing Squad attack. Firing Squad lasts for one turn.</description>
           <modifiers/>
+        </rule>
+        <rule id="033c-ddcc-dcaa-9078" name="Gunslingers Tier 1 Benefit" hidden="true">
+          <description>Models in the army gain Pathfinder during your first turn of the game.</description>
+          <modifiers>
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="direct parent" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </rule>
+        <rule id="fffb-c629-73d1-c3d5" name="Gunslingers Tier 3 Benefit" hidden="true">
+          <description>You can redeploy models in Sloan&apos;s battlegroup after both players have deployed but before the first player&apos;s first turn. The redeployed models must be placed on the table in a location they could have been deployed initially.</description>
+          <modifiers>
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="direct parent" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="3.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </rule>
       </rules>
       <profiles>
@@ -2216,7 +2556,20 @@ Power Booster (*Action) - RNG 5. Target friendly Faction warjack. If the target 
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="a4e1-3a35-f319-ed74" profileTypeId="54726f6f70657223232344415441232323" name="Finn" hidden="false">
@@ -2465,7 +2818,20 @@ Power Booster (*Action) - RNG 5. Target friendly Faction warjack. If the target 
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles/>
       <links>
@@ -2531,7 +2897,31 @@ Power Booster (*Action) - RNG 5. Target friendly Faction warjack. If the target 
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="roster" childId="e4dd-fef6-4423-8448" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="ab34-034b-8f8a-309e" name="Feat: Blitz" hidden="false">
           <description>Friendly Faction models beginning their activations in Haley&apos;s control area 
@@ -2634,7 +3024,19 @@ during their activations this tum regardless of a weapon&apos;s ROF.</descriptio
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="6aba-34ad-b901-15b5" profileTypeId="5761726a61636b23232344415441232323" name="Centurion" hidden="false">
@@ -2652,6 +3054,9 @@ during their activations this tum regardless of a weapon&apos;s ROF.</descriptio
       </profiles>
       <links>
         <link id="512b-8e5e-d8b3-81f0" targetId="29db-3ee4-1ade-33f3" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d633-6524-7a33-2e2d" targetId="99c2-cae8-d88f-eeb5" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -2786,7 +3191,32 @@ during their activations this tum regardless of a weapon&apos;s ROF.</descriptio
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="roster" childId="0247-0dd1-f18c-0c72" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="dfcb-5366-6bfc-fc79" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="658f-01f9-c903-2628" name="Feat: Electrical Storm" hidden="false">
           <description>Enemy warjacks and warbeasts currently in Nemo&apos;s control area suffer a POW 14 electrical damage roll.  Warjacks damaged by Electrical Storm suffer Disruption. (A warjack suffering Disruption loses its focus points and cannot be allocated focus or channel spells for one round.)</description>
@@ -2898,13 +3328,124 @@ during their activations this tum regardless of a weapon&apos;s ROF.</descriptio
             </link>
           </links>
         </entry>
+        <entry id="822b-a0b2-7445-1846" name="Combined Arms Tier" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="force type" childId="696c-62d2-2fd3-aee6" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="force type" childId="216d-005e-dcc4-78ad" field="selections" type="less than" value="2.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="maxSelections" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="force type" childId="216d-005e-dcc4-78ad" field="selections" type="at least" value="2.0"/>
+                <condition parentId="force type" childId="696c-62d2-2fd3-aee6" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="force type" childId="1f10-5f4f-cac1-aab5" field="selections" type="less than" value="2.0"/>
+              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions/>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="maxSelections" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="force type" childId="696c-62d2-2fd3-aee6" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="force type" childId="1f10-5f4f-cac1-aab5" field="selections" type="at least" value="2.0"/>
+                    <condition parentId="force type" childId="216d-005e-dcc4-78ad" field="selections" type="at least" value="2.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="roster" childId="28ab-edc0-b36d-fbf1" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="b04b-23ff-21ae-e31a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="42fc-08c7-20ef-57a2" name="Feat: Invincibility" hidden="false">
           <description>While in Stryker&apos;s control area, friendly Faction m&apos;odels gain +5 ARM for one round.</description>
           <modifiers/>
+        </rule>
+        <rule id="f00b-3439-150d-e023" name="Combined Arms Tier 1 Benefit" hidden="true">
+          <description>Up to one heavy warjack gains Advance Move for each Field Mechanik unit in the army. (Before the start of the game but after both players have deployed, a model with Advance Move can make a full advance.)</description>
+          <modifiers>
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="direct parent" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="force type" childId="070a-13a0-79b7-6741" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="force type" childId="99c2-cae8-d88f-eeb5" field="selections" type="at least" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </rule>
+        <rule id="3067-a3aa-a225-63fd" name="Combined Arms Tier 2 Benefit" hidden="false">
+          <description>You gain +1 on your starting roll for the game.</description>
+          <modifiers>
+            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="direct parent" childId="822b-a0b2-7445-1846" field="selections" type="less than" value="2.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </rule>
+        <rule id="cfa7-6cc8-4a28-6e45" name="Combined Arms Tier 4 Benefit" hidden="false">
+          <description>Friendly models/units can begin the game affected by Stryker&apos;s upkeep spells. These spells and their targets must be declared before either player sets up models. Stryker does not pay focus to upkeep these spells during your first turn.</description>
+          <modifiers>
+            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="direct parent" childId="822b-a0b2-7445-1846" field="selections" type="less than" value="4.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </rule>
       </rules>
       <profiles>
@@ -2978,7 +3519,20 @@ during their activations this tum regardless of a weapon&apos;s ROF.</descriptio
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="9801-a190-6079-dc37" name="Feat: Divine Intervention" hidden="false">
           <description>Blaize gains one soul token for each friendly living Faction warrior model destroyed by an enemy attack or collateral damage of an enemy attack in her control area for one round.  While in her control area, friendly living Faction warrior models gain +1 ARM for each soul token on Blaize.  When Blaize replenishes her focus during your next Control Phase, replace each soul token on her with 1 focus point, then Divine Intervention expires.</description>
@@ -3114,7 +3668,11 @@ during their activations this tum regardless of a weapon&apos;s ROF.</descriptio
           <modifiers/>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="70a1-3a8e-14c8-9dbb" targetId="99c2-cae8-d88f-eeb5" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="3ae7c437-1ddc-2931-6e88-c10b129c6145" name="Cylena Raefyll &amp; Nyss Hunters" points="7.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="62">
       <entries>
@@ -3284,7 +3842,20 @@ during their activations this tum regardless of a weapon&apos;s ROF.</descriptio
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles/>
       <links>
@@ -3478,7 +4049,20 @@ during their activations this tum regardless of a weapon&apos;s ROF.</descriptio
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles/>
       <links>
@@ -3560,7 +4144,11 @@ during their activations this tum regardless of a weapon&apos;s ROF.</descriptio
           <modifiers/>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="bd90-504b-82db-93ed" targetId="99c2-cae8-d88f-eeb5" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="7c9aa71e-7da7-e3cc-81a9-7e773d4f9f21" name="Dirty Meg" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="120">
       <entries>
@@ -3610,7 +4198,20 @@ during their activations this tum regardless of a weapon&apos;s ROF.</descriptio
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="424760f7-2b43-928f-9885-aafc77b4dc8c" name="Drive: Off Road" hidden="false" book="Mercenaries - Forces of Warmachine" page="120">
           <description>This model can attempt to drive each warjack under its control in its command range. To drive a warjack, this model must make a command check at any time during its activation. If it passes, the warjack gains Pathfinder and must use its normal movement and combat action to charge or make a slam power attack during its activation this turn. If it fails, the warjack does not benefit from &apos;Jack Marshal this turn.</description>
@@ -3705,7 +4306,20 @@ during their activations this tum regardless of a weapon&apos;s ROF.</descriptio
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="a8c79458-cf8d-e4de-5e44-d7d17015ee1b" name="No, I&apos;m Fine" hidden="false">
           <description>When another friendly Privateer model makes a tough roll of 4, 5, or 6 while in this model&apos;s command range, that model heals 1 damage point and is knocked down.</description>
@@ -3786,7 +4400,20 @@ during their activations this tum regardless of a weapon&apos;s ROF.</descriptio
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="807a196a-eaf4-2302-9db7-f39588babaa0" name="Feat: True Grit" hidden="false" book="Mercenaries - Forces of Warmachine" page="36">
           <description>Choose a number of friendly non-warcaster Faction warrios models currently in MacBain&apos;s control area up to the number of foucs points on him +5. When a chosen model is disabled, it heals 1 damage point and is knocked down. True Grit lasts for one round.</description>
@@ -3923,7 +4550,20 @@ during their activations this tum regardless of a weapon&apos;s ROF.</descriptio
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="818a36fb-8da2-94f3-2ffd-1ae19dc99e85" name="Feat: Bombs Away" hidden="false">
           <description>While in Madhammer&apos;s control area, friendly Faction models gain an additional die on blast damage rolls and AOE ranged attack rolls this turn.</description>
@@ -3986,7 +4626,20 @@ during their activations this tum regardless of a weapon&apos;s ROF.</descriptio
     <entry id="621aea60-66da-90ff-ddcb-8124eb376f66" name="Eiryss, Angel of Retribution" points="3.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="76">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="3ce7bf76-1aaf-424d-0f15-10a50e798435" name="Technological Interference" hidden="false">
           <description>While within 5&quot; of this model, non-myrmidon warjacks cannot channel spells or be allocated focus.</description>
@@ -4088,7 +4741,20 @@ during their activations this tum regardless of a weapon&apos;s ROF.</descriptio
     <entry id="6104ef30-a38d-1b92-2c1a-d783c32e6852" name="Eiryss, Mage Hunter of Ios" points="3.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="74">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="de2422b8-d47f-3711-9f7e-e78ab23be158" name="Attack Type" hidden="false">
           <description>Eahc time this model makes a normal ranged attack, choose one of the following abilities:
@@ -4380,7 +5046,20 @@ during their activations this tum regardless of a weapon&apos;s ROF.</descriptio
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="be13b0e7-3519-1420-dd55-8a230f2df7fd" name="Animosity [Morrowan]" hidden="false" book="">
           <description>This model cannot be included in an army that includes one or more models of the listed type.</description>
@@ -4555,7 +5234,20 @@ during their activations this tum regardless of a weapon&apos;s ROF.</descriptio
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="62b520d6-046e-3e47-cc1e-e90bc2238ddf" name="Inspiration [Sea Dogs]" hidden="false" book="Mercenaries - Forces of Warmachine" page="124">
           <description>Friendly Sea Dogs models/units in this model&apos;s command range never flee and immediately rally.</description>
@@ -4666,7 +5358,20 @@ during their activations this tum regardless of a weapon&apos;s ROF.</descriptio
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="0e30-13d3-d637-a3e3" profileTypeId="5761726a61636b23232344415441232323" name="Gallant" hidden="false">
@@ -4710,6 +5415,9 @@ during their activations this tum regardless of a weapon&apos;s ROF.</descriptio
             </modifier>
           </modifiers>
         </link>
+        <link id="0c70-1f3d-37e6-a51d" targetId="99c2-cae8-d88f-eeb5" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="1c862071-ebf1-540f-f054-75b6a1f432ee" name="Gastonne Crosse" points="3.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Vengeance" page="110">
@@ -4740,7 +5448,20 @@ during their activations this tum regardless of a weapon&apos;s ROF.</descriptio
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="7b528a4d-e28f-64ef-7d1c-e1cce9ded613" name="Flank [warjack]" hidden="false" book="Vengeance" page="110">
           <description>When this model makes a melee attack against an enemy model within the mlee range of a friendly model of the type indicated, this model gains +2 to attack rolls and gains an additiional damage die.</description>
@@ -4872,7 +5593,32 @@ during their activations this tum regardless of a weapon&apos;s ROF.</descriptio
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="roster" childId="0247-0dd1-f18c-0c72" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="0581-9c85-9d9a-401c" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="792c-63c1-ea18-7495" name="Elite Cadre [Stormsmith Stormcallers]" hidden="false">
           <description>Friendly Stormsmith Stormcallers have Stormcall [9] and gain +2 to Stormcall damage rolls.</description>
@@ -4977,7 +5723,20 @@ during their activations this tum regardless of a weapon&apos;s ROF.</descriptio
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="11d0616e-4e89-6864-5472-42dc576fa737" name="Feat: Perfect Plan" hidden="false" book="Vengeance" page="122">
           <description>While in Ossrum&apos;s control range, friendly Rhulic models gain +2 ARM. Friendly Rhulic models/units activating in this model&apos;s control area gain +2 SPD and Pathfinder. Perfect Plan lasts for one round.</description>
@@ -5080,7 +5839,20 @@ during their activations this tum regardless of a weapon&apos;s ROF.</descriptio
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="e31be8f5-4874-cbb1-0951-48141b31fb6b" name="Alchemical Mask" hidden="false">
           <description>This model ignores gas effect. When determining LOS or resolving attacks, this model ignores cloud effects.</description>
@@ -5216,7 +5988,20 @@ during their activations this tum regardless of a weapon&apos;s ROF.</descriptio
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="45fd0004-5d19-a558-5604-9a49ae97b1d7" name="Feat: Landslide" hidden="false">
           <description>Choose a table edge and a distance up to 8&quot;. Enemy models currently in Gorten&apos;s control area are pushed the chosen distance directly towards the chosen table edge in the order you choose. For one round, affected models cannotr give or receive orders and suffer -3 SPD, RAT and DEF.</description>
@@ -5505,7 +6290,20 @@ during their activations this tum regardless of a weapon&apos;s ROF.</descriptio
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles/>
       <links>
@@ -5571,7 +6369,20 @@ during their activations this tum regardless of a weapon&apos;s ROF.</descriptio
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="792c-48f9-5e4f-2948" name="Attack Type" hidden="false">
           <description>Each time this model makes a normal ranged attack, choose one of the following abilities:
@@ -5752,7 +6563,20 @@ Snipe - This attack gains +4 RNG.</description>
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="11bcd4d5-baca-6a6a-96b9-3924b4eb23a1" profileTypeId="54726f6f70657223232344415441232323" name="Leader &amp; Grunts" hidden="false">
@@ -5821,7 +6645,19 @@ Snipe - This attack gains +4 RNG.</description>
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="632f-4ada-cd6b-b82c" profileTypeId="5761726a61636b23232344415441232323" name="Hammersmith" hidden="false">
@@ -5839,6 +6675,9 @@ Snipe - This attack gains +4 RNG.</description>
       </profiles>
       <links>
         <link id="d081-3e97-a4cb-ac65" targetId="2104b835-9f15-4f99-9a84-e4a0ca805303" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7c48-dd50-6acb-4f13" targetId="99c2-cae8-d88f-eeb5" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -5910,7 +6749,20 @@ Snipe - This attack gains +4 RNG.</description>
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="755af37f-c255-30ed-b41e-5aa3c6e51ad2" name="Animosity [Thamarite and Undead]" hidden="false">
           <description>This model cannot be included in an army that includes one or more models of the listed type.</description>
@@ -6097,7 +6949,20 @@ Snipe - This attack gains +4 RNG.</description>
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles/>
       <links>
@@ -6232,7 +7097,20 @@ Snipe - This attack gains +4 RNG.</description>
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles/>
       <links>
@@ -6286,7 +7164,20 @@ Snipe - This attack gains +4 RNG.</description>
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="a89a27ab-987f-2a8d-6f31-085c0eab9308" profileTypeId="54726f6f70657223232344415441232323" name="Leader &amp; Grunts" hidden="false">
@@ -6449,7 +7340,19 @@ Snipe - This attack gains +4 RNG.</description>
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="d3ea-587b-072b-ab04" profileTypeId="5761726a61636b23232344415441232323" name="Ironclad" hidden="false">
@@ -6465,7 +7368,11 @@ Snipe - This attack gains +4 RNG.</description>
           <modifiers/>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="4b1b-a9a5-c54d-82cd" targetId="99c2-cae8-d88f-eeb5" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="5e63-279c-738c-38d4" name="Journeyman Warcaster" points="3.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="113">
       <entries>
@@ -6660,7 +7567,20 @@ Snipe - This attack gains +4 RNG.</description>
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles/>
       <links>
@@ -6833,7 +7753,20 @@ Snipe - This attack gains +4 RNG.</description>
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="2261-3b0d-b222-c0ef" profileTypeId="57617263617374657223232344415441232323" name="Jakes" hidden="false">
@@ -6917,7 +7850,31 @@ Snipe - This attack gains +4 RNG.</description>
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="roster" childId="b33d-645e-80fc-fd01" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="1d36-3511-46c5-249e" name="Feat: Maelstrom" hidden="false">
           <description>Caine makes a normal Spellstorm Pistol attack against every enemy model currently in his control area, ignoring intervening models.  Caine cannot use Maelstrom while he is in melee. When resolving Maelstrom, Caine has no back arc and his front arc extends to 360°.</description>
@@ -7145,9 +8102,31 @@ Snipe - This attack gains +4 RNG.</description>
                 </link>
               </links>
             </entry>
+            <entry id="65f7-d3cc-bf02-d6e4" name="Free Unit Attachment" points="-2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="-2.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers>
+                <modifier type="set" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="3.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
           </entries>
           <entryGroups/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="maxInForce" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="force type" childId="65f7-d3cc-bf02-d6e4" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <rules/>
           <profiles/>
           <links/>
@@ -7155,7 +8134,19 @@ Snipe - This attack gains +4 RNG.</description>
       </entries>
       <entryGroups/>
       <modifiers/>
-      <rules/>
+      <rules>
+        <rule id="b37c-2026-fb59-d725" name="Advance Move" hidden="true">
+          <description>Before the start of the game but after both players have deployed, a model with Advance Move can make a full advance.</description>
+          <modifiers>
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="2.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </rule>
+      </rules>
       <profiles>
         <profile id="661e-6f6a-58ee-57ae" profileTypeId="54726f6f70657223232344415441232323" name="Leader &amp; Grunts" hidden="false">
           <characteristics>
@@ -7241,7 +8232,32 @@ Snipe - This attack gains +4 RNG.</description>
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="roster" childId="7513-0f12-6b60-254e" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="b04b-23ff-21ae-e31a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="801b-aa93-811d-48a9" name="Elite Cadre [Stormblade Infantry]" hidden="false">
           <description>Before the start of the game, after both players have deployed, hiendly Stormblade Infantry models can make a full advance.</description>
@@ -7382,7 +8398,32 @@ control area can advance up to 3&quot; and then can make one normal melee attack
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="roster" childId="28ab-edc0-b36d-fbf1" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="7513-0f12-6b60-254e" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="a6b6-8d47-27c9-6e40" name="Feat: Lightning Charge" hidden="false">
           <description>When a friendly Faction model makes a mount attack or a charge attack while within Stryker’s control area, the attack automatically hits and gains an additional die on the damage roll. Lightning Charge lasts for one round.</description>
@@ -7491,7 +8532,20 @@ control area can advance up to 3&quot; and then can make one normal melee attack
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="c3cb346e-9b04-08ba-0a07-fe1ae148efdd" name="Rockbottom&apos;s Coins: 5" hidden="false">
           <modifiers/>
@@ -7551,7 +8605,20 @@ control area can advance up to 3&quot; and then can make one normal melee attack
     <entry id="aed7dd75-df6d-194d-3fa5-fe2d547bac1b" name="Madelyn Corbeau, Ordic Courtesan" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="70">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="ba668a6b-2972-0cea-eb46-954f5ecca21e" profileTypeId="54726f6f70657223232344415441232323" name="Madelyn Corbeau, Ordic Courtesan" hidden="false">
@@ -7679,7 +8746,20 @@ control area can advance up to 3&quot; and then can make one normal melee attack
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="f023-f041-9ade-b1fd" name="Electro Charger [Storm Lances]" hidden="false">
           <description>While within 5&quot; of this model, friendly Storm Lance models gain +2 to their ranged attack and ranged damage rolls.</description>
@@ -7774,7 +8854,20 @@ control area can advance up to 3&quot; and then can make one normal melee attack
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="11a1-d081-0832-0403" name="Feat: Breach" hidden="false">
           <description>The next time each enemy model suffers damage while in Siege&apos;s control area, halve its base when calculating damage from the damage roll. Breach lasts for one turn.</description>
@@ -7869,7 +8962,31 @@ control area can advance up to 3&quot; and then can make one normal melee attack
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="roster" childId="c0f9-2da5-26d7-7b86" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="6892-f299-11ab-5752" name="Feat: Temporal Shift" hidden="false">
           <description>During your opponent&apos;s next Activation Phase, enemy models/units activating while in Haley&apos;s control area forfeit either their movement or their action during their activations, as their controller chooses. Affected
@@ -7992,7 +9109,20 @@ models/ units activate at the start of their controller&apos;s next Activation P
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="a11cc47a-589c-516b-f117-2b06e3703082" name="Grenade: Cumbersome" hidden="false" book="Mercenaries - Forces of Warmachine" page="128">
           <description>If this model attack with this weapon during its activation, it cannot attack with another ranged weapon that activation. If this model attacked with another ranged weapon this activation, it cannot attack with this weapon.</description>
@@ -8178,7 +9308,20 @@ models/ units activate at the start of their controller&apos;s next Activation P
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="0addf93c-2f2d-57d2-a9ae-607498b93233" profileTypeId="54726f6f70657223232344415441232323" name="Leader &amp; Grunts" hidden="false">
@@ -8261,7 +9404,20 @@ models/ units activate at the start of their controller&apos;s next Activation P
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="78cecd34-eb01-3382-0fe2-78fb642b8135" name="Client" hidden="false" book="Mercenaries - Forces of Warmachine" page="152">
           <description>Before the start of the game, choose one friendly warcaster, solo, or unit commander to be the Bokur&apos;s client. This model cannot be the client of another Bokur or have the same client as another Bokur. If its client leaves play, the Bokur loses all client benefits even if that client is replaced by another model. While within 6&quot; of its client this model gains +2 to attack and damage rolls and never flees. If this model&apos;s client has Advance Deployment, this model gain Advance Deployment.</description>
@@ -8360,7 +9516,19 @@ models/ units activate at the start of their controller&apos;s next Activation P
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="c814-a7ae-df53-248a" name="Affinity (Stryker)" hidden="false">
           <description>While B2B with Rowdy, Stryker gains +2 DEF against melee attack rolls and cannot be knocked down. While B2B with Stryker, Rowdy does not move when slammed.</description>
@@ -8389,6 +9557,9 @@ models/ units activate at the start of their controller&apos;s next Activation P
           <modifiers/>
         </link>
         <link id="ef44-01a5-a6d4-3df8" targetId="99da-cda5-2e61-fc41" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="139a-8761-2bff-4208" targetId="99c2-cae8-d88f-eeb5" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -8564,7 +9735,20 @@ models/ units activate at the start of their controller&apos;s next Activation P
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="9b4c-514b-f10a-5a11" profileTypeId="54726f6f70657223232344415441232323" name="Leader &amp; Grunts" hidden="false">
@@ -8733,7 +9917,20 @@ models/ units activate at the start of their controller&apos;s next Activation P
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles/>
       <links>
@@ -8779,7 +9976,20 @@ models/ units activate at the start of their controller&apos;s next Activation P
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="2d797763-8035-4f7d-6b58-7a32c8de11d3" name="Animosity [Morrowan]" hidden="false" book="Wrath" page="136">
           <description>This model cannot be included in an army that includes one or more models of the listed type.</description>
@@ -8870,7 +10080,20 @@ models/ units activate at the start of their controller&apos;s next Activation P
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="1c55e139-3e8a-5412-1996-310e0bfc0da4" name="Drive: Hog Wild" hidden="false" book="Vengeance" page="108">
           <description>This model can attempt to Drive each warjack under its control in its command range. To Drive a warjack, thjis model must make a command check at any time during its activation. If it passes, the warjack can make one ranged attack this activation before its normal movement. After its normal movement, the warjack can only make melee attacks that activation. If it fails, the warjack does not benefit from &apos;Jack Marshal this turn.	</description>
@@ -8973,7 +10196,19 @@ models/ units activate at the start of their controller&apos;s next Activation P
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="afba-e50e-d56c-b96e" profileTypeId="54726f6f70657223232344415441232323" name="Leader &amp; Grunts" hidden="false">
@@ -9011,7 +10246,20 @@ models/ units activate at the start of their controller&apos;s next Activation P
     <entry id="262b9ec2-a6b7-a001-0cdb-8538d4380f0d" name="Reinholdt, Gobber Speculator" points="1.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="80">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="4e4f2901-01d8-a670-9cb2-fac978eea8f6" name="Warcaster Benefits" hidden="false">
           <description>While this model is B2B with a friendly warcaster, this model can use one of the following special abilities:
@@ -9123,6 +10371,9 @@ models/ units activate at the start of their controller&apos;s next Activation P
         <link id="3784-86d3-d4e5-f0c3" targetId="8fb5-7ff8-1a1d-7896" linkType="rule">
           <modifiers/>
         </link>
+        <link id="3e64-e12e-b6f2-3f29" targetId="99c2-cae8-d88f-eeb5" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="129e6118-e68b-16dc-c00e-7c2bfcb92605" name="Rhupert  Carvolo, Piper of Ord" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="72">
@@ -9149,7 +10400,20 @@ models/ units activate at the start of their controller&apos;s next Activation P
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="e788074a-0bb8-9959-518b-90b55508d2a4" name="Piper" hidden="false">
           <description>During its activation this model can play one of the following tunes. When it does, choose a friendly unit. The tunes affects this model and will affect the unit if it is currently in this model&apos;s command range.
@@ -9393,7 +10657,20 @@ models/ units activate at the start of their controller&apos;s next Activation P
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="baffd83f-1c90-f258-4a87-5b6899a2413c" profileTypeId="54726f6f70657223232344415441232323" name="Leader &amp; Grunts" hidden="false">
@@ -9548,7 +10825,20 @@ models/ units activate at the start of their controller&apos;s next Activation P
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles/>
       <links>
@@ -9647,7 +10937,20 @@ models/ units activate at the start of their controller&apos;s next Activation P
     <entry id="e885-e9da-a6ed-8813" name="Squire" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="116">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="4bc5-65c1-b242-f424" profileTypeId="54726f6f70657223232344415441232323" name="Squire" hidden="false">
@@ -9736,7 +11039,20 @@ models/ units activate at the start of their controller&apos;s next Activation P
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="c48b90e5-cf84-5dfe-6ea0-8a74f8ac9149" profileTypeId="54726f6f70657223232344415441232323" name="Stannis Brocker" hidden="false">
@@ -9822,7 +11138,20 @@ models/ units activate at the start of their controller&apos;s next Activation P
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="f3707647-d50c-a4dc-46dc-7579ee3d83ba" profileTypeId="54726f6f70657223232344415441232323" name="Leader &amp; Grunts" hidden="false" book="Mercenaries - Forces of Warmachine" page="48">
@@ -9919,7 +11248,20 @@ models/ units activate at the start of their controller&apos;s next Activation P
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="91ca14ba-bf7f-6cdf-556e-3c7cdeb17971" name="Flank [Steelhead Halberdiers]" hidden="false" book="Mercenaries - Forces of Warmachine" page="49">
           <description>When this model makes a melee attack against an enemy model within the mlee range of a friendly model of the type indicated, this model gains +2 to attack rolls and gains an additiional damage die.</description>
@@ -10006,7 +11348,20 @@ models/ units activate at the start of their controller&apos;s next Activation P
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="3717b4e4-fd21-3a32-8cf9-dd0793257cc6" profileTypeId="54726f6f70657223232344415441232323" name="Steelhead Riflemen" hidden="false" book="Mercenaries - Forces of Warmachine" page="50">
@@ -10130,7 +11485,20 @@ models/ units activate at the start of their controller&apos;s next Activation P
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="a115-2288-bf86-a29b" profileTypeId="54726f6f70657223232344415441232323" name="Leader &amp; Grunts" hidden="false">
@@ -10286,7 +11654,19 @@ models/ units activate at the start of their controller&apos;s next Activation P
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="3442-cb93-1d68-caab" profileTypeId="54726f6f70657223232344415441232323" name="Stormblade Captain" hidden="false">
@@ -10645,7 +12025,19 @@ models/ units activate at the start of their controller&apos;s next Activation P
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="206b-c9fd-d51a-5536" profileTypeId="54726f6f70657223232344415441232323" name="Leader &amp; Grunts" hidden="false">
@@ -10782,6 +12174,9 @@ models/ units activate at the start of their controller&apos;s next Activation P
         <link id="5cd2-2f56-40f1-ddc0" targetId="297c-2475-7b21-1838" linkType="rule">
           <modifiers/>
         </link>
+        <link id="02dd-316f-f7ca-356f" targetId="99c2-cae8-d88f-eeb5" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="aab6-eb05-75e7-9a27" name="Stormguard" points="6.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="99">
@@ -10826,7 +12221,20 @@ models/ units activate at the start of their controller&apos;s next Activation P
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="75fa-6285-d2da-ff14" profileTypeId="54726f6f70657223232344415441232323" name="Leader &amp; Grunts" hidden="false">
@@ -10972,7 +12380,20 @@ models/ units activate at the start of their controller&apos;s next Activation P
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles/>
       <links/>
@@ -11005,7 +12426,20 @@ models/ units activate at the start of their controller&apos;s next Activation P
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="611e-ca32-5cdb-1974" name="Stormcall [8]" hidden="false">
           <description>This model can make one of the following stormcalls.  Warjacks affected by a stormcall suffer Disruption.
@@ -11395,7 +12829,20 @@ this model cannot use Activate Lightning Pod.
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="650f-ca30-13ee-f5e0" profileTypeId="54726f6f70657223232344415441232323" name="Leader &amp; Grunts" hidden="false">
@@ -11463,7 +12910,20 @@ this model cannot use Activate Lightning Pod.
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="07136a5b-5425-530a-cee3-ba3794aac858" name="Arcane Secrets (* Action)" hidden="false" book="Wrath" page="135">
           <description>RNG 3. Target this model&apos;s warcaster. If the warcaster is in range, it gains an additional die on magic attack and magic damage rolls for the next spell it casts. Discard the lowest die in each roll. Arcane Secrets lasts for one turn.</description>
@@ -11537,7 +12997,20 @@ this model cannot use Activate Lightning Pod.
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="d6ed5b96-4694-28e3-182b-64335d52952d" name="Magic Ability [7]" hidden="false" book="Vengeance" page="104">
           <description>- Flame Blast (* Attack) - Flame Blast is a RNG 10, AOE 3, POW 13 magic attack that causes fire damage. On a critical hit, models hit suffer the Fire continuous effect.
@@ -11604,7 +13077,20 @@ this model cannot use Activate Lightning Pod.
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="8eb819f8-c0a2-fcf4-dac2-38a79b8cd06c" name="Attack Type" hidden="false">
           <description>Each time this model makes a normal ranged attack, choose one of the following abilities:
@@ -11704,7 +13190,20 @@ this model cannot use Activate Lightning Pod.
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="7337-7fb0-ec65-9e26" name="Attack Type" hidden="false">
           <description>Each time this model makes a normal ranged attack, choose one of the following abilities:
@@ -11792,7 +13291,20 @@ Electro Leap – When a model is hit with this weapon, you can have lightning ar
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="185c2d0c-29ad-ba56-dcdf-41ae18be6c2a" name="Repair[9] (* Action)" hidden="false" book="Mercenaries - Forces of Warmachine" page="120">
           <description>This model can attempt repairs on any damaged friendly Faction warjack. To attempt repairs, this model must be B2B with the damaged warjack and make a skill check. If successful, remove d6 damage points from the warjack&apos;s damage grid.</description>
@@ -11903,7 +13415,20 @@ Electro Leap – When a model is hit with this weapon, you can have lightning ar
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="eb16-f423-48ae-0b52" profileTypeId="5761726a61636b23232344415441232323" name="Thorn" hidden="false">
@@ -11998,7 +13523,20 @@ Electro Leap – When a model is hit with this weapon, you can have lightning ar
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="1ae0-de0a-8743-cdec" profileTypeId="5761726a61636b23232344415441232323" name="Thunderhead" hidden="false">
@@ -12016,6 +13554,9 @@ Electro Leap – When a model is hit with this weapon, you can have lightning ar
       </profiles>
       <links>
         <link id="7d82-2d21-9141-5588" targetId="8fb5-7ff8-1a1d-7896" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2e27-d6f0-250d-6bc8" targetId="99c2-cae8-d88f-eeb5" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -12157,7 +13698,20 @@ Electro Leap – When a model is hit with this weapon, you can have lightning ar
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles/>
       <links>
@@ -12316,7 +13870,20 @@ Electro Leap – When a model is hit with this weapon, you can have lightning ar
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles/>
       <links>
@@ -12488,7 +14055,20 @@ Electro Leap – When a model is hit with this weapon, you can have lightning ar
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="1aee-ba8b-4db2-119e" profileTypeId="54726f6f70657223232344415441232323" name="Leader &amp; Grunts" hidden="false">
@@ -12833,7 +14413,19 @@ Electro Leap – When a model is hit with this weapon, you can have lightning ar
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="9db9-18a7-3536-517d" profileTypeId="54726f6f70657223232344415441232323" name="Leader &amp; Grunts" hidden="false">
@@ -12912,7 +14504,20 @@ Electro Leap – When a model is hit with this weapon, you can have lightning ar
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="1ce5-7458-7a5d-17a4" profileTypeId="54726f6f70657223232344415441232323" name="Master Gunner" hidden="false">
@@ -12999,7 +14604,20 @@ Electro Leap – When a model is hit with this weapon, you can have lightning ar
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="d869-9d95-8af2-fe1c" profileTypeId="5761726a61636b23232344415441232323" name="Triumph" hidden="false">
@@ -13031,16 +14649,7 @@ Electro Leap – When a model is hit with this weapon, you can have lightning ar
             </modifier>
           </modifiers>
         </link>
-      </links>
-    </entry>
-    <entry id="bcc9-848d-c3f6-3709" name="Captain Jonas Murdock" points="0.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="5338-9eb0-d767-ec05" targetId="6d90-a077-eb45-6eb2" linkType="entry">
+        <link id="78e0-9070-135d-5573" targetId="99c2-cae8-d88f-eeb5" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -14270,6 +15879,21 @@ models. The lightning arcs to the nearest model it has not already arced to with
           <modifiers/>
         </profile>
       </profiles>
+      <links/>
+    </entry>
+    <entry id="99c2-cae8-d88f-eeb5" name="Cygnar Heavy Warjack" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-2.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="decrement" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="equal to" value="4.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
       <links/>
     </entry>
     <entry id="266cd4dd-07f0-4483-8d1e-0a5bf1202008" name="Dark Guidance" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Cryx" page="54">
