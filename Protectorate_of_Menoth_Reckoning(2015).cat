@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ccdd1364-6578-716b-2ff9-3947442f0a67" revision="16" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="4" battleScribeVersion="1.15" name="Protectorate of Menoth" authorName="Obiken" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ccdd1364-6578-716b-2ff9-3947442f0a67" revision="17" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="4" battleScribeVersion="1.15" name="Protectorate of Menoth" books="Reckoning" authorName="Obiken" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="5aad16ac-aec7-5983-4a1c-7a1e80cb083b" name="Allegiant of the order of the Fist" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="108">
       <entries/>
@@ -11,6 +11,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -73,6 +74,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -118,13 +120,13 @@
         </profile>
       </profiles>
       <links>
-        <link id="afab8e92-6bc6-1ac2-21ad-dd1e7feb8726" targetId="137b368a-ff78-db3d-2fea-5dec4fc6d250" linkType="rule">
+        <link id="afab8e92-6bc6-1ac2-21ad-dd1e7feb8726" targetId="1f8d5503-7901-355c-93cd-ce8ef5cf66f3" linkType="rule">
           <modifiers/>
         </link>
-        <link id="aec2ca5a-7af8-99a8-2d6a-ef66a7d51dc6" targetId="bbd8a6eb-2793-1454-fc0f-81ef8aaef586" linkType="rule">
+        <link id="aec2ca5a-7af8-99a8-2d6a-ef66a7d51dc6" targetId="052e99e9-4d49-0010-76c1-fdf68b96ed66" linkType="rule">
           <modifiers/>
         </link>
-        <link id="7778ad40-6a1b-26af-a4ea-2282c3299fae" targetId="ab9f1b48-943b-5dd7-7788-039d101d536c" linkType="rule">
+        <link id="7778ad40-6a1b-26af-a4ea-2282c3299fae" targetId="7e1255b7-157e-5025-a1e9-981a9c2e7b16" linkType="rule">
           <modifiers/>
         </link>
         <link id="31a34f30-8c6e-ff83-f7cc-699ebd32ef73" targetId="6cd9f9ff-355b-e565-f514-d52fe54bd3cf" linkType="rule">
@@ -139,13 +141,13 @@
         <link id="9af9-61a4-7424-ce1a" targetId="d53b-5887-97e1-e7ea" linkType="rule">
           <modifiers/>
         </link>
-        <link id="c4a0-a023-95e2-6d6f" targetId="0aa5-0308-5ab4-5bec" linkType="rule">
+        <link id="c4a0-a023-95e2-6d6f" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
           <modifiers/>
         </link>
-        <link id="24cb-443a-772f-18d9" targetId="5c51-0f3e-1de6-ecc1" linkType="rule">
+        <link id="24cb-443a-772f-18d9" targetId="a40a6cef-54cf-810d-c700-0875026d02dc" linkType="rule">
           <modifiers/>
         </link>
-        <link id="de07-62b0-2c8a-12f0" targetId="6c8a-d806-0a4d-4c7d" linkType="rule">
+        <link id="de07-62b0-2c8a-12f0" targetId="adeb487b-f9c2-f579-fd21-98490e39b680" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -160,6 +162,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -210,7 +213,7 @@
         </profile>
       </profiles>
       <links>
-        <link id="acb01cb8-6fd8-acfd-ec10-2a6ea9456203" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
+        <link id="acb01cb8-6fd8-acfd-ec10-2a6ea9456203" targetId="1858-9e43-b25e-7761" linkType="rule">
           <modifiers/>
         </link>
         <link id="90d8891f-125d-91ab-a6d3-7299a7ef64af" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
@@ -219,7 +222,7 @@
         <link id="5da0d393-d2af-2d24-e06a-9c05798a80b5" targetId="052e99e9-4d49-0010-76c1-fdf68b96ed66" linkType="rule">
           <modifiers/>
         </link>
-        <link id="c9fa645c-b898-d75a-5566-60aef19d77de" targetId="e99c4320-7ab1-4678-8245-f6bb01e712e0" linkType="rule">
+        <link id="c9fa645c-b898-d75a-5566-60aef19d77de" targetId="0eed6ee5-1fae-0a81-ab5f-ca9859fd5cc6" linkType="rule">
           <modifiers/>
         </link>
         <link id="aa37683c-4b2c-927f-ae7e-a0e847bd04fd" targetId="4786ddd1-859f-a9f6-b6dc-19077c82fd91" linkType="rule">
@@ -231,7 +234,161 @@
         <link id="0d752f0d-27bc-0e82-5b64-9298cf026195" targetId="0be66501-7a0b-e9bc-f5e7-f72d525f9223" linkType="rule">
           <modifiers/>
         </link>
-        <link id="a622d765-b68e-8992-8304-310592daa8a7" targetId="ad6ef5a7-c76a-7a24-e837-f77a76cc406c" linkType="rule">
+        <link id="a622d765-b68e-8992-8304-310592daa8a7" targetId="d59e0236-1212-2bb9-d33c-6a9fd2cad3c4" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="37a1-ed46-3acd-b849" name="Anson Durst, Rock of the Faith" points="-6.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="7684-a90a-0f2d-c39c" name="Recompense" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="90e3-1e0e-29d0-4b4d" name="Eruption of Ash" hidden="false">
+              <description>If a model is boxed by an attack made with this weapon, center a 3˝ AOE cloud effect on the boxed model and then remove that model from play. The AOE remains in play for one round. Enemy models in the AOE when it was put in play are hit and suffer a POW 12 fire damage roll . Enemy models entering or ending their activation in the AOE suffer a POW 12 fire damage roll. Eruption of Ash damage rolls cannot be boosted.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="ff63-aab2-9b22-1396" profileTypeId="576561706f6e23232344415441232323" name="Recompense" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="7"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="15"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="0da2-755d-fa4f-2419" targetId="b91d002b-8f8e-16b0-46ab-24590db21389" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="d90c-1616-7905-3e5a" targetId="2e8800ea-525d-7fb2-4a8a-80d28e663379" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="c706-a76e-f3f0-b6c7" targetId="fd1409c1-2624-934f-c3ad-769bfc50c337" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="f222-400b-205e-5c1b" name="Defenders of the Wall Tier" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="force type" childId="80f47867-18bc-f115-aef6-23175e280553" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="force type" childId="73c8a0a6-b7f9-960d-1b26-ed832a482554" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="maxSelections" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="force type" childId="80f47867-18bc-f115-aef6-23175e280553" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="force type" childId="73c8a0a6-b7f9-960d-1b26-ed832a482554" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="force type" childId="bf35-faf9-12d5-68a6" field="selections" type="less than" value="2.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="maxSelections" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="force type" childId="80f47867-18bc-f115-aef6-23175e280553" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="force type" childId="73c8a0a6-b7f9-960d-1b26-ed832a482554" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="force type" childId="bf35-faf9-12d5-68a6" field="selections" type="at least" value="2.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <rules>
+            <rule id="ec28-41fa-d65a-4260" name="Defenders of the Wall Tier" hidden="false">
+              <description>Warjacks: Protectorate non-character warjacks
+
+Units: Choirs of Menoth, Paladin units, Temple Flameguard
+
+Solos: Paladin solos, Temple Flameguard solos, Vassal solos</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule id="1a5d-25f1-2ff4-e1a6" name="Feat: Bastion of Faith" hidden="false">
+          <description>While in Durst’s control area, warjacks in Durst’s battlegroup gain +5 ARM.  When a friendly Faction warrior model in Durst’s control area is directly hit by an attack during your opponent’s turn while B2B with a warjack in Durst’s battlegroup, you can choose to have the warjack directly hit instead. The warjack is automatically hit and suffers all damage and effects. Bastion of Faith lasts for one round.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="db42-e39c-5d44-130f" profileTypeId="57617263617374657223232344415441232323" name="Durst" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="8"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="8"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="18"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="10"/>
+            <characteristic characteristicId="466f63757323232344415441232323" name="Focus" value="6"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="19"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="cb33-08da-824d-f4d7" targetId="b190-b855-f7b9-35a9" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4ddc-7302-f8bf-190c" targetId="6b54-c678-f6ad-148d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="adf4-5ff5-6593-a895" targetId="6c34-a521-3ca4-3091" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="4553-85d9-a786-4eb1" targetId="e723-fbef-36c2-1216" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="a204-28d3-f1f4-ef24" targetId="dd09-5ae2-bd1a-68e5" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="3992-0792-2b5a-b15a" targetId="d9d7-6fa5-9d2b-8ce5" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="5f13-28ff-7887-8094" targetId="95ad-e28c-1041-fc85" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -246,6 +403,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -318,7 +476,7 @@
         <link id="531ac549-4290-f377-fa0f-d4b47d32bca9" targetId="0f37354d-35b3-56bc-f761-9232ddb34687" linkType="rule">
           <modifiers/>
         </link>
-        <link id="30c152e6-37b8-ba88-6089-1edf92e69603" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
+        <link id="30c152e6-37b8-ba88-6089-1edf92e69603" targetId="1858-9e43-b25e-7761" linkType="rule">
           <modifiers/>
         </link>
         <link id="c3f9247c-8055-1961-04f3-b3f8d1fa2bc4" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
@@ -336,6 +494,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -388,8 +547,36 @@
         </link>
       </links>
     </entry>
-    <entry id="1643950c-dce5-3e10-8f74-e3877164b884" name="Avatar of Menoth" points="11.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="82">
-      <entries/>
+    <entry id="1643950c-dce5-3e10-8f74-e3877164b884" name="Avatar of Menoth" points="11.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="82">
+      <entries>
+        <entry id="a0a3-cbee-586c-b8c8" name="Divine Shield" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="f5ba-f365-6d25-a39a" profileTypeId="576561706f6e23232344415441232323" name="Divine Shield" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="1"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="13"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="31c7-9817-8bd8-3db9" targetId="b91d002b-8f8e-16b0-46ab-24590db21389" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="a7ac-5434-5163-2bfc" targetId="bf35-faf9-12d5-68a6" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
       <entryGroups/>
       <modifiers>
         <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -398,6 +585,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -409,12 +597,6 @@
           <modifiers/>
         </rule>
         <rule id="38f8a55a-a908-aef3-f273-e037667569ec" name="Menoth&apos;s Gaze" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="82">
-          <modifiers/>
-        </rule>
-        <rule id="6a713cf0-33a9-dc71-1d6b-605384865e7e" name="Divine Shield: Magical Weapon" hidden="false" book="Warmachine Prime mkII" page="0">
-          <modifiers/>
-        </rule>
-        <rule id="4b555c13-f6df-cbeb-7334-8457e34349b4" name="Shield: Shield" hidden="false" book="Warmachine Prime mkII" page="0">
           <modifiers/>
         </rule>
         <rule id="d1796d73-1c3e-942c-d219-a987cda51d5e" name="Burning Wrath: Magical Weapon" hidden="false" book="Warmachine Prime mkII" page="0">
@@ -437,17 +619,6 @@
             <characteristic characteristicId="44454623232344415441232323" name="DEF" value="10"/>
             <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="19"/>
             <characteristic characteristicId="434d4423232344415441232323" name="CMD" value=""/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="6bf9f6f0-5a83-aecd-0c03-d80ab6d123ba" profileTypeId="576561706f6e23232344415441232323" name="Divine Shield" hidden="false" page="0">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="1"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="13"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -475,8 +646,36 @@
         </link>
       </links>
     </entry>
-    <entry id="2409ceb1-220c-d51c-4c5c-1180f23e7809" name="Blessing of Vengeance" points="7.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="74">
-      <entries/>
+    <entry id="2409ceb1-220c-d51c-4c5c-1180f23e7809" name="Blessing of Vengeance" points="7.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="74">
+      <entries>
+        <entry id="b337-f907-8e05-410f" name="Repulsor Shield" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="6259-9a89-8ee8-27ac" profileTypeId="576561706f6e23232344415441232323" name="Repulsor shield" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="1"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="10"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="7c59-0136-0438-ab69" targetId="883adff3-2871-f827-44cd-e5a12477dbf8" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="327d-2182-c80e-00c4" targetId="bf35-faf9-12d5-68a6" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
       <entryGroups/>
       <modifiers>
         <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
@@ -485,6 +684,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -496,12 +696,6 @@
           <modifiers/>
         </rule>
         <rule id="473656cd-81a2-5dfa-69b1-3ed60ea4c09d" name="Halberd: Reach" hidden="false" book="Warmachine Prime mkII" page="0">
-          <modifiers/>
-        </rule>
-        <rule id="98b23fbd-5a49-7362-ea23-a70ba277b7d5" name="Repulsor shield: Repel" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="72">
-          <modifiers/>
-        </rule>
-        <rule id="1142d417-d040-b509-240f-1451860130cd" name="Repulsor shield: Shield" hidden="false" book="Warmachine Prime mkII" page="0">
           <modifiers/>
         </rule>
       </rules>
@@ -529,26 +723,18 @@
           </characteristics>
           <modifiers/>
         </profile>
-        <profile id="e54faf0a-c4ea-d79d-8c06-645c5a4ab4ed" profileTypeId="576561706f6e23232344415441232323" name="Repulsor shield" hidden="false" page="0">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="1"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="10"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
-          </characteristics>
-          <modifiers/>
-        </profile>
       </profiles>
       <links>
         <link id="c3dae6f3-8a00-f1db-2833-fa87d7820f80" targetId="4cc50386-4b6b-fd8e-b3b6-8d44b9354a0d" linkType="rule">
           <modifiers/>
         </link>
-        <link id="f8bdcfad-3b01-7db9-6080-c017dabe825d" targetId="91a378ff-8e86-f012-2ac6-4173b07c55a2" linkType="rule">
+        <link id="f8bdcfad-3b01-7db9-6080-c017dabe825d" targetId="4836e3c0-a23c-7927-1ae5-4724bcf42e11" linkType="rule">
           <modifiers/>
         </link>
         <link id="3309e71c-aebb-8a57-b531-31b221516376" targetId="8e8db4da-0a54-4822-2c2c-048c3441962e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d3d2-0e94-b66c-4769" targetId="c863-0796-6cd6-d734" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -563,6 +749,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -632,6 +819,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -682,13 +870,13 @@
         </profile>
       </profiles>
       <links>
-        <link id="9d5351a4-13b7-42c2-8322-07ad754e82d1" targetId="400b902b-958e-5f17-8920-0df3fad42c49" linkType="rule">
+        <link id="9d5351a4-13b7-42c2-8322-07ad754e82d1" targetId="509c-1a2a-e68d-2660" linkType="rule">
           <modifiers/>
         </link>
-        <link id="df4c397e-7b53-1f87-6e5c-846225bcc55a" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
+        <link id="df4c397e-7b53-1f87-6e5c-846225bcc55a" targetId="1858-9e43-b25e-7761" linkType="rule">
           <modifiers/>
         </link>
-        <link id="9e81bc36-6f33-7e45-92a5-dd7ac8e67b2c" targetId="620138ec-e75c-a8a8-feb9-6b1a5455ef94" linkType="rule">
+        <link id="9e81bc36-6f33-7e45-92a5-dd7ac8e67b2c" targetId="d53b-5887-97e1-e7ea" linkType="rule">
           <modifiers/>
         </link>
         <link id="824281bd-3adf-9338-6761-3f543a267c86" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
@@ -697,7 +885,7 @@
         <link id="e87906ee-7dcb-9103-39a5-e7cff4148a3e" targetId="96d5dd34-f0ed-fb33-631b-9a81327caf31" linkType="rule">
           <modifiers/>
         </link>
-        <link id="ae2a4848-f3fa-bff7-b5a7-7dcd1b451e0f" targetId="2bcee8cd-2274-bda3-b76b-aae0edfa68ca" linkType="rule">
+        <link id="ae2a4848-f3fa-bff7-b5a7-7dcd1b451e0f" targetId="e7e47eff-a54f-c748-2169-447ab696702a" linkType="rule">
           <modifiers/>
         </link>
         <link id="2b4aa711-1913-6a7f-a530-b869cab3afa6" targetId="df472e7f-e01b-9e08-6aa6-c93b45cffe17" linkType="rule">
@@ -715,6 +903,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -769,13 +958,13 @@
         </profile>
       </profiles>
       <links>
-        <link id="b5dbe86a-e51a-8b56-f4fe-1b753a65d980" targetId="400b902b-958e-5f17-8920-0df3fad42c49" linkType="rule">
+        <link id="b5dbe86a-e51a-8b56-f4fe-1b753a65d980" targetId="509c-1a2a-e68d-2660" linkType="rule">
           <modifiers/>
         </link>
-        <link id="039d2e73-89da-5b68-c008-fbdabef879cf" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
+        <link id="039d2e73-89da-5b68-c008-fbdabef879cf" targetId="1858-9e43-b25e-7761" linkType="rule">
           <modifiers/>
         </link>
-        <link id="593f1f87-f597-1079-57f7-1719d6234063" targetId="620138ec-e75c-a8a8-feb9-6b1a5455ef94" linkType="rule">
+        <link id="593f1f87-f597-1079-57f7-1719d6234063" targetId="d53b-5887-97e1-e7ea" linkType="rule">
           <modifiers/>
         </link>
         <link id="4bce5b3a-6eae-319b-a67e-c83a12a21f39" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
@@ -784,7 +973,7 @@
         <link id="c3c90bc6-0b8b-9082-6ab2-e0a90a2c48c9" targetId="1abe39ec-9a1b-3cd1-ea3a-f4623024026f" linkType="rule">
           <modifiers/>
         </link>
-        <link id="8c7a89ae-c324-8a40-a8e4-05058da5427f" targetId="2bcee8cd-2274-bda3-b76b-aae0edfa68ca" linkType="rule">
+        <link id="8c7a89ae-c324-8a40-a8e4-05058da5427f" targetId="e7e47eff-a54f-c748-2169-447ab696702a" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -799,6 +988,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -858,22 +1048,22 @@
         </profile>
       </profiles>
       <links>
-        <link id="e81d2794-80b4-6576-5f69-49fc9b7ea3b0" targetId="400b902b-958e-5f17-8920-0df3fad42c49" linkType="rule">
+        <link id="e81d2794-80b4-6576-5f69-49fc9b7ea3b0" targetId="509c-1a2a-e68d-2660" linkType="rule">
           <modifiers/>
         </link>
         <link id="6be0bf6d-3040-2c21-834e-86ebfc0e0048" targetId="c1d83b7f-298b-b8d9-7938-bdacd7e1fa17" linkType="profile">
           <modifiers/>
         </link>
-        <link id="ad93886f-a9c1-c3f4-34a0-45e0940a5b92" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
+        <link id="ad93886f-a9c1-c3f4-34a0-45e0940a5b92" targetId="1858-9e43-b25e-7761" linkType="rule">
           <modifiers/>
         </link>
-        <link id="b08f2ab3-0c32-3146-c3a4-e81be3d5d5a0" targetId="620138ec-e75c-a8a8-feb9-6b1a5455ef94" linkType="rule">
+        <link id="b08f2ab3-0c32-3146-c3a4-e81be3d5d5a0" targetId="d53b-5887-97e1-e7ea" linkType="rule">
           <modifiers/>
         </link>
         <link id="ce0fce36-8a9b-70d0-0b77-2179d1ec1059" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
           <modifiers/>
         </link>
-        <link id="9353e62b-4666-47c8-efd2-b56246bfb5f2" targetId="2bcee8cd-2274-bda3-b76b-aae0edfa68ca" linkType="rule">
+        <link id="9353e62b-4666-47c8-efd2-b56246bfb5f2" targetId="e7e47eff-a54f-c748-2169-447ab696702a" linkType="rule">
           <modifiers/>
         </link>
         <link id="7daeda93-650e-fd7b-9d9a-68535de20f94" targetId="4caa698b-6e40-6633-2080-4d1d6345cea7" linkType="profile">
@@ -891,7 +1081,7 @@
         <link id="405c4e0d-90d6-1e1d-e091-40067c775af8" targetId="017a4054-c107-8bd1-46cd-949f98c1cc15" linkType="profile">
           <modifiers/>
         </link>
-        <link id="ef4417cc-b6e7-6bbf-8015-0d043418d90b" targetId="a31638c9-9e35-a4b1-9778-f9d030c86c89" linkType="rule">
+        <link id="ef4417cc-b6e7-6bbf-8015-0d043418d90b" targetId="8a07ca1e-891b-48e1-2d3b-d1d3fe42db64" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -906,6 +1096,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -977,13 +1168,13 @@
         </profile>
       </profiles>
       <links>
-        <link id="d19a5201-a645-f07e-4dbb-ec3c58e46d7d" targetId="400b902b-958e-5f17-8920-0df3fad42c49" linkType="rule">
+        <link id="d19a5201-a645-f07e-4dbb-ec3c58e46d7d" targetId="509c-1a2a-e68d-2660" linkType="rule">
           <modifiers/>
         </link>
-        <link id="9b1c7b18-6643-b8a5-f265-b18f2587c99e" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
+        <link id="9b1c7b18-6643-b8a5-f265-b18f2587c99e" targetId="1858-9e43-b25e-7761" linkType="rule">
           <modifiers/>
         </link>
-        <link id="df15eb6a-1d7c-3d2a-ae4d-337f92b687d1" targetId="620138ec-e75c-a8a8-feb9-6b1a5455ef94" linkType="rule">
+        <link id="df15eb6a-1d7c-3d2a-ae4d-337f92b687d1" targetId="d53b-5887-97e1-e7ea" linkType="rule">
           <modifiers/>
         </link>
         <link id="a8eba8e2-fe5f-18fc-41a0-03a2f219eb04" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
@@ -1025,6 +1216,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -1153,7 +1345,7 @@
         </profile>
       </profiles>
       <links>
-        <link id="359d1151-b04e-ab41-58de-13ed3d93f725" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
+        <link id="359d1151-b04e-ab41-58de-13ed3d93f725" targetId="1858-9e43-b25e-7761" linkType="rule">
           <modifiers/>
         </link>
         <link id="0eaba08f-03ab-f7a7-619a-8e7bc500419b" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
@@ -1297,6 +1489,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -1418,10 +1611,10 @@
         </profile>
       </profiles>
       <links>
-        <link id="aecb1347-7cac-1a87-9116-90ab5504c4d7" targetId="400b902b-958e-5f17-8920-0df3fad42c49" linkType="rule">
+        <link id="aecb1347-7cac-1a87-9116-90ab5504c4d7" targetId="509c-1a2a-e68d-2660" linkType="rule">
           <modifiers/>
         </link>
-        <link id="d30fae7b-aa78-9109-ccd8-0c7b72b2e618" targetId="620138ec-e75c-a8a8-feb9-6b1a5455ef94" linkType="rule">
+        <link id="d30fae7b-aa78-9109-ccd8-0c7b72b2e618" targetId="d53b-5887-97e1-e7ea" linkType="rule">
           <modifiers/>
         </link>
         <link id="c2111468-7785-5864-af1a-79c98de5d045" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
@@ -1493,6 +1686,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -1618,10 +1812,10 @@
         </profile>
       </profiles>
       <links>
-        <link id="742ab738-f73b-6362-7004-ec36f400fa81" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
+        <link id="742ab738-f73b-6362-7004-ec36f400fa81" targetId="1858-9e43-b25e-7761" linkType="rule">
           <modifiers/>
         </link>
-        <link id="928ed758-b9f4-f9f4-c479-679362932d00" targetId="620138ec-e75c-a8a8-feb9-6b1a5455ef94" linkType="rule">
+        <link id="928ed758-b9f4-f9f4-c479-679362932d00" targetId="d53b-5887-97e1-e7ea" linkType="rule">
           <modifiers/>
         </link>
         <link id="c5c9ee9e-9ccd-7ca3-96fc-a8999ddceeb8" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
@@ -1642,6 +1836,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -1676,7 +1871,7 @@
         </profile>
       </profiles>
       <links>
-        <link id="53a1e260-92ab-3710-893c-6f8692417028" targetId="39e0a63d-7590-d5c9-1ab2-1190b9d35dc2" linkType="rule">
+        <link id="53a1e260-92ab-3710-893c-6f8692417028" targetId="a25ad4f2-ec5d-7dbd-c929-cd95c4fda530" linkType="rule">
           <modifiers/>
         </link>
         <link id="28e6d69f-075c-ad37-8201-6c2cc8ac3aea" targetId="1f8d5503-7901-355c-93cd-ce8ef5cf66f3" linkType="rule">
@@ -1703,6 +1898,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -1783,6 +1979,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -1876,10 +2073,39 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="a18a-32f5-2d7e-37c5" targetId="c863-0796-6cd6-d734" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="c050aaae-0d3e-8ee6-872e-ffac842354e8" name="Devout" points="5.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="69">
-      <entries/>
+      <entries>
+        <entry id="c4e1-e1fa-836d-018a" name="Great Shield" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="af60-405a-3629-9654" profileTypeId="576561706f6e23232344415441232323" name="Great shield" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="1"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="10"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="c670-ea7b-30fd-17db" targetId="bf35-faf9-12d5-68a6" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
       <entryGroups/>
       <modifiers/>
       <rules>
@@ -1890,9 +2116,6 @@
           <modifiers/>
         </rule>
         <rule id="d53fd8e2-7906-c355-97e7-7ad8a3e9adf3" name="Spell barrier" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="69">
-          <modifiers/>
-        </rule>
-        <rule id="3b24f496-7d2b-09fb-950c-6d7ef07e19a8" name="Great shield: Shield" hidden="false" book="Warmachine Prime mkII" page="0">
           <modifiers/>
         </rule>
         <rule id="2075f2a6-bbd8-6acb-d82e-3ff2888ebecc" name="Pole axe: Reach" hidden="false" book="Warmachine Prime mkII" page="0">
@@ -1912,17 +2135,6 @@
           </characteristics>
           <modifiers/>
         </profile>
-        <profile id="4772b5d8-15ca-8524-e6ed-15d7fceca7d2" profileTypeId="576561706f6e23232344415441232323" name="Great shield" hidden="false" page="0">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="1"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="10"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
-          </characteristics>
-          <modifiers/>
-        </profile>
         <profile id="9aeb1c4d-b38a-8a22-5e15-2643d759eacf" profileTypeId="576561706f6e23232344415441232323" name="Pole axe" hidden="false" page="0">
           <characteristics>
             <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
@@ -1935,7 +2147,11 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="0999-3c2c-27a7-5b35" targetId="c863-0796-6cd6-d734" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="7c9aa71e-7da7-e3cc-81a9-7e773d4f9f21" name="Dirty Meg" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="120">
       <entries/>
@@ -1947,6 +2163,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -2005,10 +2222,10 @@
         </profile>
       </profiles>
       <links>
-        <link id="76a005fd-bbd9-f547-93b7-5c9986010a0d" targetId="620138ec-e75c-a8a8-feb9-6b1a5455ef94" linkType="rule">
+        <link id="76a005fd-bbd9-f547-93b7-5c9986010a0d" targetId="d53b-5887-97e1-e7ea" linkType="rule">
           <modifiers/>
         </link>
-        <link id="fd235315-f87e-851a-4d2c-5b009ff4ec99" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
+        <link id="fd235315-f87e-851a-4d2c-5b009ff4ec99" targetId="1858-9e43-b25e-7761" linkType="rule">
           <modifiers/>
         </link>
         <link id="50524790-9d97-e0a1-3dc9-29b051b84dca" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
@@ -2017,7 +2234,7 @@
         <link id="47d8b72a-4d6f-d80e-8721-bded06854f5a" targetId="d485f991-df61-4cad-0d14-ab2aa75bb361" linkType="rule">
           <modifiers/>
         </link>
-        <link id="0befe4e8-bb8d-92b6-380e-9b5a9b6db6f3" targetId="2bcee8cd-2274-bda3-b76b-aae0edfa68ca" linkType="rule">
+        <link id="0befe4e8-bb8d-92b6-380e-9b5a9b6db6f3" targetId="e7e47eff-a54f-c748-2169-447ab696702a" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -2032,6 +2249,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -2094,19 +2312,19 @@
         </profile>
       </profiles>
       <links>
-        <link id="7571c21d-8662-42b0-2bd4-935d244f44f9" targetId="400b902b-958e-5f17-8920-0df3fad42c49" linkType="rule">
+        <link id="7571c21d-8662-42b0-2bd4-935d244f44f9" targetId="509c-1a2a-e68d-2660" linkType="rule">
           <modifiers/>
         </link>
-        <link id="4cd91bd4-0b4a-b9ba-ecf6-0d2e65f57d1f" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
+        <link id="4cd91bd4-0b4a-b9ba-ecf6-0d2e65f57d1f" targetId="1858-9e43-b25e-7761" linkType="rule">
           <modifiers/>
         </link>
-        <link id="3e7661aa-5a42-450a-4745-eb52fbcc44e2" targetId="620138ec-e75c-a8a8-feb9-6b1a5455ef94" linkType="rule">
+        <link id="3e7661aa-5a42-450a-4745-eb52fbcc44e2" targetId="d53b-5887-97e1-e7ea" linkType="rule">
           <modifiers/>
         </link>
         <link id="372c23bc-d726-1b1e-5004-c214ff24f07c" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
           <modifiers/>
         </link>
-        <link id="075f65e6-22b1-248c-76c8-e0faac89853e" targetId="2bcee8cd-2274-bda3-b76b-aae0edfa68ca" linkType="rule">
+        <link id="075f65e6-22b1-248c-76c8-e0faac89853e" targetId="e7e47eff-a54f-c748-2169-447ab696702a" linkType="rule">
           <modifiers/>
         </link>
         <link id="b4aa329b-5bbe-a88c-5580-bec9d3e164ae" targetId="5d5b3f7c-b8cc-81d1-4076-eabafbc081f0" linkType="rule">
@@ -2124,6 +2342,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -2179,19 +2398,19 @@
         <link id="29aee953-dad9-cd16-710a-caaf825263e9" targetId="2c3367a6-15d3-1576-2d45-163c06f6251a" linkType="profile">
           <modifiers/>
         </link>
-        <link id="807975d3-e67c-b67e-9895-449e00c7164d" targetId="400b902b-958e-5f17-8920-0df3fad42c49" linkType="rule">
+        <link id="807975d3-e67c-b67e-9895-449e00c7164d" targetId="509c-1a2a-e68d-2660" linkType="rule">
           <modifiers/>
         </link>
-        <link id="e8673750-23aa-d139-a5b1-c6a9389ab293" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
+        <link id="e8673750-23aa-d139-a5b1-c6a9389ab293" targetId="1858-9e43-b25e-7761" linkType="rule">
           <modifiers/>
         </link>
         <link id="9065a9b4-4eea-467b-0bb7-6884626caf05" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
           <modifiers/>
         </link>
-        <link id="9e75a2cd-7836-369c-aa15-3a6bef696be7" targetId="620138ec-e75c-a8a8-feb9-6b1a5455ef94" linkType="rule">
+        <link id="9e75a2cd-7836-369c-aa15-3a6bef696be7" targetId="d53b-5887-97e1-e7ea" linkType="rule">
           <modifiers/>
         </link>
-        <link id="33fe75cb-d4f8-ee8e-9e01-a4b99c26551a" targetId="2bcee8cd-2274-bda3-b76b-aae0edfa68ca" linkType="rule">
+        <link id="33fe75cb-d4f8-ee8e-9e01-a4b99c26551a" targetId="e7e47eff-a54f-c748-2169-447ab696702a" linkType="rule">
           <modifiers/>
         </link>
         <link id="0b6d074e-97d1-3bb0-168e-7f61f4573470" targetId="df472e7f-e01b-9e08-6aa6-c93b45cffe17" linkType="rule">
@@ -2220,7 +2439,7 @@
         </link>
       </links>
     </entry>
-    <entry id="7ca902bf-43d4-20b9-5e71-8a1d94237d3f" name="Durgen Madhammer" points="-6.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="138">
+    <entry id="7ca902bf-43d4-20b9-5e71-8a1d94237d3f" name="Durgen Madhammer" points="-6.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="138">
       <entries/>
       <entryGroups/>
       <modifiers>
@@ -2230,6 +2449,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -2309,10 +2529,10 @@
         </profile>
       </profiles>
       <links>
-        <link id="2fdedbcd-1894-3c55-ebe2-2ef48ba54444" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
+        <link id="2fdedbcd-1894-3c55-ebe2-2ef48ba54444" targetId="1858-9e43-b25e-7761" linkType="rule">
           <modifiers/>
         </link>
-        <link id="044521fe-b250-635f-8487-3801937c8e34" targetId="620138ec-e75c-a8a8-feb9-6b1a5455ef94" linkType="rule">
+        <link id="044521fe-b250-635f-8487-3801937c8e34" targetId="d53b-5887-97e1-e7ea" linkType="rule">
           <modifiers/>
         </link>
         <link id="a8680900-9506-15e1-80d2-f4c67c6b3d71" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
@@ -2351,6 +2571,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -2420,10 +2641,10 @@
         </profile>
       </profiles>
       <links>
-        <link id="87cd3e6d-31dc-ae97-615c-bcc1bf306641" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
+        <link id="87cd3e6d-31dc-ae97-615c-bcc1bf306641" targetId="1858-9e43-b25e-7761" linkType="rule">
           <modifiers/>
         </link>
-        <link id="186a1567-2b3c-2459-af72-77fc62d740a0" targetId="620138ec-e75c-a8a8-feb9-6b1a5455ef94" linkType="rule">
+        <link id="186a1567-2b3c-2459-af72-77fc62d740a0" targetId="d53b-5887-97e1-e7ea" linkType="rule">
           <modifiers/>
         </link>
         <link id="64720433-eece-abb2-15fd-23a8c9fa6098" targetId="97f58bb9-027c-4bce-dbfa-9bda08bdf183" linkType="rule">
@@ -2438,7 +2659,7 @@
         <link id="bb731825-6ee3-649f-086c-d8cdf4958838" targetId="052e99e9-4d49-0010-76c1-fdf68b96ed66" linkType="rule">
           <modifiers/>
         </link>
-        <link id="7a3c22c8-578d-ab7f-90e4-019594af0b03" targetId="e99c4320-7ab1-4678-8245-f6bb01e712e0" linkType="rule">
+        <link id="7a3c22c8-578d-ab7f-90e4-019594af0b03" targetId="0eed6ee5-1fae-0a81-ab5f-ca9859fd5cc6" linkType="rule">
           <modifiers/>
         </link>
         <link id="3c3ddfbf-1171-125b-d3da-7b0692ab5648" targetId="7e1255b7-157e-5025-a1e9-981a9c2e7b16" linkType="rule">
@@ -2465,6 +2686,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -2536,10 +2758,10 @@
         </profile>
       </profiles>
       <links>
-        <link id="da6ad549-9291-7437-37a1-1497a3645fab" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
+        <link id="da6ad549-9291-7437-37a1-1497a3645fab" targetId="1858-9e43-b25e-7761" linkType="rule">
           <modifiers/>
         </link>
-        <link id="490576bd-8ae5-d707-70a1-1eb3d68728d0" targetId="620138ec-e75c-a8a8-feb9-6b1a5455ef94" linkType="rule">
+        <link id="490576bd-8ae5-d707-70a1-1eb3d68728d0" targetId="d53b-5887-97e1-e7ea" linkType="rule">
           <modifiers/>
         </link>
         <link id="0d273458-38c7-2a65-75a3-9033236f3efb" targetId="97f58bb9-027c-4bce-dbfa-9bda08bdf183" linkType="rule">
@@ -2554,7 +2776,7 @@
         <link id="ac65cfb0-7822-2bd4-4540-d4858c4cd464" targetId="052e99e9-4d49-0010-76c1-fdf68b96ed66" linkType="rule">
           <modifiers/>
         </link>
-        <link id="a3512be3-77d4-0cbf-e7e5-ce8cdc16d486" targetId="e99c4320-7ab1-4678-8245-f6bb01e712e0" linkType="rule">
+        <link id="a3512be3-77d4-0cbf-e7e5-ce8cdc16d486" targetId="0eed6ee5-1fae-0a81-ab5f-ca9859fd5cc6" linkType="rule">
           <modifiers/>
         </link>
         <link id="a9c5d1e0-84ec-af40-eb70-0e97877b098c" targetId="7e1255b7-157e-5025-a1e9-981a9c2e7b16" linkType="rule">
@@ -2587,6 +2809,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -2658,7 +2881,19 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="2f5f8caa-7fd5-d406-61de-c28197a0b32e" name="Blazing Sword: Flame Burst" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="82">
           <modifiers/>
@@ -2712,6 +2947,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -2761,7 +2997,7 @@
         <link id="0d8b57ae-7b7b-cc24-7b91-795670c5148a" targetId="1f8d5503-7901-355c-93cd-ce8ef5cf66f3" linkType="rule">
           <modifiers/>
         </link>
-        <link id="4172d072-9b1d-95c5-50be-193d23f4fafc" targetId="e9996de4-72ab-0342-8db0-2170100727a1" linkType="rule">
+        <link id="4172d072-9b1d-95c5-50be-193d23f4fafc" targetId="1abe39ec-9a1b-3cd1-ea3a-f4623024026f" linkType="rule">
           <modifiers/>
         </link>
         <link id="e987c483-f60c-4a2e-9706-b42ab91b33d9" targetId="96d5dd34-f0ed-fb33-631b-9a81327caf31" linkType="rule">
@@ -2871,6 +3107,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -2960,6 +3197,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -3061,6 +3299,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -3215,6 +3454,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -3351,7 +3591,7 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="093dbac3-ce1f-1b5e-0a8f-7a2c51fa3dcc" name="Fire of Salvation" points="9.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="84">
+    <entry id="093dbac3-ce1f-1b5e-0a8f-7a2c51fa3dcc" name="Fire of Salvation" points="9.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="84">
       <entries/>
       <entryGroups/>
       <modifiers>
@@ -3361,6 +3601,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -3436,6 +3677,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -3483,13 +3725,13 @@
         </profile>
       </profiles>
       <links>
-        <link id="cae251ff-5033-ceb0-c274-c077e1d6ac50" targetId="400b902b-958e-5f17-8920-0df3fad42c49" linkType="rule">
+        <link id="cae251ff-5033-ceb0-c274-c077e1d6ac50" targetId="509c-1a2a-e68d-2660" linkType="rule">
           <modifiers/>
         </link>
-        <link id="a5ce0b94-47e5-ce97-0cd0-a5a6cc5ea58c" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
+        <link id="a5ce0b94-47e5-ce97-0cd0-a5a6cc5ea58c" targetId="1858-9e43-b25e-7761" linkType="rule">
           <modifiers/>
         </link>
-        <link id="97c169cc-7de7-71ff-5f44-c33c51cf82ae" targetId="620138ec-e75c-a8a8-feb9-6b1a5455ef94" linkType="rule">
+        <link id="97c169cc-7de7-71ff-5f44-c33c51cf82ae" targetId="d53b-5887-97e1-e7ea" linkType="rule">
           <modifiers/>
         </link>
         <link id="6a6d0c95-f322-0525-2a46-545648d8f1ae" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
@@ -3498,7 +3740,7 @@
         <link id="61882dfd-1b7d-5f4b-009f-d65699ca9c6b" targetId="1abe39ec-9a1b-3cd1-ea3a-f4623024026f" linkType="rule">
           <modifiers/>
         </link>
-        <link id="8a54824c-5a1a-c8ec-f707-1bb9d9408219" targetId="2bcee8cd-2274-bda3-b76b-aae0edfa68ca" linkType="rule">
+        <link id="8a54824c-5a1a-c8ec-f707-1bb9d9408219" targetId="e7e47eff-a54f-c748-2169-447ab696702a" linkType="rule">
           <modifiers/>
         </link>
         <link id="b57da019-2f43-f724-8965-6dfdd06cfe23" targetId="e302df5b-0331-d4fa-50d1-f5c890076c02" linkType="rule">
@@ -3591,7 +3833,19 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="ce9a961b-9324-442c-6029-a3071c3cb086" name="Incinerate (Order)" hidden="false" page="0">
           <modifiers/>
@@ -3670,6 +3924,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -3729,7 +3984,7 @@
         </profile>
       </profiles>
       <links>
-        <link id="bf39d271-9c1c-129b-fbc6-89c8d1feb58b" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
+        <link id="bf39d271-9c1c-129b-fbc6-89c8d1feb58b" targetId="1858-9e43-b25e-7761" linkType="rule">
           <modifiers/>
         </link>
         <link id="275a63a3-bb5f-ca18-943c-b81de604520d" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
@@ -3758,7 +4013,7 @@
         </link>
       </links>
     </entry>
-    <entry id="e22c99d1-a132-c91b-8923-acb428c2667f" name="General Ossrum" points="-5.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Colossals" page="122">
+    <entry id="e22c99d1-a132-c91b-8923-acb428c2667f" name="General Ossrum" points="-5.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Colossals" page="122">
       <entries/>
       <entryGroups/>
       <modifiers>
@@ -3768,6 +4023,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -3827,10 +4083,10 @@
         </profile>
       </profiles>
       <links>
-        <link id="5e4c90cf-79b2-48d3-5afb-cdf3deb23079" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
+        <link id="5e4c90cf-79b2-48d3-5afb-cdf3deb23079" targetId="1858-9e43-b25e-7761" linkType="rule">
           <modifiers/>
         </link>
-        <link id="f2b7e3af-275a-4ad4-0e8e-0d6fbc2b7891" targetId="620138ec-e75c-a8a8-feb9-6b1a5455ef94" linkType="rule">
+        <link id="f2b7e3af-275a-4ad4-0e8e-0d6fbc2b7891" targetId="d53b-5887-97e1-e7ea" linkType="rule">
           <modifiers/>
         </link>
         <link id="9a7dc38f-6cce-ac1f-b4a6-05baf24c5b32" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
@@ -3872,6 +4128,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -3936,13 +4193,13 @@
         </profile>
       </profiles>
       <links>
-        <link id="8e05033f-55b4-e933-7eec-4de62b7bcf7d" targetId="400b902b-958e-5f17-8920-0df3fad42c49" linkType="rule">
+        <link id="8e05033f-55b4-e933-7eec-4de62b7bcf7d" targetId="509c-1a2a-e68d-2660" linkType="rule">
           <modifiers/>
         </link>
-        <link id="d81444f8-4a16-e3e2-d592-e8a42e463236" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
+        <link id="d81444f8-4a16-e3e2-d592-e8a42e463236" targetId="1858-9e43-b25e-7761" linkType="rule">
           <modifiers/>
         </link>
-        <link id="86a15cfc-f2a7-ac27-6936-75016720b9b2" targetId="620138ec-e75c-a8a8-feb9-6b1a5455ef94" linkType="rule">
+        <link id="86a15cfc-f2a7-ac27-6936-75016720b9b2" targetId="d53b-5887-97e1-e7ea" linkType="rule">
           <modifiers/>
         </link>
         <link id="1755b55c-ef09-90b9-8233-d9846fec11b6" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
@@ -3951,10 +4208,10 @@
         <link id="66fff025-8513-cd88-ff1a-5b8b489e36c7" targetId="7834cc43-076a-eb30-b774-9bd146307ab6" linkType="rule">
           <modifiers/>
         </link>
-        <link id="5baddc2d-e734-a927-5ca6-d1b6dea2f25b" targetId="b8369371-48fb-3195-4861-cb0c15a94307" linkType="rule">
+        <link id="5baddc2d-e734-a927-5ca6-d1b6dea2f25b" targetId="5a870a67-ec3d-4cc8-536b-df3d8697337d" linkType="rule">
           <modifiers/>
         </link>
-        <link id="100c98a2-ea14-21bf-31af-5970ed11645d" targetId="e99c4320-7ab1-4678-8245-f6bb01e712e0" linkType="rule">
+        <link id="100c98a2-ea14-21bf-31af-5970ed11645d" targetId="0eed6ee5-1fae-0a81-ab5f-ca9859fd5cc6" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -3975,6 +4232,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -4099,6 +4357,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -4286,6 +4545,120 @@
         </link>
       </links>
     </entry>
+    <entry id="d134-16b5-d72a-869b" name="Hand of Judgement" points="10.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="68a2-3318-684d-42d0" name="Immolator Cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="20e3-0154-c96b-1436" profileTypeId="576561706f6e23232344415441232323" name="Immolator Cannon" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="Sp8"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="14"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="7b37-a0ea-7335-a605" targetId="376a12f2-5b6c-a40d-4a10-08b9c5103847" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="142a-73e5-fee5-c5df" targetId="d50f482e-11ab-3628-b838-6458b5e339d2" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="6489-9908-9bdd-3f9d" name="Flame of Truth" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="3f05-a02f-4d0d-7540" profileTypeId="576561706f6e23232344415441232323" name="Flame of Truth" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="7"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="18"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="3d47-2664-33fc-8fef" targetId="4ba519ac-c428-addb-7da4-ad56e6704ea3" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="bfc6-2be5-c8c5-aadd" targetId="2e8800ea-525d-7fb2-4a8a-80d28e663379" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="b1ea-f7a3-be51-5889" targetId="5bab687a-bb26-676f-9760-7f9327f52395" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule id="2446-2151-94f9-c002" name="Affinity [Feora]" hidden="false">
+          <description>While in Feora&apos;s control area, this model gains boosted ranged attack rolls.</description>
+          <modifiers/>
+        </rule>
+        <rule id="b6ab-2a31-7ea9-74e3" name="Special Issue [Feora]" hidden="false">
+          <description>This model can be included in Feora&apos;s theme forces.  It can also be bonded to Feora.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="d07e-f560-8df2-ce38" profileTypeId="5761726a61636b23232344415441232323" name="Hand of Judgement" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="11"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="10"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="19"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="-"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="45f9-a003-4e95-3a86" targetId="e94a-7fcd-7f53-05d6" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="1287-af03-d7ca-4c6c" targetId="5a870a67-ec3d-4cc8-536b-df3d8697337d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="35c9-98e3-6c7c-b921" targetId="47ec-633a-cc17-23f5" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="bf70-7af7-e202-7677" targetId="2075-09d8-c1c6-bd85" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="7dd7336f-8fa5-9cad-c0f5-a331f4fff369" name="Herne &amp; Jonne" points="3.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="150">
       <entries/>
       <entryGroups/>
@@ -4296,6 +4669,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -4389,10 +4763,10 @@
         </profile>
       </profiles>
       <links>
-        <link id="951f9607-7571-9c4f-aa87-5c2236bc3ae0" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
+        <link id="951f9607-7571-9c4f-aa87-5c2236bc3ae0" targetId="1858-9e43-b25e-7761" linkType="rule">
           <modifiers/>
         </link>
-        <link id="7d439b87-b9b1-8354-98d4-ab1bae632c01" targetId="620138ec-e75c-a8a8-feb9-6b1a5455ef94" linkType="rule">
+        <link id="7d439b87-b9b1-8354-98d4-ab1bae632c01" targetId="d53b-5887-97e1-e7ea" linkType="rule">
           <modifiers/>
         </link>
         <link id="8e1b5497-d9a5-431e-65c3-fb056015d91c" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
@@ -4416,6 +4790,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -4560,7 +4935,19 @@
     <entry id="dc203cda-736a-94eb-e5c6-8919012892af" name="Hierophant" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="111">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="e1ff0109-5350-d138-3fda-a4949c00716d" name="Staff: Reach" hidden="false" book="Warmachine Prime mkII" page="0">
           <modifiers/>
@@ -4616,6 +5003,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -4764,7 +5152,19 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="1f3c9a2d-e527-f068-0a4b-0fc544fafd01" name="Terror" hidden="false" book="Warmachine Prime mkII" page="0">
           <modifiers/>
@@ -4893,6 +5293,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -4954,7 +5355,7 @@
         </profile>
       </profiles>
       <links>
-        <link id="ea0a9f66-959b-92d8-986f-05b475c43c51" targetId="e9996de4-72ab-0342-8db0-2170100727a1" linkType="rule">
+        <link id="ea0a9f66-959b-92d8-986f-05b475c43c51" targetId="1abe39ec-9a1b-3cd1-ea3a-f4623024026f" linkType="rule">
           <modifiers/>
         </link>
         <link id="100faf36-c32b-18ec-096c-e8da72046faa" targetId="96d5dd34-f0ed-fb33-631b-9a81327caf31" linkType="rule">
@@ -4980,6 +5381,17 @@
             <condition parentId="roster" childId="aeb0d1b5-6065-86a3-6b44-02aa87049f5b" field="selections" type="equal to" value="1.0"/>
           </conditions>
           <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <rules>
@@ -5143,7 +5555,7 @@
         </profile>
       </profiles>
       <links>
-        <link id="3e654383-d661-356e-6a88-9034f077c638" targetId="e9996de4-72ab-0342-8db0-2170100727a1" linkType="rule">
+        <link id="3e654383-d661-356e-6a88-9034f077c638" targetId="1abe39ec-9a1b-3cd1-ea3a-f4623024026f" linkType="rule">
           <modifiers/>
         </link>
         <link id="173955a3-6a08-6066-ba79-8adfb20a53dc" targetId="96d5dd34-f0ed-fb33-631b-9a81327caf31" linkType="rule">
@@ -5156,6 +5568,9 @@
           <modifiers/>
         </link>
         <link id="ceafabad-bcbc-cfed-4b1c-ecd2e83e4e49" targetId="949bc359-f687-90a4-7b55-75aad2594e6d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="34f5-f9a2-74d5-f03f" targetId="a845-4a6a-0684-f216" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -5218,6 +5633,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -5290,6 +5706,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -5372,7 +5789,7 @@
         </profile>
       </profiles>
       <links>
-        <link id="ea883102-3551-72dc-9600-c94f2fb0fb48" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
+        <link id="ea883102-3551-72dc-9600-c94f2fb0fb48" targetId="1858-9e43-b25e-7761" linkType="rule">
           <modifiers/>
         </link>
         <link id="36807120-5df5-756d-0027-67d862a83458" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
@@ -5399,6 +5816,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -5446,7 +5864,7 @@
         </profile>
       </profiles>
       <links>
-        <link id="d119ae9b-4418-2f12-a839-4399d9022b87" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
+        <link id="d119ae9b-4418-2f12-a839-4399d9022b87" targetId="1858-9e43-b25e-7761" linkType="rule">
           <modifiers/>
         </link>
         <link id="1ecbced0-292f-841c-4f6c-4aec15f0efdc" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
@@ -5567,9 +5985,6 @@
             <link id="44a121c1-3035-6ce7-5154-99c3e54d8e01" targetId="1f8d5503-7901-355c-93cd-ce8ef5cf66f3" linkType="rule">
               <modifiers/>
             </link>
-            <link id="fb0302b6-497d-81b8-8c0c-95ab65947fdb" targetId="321f11c1-dab0-588c-e802-b1d44b1fb0f8" linkType="rule">
-              <modifiers/>
-            </link>
             <link id="652540cf-d4f7-265c-95f3-a354cf73fa18" targetId="052e99e9-4d49-0010-76c1-fdf68b96ed66" linkType="rule">
               <modifiers/>
             </link>
@@ -5587,6 +6002,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -5616,7 +6032,7 @@
         <link id="f0855324-a927-0a32-101e-6f5bc119595b" targetId="052e99e9-4d49-0010-76c1-fdf68b96ed66" linkType="rule">
           <modifiers/>
         </link>
-        <link id="0df4679b-a7da-f171-97a6-441aeccf6829" targetId="321f11c1-dab0-588c-e802-b1d44b1fb0f8" linkType="rule">
+        <link id="0df4679b-a7da-f171-97a6-441aeccf6829" targetId="a72f45ed-6bd7-cb33-4400-49e12b434fee" linkType="rule">
           <modifiers/>
         </link>
         <link id="cba9d4d9-fa0f-b804-5ecf-f94494c0bdf9" targetId="7e1255b7-157e-5025-a1e9-981a9c2e7b16" linkType="rule">
@@ -5648,7 +6064,7 @@
             </profile>
           </profiles>
           <links>
-            <link id="2f4f-b969-b091-0670" targetId="8015d8de-0aeb-36e5-56f3-2ec2ae643391" linkType="rule">
+            <link id="5110-397b-f4ab-fe49" targetId="bf35-faf9-12d5-68a6" linkType="entry">
               <modifiers/>
             </link>
           </links>
@@ -5722,6 +6138,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -5934,6 +6351,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -5984,7 +6402,7 @@
         </profile>
       </profiles>
       <links>
-        <link id="751fe64f-ab85-5966-e1ae-e0d80ffffaa6" targetId="620138ec-e75c-a8a8-feb9-6b1a5455ef94" linkType="rule">
+        <link id="751fe64f-ab85-5966-e1ae-e0d80ffffaa6" targetId="d53b-5887-97e1-e7ea" linkType="rule">
           <modifiers/>
         </link>
         <link id="df2fbe6f-83a4-f689-cd78-130826a20aec" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
@@ -6014,6 +6432,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -6076,6 +6495,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -6120,7 +6540,7 @@
         </profile>
       </profiles>
       <links>
-        <link id="0b6cfddb-a161-0167-b07b-accf1255c7ca" targetId="e9996de4-72ab-0342-8db0-2170100727a1" linkType="rule">
+        <link id="0b6cfddb-a161-0167-b07b-accf1255c7ca" targetId="1abe39ec-9a1b-3cd1-ea3a-f4623024026f" linkType="rule">
           <modifiers/>
         </link>
         <link id="ff915c25-5b6f-5e3a-a239-5e65389fd3f3" targetId="96d5dd34-f0ed-fb33-631b-9a81327caf31" linkType="rule">
@@ -6147,6 +6567,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -6230,10 +6651,10 @@
         </profile>
       </profiles>
       <links>
-        <link id="b8fcf855-ba25-0612-896d-63ed9dd89415" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
+        <link id="b8fcf855-ba25-0612-896d-63ed9dd89415" targetId="1858-9e43-b25e-7761" linkType="rule">
           <modifiers/>
         </link>
-        <link id="4603937d-3484-7e23-852d-cbed85c01fc3" targetId="620138ec-e75c-a8a8-feb9-6b1a5455ef94" linkType="rule">
+        <link id="4603937d-3484-7e23-852d-cbed85c01fc3" targetId="d53b-5887-97e1-e7ea" linkType="rule">
           <modifiers/>
         </link>
         <link id="7ec0d6fe-83f8-ed32-4e35-03759ebb71a2" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
@@ -6254,6 +6675,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -6329,19 +6751,19 @@
         </profile>
       </profiles>
       <links>
-        <link id="13f1b75f-1e8f-afa3-1f41-cafce36f2a0b" targetId="400b902b-958e-5f17-8920-0df3fad42c49" linkType="rule">
+        <link id="13f1b75f-1e8f-afa3-1f41-cafce36f2a0b" targetId="509c-1a2a-e68d-2660" linkType="rule">
           <modifiers/>
         </link>
-        <link id="faf57cf3-58a6-d0e5-ca84-367926651c74" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
+        <link id="faf57cf3-58a6-d0e5-ca84-367926651c74" targetId="1858-9e43-b25e-7761" linkType="rule">
           <modifiers/>
         </link>
-        <link id="93edfcdf-1503-0c4a-e268-0a7128290b32" targetId="620138ec-e75c-a8a8-feb9-6b1a5455ef94" linkType="rule">
+        <link id="93edfcdf-1503-0c4a-e268-0a7128290b32" targetId="d53b-5887-97e1-e7ea" linkType="rule">
           <modifiers/>
         </link>
         <link id="26e763e2-cffc-5182-9c0b-a2189a119196" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
           <modifiers/>
         </link>
-        <link id="97759f3b-abb9-a57f-11c3-886c17f06220" targetId="2bcee8cd-2274-bda3-b76b-aae0edfa68ca" linkType="rule">
+        <link id="97759f3b-abb9-a57f-11c3-886c17f06220" targetId="e7e47eff-a54f-c748-2169-447ab696702a" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -6356,6 +6778,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -6379,13 +6802,13 @@
         </profile>
       </profiles>
       <links>
-        <link id="8725c654-7e36-abe7-490e-5d368213611d" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
+        <link id="8725c654-7e36-abe7-490e-5d368213611d" targetId="1858-9e43-b25e-7761" linkType="rule">
           <modifiers/>
         </link>
-        <link id="7423f284-0758-ded2-2f46-f16690bc5c92" targetId="400b902b-958e-5f17-8920-0df3fad42c49" linkType="rule">
+        <link id="7423f284-0758-ded2-2f46-f16690bc5c92" targetId="509c-1a2a-e68d-2660" linkType="rule">
           <modifiers/>
         </link>
-        <link id="6eed5ed7-bed8-d5ba-3b0e-a7d15f2150fd" targetId="620138ec-e75c-a8a8-feb9-6b1a5455ef94" linkType="rule">
+        <link id="6eed5ed7-bed8-d5ba-3b0e-a7d15f2150fd" targetId="d53b-5887-97e1-e7ea" linkType="rule">
           <modifiers/>
         </link>
         <link id="9ee947db-dd0b-8771-bb34-4c942e4a3a6f" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
@@ -6421,6 +6844,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -6487,10 +6911,10 @@
         <link id="8c6b76b4-3eaf-6189-0d81-b38c6ea76545" targetId="597520f6-e1b9-156a-ae67-4c7adda910ce" linkType="profile">
           <modifiers/>
         </link>
-        <link id="bf14c340-f174-80a4-e37a-bc6561257b93" targetId="400b902b-958e-5f17-8920-0df3fad42c49" linkType="rule">
+        <link id="bf14c340-f174-80a4-e37a-bc6561257b93" targetId="509c-1a2a-e68d-2660" linkType="rule">
           <modifiers/>
         </link>
-        <link id="bf3989f2-7dbd-18dc-13f0-234cb6707830" targetId="620138ec-e75c-a8a8-feb9-6b1a5455ef94" linkType="rule">
+        <link id="bf3989f2-7dbd-18dc-13f0-234cb6707830" targetId="d53b-5887-97e1-e7ea" linkType="rule">
           <modifiers/>
         </link>
         <link id="a5fd74e5-e813-593d-87b9-682b9098ee46" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
@@ -6541,6 +6965,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -6615,10 +7040,10 @@
         <link id="25c5131c-b436-6ee1-e458-fdc3be75cbae" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
           <modifiers/>
         </link>
-        <link id="e4eb35aa-92dd-ab8a-7652-243de1a7534f" targetId="620138ec-e75c-a8a8-feb9-6b1a5455ef94" linkType="rule">
+        <link id="e4eb35aa-92dd-ab8a-7652-243de1a7534f" targetId="d53b-5887-97e1-e7ea" linkType="rule">
           <modifiers/>
         </link>
-        <link id="ea50833d-3390-45e3-cd60-a6ef94212f0d" targetId="400b902b-958e-5f17-8920-0df3fad42c49" linkType="rule">
+        <link id="ea50833d-3390-45e3-cd60-a6ef94212f0d" targetId="509c-1a2a-e68d-2660" linkType="rule">
           <modifiers/>
         </link>
         <link id="aa0c9a34-24c8-256e-d71d-91358f58159f" targetId="b23dca36-046b-cd8f-f956-11921b17faeb" linkType="rule">
@@ -6657,6 +7082,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -6734,13 +7160,13 @@
         </profile>
       </profiles>
       <links>
-        <link id="dde616c2-e858-f19f-e56f-1845ba7d62ad" targetId="400b902b-958e-5f17-8920-0df3fad42c49" linkType="rule">
+        <link id="dde616c2-e858-f19f-e56f-1845ba7d62ad" targetId="509c-1a2a-e68d-2660" linkType="rule">
           <modifiers/>
         </link>
-        <link id="f2784947-7931-0c30-1ff7-35f58ce4c7bb" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
+        <link id="f2784947-7931-0c30-1ff7-35f58ce4c7bb" targetId="1858-9e43-b25e-7761" linkType="rule">
           <modifiers/>
         </link>
-        <link id="7518b852-790d-1a2d-19b7-ca6c26471b70" targetId="620138ec-e75c-a8a8-feb9-6b1a5455ef94" linkType="rule">
+        <link id="7518b852-790d-1a2d-19b7-ca6c26471b70" targetId="d53b-5887-97e1-e7ea" linkType="rule">
           <modifiers/>
         </link>
         <link id="deb668e7-0b66-1ea4-deaf-f7a862713aa6" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
@@ -6749,7 +7175,7 @@
         <link id="7e19cf30-2310-8b6c-3418-4a823f320b86" targetId="1abe39ec-9a1b-3cd1-ea3a-f4623024026f" linkType="rule">
           <modifiers/>
         </link>
-        <link id="b385ee5b-7df2-c8f4-993d-51a525cd69e3" targetId="2bcee8cd-2274-bda3-b76b-aae0edfa68ca" linkType="rule">
+        <link id="b385ee5b-7df2-c8f4-993d-51a525cd69e3" targetId="e7e47eff-a54f-c748-2169-447ab696702a" linkType="rule">
           <modifiers/>
         </link>
         <link id="4b5bef2f-7295-9715-056c-cd6416ae6997" targetId="f4d761fa-11cc-0dbb-8814-13fe337094da" linkType="rule">
@@ -6767,6 +7193,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -6861,6 +7288,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -6906,7 +7334,7 @@
         </profile>
       </profiles>
       <links>
-        <link id="63e87cde-7983-2978-0a4f-23f6b6118ac5" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
+        <link id="63e87cde-7983-2978-0a4f-23f6b6118ac5" targetId="1858-9e43-b25e-7761" linkType="rule">
           <modifiers/>
         </link>
         <link id="77ca6db4-b13b-5d58-bc8b-0f26704ff6cc" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
@@ -6930,6 +7358,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -6983,10 +7412,10 @@
         </profile>
       </profiles>
       <links>
-        <link id="cfd6e834-2d55-1dfd-4a3a-5ee90782e6d7" targetId="400b902b-958e-5f17-8920-0df3fad42c49" linkType="rule">
+        <link id="cfd6e834-2d55-1dfd-4a3a-5ee90782e6d7" targetId="509c-1a2a-e68d-2660" linkType="rule">
           <modifiers/>
         </link>
-        <link id="613396cb-a32c-a27b-8bbd-cb28a3c74645" targetId="620138ec-e75c-a8a8-feb9-6b1a5455ef94" linkType="rule">
+        <link id="613396cb-a32c-a27b-8bbd-cb28a3c74645" targetId="d53b-5887-97e1-e7ea" linkType="rule">
           <modifiers/>
         </link>
         <link id="1e5be3ac-bc9a-8965-5879-a4588202bdcc" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
@@ -7011,6 +7440,12 @@
               <conditionGroups/>
             </conditionGroup>
           </conditionGroups>
+        </modifier>
+        <modifier type="increment" field="maxInForce" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="f544-189f-2523-16f6" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
         </modifier>
       </modifiers>
       <rules>
@@ -7057,6 +7492,9 @@
         <link id="af8f7d94-d17f-7edd-c65d-c36beae6675b" targetId="563da374-da5e-25bc-d427-97194812a43d" linkType="rule">
           <modifiers/>
         </link>
+        <link id="96a7-ae54-265e-4b28" targetId="a845-4a6a-0684-f216" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="a7c18b37-200e-53a1-ec93-8058f816e0be" name="Press Gangers" points="4.0" categoryId="556e697423232344415441232323" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="105">
@@ -7078,6 +7516,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -7177,16 +7616,199 @@
         </profile>
       </profiles>
       <links>
-        <link id="55fea7c2-565b-7915-f59f-810682c7c4dc" targetId="400b902b-958e-5f17-8920-0df3fad42c49" linkType="rule">
+        <link id="55fea7c2-565b-7915-f59f-810682c7c4dc" targetId="509c-1a2a-e68d-2660" linkType="rule">
           <modifiers/>
         </link>
-        <link id="96b6d3b9-c5ac-e0d8-2744-1655d2a23434" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
+        <link id="96b6d3b9-c5ac-e0d8-2744-1655d2a23434" targetId="1858-9e43-b25e-7761" linkType="rule">
           <modifiers/>
         </link>
-        <link id="610f75bb-8f49-2262-aa89-18503778f622" targetId="620138ec-e75c-a8a8-feb9-6b1a5455ef94" linkType="rule">
+        <link id="610f75bb-8f49-2262-aa89-18503778f622" targetId="d53b-5887-97e1-e7ea" linkType="rule">
           <modifiers/>
         </link>
         <link id="3dc36cf8-9fcc-4aa8-6aa9-837d7b7b572d" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="2a03-5dac-57c2-fc46" name="Purifier" points="5.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="4b2b-7619-173e-2d37" name="Immolator" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="b2be-a6f4-a114-fc11" name="Chain Attack: Combustion" hidden="false">
+              <description>If this model hits the same model with both its initial attacks with this weapon, after resolving the attacks it can immediately make one additional melee attack against that model. If the additional attack hits, models within 2˝ of this model suffer a POW 12 fire damage roll and the Fire continuous effect.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="bb8c-87fd-22d9-59ab" profileTypeId="576561706f6e23232344415441232323" name="Immolator" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="13"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L/R"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="6965-9c74-9275-a4bf" targetId="a1d7f3e7-8072-96d7-a1ad-144ec203bb39" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="d47c-4c44-8f42-3a67" profileTypeId="5761726a61636b23232344415441232323" name="Purifier" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="9"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="16"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="-"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="ad07-40d7-15d3-8759" targetId="c863-0796-6cd6-d734" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="32ac-5e77-cc7d-6b1c" targetId="5a870a67-ec3d-4cc8-536b-df3d8697337d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1c30-20b5-dcae-e700" targetId="4cb4-1f30-e19e-bd3a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="68b6-7664-0a32-8ac2" targetId="8a07ca1e-891b-48e1-2d3b-d1d3fe42db64" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="a2e3-7ba4-f32b-a3d8" name="Pyrrhus, Flameguard Hero" points="3.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="ce77-bff1-7b6f-57db" name="Flame Spear" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="4138-fc93-2652-dccd" profileTypeId="576561706f6e23232344415441232323" name="Flame Spear" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="5"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="12"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="93a0-a36b-060e-589d" targetId="2e8800ea-525d-7fb2-4a8a-80d28e663379" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="b804-2c98-4bb7-937d" targetId="45b78ef7-a745-2f54-2372-39f3deba098e" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="29d0-eed1-2e59-c384" targetId="fd1409c1-2624-934f-c3ad-769bfc50c337" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="b210-5563-0ec4-8e76" name="Shield" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="1fa3-d8b7-e1e5-7b9a" profileTypeId="576561706f6e23232344415441232323" name="Shield" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="1"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="8"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="58de-1353-d84e-ca0a" targetId="fd1409c1-2624-934f-c3ad-769bfc50c337" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="c1b7-5ef2-e35c-5e87" targetId="815c41c2-2359-9a1f-23c0-c7e13bb126a7" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule id="099d-9051-3c1e-94eb" name="Leadership [Temple Flameguard]" hidden="false">
+          <description>Friendly Temple Flameguard models activating while in this model&apos;s command range gain Relentless Charge that activation.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="af3a-c07d-38ff-b1b5" profileTypeId="54726f6f70657223232344415441232323" name="Pyrrhus" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="7"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="15"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="15"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="3bf0-d88f-2cee-7fd0" targetId="1abe39ec-9a1b-3cd1-ea3a-f4623024026f" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="44b4-b1b6-95e1-5a12" targetId="96d5dd34-f0ed-fb33-631b-9a81327caf31" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4b8b-78e2-c1cd-2dc7" targetId="e7e47eff-a54f-c748-2169-447ab696702a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="27f9-d8cc-9fed-10a8" targetId="7ad7931b-6028-bf3c-86c8-89cfb2efc093" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9260-a0eb-c009-2028" targetId="d45d-6fc3-80f4-25db" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="055c-0c85-176f-af3b" targetId="5941-b854-277e-58ad" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1a7d-3f75-d876-06d7" targetId="bfc7d9b7-b37f-6c3a-ebe4-e15026e94d2d" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -7267,7 +7889,19 @@
     <entry id="0c7dd883-0782-867a-d396-7899b9fe1114" name="Reclaimer" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="114">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="8be904e9-546e-d2e9-ef8b-80bdd0f2fd60" name="Cinerator: Continuous Effect: Fire" hidden="false" page="0">
           <modifiers/>
@@ -7359,7 +7993,11 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="ee67-3d86-9665-577e" targetId="c863-0796-6cd6-d734" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="41ab0a96-dca2-17ae-fd27-9f702cfdbf35" name="Repenter" points="4.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="71">
       <entries/>
@@ -7409,10 +8047,145 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="5d1b-91df-7d35-9caa" targetId="c863-0796-6cd6-d734" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="a8a1-1054-a11f-2e22" name="Revelator" points="19.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="e081-a032-c790-6588" name="Conflagrator" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="453f-a48a-09dc-3242" name="Burning Earth" hidden="false">
+              <description>On a direct hit against an enemy model, this attack&apos;s AOE remains in play for one round.  Models entering or ending their activation in the AOE suffer a POW 12 Fire damage roll and the Fire continuous effect.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="e044-cbf6-364d-02e8" profileTypeId="576561706f6e23232344415441232323" name="Conflagrator" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="10"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="4"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="15"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L/R"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="37a8-a476-d951-f849" targetId="d50f482e-11ab-3628-b838-6458b5e339d2" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="aa84-d6a6-d82f-7d4d" name="Light Bringer" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="e6eb-d2ad-b3ea-84a2" name="Radiance" hidden="false">
+              <description>A model hit by this weapon loses Camouflage and Stealth for one round.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="d41f-1eec-7f3d-a6f2" profileTypeId="576561706f6e23232344415441232323" name="Light Bringer" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="14"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L/R"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="daa9-e28c-884c-f150" targetId="d50f482e-11ab-3628-b838-6458b5e339d2" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="d7f5-fb7e-3d8e-ef10" name="Fist" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="308c-a508-759a-ee6f" profileTypeId="576561706f6e23232344415441232323" name="Fist" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="20"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L/R"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="c767-8d3f-5e2e-9920" targetId="178c7dc6-f20d-2206-27f9-da9aacd1c20d" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="0e58-af13-7149-7beb" name="Feretory" hidden="false">
+          <description>This model ignores concealment, Camouflage, and Stealth.  Additionally, this model&apos;s weapons gain Magical Weapon.  While its S system is disabled, this model loses the benefits of Feretory.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles/>
+      <links>
+        <link id="87c8-c80c-03ec-86cc" targetId="9fac-4c09-7b8d-4638" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="4b55-8417-a2b2-e43d" targetId="0ee276b5-7c8e-f798-95b7-1f7b1b370ca0" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="f47831e2-4f11-6411-2ad1-414b8a321493" name="Revenger" points="6.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="72">
-      <entries/>
+      <entries>
+        <entry id="13a0-db8c-9763-d252" name="Repulsor Shield" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="6fcc-db5d-ae35-5553" profileTypeId="576561706f6e23232344415441232323" name="Repulsor shield" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="1"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="10"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="b0cc-73aa-4ae8-171f" targetId="bf35-faf9-12d5-68a6" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="2796-6c91-56e3-4a9e" targetId="883adff3-2871-f827-44cd-e5a12477dbf8" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
       <entryGroups/>
       <modifiers/>
       <rules>
@@ -7420,12 +8193,6 @@
           <modifiers/>
         </rule>
         <rule id="199531da-e790-aadd-f4d4-193cb79b03a6" name="Halberd: Reach" hidden="false" book="Warmachine Prime mkII" page="0">
-          <modifiers/>
-        </rule>
-        <rule id="628e03d0-24b6-0a31-f328-8f5a3d8b565d" name="Repulsor shield: Repel" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="72">
-          <modifiers/>
-        </rule>
-        <rule id="ed7288f9-1c89-f9e5-8ee5-92c769822b57" name="Repulsor shield: Shield" hidden="false" book="Warmachine Prime mkII" page="0">
           <modifiers/>
         </rule>
       </rules>
@@ -7453,20 +8220,12 @@
           </characteristics>
           <modifiers/>
         </profile>
-        <profile id="0a390211-5547-72ab-f7ef-d037ecb65be1" profileTypeId="576561706f6e23232344415441232323" name="Repulsor shield" hidden="false" page="0">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="1"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="10"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
-          </characteristics>
-          <modifiers/>
-        </profile>
       </profiles>
       <links>
         <link id="5d5b3f7c-b8cc-4c7f-4076-eabafbc081f0" targetId="4cc50386-4b6b-fd8e-b3b6-8d44b9354a0d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="dc4f-64bb-042d-6eb3" targetId="c863-0796-6cd6-d734" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -7481,6 +8240,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -7526,7 +8286,7 @@
         </profile>
       </profiles>
       <links>
-        <link id="87413b0f-4e35-a66a-61ca-448eab82f23a" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
+        <link id="87413b0f-4e35-a66a-61ca-448eab82f23a" targetId="1858-9e43-b25e-7761" linkType="rule">
           <modifiers/>
         </link>
         <link id="9dfff502-6a55-fcc9-a162-1d93f9e7fa80" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
@@ -7544,6 +8304,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -7668,10 +8429,10 @@
         <link id="b72c5386-f3c9-3594-3684-a964c05f8435" targetId="23322b29-f5eb-3ebf-d45a-568daa3c3247" linkType="profile">
           <modifiers/>
         </link>
-        <link id="9e56df5e-8e56-b211-2787-ddb8114e3320" targetId="1825eb84-75bc-45d1-075a-73923524097d" linkType="rule">
+        <link id="9e56df5e-8e56-b211-2787-ddb8114e3320" targetId="96d5dd34-f0ed-fb33-631b-9a81327caf31" linkType="rule">
           <modifiers/>
         </link>
-        <link id="e27c7cc9-427b-1819-7eda-c6333f7a2a4d" targetId="33d0e5dc-aa1b-8b03-c4e7-fbfef9a4646a" linkType="rule">
+        <link id="e27c7cc9-427b-1819-7eda-c6333f7a2a4d" targetId="e7e47eff-a54f-c748-2169-447ab696702a" linkType="rule">
           <modifiers/>
         </link>
         <link id="30d9a192-1297-ba69-5b81-e2191393bfb3" targetId="e19274cb-2bb9-e63f-fa4c-13dd53981741" linkType="rule">
@@ -7698,16 +8459,16 @@
         <link id="d5919a46-8e30-e671-3a96-ac2f45495216" targetId="d9189e0e-16c9-a6cf-407b-8b84eed92692" linkType="rule">
           <modifiers/>
         </link>
-        <link id="a61b-a99b-82b5-6c7f" targetId="5c51-0f3e-1de6-ecc1" linkType="rule">
+        <link id="a61b-a99b-82b5-6c7f" targetId="a40a6cef-54cf-810d-c700-0875026d02dc" linkType="rule">
           <modifiers/>
         </link>
         <link id="01fb-904a-e088-2b9e" targetId="28f3-34f9-13c8-5a83" linkType="rule">
           <modifiers/>
         </link>
-        <link id="9e81-334a-b1ba-9350" targetId="68bf-ebc8-bcca-92a7" linkType="rule">
+        <link id="9e81-334a-b1ba-9350" targetId="4f6a2f32-eef8-3558-9447-6869aa9809ca" linkType="rule">
           <modifiers/>
         </link>
-        <link id="b0e6-5996-5084-3927" targetId="6c8a-d806-0a4d-4c7d" linkType="rule">
+        <link id="b0e6-5996-5084-3927" targetId="adeb487b-f9c2-f579-fd21-98490e39b680" linkType="rule">
           <modifiers/>
         </link>
         <link id="3841-aacf-c977-33fa" targetId="509c-1a2a-e68d-2660" linkType="rule">
@@ -7719,7 +8480,7 @@
         <link id="a719-39bf-fd8f-f891" targetId="d53b-5887-97e1-e7ea" linkType="rule">
           <modifiers/>
         </link>
-        <link id="7945-833b-68fd-6f65" targetId="0aa5-0308-5ab4-5bec" linkType="rule">
+        <link id="7945-833b-68fd-6f65" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -7797,6 +8558,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -7858,16 +8620,16 @@
         </profile>
       </profiles>
       <links>
-        <link id="0adb2706-c7f8-768b-8616-a7238bbb72c1" targetId="137b368a-ff78-db3d-2fea-5dec4fc6d250" linkType="rule">
+        <link id="0adb2706-c7f8-768b-8616-a7238bbb72c1" targetId="1f8d5503-7901-355c-93cd-ce8ef5cf66f3" linkType="rule">
           <modifiers/>
         </link>
-        <link id="b935c2ca-6d84-da3d-1a09-230d7b935df0" targetId="1825eb84-75bc-45d1-075a-73923524097d" linkType="rule">
+        <link id="b935c2ca-6d84-da3d-1a09-230d7b935df0" targetId="96d5dd34-f0ed-fb33-631b-9a81327caf31" linkType="rule">
           <modifiers/>
         </link>
-        <link id="c5b4d09a-540f-f097-1af7-8e340b2489a7" targetId="bbd8a6eb-2793-1454-fc0f-81ef8aaef586" linkType="rule">
+        <link id="c5b4d09a-540f-f097-1af7-8e340b2489a7" targetId="052e99e9-4d49-0010-76c1-fdf68b96ed66" linkType="rule">
           <modifiers/>
         </link>
-        <link id="ffd46dcb-7867-8072-32d6-c8fabb10cba8" targetId="5df7a975-be60-19ff-331c-41aaaeced0a7" linkType="rule">
+        <link id="ffd46dcb-7867-8072-32d6-c8fabb10cba8" targetId="0eed6ee5-1fae-0a81-ab5f-ca9859fd5cc6" linkType="rule">
           <modifiers/>
         </link>
         <link id="08c4c06a-49ea-09bf-3440-bbd2cc381ce1" targetId="dee240d6-7846-bd77-3e36-b8d0a4f2b6e4" linkType="rule">
@@ -7879,16 +8641,16 @@
         <link id="369d02c7-4d87-8c9d-c0d1-395912dd3429" targetId="d9a68ccc-b7c8-b4e4-d061-73354636fef8" linkType="rule">
           <modifiers/>
         </link>
-        <link id="dcbcdaa2-fc89-9627-22c8-9f3ee3665bc1" targetId="5f770008-d674-b09e-edbb-65dc86f256ff" linkType="rule">
+        <link id="dcbcdaa2-fc89-9627-22c8-9f3ee3665bc1" targetId="ee55069e-290b-48c7-50ce-14a54d18da29" linkType="rule">
           <modifiers/>
         </link>
-        <link id="dbec-b5e7-5c79-1f09" targetId="6c8a-d806-0a4d-4c7d" linkType="rule">
+        <link id="dbec-b5e7-5c79-1f09" targetId="adeb487b-f9c2-f579-fd21-98490e39b680" linkType="rule">
           <modifiers/>
         </link>
-        <link id="a19c-bf42-39d8-20d8" targetId="68bf-ebc8-bcca-92a7" linkType="rule">
+        <link id="a19c-bf42-39d8-20d8" targetId="4f6a2f32-eef8-3558-9447-6869aa9809ca" linkType="rule">
           <modifiers/>
         </link>
-        <link id="245e-0eb1-6a10-9771" targetId="5c51-0f3e-1de6-ecc1" linkType="rule">
+        <link id="245e-0eb1-6a10-9771" targetId="a40a6cef-54cf-810d-c700-0875026d02dc" linkType="rule">
           <modifiers/>
         </link>
         <link id="9171-38c8-2d7f-1eb4" targetId="1858-9e43-b25e-7761" linkType="rule">
@@ -7897,12 +8659,12 @@
         <link id="87cb-f793-21f5-d0f4" targetId="d53b-5887-97e1-e7ea" linkType="rule">
           <modifiers/>
         </link>
-        <link id="1c6d-a919-01b9-5cd7" targetId="0aa5-0308-5ab4-5bec" linkType="rule">
+        <link id="1c6d-a919-01b9-5cd7" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
           <modifiers/>
         </link>
       </links>
     </entry>
-    <entry id="c91a5978-046f-ad69-cb01-1fd9920c39eb" name="Scourge of Heresy" points="9.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wrath" page="52">
+    <entry id="c91a5978-046f-ad69-cb01-1fd9920c39eb" name="Scourge of Heresy" points="9.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wrath" page="52">
       <entries/>
       <entryGroups/>
       <modifiers>
@@ -7912,6 +8674,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -8112,7 +8875,7 @@
             <link id="a4f65177-baca-fc5d-7672-5b193b5c7d7f" targetId="4f0e892d-eb41-f3f4-00f7-06b2f8ea7bac" linkType="rule">
               <modifiers/>
             </link>
-            <link id="2b108f57-adce-a5dc-2cbe-c03c8372140b" targetId="2bcee8cd-2274-bda3-b76b-aae0edfa68ca" linkType="rule">
+            <link id="2b108f57-adce-a5dc-2cbe-c03c8372140b" targetId="e7e47eff-a54f-c748-2169-447ab696702a" linkType="rule">
               <modifiers/>
             </link>
             <link id="4b8850fc-9ff3-d295-aa30-086acd9c6060" targetId="d9bde7b1-fc2e-d6b9-eef3-1a07c166363f" linkType="rule">
@@ -8132,6 +8895,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -8177,13 +8941,13 @@
         </profile>
       </profiles>
       <links>
-        <link id="fbe72c1b-7f0d-4c48-7d7e-410b48816418" targetId="400b902b-958e-5f17-8920-0df3fad42c49" linkType="rule">
+        <link id="fbe72c1b-7f0d-4c48-7d7e-410b48816418" targetId="509c-1a2a-e68d-2660" linkType="rule">
           <modifiers/>
         </link>
-        <link id="924eb68d-8a22-ea4e-a82f-07b280546d17" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
+        <link id="924eb68d-8a22-ea4e-a82f-07b280546d17" targetId="1858-9e43-b25e-7761" linkType="rule">
           <modifiers/>
         </link>
-        <link id="2230d3ae-4cfa-8f93-f59f-ff6b8fa40710" targetId="620138ec-e75c-a8a8-feb9-6b1a5455ef94" linkType="rule">
+        <link id="2230d3ae-4cfa-8f93-f59f-ff6b8fa40710" targetId="d53b-5887-97e1-e7ea" linkType="rule">
           <modifiers/>
         </link>
         <link id="bb590eb1-3706-e76a-ae6f-07832d32e4c7" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
@@ -8207,6 +8971,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -8287,13 +9052,13 @@
         </profile>
       </profiles>
       <links>
-        <link id="6e59e02b-f557-3b2b-da7f-e48c348e6230" targetId="400b902b-958e-5f17-8920-0df3fad42c49" linkType="rule">
+        <link id="6e59e02b-f557-3b2b-da7f-e48c348e6230" targetId="509c-1a2a-e68d-2660" linkType="rule">
           <modifiers/>
         </link>
-        <link id="51ec8be9-077a-09d8-48e7-5042e21d1bc4" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
+        <link id="51ec8be9-077a-09d8-48e7-5042e21d1bc4" targetId="1858-9e43-b25e-7761" linkType="rule">
           <modifiers/>
         </link>
-        <link id="20f9275e-301b-b320-84f1-6752c3a8538f" targetId="620138ec-e75c-a8a8-feb9-6b1a5455ef94" linkType="rule">
+        <link id="20f9275e-301b-b320-84f1-6752c3a8538f" targetId="d53b-5887-97e1-e7ea" linkType="rule">
           <modifiers/>
         </link>
         <link id="976eb750-b670-52d5-9af1-031b596f1e27" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
@@ -8314,6 +9079,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -8372,13 +9138,13 @@
         </profile>
       </profiles>
       <links>
-        <link id="ccdaf54f-fa6c-194a-0afc-15b69a7193d6" targetId="400b902b-958e-5f17-8920-0df3fad42c49" linkType="rule">
+        <link id="ccdaf54f-fa6c-194a-0afc-15b69a7193d6" targetId="509c-1a2a-e68d-2660" linkType="rule">
           <modifiers/>
         </link>
-        <link id="8fa9781d-538a-80a8-4f91-4924baac9422" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
+        <link id="8fa9781d-538a-80a8-4f91-4924baac9422" targetId="1858-9e43-b25e-7761" linkType="rule">
           <modifiers/>
         </link>
-        <link id="239cd717-8888-4113-79ae-c0e24e096c77" targetId="620138ec-e75c-a8a8-feb9-6b1a5455ef94" linkType="rule">
+        <link id="239cd717-8888-4113-79ae-c0e24e096c77" targetId="d53b-5887-97e1-e7ea" linkType="rule">
           <modifiers/>
         </link>
         <link id="8216d80c-16d8-eddd-dc1e-316ac9f9c52b" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
@@ -8417,6 +9183,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -8464,13 +9231,13 @@
         </profile>
       </profiles>
       <links>
-        <link id="2a8543e9-806f-52d5-16b1-d1c9f3a99934" targetId="400b902b-958e-5f17-8920-0df3fad42c49" linkType="rule">
+        <link id="2a8543e9-806f-52d5-16b1-d1c9f3a99934" targetId="509c-1a2a-e68d-2660" linkType="rule">
           <modifiers/>
         </link>
-        <link id="8743b5f3-1492-f3cf-b71b-de4d5edf3f93" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
+        <link id="8743b5f3-1492-f3cf-b71b-de4d5edf3f93" targetId="1858-9e43-b25e-7761" linkType="rule">
           <modifiers/>
         </link>
-        <link id="61017798-e2ac-d268-6d98-a0ff8de83fe8" targetId="620138ec-e75c-a8a8-feb9-6b1a5455ef94" linkType="rule">
+        <link id="61017798-e2ac-d268-6d98-a0ff8de83fe8" targetId="d53b-5887-97e1-e7ea" linkType="rule">
           <modifiers/>
         </link>
         <link id="37e9400f-a575-d6a8-e39a-10b6e9399838" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
@@ -8500,6 +9267,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -8565,16 +9333,16 @@
         <link id="8d60f5ac-96aa-1d96-bb69-93f78fda96b8" targetId="15394bb5-f072-9d85-05c4-0c7367a07c85" linkType="profile">
           <modifiers/>
         </link>
-        <link id="c4d27f66-2a15-088a-2d8f-4c3f18d5543a" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
+        <link id="c4d27f66-2a15-088a-2d8f-4c3f18d5543a" targetId="1858-9e43-b25e-7761" linkType="rule">
           <modifiers/>
         </link>
         <link id="6ea047fc-fcbb-397e-f44d-084231a4a3e3" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
           <modifiers/>
         </link>
-        <link id="1569e133-14c8-e42c-42ac-d7dbd03b9cd6" targetId="620138ec-e75c-a8a8-feb9-6b1a5455ef94" linkType="rule">
+        <link id="1569e133-14c8-e42c-42ac-d7dbd03b9cd6" targetId="d53b-5887-97e1-e7ea" linkType="rule">
           <modifiers/>
         </link>
-        <link id="c00d5386-542c-abc4-ee19-1683cc13a287" targetId="400b902b-958e-5f17-8920-0df3fad42c49" linkType="rule">
+        <link id="c00d5386-542c-abc4-ee19-1683cc13a287" targetId="509c-1a2a-e68d-2660" linkType="rule">
           <modifiers/>
         </link>
         <link id="ba0a78b0-8033-4414-8962-fdb0aea74453" targetId="d77b3fcd-bad8-470f-ccae-6e061d9e1d6b" linkType="rule">
@@ -8601,6 +9369,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -8638,16 +9407,16 @@
         <link id="7b84835a-0a0e-e0a8-80bf-bdb1469d4f24" targetId="809947fe-567b-ecd5-6116-df079d266ca8" linkType="profile">
           <modifiers/>
         </link>
-        <link id="1ff7bfb6-c8ea-53d9-e469-349e439c9009" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
+        <link id="1ff7bfb6-c8ea-53d9-e469-349e439c9009" targetId="1858-9e43-b25e-7761" linkType="rule">
           <modifiers/>
         </link>
         <link id="2fec23d3-4691-b867-7982-ffdb43d145d9" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
           <modifiers/>
         </link>
-        <link id="7e79ca03-cd24-d539-63de-c993faa08035" targetId="620138ec-e75c-a8a8-feb9-6b1a5455ef94" linkType="rule">
+        <link id="7e79ca03-cd24-d539-63de-c993faa08035" targetId="d53b-5887-97e1-e7ea" linkType="rule">
           <modifiers/>
         </link>
-        <link id="8e1c6415-133a-f6a2-a88f-fe1c386d2fb1" targetId="400b902b-958e-5f17-8920-0df3fad42c49" linkType="rule">
+        <link id="8e1c6415-133a-f6a2-a88f-fe1c386d2fb1" targetId="509c-1a2a-e68d-2660" linkType="rule">
           <modifiers/>
         </link>
         <link id="7e947223-5abe-08da-be60-c9664efe5018" targetId="a72f45ed-6bd7-cb33-4400-49e12b434fee" linkType="rule">
@@ -8668,6 +9437,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -8721,7 +9491,7 @@
         </profile>
       </profiles>
       <links>
-        <link id="d2e86632-14dc-c809-91fa-1f65b1576f96" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
+        <link id="d2e86632-14dc-c809-91fa-1f65b1576f96" targetId="1858-9e43-b25e-7761" linkType="rule">
           <modifiers/>
         </link>
         <link id="d5e5810b-4776-c40e-09b4-b970e16634b1" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
@@ -8733,13 +9503,35 @@
       </links>
     </entry>
     <entry id="3c9c947b-f578-278a-b2ca-46a21d220071" name="Templar" points="8.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="80">
-      <entries/>
+      <entries>
+        <entry id="5601-1e77-80a0-64a6" name="Shield" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="829d-1347-0bd2-8e0e" profileTypeId="576561706f6e23232344415441232323" name="Shield" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="1"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="12"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="31e9-e527-baad-43cf" targetId="bf35-faf9-12d5-68a6" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
       <entryGroups/>
       <modifiers/>
       <rules>
-        <rule id="9f1474de-a1dd-5df4-7a68-6f084b8dca40" name="Shield: Shield" hidden="false" book="Warmachine Prime mkII" page="0">
-          <modifiers/>
-        </rule>
         <rule id="91319f5d-50b3-dc8f-7c73-c8b82f322ce4" name="Flail: Reach" hidden="false" book="Warmachine Prime mkII" page="0">
           <modifiers/>
         </rule>
@@ -8760,17 +9552,6 @@
             <characteristic characteristicId="44454623232344415441232323" name="DEF" value="10"/>
             <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="19"/>
             <characteristic characteristicId="434d4423232344415441232323" name="CMD" value=""/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-        <profile id="4191ad17-b8ba-057b-5357-7316c1c2ab24" profileTypeId="576561706f6e23232344415441232323" name="Shield" hidden="false" page="0">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="1"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="12"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -8803,9 +9584,32 @@
           <links/>
         </entry>
         <entry id="3238ac4d-49ae-4c7e-34ed-50cac3e9a54b" name="Temple Flameguard Officer &amp; Standard" points="2.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="105">
-          <entries/>
+          <entries>
+            <entry id="37b4-2328-78b5-f986" name="Free Unit Attachment" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers>
+                <modifier type="increment" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="2.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
           <entryGroups/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="maxInForce" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="force type" childId="37b4-2328-78b5-f986" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <rules>
             <rule id="d0a0205a-e39e-2257-1dec-9f68dbe62ef4" name="Attachment [Temple Flameguard]" hidden="false" page="0">
               <modifiers/>
@@ -8926,7 +9730,7 @@
         </profile>
       </profiles>
       <links>
-        <link id="656a948b-8b10-a5b4-5d54-ef3c41392457" targetId="39e0a63d-7590-d5c9-1ab2-1190b9d35dc2" linkType="rule">
+        <link id="656a948b-8b10-a5b4-5d54-ef3c41392457" targetId="a25ad4f2-ec5d-7dbd-c929-cd95c4fda530" linkType="rule">
           <modifiers/>
         </link>
         <link id="bf65c7b9-1739-eb51-2d45-7f060e6b5210" targetId="f4785eec-22aa-b034-4580-0fe286981c30" linkType="rule">
@@ -8953,6 +9757,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -9071,6 +9876,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -9128,6 +9934,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -9254,6 +10061,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -9369,6 +10177,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -9593,7 +10402,19 @@
     <entry id="801cdc13-adb8-556e-a8ce-2552517fb1fe" name="Vessel of Judgment" points="9.0" categoryId="426174746c6520456e67696e6523232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wrath" page="56">
       <entries/>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="b41ee7dc-a3d8-3882-4192-bba5208befe7" name="Divine Wrath: Magical Weapon" hidden="false" book="Warmachine Prime mkII" page="0">
           <modifiers/>
@@ -9656,6 +10477,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -9785,17 +10607,39 @@
       <links/>
     </entry>
     <entry id="1b3a9a6f-d6cb-c624-a327-fff71f80eace" name="Vigilant" points="4.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="73">
-      <entries/>
+      <entries>
+        <entry id="d4bf-5f51-5e70-6e9e" name="Shield Fist" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="2" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="082e-1852-3d4d-b901" profileTypeId="576561706f6e23232344415441232323" name="Shield Fist" hidden="false" page="0">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="2"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="11"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L/R"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="c7f7-8887-637d-85ac" targetId="178c7dc6-f20d-2206-27f9-da9aacd1c20d" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="8219-fae4-4e92-893b" targetId="bf35-faf9-12d5-68a6" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
       <entryGroups/>
       <modifiers/>
       <rules>
         <rule id="de2193b3-9faf-6c10-828f-7f4a70d98fa9" name="Girded" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="73">
-          <modifiers/>
-        </rule>
-        <rule id="b3333af7-844e-3fc2-0948-3b0ab1c826f9" name="Shield Fiest: Open Fist" hidden="false" book="Warmachine Prime mkII" page="0">
-          <modifiers/>
-        </rule>
-        <rule id="ae3be7fc-b2d9-651a-8f4b-cbc766800295" name="Shield Fist: Shield" hidden="false" book="Warmachine Prime mkII" page="0">
           <modifiers/>
         </rule>
       </rules>
@@ -9812,19 +10656,12 @@
           </characteristics>
           <modifiers/>
         </profile>
-        <profile id="daf35483-1384-40d0-ed13-6ba7496ecba7" profileTypeId="576561706f6e23232344415441232323" name="Shield Fist (x2)" hidden="false" page="0">
-          <characteristics>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-            <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="2"/>
-            <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="11"/>
-            <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
-          </characteristics>
-          <modifiers/>
-        </profile>
       </profiles>
-      <links/>
+      <links>
+        <link id="a2a0-65cf-ef61-fcc7" targetId="c863-0796-6cd6-d734" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="7226a71e-9557-4a30-1c22-30ddb909b9af" name="Visgoth Juviah Rhoven &amp; Honor Guard" points="4.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="106">
       <entries/>
@@ -9836,6 +10673,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -9975,6 +10813,17 @@
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
       <rules>
         <rule id="66bd-66cf-1e5b-0890" name="Judgement of Fire Benefit" hidden="false">
@@ -10027,20 +10876,104 @@
   <rules/>
   <links/>
   <sharedEntries>
-    <entry id="e94a-7fcd-7f53-05d6" name="Protectorate Heavy Warjack" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="6c34-a521-3ca4-3091" name="Boundless Charge" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
-      <rules/>
-      <profiles/>
+      <rules>
+        <rule id="0cdb-f9f0-16ae-7b77" name="Boundless Charge" hidden="false">
+          <description>During its activation, target friendly model can charge without spending focus or being forced and gains +2˝ movement and Pathfinder when it charges. Boundless Charge lasts for one turn.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="97ea-fa13-8227-858f" profileTypeId="5370656c6c23232344415441232323" name="Boundless Charge" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="No"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="No"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links/>
     </entry>
-    <entry id="f544-189f-2523-16f6" name="Protectorate Unit" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="e723-fbef-36c2-1216" name="Cleansing Fire" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
-      <rules/>
-      <profiles/>
+      <rules>
+        <rule id="4cd4-c3bc-936d-77fa" name="Cleansing Fire" hidden="false">
+          <description>Cleansing Fire causes fire damage. On a critical hit, models hit suffer the Fire continuous effect .</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="5856-1ab5-f586-6b9c" profileTypeId="5370656c6c23232344415441232323" name="Cleansing Fire" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="8"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="3"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="14"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="No"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="Yes"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="dd09-5ae2-bd1a-68e5" name="Deflection" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="151e-2183-7d4a-5855" name="Deflection" hidden="false">
+          <description>While in this model’s control area, friendly Faction warrior models gain +2 ARM against ranged and magic attack damage rolls. Deflection lasts for one round.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="dd73-50e7-5165-79bf" profileTypeId="5370656c6c23232344415441232323" name="Deflection" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="Self"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="Ctrl"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="No"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="No"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="d9d7-6fa5-9d2b-8ce5" name="Hallowed Avenger" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="50c2-5a52-700e-7d14" name="Hallowed Avenger" hidden="false">
+          <description>When an enemy attack destroys or removes from play one or more friendly Faction models within 5˝ of target warjack in this model’s battlegroup, after the attack is resolved the affected warjack can charge an enemy model, then Hallowed Avenger expires.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="e4f8-e521-ffd9-3b86" profileTypeId="5370656c6c23232344415441232323" name="Hallowed Avenger" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="Yes"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="No"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
       <links/>
     </entry>
     <entry id="6b11-292e-455d-e264" name="Protectorate Character Unit" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -10054,6 +10987,95 @@
           <modifiers/>
         </link>
       </links>
+    </entry>
+    <entry id="e94a-7fcd-7f53-05d6" name="Protectorate Heavy Warjack" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="06af-399a-9b6c-8316" targetId="9fac-4c09-7b8d-4638" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="c863-0796-6cd6-d734" name="Protectorate Light Warjack" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="9d37-5669-9196-9d1d" targetId="9fac-4c09-7b8d-4638" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="f544-189f-2523-16f6" name="Protectorate Unit" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="9fac-4c09-7b8d-4638" name="Protectorate Warjack" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="bf35-faf9-12d5-68a6" name="Shield Advantage (Warjack)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="4657-b837-e9ef-740f" name="Defenders of the Wall Tier 4 Benefit" hidden="true">
+          <description>Warjacks with the Shield advantage are automatically allocated 1 focus point during your first Control Phase of the game.</description>
+          <modifiers>
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="equal to" value="4.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </rule>
+      </rules>
+      <profiles/>
+      <links>
+        <link id="0abd-cb30-f627-6b69" targetId="8015d8de-0aeb-36e5-56f3-2ec2ae643391" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="95ad-e28c-1041-fc85" name="Wall of Steel" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="9aff-33f6-8d46-688f" name="Wall of Steel" hidden="false">
+          <description>While in this model’s control area and B2B with one or more models in this model&apos;s battlegroup, models in this model’s battlegroup cannot be knocked down and gain +2 DEF.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="a690-b7e7-519e-051b" profileTypeId="5370656c6c23232344415441232323" name="Wall of Steel" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="Self"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="Ctrl"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="Yes"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="No"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
     </entry>
   </sharedEntries>
   <sharedEntryGroups/>
@@ -10075,10 +11097,6 @@
       <modifiers/>
     </rule>
     <rule id="1f8d5503-7901-355c-93cd-ce8ef5cf66f3" name="Advance Deployment" hidden="false" book="Warmachine Prime mkII" page="33">
-      <description>Place this model after normal deployment, up to 6&quot; beyond the established deployment zone.</description>
-      <modifiers/>
-    </rule>
-    <rule id="137b368a-ff78-db3d-2fea-5dec4fc6d250" name="Advance Deployment" hidden="false" book="Hordes Primal MK II" page="33">
       <description>Place this model after normal deployment, up to 6&quot; beyond the established deployment zone.</description>
       <modifiers/>
     </rule>
@@ -10174,6 +11192,10 @@
       <description>Immediately after a normal attack with this weapon is resolved during this model&apos;s combat action, the nemy model hit can be pushed 1&quot; directly away from the attacking model. After the enemy model is pushed, the attacking model can advance up to 1&quot;.</description>
       <modifiers/>
     </rule>
+    <rule id="47ec-633a-cc17-23f5" name="Blazing Wrath" hidden="false">
+      <description>This model can charge without spending focus or being forced if its charge target is suffering the Fire continuous effect.</description>
+      <modifiers/>
+    </rule>
     <rule id="7f26435d-5027-6ae8-a9ba-b02e8714d44b" name="Blessed" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="64">
       <description>When making an attack with this weapon, ignore spell effects that add to a model&apos;s ARM or DEF.</description>
       <modifiers/>
@@ -10207,10 +11229,6 @@
       <modifiers/>
     </rule>
     <rule id="7e1255b7-157e-5025-a1e9-981a9c2e7b16" name="Camouflage" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="102">
-      <description>This model gains an additional +2 DEF when benefiting from concealment or cover.</description>
-      <modifiers/>
-    </rule>
-    <rule id="ab9f1b48-943b-5dd7-7788-039d101d536c" name="Camouflage" hidden="false">
       <description>This model gains an additional +2 DEF when benefiting from concealment or cover.</description>
       <modifiers/>
     </rule>
@@ -10267,16 +11285,8 @@ Damaging a colossal
       <description>When this model misses and attack roll for a combined ranged attack, it can reroll that attack roll. Each attack roll can be rerolled only once as a result of Combined Arms.</description>
       <modifiers/>
     </rule>
-    <rule id="39e0a63d-7590-d5c9-1ab2-1190b9d35dc2" name="Combined Melee Attack" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="89">
-      <description>This model can participate in combined melee attacks with other models in its unit (p. 62).</description>
-      <modifiers/>
-    </rule>
     <rule id="a25ad4f2-ec5d-7dbd-c929-cd95c4fda530" name="Combined Melee Attack" hidden="false" book="Warmachine Prime mkII" page="33">
       <description>This model can participate in combined melee attacks with other models in its unit (p. 62).</description>
-      <modifiers/>
-    </rule>
-    <rule id="321f11c1-dab0-588c-e802-b1d44b1fb0f8" name="Combined Ranged Attack" hidden="false" book="Warmachine Prime mkII" page="0">
-      <description>This model can participate in combined ranged attacks with other models in its unit (p. 62).</description>
       <modifiers/>
     </rule>
     <rule id="a72f45ed-6bd7-cb33-4400-49e12b434fee" name="Combined Ranged Attack" hidden="false" book="Warmachine Prime mkII" page="33">
@@ -10289,10 +11299,6 @@ Damaging a colossal
     </rule>
     <rule id="8d05873b-81d4-8bc9-286d-e02a0ac0dc67" name="Combustion (* Attack)" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="76">
       <description>Models within 2&quot; of this model suffer a POW 12 fire damage roll and the Fire continuous effect. This model can make additional melee attacks after making this special attack.</description>
-      <modifiers/>
-    </rule>
-    <rule id="e9996de4-72ab-0342-8db0-2170100727a1" name="Commander" hidden="false" book="Warmachine Prim" page="0">
-      <description>A friendly Faction model or unit in this model&apos;s command range can replace its current CMD with current CMD of the commander when making command checks (p. 84). Models with the Commander advantage should not be confused with units commanders that lead individual units (p. 71). All warcaster models have this advantage.</description>
       <modifiers/>
     </rule>
     <rule id="1abe39ec-9a1b-3cd1-ea3a-f4623024026f" name="Commander" hidden="false" book="Warmachine Prime mkII" page="33">
@@ -10395,12 +11401,19 @@ Damaging a colossal
       <description>When this model destroys a living enemy model with a melee attack, after the attack is resolved you can add one Grunt to a friendly Holy Zealot unit in this model&apos;s command range. The Grunt must be placed in formation and within 3&apos; of this model. The destroyed model is removed from play but does not provide a soul or corpse token.</description>
       <modifiers/>
     </rule>
+    <rule id="a845-4a6a-0684-f216" name="Defenders of the Wall Tier 3 Benefit" hidden="true">
+      <description>Paladin solos gain Advance Move. (Before the start of the game but after both players have deployed, a model with Advance Move can make a full advance.)</description>
+      <modifiers>
+        <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="force type" childId="f222-400b-205e-5c1b" field="selections" type="at least" value="3.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+    </rule>
     <rule id="4d007e9c-842a-4b8f-56d7-beb6a1b6d903" name="Defensive Line" hidden="false" book="Mercenaries - Forces of Warmachine" page="148">
       <description>While this model is B2B with one or more models in its unit, it gains +2 ARM.</description>
-      <modifiers/>
-    </rule>
-    <rule id="91a378ff-8e86-f012-2ac6-4173b07c55a2" name="Defensive strike" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="69">
-      <description>Once per turn, when an enemy model advances into and ends its movement in this model&apos;s melee range, this model can immediately make one normal melee attack against it.</description>
       <modifiers/>
     </rule>
     <rule id="4836e3c0-a23c-7927-1ae5-4724bcf42e11" name="Defensive Strike" hidden="false" book="Mercenaries - Forces of Warmachine" page="68">
@@ -10491,10 +11504,6 @@ Damaging a colossal
       <description>This model never flees (p. 85). All warcaster models have this advantage.</description>
       <modifiers/>
     </rule>
-    <rule id="1825eb84-75bc-45d1-075a-73923524097d" name="Fearless" hidden="false" book="Hordes Primal MK II" page="33">
-      <description>This model never flees.</description>
-      <modifiers/>
-    </rule>
     <rule id="ec7176be-683f-c244-4ea4-0ce6b83805c6" name="Feign Death" hidden="false" book="Mercenaries - Forces of Warmachine" page="38">
       <description>This model cannot be targeted by ranged or magic attacks while knocked down.</description>
       <modifiers/>
@@ -10507,6 +11516,10 @@ Damaging a colossal
       <description>When this model boxes an enemy model with this weapon, enemy models within 1&quot; of the boxed model suffer the Fire continuous effect.</description>
       <modifiers/>
     </rule>
+    <rule id="4cb4-1f30-e19e-bd3a" name="Flametrail" hidden="false">
+      <description>When this model advances into B2B contact with an enemy model during its activation, the enemy model suffers the Fire continuous effect.</description>
+      <modifiers/>
+    </rule>
     <rule id="d9214b3b-a77a-fc26-a692-a75b12a9136e" name="Flank [X]" hidden="false" book="Mercenaries - Forces of Warmachine" page="84">
       <description>When this model makes a melee attack against an enemy model within the mlee range of a friendly model of the type indicated, this model gains +2 to attack rolls and gains an additiional damage die.</description>
       <modifiers/>
@@ -10517,6 +11530,10 @@ Damaging a colossal
     </rule>
     <rule id="9ac311c9-e74c-7205-e41d-1c7257e09bf9" name="Follow Up" hidden="false" book="Mercenaries - Forces of Warmachine" page="143">
       <description>When this model slams an enemy model, immediately after the slam is resolved this model can advance directly toward the slammed model up to the distance the slammed model was moved.</description>
+      <modifiers/>
+    </rule>
+    <rule id="2075-09d8-c1c6-bd85" name="Fuel for the Flames" hidden="false">
+      <description>When a model suffers a Fire damage roll while within 5&quot; of this model, add +2 to the roll.</description>
       <modifiers/>
     </rule>
     <rule id="d9bde7b1-fc2e-d6b9-eef3-1a07c166363f" name="Gang" hidden="false" book="Mercenaries - Forces of Warmachine" page="105">
@@ -10599,8 +11616,8 @@ Damaging a colossal
       <description>This model does not suffer fire damage and is immune to the Fire continuous effect (p. 68).</description>
       <modifiers/>
     </rule>
-    <rule id="b8369371-48fb-3195-4861-cb0c15a94307" name="Immunity: Fire" hidden="false" book="Warmachine Prime mkII" page="34">
-      <description>This model does not suffer fire damage and is immune to the Fire continuous effect (p. 68).</description>
+    <rule id="d45d-6fc3-80f4-25db" name="Impenetrable Shield" hidden="false">
+      <description>While this model is B2B with one or more friendly Temple Flameguard models, it does not suffer damage from non-magical melee or ranged attacks.</description>
       <modifiers/>
     </rule>
     <rule id="00410348-1210-32f8-1870-28ab0b47979a" name="Imperishable Conviction" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="56">
@@ -10694,16 +11711,8 @@ Damaging a colossal
     <rule id="c3f33ffc-417a-3fcc-6b8f-869aeb5bf81e" name="Mercenary Warjack" hidden="false">
       <modifiers/>
     </rule>
-    <rule id="400b902b-958e-5f17-8920-0df3fad42c49" name="Mercenary: Cryx" hidden="false">
-      <description>This model will work for Cryx.</description>
-      <modifiers/>
-    </rule>
     <rule id="509c-1a2a-e68d-2660" name="Mercenary: Cryx" hidden="false" book="Forces of Hordes - Minions" page="63">
       <description>These models will work for Cryx.</description>
-      <modifiers/>
-    </rule>
-    <rule id="d39899c1-1611-2c72-016f-fe90fec55935" name="Mercenary: Cygnar" hidden="false">
-      <description>This model will work for Cygnar.</description>
       <modifiers/>
     </rule>
     <rule id="1858-9e43-b25e-7761" name="Mercenary: Cygnar" hidden="false">
@@ -10714,19 +11723,11 @@ Damaging a colossal
       <description>This model will work for the Four Star Contract.</description>
       <modifiers/>
     </rule>
-    <rule id="620138ec-e75c-a8a8-feb9-6b1a5455ef94" name="Mercenary: Khador" hidden="false">
-      <description>This model will work for Khador.</description>
-      <modifiers/>
-    </rule>
     <rule id="d53b-5887-97e1-e7ea" name="Mercenary: Khador" hidden="false">
       <description>This model will work for Khador.</description>
       <modifiers/>
     </rule>
     <rule id="e63a96fb-d826-f5fa-7600-3578a5121bef" name="Mercenary: Protectorate" hidden="false">
-      <description>This model will work for Protectorate.</description>
-      <modifiers/>
-    </rule>
-    <rule id="0aa5-0308-5ab4-5bec" name="Mercenary: Protectorate" hidden="false">
       <description>This model will work for Protectorate.</description>
       <modifiers/>
     </rule>
@@ -10746,31 +11747,22 @@ Damaging a colossal
       <description>This model will work for the Blindwater Congregation pact.</description>
       <modifiers/>
     </rule>
-    <rule id="5c51-0f3e-1de6-ecc1" name="Minion: Circle" hidden="false">
+    <rule id="a40a6cef-54cf-810d-c700-0875026d02dc" name="Minion: Circle" hidden="false" book="Mercenaries - Forces of Warmachine">
+      <description>This model will work for Circle.</description>
       <modifiers/>
     </rule>
     <rule id="28f3-34f9-13c8-5a83" name="Minion: Legion" hidden="false">
       <modifiers/>
     </rule>
-    <rule id="68bf-ebc8-bcca-92a7" name="Minion: Skorne" hidden="false">
+    <rule id="4f6a2f32-eef8-3558-9447-6869aa9809ca" name="Minion: Skorne" hidden="false" book="Mercenaries - Forces of Warmachine">
+      <description>This model will work for Skorne.</description>
       <modifiers/>
     </rule>
     <rule id="d3174e76-5878-2866-c40c-c82970d04a35" name="Minion: Thornfall Alliance" hidden="false" book="Vengeance" page="108">
       <description>This model will work for the Thornfall Alliance pact.</description>
       <modifiers/>
     </rule>
-    <rule id="6c8a-d806-0a4d-4c7d" name="Minion: Trollbloods" hidden="false">
-      <modifiers/>
-    </rule>
-    <rule id="a40a6cef-54cf-810d-c700-0875026d02dc" name="Minions: Circle" hidden="false" book="Mercenaries - Forces of Warmachine">
-      <description>This model will work for Circle.</description>
-      <modifiers/>
-    </rule>
-    <rule id="4f6a2f32-eef8-3558-9447-6869aa9809ca" name="Minions: Skorne" hidden="false" book="Mercenaries - Forces of Warmachine">
-      <description>This model will work for Skorne.</description>
-      <modifiers/>
-    </rule>
-    <rule id="adeb487b-f9c2-f579-fd21-98490e39b680" name="Minions: Trollbloods" hidden="false" book="Mercenaries - Forces of Warmachine" page="54">
+    <rule id="adeb487b-f9c2-f579-fd21-98490e39b680" name="Minion: Trollbloods" hidden="false" book="Mercenaries - Forces of Warmachine" page="54">
       <description>This model will work for Trollbloods.</description>
       <modifiers/>
     </rule>
@@ -10802,24 +11794,12 @@ Damaging a colossal
       <description>When this model destroys one or more enemy warrior models with a normal melee attack, after the attack is resolved this model can immediately advance up to 1&quot;.</description>
       <modifiers/>
     </rule>
-    <rule id="a31638c9-9e35-a4b1-9778-f9d030c86c89" name="Overtake" hidden="false" book="Mercenaries - Forces of Warmachine" page="98">
-      <description>When this model destroys one or more enemy warrior models with a normal melee attack, after the attack is resolved this model can immediately advance up to 1&quot;.</description>
-      <modifiers/>
-    </rule>
     <rule id="d59e0236-1212-2bb9-d33c-6a9fd2cad3c4" name="Parry" hidden="false" book="Wrath" page="51">
-      <description>This model cannot be targeted by free strikes.</description>
-      <modifiers/>
-    </rule>
-    <rule id="ad6ef5a7-c76a-7a24-e837-f77a76cc406c" name="Parry" hidden="false" book="Mercenaries - Forces of Warmachine" page="34">
       <description>This model cannot be targeted by free strikes.</description>
       <modifiers/>
     </rule>
     <rule id="052e99e9-4d49-0010-76c1-fdf68b96ed66" name="Pathfinder" hidden="false" book="Warmachine Prime mkII" page="34">
       <description>This model can advance through rough terrain (p. 86) without penalty and can charge and make slam and trample power attacks across obstacles (p. 87).</description>
-      <modifiers/>
-    </rule>
-    <rule id="bbd8a6eb-2793-1454-fc0f-81ef8aaef586" name="Pathfinder" hidden="false" book="Hordes Primal MK ll" page="34">
-      <description>This model can advance through rough terrain without penalty and can charge and make slam and trample power attacks across obstacles.</description>
       <modifiers/>
     </rule>
     <rule id="4dceae0a-5e09-99ec-bc1e-6cb774942a85" name="Perfect Balance" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="42">
@@ -10862,6 +11842,10 @@ Damaging a colossal
       <description>When this model destroys one or more enemy models with a melee attack during its combat action, immediately after that attack is resolved this model can make one normal ranged attack. Attacks gained from Quick Work do not count against a weapon&apos;s ROF.</description>
       <modifiers/>
     </rule>
+    <rule id="b190-b855-f7b9-35a9" name="Rampant Guardian Stance" hidden="false">
+      <description>During its activation, this model can forfeit its movement or action to gain Cornerstone for one round. (A model with Cornerstone cannot be knocked down, placed, pushed, or made stationary, and friendly models B2B with a model with Cornerstone cannot be knocked down, placed, pushed, or made stationary.)</description>
+      <modifiers/>
+    </rule>
     <rule id="3067112a-f37e-632f-0853-241fb4a60c18" name="Range Finder" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="91">
       <description>While B2B with one or more grunts in this unit, this model gains +2 to attack rolls with this weapon.</description>
       <modifiers/>
@@ -10898,6 +11882,10 @@ Damaging a colossal
       <description>When a model in this unit is damaged by an enemy attack, models in this unit gain +2 SPD for one round.</description>
       <modifiers/>
     </rule>
+    <rule id="5941-b854-277e-58ad" name="Relentless Charge" hidden="false">
+      <description>This model gains Pathfinder during activations it charges.</description>
+      <modifiers/>
+    </rule>
     <rule id="b910dd8c-de6c-defb-bb54-8045557fbef3" name="Repair [8] (* Action)" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="115">
       <description>This model can attempt repairs on any damaged friendly Faction warjack. To attempt repairs, this model must be B2B with the damaged warjack and make a skill check. If successful, remove d6 damage points from the warjack&apos;s damage grid.</description>
       <modifiers/>
@@ -10912,6 +11900,10 @@ Damaging a colossal
     </rule>
     <rule id="b9642d86-30f3-08ee-b6eb-39751954d580" name="Restoration" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="112">
       <description>When a living friendly Faction model in this model&apos;s command range is destroyed by an enemy attack, after the attack is resolved this model heals 1 damage point. When this model is disabled, it cannot activate. If this model is disabled at the beginning of your Maintenance Phase, it is destroyed.</description>
+      <modifiers/>
+    </rule>
+    <rule id="6b54-c678-f6ad-148d" name="Retaliatory Strike" hidden="false">
+      <description>When this model is hit by a melee attack made by an enemy model during your opponent’s turn, after the attack is resolved this model can immediately make one normal melee attack against that model. This model can make one Retaliatory Strike per turn.</description>
       <modifiers/>
     </rule>
     <rule id="436ec278-32b6-b1d3-2be5-0a2e80af82ca" name="Retribution Partisan" hidden="false" book="Wrath" page="135">
@@ -11034,14 +12026,6 @@ Damaging a colossal
       <description>Ranged and magic attacks declared against this model when the point of origin of the attack is greater than 5&quot; away automatically miss. This model is not an intervening model (p. 43) when determining line of sight from a model greater than 5&quot; away.</description>
       <modifiers/>
     </rule>
-    <rule id="e99c4320-7ab1-4678-8245-f6bb01e712e0" name="Stealth" hidden="false" book="Warmachine Prime mkII" page="36">
-      <description>Ranged and magic attacks declared against this model when the point of origin of the attack is greater than 5&quot; away automatically miss. This model is not an intervening model (p. 43) when determining line of sight from a model greater than 5&quot; away.</description>
-      <modifiers/>
-    </rule>
-    <rule id="5df7a975-be60-19ff-331c-41aaaeced0a7" name="Stealth" hidden="false" book="Hordes Primal MK II" page="34">
-      <description>Ranged and magic attacks declared against this model when the point of origin of the attack is greater than 5&quot; away automatically miss.</description>
-      <modifiers/>
-    </rule>
     <rule id="f5b6f1f0-a386-5b3a-5615-fa215e79d478" name="Steam Pressure" hidden="false" book="Mercenaries - Forces of Warmachine" page="46">
       <description>This model can forfeit its movement to give this weapon +4 RNG this activation and gain the aiming bonus.</description>
       <modifiers/>
@@ -11078,10 +12062,6 @@ Damaging a colossal
       <description>Models disabled by a melee attack made by this model cannot make a Tough roll. Models boxed by a melee attack made by this model are removed from play.</description>
       <modifiers/>
     </rule>
-    <rule id="5f770008-d674-b09e-edbb-65dc86f256ff" name="Take Down" hidden="false" book="Forces of Hordes - Minions, Domination">
-      <description>Models disabled by a melee attack made by this model cannot make a Tough roll. Models boxed by a melee attack made by this model are removed from play.</description>
-      <modifiers/>
-    </rule>
     <rule id="a1d81d1a-4ecc-53bc-3e7d-83d58b43a1a8" name="Take Up" hidden="false" book="Mercenaries - Forces of Warmachine" page="108">
       <description>If this model is destroyed or removed from play, you can choose a Grunt in this unit within 1&quot; of this model to take its place. Effects on this model expire, and it gains the effects on the chosen Grunt. Remove the Grunt from the tabel instead of this model. This model has the same number of unmarked damage boxes as the chosen Grunt.</description>
       <modifiers/>
@@ -11100,14 +12080,6 @@ Damaging a colossal
     </rule>
     <rule id="e7e47eff-a54f-c748-2169-447ab696702a" name="Tough" hidden="false" book="Warmachine Prime mkII" page="34">
       <description>When this model is disabled, roll a d6. On a 5 or 6, this model heals 1 damage point, is no longer disabled, and is knocked down.</description>
-      <modifiers/>
-    </rule>
-    <rule id="2bcee8cd-2274-bda3-b76b-aae0edfa68ca" name="Tough" hidden="false" book="Warmachine Prime mkII" page="34">
-      <description>When this model is disabled, roll a d6. On a 5 or 6, this model heals 1 damage point, is no longer disabled, and is knocked down.</description>
-      <modifiers/>
-    </rule>
-    <rule id="33d0e5dc-aa1b-8b03-c4e7-fbfef9a4646a" name="Tough" hidden="false" book="Hordes Primal MK II" page="34">
-      <description> When this model is disabled, roll a d6. On a 5 or 6, this model heals 1 damage point, is no longer disabled and is knocked down.</description>
       <modifiers/>
     </rule>
     <rule id="987eb0e3-9cd1-6f29-0206-5efb57bb3b86" name="Trash" hidden="false" book="Mercenaries - Forces of Warmachine" page="60">

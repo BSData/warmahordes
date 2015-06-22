@@ -1,6 +1,138 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3f7c-e510-2a70-e7ab" revision="7" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="4" battleScribeVersion="1.15" name="Cygnar" books="Forces of Warmachine - Cygnar, Wrath, Colossals, Vengeance" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="3f7c-e510-2a70-e7ab" revision="8" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="4" battleScribeVersion="1.15" name="Cygnar" books="Forces of Warmachine - Cygnar, Wrath, Colossals, Vengeance, Reckoning" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
+    <entry id="bba1-fa18-ce1b-02d1" name="Ace" points="7.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Warmachine: Reckoning" page="30">
+      <entries>
+        <entry id="9251-1607-f583-1000" name="Rune Shot Cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="5af5-2016-c696-25f5" profileTypeId="576561706f6e23232344415441232323" name="Rune Shot Cannon" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="14"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="1bec-fa79-a1b1-a7ce" targetId="e0f48764-b12b-acca-bb70-726be718b29d" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="5ada-5d78-5cb2-d360" name="Battle Axe" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="88b8-f2b2-e9bd-c1cd" profileTypeId="576561706f6e23232344415441232323" name="Battle Axe" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="11"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="1f1f-58b0-db04-9585" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="e667-afe8-8815-6a72" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="301e-7876-3867-913f" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="fe94-c30d-8fe8-2052" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="ecdd-a6de-03e6-17a3" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="6426-1503-a24b-bb30" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="ff41-da35-42c7-40a6" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="96e7-e68a-89e2-fd0e" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f951-b8a4-18bc-980a" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="9b4c-9d5f-43ed-4277" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="e84a-2fff-d33d-bb9a" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="7deb-ec0f-4994-c961" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule id="cd07-c562-8c98-d3c4" name="Affinity [Caine]" hidden="false">
+          <description>When Ace makes a normal Rune Shot Cannon attack while it is in Caine’s control
+area, choose one of the following Rune Shot abilities:
+
+  Shadow Fire – The model hit does not block LOS this turn.
+
+  Thunderbolt – Enemy models hit are pushed d3˝ directly away from the attacking model. On a critical hit, the enemy model is knocked down after being pushed.
+
+  Trick Shot – If this attack directly hits, choose a model within 4˝ of the model hit. The chosen model suffers an unboostable POW 10 magic damage roll. The point of origin for this damage is the model hit.</description>
+          <modifiers/>
+        </rule>
+        <rule id="d8b8-5f4b-8f00-320a" name="Special Issue [Caine]" hidden="false">
+          <description>This model can be included in Caine&apos;s theme forces.  It can also be bonded to Caine.</description>
+          <modifiers/>
+        </rule>
+        <rule id="eeb0-dd5b-fe06-b0e5" name="Infiltrate" hidden="false">
+          <description>Once per game during its activation, this model can use Infiltrate. This model gains
+Stealth . While its controlling warcaster is B2B with this model, that warcaster also gains Stealth.  Infiltrate lasts for one round.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="8dfb-1491-6931-cabd" profileTypeId="5761726a61636b23232344415441232323" name="Ace" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="7"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="7"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="14"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="15"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="-"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="1cbd-7c93-f63d-286a" targetId="ec8b-97e1-3e18-daf0" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="fd6f-4994-1f8d-b508" targetId="1f8d5503-7901-355c-93cd-ce8ef5cf66f3" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a32f-01fd-7da7-d300" targetId="052e99e9-4d49-0010-76c1-fdf68b96ed66" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="5563-6a44-aea5-71a4" targetId="eaccf3c8-c718-4507-9cfc-e764936b3452" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d9c7-99cd-b50a-6cd8" targetId="ac48-8797-f8c3-cb34" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="8058c02e-db92-21aa-3d1d-a2e86070623a" name="Alexia Ciannor, The Risen, &amp; Thrall Warrior" points="5.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="51">
       <entries>
         <entry id="998c-7596-03cf-ab51" name="Alexia" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -200,6 +332,7 @@
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -269,6 +402,7 @@
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -417,6 +551,7 @@
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -649,6 +784,7 @@
                 <condition parentId="force type" childId="e84a-2fff-d33d-bb9a" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="7deb-ec0f-4994-c961" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -776,6 +912,7 @@
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -1090,6 +1227,7 @@ Battle Engines: Storm Strider</description>
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -1169,6 +1307,7 @@ Battle Engines: Storm Strider</description>
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -1522,6 +1661,7 @@ Snipe -This attack gains +4 RNG.</description>
                 <condition parentId="force type" childId="e84a-2fff-d33d-bb9a" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="7deb-ec0f-4994-c961" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -1604,6 +1744,7 @@ Snipe -This attack gains +4 RNG.</description>
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -1732,6 +1873,7 @@ Snipe -This attack gains +4 RNG.</description>
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -1989,6 +2131,7 @@ Solos: Non-character Trencher solos</description>
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -2133,6 +2276,7 @@ Solos: Non-character Trencher solos</description>
                 <condition parentId="force type" childId="e84a-2fff-d33d-bb9a" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="7deb-ec0f-4994-c961" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -2253,6 +2397,7 @@ Power Booster (*Action) - RNG 5. Target friendly Faction warjack. If the target 
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -2404,6 +2549,7 @@ Power Booster (*Action) - RNG 5. Target friendly Faction warjack. If the target 
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -2771,6 +2917,7 @@ Solos: Squire, Stormblade solos, Stormsmith solos</description>
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -2952,6 +3099,7 @@ Solos: Gun Mage Captain Adept, Cygnar Light Cavalry solos, Ranger solos</descrip
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -3042,6 +3190,7 @@ Solos: Gun Mage Captain Adept, Cygnar Light Cavalry solos, Ranger solos</descrip
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -3210,6 +3359,7 @@ Solos: Journeyman Warcaster</description>
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -3617,6 +3767,7 @@ Solos: Journeyman Warcaster</description>
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -3780,6 +3931,8 @@ Solos: Gun Mage Captain Adept, Journeyman Warcaster</description>
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -3791,6 +3944,7 @@ Solos: Gun Mage Captain Adept, Journeyman Warcaster</description>
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="roster" childId="e4dd-fef6-4423-8448" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="4fdc-52f8-19ec-a69f" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -4201,6 +4355,7 @@ Solos: Journeyman Warcaster, Squire, Storm Knight solos, Stormsmith solos</descr
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -4453,6 +4608,7 @@ Solos: Journeyman Warcaster, Stormblade solos</description>
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -4628,6 +4784,7 @@ Battle Engines: Storm Strider</description>
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -4763,6 +4920,7 @@ Solos: Journeyman Warcaster, Archduke Alain Runewood, Morrowan solos</descriptio
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -5122,6 +5280,7 @@ Solos: Journeyman Warcaster, Archduke Alain Runewood, Morrowan solos</descriptio
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -5347,6 +5506,7 @@ Solos: Journeyman Warcaster, Archduke Alain Runewood, Morrowan solos</descriptio
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -5532,6 +5692,7 @@ Solos: Journeyman Warcaster, Archduke Alain Runewood, Morrowan solos</descriptio
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -5658,6 +5819,7 @@ Solos: Journeyman Warcaster, Archduke Alain Runewood, Morrowan solos</descriptio
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -5770,6 +5932,7 @@ Solos: Journeyman Warcaster, Archduke Alain Runewood, Morrowan solos</descriptio
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -5938,6 +6101,7 @@ Solos: Journeyman Warcaster, Archduke Alain Runewood, Morrowan solos</descriptio
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -6003,6 +6167,138 @@ Solos: Journeyman Warcaster, Archduke Alain Runewood, Morrowan solos</descriptio
         </link>
       </links>
     </entry>
+    <entry id="ebaa-f1f4-ccc6-461f" name="Dynamo" points="10.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Warmachine: Reckoning" page="28">
+      <entries>
+        <entry id="531b-0127-8d1b-469c" name="Firestorm Cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="4bdc-6a70-6716-9dca" name="Multi-Fire (* Attack)" hidden="false">
+              <description>Make an attack with this weapon. On a hit, after resolving the attack this model can immediately make one additional attack with this weapon targeting the last model hit or another model within 2˝ of the last model hit, ignoring ROF. This model can make up to four attacks during its activation as a result of Multi-Fire.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="21cc-f845-278b-65f0" profileTypeId="576561706f6e23232344415441232323" name="Firestorm Cannon" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="10"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="3d17-8388-2c7a-0144" targetId="4754-3d01-f42a-e287" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="7249-a520-55eb-7e5b" name="Battle Spear" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="1981-73a3-e10c-fbf5" profileTypeId="576561706f6e23232344415441232323" name="Battle Spear" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="5"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="16"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="2267-a52b-2224-0a26" targetId="c950cf4c-33a0-1369-1946-ff2bb9ca7528" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="d806-96ac-128b-52ee" targetId="5258690f-6843-cf78-d51e-1c0a2d7224e8" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="e2a4-19df-7168-517b" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="6689-7dd2-553e-20b1" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="301e-7876-3867-913f" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="fe94-c30d-8fe8-2052" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="ecdd-a6de-03e6-17a3" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="ff41-da35-42c7-40a6" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="96e7-e68a-89e2-fd0e" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="d27a-0988-65cc-8d71" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="e84a-2fff-d33d-bb9a" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="7deb-ec0f-4994-c961" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="9b4c-9d5f-43ed-4277" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="e667-afe8-8815-6a72" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule id="e570-3f09-7d12-63b8" name="Affinity [Nemo]" hidden="false">
+          <description>While in Nemo’s control area, Dynamo can reroll missed attack rolls from weapons
+with Damage Type: Electricity. Attack rolls can be rerolled only once as a result of this affinity.</description>
+          <modifiers/>
+        </rule>
+        <rule id="c6fb-8f30-104b-82e9" name="Special Issue [Nemo]" hidden="false">
+          <description>This model can be included in Nemo&apos;s theme forces.  It can also be bonded to Nemo.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="0293-2d3b-e3ad-f855" profileTypeId="5761726a61636b23232344415441232323" name="Dynamo" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="11"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="6"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="12"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="18"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="-"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="4c95-7492-3931-5d8f" targetId="99c2-cae8-d88f-eeb5" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="3cc0-b2c3-08cd-1a3d" targetId="8fb5-7ff8-1a1d-7896" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c40b-b240-5977-9e1c" targetId="a86d-1e1c-8f7e-4de5" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8146-1412-be77-92bc" targetId="80f0-30d1-d082-2aed" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3f42-2e73-d88d-bb2c" targetId="ac48-8797-f8c3-cb34" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="621aea60-66da-90ff-ddcb-8124eb376f66" name="Eiryss, Angel of Retribution" points="3.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="76">
       <entries/>
       <entryGroups/>
@@ -6032,6 +6328,7 @@ Solos: Journeyman Warcaster, Archduke Alain Runewood, Morrowan solos</descriptio
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -6165,6 +6462,7 @@ Solos: Journeyman Warcaster, Archduke Alain Runewood, Morrowan solos</descriptio
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -6505,6 +6803,7 @@ Solos: Journeyman Warcaster, Archduke Alain Runewood, Morrowan solos</descriptio
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -6740,6 +7039,7 @@ Solos: Journeyman Warcaster, Archduke Alain Runewood, Morrowan solos</descriptio
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -6881,6 +7181,7 @@ Solos: Journeyman Warcaster, Archduke Alain Runewood, Morrowan solos</descriptio
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -7216,6 +7517,7 @@ Solos: Journeyman Warcaster, Squire, Stormsmith solos</description>
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -7364,6 +7666,7 @@ Solos: Journeyman Warcaster, Squire, Stormsmith solos</description>
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -7498,6 +7801,7 @@ Solos: Journeyman Warcaster, Squire, Stormsmith solos</description>
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -7665,6 +7969,7 @@ Solos: Journeyman Warcaster, Squire, Stormsmith solos</description>
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -8005,6 +8310,7 @@ Solos: Journeyman Warcaster, Squire, Stormsmith solos</description>
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -8111,6 +8417,7 @@ Solos: Journeyman Warcaster, Squire, Stormsmith solos</description>
                 <condition parentId="force type" childId="7deb-ec0f-4994-c961" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -8332,6 +8639,7 @@ Snipe - This attack gains +4 RNG.</description>
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -8546,6 +8854,7 @@ Snipe - This attack gains +4 RNG.</description>
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -8764,6 +9073,7 @@ Snipe - This attack gains +4 RNG.</description>
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -8930,6 +9240,7 @@ Snipe - This attack gains +4 RNG.</description>
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -9015,6 +9326,7 @@ Snipe - This attack gains +4 RNG.</description>
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -9144,6 +9456,129 @@ Snipe - This attack gains +4 RNG.</description>
           <modifiers/>
         </link>
         <link id="e349-f15b-5044-ab63" targetId="ec8b-97e1-3e18-daf0" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="1e98-2487-3c9b-6346" name="Hurricane" points="18.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="7bb5-eea7-a823-7297" name="Storm Emitter" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="28c2-3014-3d67-d2c4" name="Stormwind" hidden="false">
+              <description>Enemy models hit are pushed d6&quot; directly away from the attacking model.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="9fbf-1ab9-90e6-68bd" profileTypeId="576561706f6e23232344415441232323" name="Storm Emitter" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="12"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="16"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L/R"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="f821-0d09-c6a2-a63e" targetId="4754-3d01-f42a-e287" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="72de-dcfc-5f92-9389" name="Cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="2048-2683-8cdb-65ae" profileTypeId="576561706f6e23232344415441232323" name="Cannon" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="14"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="4"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="13"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L/R"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="330c-9db0-da72-7fb7" name="Shock Fist" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="a80f-9e5a-379a-a82b" profileTypeId="576561706f6e23232344415441232323" name="Shock Fist" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="20"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L/R"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="7901-074d-073c-2cf3" targetId="f19d37a9-bff8-4f7d-8522-073ad5ac8d16" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="cf83-f996-d841-22e8" targetId="2d64-6155-8215-6600" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="e2a4-19df-7168-517b" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="6689-7dd2-553e-20b1" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule id="9d6c-7e16-d914-f4b7" name="Turbulence" hidden="false">
+          <description>Models activating within 10&quot; of this model lose Flight for one round.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="5084-b07b-1847-efb6" profileTypeId="5761726a61636b23232344415441232323" name="Hurricane" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="17"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="6"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="10"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="19"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="-"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="4195-20e7-5d86-a021" targetId="a389-cd5d-df64-b4ec" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="8df9-bb21-8609-b298" targetId="8fb5-7ff8-1a1d-7896" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -9490,6 +9925,7 @@ Snipe - This attack gains +4 RNG.</description>
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -9605,13 +10041,13 @@ Snipe - This attack gains +4 RNG.</description>
         </profile>
       </profiles>
       <links>
-        <link id="94a5-2f21-c541-6b24" targetId="f187-7306-c02f-40ec" linkType="rule">
-          <modifiers/>
-        </link>
         <link id="7906-39bd-ac21-f2b8" targetId="ac48-8797-f8c3-cb34" linkType="entry">
           <modifiers/>
         </link>
         <link id="cf53-886b-2d0f-8836" targetId="ec8b-97e1-3e18-daf0" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="d257-a1da-80ce-9edd" targetId="a389-cd5d-df64-b4ec" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -9924,6 +10360,7 @@ Solos: Arcane Tempest Solos
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -10431,6 +10868,7 @@ Solos: Squire, Storm Knight solos</description>
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -10643,6 +11081,7 @@ Battle Engine: Storm Strider</description>
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -10795,6 +11234,7 @@ Battle Engine: Storm Strider</description>
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -10886,6 +11326,7 @@ Battle Engine: Storm Strider</description>
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -11041,6 +11482,7 @@ Battle Engine: Storm Strider</description>
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -11369,6 +11811,7 @@ Solos: Captain Arlan Strangewayes, Journeyman Warcaster, Lieutenant Allison Jake
                 <condition parentId="force type" childId="e84a-2fff-d33d-bb9a" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -11414,6 +11857,386 @@ Solos: Captain Arlan Strangewayes, Journeyman Warcaster, Lieutenant Allison Jake
           <modifiers/>
         </link>
       </links>
+    </entry>
+    <entry id="4fdc-52f8-19ec-a69f" name="Major Prime Victoria Haley" points="-3.0" categoryId="57617263617374657223232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="-3.0" maxPoints="-1.0" collective="false" hidden="false" book="Warmachine: Reckoning" page="24">
+      <entries>
+        <entry id="1917-d97d-771c-20ac" name="Haley Prime" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="8276-afbd-809f-f27f" name="Hand Cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="e16b-7860-13b9-dc98" profileTypeId="576561706f6e23232344415441232323" name="Hand Cannon" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="12"/>
+                    <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+                    <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+                    <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
+                    <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
+                    <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+            <entry id="493f-8a18-dc3f-c647" name="Echo" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="117c-1d0e-8aec-002e" profileTypeId="576561706f6e23232344415441232323" name="Echo" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="524e4723232344415441232323" name="RNG" value=""/>
+                    <characteristic characteristicId="524f4623232344415441232323" name="ROF" value=""/>
+                    <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+                    <characteristic characteristicId="504f5723232344415441232323" name="POW" value="7"/>
+                    <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="12"/>
+                    <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="0a65-3eb6-9e02-874f" targetId="e0f48764-b12b-acca-bb70-726be718b29d" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="6065-99a5-e3bf-a3c8" targetId="c950cf4c-33a0-1369-1946-ff2bb9ca7528" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="ae8f-894d-abdd-b051" targetId="5258690f-6843-cf78-d51e-1c0a2d7224e8" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="a261-f8a9-e8f5-6830" name="Feat: Arcane Singularity" hidden="false">
+              <description>The models in this unit currently in this model&apos;s control area gain +2 FOCUS for one turn and immediately gain 2 focus points.</description>
+              <modifiers/>
+            </rule>
+            <rule id="c2ea-778d-f8ad-e4ec" name="Warcaster Unit" hidden="false">
+              <description>This unit is made up of Haley Prime, Haley Past, and Haley Future.  However, only Haley Prime begins the game in play.</description>
+              <modifiers/>
+            </rule>
+            <rule id="2f4a-19c0-0d62-22df" name="Time Walker" hidden="false">
+              <description>At any time during its unit’s activation, this model can spend 2 focus points to add either Haley Past or Haley Future to this unit if that model is not already in play. Place that model within 2˝ of Haley Prime. The placed model enters play with a number of focus points equal to its FOCUS. The placed model cannot activate this turn.
+
+When this model replenishes its focus points, this model can receive 2 fewer focus points for Haley Past and/or 2 fewer focus points for Haley Future. If this model does not receive 2 fewer focus points for another model in this unit, remove that model from play.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="08cc-53b6-867b-2e70" profileTypeId="57617263617374657223232344415441232323" name="Haley Prime" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+                <characteristic characteristicId="53545223232344415441232323" name="STR" value="5"/>
+                <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+                <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
+                <characteristic characteristicId="44454623232344415441232323" name="DEF" value="16"/>
+                <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="14"/>
+                <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
+                <characteristic characteristicId="466f63757323232344415441232323" name="Focus" value="8"/>
+                <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="15"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="54ae-d724-88e4-fbad" targetId="43190c68-0893-f7d9-ad1f-cec11538fc72" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="b32b-11f1-d1e4-6eaf" targetId="5683-a0af-1c84-38f9" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="b805-11aa-bd92-d9fb" targetId="2e00-7d22-e95f-acef" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="668a-2203-76e8-4535" targetId="3c5325db-927f-4d0b-aba4-a30cb0a9ce79" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="fb93-605f-c97a-3867" targetId="4144-cc58-153b-72d0" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="343e-f896-7cd2-17e9" targetId="29d5-9d06-c3fb-b647" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="009a-c0ec-3d96-f068" name="Haley Past" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="7a76-bb11-5a60-710b" name="Telekinetic Strike" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="891b-41f8-6cdc-9f95" profileTypeId="576561706f6e23232344415441232323" name="Telekinetic Strike" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                    <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                    <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                    <characteristic characteristicId="504f5723232344415441232323" name="POW" value="5"/>
+                    <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="10"/>
+                    <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="67b8-4270-89d4-6c90" targetId="e0f48764-b12b-acca-bb70-726be718b29d" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="3b6e-6d99-29cc-1a13" targetId="c950cf4c-33a0-1369-1946-ff2bb9ca7528" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="7bbc-368f-1d6c-76a3" profileTypeId="57617263617374657223232344415441232323" name="Haley Past" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+                <characteristic characteristicId="53545223232344415441232323" name="STR" value="5"/>
+                <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+                <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
+                <characteristic characteristicId="44454623232344415441232323" name="DEF" value="16"/>
+                <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="14"/>
+                <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
+                <characteristic characteristicId="466f63757323232344415441232323" name="Focus" value="4"/>
+                <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="52a4-3b6a-d4d8-2583" targetId="e2fe-a6f9-7b52-899d" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="a467-1896-a45f-2ad0" targetId="f1b2-feea-087e-012e" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="ad6e-58ae-e3b2-be22" targetId="2533-e78e-7767-ba72" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="1afc-6410-75b8-55df" targetId="c014-d754-6e64-aead" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="5602-8ef8-5ae3-84e6" targetId="7391-a065-89fa-5bd5" linkType="entry">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="b1a3-cb96-6c61-4f3d" name="Haley Future" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="5366-f251-dd4b-df42" name="Phase Bolt" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="81f8-e38f-832a-7c5a" profileTypeId="576561706f6e23232344415441232323" name="Phase Bolt" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="10"/>
+                    <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="3"/>
+                    <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+                    <characteristic characteristicId="504f5723232344415441232323" name="POW" value="13"/>
+                    <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
+                    <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="ac01-62d2-6d16-6ebd" targetId="e0f48764-b12b-acca-bb70-726be718b29d" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="b572-9ec7-c997-c44d" profileTypeId="57617263617374657223232344415441232323" name="Haley Future" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+                <characteristic characteristicId="53545223232344415441232323" name="STR" value="5"/>
+                <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+                <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
+                <characteristic characteristicId="44454623232344415441232323" name="DEF" value="16"/>
+                <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="14"/>
+                <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
+                <characteristic characteristicId="466f63757323232344415441232323" name="Focus" value="4"/>
+                <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="ce3a-27b6-5040-6920" targetId="6c0b5f6b-a37f-4b59-9a1e-21db69ffc7fb" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="6097-a64d-8ab2-ac96" targetId="d68f-85e6-1608-a05f" linkType="entry">
+              <modifiers/>
+            </link>
+            <link id="c3c5-73ff-0256-b6b2" targetId="e2fe-a6f9-7b52-899d" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="1e41-2786-4357-c446" targetId="2533-e78e-7767-ba72" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="5532-0de8-f34f-3022" targetId="37e0-12b7-b776-79b9" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="c635-9fda-436e-935d" name="Strands of Fate Tier" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="force type" childId="83c4-6b2e-a922-2fe4" field="selections" type="at least" value="3.0"/>
+                    <condition parentId="force type" childId="e356-4c1f-f1e0-05a5" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="maxSelections" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="force type" childId="83c4-6b2e-a922-2fe4" field="selections" type="at least" value="3.0"/>
+                    <condition parentId="force type" childId="e356-4c1f-f1e0-05a5" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="roster" childId="a389-cd5d-df64-b4ec" field="selections" type="less than" value="2.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="maxSelections" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="force type" childId="83c4-6b2e-a922-2fe4" field="selections" type="at least" value="3.0"/>
+                    <condition parentId="force type" childId="e356-4c1f-f1e0-05a5" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="roster" childId="a389-cd5d-df64-b4ec" field="selections" type="at least" value="2.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <rules>
+            <rule id="dba9-71fa-9c1b-297e" name="Strands of Fate Tier" hidden="false">
+              <description>Warjacks: Cygnar non-character warjacks, Thorn
+
+Units: Field Mechaniks, Long Gunner Infantry, Trencher Units
+
+Solos: Journeyman Warcaster, Trencher solos</description>
+              <modifiers/>
+            </rule>
+            <rule id="feb4-bcc7-c431-a579" name="Tier 1 Benefit" hidden="true">
+              <description>You can begin the game with Haley Past and/or Haley Future in play. For each model in this unit in play at the start of the game you can redeploy one model/unit after both players have deployed but before the first player’s first turn. The redeployed models must be placed on the table in a location they could have been deployed initially.</description>
+              <modifiers>
+                <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="4fdc-52f8-19ec-a69f" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </rule>
+            <rule id="057b-15dc-1415-eebb" name="Tier 3 Benefit" hidden="true">
+              <description>Units in the army gain Prowl during the first round of the game. (Models with Prowl gain Stealth while within terrain that provides concealment, the AOE of a spell that provides concealment, or the AOE of a cloud effect.)</description>
+              <modifiers>
+                <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="4fdc-52f8-19ec-a69f" childId="c635-9fda-436e-935d" field="selections" type="at least" value="3.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </rule>
+            <rule id="f99d-ddb1-4a98-6910" name="Tier 4 Benefit" hidden="true">
+              <description>During your first turn of the game, models in Haley’s battlegroup gain +2 SPD.</description>
+              <modifiers>
+                <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="4fdc-52f8-19ec-a69f" childId="c635-9fda-436e-935d" field="selections" type="equal to" value="4.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </rule>
+          </rules>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="roster" childId="e4dd-fef6-4423-8448" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="c0f9-2da5-26d7-7b86" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="1f1f-58b0-db04-9585" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="e2a4-19df-7168-517b" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="6689-7dd2-553e-20b1" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="e667-afe8-8815-6a72" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="301e-7876-3867-913f" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="fe94-c30d-8fe8-2052" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="6426-1503-a24b-bb30" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="ff41-da35-42c7-40a6" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="96e7-e68a-89e2-fd0e" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f951-b8a4-18bc-980a" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="d27a-0988-65cc-8d71" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="9b4c-9d5f-43ed-4277" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="e84a-2fff-d33d-bb9a" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="7deb-ec0f-4994-c961" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="ecdd-a6de-03e6-17a3" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links/>
     </entry>
     <entry id="e4dd-fef6-4423-8448" name="Major Victoria Haley" points="-5.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine - Cygnar" page="52">
       <entries>
@@ -11639,6 +12462,7 @@ Battle Engines: Storm Strider</description>
                 <condition parentId="force type" childId="e84a-2fff-d33d-bb9a" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="7deb-ec0f-4994-c961" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -11848,6 +12672,7 @@ models/ units activate at the start of their controller&apos;s next Activation P
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -12085,6 +12910,7 @@ models/ units activate at the start of their controller&apos;s next Activation P
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -12199,6 +13025,7 @@ models/ units activate at the start of their controller&apos;s next Activation P
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -12326,6 +13153,7 @@ models/ units activate at the start of their controller&apos;s next Activation P
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -12565,6 +13393,7 @@ models/ units activate at the start of their controller&apos;s next Activation P
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -12765,6 +13594,7 @@ models/ units activate at the start of their controller&apos;s next Activation P
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -12842,6 +13672,7 @@ models/ units activate at the start of their controller&apos;s next Activation P
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -12964,6 +13795,7 @@ models/ units activate at the start of their controller&apos;s next Activation P
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -13092,6 +13924,7 @@ models/ units activate at the start of their controller&apos;s next Activation P
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -13173,6 +14006,7 @@ models/ units activate at the start of their controller&apos;s next Activation P
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -13361,6 +14195,7 @@ models/ units activate at the start of their controller&apos;s next Activation P
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -13636,6 +14471,7 @@ models/ units activate at the start of their controller&apos;s next Activation P
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -13822,6 +14658,7 @@ models/ units activate at the start of their controller&apos;s next Activation P
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -13966,6 +14803,7 @@ models/ units activate at the start of their controller&apos;s next Activation P
                 <condition parentId="force type" childId="7deb-ec0f-4994-c961" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -14086,6 +14924,7 @@ models/ units activate at the start of their controller&apos;s next Activation P
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -14203,6 +15042,7 @@ models/ units activate at the start of their controller&apos;s next Activation P
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -14331,6 +15171,7 @@ models/ units activate at the start of their controller&apos;s next Activation P
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -14449,6 +15290,7 @@ models/ units activate at the start of their controller&apos;s next Activation P
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -14600,6 +15442,7 @@ models/ units activate at the start of their controller&apos;s next Activation P
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -14713,6 +15556,7 @@ models/ units activate at the start of their controller&apos;s next Activation P
                 <condition parentId="force type" childId="7deb-ec0f-4994-c961" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -14833,6 +15677,7 @@ models/ units activate at the start of their controller&apos;s next Activation P
                 <condition parentId="force type" childId="7deb-ec0f-4994-c961" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -15245,6 +16090,7 @@ models/ units activate at the start of their controller&apos;s next Activation P
                 <condition parentId="force type" childId="7deb-ec0f-4994-c961" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -15481,6 +16327,7 @@ models/ units activate at the start of their controller&apos;s next Activation P
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -15670,6 +16517,7 @@ models/ units activate at the start of their controller&apos;s next Activation P
                 <condition parentId="force type" childId="7deb-ec0f-4994-c961" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -15734,6 +16582,7 @@ models/ units activate at the start of their controller&apos;s next Activation P
                 <condition parentId="force type" childId="7deb-ec0f-4994-c961" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -15976,7 +16825,6 @@ Triangulation (*Action) -Choose two other friendly Stormsmith Stormcallers, If w
               <conditions>
                 <condition parentId="force type" childId="e2a4-19df-7168-517b" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="6689-7dd2-553e-20b1" field="selections" type="at least" value="1.0"/>
-                <condition parentId="force type" childId="e84a-2fff-d33d-bb9a" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -16219,6 +17067,7 @@ this model cannot use Activate Lightning Pod.
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -16318,6 +17167,7 @@ this model cannot use Activate Lightning Pod.
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -16423,6 +17273,7 @@ this model cannot use Activate Lightning Pod.
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -16521,6 +17372,7 @@ this model cannot use Activate Lightning Pod.
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -16647,6 +17499,7 @@ this model cannot use Activate Lightning Pod.
                 <condition parentId="force type" childId="7deb-ec0f-4994-c961" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -16769,6 +17622,7 @@ Electro Leap – When a model is hit with this weapon, you can have lightning ar
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -16930,9 +17784,6 @@ Electro Leap – When a model is hit with this weapon, you can have lightning ar
         </profile>
       </profiles>
       <links>
-        <link id="9aad-5bfb-e146-64c2" targetId="f187-7306-c02f-40ec" linkType="rule">
-          <modifiers/>
-        </link>
         <link id="7737-551d-ed63-6841" targetId="2aa5-39bf-7822-faf0" linkType="rule">
           <modifiers/>
         </link>
@@ -16943,6 +17794,9 @@ Electro Leap – When a model is hit with this weapon, you can have lightning ar
           <modifiers/>
         </link>
         <link id="e173-76f5-1e7e-bdb1" targetId="ec8b-97e1-3e18-daf0" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="08d5-a246-b8d3-ee5b" targetId="a389-cd5d-df64-b4ec" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -17034,6 +17888,7 @@ Electro Leap – When a model is hit with this weapon, you can have lightning ar
                 <condition parentId="force type" childId="7deb-ec0f-4994-c961" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -17063,6 +17918,147 @@ Electro Leap – When a model is hit with this weapon, you can have lightning ar
           <modifiers/>
         </link>
         <link id="61d4-69ec-3d7b-1ede" targetId="ac48-8797-f8c3-cb34" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="83db-83da-b634-6c99" name="Trench Buster" points="3.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Warmachine - Reckoning" page="31">
+      <entries>
+        <entry id="14eb-b933-9435-c823" name="Cinder Bomber" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="4adf-8d11-4592-fc2c" profileTypeId="576561706f6e23232344415441232323" name="Cinder Bomber" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="10"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="3"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="14"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="6e82-6f1d-974e-a146" targetId="e7563dcc-d2ea-74ef-fba7-f1ebc160d64b" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="fe45-d8cf-8b76-c2da" targetId="1190f14c-e530-15eb-7a53-cb571bafe626" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="f2f2-21d1-1747-d1ae" targetId="8b4c7afa-67fa-41b9-a558-3629c82a2b82" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="5e0d-0f6b-4e91-f371" name="Bayonet" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="9388-ba70-8bd4-b710" profileTypeId="576561706f6e23232344415441232323" name="Bayonet" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="13"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="ac73-7de5-7742-b73b" name="Assault Shield" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="eec5-8153-0129-1231" profileTypeId="576561706f6e23232344415441232323" name="Assault Shield" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="2"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="11"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="579b-9bc5-ffea-6f72" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="1f1f-58b0-db04-9585" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="e2a4-19df-7168-517b" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="e667-afe8-8815-6a72" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="301e-7876-3867-913f" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="fe94-c30d-8fe8-2052" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="ecdd-a6de-03e6-17a3" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="6426-1503-a24b-bb30" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="96e7-e68a-89e2-fd0e" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="f951-b8a4-18bc-980a" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="d27a-0988-65cc-8d71" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="9b4c-9d5f-43ed-4277" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="e84a-2fff-d33d-bb9a" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="0643-5c55-02f0-092e" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles>
+        <profile id="f0f9-c8b1-6030-5a28" profileTypeId="54726f6f70657223232344415441232323" name="Trench Buster" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="9"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="17"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="94e0-2ebb-3a8a-6239" targetId="1f8d5503-7901-355c-93cd-ce8ef5cf66f3" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1c67-b61d-239b-9448" targetId="50d02130-ad44-6a6d-eefd-0ee7e6d65065" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3ac5-bca6-6a5b-6a77" targetId="2bcee8cd-2274-bda3-b76b-aae0edfa68ca" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2417-8f0c-3615-6b7a" targetId="c0523848-b608-403b-b374-dabb5c314660" linkType="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="[Trencher]" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+        <link id="d797-6a68-6c71-ef21" targetId="cccd1dfc-272f-4bb5-b29b-d05fc73f5068" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -17248,6 +18244,9 @@ Electro Leap – When a model is hit with this weapon, you can have lightning ar
           <modifiers/>
         </link>
         <link id="d191-a987-bc6a-1119" targetId="1f8d5503-7901-355c-93cd-ce8ef5cf66f3" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1f07-2822-dca7-4db2" targetId="83c4-6b2e-a922-2fe4" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -17443,6 +18442,9 @@ Electro Leap – When a model is hit with this weapon, you can have lightning ar
           <modifiers/>
         </link>
         <link id="d8ae-b79c-16a4-4602" targetId="1f8d5503-7901-355c-93cd-ce8ef5cf66f3" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1890-0a3e-50b7-25d5" targetId="83c4-6b2e-a922-2fe4" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -17665,6 +18667,9 @@ Electro Leap – When a model is hit with this weapon, you can have lightning ar
           <modifiers/>
         </link>
         <link id="f748-feaf-f59b-89d3" targetId="5d5b3f7c-b8cc-81d1-4076-eabafbc081f0" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a649-7471-e5ee-9522" targetId="83c4-6b2e-a922-2fe4" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -18050,6 +19055,9 @@ Electro Leap – When a model is hit with this weapon, you can have lightning ar
         <link id="81b4-33ef-b91c-74ff" targetId="c5a8-f7b6-2301-37e4" linkType="rule">
           <modifiers/>
         </link>
+        <link id="6aa1-ebe1-8e5e-1a81" targetId="83c4-6b2e-a922-2fe4" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="113e-b132-e990-737f" name="Trencher Master Gunner" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="117">
@@ -18255,6 +19263,7 @@ Electro Leap – When a model is hit with this weapon, you can have lightning ar
                 <condition parentId="force type" childId="e84a-2fff-d33d-bb9a" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
                 <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -18465,6 +19474,18 @@ Electro Leap – When a model is hit with this weapon, you can have lightning ar
         </profile>
       </profiles>
       <links/>
+    </entry>
+    <entry id="a389-cd5d-df64-b4ec" name="Arc Node" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="7770-827c-ed3d-8081" targetId="f187-7306-c02f-40ec" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="c4b5-6cfb-a916-8f52" name="Arcane Blast" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
@@ -22596,6 +23617,31 @@ in its control area can make a full advance.</description>
       </profiles>
       <links/>
     </entry>
+    <entry id="4144-cc58-153b-72d0" name="Repudiate" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="c14c-e925-b0c6-ed8e" name="Repudiate" hidden="false">
+          <description>Enemy upkeep spells and animi on the model/unit directly hit by Repudiate immediately expire. An enemy model maintaining an upkeep spell that expired as a result of Repudiate suffers d3 damage points.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="f4c2-a583-1c95-dfc2" profileTypeId="5370656c6c23232344415441232323" name="Repudiate" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="10"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="No"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="Yes"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="e9447a45-16c3-4646-b3f1-1cdc5f5d7900" name="Return Fire" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -22615,6 +23661,31 @@ in its control area can make a full advance.</description>
             <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
             <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
             <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="d68f-85e6-1608-a05f" name="Revive" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="dec1-9435-aded-aac1" name="Revive" hidden="false">
+          <description>Return one destroyed friendly Faction Grunt to play with one unmarked damage box. It must be placed in this model’s control area in formation and within 3˝ of another model in its unit.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="e578-4c81-1179-3774" profileTypeId="5370656c6c23232344415441232323" name="Revive" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="3"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="Ctrl"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="No"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="No"/>
           </characteristics>
           <modifiers/>
         </profile>
@@ -23678,6 +24749,31 @@ ROF. Temporal Acceleration can be cast only once per turn.</description>
       </profiles>
       <links/>
     </entry>
+    <entry id="29d5-9d06-c3fb-b647" name="Temporal Flux" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="5644-6e00-8a3f-6d98" name="Temporal Flux" hidden="false">
+          <description>While within 5˝ of a model in this unit, friendly models gain +2 DEF and enemy models suffer –2 DEF. Temporal Flux lasts for one round.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="b821-449f-6579-d2e0" profileTypeId="5370656c6c23232344415441232323" name="Temporal Flux" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="Self"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="No"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="No"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="5000a0d4-77bf-4127-bb58-924655bc4511" name="Terminal Velocity" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Cryx" page="50">
       <entries/>
       <entryGroups/>
@@ -23803,6 +24899,21 @@ ROF. Temporal Acceleration can be cast only once per turn.</description>
           <modifiers/>
         </profile>
       </profiles>
+      <links/>
+    </entry>
+    <entry id="83c4-6b2e-a922-2fe4" name="Trencher Unit" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-5.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="decrement" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="force type" childId="c635-9fda-436e-935d" field="selections" type="at least" value="2.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
       <links/>
     </entry>
     <entry id="c29e8ebd-71c7-4bb6-ad8e-11042b5ed878" name="True Path" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -24608,6 +25719,10 @@ Reveille - Knocked down friendly Faction models in this model&apos;s conmmand ra
       <description>If this model hits the same model with both its initial attacks with this weapon, LARGE BASE after resolving the attacks it can immediately make one additional melee attack against that model. If the additional attack hits, the target is slammed d6&quot; directly away from this model. The POW of the slam damage roll is equal to the STR of this model + the POW of this weapon. The POW of collateral damage is equal to the STR of this model.</description>
       <modifiers/>
     </rule>
+    <rule id="a86d-1e1c-8f7e-4de5" name="Chain Reaction" hidden="false">
+      <description>Each time this model hits an enemy model with a melee or ranged attack during its activation, it gains a cumulative +1 to each of its subsequent damage rolls against that model that activation.</description>
+      <modifiers/>
+    </rule>
     <rule id="98bad87a-274d-4408-9f8f-aea98b680f97" name="Chain Weapon" hidden="false" book="Mercenaries - Forces of Warmachine" page="45">
       <description>This attack ignores the Buckler and Shield weapon qualities and Shield Wall.</description>
       <modifiers/>
@@ -25201,6 +26316,10 @@ Damaging a colossal
       <description>While this model is in play, models in its unit gain Prowl. (Models with Prowl gain Stealth while within terrain that provides concealment, the AOE of a spell that provides concealment, or the AOE of a cloud effect.)</description>
       <modifiers/>
     </rule>
+    <rule id="37e0-12b7-b776-79b9" name="Granted: True Sight" hidden="false">
+      <description>While this model is in play, models in this unit gain True Sight.  (A model with True Sight ingnores concealment, Camouflage, and Stealth.)</description>
+      <modifiers/>
+    </rule>
     <rule id="b0ff3d87-fb22-0a4a-aef5-4266187a61ed" name="Grievous Wounds" hidden="false" book="Mercenaries - Forces of Warmachine" page="36">
       <description>When a model is hit by this weapon, for one round it loses Tough, cannot heal or be healed, and cannot transfer damage.</description>
       <modifiers/>
@@ -25327,6 +26446,10 @@ Damaging a colossal
       <description>This model can move through rough terrain and obstacles without penalty. It can move through obstructions and other models if it has enough movement to move completely past them. Other models, including slammed, pushed, or thrown models, can move through this model without effect if they have enough movement to move completely past it. This model does not count as an intervening model. This model suffers damage and effects only from magical weapons, magic attacks, animi, spells, and feats and is immune to continous effects. This model cannot be move by a slam. When this model makes a melee or ranged attack, before the attack roll is made it loses Incorporeal for one round.</description>
       <modifiers/>
     </rule>
+    <rule id="e2fe-a6f9-7b52-899d" name="Incorporeal" hidden="false" book="Warmachine Prime mk II" page="34">
+      <description>This model is Incorporeal.  </description>
+      <modifiers/>
+    </rule>
     <rule id="7e38c8af-0839-4c4e-a225-9baa557d8d8c" name="Inflict Pain" hidden="false" book="Exigence" page="86">
       <description>When it hits a warbeast with this weapon, this model can place 1 fury point on or remove 1 fury point from the warbeast.</description>
       <modifiers/>
@@ -25341,6 +26464,10 @@ Damaging a colossal
     </rule>
     <rule id="d9c4d6c4-08b5-47c8-b0a7-18dbd0c48a47" name="Inspiration [X]" hidden="false" book="Mercenaries - Forces of Warmachine" page="124">
       <description>Friendly X models/units in this model&apos;s command range never flee and immediately rally.</description>
+      <modifiers/>
+    </rule>
+    <rule id="80f0-30d1-d082-2aed" name="Insulated Frame" hidden="false">
+      <description>Friendly models B2B with this model gain Immunity: Electricity.</description>
       <modifiers/>
     </rule>
     <rule id="0be66501-7a0b-e9bc-f5e7-f72d525f9223" name="Intelligence" hidden="false" book="Mercenaries - Forces of Warmachine" page="66">
@@ -25759,6 +26886,10 @@ point of origin for the spell, the spell gains +5 RNG.</description>
       <description>This model can make one additional melee attack each combat action.</description>
       <modifiers/>
     </rule>
+    <rule id="f1b2-feea-087e-012e" name="Raw Talent" hidden="false">
+      <description>This model gains an additional die on its damage rolls.</description>
+      <modifiers/>
+    </rule>
     <rule id="c950cf4c-33a0-1369-1946-ff2bb9ca7528" name="Reach" hidden="false" book="Warmachine Prime mkII" page="36">
       <description>This weapon has a 2&quot; melee range (p. 50).</description>
       <modifiers/>
@@ -25781,6 +26912,10 @@ point of origin for the spell, the spell gains +5 RNG.</description>
     </rule>
     <rule id="20added3-c4bc-48e8-9e97-970487624563" name="Regeneration (d3)" hidden="false" book="">
       <description>This model can be forced to heal d3 damage points once per activation. This model cannot use Regeneration during an activation it runs.</description>
+      <modifiers/>
+    </rule>
+    <rule id="5683-a0af-1c84-38f9" name="Reiteration" hidden="false">
+      <description>This model can cast any spell cast by another model in its unit this activation as if that spell were one of its own.</description>
       <modifiers/>
     </rule>
     <rule id="43a92339-d838-46ae-93c9-156fcbdde3e2" name="Relentless Advance" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="93">
@@ -26130,6 +27265,12 @@ point of origin for the spell, the spell gains +5 RNG.</description>
     </rule>
     <rule id="c1e9-b30f-4f29-305b" name="Thunderous Impact" hidden="false">
       <description>After resolving this model’s impact attacks, if one or more impact attack rolls hit an enemy model, lightning arcs from this model to d3 consecutive models. The lightning arcs to the nearest model it has not already arced to within 4˝ of the last model it arced to, ignoring this model. Each model the lightning arcs to suffers a POW 10 electrical damage roll.</description>
+      <modifiers/>
+    </rule>
+    <rule id="2533-e78e-7767-ba72" name="Time Projection" hidden="false">
+      <description>This model is not a warcaster but has the following warcaster special rules:
+Control Area, Focus Manipulation, Power Field, and Spellcaster. During your Control Phase, this model can allocate focus points to warjacks in Haley Prime’s
+battlegroup that are in her control area. This model can channel spells through warjacks in Haley Prime’s battlegroup with the arc node advantage that are in her control area.</description>
       <modifiers/>
     </rule>
     <rule id="1ca9024c-3f73-4caf-83f2-84b6d6952439" name="Torpid" hidden="false" book="Forces of Hordes - Minions" page="56">
