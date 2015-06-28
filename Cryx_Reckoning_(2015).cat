@@ -1,6 +1,119 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f77f35f4-6ad4-4021-82ae-a1fadaabf12a" revision="4" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="2" battleScribeVersion="1.15" name="Cryx" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f77f35f4-6ad4-4021-82ae-a1fadaabf12a" revision="5" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="2" battleScribeVersion="1.15" name="Cryx" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
+    <entry id="98bc-7a77-184c-1d9f" name="Aiakos, Scourge of the Meredius" points="3.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Vengeance" page="78">
+      <entries>
+        <entry id="5a67-af53-4d5d-dd9c" name="Harpoon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="b221-3ae9-5c0a-a5ff" profileTypeId="576561706f6e23232344415441232323" name="Harpoon" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="10"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="962d-05d8-8fba-cfaf" targetId="e0f48764-b12b-acca-bb70-726be718b29d" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="eb7b-311f-d46e-25c5" targetId="fbef461f-5381-9275-c86c-7363da1efd4e" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="58ee-f5a7-e3d7-cac3" name="Blade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="0fa5-f24e-b26a-c314" profileTypeId="576561706f6e23232344415441232323" name="Blade" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="6"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="12"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="4b96-a256-d0cf-311d" targetId="e0f48764-b12b-acca-bb70-726be718b29d" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule id="17ed-c2e0-53f2-c0b1" name="Cryx Character Solo" hidden="false">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="d0db-5a02-cb12-7077" profileTypeId="57617263617374657223232344415441232323" name="Aiakos" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="14"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="14"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="7"/>
+            <characteristic characteristicId="466f63757323232344415441232323" name="Focus" value="4"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="8cdd-1200-6205-1862" targetId="96d5dd34-f0ed-fb33-631b-9a81327caf31" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2374-c393-6922-353b" targetId="e99c4320-7ab1-4678-8245-f6bb01e712e0" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b190-4f99-9bb6-eb21" targetId="9fc627d4-842f-6766-8ed6-b3a2a8bf5d39" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1c30-69c4-b588-eb85" targetId="8f6c-b21c-1138-af79" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7169-7198-fc6b-585b" targetId="6ef9-4158-a83a-496e" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="63a4-715b-9c54-0b66" targetId="817f-db88-81e3-8019" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="a079-058c-a18d-ee6d" targetId="4a51-61e2-adbc-7114" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="6994-3f2d-805a-8915" name="Asphyxious The Hellbringer &amp; Vociferon" points="0.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Colossals" page="96">
       <entries>
         <entry id="0110-4269-e3b8-6b14" name="Asphyxious" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -170,7 +283,19 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="393f-530f-10ae-c230" name="Cryx Epic Warcaster &amp; Character Solo" hidden="false">
           <modifiers/>
@@ -218,7 +343,19 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="fb2a-4b21-fdad-600f" name="Cryx Unit" hidden="false">
           <modifiers/>
@@ -285,7 +422,19 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="9c7cdb71-e34b-e6b8-898b-d3f2fdd9d2d5" name="Curse [Bane]" hidden="false" page="0">
           <description>RNG CMD. Target enemy model/unit. If the model.unit is in range, it is cursed. A firendly Bane model charging a cursed model gains +2&quot; movement. Friendly Bane models gain +2 to attack rolls against cursed models. Curse can be used once per activation and lasts for one turn.</description>
@@ -333,7 +482,190 @@
         <link id="dbc0-fa55-9964-8f8a" targetId="21b0922f-4ce2-396f-8960-5747cf7bddca" linkType="rule">
           <modifiers/>
         </link>
+        <link id="77d3-33a7-2ecd-6b34" targetId="4a51-61e2-adbc-7114" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
+    </entry>
+    <entry id="92ac-d18f-f7af-a872" name="Bane Riders" points="7.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Vengeance" page="76">
+      <entries>
+        <entry id="f0d2-14a5-9136-2cb6" name="Leader &amp; 2 Grunts -&gt; Leader &amp; 4 Grunts" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="bc0a-f92d-ec36-0527" name="Leader" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="174c-bd4a-e9d7-6764" name="Cleaver" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="fdb5-eb0d-b2b4-777b" profileTypeId="576561706f6e23232344415441232323" name="Cleaver" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                    <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                    <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                    <characteristic characteristicId="504f5723232344415441232323" name="POW" value="6"/>
+                    <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="13"/>
+                    <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="b11d-24dc-454e-d62f" targetId="c950cf4c-33a0-1369-1946-ff2bb9ca7528" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="c4ad-5ac0-18e3-ae0b" targetId="f9810b50-8fea-40b9-5628-9fe47f087e16" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="3be3-ff0a-e071-c1f3" name="Mount" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="c2b6-ab71-936d-3e81" profileTypeId="576561706f6e23232344415441232323" name="Mount" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                    <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                    <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                    <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
+                    <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
+                    <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="a95f-1a06-bae2-55fc" name="Curse [Bane Riders]" hidden="false">
+              <description>RNG CMD. Target enemy model/unit. If the model/unit is in range, it is cursed. A friendly Bane Riders model charging a cursed model gains +2&quot; movement. Friendly Bane Riders models gain +2 to attack rolls against cursed models. Curse can be used once per ctivation and lasts for one turn.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="1184-6929-e7c2-b537" profileTypeId="54726f6f70657223232344415441232323" name="Leader &amp; Grunts" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="53504423232344415441232323" name="SPD" value="7"/>
+                <characteristic characteristicId="53545223232344415441232323" name="STR" value="7"/>
+                <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+                <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+                <characteristic characteristicId="44454623232344415441232323" name="DEF" value="12"/>
+                <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="18"/>
+                <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
+                <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="257e-65b6-a66b-3397" targetId="108d-3cf5-9558-02b2" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="0d23-7e22-c1a5-35bf" targetId="21b0922f-4ce2-396f-8960-5747cf7bddca" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="4114-60ff-170c-06f8" name="Grunts" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="ac4b-dd4f-6ea7-6477" name="Cleaver" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="9a3b-3687-30d7-1469" profileTypeId="576561706f6e23232344415441232323" name="Cleaver" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                    <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                    <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                    <characteristic characteristicId="504f5723232344415441232323" name="POW" value="6"/>
+                    <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="13"/>
+                    <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="d304-9c16-53df-0a39" targetId="c950cf4c-33a0-1369-1946-ff2bb9ca7528" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="2c22-eb4e-2548-ecd1" targetId="f9810b50-8fea-40b9-5628-9fe47f087e16" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="bd3d-c972-5f7f-8b0c" name="Mount" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="bdc0-7c46-e62f-84e9" profileTypeId="576561706f6e23232344415441232323" name="Mount" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                    <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                    <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                    <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
+                    <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
+                    <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="7498-668f-eca9-1c1d" profileTypeId="54726f6f70657223232344415441232323" name="Leader &amp; Grunts" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="53504423232344415441232323" name="SPD" value="7"/>
+                <characteristic characteristicId="53545223232344415441232323" name="STR" value="7"/>
+                <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+                <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+                <characteristic characteristicId="44454623232344415441232323" name="DEF" value="12"/>
+                <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="18"/>
+                <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
+                <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="2cd9-f537-34ac-bb4e" targetId="108d-3cf5-9558-02b2" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="2b4f-73a3-24ec-40df" targetId="21b0922f-4ce2-396f-8960-5747cf7bddca" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="1f10-b0fa-228e-8fc4" name="Cryx Cavalry Unit" hidden="false">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles/>
+      <links/>
     </entry>
     <entry id="72938ac3-695c-4a35-96fa-39fea99775f1" name="Bane Thralls" points="5.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="3" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Cryx" page="90">
       <entries>
@@ -518,7 +850,19 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="1872-e49e-b76c-61c1" name="Cryx Unit" hidden="false">
           <modifiers/>
@@ -548,6 +892,111 @@
         </link>
         <link id="1f64-92e3-9387-5095" targetId="ea89-9b47-4f27-7185" linkType="rule">
           <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="f17e-6765-d80b-9ca5" name="Barathrum" points="10.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Reckoning" page="58">
+      <entries>
+        <entry id="94c8-1e63-7514-180c" name="Talon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="6af2-fa52-4225-a540" profileTypeId="576561706f6e23232344415441232323" name="Talon" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="7"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="17"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L/R"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="25f2-bfc7-c6a5-9332" targetId="c141-9739-8a81-4d10" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="ce5e-6f0d-aac3-2496" name="Tusks" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="5e87-7731-8dfa-d239" profileTypeId="576561706f6e23232344415441232323" name="Tusks" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="2"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="12"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="-"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles>
+        <profile id="5e7b-1799-4560-fc2a" profileTypeId="5761726a61636b23232344415441232323" name="Barathrum" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="10"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="8"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="17"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="-"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="a88d-a696-5e40-9877" targetId="1f8d5503-7901-355c-93cd-ce8ef5cf66f3" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="cd08-f027-ed61-d40e" targetId="c01cb487-f97a-7246-8f8e-979e2ebf6749" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0ed5-b1ef-a32f-e6c2" targetId="8d1b-c5db-87d2-63d0" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="695d-d636-32b1-8059" targetId="00e2-75d1-02f0-50a0" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e83e-6a4d-2e54-7c68" targetId="0a1b-3b0a-2a0a-6a39" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="34c2-0e1c-dd88-02e3" targetId="fe49-cf84-f70b-025b" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a33f-c189-6912-bc09" targetId="7f55-bf89-eae7-3856" linkType="rule">
+          <modifiers>
+            <modifier type="append" field="name" value="[Terminus]" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
       </links>
     </entry>
@@ -595,7 +1044,19 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="c6cc-12b7-b062-4807" name="Cryx Unit" hidden="false">
           <modifiers/>
@@ -678,7 +1139,19 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="7d38-fa8a-816c-4ab7" name="Cryx Unit" hidden="false">
           <modifiers/>
@@ -842,7 +1315,19 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="3983-f9e8-6744-21d8" name="Cryx Revenant Character Unit" hidden="false">
           <modifiers/>
@@ -902,7 +1387,19 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="bbbdcf74-dbe9-ca71-3087-30c74e93fcb8" name="Death Blast" hidden="false" page="0">
           <description>When this model is disabled, center a 5&quot; AOE on it, then remove this model from play. models in the AOe suffer a POW 14 blast damage roll.</description>
@@ -932,6 +1429,9 @@
           <modifiers/>
         </link>
         <link id="fc54-947f-5b57-8fb2" targetId="21b0922f-4ce2-396f-8960-5747cf7bddca" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="160c-60a3-c736-d1dc" targetId="4a51-61e2-adbc-7114" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -968,7 +1468,19 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="2e381343-59b8-c1bf-bcd6-fe50dda9fffa" name="Blood Thirst" hidden="false" page="0">
           <description>When it charges a living model, this model gains +2&quot; movement.</description>
@@ -1061,7 +1573,19 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="f3838e41-63ce-7b7f-27af-193c365c71fe" name="Affinity [Aspyhxious]" hidden="false" page="0">
           <description>When Cankerworm ends its activation in Asphyxious&apos; control area, it can make a full advance.</description>
@@ -1156,7 +1680,19 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="06e51332-b248-aee0-bf34-41cb514e7871" name="Death Toll [Revenant Crew of the Atramentous]" hidden="false" page="0">
           <description>When this model destroys a living enemy model with a melee or range attack, after the attack is resolved you can add one Grunt to a friendly Revenant Crew of Atramentous unit in this model&apos;s command range. The Grunt must be placed in formation and within 3&quot; of this model. The destroyed model is removed from play but does not provide a soul or corpse token. </description>
@@ -1200,6 +1736,9 @@
           <modifiers/>
         </link>
         <link id="dbaa-340b-14aa-c66a" targetId="21b0922f-4ce2-396f-8960-5747cf7bddca" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6af8-12a3-5201-ed58" targetId="4a51-61e2-adbc-7114" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -1338,7 +1877,19 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="a62a919d-7722-2001-a94f-bf3c4575fe16" name="Selective" hidden="false" page="0">
           <description>This unit can be included only in mercenary contract armies that list Cephalyx as possible members. </description>
@@ -1375,7 +1926,19 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="e0971855-e9b7-e362-e547-af9c90636c4e" name="Selective" hidden="false" page="0">
           <description>This unit can be included only in mercenary contract armies that list Cephalyx as possible members. </description>
@@ -1560,7 +2123,19 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="5850a5e5-4ad7-9dd5-971e-0119f8fc66e4" name="Leadership [Soulhunters]" hidden="false" page="0">
           <description>Friendly Soulhunter models activating while in this model&apos;s command range gain incorporeal that activation.</description>
@@ -1615,6 +2190,9 @@
           <modifiers/>
         </link>
         <link id="57ad-534c-1660-0c79" targetId="2dfd-7129-f11c-1ff1" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3913-669e-43f3-05bb" targetId="4a51-61e2-adbc-7114" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -1866,6 +2444,196 @@
         </link>
       </links>
     </entry>
+    <entry id="1c8f-a656-a1a2-0f07" name="Deneghra, The Soul Weaver" points="-4.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Reckoning" page="56">
+      <entries>
+        <entry id="a5f1-c465-b907-a0a7" name="Venomous Breath" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="6ef0-cf45-0078-59df" profileTypeId="576561706f6e23232344415441232323" name="Venomous Breath" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="Sp 8"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="10"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="e9e3-baa4-fc03-e824" targetId="3f45d97a-a610-d64f-07e7-14f53fb15d38" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="5180-08fc-f95a-de7f" targetId="a97181c0-e9ea-5063-8069-ecf1bb286402" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="3b72-db43-0c5b-1813" name="Malefactor" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="7b2a-76b9-1d4f-1c65" profileTypeId="576561706f6e23232344415441232323" name="Malefactor" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="8"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="13"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="9fe4-4702-0d87-1c8b" targetId="e0f48764-b12b-acca-bb70-726be718b29d" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="f59e-af04-73b0-2c91" targetId="c950cf4c-33a0-1369-1946-ff2bb9ca7528" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="80b6-c0b6-af81-836a" name="Barbed Tail" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="1b7e-d7a7-2884-6826" profileTypeId="576561706f6e23232344415441232323" name="Barbed Tail" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="a1f5-898d-0bbe-30d2" name="Weft of Souls Tier" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="force type" childId="b474-6790-5ed5-729a" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="force type" childId="4a51-61e2-adbc-7114" field="selections" type="less than" value="3.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="maxSelections" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="force type" childId="b474-6790-5ed5-729a" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="force type" childId="4a51-61e2-adbc-7114" field="selections" type="at least" value="3.0"/>
+                    <condition parentId="force type" childId="8d1b-c5db-87d2-63d0" field="selections" type="less than" value="2.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="maxSelections" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="force type" childId="b474-6790-5ed5-729a" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="force type" childId="4a51-61e2-adbc-7114" field="selections" type="at least" value="3.0"/>
+                    <condition parentId="force type" childId="8d1b-c5db-87d2-63d0" field="selections" type="at least" value="2.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <rules>
+            <rule id="2c38-32bb-4664-e4ec" name="Tier 2 Benefit" hidden="true">
+              <description>You gain +1 on your starting roll for the game.</description>
+              <modifiers>
+                <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="roster" childId="a1f5-898d-0bbe-30d2" field="selections" type="at least" value="2.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </rule>
+          </rules>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="63e3-1a87-12e5-dbb7" name="Feat: Hell Gate" hidden="false">
+          <description>Deneghra immediately gains seven soul tokens.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="b17e-9b9f-c963-a07f" profileTypeId="57617263617374657223232344415441232323" name="Deneghra" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="9"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="5"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="15"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="16"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
+            <characteristic characteristicId="466f63757323232344415441232323" name="Focus" value="7"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="18"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="a125-a0c7-ead5-b0ca" targetId="ff55-758b-fdb7-12ad" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="79a1-d71f-5eb9-f2f1" targetId="3764-b2a5-e2e7-76bc" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="ab74-6752-127a-eff6" targetId="c5b2-2473-1a37-1ab3" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="e59d-0cbb-2bf1-c5f5" targetId="ca60-eaf9-cfa1-301c" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="2407-da36-0580-5361" targetId="21b0922f-4ce2-396f-8960-5747cf7bddca" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0afb-b619-4b1a-2dc0" targetId="bc4c-dedb-0275-bd9a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4a8c-2259-2de7-d664" targetId="a515-797b-94b7-02af" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="39ae-b8bc-e8a0-592c" targetId="23ae-2e56-b712-7798" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="36ec-5664-2da0-d16d" targetId="2687-7743-fd5e-495f" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="24e11b41-55e9-40d5-b10a-1485516cc250" name="Desecrator" points="9.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wrath" page="91">
       <entries>
         <entry id="73cf-5fd5-8847-d5ad" name="Vivisector" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2015,7 +2783,19 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="9e4d2b59-fab3-cc8d-7eff-38954d6b6e35" name="Affinity [Scaverous]" hidden="false" page="0">
           <description>When this model destroys a living enemy model while in Scaverous&apos; control area, Scaverous gains the destroyed model&apos;s soul token.</description>
@@ -2076,7 +2856,19 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="7f6b4b55-8883-1dec-0943-51b10ce80bf7" name="Blood Thirst" hidden="false" page="0">
           <description>When it charges a living model, this model gains +2&quot; movement.</description>
@@ -2126,6 +2918,9 @@
           <modifiers/>
         </link>
         <link id="9e65-adce-75c4-cf2c" targetId="a450-d2a1-cfdd-81e2" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9785-e68c-1b48-b2cf" targetId="4a51-61e2-adbc-7114" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -2262,6 +3057,17 @@
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
       <rules>
         <rule id="6117-8401-afcf-e373" name="Cryx Warcaster &amp; Character Solo" hidden="false">
@@ -2311,6 +3117,17 @@
             <condition parentId="roster" childId="b0437279-2cb2-4c9f-8763-0d42cfa5638c" field="selections" type="equal to" value="1.0"/>
           </conditions>
           <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <rules>
@@ -2366,6 +3183,129 @@
           <modifiers/>
         </link>
         <link id="bc1a-4580-2135-37c5" targetId="b57d-545b-c668-c160" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="b523-0156-7de3-20d8" name="Goreshade, Lord of Ruin" points="-5.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Vengeance" page="72">
+      <entries>
+        <entry id="c4c1-8aa9-5a15-fb67" name="Voass" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="a7d9-138d-da8d-8fec" profileTypeId="576561706f6e23232344415441232323" name="Voass" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="8"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="15"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="b07e-c1cb-bead-c614" targetId="e0f48764-b12b-acca-bb70-726be718b29d" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="11c3-b5a1-48d1-8ee4" targetId="c950cf4c-33a0-1369-1946-ff2bb9ca7528" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="0675-7199-979e-121b" targetId="083b-be6e-fcdb-1795" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="6a87-a903-4be7-fcdd" name="Mount" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="3f39-9c55-0c45-84e7" profileTypeId="576561706f6e23232344415441232323" name="Mount" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule id="b5a4-ae09-3eb6-16cc" name="Cryx Epic Cavalry Warcaster" hidden="false">
+          <modifiers/>
+        </rule>
+        <rule id="9b00-c349-bc8c-5bdf" name="Feat: Winter&apos;s Grasp" hidden="false">
+          <description>Center a 3&quot; AOE on any number of friendly non-warcaster warrior models currently in Goreshade&apos;s control area. Enemy models without Immunity: Cold within one or more AOEs become stationary for one round. Then the models the AOEs are centered on are destroyed.</description>
+          <modifiers/>
+        </rule>
+        <rule id="af38-f3e0-7334-611d" name="Spell Vortex" hidden="false">
+          <description>If a living enemy model cast a spell in this model&apos;s control area last turn, this model can cast one spell without spending focus during its activation this turn.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="8661-5af7-64a9-051f" profileTypeId="57617263617374657223232344415441232323" name="Goreshade" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="8"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="7"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="14"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="17"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
+            <characteristic characteristicId="466f63757323232344415441232323" name="Focus" value="7"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="17"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="a5f7-d605-ea06-f4cd" targetId="c01cb487-f97a-7246-8f8e-979e2ebf6749" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="655d-442e-f610-b962" targetId="21b0922f-4ce2-396f-8960-5747cf7bddca" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="79be-bab1-a95c-8e7b" targetId="108d-3cf5-9558-02b2" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e80f-acca-13b8-f411" targetId="4196-0ccf-d26a-fd48" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="a4ef-0684-2ea9-aa79" targetId="129d-b9a6-8cee-ec4a" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="c71a-015a-fd53-d54d" targetId="7434-9bb9-db63-f39a" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="ac5e-fbf8-5c32-257e" targetId="8313-a842-6d72-c938" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="d00b-a8f3-392f-a7fd" targetId="ad66-0eb4-e4e6-b8a3" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -2510,6 +3450,96 @@
         </link>
       </links>
     </entry>
+    <entry id="364d-3a34-cd44-74ce" name="Inflictor" points="0.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Vengeance" page="74">
+      <entries>
+        <entry id="fc22-6612-7de1-f242" name="Shield Claw" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="f40d-5934-2ee0-fe49" profileTypeId="576561706f6e23232344415441232323" name="Shield Claw" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="13"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="bd49-a8a7-5c86-e18b" targetId="f1ebe717-5e03-7003-60f4-1b14bc6103a1" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="b9b7-300f-ace0-c177" targetId="31938085-8f8f-ecbc-1282-4d5071791dc9" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="c3dc-cf97-c454-cba1" name="Stinger" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="1554-6c13-6f0b-dfe8" profileTypeId="576561706f6e23232344415441232323" name="Stinger" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="6"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="16"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="1696-a7d2-f6e2-df46" targetId="c950cf4c-33a0-1369-1946-ff2bb9ca7528" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="2a1e-26ee-496f-67bd" targetId="fb39-908d-d490-07db" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="4c97-799f-b24e-47df" name="Cryx Helljack" hidden="false">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="c3d4-22c5-3320-24e5" profileTypeId="5761726a61636b23232344415441232323" name="Inflictor" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="10"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="17"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="-"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="fe26-7583-60d6-0cb7" targetId="4158ad6a-dee0-b6de-4f0f-79440d26d798" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6870-c7f4-abf0-bc64" targetId="1096-8459-2ae1-2923" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="db30-2184-780e-8a0c" targetId="8d1b-c5db-87d2-63d0" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="157317ad-9072-49f2-9beb-84b07fd5863a" name="Iron Lich Asphyxious" points="-6.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Cryx" page="36">
       <entries>
         <entry id="27bc-beb7-ca6e-6646" name="Soulsplitter" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2550,6 +3580,17 @@
             <condition parentId="roster" childId="f682862d-982e-44ac-afc9-09f2e1190a2b" field="selections" type="equal to" value="1.0"/>
           </conditions>
           <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <rules>
@@ -2635,7 +3676,19 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="e7350fc7-4f8a-7c1a-9cdf-34ca22ebfd04" name="Magic Ability [7]" hidden="false" page="0">
           <description>* Cloak of Darkness (* Action) - This model gains Stealth. While warjacks this model controls are B2B with it, they also gain Stealth. Cloak of Darkness lasts for one round.
@@ -2683,6 +3736,9 @@
           <modifiers/>
         </link>
         <link id="ab4b-b145-fbfb-253c" targetId="21b0922f-4ce2-396f-8960-5747cf7bddca" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6fc1-2ef3-222b-0a36" targetId="4a51-61e2-adbc-7114" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -2936,6 +3992,17 @@
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
       <rules>
         <rule id="169c7955-43cb-6785-bbeb-2d31158dc9d0" name="Feat: Spectral Legion" hidden="false" page="0">
@@ -3071,7 +4138,19 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="12eb72d9-5fd8-9c49-71be-b0fb658d5fb2" name="Feat: Dragon&apos;s Call" hidden="false" page="0">
           <description>Terminus gains one soul token for each living enemy model destroyed in his contorl area. Terminus gains +1 ARM for each soul token on him. Dragon&apos;s Call lasts for one round.</description>
@@ -3166,7 +4245,19 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="9d2396e5-c65f-d1a7-197b-a4cea9b8801a" name="Feat: Charnel Flames" hidden="false" page="0">
           <description>When a model is destroyed in Venethrax&apos;s control area, before removing the model from the table center a 3&quot; AOE cloud effect over it. The destroyed model does not provide a corpse token. Models with Eyeless Sight do not ignore these cloud effects. Models entering a Charnel Flames AOE suffer 1 point of fire damage. Charnel Flames lasts for one round. </description>
@@ -3260,7 +4351,19 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="62c80746-fbe4-3f00-4874-1916c8f59938" name="Feat: Black Gate" hidden="false" page="0">
           <description>While in this models control area, frinedly Faction models gain boosted magic attack rolls. When Scaverous casts a spell, reduce the COST of the spell by 1. When an enemy model casts a spell or uses an animus while in Scaverous&apos; control area, increase the COST by 1. Black Gate lasts for one round.</description>
@@ -3340,7 +4443,19 @@
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="0049fc4a-53b4-9389-1c42-7e5db3018d13" name="Machine Meld (* Action)" hidden="false" page="0">
           <description>RNG 1. Target enemy non-character warjack with a functional Cortex system or an inert non-character warjack with a functional Cortex system. If the warjack is in range, take control of it and remove this model from the table. Effects on this model when it is removed from the table expire. You cannot activate the warjack this turn.
@@ -3380,6 +4495,9 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
           <modifiers/>
         </link>
         <link id="aeda-6480-130c-061e" targetId="21b0922f-4ce2-396f-8960-5747cf7bddca" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="dc26-715b-f9cb-1da7" targetId="4a51-61e2-adbc-7114" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -3645,7 +4763,19 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="6454-5c8c-e4eb-bf41" name="Cryx Warcaster &amp; Skarlock Thrall Character Solo" hidden="false">
           <modifiers/>
@@ -3873,7 +5003,19 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="ce47-8247-9c84-46e0" name="Cryx Unit" hidden="false">
           <modifiers/>
@@ -4006,14 +5148,30 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="cb93-0537-4be8-d70d" name="Cryx Solo" hidden="false">
           <modifiers/>
         </rule>
       </rules>
       <profiles/>
-      <links/>
+      <links>
+        <link id="1472-0b99-0ded-6f46" targetId="4a51-61e2-adbc-7114" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="7ac5cf05-f725-4f3e-89b3-2530e897c0cd" name="Nightmare" points="10.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Cryx" page="84">
       <entries>
@@ -4299,6 +5457,17 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
       <rules>
         <rule id="ee504a65-2361-73db-40ef-a6b0dc0d209d" name="Feat: Blood Magic" hidden="false" page="0">
@@ -4413,6 +5582,9 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
           <modifiers/>
         </link>
         <link id="f9c7-8c17-1db8-f661" targetId="21b0922f-4ce2-396f-8960-5747cf7bddca" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4801-de4c-5733-0bc8" targetId="4a51-61e2-adbc-7114" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -4661,7 +5833,19 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="7dbd-c726-5b6e-9af4" name="Cryx Weapon Crew Unit" hidden="false">
           <modifiers/>
@@ -4807,7 +5991,19 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="ff71cd68-6705-8b17-461c-a0a0f846a69e" name="Deathbound" hidden="false" page="0">
           <description>Grunts in this unit that are destroyed while in formation return to play at the beginning of your next Maintenace Phase. Place the returned Grunts within 3&quot; of the unit commander. If the unit commander leaves play; remove from play all destroyed Grunts not yet returned to play and then choose a new unit commander.</description>
@@ -5064,7 +6260,19 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles>
         <profile id="3f3f312c-ddc9-cf7a-dab9-722eb27c0248" profileTypeId="54726f6f70657223232344415441232323" name="Satyxis Blood Witches" hidden="false" page="0">
@@ -5167,7 +6375,19 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="b3303db9-c411-acc9-b75a-2f5bde1896db" name="Desperate Pace [Satyxis Raider] (* Action)" hidden="false" page="0">
           <description>RNG CMD. Target Friendly Satyxis Raider unit. If the Satyxis Raider unit is in range, it gains +2&quot; movement during its activation this turn.</description>
@@ -5207,6 +6427,9 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
           <modifiers/>
         </link>
         <link id="1bf0-c6d0-2786-10f5" targetId="5282-da44-29bd-0100" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="bf69-b49a-4557-2b22" targetId="4a51-61e2-adbc-7114" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -5396,7 +6619,19 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="8df3-a011-3b0e-e657" name="Cryx Unit" hidden="false">
           <modifiers/>
@@ -5531,7 +6766,19 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules/>
       <profiles/>
       <links/>
@@ -5644,6 +6891,304 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
         <link id="0718-38b7-da1f-3f1a" targetId="1096-8459-2ae1-2923" linkType="rule">
           <modifiers/>
         </link>
+        <link id="14f9-5ddf-d17d-7a09" targetId="8d1b-c5db-87d2-63d0" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="7be4-6816-b52f-a145" name="Sepulcher" points="18.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Reckoning" page="60">
+      <entries>
+        <entry id="eeb0-4d1b-07c3-7265" name="Desolator" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="6310-b982-138a-fb7a" profileTypeId="576561706f6e23232344415441232323" name="Desolator" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="13"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="5"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="13"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="S"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="686f-2380-53c6-6f59" targetId="1190f14c-e530-15eb-7a53-cb571bafe626" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="d046-8884-04ed-53b5" targetId="94fd-5c27-b78e-0e5a" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="0203-06c2-6f5f-e04b" name="Spiker" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="719a-0442-3cb8-bd7c" profileTypeId="576561706f6e23232344415441232323" name="Spiker" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="11"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="2"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="13"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L/R"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="3c21-ab15-3844-a785" targetId="2cf4-c772-4404-b230" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="8f9e-334f-bcc5-eedc" targetId="3d73-ea50-e3d3-3a9d" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="1cc1-5c6b-1aa4-bc45" name="Harvester" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="1878-d275-96f8-f5ea" profileTypeId="576561706f6e23232344415441232323" name="Harvester" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="18"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L/R"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="65e6-1866-e401-f5f6" targetId="a41b-2239-fa9f-5efd" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="c487-2f5c-3b9a-e191" targetId="7aa5787b-85dd-fd13-2384-ec32ad1df31f" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="1cfc-e4d0-7677-65e2" targetId="f1ebe717-5e03-7003-60f4-1b14bc6103a1" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="5657-7945-f82f-00d4" targetId="2e52-67e4-38d5-e42b" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="8bf2-3767-3ee4-e152" profileTypeId="5761726a61636b23232344415441232323" name="Sepulcher" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="15"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="10"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="19"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="-"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="bc48-2e86-beb0-5424" targetId="2b074941-17d9-9a6d-1fcc-6471cc332777" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6f09-3048-0e7a-6170" targetId="fbf7-dd01-d25b-d494" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c77f-73e9-a625-3e87" targetId="73b6-6053-da4d-851e" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="e9e8-358c-7972-f67f" name="Shrike" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Reckoning" page="62">
+      <entries>
+        <entry id="add7-afd6-6077-4c90" name="Vicious Beak" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="83dc-d4db-899a-9d56" profileTypeId="576561706f6e23232344415441232323" name="Vicious Beak" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="11"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="H"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+        <entry id="a21d-cd72-d1f5-5931" name="Wing Blades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="20e1-cbe2-40a6-225b" profileTypeId="576561706f6e23232344415441232323" name="Wing Blades" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="11"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="-"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="686f-5b1f-6c59-f2d0" targetId="c0a9-b712-3976-a641" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles>
+        <profile id="c8d5-f7da-4dd8-2beb" profileTypeId="5761726a61636b23232344415441232323" name="Shrike" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="7"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="7"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="16"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="13"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="-"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="9fae-4de0-0c02-3284" targetId="0595-28ab-5075-3bf0" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9b15-ae92-ac3f-e90a" targetId="a515-797b-94b7-02af" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="82bf-ba49-16de-938e" targetId="445c-1750-6824-4a98" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="629d-c844-5c06-271a" name="Skarlock Commander" points="1.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Vengeance" page="77">
+      <entries>
+        <entry id="f369-ec13-322c-c3db" name="Fell Spear" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="e06d-2f2a-f98d-baf4" profileTypeId="576561706f6e23232344415441232323" name="Fell Spear" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="6"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="10"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="05f5-1a59-02ae-9533" targetId="e0f48764-b12b-acca-bb70-726be718b29d" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="ed4b-b2b9-ebd5-64fe" targetId="c950cf4c-33a0-1369-1946-ff2bb9ca7528" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule id="2b83-eded-7577-716f" name="Cryx Thrall Unit Attachment" hidden="false">
+          <modifiers/>
+        </rule>
+        <rule id="efe5-2399-f932-67e5" name="Attachment [Mechanithrall or Bile Thrall]" hidden="false">
+          <description>This attachment can be added to a Mechanithrall or Bile Thrall unit.</description>
+          <modifiers/>
+        </rule>
+        <rule id="e9d4-716e-f1af-0fc0" name="Magic Ability [6]" hidden="false">
+          <description>* Dark Fire (* Attack) - Dark Fire is a RNG 10, POW 12 magic attack. When a living enemy model is destroyed by Dark Fire, this model gains its soul token regardless of the proximity of other models.
+* Disbinding (* Action) - Enemy upkeep spells on this model and / or its unit immediately expire.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="00f4-de1a-de78-0451" profileTypeId="54726f6f70657223232344415441232323" name="Skarlock Commander" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="4"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="3"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="14"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="12"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="b60b-2815-505a-0d96" targetId="43190c68-0893-f7d9-ad1f-cec11538fc72" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="c94a-8f13-7f17-3de9" targetId="21b0922f-4ce2-396f-8960-5747cf7bddca" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3cf1-df7d-9bf0-753d" targetId="a682afa5-bbdf-8e04-3d1b-b947b6339237" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="ecef-8dbf-e9ad-74b3" targetId="b75c-8078-ac6c-9322" linkType="rule">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="f7c825e3-9259-4a9a-b9be-8df85977ceeb" name="Skarlock Thrall" points="2.0" categoryId="536f6c6f23232344415441232323" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Cryx" page="116">
@@ -5703,6 +7248,9 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
           <modifiers/>
         </link>
         <link id="8a48-7581-4dae-e046" targetId="b75c-8078-ac6c-9322" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9c9a-6d88-d2bc-1480" targetId="4a51-61e2-adbc-7114" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -5808,6 +7356,17 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
             <condition parentId="roster" childId="54800c03-7c30-47df-89cf-1269bf181d61" field="selections" type="equal to" value="1.0"/>
           </conditions>
           <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <rules>
@@ -5971,6 +7530,70 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
       </profiles>
       <links/>
     </entry>
+    <entry id="88d9-6eb7-d9c7-cbf0" name="Soul Trapper" points="1.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="3" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries>
+        <entry id="e362-919e-83ac-708d" name="2 Soul Trappers" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="5477-0aa2-3501-e42c" name="Mechano-Claw" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="9fa8-f809-be88-14c3" profileTypeId="576561706f6e23232344415441232323" name="Mechano-Claw" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="8"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles>
+        <profile id="9ae9-59f7-f0d5-92ea" profileTypeId="54726f6f70657223232344415441232323" name="Soul Trapper" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="4"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="5"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="3"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="11"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="12"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="5"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="1"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="fe14-2d3e-0b7a-50a4" targetId="4a51-61e2-adbc-7114" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="dfa0-e90a-e75c-a742" targetId="21b0922f-4ce2-396f-8960-5747cf7bddca" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="4174-066a-ea2c-4a47" targetId="7e5e7684-d2a1-b0a8-7a78-2ad80d661910" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8aec-e6d9-7a9d-6870" targetId="18ce-4e09-c3d4-56ac" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="a3945e40-2e7d-47bc-85d7-8b39fb4a8b2e" name="Soulhunters" points="6.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Cryx" page="106">
       <entries>
         <entry id="0dfb7d2c-4db2-4bd3-a1e1-f7a1185a99da" name="Leader &amp; 2 Grunts -&gt; Leader &amp; 4 Grunts" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="0">
@@ -6052,7 +7675,19 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="increment" field="maxInForce" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="73704e9a-0986-4d1d-ed9c-64f98cfbc46c" name="Body Count" hidden="false" page="0">
           <description>This model gains one soul token each time it destroys a living enemy model. It can have up to three soul tokens at a time. During its activation, this model can spend soul tokens to boost attack or damage rolls at one token per boost. </description>
@@ -6307,7 +7942,19 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="e346-bf93-08db-92c2" name="Cryx Warcasters &amp; Character Solo" hidden="false">
           <modifiers/>
@@ -6576,6 +8223,17 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
       <rules>
         <rule id="a5a01d8c-fbb7-f0fd-1231-daceb0bc6e1b" name="Feat: The Withering" hidden="false" page="0">
@@ -6666,7 +8324,19 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="e822d3d3-b939-a2c8-3dd2-273261f4c9ca" name="Magic Ability [7]" hidden="false" page="0">
           <description>* Power Booster (* Action) - RNG 5. Target friendly Faction warjack. If the target warjack is in range and has no focus points, it gains 1 focus point. If the warjack is Disrupted, it is no longer Disrupted.
@@ -6698,6 +8368,9 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
           <modifiers/>
         </link>
         <link id="028e-b296-8c8e-eed0" targetId="ad6ef5a7-c76a-7a24-e837-f77a76cc406c" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f555-0183-6c0a-ffc1" targetId="4a51-61e2-adbc-7114" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -6847,6 +8520,17 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
           </conditions>
           <conditionGroups/>
         </modifier>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
       <rules>
         <rule id="6244fa82-baba-dcd8-7392-ad9d035dd79d" name="Feat: Web of Shadow" hidden="false" page="0">
@@ -6906,558 +8590,6 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
           <modifiers/>
         </link>
         <link id="c17b-dd6d-b96c-f172" targetId="f366-aa03-7832-6d3f" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="b523-0156-7de3-20d8" name="Goreshade, Lord of Ruin" points="-5.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Vengeance" page="72">
-      <entries>
-        <entry id="c4c1-8aa9-5a15-fb67" name="Voass" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="a7d9-138d-da8d-8fec" profileTypeId="576561706f6e23232344415441232323" name="Voass" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="8"/>
-                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="15"/>
-                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links>
-            <link id="b07e-c1cb-bead-c614" targetId="e0f48764-b12b-acca-bb70-726be718b29d" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="11c3-b5a1-48d1-8ee4" targetId="c950cf4c-33a0-1369-1946-ff2bb9ca7528" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="0675-7199-979e-121b" targetId="083b-be6e-fcdb-1795" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="6a87-a903-4be7-fcdd" name="Mount" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="3f39-9c55-0c45-84e7" profileTypeId="576561706f6e23232344415441232323" name="Mount" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
-                <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
-                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="b5a4-ae09-3eb6-16cc" name="Cryx Epic Cavalry Warcaster" hidden="false">
-          <modifiers/>
-        </rule>
-        <rule id="9b00-c349-bc8c-5bdf" name="Feat: Winter&apos;s Grasp" hidden="false">
-          <description>Center a 3&quot; AOE on any number of friendly non-warcaster warrior models currently in Goreshade&apos;s control area. Enemy models without Immunity: Cold within one or more AOEs become stationary for one round. Then the models the AOEs are centered on are destroyed.</description>
-          <modifiers/>
-        </rule>
-        <rule id="af38-f3e0-7334-611d" name="Spell Vortex" hidden="false">
-          <description>If a living enemy model cast a spell in this model&apos;s control area last turn, this model can cast one spell without spending focus during its activation this turn.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="8661-5af7-64a9-051f" profileTypeId="57617263617374657223232344415441232323" name="Goreshade" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="8"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="7"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="14"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="17"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
-            <characteristic characteristicId="466f63757323232344415441232323" name="Focus" value="7"/>
-            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="17"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="a5f7-d605-ea06-f4cd" targetId="c01cb487-f97a-7246-8f8e-979e2ebf6749" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="655d-442e-f610-b962" targetId="21b0922f-4ce2-396f-8960-5747cf7bddca" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="79be-bab1-a95c-8e7b" targetId="108d-3cf5-9558-02b2" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="e80f-acca-13b8-f411" targetId="4196-0ccf-d26a-fd48" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="a4ef-0684-2ea9-aa79" targetId="129d-b9a6-8cee-ec4a" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="c71a-015a-fd53-d54d" targetId="7434-9bb9-db63-f39a" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="ac5e-fbf8-5c32-257e" targetId="8313-a842-6d72-c938" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="d00b-a8f3-392f-a7fd" targetId="ad66-0eb4-e4e6-b8a3" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="364d-3a34-cd44-74ce" name="Inflictor" points="0.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Vengeance" page="74">
-      <entries>
-        <entry id="fc22-6612-7de1-f242" name="Shield Claw" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="f40d-5934-2ee0-fe49" profileTypeId="576561706f6e23232344415441232323" name="Shield Claw" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="3"/>
-                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="13"/>
-                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links>
-            <link id="bd49-a8a7-5c86-e18b" targetId="f1ebe717-5e03-7003-60f4-1b14bc6103a1" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="b9b7-300f-ace0-c177" targetId="31938085-8f8f-ecbc-1282-4d5071791dc9" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="c3dc-cf97-c454-cba1" name="Stinger" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="1554-6c13-6f0b-dfe8" profileTypeId="576561706f6e23232344415441232323" name="Stinger" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="6"/>
-                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="16"/>
-                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="R"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links>
-            <link id="1696-a7d2-f6e2-df46" targetId="c950cf4c-33a0-1369-1946-ff2bb9ca7528" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="2a1e-26ee-496f-67bd" targetId="fb39-908d-d490-07db" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="4c97-799f-b24e-47df" name="Cryx Helljack" hidden="false">
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="c3d4-22c5-3320-24e5" profileTypeId="5761726a61636b23232344415441232323" name="Inflictor" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="10"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="17"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="-"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="fe26-7583-60d6-0cb7" targetId="4158ad6a-dee0-b6de-4f0f-79440d26d798" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="6870-c7f4-abf0-bc64" targetId="1096-8459-2ae1-2923" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="92ac-d18f-f7af-a872" name="Bane Riders" points="7.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Vengeance" page="76">
-      <entries>
-        <entry id="f0d2-14a5-9136-2cb6" name="Leader &amp; 2 Grunts -&gt; Leader &amp; 4 Grunts" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
-        <entry id="bc0a-f92d-ec36-0527" name="Leader" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="174c-bd4a-e9d7-6764" name="Cleaver" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="fdb5-eb0d-b2b4-777b" profileTypeId="576561706f6e23232344415441232323" name="Cleaver" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-                    <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-                    <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-                    <characteristic characteristicId="504f5723232344415441232323" name="POW" value="6"/>
-                    <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="13"/>
-                    <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links>
-                <link id="b11d-24dc-454e-d62f" targetId="c950cf4c-33a0-1369-1946-ff2bb9ca7528" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="c4ad-5ac0-18e3-ae0b" targetId="f9810b50-8fea-40b9-5628-9fe47f087e16" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="3be3-ff0a-e071-c1f3" name="Mount" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="c2b6-ab71-936d-3e81" profileTypeId="576561706f6e23232344415441232323" name="Mount" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-                    <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-                    <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-                    <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
-                    <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
-                    <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <rules>
-            <rule id="a95f-1a06-bae2-55fc" name="Curse [Bane Riders]" hidden="false">
-              <description>RNG CMD. Target enemy model/unit. If the model/unit is in range, it is cursed. A friendly Bane Riders model charging a cursed model gains +2&quot; movement. Friendly Bane Riders models gain +2 to attack rolls against cursed models. Curse can be used once per ctivation and lasts for one turn.</description>
-              <modifiers/>
-            </rule>
-          </rules>
-          <profiles>
-            <profile id="1184-6929-e7c2-b537" profileTypeId="54726f6f70657223232344415441232323" name="Leader &amp; Grunts" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="53504423232344415441232323" name="SPD" value="7"/>
-                <characteristic characteristicId="53545223232344415441232323" name="STR" value="7"/>
-                <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
-                <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
-                <characteristic characteristicId="44454623232344415441232323" name="DEF" value="12"/>
-                <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="18"/>
-                <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
-                <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links>
-            <link id="257e-65b6-a66b-3397" targetId="108d-3cf5-9558-02b2" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="0d23-7e22-c1a5-35bf" targetId="21b0922f-4ce2-396f-8960-5747cf7bddca" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="4114-60ff-170c-06f8" name="Grunts" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="ac4b-dd4f-6ea7-6477" name="Cleaver" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="9a3b-3687-30d7-1469" profileTypeId="576561706f6e23232344415441232323" name="Cleaver" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-                    <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-                    <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-                    <characteristic characteristicId="504f5723232344415441232323" name="POW" value="6"/>
-                    <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="13"/>
-                    <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links>
-                <link id="d304-9c16-53df-0a39" targetId="c950cf4c-33a0-1369-1946-ff2bb9ca7528" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="2c22-eb4e-2548-ecd1" targetId="f9810b50-8fea-40b9-5628-9fe47f087e16" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="bd3d-c972-5f7f-8b0c" name="Mount" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="bdc0-7c46-e62f-84e9" profileTypeId="576561706f6e23232344415441232323" name="Mount" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-                    <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-                    <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-                    <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
-                    <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
-                    <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="7498-668f-eca9-1c1d" profileTypeId="54726f6f70657223232344415441232323" name="Leader &amp; Grunts" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="53504423232344415441232323" name="SPD" value="7"/>
-                <characteristic characteristicId="53545223232344415441232323" name="STR" value="7"/>
-                <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
-                <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
-                <characteristic characteristicId="44454623232344415441232323" name="DEF" value="12"/>
-                <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="18"/>
-                <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
-                <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links>
-            <link id="2cd9-f537-34ac-bb4e" targetId="108d-3cf5-9558-02b2" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="2b4f-73a3-24ec-40df" targetId="21b0922f-4ce2-396f-8960-5747cf7bddca" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="1f10-b0fa-228e-8fc4" name="Cryx Cavalry Unit" hidden="false">
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="629d-c844-5c06-271a" name="Skarlock Commander" points="1.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Vengeance" page="77">
-      <entries>
-        <entry id="f369-ec13-322c-c3db" name="Fell Spear" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="e06d-2f2a-f98d-baf4" profileTypeId="576561706f6e23232344415441232323" name="Fell Spear" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="6"/>
-                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="10"/>
-                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links>
-            <link id="05f5-1a59-02ae-9533" targetId="e0f48764-b12b-acca-bb70-726be718b29d" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="ed4b-b2b9-ebd5-64fe" targetId="c950cf4c-33a0-1369-1946-ff2bb9ca7528" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="2b83-eded-7577-716f" name="Cryx Thrall Unit Attachment" hidden="false">
-          <modifiers/>
-        </rule>
-        <rule id="efe5-2399-f932-67e5" name="Attachment [Mechanithrall or Bile Thrall]" hidden="false">
-          <description>This attachment can be added to a Mechanithrall or Bile Thrall unit.</description>
-          <modifiers/>
-        </rule>
-        <rule id="e9d4-716e-f1af-0fc0" name="Magic Ability [6]" hidden="false">
-          <description>* Dark Fire (* Attack) - Dark Fire is a RNG 10, POW 12 magic attack. When a living enemy model is destroyed by Dark Fire, this model gains its soul token regardless of the proximity of other models.
-* Disbinding (* Action) - Enemy upkeep spells on this model and / or its unit immediately expire.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="00f4-de1a-de78-0451" profileTypeId="54726f6f70657223232344415441232323" name="Skarlock Commander" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="4"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="3"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="14"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="12"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
-            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="b60b-2815-505a-0d96" targetId="43190c68-0893-f7d9-ad1f-cec11538fc72" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="c94a-8f13-7f17-3de9" targetId="21b0922f-4ce2-396f-8960-5747cf7bddca" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="3cf1-df7d-9bf0-753d" targetId="a682afa5-bbdf-8e04-3d1b-b947b6339237" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="ecef-8dbf-e9ad-74b3" targetId="b75c-8078-ac6c-9322" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="98bc-7a77-184c-1d9f" name="Aiakos, Scourge of the Meredius" points="3.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Vengeance" page="78">
-      <entries>
-        <entry id="5a67-af53-4d5d-dd9c" name="Harpoon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="b221-3ae9-5c0a-a5ff" profileTypeId="576561706f6e23232344415441232323" name="Harpoon" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
-                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
-                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="10"/>
-                <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
-                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links>
-            <link id="962d-05d8-8fba-cfaf" targetId="e0f48764-b12b-acca-bb70-726be718b29d" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="eb7b-311f-d46e-25c5" targetId="fbef461f-5381-9275-c86c-7363da1efd4e" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="58ee-f5a7-e3d7-cac3" name="Blade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="0fa5-f24e-b26a-c314" profileTypeId="576561706f6e23232344415441232323" name="Blade" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="6"/>
-                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="12"/>
-                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links>
-            <link id="4b96-a256-d0cf-311d" targetId="e0f48764-b12b-acca-bb70-726be718b29d" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="17ed-c2e0-53f2-c0b1" name="Cryx Character Solo" hidden="false">
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="d0db-5a02-cb12-7077" profileTypeId="57617263617374657223232344415441232323" name="Aiakos" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="14"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="14"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="7"/>
-            <characteristic characteristicId="466f63757323232344415441232323" name="Focus" value="4"/>
-            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="8cdd-1200-6205-1862" targetId="96d5dd34-f0ed-fb33-631b-9a81327caf31" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="2374-c393-6922-353b" targetId="e99c4320-7ab1-4678-8245-f6bb01e712e0" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="b190-4f99-9bb6-eb21" targetId="9fc627d4-842f-6766-8ed6-b3a2a8bf5d39" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="1c30-69c4-b588-eb85" targetId="8f6c-b21c-1138-af79" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="7169-7198-fc6b-585b" targetId="6ef9-4158-a83a-496e" linkType="entry">
-          <modifiers/>
-        </link>
-        <link id="63a4-715b-9c54-0b66" targetId="817f-db88-81e3-8019" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -8316,6 +9448,14 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
       </profiles>
       <links/>
     </entry>
+    <entry id="b474-6790-5ed5-729a" name="Cavalry Unit" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
     <entry id="88c4-eb36-ab1e-4a0c" name="Chronomancer" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wrath" page="106">
       <entries/>
       <entryGroups/>
@@ -8490,6 +9630,25 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
         </profile>
       </profiles>
       <links/>
+    </entry>
+    <entry id="4a51-61e2-adbc-7114" name="Cryx Solo" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="2f3d-659e-9410-7c55" targetId="1f8d5503-7901-355c-93cd-ce8ef5cf66f3" linkType="rule">
+          <modifiers>
+            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="less than" value="3.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+      </links>
     </entry>
     <entry id="00f9-9f4c-9ea0-34dc" name="Curse of Shadows" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Cryx" page="42">
       <entries/>
@@ -8732,6 +9891,31 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
             <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
             <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
             <characteristic characteristicId="555023232344415441232323" name="UP" value="YES"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
+    <entry id="817f-db88-81e3-8019" name="Deathbringer" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Vengeance" page="78">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="14a6-4e05-2132-e1c1" name="Deathbringer" hidden="false">
+          <description>While within this model&apos;s control area, the melee weapons of models in this model&apos;s battlegroup gain Grievious Wounds. (When a model is hit by a weapon with Grievous Wounds, for one orund it loses Tough, cannot heal or be healed, and cannot transfer damage.)</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="7f4d-7e0b-8102-536c" profileTypeId="5370656c6c23232344415441232323" name="Deathbringer" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="CTRL"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
             <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
           </characteristics>
           <modifiers/>
@@ -10360,6 +11544,31 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
       </profiles>
       <links/>
     </entry>
+    <entry id="7434-9bb9-db63-f39a" name="Mockery of Life" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Vengeance" page="72">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="8f88-ea11-469d-be02" name="Mockery of Life" hidden="false">
+          <description>Return one destroyed friendly Faction Undead Grunt to play with one unmarked damage box. It must be placed in this model&apos;s control area in formation and within 3&quot; of another model in its unit. The Grunt must forfeit its action the turn it is returned to play.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="3e93-e45a-0629-be9a" profileTypeId="5370656c6c23232344415441232323" name="Mockery of Life" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="CTRL"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="a03d-d01c-4b0e-59f7" name="Molten Metal" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="136">
       <entries/>
       <entryGroups/>
@@ -11433,6 +12642,31 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
       </profiles>
       <links/>
     </entry>
+    <entry id="ad66-0eb4-e4e6-b8a3" name="Siphon Bolt" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Vengeance" page="72">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="0583-8ec5-7a8a-ba33" name="Siphon Bolt" hidden="false">
+          <description>When this spell hits an enemy model with 1 or more focus or fury points on it, that model loses 1 focus or fury point and this model gains 1 focus point.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="068a-3493-f8d8-0fe4" profileTypeId="5370656c6c23232344415441232323" name="Siphon Bolt" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
+            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="8"/>
+            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
+            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
+            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="YES"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links/>
+    </entry>
     <entry id="5ca0-fb20-6786-ddc6" name="Snipe" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Retribution of Scyrah" page="62">
       <entries/>
       <entryGroups/>
@@ -11530,6 +12764,31 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
           <modifiers/>
         </profile>
       </profiles>
+      <links/>
+    </entry>
+    <entry id="8d1b-c5db-87d2-63d0" name="Soul Drive" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-1.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="decrement" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="a1f5-898d-0bbe-30d2" field="selections" type="equal to" value="4.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <rules>
+        <rule id="72a7-f1c4-8135-a559" name="Soul Drive" hidden="false" book="Forces of Warmachine: Cryx" page="80">
+          <description>This model is allocated 1 additional focus point during your Control Phase.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles/>
       <links/>
     </entry>
     <entry id="124f-8612-827b-a04a" name="Soul Gate" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Cryx" page="44">
@@ -12530,81 +13789,6 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
       </profiles>
       <links/>
     </entry>
-    <entry id="7434-9bb9-db63-f39a" name="Mockery of Life" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Vengeance" page="72">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="8f88-ea11-469d-be02" name="Mockery of Life" hidden="false">
-          <description>Return one destroyed friendly Faction Undead Grunt to play with one unmarked damage box. It must be placed in this model&apos;s control area in formation and within 3&quot; of another model in its unit. The Grunt must forfeit its action the turn it is returned to play.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="3e93-e45a-0629-be9a" profileTypeId="5370656c6c23232344415441232323" name="Mockery of Life" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="CTRL"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
-            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
-            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="ad66-0eb4-e4e6-b8a3" name="Siphon Bolt" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Vengeance" page="72">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="0583-8ec5-7a8a-ba33" name="Siphon Bolt" hidden="false">
-          <description>When this spell hits an enemy model with 1 or more focus or fury points on it, that model loses 1 focus or fury point and this model gains 1 focus point.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="068a-3493-f8d8-0fe4" profileTypeId="5370656c6c23232344415441232323" name="Siphon Bolt" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="8"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
-            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
-            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="YES"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
-    <entry id="817f-db88-81e3-8019" name="Deathbringer" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Vengeance" page="78">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="14a6-4e05-2132-e1c1" name="Deathbringer" hidden="false">
-          <description>While within this model&apos;s control area, the melee weapons of models in this model&apos;s battlegroup gain Grievious Wounds. (When a model is hit by a weapon with Grievous Wounds, for one orund it loses Tough, cannot heal or be healed, and cannot transfer damage.)</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="7f4d-7e0b-8102-536c" profileTypeId="5370656c6c23232344415441232323" name="Deathbringer" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="434f535423232344415441232323" name="COST" value="2"/>
-            <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SELF"/>
-            <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="CTRL"/>
-            <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
-            <characteristic characteristicId="555023232344415441232323" name="UP" value="NO"/>
-            <characteristic characteristicId="4f464623232344415441232323" name="OFF" value="NO"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links/>
-    </entry>
   </sharedEntries>
   <sharedEntryGroups/>
   <sharedRules>
@@ -12732,8 +13916,16 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
       <description>When this model destroys one or more models with a melee attack during its combat action, immediately after the attack is resolved it must make one additional melee attack against another model in its melee range.</description>
       <modifiers/>
     </rule>
+    <rule id="0595-28ab-5075-3bf0" name="Blade Rush" hidden="false">
+      <description>While making a trample power attack, this model ignores free strikes and does not stop when it contacts a model with a medium or larger base, an obstacle, or an obstruction.  This model makes trample attacks against models regardless of their base size.</description>
+      <modifiers/>
+    </rule>
     <rule id="bdb2fc15-8d1f-5e9f-c518-2b7b55abdb4a" name="Blessed" hidden="false" book="Mercenaries - Forces of Warmachine" page="86">
       <description>When making an attack with this weapon, ignore spell effects that add to a model&apos;s ARM or DEF.</description>
+      <modifiers/>
+    </rule>
+    <rule id="fbf7-dd01-d25b-d494" name="Body Snatcher" hidden="false">
+      <description>This model gains one corpse token each time a Mechanithrall or living model is destroyed within 5˝ of it.</description>
       <modifiers/>
     </rule>
     <rule id="354f488c-bbe0-d555-6e14-d5e14b2240cd" name="Both Barrels (* Attack)" hidden="false" book="Mercenaries - Forces of Warmachine" page="136">
@@ -12909,8 +14101,16 @@ Damaging a colossal
       <description>On a critical hit, the model hit is knocked down.</description>
       <modifiers/>
     </rule>
+    <rule id="94fd-5c27-b78e-0e5a" name="Critical Paralysis" hidden="false">
+      <description>On a critical hit, living models hit have their base DEF reduced to 7 and cannot run or charge for one round.</description>
+      <modifiers/>
+    </rule>
     <rule id="38f0-0eba-f2c7-ec56" name="Critical Pitch" hidden="false" book="Forces of Warmachine: Cryx" page="58">
       <description>On a critical hit, instead of rolling damage normally you can choose to have this model throw the model hit. Treat the throw as if this model had hit with and passed the STR check of a throw power attack. The thrown model suffers a damage roll with POW equal to this model&apos;s STR plus the POW of this weapon. The POW of collateral damage is equial to this model&apos;s STR. </description>
+      <modifiers/>
+    </rule>
+    <rule id="fb39-908d-d490-07db" name="Critical Poison" hidden="false" book="Vengeance" page="74">
+      <description>On a critical hit, gain an additional die on this weapon&apos;s damage rolls against living models.</description>
       <modifiers/>
     </rule>
     <rule id="43668173-8fcc-80f8-e683-4a209f09feca" name="Critical Shred" hidden="false" book="Mercenaries - Forces of Warmachine" page="42">
@@ -12965,6 +14165,10 @@ Damaging a colossal
       <description>Once per turn, when an enemy model advances into and ends its movement in this model&apos;s melee range, this model can immediately make one normal melee attack against it.</description>
       <modifiers/>
     </rule>
+    <rule id="0a1b-3b0a-2a0a-6a39" name="Dig In (* Action)" hidden="false">
+      <description>This model gains cover, does not suffer blast damage, and does not block LOS. The model remains dug in until it moves, is placed, or is engaged. The model cannot dig into solid rock or manmade constructions. This model can begin the game dug in.</description>
+      <modifiers/>
+    </rule>
     <rule id="c933-8790-9bf7-0880" name="Dismember" hidden="false" book="Forces of Warmachine: Cryx" page="60">
       <description>When this model hits a warbeast with a melee attack, roll an additional damage die. </description>
       <modifiers/>
@@ -12979,6 +14183,11 @@ Damaging a colossal
     </rule>
     <rule id="fbef461f-5381-9275-c86c-7363da1efd4e" name="Drag" hidden="false" book="Colossals" page="126">
       <description>If this weapon damages an enemy model with an equal or smaller base, immediately after the attack is resolved the damaged model can be pushed any distance directly toward this model. After the damaged model is moved, this model can make one normal melee attack against the model pushed. After resolving this melee attack, this model can make additional melee attacks during its combat action.</description>
+      <modifiers/>
+    </rule>
+    <rule id="fe49-cf84-f70b-025b" name="Drag Below" hidden="false">
+      <description>During this model’s activation, immediately after resolving an attack in which it boxed
+a living enemy model, this model can use Drag Below. The boxed model is removed from play and this model can immediately make a full advance and then perform a Dig In special action, then its activation ends.</description>
       <modifiers/>
     </rule>
     <rule id="2dfd-7129-f11c-1ff1" name="Dragoon" hidden="false" book="Forces of Warmachine: Retribution of Scyrah" page="96">
@@ -13177,6 +14386,10 @@ Damaging a colossal
       <description>This model is not a warcaster but has the following warcaste special rules: Battlegroup Commander, Control Area, Focus Manipulation, Power Field, and Spellcaster.</description>
       <modifiers/>
     </rule>
+    <rule id="8f6c-b21c-1138-af79" name="Jump" hidden="false" book="Vengeance" page="78">
+      <description>AFter using its normal movement to make a full advance but before performing an action, you can place this model anywhere completely within 5&quot; of its current location. Any effects that prevent it from charging also prevent it from using Jump.</description>
+      <modifiers/>
+    </rule>
     <rule id="607e-3aeb-577a-8ea0" name="Kill Shot" hidden="false" book="Colossals" page="102">
       <description>Once per activation, when a living enemy model is destroyed or removed from play as a result of a melee atack made by this model during its activation, immediately after that attack is resolved this model can make one normal ranged attack ignoring ROF.</description>
       <modifiers/>
@@ -13291,6 +14504,11 @@ Damaging a colossal
       <description>Myrmidons have two damage tracks: a set of boxes representing their force fields and another representing their damage grids.Mark the field boxes before marking the damage grids.The G Boxes of a myrmidon&apos;sdamage grid represent its Field Generator.Once per turn during its activation, a myrmidon can spend 1 focus point to remove d3 damage points from its field damage track unless its Field Generator is crippled.</description>
       <modifiers/>
     </rule>
+    <rule id="73b6-6053-da4d-851e" name="Necro-Industry" hidden="false">
+      <description>Once per turn during its activation, you can remove corpse tokens from this model to
+add models to a friendly Mechanithrall unit. You can remove up to three corpse tokens to add one Grunt per token removed, or you can remove three corpse tokens to add one Brute Thrall. Added models must be placed in formation and within 3˝ of this model.</description>
+      <modifiers/>
+    </rule>
     <rule id="43190c68-0893-f7d9-ad1f-cec11538fc72" name="Officer" hidden="false" book="Warmachine Prime mkII" page="34">
       <description>This model is and Officer (p. 70). The Officer is the unit commander of its unit.</description>
       <modifiers/>
@@ -13349,6 +14567,10 @@ Damaging a colossal
     </rule>
     <rule id="0bd56eb3-cf8a-d779-47a9-cd05c6fa2bee" name="Prowl" hidden="false" book="Mercenaries - Forces of Warmachine" page="64">
       <description>This model gains Stealth while within terrain that provides concealment, the AOE of a spell that provides concealment, or the AOE of a cloud effect.</description>
+      <modifiers/>
+    </rule>
+    <rule id="2e52-67e4-38d5-e42b" name="Pull" hidden="false">
+      <description>If this weapon hits an enemy model with an equal or smaller base, immediately after the attack is resolved the hit model can be pushed any distance directly toward this model.</description>
       <modifiers/>
     </rule>
     <rule id="b40624bc-e1a4-ea04-100d-74f86e8d16fe" name="Purgation" hidden="false" book="Mercenaries - Forces of Warmachine" page="86">
@@ -13475,6 +14697,14 @@ Damaging a colossal
       <description>This model is allocated 1 additional focus point during your Control Phase.</description>
       <modifiers/>
     </rule>
+    <rule id="23ae-2e56-b712-7798" name="Soul Mastery" hidden="false">
+      <description>Anytime during its activation, this model can spend soul tokens for the following effects. Each use of a Soul Mastery effect costs one soul token.
+
+Arcane Spirits – This model can cast a spell with COST 3 or less without spending focus.
+
+Vengeful Spirits – Choose a warjack in this model’s battlegroup that is in its CMD range. The warjack is allocated up to 3 focus points.</description>
+      <modifiers/>
+    </rule>
     <rule id="4a61-d1ee-f4e7-f05f" name="Soul Reaper (* Action)" hidden="false" book="Forces of Warmachine: Cryx" page="38">
       <description>Place a 5&quot; AOE anywhere completely in this model&apos;s control area. The AOE remains in play for one round. When a living enemy model is destroyed in the AOE, this model gains one soul token. While the AOE is in play, this model cannot attack with Daeamortus and has no melee range. </description>
       <modifiers/>
@@ -13483,8 +14713,21 @@ Damaging a colossal
       <description>This model gains one soul token when a living enemy model is destroyed within 2&apos; of it. This model can have up to three soul tokens at a time. During its activation, this model can spend soul tokens to gain additional attacks or to boost attack or damage rolls at one token per attack or boost. </description>
       <modifiers/>
     </rule>
+    <rule id="18ce-4e09-c3d4-56ac" name="Soul Transfer (* Action)" hidden="false">
+      <description>RNG 5. Target friendly Faction model with Body Count, Cull Soul, Soul Collector, or Soul Taker. If the model is in range, remove any number of soul tokens from this model and place one soul token on the friendly model for each token removed.</description>
+      <modifiers/>
+    </rule>
+    <rule id="2687-7743-fd5e-495f" name="Soul Weaver" hidden="false">
+      <description>During its activation, this model can choose a friendly model in its CMD range with Body Count, Cull Soul, Soul Collector, or Soul Taker. Remove any number of soul
+tokens from the chosen model and place one soul token on this model for each token removed.</description>
+      <modifiers/>
+    </rule>
     <rule id="63b6-d33c-c107-095a" name="Soulless" hidden="false" book="Forces of Warmachine: Retribution of Scyrah" page="98">
       <description>This model does not generate a soul token when it is destroyed.</description>
+      <modifiers/>
+    </rule>
+    <rule id="7f55-bf89-eae7-3856" name="Special Issue" hidden="false">
+      <description>This model can be included in the listed Warcaster&apos;s theme forces.  It can also be bonded to the listed Warcaster.</description>
       <modifiers/>
     </rule>
     <rule id="28e3-a108-8802-20ba" name="Spell Ward" hidden="false" book="Forces of Warmachine: Retribution of Scyrah" page="98">
@@ -13535,6 +14778,10 @@ Damaging a colossal
       <description>When this model destroys an enemy model whit a normal ranged attack, immediately after the attack is resolved it can advance up to 2&quot;.</description>
       <modifiers/>
     </rule>
+    <rule id="3d73-ea50-e3d3-3a9d" name="Swivel" hidden="false">
+      <description>When declaring and resolving attacks with this weapon, this model can target and draw line of sight to models in its field of fire or its back arc.</description>
+      <modifiers/>
+    </rule>
     <rule id="36760907-dacd-359c-33bb-1e80c1cdec40" name="Tactician [Steelhead]" hidden="false" book="Mercenaries - Forces of Warmachine" page="68">
       <description>While in this model&apos;s command range, friendly Steelhead models ignore other friendly Steelhead models when determining LOS. Friendly Steelhead models can advance through other friendløy Steelhead models in this model&apos;s command range without effect if they have enough movement to move completely past them.</description>
       <modifiers/>
@@ -13553,6 +14800,10 @@ Damaging a colossal
     </rule>
     <rule id="579ab18e-eb22-6aae-f01d-28868792128f" name="Thresher (* Attack)" hidden="false" book="Mercenaries - Forces of Warmachine" page="45">
       <description>This model makes one melee attack with this weapon against each model in its LOS and this weapon&apos;s melee range.</description>
+      <modifiers/>
+    </rule>
+    <rule id="c0a9-b712-3976-a641" name="Threshing Blades" hidden="false">
+      <description>This model can add this weapon’s POW to its trample power attack damage rolls.</description>
       <modifiers/>
     </rule>
     <rule id="19bbdf49-10f8-f841-3a28-29826fe83d7d" name="Thrown" hidden="false" book="Mercenaries - Forces of Warmachine" page="66">
@@ -13600,14 +14851,6 @@ Damaging a colossal
     </rule>
     <rule id="ff92-34f5-ec51-e9f7" name="Witch Hound" hidden="false" book="Forces of Warmachine: Retribution of Scyrah" page="58">
       <description>If a model in this model&apos;s battlegroup in its control area is hit by an enemy magic attack, immediately after the attack is resolved one model in this model&apos;s battlegroup in its control area can make a full advance and make one normal attack.</description>
-      <modifiers/>
-    </rule>
-    <rule id="fb39-908d-d490-07db" name="Critical Poison" hidden="false" book="Vengeance" page="74">
-      <description>On a critical hit, gain an additional die on this weapon&apos;s damage rolls against living models.</description>
-      <modifiers/>
-    </rule>
-    <rule id="8f6c-b21c-1138-af79" name="Jump" hidden="false" book="Vengeance" page="78">
-      <description>AFter using its normal movement to make a full advance but before performing an action, you can place this model anywhere completely within 5&quot; of its current location. Any effects that prevent it from charging also prevent it from using Jump.</description>
       <modifiers/>
     </rule>
   </sharedRules>
