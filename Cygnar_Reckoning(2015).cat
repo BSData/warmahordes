@@ -696,11 +696,17 @@ Stealth . While its controlling warcaster is B2B with this model, that warcaster
               </profiles>
               <links/>
             </entry>
-            <entry id="4583-560e-2458-ec07" name="Free Unit Attachment" points="-2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-2.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="4583-560e-2458-ec07" name="Free Unit Attachment" points="-2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-2.0" maxPoints="-1.0" collective="false" hidden="true">
               <entries/>
               <entryGroups/>
               <modifiers>
                 <modifier type="set" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="force type" childId="d27a-0988-65cc-8d71" field="selections" type="at least" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="show" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                   <conditions>
                     <condition parentId="force type" childId="d27a-0988-65cc-8d71" field="selections" type="at least" value="1.0"/>
                   </conditions>
@@ -835,6 +841,9 @@ Stealth . While its controlling warcaster is B2B with this model, that warcaster
           <modifiers/>
         </link>
         <link id="96bc-9363-a115-5c86" targetId="45c0-895a-8515-c39e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="bb3c-02f1-5b77-a757" targetId="0c0c-bd70-961f-605a" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -1187,7 +1196,60 @@ Stealth . While its controlling warcaster is B2B with this model, that warcaster
         <entry id="1f1f-58b0-db04-9585" name="Lightning War Tier" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Colossals" page="49">
           <entries/>
           <entryGroups/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="force type" childId="35e2-ac90-a926-f96d" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="force type" childId="0c0c-bd70-961f-605a" field="selections" type="less than" value="2.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="maxSelections" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="force type" childId="35e2-ac90-a926-f96d" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="force type" childId="0c0c-bd70-961f-605a" field="selections" type="at least" value="2.0"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition parentId="force type" childId="ebaa-f1f4-ccc6-461f" field="selections" type="equal to" value="0.0"/>
+                        <condition parentId="force type" childId="3c63-d2cb-d2a5-5f51" field="selections" type="equal to" value="0.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="maxSelections" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="force type" childId="35e2-ac90-a926-f96d" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="force type" childId="0c0c-bd70-961f-605a" field="selections" type="at least" value="2.0"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition parentId="force type" childId="ebaa-f1f4-ccc6-461f" field="selections" type="equal to" value="1.0"/>
+                        <condition parentId="force type" childId="3c63-d2cb-d2a5-5f51" field="selections" type="equal to" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <rules>
             <rule id="098d-2658-2bed-ca93" name="Lightning War" hidden="false">
               <description>Warjacks: Lancers, Cygnar non-character warjacks with Immunity: Electricity, Thunderhead
@@ -1198,6 +1260,39 @@ Solos: Journeyman Warcaster, Cygnar solos with Immunity: Electricity
 
 Battle Engines: Storm Strider</description>
               <modifiers/>
+            </rule>
+            <rule id="db6a-3ce9-9124-630c" name="Tier 2 Benefit" hidden="true">
+              <description>After deployment but before the start of the game, you can pJace any number of your Stormwalls&apos; Lightning Pods anywhere within 20&quot; of the rear edge of your deployment zone.</description>
+              <modifiers>
+                <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="force type" childId="1f1f-58b0-db04-9585" field="selections" type="at least" value="2.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </rule>
+            <rule id="4ec7-9008-5239-b183" name="Tier 3 Benefit" hidden="true">
+              <description>Your deployment zone is extended 2&quot; forward.</description>
+              <modifiers>
+                <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="force type" childId="1f1f-58b0-db04-9585" field="selections" type="at least" value="3.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </rule>
+            <rule id="67a6-5af4-be10-ecd8" name="Tier 4 Benefit" hidden="true">
+              <description>During your first Control Phase of the game, warjacks in Nemo&apos;s battlegroup are each allocated 1 focus point.</description>
+              <modifiers>
+                <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="force type" childId="1f1f-58b0-db04-9585" field="selections" type="at least" value="4.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
             </rule>
           </rules>
           <profiles/>
@@ -1688,6 +1783,9 @@ Snipe -This attack gains +4 RNG.</description>
         <link id="94e3-a86a-b2ef-71fd" targetId="45c0-895a-8515-c39e" linkType="rule">
           <modifiers/>
         </link>
+        <link id="a4b2-291b-0f55-b68f" targetId="0c0c-bd70-961f-605a" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="57618a9b-b56c-fcee-dbda-cb0bc493cdf9" name="Bloody Bradigan" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="116">
@@ -2094,6 +2192,47 @@ Solos: Arcane Tempest Solos</description>
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="force type" childId="e2a4-19df-7168-517b" field="selections" type="less than" value="1.0"/>
+                    <condition parentId="force type" childId="e356-4c1f-f1e0-05a5" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="force type" childId="83c4-6b2e-a922-2fe4" field="selections" type="less than" value="2.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="maxSelections" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="force type" childId="e2a4-19df-7168-517b" field="selections" type="less than" value="1.0"/>
+                    <condition parentId="force type" childId="e356-4c1f-f1e0-05a5" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="force type" childId="83c4-6b2e-a922-2fe4" field="selections" type="at least" value="2.0"/>
+                    <condition parentId="force type" childId="f2f6-508f-c7d9-7d53" field="selections" type="less than" value="3.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="maxSelections" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="force type" childId="e2a4-19df-7168-517b" field="selections" type="less than" value="1.0"/>
+                    <condition parentId="force type" childId="e356-4c1f-f1e0-05a5" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="force type" childId="83c4-6b2e-a922-2fe4" field="selections" type="at least" value="2.0"/>
+                    <condition parentId="force type" childId="f2f6-508f-c7d9-7d53" field="selections" type="at least" value="3.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <rules>
             <rule id="1afb-d23d-973a-25b1" name="The Street Sweepers" hidden="false">
@@ -2103,6 +2242,39 @@ Units: Trencher Commandos, Trencher Infantry
 
 Solos: Non-character Trencher solos</description>
               <modifiers/>
+            </rule>
+            <rule id="ca29-b5ea-46b0-2e83" name="Tier 3 Benefit" hidden="true">
+              <description>For every two Trencher units, place one wall template anywhere within 20&quot; of the back edge of Caine&apos;s deployment zone after terrain has been placed but before either player deploys his army.  Walls cannot be placed within 3&quot; of another terrain feature, including another wall template.  The walls are linear obstacles that grant cover.</description>
+              <modifiers>
+                <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="force type" childId="6689-7dd2-553e-20b1" field="selections" type="at least" value="3.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </rule>
+            <rule id="86e2-2856-93f3-43a5" name="Tier 4 Benefit" hidden="true">
+              <description>Models in this army gain Pathfinder during your first turn of the game.</description>
+              <modifiers>
+                <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="force type" childId="6689-7dd2-553e-20b1" field="selections" type="at least" value="4.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </rule>
+            <rule id="268b-149b-08c2-2e6d" name="Tier 1 Benefit" hidden="true">
+              <description>Warjacks controlled by Trencher &apos;Jack Marshals gain Advance Deployment.</description>
+              <modifiers>
+                <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="force type" childId="6689-7dd2-553e-20b1" field="selections" type="at least" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
             </rule>
           </rules>
           <profiles/>
@@ -2800,7 +2972,7 @@ Power Booster (*Action) - RNG 5. Target friendly Faction warjack. If the target 
                   <conditions>
                     <condition parentId="607e-63fa-aff5-a3df" childId="301e-7876-3867-913f" field="selections" type="equal to" value="0.0"/>
                     <condition parentId="force type" childId="77b0-0e58-d487-3100" field="selections" type="at least" value="2.0"/>
-                    <condition parentId="roster" childId="ec8b-97e1-3e18-daf0" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="force type" childId="ec8b-97e1-3e18-daf0" field="selections" type="at least" value="1.0"/>
                   </conditions>
                   <conditionGroups/>
                 </conditionGroup>
@@ -2813,7 +2985,7 @@ Power Booster (*Action) - RNG 5. Target friendly Faction warjack. If the target 
                   <conditions>
                     <condition parentId="607e-63fa-aff5-a3df" childId="301e-7876-3867-913f" field="selections" type="equal to" value="0.0"/>
                     <condition parentId="force type" childId="77b0-0e58-d487-3100" field="selections" type="at least" value="2.0"/>
-                    <condition parentId="roster" childId="ec8b-97e1-3e18-daf0" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="force type" childId="ec8b-97e1-3e18-daf0" field="selections" type="equal to" value="0.0"/>
                     <condition parentId="force type" childId="3c63-d2cb-d2a5-5f51" field="selections" type="equal to" value="0.0"/>
                   </conditions>
                   <conditionGroups/>
@@ -2827,7 +2999,7 @@ Power Booster (*Action) - RNG 5. Target friendly Faction warjack. If the target 
                   <conditions>
                     <condition parentId="607e-63fa-aff5-a3df" childId="301e-7876-3867-913f" field="selections" type="equal to" value="0.0"/>
                     <condition parentId="force type" childId="77b0-0e58-d487-3100" field="selections" type="at least" value="2.0"/>
-                    <condition parentId="roster" childId="ec8b-97e1-3e18-daf0" field="selections" type="equal to" value="0.0"/>
+                    <condition parentId="force type" childId="ec8b-97e1-3e18-daf0" field="selections" type="equal to" value="0.0"/>
                     <condition parentId="force type" childId="3c63-d2cb-d2a5-5f51" field="selections" type="equal to" value="1.0"/>
                   </conditions>
                   <conditionGroups/>
@@ -4654,7 +4826,7 @@ Solos: Journeyman Warcaster, Stormblade solos</description>
           </profiles>
           <links/>
         </entry>
-        <entry id="09ec-fd52-17cf-3242" name="Blade (Left)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="09ec-fd52-17cf-3242" name="Blade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
           <modifiers/>
@@ -4667,7 +4839,7 @@ Solos: Journeyman Warcaster, Stormblade solos</description>
                 <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
                 <characteristic characteristicId="504f5723232344415441232323" name="POW" value="7"/>
                 <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="13"/>
-                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value="L/R"/>
               </characteristics>
               <modifiers/>
             </profile>
@@ -4684,28 +4856,124 @@ Solos: Journeyman Warcaster, Stormblade solos</description>
             </link>
           </links>
         </entry>
-        <entry id="1290-3452-ff6c-0e77" name="Blade (Right)" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links>
-            <link id="5c4c-a258-e0c8-08f5" targetId="e0f48764-b12b-acca-bb70-726be718b29d" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="f2ed-8205-0d86-24c8" targetId="c950cf4c-33a0-1369-1946-ff2bb9ca7528" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="5e6f-34ab-007a-6f62" targetId="2de3-945a-bea6-7d42" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
         <entry id="ff41-da35-42c7-40a6" name="United We Stand Tier" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="No Quarter">
           <entries/>
           <entryGroups/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="force type" childId="09ca-937e-a413-2e6e" field="selections" type="less than" value="1.0"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions/>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition parentId="force type" childId="147a-15e6-812d-3afe" field="selections" type="at least" value="1.0"/>
+                            <condition parentId="force type" childId="b713-88dc-f307-55ca" field="selections" type="at least" value="1.0"/>
+                            <condition parentId="force type" childId="6da0-dd2d-b9ee-e729" field="selections" type="at least" value="1.0"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition parentId="force type" childId="83c4-6b2e-a922-2fe4" field="selections" type="at least" value="1.0"/>
+                            <condition parentId="force type" childId="617a-4bbd-b365-afc0" field="selections" type="at least" value="1.0"/>
+                            <condition parentId="force type" childId="113e-b132-e990-737f" field="selections" type="at least" value="1.0"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="maxSelections" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="force type" childId="09ca-937e-a413-2e6e" field="selections" type="at least" value="1.0"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions/>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition parentId="force type" childId="147a-15e6-812d-3afe" field="selections" type="at least" value="1.0"/>
+                            <condition parentId="force type" childId="b713-88dc-f307-55ca" field="selections" type="at least" value="1.0"/>
+                            <condition parentId="force type" childId="6da0-dd2d-b9ee-e729" field="selections" type="at least" value="1.0"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition parentId="force type" childId="83c4-6b2e-a922-2fe4" field="selections" type="at least" value="1.0"/>
+                            <condition parentId="force type" childId="617a-4bbd-b365-afc0" field="selections" type="at least" value="1.0"/>
+                            <condition parentId="force type" childId="113e-b132-e990-737f" field="selections" type="at least" value="1.0"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition parentId="force type" childId="61ab-2cf8-c911-4fc7" field="selections" type="equal to" value="0.0"/>
+                        <condition parentId="force type" childId="ec8b-97e1-3e18-daf0" field="selections" type="less than" value="2.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="maxSelections" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="force type" childId="09ca-937e-a413-2e6e" field="selections" type="at least" value="1.0"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions/>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition parentId="force type" childId="147a-15e6-812d-3afe" field="selections" type="at least" value="1.0"/>
+                            <condition parentId="force type" childId="b713-88dc-f307-55ca" field="selections" type="at least" value="1.0"/>
+                            <condition parentId="force type" childId="6da0-dd2d-b9ee-e729" field="selections" type="at least" value="1.0"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition parentId="force type" childId="83c4-6b2e-a922-2fe4" field="selections" type="at least" value="1.0"/>
+                            <condition parentId="force type" childId="617a-4bbd-b365-afc0" field="selections" type="at least" value="1.0"/>
+                            <condition parentId="force type" childId="113e-b132-e990-737f" field="selections" type="at least" value="1.0"/>
+                          </conditions>
+                          <conditionGroups/>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </conditionGroup>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition parentId="force type" childId="61ab-2cf8-c911-4fc7" field="selections" type="equal to" value="1.0"/>
+                        <condition parentId="force type" childId="ec8b-97e1-3e18-daf0" field="selections" type="at least" value="2.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <rules>
             <rule id="dee4-5c6f-5c13-96f9" name="United We Stand Tier" hidden="false">
               <description>Warjacks: Cygnar non-character warjacks
@@ -4716,6 +4984,17 @@ Solos: Lieutenant Allison Jakes, Squire, Stormsmith solos, Trencher solos
 
 Battle Engines: Storm Strider</description>
               <modifiers/>
+            </rule>
+            <rule id="1724-0761-72c6-79a2" name="Tier 2 Benefit" hidden="true">
+              <description>Trencher models/units in the army gain Pathfinder during the first round of the game</description>
+              <modifiers>
+                <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="force type" childId="ff41-da35-42c7-40a6" field="selections" type="at least" value="2.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
             </rule>
           </rules>
           <profiles/>
@@ -4841,7 +5120,46 @@ Battle Engines: Storm Strider</description>
         <entry id="96e7-e68a-89e2-fd0e" name="Army of Light Tier" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wrath" page="28">
           <entries/>
           <entryGroups/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="force type" childId="292e-de6f-5262-653d" field="selections" type="at least" value="2.0"/>
+                    <condition parentId="force type" childId="61cf-70d2-9c97-af07" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="maxSelections" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="force type" childId="292e-de6f-5262-653d" field="selections" type="at least" value="2.0"/>
+                    <condition parentId="force type" childId="61cf-70d2-9c97-af07" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="force type" childId="bc1c-48ad-689a-1308" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="maxSelections" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="force type" childId="292e-de6f-5262-653d" field="selections" type="at least" value="2.0"/>
+                    <condition parentId="force type" childId="61cf-70d2-9c97-af07" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="force type" childId="bc1c-48ad-689a-1308" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <rules>
             <rule id="9493-eba0-c62f-9d74" name="Army of Light" hidden="false">
               <description>Warjacks: Cygnar non-character warjacks, Gallant
@@ -4850,6 +5168,17 @@ Units: Sword Knights, Field Mechaniks, Morrowan units
 
 Solos: Journeyman Warcaster, Archduke Alain Runewood, Morrowan solos</description>
               <modifiers/>
+            </rule>
+            <rule id="d9fc-a974-be83-e53d" name="Tier 4 Benefit" hidden="true">
+              <description>Heavy warjacks in Blaize&apos;s battlegropu without ranged weapons gain Advance Move.  (Before the start of the game but after both players have deployed, a model with Advance Move can make a full advance.)</description>
+              <modifiers>
+                <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="force type" childId="96e7-e68a-89e2-fd0e" field="selections" type="equal to" value="4.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
             </rule>
           </rules>
           <profiles/>
@@ -6706,7 +7035,11 @@ with Damage Type: Electricity. Attack rolls can be rerolled only once as a resul
       </modifiers>
       <rules/>
       <profiles/>
-      <links/>
+      <links>
+        <link id="751b-66aa-0e4a-9514" targetId="0c0c-bd70-961f-605a" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="50267099-1a27-ecba-675d-e27ab87b189a" name="Fiona the Black" points="-6.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="96">
       <entries>
@@ -6949,6 +7282,9 @@ with Damage Type: Electricity. Attack rolls can be rerolled only once as a resul
           <modifiers/>
         </link>
         <link id="8c40-0655-1704-11fd" targetId="ec8b-97e1-3e18-daf0" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="b4a6-69ed-282d-9e37" targetId="beaa-c1ba-baa0-1334" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -8084,6 +8420,9 @@ Solos: Journeyman Warcaster, Squire, Stormsmith solos</description>
         <link id="0837-2f0e-6bbc-e7ca" targetId="ec8b-97e1-3e18-daf0" linkType="entry">
           <modifiers/>
         </link>
+        <link id="370c-06f3-7ea4-7a3e" targetId="beaa-c1ba-baa0-1334" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="ed0c13f6-8561-0351-9f2a-ca9070bc91e0" name="Greygore Boomhowler &amp; Co." points="6.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="56">
@@ -8351,11 +8690,17 @@ Solos: Journeyman Warcaster, Squire, Stormsmith solos</description>
           </profiles>
           <links/>
         </entry>
-        <entry id="76e9-54f6-524f-542f" name="Free Solo" points="-2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-2.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="76e9-54f6-524f-542f" name="Free Solo" points="-2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-2.0" maxPoints="-1.0" collective="false" hidden="true">
           <entries/>
           <entryGroups/>
           <modifiers>
             <modifier type="set" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="force type" childId="e2a4-19df-7168-517b" field="selections" type="at least" value="2.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="show" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="force type" childId="e2a4-19df-7168-517b" field="selections" type="at least" value="2.0"/>
               </conditions>
@@ -8875,6 +9220,22 @@ Snipe - This attack gains +4 RNG.</description>
         </link>
         <link id="d4c54709-92de-3d2e-d9e7-3417d8a7200a" targetId="fa82b6bb-0535-0018-51e6-39606cc75e01" linkType="rule">
           <modifiers/>
+        </link>
+        <link id="37bb-d70b-11d9-638f" targetId="1f8d5503-7901-355c-93cd-ce8ef5cf66f3" linkType="rule">
+          <modifiers>
+            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="force type" childId="96e7-e68a-89e2-fd0e" field="selections" type="less than" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="append" field="name" value="(Army of Light Tier 1 Benefit)" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="force type" childId="96e7-e68a-89e2-fd0e" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
         </link>
       </links>
     </entry>
@@ -9750,7 +10111,7 @@ Snipe - This attack gains +4 RNG.</description>
         </profile>
       </profiles>
       <links>
-        <link id="9cfb-8b35-aadc-8f76" targetId="9fc627d4-842f-6766-8ed6-b3a2a8bf5d39" linkType="rule">
+        <link id="9cfb-8b35-aadc-8f76" targetId="3f4c-86a6-4a46-899e" linkType="entry">
           <modifiers/>
         </link>
         <link id="971c-673b-ecac-cf86" targetId="96d5dd34-f0ed-fb33-631b-9a81327caf31" linkType="rule">
@@ -10148,7 +10509,7 @@ Snipe - This attack gains +4 RNG.</description>
         </profile>
       </profiles>
       <links>
-        <link id="9436-08e1-8634-d5e6" targetId="9fc627d4-842f-6766-8ed6-b3a2a8bf5d39" linkType="rule">
+        <link id="9436-08e1-8634-d5e6" targetId="3f4c-86a6-4a46-899e" linkType="entry">
           <modifiers/>
         </link>
         <link id="5816-a2b9-bd54-1ef8" targetId="ad6ef5a7-c76a-7a24-e837-f77a76cc406c" linkType="rule">
@@ -10602,11 +10963,23 @@ Solos: Arcane Tempest Solos
                 </link>
               </links>
             </entry>
-            <entry id="65f7-d3cc-bf02-d6e4" name="Free Unit Attachment" points="-2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="-2.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="65f7-d3cc-bf02-d6e4" name="Free Unit Attachment" points="-2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="-2.0" maxPoints="-1.0" collective="false" hidden="true">
               <entries/>
               <entryGroups/>
               <modifiers>
                 <modifier type="set" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition parentId="force type" childId="822b-a0b2-7445-1846" field="selections" type="at least" value="3.0"/>
+                        <condition parentId="force type" childId="ecdd-a6de-03e6-17a3" field="selections" type="at least" value="2.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="show" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                   <conditions/>
                   <conditionGroups>
                     <conditionGroup type="or">
@@ -10706,6 +11079,9 @@ Solos: Arcane Tempest Solos
           <modifiers/>
         </link>
         <link id="1552-20b5-c837-46a2" targetId="733c1f4b-ea8e-42b9-a6d9-4e0908702ebb" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7f10-6c03-c48f-bc73" targetId="0c0c-bd70-961f-605a" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -11022,7 +11398,46 @@ control area can advance up to 3&quot; and then can make one normal melee attack
         <entry id="e84a-2fff-d33d-bb9a" name="Riders on the Storm Tier" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Vengeance" page="19">
           <entries/>
           <entryGroups/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="force type" childId="467d-090d-1ff6-8184" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="force type" childId="f2f6-508f-c7d9-7d53" field="selections" type="less than" value="2.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="maxSelections" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="force type" childId="467d-090d-1ff6-8184" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="force type" childId="f2f6-508f-c7d9-7d53" field="selections" type="at least" value="2.0"/>
+                    <condition parentId="force type" childId="0fc7-c947-0c17-d351" field="selections" type="less than" value="2.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="maxSelections" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="force type" childId="467d-090d-1ff6-8184" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="force type" childId="f2f6-508f-c7d9-7d53" field="selections" type="at least" value="2.0"/>
+                    <condition parentId="force type" childId="0fc7-c947-0c17-d351" field="selections" type="at least" value="2.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
           <rules>
             <rule id="01ec-efee-7d01-d2f0" name="Riders on the Storm" hidden="false">
               <description>Warjacks: Cygnar non-character heavy and colossal warjacks wiht SPD 5 or greater, Ol&apos; Rowdy
@@ -11033,6 +11448,17 @@ Solos: Storm Knight solos, Arcane Tempest solos
 
 Battle Engine: Storm Strider</description>
               <modifiers/>
+            </rule>
+            <rule id="b777-99f3-a863-59d0" name="Tier 2 Benefit" hidden="true">
+              <description>Models/units in the army gain Pathfinder during your first turn of the game.</description>
+              <modifiers>
+                <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="force type" childId="e84a-2fff-d33d-bb9a" field="selections" type="at least" value="2.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
             </rule>
           </rules>
           <profiles/>
@@ -11803,7 +12229,7 @@ Solos: Captain Arlan Strangewayes, Journeyman Warcaster, Lieutenant Allison Jake
       </modifiers>
       <rules>
         <rule id="11a1-d081-0832-0403" name="Feat: Breach" hidden="false">
-          <description>The next time each enemy model suffers damage while in Siege&apos;s control area, halve its base when calculating damage from the damage roll. Breach lasts for one turn.</description>
+          <description>The next time each enemy model suffers damage while in Siege&apos;s control area, halve its base ARM when calculating damage from the damage roll. Breach lasts for one turn.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -12389,6 +12815,50 @@ Units: Field Mechaniks, Trencher units
 Solos: Trencher solos</description>
               <modifiers/>
             </rule>
+            <rule id="57e0-6a61-942a-4d73" name="Gravediggers Tier 1 Benefit" hidden="true">
+              <description>You can redeploy one Trencher model/unit after both players have deployed but before the first player&apos;s first tum. The redeployed models must be placed on the table in a location they could have been deployed initially.</description>
+              <modifiers>
+                <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </rule>
+            <rule id="ae59-1bd9-8273-4aa9" name="Gravediggers Tier 2 Benefit" hidden="true">
+              <description>You gain +1 on your starting roll for the game.</description>
+              <modifiers>
+                <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="2.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </rule>
+            <rule id="ef02-4eff-eed6-4079" name="Gravediggers Tier 3 Benefit" hidden="true">
+              <description>For each Trencher Commando or Trencher Infantry unit, place one trench template anywhere completely within 20&quot; of the back edge of Haley&apos;s deployment zone after terrain has been placed but before either player deploys his army. Trench templates cannot be placed within 3&quot; of a terrain feature but can be placed within 3&quot; of each other.</description>
+              <modifiers>
+                <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="3.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </rule>
+            <rule id="3368-8fc7-b45c-d091" name="Gravediggers Tier 4 Benefit" hidden="true">
+              <description>Your deployment is extended 2&quot; forward.</description>
+              <modifiers>
+                <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="equal to" value="4.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </rule>
           </rules>
           <profiles/>
           <links/>
@@ -12403,6 +12873,68 @@ Solos: Trencher solos</description>
               </conditions>
               <conditionGroups/>
             </modifier>
+            <modifier type="set" field="maxSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="less than" value="1.0"/>
+                    <condition parentId="force type" childId="72d8-5b16-9334-82ad" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition parentId="force type" childId="09ca-937e-a413-2e6e" field="selections" type="at least" value="1.0"/>
+                        <condition parentId="force type" childId="559e-192a-5810-0f34" field="selections" type="at least" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="maxSelections" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="less than" value="1.0"/>
+                    <condition parentId="force type" childId="72d8-5b16-9334-82ad" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="force type" childId="7e29-e361-d14c-78b5" field="selections" type="less than" value="2.0"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition parentId="force type" childId="09ca-937e-a413-2e6e" field="selections" type="at least" value="1.0"/>
+                        <condition parentId="force type" childId="559e-192a-5810-0f34" field="selections" type="at least" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="maxSelections" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="force type" childId="3b29-a924-3fef-5087" field="selections" type="less than" value="1.0"/>
+                    <condition parentId="force type" childId="72d8-5b16-9334-82ad" field="selections" type="equal to" value="1.0"/>
+                    <condition parentId="force type" childId="7e29-e361-d14c-78b5" field="selections" type="equal to" value="2.0"/>
+                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition parentId="force type" childId="09ca-937e-a413-2e6e" field="selections" type="at least" value="1.0"/>
+                        <condition parentId="force type" childId="559e-192a-5810-0f34" field="selections" type="at least" value="1.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
           </modifiers>
           <rules>
             <rule id="526d-14b8-5f32-4c16" name="Storm Bringers" hidden="false">
@@ -12414,6 +12946,28 @@ Solos: Stormcaller, Arcane Tempest solos, Arlan Strangewayes, Stormblade solos
 
 Battle Engines: Storm Strider</description>
               <modifiers/>
+            </rule>
+            <rule id="9d6e-ff44-967b-e9df" name="Tier 1 Benefit" hidden="true">
+              <description>For each Field Mechanik unit in the army 1 Storm Strider gains Advance Move.</description>
+              <modifiers>
+                <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </rule>
+            <rule id="3906-d705-816c-e03e" name="Tier 3 Benefit" hidden="true">
+              <description>Each Warjack in Haley&apos;s battegroup is automatically allocated 1 focus point at the start of your first Control Phase.  This focus is in addition to any points Haley allocates.</description>
+              <modifiers>
+                <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="3.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
             </rule>
           </rules>
           <profiles/>
@@ -12472,50 +13026,6 @@ models/ units activate at the start of their controller&apos;s next Activation P
         <rule id="4889-31e9-d57c-d734" name="Warjack Bond" hidden="false">
           <description>One r,on-character warjack in HaJey&apos;s battJegroup can begin the game bonded to her. If this warjack begins its activation in Haley&apos;s control area, it gains +2&quot; movement that activation.</description>
           <modifiers/>
-        </rule>
-        <rule id="c49d-2637-cd41-b1f1" name="Gravediggers Tier 1 Benefit" hidden="true">
-          <description>You can redeploy one Trencher model/unit after both players have deployed but before the first player&apos;s first tum. The redeployed models must be placed on the table in a location they could have been deployed initially.</description>
-          <modifiers>
-            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="e4dd-fef6-4423-8448" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="1.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </rule>
-        <rule id="43b6-f16f-e1da-7d5a" name="Gravediggers Tier 2 Benefit" hidden="true">
-          <description>You gain +1 on your starting roll for the game.</description>
-          <modifiers>
-            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="e4dd-fef6-4423-8448" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="2.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </rule>
-        <rule id="bf1e-79f0-3c65-f8d9" name="Gravediggers Tier 3 Benefit" hidden="true">
-          <description>For each Trencher Commando or Trencher Infantry unit, place one trench template anywhere completely within 20&quot; of the back edge of Haley&apos;s deployment zone after terrain has been placed but before either player deploys his army. Trench templates cannot be placed within 3&quot; of a terrain feature but can be placed within 3&quot; of each other.</description>
-          <modifiers>
-            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="e4dd-fef6-4423-8448" childId="3b29-a924-3fef-5087" field="selections" type="at least" value="3.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-        </rule>
-        <rule id="af89-bb3c-f3a6-2e70" name="Gravediggers Tier 4 Benefit" hidden="true">
-          <description>Your deployment is extended 2&quot; forward.</description>
-          <modifiers>
-            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="e4dd-fef6-4423-8448" childId="3b29-a924-3fef-5087" field="selections" type="equal to" value="4.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
         </rule>
       </rules>
       <profiles>
@@ -13346,9 +13856,37 @@ models/ units activate at the start of their controller&apos;s next Activation P
                 </link>
               </links>
             </entry>
+            <entry id="20b2-af6b-bdd6-df67" name="Free Unit Attachment" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+              <entries/>
+              <entryGroups/>
+              <modifiers>
+                <modifier type="increment" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="force type" childId="96e7-e68a-89e2-fd0e" field="selections" type="at least" value="2.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="show" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="force type" childId="96e7-e68a-89e2-fd0e" field="selections" type="at least" value="2.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
           </entries>
           <entryGroups/>
-          <modifiers/>
+          <modifiers>
+            <modifier type="increment" field="maxInForce" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="direct parent" childId="20b2-af6b-bdd6-df67" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
           <rules/>
           <profiles/>
           <links/>
@@ -13385,6 +13923,17 @@ models/ units activate at the start of their controller&apos;s next Activation P
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" field="maxInForce" value="-1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="96e7-e68a-89e2-fd0e" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
       <rules/>
       <profiles>
@@ -13416,6 +13965,12 @@ models/ units activate at the start of their controller&apos;s next Activation P
           </modifiers>
         </link>
         <link id="5fd1-283e-98fb-43cd" targetId="680598a8-c815-438d-bb8f-f5b40df75f20" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="67a9-a378-bfe4-4426" targetId="a743-0712-ebe1-f364" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="caac-f090-75b6-ac35" targetId="0c0c-bd70-961f-605a" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -13962,6 +14517,9 @@ models/ units activate at the start of their controller&apos;s next Activation P
           <modifiers/>
         </link>
         <link id="fdae-1c1f-b756-e757" targetId="052e99e9-4d49-0010-76c1-fdf68b96ed66" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f138-82ce-05dc-e20d" targetId="0c0c-bd70-961f-605a" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -15446,11 +16004,17 @@ models/ units activate at the start of their controller&apos;s next Activation P
             </conditionGroup>
           </conditionGroups>
         </modifier>
-        <modifier type="set" field="maxInForce" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions>
-            <condition parentId="force type" childId="9b4c-9d5f-43ed-4277" field="selections" type="at least" value="1.0"/>
-          </conditions>
-          <conditionGroups/>
+        <modifier type="increment" field="maxInForce" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="force type" childId="9b4c-9d5f-43ed-4277" field="selections" type="at least" value="1.0"/>
+                <condition parentId="force type" childId="e84a-2fff-d33d-bb9a" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <rules/>
@@ -15493,6 +16057,9 @@ models/ units activate at the start of their controller&apos;s next Activation P
           </modifiers>
         </link>
         <link id="4c69-0f09-45dc-cfba" targetId="c995-7e7a-2b31-d7a8" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="81bc-31b2-46c4-3f67" targetId="0fc7-c947-0c17-d351" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -15561,7 +16128,19 @@ models/ units activate at the start of their controller&apos;s next Activation P
           </conditionGroups>
         </modifier>
       </modifiers>
-      <rules/>
+      <rules>
+        <rule id="562c-0acb-5f41-3761" name="Storm Bringers Tier 4 Benefit" hidden="true">
+          <description>Storm Stiders begin the game with 3 power tokens.</description>
+          <modifiers>
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="4.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </rule>
+      </rules>
       <profiles>
         <profile id="29b4-3c32-da65-363c" profileTypeId="54726f6f70657223232344415441232323" name="Storm Strider" hidden="false">
           <characteristics>
@@ -15943,11 +16522,23 @@ models/ units activate at the start of their controller&apos;s next Activation P
                 </link>
               </links>
             </entry>
-            <entry id="bcaf-2a68-68c8-5889" name="Free Unit Attachment" points="-2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-2.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="bcaf-2a68-68c8-5889" name="Free Unit Attachment" points="-2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-2.0" maxPoints="-1.0" collective="false" hidden="true">
               <entries/>
               <entryGroups/>
               <modifiers>
                 <modifier type="increment" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions/>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition parentId="force type" childId="9b4c-9d5f-43ed-4277" field="selections" type="at least" value="2.0"/>
+                        <condition parentId="force type" childId="6426-1503-a24b-bb30" field="selections" type="at least" value="3.0"/>
+                      </conditions>
+                      <conditionGroups/>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+                <modifier type="show" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                   <conditions/>
                   <conditionGroups>
                     <conditionGroup type="or">
@@ -16122,6 +16713,9 @@ models/ units activate at the start of their controller&apos;s next Activation P
           <modifiers/>
         </link>
         <link id="5873-560a-5fae-1f60" targetId="c995-7e7a-2b31-d7a8" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="70a5-492b-8541-df37" targetId="0c0c-bd70-961f-605a" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -16331,6 +16925,12 @@ models/ units activate at the start of their controller&apos;s next Activation P
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="decrement" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="force type" childId="1f1f-58b0-db04-9585" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
       </modifiers>
       <rules/>
       <profiles>
@@ -16365,6 +16965,9 @@ models/ units activate at the start of their controller&apos;s next Activation P
           <modifiers/>
         </link>
         <link id="3b1e-af27-a614-c2b1" targetId="c995-7e7a-2b31-d7a8" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="11ae-ec66-0ccc-b10e" targetId="0c0c-bd70-961f-605a" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -16478,11 +17081,17 @@ models/ units activate at the start of their controller&apos;s next Activation P
             </link>
           </links>
         </entry>
-        <entry id="8f8e-1b50-d6a9-7f0e" name="Free Unit" points="-2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-2.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="8f8e-1b50-d6a9-7f0e" name="Free Unit" points="-2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-2.0" maxPoints="-1.0" collective="false" hidden="true">
           <entries/>
           <entryGroups/>
           <modifiers>
             <modifier type="increment" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="force type" childId="f951-b8a4-18bc-980a" field="selections" type="at least" value="3.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="show" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="force type" childId="f951-b8a4-18bc-980a" field="selections" type="at least" value="3.0"/>
               </conditions>
@@ -16530,7 +17139,21 @@ models/ units activate at the start of their controller&apos;s next Activation P
       </modifiers>
       <rules/>
       <profiles/>
-      <links/>
+      <links>
+        <link id="a11a-2e51-b767-dc4f" targetId="0c0c-bd70-961f-605a" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="3f8f-96c8-cfe8-d488" targetId="1f8d5503-7901-355c-93cd-ce8ef5cf66f3" linkType="rule">
+          <modifiers>
+            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="force type" childId="ff41-da35-42c7-40a6" field="selections" type="less than" value="3.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </link>
+      </links>
     </entry>
     <entry id="559e-192a-5810-0f34" name="Stormsmith Stormcaller" points="1.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="3" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="114">
       <entries>
@@ -16557,6 +17180,33 @@ models/ units activate at the start of their controller&apos;s next Activation P
               <modifiers/>
             </link>
           </links>
+        </entry>
+        <entry id="62ad-3466-29e4-f2ef" name="Free Solo" points="-1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="0" minInRoster="0" maxInRoster="-1" minPoints="-1.0" maxPoints="-1.0" collective="false" hidden="true">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="increment" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="2.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="show" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="2.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="maxInForce" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="09ca-937e-a413-2e6e" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="2.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <rules/>
+          <profiles/>
+          <links/>
         </entry>
       </entries>
       <entryGroups/>
@@ -16589,6 +17239,18 @@ models/ units activate at the start of their controller&apos;s next Activation P
         <modifier type="increment" field="maxInForce" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="99c2-cae8-d88f-eeb5" incrementField="selections" incrementValue="1.0">
           <conditions>
             <condition parentId="force type" childId="f951-b8a4-18bc-980a" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="maxInForce" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="83c4-6b2e-a922-2fe4" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="force type" childId="ff41-da35-42c7-40a6" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="increment" field="maxInForce" value="1.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="62ad-3466-29e4-f2ef" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="force type" childId="850e-414e-a0c2-e657" field="selections" type="at least" value="2.0"/>
           </conditions>
           <conditionGroups/>
         </modifier>
@@ -17011,11 +17673,17 @@ this model cannot use Activate Lightning Pod.
                 </link>
               </links>
             </entry>
-            <entry id="65ec-6e57-c911-2b4e" name="Free Unit Attachment" points="-2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-2.0" maxPoints="-1.0" collective="false" hidden="false">
+            <entry id="65ec-6e57-c911-2b4e" name="Free Unit Attachment" points="-2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-2.0" maxPoints="-1.0" collective="false" hidden="true">
               <entries/>
               <entryGroups/>
               <modifiers>
                 <modifier type="increment" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="force type" childId="e667-afe8-8815-6a72" field="selections" type="at least" value="2.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="show" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
                   <conditions>
                     <condition parentId="force type" childId="e667-afe8-8815-6a72" field="selections" type="at least" value="2.0"/>
                   </conditions>
@@ -17104,6 +17772,12 @@ this model cannot use Activate Lightning Pod.
           <modifiers/>
         </link>
         <link id="7b1d-93aa-274a-b6d0" targetId="1484-6558-6225-a5f8" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="c705-19b2-54bd-0446" targetId="a743-0712-ebe1-f364" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e0ab-8bcb-e819-2461" targetId="0c0c-bd70-961f-605a" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -17542,6 +18216,9 @@ Electro Leap – When a model is hit with this weapon, you can have lightning ar
           <modifiers/>
         </link>
         <link id="57dd-0219-e163-665d" targetId="45c0-895a-8515-c39e" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="2296-61db-b841-a3b0" targetId="0fc7-c947-0c17-d351" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -18250,6 +18927,9 @@ Electro Leap – When a model is hit with this weapon, you can have lightning ar
         <link id="1f07-2822-dca7-4db2" targetId="83c4-6b2e-a922-2fe4" linkType="entry">
           <modifiers/>
         </link>
+        <link id="df8f-d903-1960-67c9" targetId="0c0c-bd70-961f-605a" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="9a0c-2abd-047c-757b" name="Trencher Chain Gun Crew" points="2.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="102">
@@ -18448,6 +19128,9 @@ Electro Leap – When a model is hit with this weapon, you can have lightning ar
         <link id="1890-0a3e-50b7-25d5" targetId="83c4-6b2e-a922-2fe4" linkType="entry">
           <modifiers/>
         </link>
+        <link id="c898-239d-8db3-b9c2" targetId="0c0c-bd70-961f-605a" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="e356-4c1f-f1e0-05a5" name="Trencher Commandos" points="6.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -18529,7 +19212,14 @@ Electro Leap – When a model is hit with this weapon, you can have lightning ar
             <entry id="7769-37c1-c955-bf60" name="Additional Scattergunner" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
               <entryGroups/>
-              <modifiers/>
+              <modifiers>
+                <modifier type="increment" field="maxSelections" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="force type" childId="6689-7dd2-553e-20b1" field="selections" type="at least" value="2.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
               <rules/>
               <profiles/>
               <links/>
@@ -18572,6 +19262,27 @@ Electro Leap – When a model is hit with this weapon, you can have lightning ar
                   <modifiers/>
                 </profile>
               </profiles>
+              <links/>
+            </entry>
+            <entry id="edf6-1725-4173-d860" name="Free Scattergunner" points="-1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-1.0" maxPoints="-1.0" collective="false" hidden="true">
+              <entries/>
+              <entryGroups/>
+              <modifiers>
+                <modifier type="increment" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="force type" childId="6689-7dd2-553e-20b1" field="selections" type="at least" value="2.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="show" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="force type" childId="6689-7dd2-553e-20b1" field="selections" type="at least" value="2.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <rules/>
+              <profiles/>
               <links/>
             </entry>
           </entries>
@@ -18671,6 +19382,9 @@ Electro Leap – When a model is hit with this weapon, you can have lightning ar
           <modifiers/>
         </link>
         <link id="a649-7471-e5ee-9522" targetId="83c4-6b2e-a922-2fe4" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="1693-99ed-edc2-5c22" targetId="0c0c-bd70-961f-605a" linkType="entry">
           <modifiers/>
         </link>
       </links>
@@ -19059,6 +19773,9 @@ Electro Leap – When a model is hit with this weapon, you can have lightning ar
         <link id="6aa1-ebe1-8e5e-1a81" targetId="83c4-6b2e-a922-2fe4" linkType="entry">
           <modifiers/>
         </link>
+        <link id="38c2-8075-1ce6-357c" targetId="0c0c-bd70-961f-605a" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="113e-b132-e990-737f" name="Trencher Master Gunner" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" page="117">
@@ -19103,11 +19820,17 @@ Electro Leap – When a model is hit with this weapon, you can have lightning ar
           </profiles>
           <links/>
         </entry>
-        <entry id="d41b-e93e-292b-6b54" name="Free Solo" points="-2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="-2.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="d41b-e93e-292b-6b54" name="Free Solo" points="-2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="-2.0" maxPoints="-1.0" collective="false" hidden="true">
           <entries/>
           <entryGroups/>
           <modifiers>
             <modifier type="increment" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="force type" childId="7deb-ec0f-4994-c961" field="selections" type="at least" value="2.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="show" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="force type" childId="7deb-ec0f-4994-c961" field="selections" type="at least" value="2.0"/>
               </conditions>
@@ -19326,12 +20049,18 @@ Electro Leap – When a model is hit with this weapon, you can have lightning ar
         </link>
       </links>
     </entry>
-    <entry id="ac48-8797-f8c3-cb34" name="&apos;Jack Marshaled" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="0" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="ac48-8797-f8c3-cb34" name="&apos;Jack Marshaled" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="0" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
       <entries/>
       <entryGroups/>
       <modifiers>
         <modifier type="increment" field="maxInForce" value="2.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="1484-6558-6225-a5f8" incrementField="selections" incrementValue="1.0">
           <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="show" field="maxInForce" value="2.0" repeat="true" numRepeats="1" incrementParentId="force type" incrementChildId="1484-6558-6225-a5f8" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="force type" childId="1484-6558-6225-a5f8" field="selections" type="at least" value="1.0"/>
+          </conditions>
           <conditionGroups/>
         </modifier>
       </modifiers>
@@ -20256,6 +20985,9 @@ the AOE.</description>
         <link id="f5a9-2a42-9fe7-67e1" targetId="7b25-1e00-26fa-12b3" linkType="rule">
           <modifiers/>
         </link>
+        <link id="3b5e-d2ad-e204-9afa" targetId="0c0c-bd70-961f-605a" linkType="entry">
+          <modifiers/>
+        </link>
       </links>
     </entry>
     <entry id="a45e-2e12-68e9-8254" name="Carnage" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Trollbloods" page="42">
@@ -20586,6 +21318,25 @@ models. The lightning arcs to the nearest model it has not already arced to with
       </profiles>
       <links/>
     </entry>
+    <entry id="0fc7-c947-0c17-d351" name="Cygnar Cavalry Unit" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-1.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="decrement" field="points" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="force type" childId="e84a-2fff-d33d-bb9a" field="selections" type="equal to" value="4.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="ca10-859e-3f80-ff64" targetId="0c0c-bd70-961f-605a" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="99c2-cae8-d88f-eeb5" name="Cygnar Heavy Warjack" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="-2.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
@@ -20651,11 +21402,31 @@ models. The lightning arcs to the nearest model it has not already arced to with
         </link>
       </links>
     </entry>
-    <entry id="f2f6-508f-c7d9-7d53" name="Cygnar Warjack" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+    <entry id="0c0c-bd70-961f-605a" name="Cygnar Unit" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
       <entries/>
       <entryGroups/>
       <modifiers/>
       <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="f2f6-508f-c7d9-7d53" name="Cygnar Warjack" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="feb7-c2d8-2aea-56d2" name="Riders on the Storm Tier 3 Benefit" hidden="true">
+          <description>Warjacks gain +2 SPD during your first turn of the game.</description>
+          <modifiers>
+            <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="force type" childId="e84a-2fff-d33d-bb9a" field="selections" type="at least" value="3.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </rule>
+      </rules>
       <profiles/>
       <links/>
     </entry>
@@ -21664,6 +22435,27 @@ intervening models completely within the AOE.</description>
       </profiles>
       <links/>
     </entry>
+    <entry id="beaa-c1ba-baa0-1334" name="Free Firefly/Grenadier (United We Stand Tier 4 Benefit)" points="-5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="-5.0" maxPoints="-1.0" collective="false" hidden="true">
+      <entries/>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="force type" childId="ff41-da35-42c7-40a6" field="selections" type="equal to" value="4.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="force type" childId="ff41-da35-42c7-40a6" field="selections" type="equal to" value="4.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
     <entry id="b14ac149-f429-40da-be07-b053f2644855" name="Freezing Grip" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Khador" page="52">
       <entries/>
       <entryGroups/>
@@ -22391,6 +23183,18 @@ melee attack.</description>
         </profile>
       </profiles>
       <links/>
+    </entry>
+    <entry id="3f4c-86a6-4a46-899e" name="Journeyman Warcaster" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="81ed-49d5-38a3-9f39" targetId="9fc627d4-842f-6766-8ed6-b3a2a8bf5d39" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
     <entry id="75a2774b-84f3-4a41-ad85-04c5501d79ba" name="Jump Start" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wrath" page="66">
       <entries/>
@@ -24852,6 +25656,29 @@ ROF. Temporal Acceleration can be cast only once per turn.</description>
       </profiles>
       <links/>
     </entry>
+    <entry id="71e6-e742-8f9d-2171" name="to Journeyman Warcaster" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="true">
+      <entries/>
+      <entryGroups/>
+      <modifiers>
+        <modifier type="show" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="force type" childId="3f4c-86a6-4a46-899e" field="selections" type="at least" value="1.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="6cba-8f82-5f15-f5e4" name="to Warcaster" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
     <entry id="175549e1-c08f-4678-8e17-84a4cc385f34" name="Tow" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Khador" page="46">
       <entries/>
       <entryGroups/>
@@ -25371,7 +26198,24 @@ Snare can be cast only once per tum.</description>
       <links/>
     </entry>
   </sharedEntries>
-  <sharedEntryGroups/>
+  <sharedEntryGroups>
+    <entryGroup id="3e58-c072-00a9-e62a" name="Battlegroup Allocation" defaultEntryId="350c-c2a4-3947-9d16" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <links>
+        <link id="9d34-423c-e0fe-61c7" targetId="ac48-8797-f8c3-cb34" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="350c-c2a4-3947-9d16" targetId="6cba-8f82-5f15-f5e4" linkType="entry">
+          <modifiers/>
+        </link>
+        <link id="4f3d-6b94-6b6d-3e08" targetId="71e6-e742-8f9d-2171" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entryGroup>
+  </sharedEntryGroups>
   <sharedRules>
     <rule id="ef93-e07d-f802-e8b9" name="&apos;Jack Hunter" hidden="false" book="Forces of Warmachine: Retribution of Scyrah" page="82">
       <description>This model gains an additional die to its melee and ranged damage rolls against warjacks.</description>
@@ -25512,6 +26356,17 @@ Snare can be cast only once per tum.</description>
     <rule id="8e451e7f-8bd0-4b8e-b13d-17da42128ad5" name="Armor Piercing (*Attack)" hidden="false" book="Forces of Hordes - Trollbloods" page="94">
       <description>When calculating damage from this attack, halve the base ARM stats of models hit that have medium or larger bases. This attack gains +2 to damage rolls against models with small bases.</description>
       <modifiers/>
+    </rule>
+    <rule id="a743-0712-ebe1-f364" name="Army of Light Tier 3 Benefit" hidden="true">
+      <description>Precursor Knight and Sword Knight units gain +2 SPD during your first turn of the game.</description>
+      <modifiers>
+        <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="force type" childId="96e7-e68a-89e2-fd0e" field="selections" type="at least" value="3.0"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
     </rule>
     <rule id="f4d761fa-11cc-0dbb-8814-13fe337094da" name="Artillerist (* Action)" hidden="false" book="Mercenaries - Forces of Warmachine" page="128">
       <description>Choose a friendly Faction model. While in this model&apos;s command range, the chosen model gains +2 to AOE ranged attack rolls. When the chosen model&apos;s AOE ranged attacks deviate, you can reroll the direction and/or distance of the deviation. Each roll can be rerolled only once as a result of Artillerist. Artillerist lasts for one turn.</description>
