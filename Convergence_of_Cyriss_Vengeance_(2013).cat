@@ -1,6 +1,72 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4a5f-40eb-a2a9-4092" revision="1" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="4" battleScribeVersion="1.15" name="Convergence" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4a5f-40eb-a2a9-4092" revision="2" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="4" battleScribeVersion="1.15" name="Convergence" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
+    <entry id="d379-9249-cb85-501c" name="Accretion Servitors" points="1.0" categoryId="536f6c6f23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="3" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine - Convergence of Cyriss" page="82">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="8fa0-5104-4d04-6c09" name="Strip (* Action)" hidden="false">
+          <description>This model can make this special action only when B2B with an enemy warjack. The warjack suffers 1 damage point to the column of your choice.</description>
+          <modifiers/>
+        </rule>
+        <rule id="bba5-2f11-399a-73c1" name="3 Accretion Servitors" hidden="false">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles/>
+      <links>
+        <link id="3ede-1905-3066-9288" targetId="0ba5-9030-5507-b882" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="bd63-9199-d8cc-7235" targetId="dcd95c51-bc0d-22d8-0a1c-2da797cb25f8" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="6547-a237-9a9d-5aca" targetId="bbd8a6eb-2793-1454-fc0f-81ef8aaef586" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="59f4-7fb9-0145-bf45" targetId="68b0-5274-700a-a345" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="30ad-d6b7-c0ae-07e5" targetId="4139-a70b-2274-56f7" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="26c4-3b70-4bbd-1cca" name="Algorithmic Dispersion Optifex" points="1.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="4" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine - Convergence of Cyriss" page="83">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="6900-1632-e396-fc83" name="Subharmonic Tuning" hidden="false">
+          <description>While this model is not in melee, is within 6&quot; of a friendly Faction warjack, and is in a friendly Faction warcaster&apos;s control area, the warcaster can channel spells through this model.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="5ec8-c128-5f5c-a859" profileTypeId="54726f6f70657223232344415441232323" name="Optifex" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="5"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="5"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="12"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="0683-b864-0f6b-c6a3" targetId="17e9-791d-573a-02a1" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="d73b-2e4e-8273-5ad8" targetId="0ba5-9030-5507-b882" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="b594-b938-c6ae-f57d" name="Assimilator" points="8.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine - Convergence of Cyriss" page="62">
       <entries>
         <entry id="85ea-8bbf-7a5d-448a" name="Dissevering Microswarm" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -83,6 +149,56 @@
           <modifiers/>
         </link>
         <link id="05a7-c9fd-991c-0541" targetId="9a85-e603-3a30-4e62" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="8376-bab0-06d6-61b2" name="Attunement Servitor" points="2.0" categoryId="536f6c6f23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine - Convergence of Cyriss" page="84">
+      <entries>
+        <entry id="f925-572d-9679-82e5" name="Lumichem Ampule" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="f623-a5b3-3503-2556" profileTypeId="576561706f6e23232344415441232323" name="Lumichem Ampule" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="7"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="4"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="6e96-8b57-d846-eae9" targetId="6462-e8a8-c9c1-1b1f" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="9303-6786-89a0-263d" name="3 Attunement Servitors" hidden="false">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles/>
+      <links>
+        <link id="20fe-601b-8f81-f420" targetId="0ba5-9030-5507-b882" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="8168-e4af-3d45-cdd5" targetId="dcd95c51-bc0d-22d8-0a1c-2da797cb25f8" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9fa4-5493-64a6-ec1e" targetId="bbd8a6eb-2793-1454-fc0f-81ef8aaef586" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="63ac-b6a3-484f-e84b" targetId="4139-a70b-2274-56f7" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -750,6 +866,121 @@
         </link>
       </links>
     </entry>
+    <entry id="908e-758e-b2b8-2fa5" name="Elimination Servitor" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="3" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine - Convergence of Cyriss" page="85">
+      <entries>
+        <entry id="002a-eebd-78ea-da35" name="Spike Ejector" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="c1c4-19c3-865f-c6d7" profileTypeId="576561706f6e23232344415441232323" name="Spike Ejector" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="9"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="f524-f363-70d0-2ca6" targetId="7e52-df98-1f16-6d92" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="c0fa-1d72-3834-b598" name="3 Elimination Servitors" hidden="false">
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="7ede-fb36-8c83-d76a" profileTypeId="54726f6f70657223232344415441232323" name="Servitor" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="3"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="5"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="12"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="13"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="-"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="1"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="a4bb-ffcd-de86-53a0" targetId="4139-a70b-2274-56f7" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b638-ce55-b85a-129c" targetId="dcd95c51-bc0d-22d8-0a1c-2da797cb25f8" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1d16-9321-f7ca-6856" targetId="5e6058fb-90ea-a457-dbc7-66469fd1147a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="1df1-8cee-b858-a91c" targetId="bbd8a6eb-2793-1454-fc0f-81ef8aaef586" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="255f-143b-711f-5d0f" name="Enigma Foundry" points="3.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine - Convergence of Cyriss" page="86">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="c163-ba35-63cb-87ca" name="Convocation" hidden="false">
+          <description>This model gains one soul token for each friendly living Faction warrior model destroyed in its command range by a continuous effect, an enemy attack, or collateral damage of an enemy attack. This model can have up to three soul tokens at a time.</description>
+          <modifiers/>
+        </rule>
+        <rule id="73e4-3c3a-5143-3f19" name="Reconstruction (* Action)" hidden="false">
+          <description>Remove one soul token from this model to return one destroyed medium-based friendly Faction Clockwork Vessel Grunt to play or remove up to three soul tokens from this model to return one destroyed small-based friendly Faction Clockwork Vessel Grunt to play per token removed. Each Grunt must be placed within 1&quot; of this model, in formation, and within 3&quot; of another model in its unit.</description>
+          <modifiers/>
+        </rule>
+        <rule id="34ca-2ca0-cab8-1d88" name="Repair [10] (* Action)" hidden="false">
+          <description>This model can attempt repairs on any damaged friendly Faction warjack. To attempt repairs, this model must be B2B with the damaged warjack and make a skill check. If successful, remove d6 damage points from the warjack&apos;s damage grid.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="5d64-4249-7fea-9b7c" profileTypeId="54726f6f70657223232344415441232323" name="Foundry" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="8"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="-"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="-"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="10"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="18"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="10"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="10"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="286a-eff1-3652-31dc" targetId="0ba5-9030-5507-b882" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3b64-808a-7823-c403" targetId="dcd95c51-bc0d-22d8-0a1c-2da797cb25f8" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="7115-8a1c-da64-5fbe" targetId="bbd8a6eb-2793-1454-fc0f-81ef8aaef586" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0a59-1c75-909d-8c72" targetId="f2c3-e1b1-18f1-2c6a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b8af-e6fc-4077-4a58" targetId="2674-8e61-9eba-aab9" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="343d-8497-10c4-c4c6" name="Eradicators" points="6.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine - Convergence of Cyriss" page="75">
       <entries>
         <entry id="d243-0ce2-c75e-7ac1" name="Protean Bucklers" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1017,7 +1248,7 @@
         </link>
       </links>
     </entry>
-    <entry id="fbb8-83fb-dd22-79a4" name="Galvanizer" points="0.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine - Convergence of Cyriss" page="60">
+    <entry id="fbb8-83fb-dd22-79a4" name="Galvanizer" points="3.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine - Convergence of Cyriss" page="60">
       <entries>
         <entry id="6ebe-77d3-0e28-1212" name="Metal Saw" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -1160,7 +1391,7 @@
         </link>
       </links>
     </entry>
-    <entry id="41bd-51a5-cb4f-b8fc" name="Iron Mother Directrix &amp; Exponent Servitors" points="-4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine - Convergence of Cyriss" page="48">
+    <entry id="41bd-51a5-cb4f-b8fc" name="Iron Mother Directrix &amp; Exponent Servitors" points="-4.0" categoryId="57617263617374657223232344415441232323" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine - Convergence of Cyriss" page="48">
       <entries>
         <entry id="d727-be50-eef9-b89b" name="Cloak of Blades" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -1335,7 +1566,7 @@
         </link>
       </links>
     </entry>
-    <entry id="ff99-14cc-2dc9-851f" name="Mitigator" points="0.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine - Convergence of Cyriss" page="61">
+    <entry id="ff99-14cc-2dc9-851f" name="Mitigator" points="4.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine - Convergence of Cyriss" page="61">
       <entries>
         <entry id="351c-7890-1cd0-8a39" name="Razor Bola" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -1411,7 +1642,7 @@
         </link>
       </links>
     </entry>
-    <entry id="b073-672f-c6d4-8c10" name="Modulator" points="0.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine - Convergence of Cyriss" page="66">
+    <entry id="b073-672f-c6d4-8c10" name="Modulator" points="6.0" categoryId="5761726a61636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine - Convergence of Cyriss" page="66">
       <entries>
         <entry id="8a83-3b04-4ac1-59a3" name="Emitter Surge" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -1703,7 +1934,7 @@
         </link>
       </links>
     </entry>
-    <entry id="7bc2-f63a-9427-2a5a" name="Optifex Directive" points="0.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine - Convergence of Cyriss" page="77">
+    <entry id="7bc2-f63a-9427-2a5a" name="Optifex Directive" points="2.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine - Convergence of Cyriss" page="77">
       <entries>
         <entry id="95c6-a216-a5e6-6369" name="Tuning Kit" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -1762,6 +1993,104 @@
           <modifiers/>
         </link>
         <link id="7cb7-3a61-4fc0-ea64" targetId="0ff5-371f-ffae-dc65" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="709f-bf93-eb86-6a64" name="Perforators" points="6.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine - Convergence of Cyriss" page="80">
+      <entries>
+        <entry id="0bc3-4dec-3504-a39f" name="Leader &amp; 2 Grunts -&gt; Leader &amp; 4 Grunts" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles/>
+          <links/>
+        </entry>
+        <entry id="8c09-6d8b-85b0-ef2b" name="Protean Javelin" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="bea5-ee5c-1cd7-b7a4" profileTypeId="576561706f6e23232344415441232323" name="Protean Javelin" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="6"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="4ea3-03da-80b2-84c9" targetId="5d4d-e570-ec45-fc80" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="2c30-29dc-38ff-393a" name="Gear Blade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="b6da-6887-6b90-e5ef" profileTypeId="576561706f6e23232344415441232323" name="Gear Blade" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="12"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links/>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="a0cd-9e3f-3e64-2ec3" name="Variable [ranged]" hidden="false">
+          <description>At the start of this unit&apos;s activation, choose one of the following modes for the unit&apos;s weapons. Each of this model&apos;s ranged weapons gains the ability listed for one round.
+- Empowered Attack - This weapon gains +2 on its damaged rolls.
+- Snipe - This attack gains +4 RNG.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="04d2-bb25-f579-594c" profileTypeId="54726f6f70657223232344415441232323" name="Leader &amp; Grunts" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="8"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="12"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="15"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="7"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="8"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="2297-3511-7718-744c" targetId="dcd95c51-bc0d-22d8-0a1c-2da797cb25f8" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="9d0f-f41a-dbab-a8e0" targetId="014a-710b-8a35-38f3" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="12aa-7c52-eca2-87b7" targetId="f2c3-e1b1-18f1-2c6a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="eb69-4f4b-2a3f-6f09" targetId="2674-8e61-9eba-aab9" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="e827-7b27-ce12-d6ca" targetId="0ff5-371f-ffae-dc65" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -2094,442 +2423,6 @@
         </link>
       </links>
     </entry>
-    <entry id="709f-bf93-eb86-6a64" name="Perforators" points="6.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine - Convergence of Cyriss" page="80">
-      <entries>
-        <entry id="0bc3-4dec-3504-a39f" name="Leader &amp; 2 Grunts -&gt; Leader &amp; 4 Grunts" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
-        <entry id="8c09-6d8b-85b0-ef2b" name="Protean Javelin" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="bea5-ee5c-1cd7-b7a4" profileTypeId="576561706f6e23232344415441232323" name="Protean Javelin" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="6"/>
-                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
-                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="6"/>
-                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
-                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links>
-            <link id="4ea3-03da-80b2-84c9" targetId="5d4d-e570-ec45-fc80" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="2c30-29dc-38ff-393a" name="Gear Blade" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="b6da-6887-6b90-e5ef" profileTypeId="576561706f6e23232344415441232323" name="Gear Blade" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
-                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="12"/>
-                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links/>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="a0cd-9e3f-3e64-2ec3" name="Variable [ranged]" hidden="false">
-          <description>At the start of this unit&apos;s activation, choose one of the following modes for the unit&apos;s weapons. Each of this model&apos;s ranged weapons gains the ability listed for one round.
-- Empowered Attack - This weapon gains +2 on its damaged rolls.
-- Snipe - This attack gains +4 RNG.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="04d2-bb25-f579-594c" profileTypeId="54726f6f70657223232344415441232323" name="Leader &amp; Grunts" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="8"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="12"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="15"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="7"/>
-            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="8"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="2297-3511-7718-744c" targetId="dcd95c51-bc0d-22d8-0a1c-2da797cb25f8" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="9d0f-f41a-dbab-a8e0" targetId="014a-710b-8a35-38f3" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="12aa-7c52-eca2-87b7" targetId="f2c3-e1b1-18f1-2c6a" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="eb69-4f4b-2a3f-6f09" targetId="2674-8e61-9eba-aab9" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="e827-7b27-ce12-d6ca" targetId="0ff5-371f-ffae-dc65" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="d85a-7ae6-38d3-7744" name="Transverse Enumerator" points="2.0" categoryId="556e697423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="3" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine - Convergence of Cyriss" page="81">
-      <entries>
-        <entry id="fa48-4831-9962-ab01" name="Blowtorch" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="5eee-087c-ced2-bca5" profileTypeId="576561706f6e23232344415441232323" name="Blowtorch" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SP 6"/>
-                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
-                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
-                <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
-                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links>
-            <link id="217d-20c2-84b2-11d0" targetId="9af05fc0-9296-c765-7ed3-8e5fa3340af0" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="a0d6-6a66-4aa3-c34d" targetId="940f810a-0924-49b2-f014-0c5dfeeee1b1" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="fdfa-8237-83e7-e096" name="Tuning Staff" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="946f-1d4b-38bd-77f5" profileTypeId="576561706f6e23232344415441232323" name="Tuning Staff" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="5"/>
-                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="10"/>
-                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links>
-            <link id="66d9-4c7b-b4d7-8306" targetId="3317-7ff4-4974-5a3e" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="f2e8-a6f4-de64-407a" name="Convergence Unit Attachment" hidden="false">
-          <modifiers/>
-        </rule>
-        <rule id="8ce6-d470-a7db-97ff" name="Attachment [Convergence]" hidden="false">
-          <description>This attachment can be added to a Convergence unit.</description>
-          <modifiers/>
-        </rule>
-        <rule id="5975-dc52-2664-1860" name="Attachment Deployment" hidden="false">
-          <description>If this model is attached to a unit with Advance Deployment, it gains Advance Deployment. If it is attached to a unit with Ambush, it gains Ambush.</description>
-          <modifiers/>
-        </rule>
-        <rule id="3175-8832-99e4-20fe" name="Realignment" hidden="false">
-          <description>Once per game during its unit&apos;s activation, this model can use Realignment. Models in this unit can reroll failed attack rolls and skill checks this turn. Each roll can be rerolled only once as a result of Realignment.</description>
-          <modifiers/>
-        </rule>
-        <rule id="51f4-e3b0-8602-6671" name="Repair [9] (* Action)" hidden="false">
-          <description>This model can attempt repairs on any damaged friendly Faction warjack. To attempt repairs, this model must be B2B with the damaged warjack and make a skill check. If successful, remove d6 damage points from the warjack&apos;s damage grid.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="7a2a-b163-d1e1-3c30" profileTypeId="54726f6f70657223232344415441232323" name=" Enumerator" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="5"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="13"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
-            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="b3a1-f95a-1f20-1a83" targetId="1825eb84-75bc-45d1-075a-73923524097d" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="b3ba-1f00-5043-504d" targetId="0185cef5-a3c9-603c-100d-c470bee8d29f" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="cc6b-4dec-92ce-ad0b" targetId="17e9-791d-573a-02a1" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="3232-7cfa-dda3-29c1" targetId="0f32-da1b-7e20-2aa9" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="d379-9249-cb85-501c" name="Accretion Servitors" points="1.0" categoryId="536f6c6f23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="3" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine - Convergence of Cyriss" page="82">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="8fa0-5104-4d04-6c09" name="Strip (* Action)" hidden="false">
-          <description>This model can make this special action only when B2B with an enemy warjack. The warjack suffers 1 damage point to the column of your choice.</description>
-          <modifiers/>
-        </rule>
-        <rule id="bba5-2f11-399a-73c1" name="3 Accretion Servitors" hidden="false">
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles/>
-      <links>
-        <link id="3ede-1905-3066-9288" targetId="0ba5-9030-5507-b882" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="bd63-9199-d8cc-7235" targetId="dcd95c51-bc0d-22d8-0a1c-2da797cb25f8" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="6547-a237-9a9d-5aca" targetId="bbd8a6eb-2793-1454-fc0f-81ef8aaef586" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="59f4-7fb9-0145-bf45" targetId="68b0-5274-700a-a345" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="30ad-d6b7-c0ae-07e5" targetId="4139-a70b-2274-56f7" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="26c4-3b70-4bbd-1cca" name="Algorithmic Dispersion Optifex" points="1.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="4" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine - Convergence of Cyriss" page="83">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="6900-1632-e396-fc83" name="Subharmonic Tuning" hidden="false">
-          <description>While this model is not in melee, is within 6&quot; of a friendly Faction warjack, and is in a friendly Faction warcaster&apos;s control area, the warcaster can channel spells through this model.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="5ec8-c128-5f5c-a859" profileTypeId="54726f6f70657223232344415441232323" name="Optifex" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="5"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="5"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="12"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
-            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="0683-b864-0f6b-c6a3" targetId="17e9-791d-573a-02a1" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="d73b-2e4e-8273-5ad8" targetId="0ba5-9030-5507-b882" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="8376-bab0-06d6-61b2" name="Attunement Servitor" points="2.0" categoryId="536f6c6f23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine - Convergence of Cyriss" page="84">
-      <entries>
-        <entry id="f925-572d-9679-82e5" name="Lumichem Ampule" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="f623-a5b3-3503-2556" profileTypeId="576561706f6e23232344415441232323" name="Lumichem Ampule" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="7"/>
-                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
-                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="4"/>
-                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
-                <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
-                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links>
-            <link id="6e96-8b57-d846-eae9" targetId="6462-e8a8-c9c1-1b1f" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="9303-6786-89a0-263d" name="3 Attunement Servitors" hidden="false">
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles/>
-      <links>
-        <link id="20fe-601b-8f81-f420" targetId="0ba5-9030-5507-b882" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="8168-e4af-3d45-cdd5" targetId="dcd95c51-bc0d-22d8-0a1c-2da797cb25f8" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="9fa4-5493-64a6-ec1e" targetId="bbd8a6eb-2793-1454-fc0f-81ef8aaef586" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="63ac-b6a3-484f-e84b" targetId="4139-a70b-2274-56f7" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="908e-758e-b2b8-2fa5" name="Elimination Servitor" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="3" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine - Convergence of Cyriss" page="85">
-      <entries>
-        <entry id="002a-eebd-78ea-da35" name="Spike Ejector" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="c1c4-19c3-865f-c6d7" profileTypeId="576561706f6e23232344415441232323" name="Spike Ejector" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="9"/>
-                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
-                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
-                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
-                <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
-                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links>
-            <link id="f524-f363-70d0-2ca6" targetId="7e52-df98-1f16-6d92" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="c0fa-1d72-3834-b598" name="3 Elimination Servitors" hidden="false">
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="7ede-fb36-8c83-d76a" profileTypeId="54726f6f70657223232344415441232323" name="Servitor" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="3"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="5"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="12"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="13"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="-"/>
-            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="1"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="a4bb-ffcd-de86-53a0" targetId="4139-a70b-2274-56f7" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="b638-ce55-b85a-129c" targetId="dcd95c51-bc0d-22d8-0a1c-2da797cb25f8" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="1d16-9321-f7ca-6856" targetId="5e6058fb-90ea-a457-dbc7-66469fd1147a" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="1df1-8cee-b858-a91c" targetId="bbd8a6eb-2793-1454-fc0f-81ef8aaef586" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="255f-143b-711f-5d0f" name="Enigma Foundry" points="3.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine - Convergence of Cyriss" page="86">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="c163-ba35-63cb-87ca" name="Convocation" hidden="false">
-          <description>This model gains one soul token for each friendly living Faction warrior model destroyed in its command range by a continuous effect, an enemy attack, or collateral damage of an enemy attack. This model can have up to three soul tokens at a time.</description>
-          <modifiers/>
-        </rule>
-        <rule id="73e4-3c3a-5143-3f19" name="Reconstruction (* Action)" hidden="false">
-          <description>Remove one soul token from this model to return one destroyed medium-based friendly Faction Clockwork Vessel Grunt to play or remove up to three soul tokens from this model to return one destroyed small-based friendly Faction Clockwork Vessel Grunt to play per token removed. Each Grunt must be placed within 1&quot; of this model, in formation, and within 3&quot; of another model in its unit.</description>
-          <modifiers/>
-        </rule>
-        <rule id="34ca-2ca0-cab8-1d88" name="Repair [10] (* Action)" hidden="false">
-          <description>This model can attempt repairs on any damaged friendly Faction warjack. To attempt repairs, this model must be B2B with the damaged warjack and make a skill check. If successful, remove d6 damage points from the warjack&apos;s damage grid.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="5d64-4249-7fea-9b7c" profileTypeId="54726f6f70657223232344415441232323" name="Foundry" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="5"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="8"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="-"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="-"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="10"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="18"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="10"/>
-            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="10"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="286a-eff1-3652-31dc" targetId="0ba5-9030-5507-b882" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="3b64-808a-7823-c403" targetId="dcd95c51-bc0d-22d8-0a1c-2da797cb25f8" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="7115-8a1c-da64-5fbe" targetId="bbd8a6eb-2793-1454-fc0f-81ef8aaef586" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="0a59-1c75-909d-8c72" targetId="f2c3-e1b1-18f1-2c6a" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="b8af-e6fc-4077-4a58" targetId="2674-8e61-9eba-aab9" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
     <entry id="2008-8c5a-38b7-3854" name="Reflex Servitor" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="3" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine - Convergence of Cyriss" page="88">
       <entries>
         <entry id="4b08-5d03-414f-40ef" name="Probability Mine" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2785,6 +2678,113 @@
       <rules/>
       <profiles/>
       <links/>
+    </entry>
+    <entry id="d85a-7ae6-38d3-7744" name="Transverse Enumerator" points="2.0" categoryId="556e697423232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="3" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine - Convergence of Cyriss" page="81">
+      <entries>
+        <entry id="fa48-4831-9962-ab01" name="Blowtorch" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="5eee-087c-ced2-bca5" profileTypeId="576561706f6e23232344415441232323" name="Blowtorch" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="SP 6"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE" value="-"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="12"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="217d-20c2-84b2-11d0" targetId="9af05fc0-9296-c765-7ed3-8e5fa3340af0" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="a0d6-6a66-4aa3-c34d" targetId="940f810a-0924-49b2-f014-0c5dfeeee1b1" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="fdfa-8237-83e7-e096" name="Tuning Staff" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="946f-1d4b-38bd-77f5" profileTypeId="576561706f6e23232344415441232323" name="Tuning Staff" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="5"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="10"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="66d9-4c7b-b4d7-8306" targetId="3317-7ff4-4974-5a3e" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="f2e8-a6f4-de64-407a" name="Convergence Unit Attachment" hidden="false">
+          <modifiers/>
+        </rule>
+        <rule id="8ce6-d470-a7db-97ff" name="Attachment [Convergence]" hidden="false">
+          <description>This attachment can be added to a Convergence unit.</description>
+          <modifiers/>
+        </rule>
+        <rule id="5975-dc52-2664-1860" name="Attachment Deployment" hidden="false">
+          <description>If this model is attached to a unit with Advance Deployment, it gains Advance Deployment. If it is attached to a unit with Ambush, it gains Ambush.</description>
+          <modifiers/>
+        </rule>
+        <rule id="3175-8832-99e4-20fe" name="Realignment" hidden="false">
+          <description>Once per game during its unit&apos;s activation, this model can use Realignment. Models in this unit can reroll failed attack rolls and skill checks this turn. Each roll can be rerolled only once as a result of Realignment.</description>
+          <modifiers/>
+        </rule>
+        <rule id="51f4-e3b0-8602-6671" name="Repair [9] (* Action)" hidden="false">
+          <description>This model can attempt repairs on any damaged friendly Faction warjack. To attempt repairs, this model must be B2B with the damaged warjack and make a skill check. If successful, remove d6 damage points from the warjack&apos;s damage grid.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="7a2a-b163-d1e1-3c30" profileTypeId="54726f6f70657223232344415441232323" name=" Enumerator" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="5"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="5"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="13"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="b3a1-f95a-1f20-1a83" targetId="1825eb84-75bc-45d1-075a-73923524097d" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="b3ba-1f00-5043-504d" targetId="0185cef5-a3c9-603c-100d-c470bee8d29f" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="cc6b-4dec-92ce-ad0b" targetId="17e9-791d-573a-02a1" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="3232-7cfa-dda3-29c1" targetId="0f32-da1b-7e20-2aa9" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
     </entry>
   </entries>
   <rules/>
@@ -4954,6 +4954,10 @@ Servicable. Friendly Faction models with the Repair ability can attempt to repai
       <description>When it charges living warrior models without being forced.</description>
       <modifiers/>
     </rule>
+    <rule id="68b0-5274-700a-a345" name="Bodge (* Action)" hidden="false" book="Forces of Warmachine - Convergence of Cyriss" page="82">
+      <description>This model performs minor repairs to one damaged friendly Faction warjack with which it is B2B. Remove 1 damage point from the warjack.</description>
+      <modifiers/>
+    </rule>
     <rule id="663f-347e-7424-91b7" name="Bone Picker" hidden="false" book="Domination" page="90">
       <description>Refer to page 90.</description>
       <modifiers/>
@@ -5086,6 +5090,9 @@ Damaging a colossal
       <modifiers/>
     </rule>
     <rule id="da54-e57e-4412-035a" name="Convergence Light Vector" hidden="false">
+      <modifiers/>
+    </rule>
+    <rule id="0ba5-9030-5507-b882" name="Convergence Solo" hidden="false">
       <modifiers/>
     </rule>
     <rule id="0ff5-371f-ffae-dc65" name="Convergence Unit" hidden="false" book="">
@@ -5261,6 +5268,10 @@ Damaging a colossal
       <description>When this model makes a melee attack against an enemy model within the melee range of a friendly model of the type indicated, this model gains +2 to attack rolls and gains an additional damage die.</description>
       <modifiers/>
     </rule>
+    <rule id="6462-e8a8-c9c1-1b1f" name="Flare" hidden="false" book="Forces of Warmachine - Convergence of Cyriss" page="84">
+      <description>Models hit by this attack suffer -2 DEF for one round.</description>
+      <modifiers/>
+    </rule>
     <rule id="3ddc945e-f75e-4b8a-f2e1-ccb4ae31f748" name="Flight" hidden="false" book="Forces of Hordes - Legion of Everblight" page="48">
       <description>This model can advance through terrain and obstacles without penalty and can advance through obstructions and other models if it has enough movemnt to move completely past them. This model ignores intervening models when declaring its charge target.</description>
       <modifiers/>
@@ -5333,6 +5344,10 @@ Damaging a colossal
     </rule>
     <rule id="3b3063ad-db80-8f06-075b-1b52d906b221" name="Gross Anatomy" hidden="false" book="Domination" page="80,90">
       <description>During its activation, this model can spend corpse token to heal damage. For each corpse token spent remove d3 damage from this model.</description>
+      <modifiers/>
+    </rule>
+    <rule id="87be-2105-ec17-c347" name="Gun Platform" hidden="false" book="Forces of Warmachine - Convergence of Cyriss" page="90">
+      <description>This model can make ranged attacks even while in melee.	</description>
       <modifiers/>
     </rule>
     <rule id="5e6058fb-90ea-a457-dbc7-66469fd1147a" name="Gunfighter" hidden="false" book="Hordes Primal MK II" page="33">
@@ -5792,6 +5807,9 @@ Attacks made with magical weapons are not magic attacks.</description>
       <description>When this model destroys an enemy model with a normal ranged attack, immediately after the attack is resolved it can advanced up to 2&quot;.</description>
       <modifiers/>
     </rule>
+    <rule id="0f32-da1b-7e20-2aa9" name="Tactics: Ranked Attacks" hidden="false" book="Forces of Warmachine - Convergence of Cyriss" page="81">
+      <modifiers/>
+    </rule>
     <rule id="38446c5e-65ed-e69a-b962-dc213a722041" name="Tactics: Relentless Charge " hidden="false" book="Gargantuans" page="110">
       <description>Models in this unit gain Relentless Charge. (Models with Relentless Charge gain Pathfinder during activations they charge.)</description>
       <modifiers/>
@@ -5906,24 +5924,6 @@ Attachments
     </rule>
     <rule id="8e68e487-7a76-9cdb-dbb4-2af0ac48d773" name="Wrastler" hidden="false" book="Forces of Hordes - Minions" page="57">
       <description>While knocked down, this model can make</description>
-      <modifiers/>
-    </rule>
-    <rule id="0ba5-9030-5507-b882" name="Convergence Solo" hidden="false">
-      <modifiers/>
-    </rule>
-    <rule id="0f32-da1b-7e20-2aa9" name="Tactics: Ranked Attacks" hidden="false" book="Forces of Warmachine - Convergence of Cyriss" page="81">
-      <modifiers/>
-    </rule>
-    <rule id="68b0-5274-700a-a345" name="Bodge (* Action)" hidden="false" book="Forces of Warmachine - Convergence of Cyriss" page="82">
-      <description>This model performs minor repairs to one damaged friendly Faction warjack with which it is B2B. Remove 1 damage point from the warjack.</description>
-      <modifiers/>
-    </rule>
-    <rule id="6462-e8a8-c9c1-1b1f" name="Flare" hidden="false" book="Forces of Warmachine - Convergence of Cyriss" page="84">
-      <description>Models hit by this attack suffer -2 DEF for one round.</description>
-      <modifiers/>
-    </rule>
-    <rule id="87be-2105-ec17-c347" name="Gun Platform" hidden="false" book="Forces of Warmachine - Convergence of Cyriss" page="90">
-      <description>This model can make ranged attacks even while in melee.	</description>
       <modifiers/>
     </rule>
   </sharedRules>
