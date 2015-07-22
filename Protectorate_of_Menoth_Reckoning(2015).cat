@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ccdd1364-6578-716b-2ff9-3947442f0a67" revision="18" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="4" battleScribeVersion="1.15" name="Protectorate of Menoth" books="Reckoning" authorName="Obiken" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ccdd1364-6578-716b-2ff9-3947442f0a67" revision="19" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="4" battleScribeVersion="1.15" name="Protectorate of Menoth" books="Reckoning" authorName="Obiken" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="5aad16ac-aec7-5983-4a1c-7a1e80cb083b" name="Allegiant of the order of the Fist" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="108">
       <entries/>
@@ -5146,7 +5146,69 @@ Solos: Paladin solos, Temple Flameguard solos, Vassal solos</description>
               </conditionGroups>
             </modifier>
           </modifiers>
-          <rules/>
+          <rules>
+            <rule id="8e80-cddd-147e-45f2" name="Judgement of Fire" hidden="false">
+              <description>Warjacks: Protectorate non-character warjacks
+
+Units: Choirs of Menoth, Exemplar Cinerators, Flameguard Cleansers
+
+Solos: Hierophant, Reclaimers, Wracks, Vassal solos</description>
+              <modifiers/>
+            </rule>
+            <rule id="a6ec-ca1d-f887-33d1" name="Judgement of Fire: Tier 1" hidden="true">
+              <description>Requirements: The army can include only the models listed above.
+
+Benefit: Wracks can be placed up to 20&quot; from the back edge of Reznik&apos;s deployment zone.  Additionally, reduce the point cost of Reckoner warjacks by 1.
+</description>
+              <modifiers>
+                <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </rule>
+            <rule id="40f7-9891-765c-7b16" name="Judgement of Fire: Tier 4" hidden="false">
+              <description>Requirements: Reznik&apos;s battlegroup includes two or more heavy warjacks.
+
+Benefit: Warjacks in the army gain +2 SPD during your first turn.</description>
+              <modifiers>
+                <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="less than" value="4.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </rule>
+            <rule id="4d76-5d01-934c-15dd" name="Judgement of Fire: Tier 2" hidden="true">
+              <description>Requirements: This army includes two or more Flameguard Cleanser units.
+
+Benefit: Flameguard Cleanser units gain Advance Deployment.</description>
+              <modifiers>
+                <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="2.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </rule>
+            <rule id="1f95-f233-2786-cdb9" name="Judgement of Fire: Tier 3" hidden="true">
+              <description>Requirements: This army includes three or more units.
+
+Benefit: Add three Wrack solos to the army free of cost.  These solos ignore FA restrictions.</description>
+              <modifiers>
+                <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="3.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </rule>
+          </rules>
           <profiles/>
           <links/>
         </entry>
@@ -5186,17 +5248,6 @@ Solos: Paladin solos, Temple Flameguard solos, Vassal solos</description>
         </rule>
         <rule id="2d182b92-ec68-0a3b-8a38-01f18ee028a3" name="Confessor: Reach" hidden="false" book="Warmachine Prime mkII" page="0">
           <modifiers/>
-        </rule>
-        <rule id="88b3-50d8-0aea-4ebb" name="Judgement of Fire Tier 4 Benefit" hidden="false">
-          <description>Warjacks in the army gain +2 SPD during your first turn.</description>
-          <modifiers>
-            <modifier type="hide" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-              <conditions>
-                <condition parentId="direct parent" childId="af69-0073-fcd4-5e43" field="selections" type="less than" value="4.0"/>
-              </conditions>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
         </rule>
       </rules>
       <profiles>
@@ -10789,11 +10840,17 @@ Solos: Paladin solos, Temple Flameguard solos, Vassal solos</description>
     </entry>
     <entry id="b2ce2412-4420-bb43-2b8b-e358ac5f71f3" name="Wrack" points="1.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="117">
       <entries>
-        <entry id="7393-b876-7c76-8829" name="Free Wracks" points="-1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="-1.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="7393-b876-7c76-8829" name="Free Wracks" points="-1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="-1.0" maxPoints="-1.0" collective="false" hidden="true">
           <entries/>
           <entryGroups/>
           <modifiers>
             <modifier type="increment" field="maxSelections" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions>
+                <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="3.0"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="show" field="minSelections" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
               <conditions>
                 <condition parentId="force type" childId="af69-0073-fcd4-5e43" field="selections" type="at least" value="3.0"/>
               </conditions>
