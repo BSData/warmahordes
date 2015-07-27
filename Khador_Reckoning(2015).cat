@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2c35-dc21-6d5a-80a2" revision="10" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="2" battleScribeVersion="1.15" name="Khador" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2c35-dc21-6d5a-80a2" revision="11" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="2" battleScribeVersion="1.15" name="Khador" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="8058c02e-db92-21aa-3d1d-a2e86070623a" name="Alexia Ciannor, The Risen, &amp; Thrall Warrior" points="5.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="51">
       <entries>
@@ -217,6 +217,17 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="roster" childId="305f47f0-cb59-c40f-1ed3-f546494b24c9" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
       <rules/>
       <profiles/>
@@ -335,6 +346,17 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="dfca-1d4d-6d0b-1dd5" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="roster" childId="8058c02e-db92-21aa-3d1d-a2e86070623a" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -3654,6 +3676,17 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="roster" childId="6104ef30-a38d-1b92-2c1a-d783c32e6852" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
       <rules>
         <rule id="3ce7bf76-1aaf-424d-0f15-10a50e798435" name="Technological Interference" hidden="false">
@@ -3763,6 +3796,17 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="dfca-1d4d-6d0b-1dd5" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="roster" childId="621aea60-66da-90ff-ddcb-8124eb376f66" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -4251,6 +4295,17 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="dfca-1d4d-6d0b-1dd5" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="roster" childId="f24e-3817-c1c6-7819" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -7388,6 +7443,17 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="roster" childId="8884-8a50-f038-7dad" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
       <rules>
         <rule id="11df-954e-0d32-43c2" name="Feat: Howling Wind" hidden="false">
@@ -7617,6 +7683,17 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="dfca-1d4d-6d0b-1dd5" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="roster" childId="c56e-f041-4bd2-6bd7" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -7852,6 +7929,18 @@
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="roster" childId="a111-8115-f35c-2e88" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="81c9-06be-82a4-7670" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
       <rules>
         <rule id="7812-6172-baef-ffa3" name="Feat: Feel the Hate" hidden="false">
@@ -7969,6 +8058,17 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="dfca-1d4d-6d0b-1dd5" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="roster" childId="559c-4258-fb44-a5f0" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -8307,6 +8407,18 @@
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="dfca-1d4d-6d0b-1dd5" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="roster" childId="7e1b-aefe-5aa6-7d33" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="81c9-06be-82a4-7670" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -9179,6 +9291,17 @@ Rigged. This model gains +2 SPD this activation. At the end of this activation, 
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="roster" childId="6d3e52f8-0b46-639a-936b-45a879c16f3b" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
       <rules>
         <rule id="91eb5909-c88c-eee2-0cfe-e3ca64438254" name="Feat: Hit and Run" hidden="false" book="Mercenaries - Forces of Warmachine" page="38">
@@ -9329,6 +9452,17 @@ Rigged. This model gains +2 SPD this activation. At the end of this activation, 
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="dfca-1d4d-6d0b-1dd5" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="roster" childId="853141c2-df2f-2c18-6112-289683d7f24c" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -10532,7 +10666,19 @@ Solos: Doom Reaver solos, Greylord solos</description>
         </entry>
       </entries>
       <entryGroups/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="increment" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="roster" childId="8215-3211-b2ac-02c5" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <rules>
         <rule id="d938-03b5-c3e5-cdc6" name="Warcaster Unit" hidden="false">
           <description>This unit is made of up Zerkova and 2 Reaver Guards.</description>
@@ -11022,6 +11168,18 @@ Solos: Doom Reaver solos, Greylord solos</description>
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="dfca-1d4d-6d0b-1dd5" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="roster" childId="7e1b-aefe-5aa6-7d33" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="a111-8115-f35c-2e88" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -12898,6 +13056,17 @@ damage rolls at one token per attack or boost.</description>
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions>
+            <condition parentId="roster" childId="c084-3717-c3ba-3e96" field="selections" type="equal to" value="1.0"/>
+          </conditions>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions/>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
       <rules>
         <rule id="5528-011c-290c-7933" name="Feat: Desperate Ground" hidden="false">
@@ -13750,6 +13919,18 @@ Incendiary – This attack causes fire damage, and models hit suffer the Fire co
             </conditionGroup>
           </conditionGroups>
         </modifier>
+        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="roster" childId="2ba9-40a4-b00e-7854" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="d00c-6937-5b94-5d8a" field="selections" type="equal to" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
       <rules>
         <rule id="96c9-32e8-9f51-09ba" name="Feat: Charge of the Horse Lords" hidden="false">
@@ -13850,6 +14031,18 @@ Incendiary – This attack causes fire damage, and models hit suffer the Fire co
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="dfca-1d4d-6d0b-1dd5" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="roster" childId="0ed2-827a-0683-f670" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="d00c-6937-5b94-5d8a" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
@@ -14024,6 +14217,18 @@ Incendiary – This attack causes fire damage, and models hit suffer the Fire co
             <conditionGroup type="or">
               <conditions>
                 <condition parentId="force type" childId="dfca-1d4d-6d0b-1dd5" field="selections" type="at least" value="1.0"/>
+              </conditions>
+              <conditionGroups/>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="set" field="maxInRoster" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition parentId="roster" childId="0ed2-827a-0683-f670" field="selections" type="equal to" value="1.0"/>
+                <condition parentId="roster" childId="2ba9-40a4-b00e-7854" field="selections" type="equal to" value="1.0"/>
               </conditions>
               <conditionGroups/>
             </conditionGroup>
