@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4a5f-40eb-a2a9-4092" revision="2" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="4" battleScribeVersion="1.15" name="Convergence" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4a5f-40eb-a2a9-4092" revision="3" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="4" battleScribeVersion="1.15" name="Convergence" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="d379-9249-cb85-501c" name="Accretion Servitors" points="1.0" categoryId="536f6c6f23232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="3" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine - Convergence of Cyriss" page="82">
       <entries/>
@@ -981,7 +981,7 @@
         </link>
       </links>
     </entry>
-    <entry id="343d-8497-10c4-c4c6" name="Eradicators" points="6.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine - Convergence of Cyriss" page="75">
+    <entry id="343d-8497-10c4-c4c6" name="Eradicators" points="0.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine - Convergence of Cyriss" page="75">
       <entries>
         <entry id="d243-0ce2-c75e-7ac1" name="Protean Bucklers" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="2" maxSelections="2" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -1003,16 +1003,32 @@
           </profiles>
           <links/>
         </entry>
-        <entry id="194c-ebc9-0a00-c5f8" name="Leader &amp; 2 Grunts -&gt; Leader &amp; 4 Grunts" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
+      </entries>
+      <entryGroups>
+        <entryGroup id="3c95-cec4-3fa5-b861" name="Squad Size" defaultEntryId="c3e6-35fc-08d9-7836" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="c3e6-35fc-08d9-7836" name="Leader &amp; 2 Grunts" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="2f18-e21d-773c-b916" name="Leader &amp; 4 Grunts" points="9.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
           <entryGroups/>
           <modifiers/>
-          <rules/>
-          <profiles/>
           <links/>
-        </entry>
-      </entries>
-      <entryGroups/>
+        </entryGroup>
+      </entryGroups>
       <modifiers/>
       <rules>
         <rule id="2e4f-67b9-1a28-8eae" name="Variable [melee]" hidden="false">
@@ -1860,7 +1876,7 @@
         </link>
       </links>
     </entry>
-    <entry id="3aa5-0477-53ec-cf65" name="Obstructors" points="4.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="3" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine - Convergence of Cyriss" page="76">
+    <entry id="3aa5-0477-53ec-cf65" name="Obstructors" points="0.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="3" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine - Convergence of Cyriss" page="76">
       <entries>
         <entry id="0f7d-2e36-791b-6e0c" name="Teleflail" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -1889,16 +1905,32 @@
             </link>
           </links>
         </entry>
-        <entry id="6c01-e05a-0015-da0a" name="Leader &amp; 5 Grunts -&gt; Leader &amp; 9 Grunts" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
+      </entries>
+      <entryGroups>
+        <entryGroup id="e092-1e79-2172-4602" name="Squad Size" defaultEntryId="7d79-dc2b-99f4-ac05" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="7d79-dc2b-99f4-ac05" name="Leader &amp; 5 Grunts" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="f7c1-d82f-f2cf-ef25" name="Leader &amp; 9 Grunts" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
           <entryGroups/>
           <modifiers/>
-          <rules/>
-          <profiles/>
           <links/>
-        </entry>
-      </entries>
-      <entryGroups/>
+        </entryGroup>
+      </entryGroups>
       <modifiers/>
       <rules/>
       <profiles>
@@ -1997,16 +2029,8 @@
         </link>
       </links>
     </entry>
-    <entry id="709f-bf93-eb86-6a64" name="Perforators" points="6.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine - Convergence of Cyriss" page="80">
+    <entry id="709f-bf93-eb86-6a64" name="Perforators" points="0.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine - Convergence of Cyriss" page="80">
       <entries>
-        <entry id="0bc3-4dec-3504-a39f" name="Leader &amp; 2 Grunts -&gt; Leader &amp; 4 Grunts" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
         <entry id="8c09-6d8b-85b0-ef2b" name="Protean Javelin" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
@@ -2052,7 +2076,31 @@
           <links/>
         </entry>
       </entries>
-      <entryGroups/>
+      <entryGroups>
+        <entryGroup id="5ef4-6905-fadc-a46c" name="Squad Size" defaultEntryId="e6a1-b549-46d4-0341" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="e6a1-b549-46d4-0341" name="Leader &amp; 2 Grunts" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="eea3-20aa-d7dc-dcdb" name="Leader &amp; 4 Grunts" points="9.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
       <modifiers/>
       <rules>
         <rule id="a0cd-9e3f-3e64-2ec3" name="Variable [ranged]" hidden="false">
@@ -2262,7 +2310,7 @@
         </link>
       </links>
     </entry>
-    <entry id="a6fa-b8e1-77af-a922" name="Reciprocators" points="6.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine - Convergence of Cyriss" page="78">
+    <entry id="a6fa-b8e1-77af-a922" name="Reciprocators" points="0.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine - Convergence of Cyriss" page="78">
       <entries>
         <entry id="24b4-2d90-5239-a396" name="Protean Polearm" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -2288,16 +2336,32 @@
             </link>
           </links>
         </entry>
-        <entry id="4b81-c2ad-6fd9-18ed" name="Leader &amp; 2 Grunts" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
+      </entries>
+      <entryGroups>
+        <entryGroup id="27d9-0b71-b29c-bb7d" name="Squad Size" defaultEntryId="f4cb-037f-2690-6bfa" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="f4cb-037f-2690-6bfa" name="Leader &amp; 2 Grunts" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="e14a-1e59-c8c0-ab6c" name="Leader &amp; 4 Grunts" points="9.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
           <entryGroups/>
           <modifiers/>
-          <rules/>
-          <profiles/>
           <links/>
-        </entry>
-      </entries>
-      <entryGroups/>
+        </entryGroup>
+      </entryGroups>
       <modifiers/>
       <rules>
         <rule id="a034-dde0-d290-afbc" name="Variable [melee]" hidden="false">
@@ -2340,16 +2404,8 @@
         </link>
       </links>
     </entry>
-    <entry id="7a1e-0fdd-dc73-70d5" name="Reductors" points="4.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="3" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine - Convergence of Cyriss" page="79">
+    <entry id="7a1e-0fdd-dc73-70d5" name="Reductors" points="0.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="3" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine - Convergence of Cyriss" page="79">
       <entries>
-        <entry id="d656-2817-d497-7c60" name="Leader &amp; 5 Grunts -&gt; Leader &amp; 9 Grunts" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
         <entry id="bbe9-907f-9f51-5277" name="Swarm Projector" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
@@ -2391,7 +2447,31 @@
           <links/>
         </entry>
       </entries>
-      <entryGroups/>
+      <entryGroups>
+        <entryGroup id="aa44-a02b-9eb9-35bc" name="Squad Size" defaultEntryId="5d85-93c7-ffcd-b509" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="5d85-93c7-ffcd-b509" name="Leader &amp; 5 Grunts" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="4e2a-82e1-2ec8-e993" name="Leader &amp; 9 Grunts" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
       <modifiers/>
       <rules>
         <rule id="322f-6cdb-de40-f8d0" name="Clear!" hidden="false">
