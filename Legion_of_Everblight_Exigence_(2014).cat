@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="20446671-4aa6-a917-23cb-5caa465894fa" revision="7" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="4" battleScribeVersion="1.15" name="Legion of Everblight_Gargantuans (2013)" books="" authorName="Hulkken (matt)" authorContact="deltao@msn.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="20446671-4aa6-a917-23cb-5caa465894fa" revision="8" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="4" battleScribeVersion="1.15" name="Legion of Everblight_Gargantuans (2013)" books="" authorName="Hulkken (matt)" authorContact="deltao@msn.com" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="721b-0e53-0d32-7be2" name="Absylonia, Daughter of Everblight" points="-5.0" categoryId="5761726c6f636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Exigence">
       <entries>
@@ -865,18 +865,33 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="8fefe3e3-d649-b75a-b4e4-8fb0764edc38" name="Blighed Nyss Swordsmen" points="5.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Legion of Everblight" page="82">
-      <entries>
-        <entry id="5ad83993-be11-a5ca-62e9-6cf554c96983" name="Leader &amp; 5 Grunts -&gt; Leader &amp; 9 Grunts" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Legion of Everblight" page="82">
-          <entries/>
+    <entry id="8fefe3e3-d649-b75a-b4e4-8fb0764edc38" name="Blighted Nyss Swordsmen" points="0.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Legion of Everblight" page="82">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="32b6-8481-0efa-c5fe" name="Squad Size" defaultEntryId="e00b-b4ba-4404-64ad" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="e00b-b4ba-4404-64ad" name="Leader &amp; 5 Grunts" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="3be8-d89b-3797-0810" name="Leader &amp; 9 Grunts" points="8.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
           <entryGroups/>
           <modifiers/>
-          <rules/>
-          <profiles/>
           <links/>
-        </entry>
-      </entries>
-      <entryGroups/>
+        </entryGroup>
+      </entryGroups>
       <modifiers/>
       <rules>
         <rule id="fc40b6a6-fb27-9b47-dbbd-cfa0d8d4378a" name="Nyss Claymore: Weapon Master" hidden="false" book="Forces of Hordes - Legion of Everblight" page="82">
@@ -1013,7 +1028,7 @@
         </link>
       </links>
     </entry>
-    <entry id="28ecfaea-d378-a9f5-cef5-06a9f73ce643" name="Blighted Nyss Archer Oficer &amp; Ammo Porter" points="2.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Legion of Everblight" page="73">
+    <entry id="28ecfaea-d378-a9f5-cef5-06a9f73ce643" name="Blighted Nyss Archer Officer &amp; Ammo Porter" points="2.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Legion of Everblight" page="73">
       <entries/>
       <entryGroups/>
       <modifiers/>
@@ -1097,18 +1112,33 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="7ce140ae-327f-3f5e-d4a6-6cbac1f2fb77" name="Blighted Nyss Archers" points="5.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Legion of Everblight" page="72">
-      <entries>
-        <entry id="aabdaa3c-92c6-1c6e-c327-68b19d83a289" name="Leader &amp; 5 Grunts -&gt; Leader &amp; 9 Grunts" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Legion of Everblight" page="72">
-          <entries/>
+    <entry id="7ce140ae-327f-3f5e-d4a6-6cbac1f2fb77" name="Blighted Nyss Archers" points="0.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Legion of Everblight" page="72">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="1579-22cb-981b-b4a6" name="Squad Size" defaultEntryId="80c8-24e1-2faf-ea1e" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="80c8-24e1-2faf-ea1e" name="Leader &amp; 5 Grunts" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="ad45-1341-02a9-22a0" name="Leader &amp; 9 Grunts" points="8.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
           <entryGroups/>
           <modifiers/>
-          <rules/>
-          <profiles/>
           <links/>
-        </entry>
-      </entries>
-      <entryGroups/>
+        </entryGroup>
+      </entryGroups>
       <modifiers/>
       <rules/>
       <profiles>
@@ -1157,18 +1187,33 @@
         </link>
       </links>
     </entry>
-    <entry id="300bfbc4-b717-36d0-0389-27754799dea3" name="Blighted Nyss Grotesques" points="4.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Legion of Everblight" page="74">
-      <entries>
-        <entry id="3323bbe6-35b2-87ed-7a60-61a354cabbe6" name="Leader &amp; 5 Grunts -&gt; Leader &amp; 9 Grunts" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Legion of Everblight" page="74">
-          <entries/>
+    <entry id="300bfbc4-b717-36d0-0389-27754799dea3" name="Blighted Nyss Grotesques" points="0.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Legion of Everblight" page="74">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="461b-d5ab-3f59-f9b3" name="Squad Size" defaultEntryId="21c8-96a8-3eaf-a38e" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="21c8-96a8-3eaf-a38e" name="Leader &amp; 5 Grunts" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="d2be-1d03-9934-5779" name="Leader &amp; 9 Grunts" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
           <entryGroups/>
           <modifiers/>
-          <rules/>
-          <profiles/>
           <links/>
-        </entry>
-      </entries>
-      <entryGroups/>
+        </entryGroup>
+      </entryGroups>
       <modifiers/>
       <rules/>
       <profiles>
@@ -1209,18 +1254,33 @@
         </link>
       </links>
     </entry>
-    <entry id="f0ff5038-0db0-0781-3b57-c8dbfd31d9f7" name="Blighted Nyss Hex hunters" points="5.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Legion of Everblight" page="76">
-      <entries>
-        <entry id="6d2c6c47-b347-8833-0baa-bc53b853d3e1" name="Leader &amp; 5 Grunts -&gt; Leader &amp; 9 Grunts" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Legion of Everblight" page="76">
-          <entries/>
+    <entry id="f0ff5038-0db0-0781-3b57-c8dbfd31d9f7" name="Blighted Nyss Hex hunters" points="0.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Legion of Everblight" page="76">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="ba0a-2453-2e6e-abd5" name="Squad Size" defaultEntryId="a3db-b092-2535-a7ab" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="a3db-b092-2535-a7ab" name="Leader &amp; 5 Grunts" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="dda4-0d97-cd50-a5b5" name="Leader &amp; 9 Grunts" points="8.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
           <entryGroups/>
           <modifiers/>
-          <rules/>
-          <profiles/>
           <links/>
-        </entry>
-      </entries>
-      <entryGroups/>
+        </entryGroup>
+      </entryGroups>
       <modifiers/>
       <rules>
         <rule id="082eaffe-f39e-c41a-7ddc-3690f93986e4" name="Magic Ability (6)" hidden="false" book="Forces of Hordes - Legion of Everblight" page="76">
@@ -1269,18 +1329,33 @@
         </link>
       </links>
     </entry>
-    <entry id="3cc41d28-788a-60a3-d6a5-df18df8ed4b1" name="Blighted Nyss Legionnaires" points="4.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Legion of Everblight" page="75">
-      <entries>
-        <entry id="ac9af5e9-7a74-1ed6-5e41-8efba5258ebf" name="Leader &amp; 5 Grunts -&gt; Leader &amp; 9 Grunts" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Legion of Everblight" page="75">
-          <entries/>
+    <entry id="3cc41d28-788a-60a3-d6a5-df18df8ed4b1" name="Blighted Nyss Legionnaires" points="0.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Legion of Everblight" page="75">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="9c0b-a173-c4d3-9e8c" name="Squad Size" defaultEntryId="7c93-c945-69a1-3ce4" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="7c93-c945-69a1-3ce4" name="Leader &amp; 5 Grunts" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="d9b1-bea9-f848-55d4" name="Leader &amp; 9 Grunts" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
           <entryGroups/>
           <modifiers/>
-          <rules/>
-          <profiles/>
           <links/>
-        </entry>
-      </entries>
-      <entryGroups/>
+        </entryGroup>
+      </entryGroups>
       <modifiers/>
       <rules>
         <rule id="f60690cb-ea5b-e350-a7eb-1a7a2f95bc1e" name="Great Sword: Reach" hidden="false" book="Forces of Hordes - Legion of Everblight" page="75">
@@ -1328,18 +1403,33 @@
         </link>
       </links>
     </entry>
-    <entry id="c26a08b0-69ea-0b9d-de0f-670bd1834995" name="Blighted Nyss Raptors" points="6.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Legion of Everblight" page="78">
-      <entries>
-        <entry id="dc827832-ec16-840a-ce80-2a924b1978e9" name="Leader &amp; 2 Grunts -&gt; Leader &amp; 4 Grunts" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Legion of Everblight" page="78">
-          <entries/>
+    <entry id="c26a08b0-69ea-0b9d-de0f-670bd1834995" name="Blighted Nyss Raptors" points="0.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Legion of Everblight" page="78">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="6dee-970d-3c01-7669" name="Squad Size" defaultEntryId="60cd-f3ab-b9bd-2eeb" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="60cd-f3ab-b9bd-2eeb" name="Leader &amp; 2 Grunts" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="2309-1c07-8c81-a7ce" name="Leader &amp; 4 Grunts" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
           <entryGroups/>
           <modifiers/>
-          <rules/>
-          <profiles/>
           <links/>
-        </entry>
-      </entries>
-      <entryGroups/>
+        </entryGroup>
+      </entryGroups>
       <modifiers/>
       <rules>
         <rule id="6b43f5be-805a-5e73-187f-23acb01e2a4b" name="Nyss Longbow: Poison" hidden="false" book="Forces of Hordes - Legion of Everblight" page="78">
@@ -1866,18 +1956,33 @@
       </profiles>
       <links/>
     </entry>
-    <entry id="05af13eb-32f7-4ec2-907d-399e3a375ba2" name="Blighted Ogrun Warmongers" points="5.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="3" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Legion of Everblight" page="84">
-      <entries>
-        <entry id="35834566-d390-0c0b-51ad-a63d5423a96b" name="Leader &amp; 2 Grunts -&gt; Leader &amp; 4 Grunts" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Legion of Everblight" page="84">
-          <entries/>
+    <entry id="05af13eb-32f7-4ec2-907d-399e3a375ba2" name="Blighted Ogrun Warmongers" points="0.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="3" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Legion of Everblight" page="84">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="ed8b-3b4e-be3b-cd8e" name="Squad Size" defaultEntryId="de22-1a70-3e3b-a51e" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="de22-1a70-3e3b-a51e" name="Leader &amp; 2 Grunts" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="947c-ca2b-8903-8a02" name="Leader &amp; 4 Grunts" points="8.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
           <entryGroups/>
           <modifiers/>
-          <rules/>
-          <profiles/>
           <links/>
-        </entry>
-      </entries>
-      <entryGroups/>
+        </entryGroup>
+      </entryGroups>
       <modifiers/>
       <rules>
         <rule id="bb1f1c9d-b5d0-aa36-0c64-6a2d6db14eda" name="Berserk" hidden="false" book="Forces of Hordes - Legion of Everblight" page="84">
@@ -1923,18 +2028,33 @@
         </link>
       </links>
     </entry>
-    <entry id="364e00d6-184e-f24c-0704-8ce5d051180d" name="Blighted Ogrun Warspears" points="5.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="3" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Legion of Everblight" page="85">
-      <entries>
-        <entry id="2591c1b4-2009-1acd-d09f-239e37544bb2" name="Leader &amp; 2 Grunts -&gt; Leader &amp; 4 Grunts" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Legion of Everblight" page="85">
-          <entries/>
+    <entry id="364e00d6-184e-f24c-0704-8ce5d051180d" name="Blighted Ogrun Warspears" points="0.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="3" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Legion of Everblight" page="85">
+      <entries/>
+      <entryGroups>
+        <entryGroup id="8d12-d9fb-de67-cc8d" name="Squad Size" defaultEntryId="c227-0270-df9b-04b4" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="c227-0270-df9b-04b4" name="Leader &amp; 2 Grunts" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="5d32-f49c-77fe-5a8f" name="Leader &amp; 4 Grunts" points="8.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
           <entryGroups/>
           <modifiers/>
-          <rules/>
-          <profiles/>
           <links/>
-        </entry>
-      </entries>
-      <entryGroups/>
+        </entryGroup>
+      </entryGroups>
       <modifiers/>
       <rules>
         <rule id="b1681579-ce86-29c4-a409-27c340c6f129" name="Thrown Spear: Throrwn" hidden="false" book="Forces of Hordes - Legion of Everblight" page="85">
@@ -2185,6 +2305,83 @@
           <modifiers/>
         </link>
         <link id="20a3c912-2b36-8e81-9a0c-73354d54ef33" targetId="9ee2b179-9139-cebf-e2f5-692edf34f349" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="6e05-da36-0ecf-0d1e" name="Fyanna the Lash" points="3.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Exigence" page="78">
+      <entries>
+        <entry id="c30a-5060-cdcf-c5a9" name="Barbed Lash" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="d897-4b09-10a5-25bd" profileTypeId="576561706f6e23232344415441232323" name="Barbed Lash" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="5"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="12"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="0ed4-e4b8-85a2-c5e0" targetId="68790af6-c6f9-92ca-13da-d97a3f1c5853" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="9229-019e-c42c-4418" targetId="7072-3a41-5dc6-adff" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="10d0-ec9d-111d-be3b" targetId="bea6-d9b8-b02c-9596" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="bc76-d6e6-c1f3-9db3" name="Legion Blighted Nyss Character Solo" hidden="false">
+          <modifiers/>
+        </rule>
+        <rule id="b692-ec72-7494-f0e0" name="Attack type" hidden="false">
+          <description>Each time this model makes a normal melee attack, choose one of the following abilities:
+* Beat Back - Immediately after a normal attack with this weapon is resolved during this model&apos;s combat action, the enemy model hit can be pushed 1&quot; directly away from the attacking model. After the enemy model is pushed, the attacking model can advance up to 1&quot;.
+* Dismember - When this model hits a warbeast with a melee attack, roll an additional damage die.
+* Pitch - Instead of making a normal damage roll on a hit, this model can throw the model hit as if it had hit with and passed the STR check of a throw power attack. The thrown model suffers a damage roll with POW equal to this model&apos;s STR plus the POW of this weapon. The POW of collateral damage is equal to this model&apos;s STR.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="17ea-f5a8-0a91-b8d0" profileTypeId="54726f6f70657223232344415441232323" name="Fyanna the Lash" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="7"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="7"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="15"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="12"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="a36b-b4a6-f76b-c5bb" targetId="483ea263-c83a-57ac-3626-92d4624cb0b2" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="a913-2bff-6f5d-487b" targetId="b5bed1a5-3359-5ce4-2e2f-278b3e6dae59" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="aa00-f005-d6fc-c754" targetId="38bf-0f67-cc03-17bd" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="25d4-abdf-85e8-f208" targetId="f084-0765-ad28-cf1f" linkType="rule">
           <modifiers/>
         </link>
       </links>
@@ -3680,17 +3877,32 @@
       </links>
     </entry>
     <entry id="4abdf874-abf7-a60b-5e0c-ebc7a95c2d77" name="Spawning Vessel" points="2.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Legion of Everblight" page="88">
-      <entries>
-        <entry id="a64aa5c7-0dc0-d420-caba-c974928ceccb" name="Vessel &amp; 4 Grunts -&gt; Vessel &amp; 6 Grunts" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Legion of Everblight" page="88">
-          <entries/>
+      <entries/>
+      <entryGroups>
+        <entryGroup id="2794-4cff-110f-3d1b" name="Squad Size" defaultEntryId="4b01-879b-7743-2dd3" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="4b01-879b-7743-2dd3" name="Leader &amp; 4 Grunts" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="0c1f-2690-3522-15e0" name="Leader &amp; 6 Grunts" points="1.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
           <entryGroups/>
           <modifiers/>
-          <rules/>
-          <profiles/>
           <links/>
-        </entry>
-      </entries>
-      <entryGroups/>
+        </entryGroup>
+      </entryGroups>
       <modifiers/>
       <rules>
         <rule id="073f661a-9804-54b5-a910-3ffed9a05a22" name="Nyss Grunts: Stone Heart" hidden="false" book="Forces of Hordes - Legion of Everblight" page="88">
@@ -4962,83 +5174,6 @@
         </link>
       </links>
     </entry>
-    <entry id="6e05-da36-0ecf-0d1e" name="Fyanna the Lash" points="3.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Exigence" page="78">
-      <entries>
-        <entry id="c30a-5060-cdcf-c5a9" name="Barbed Lash" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="d897-4b09-10a5-25bd" profileTypeId="576561706f6e23232344415441232323" name="Barbed Lash" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="5"/>
-                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="12"/>
-                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links>
-            <link id="0ed4-e4b8-85a2-c5e0" targetId="68790af6-c6f9-92ca-13da-d97a3f1c5853" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="9229-019e-c42c-4418" targetId="7072-3a41-5dc6-adff" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="10d0-ec9d-111d-be3b" targetId="bea6-d9b8-b02c-9596" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups/>
-      <modifiers/>
-      <rules>
-        <rule id="bc76-d6e6-c1f3-9db3" name="Legion Blighted Nyss Character Solo" hidden="false">
-          <modifiers/>
-        </rule>
-        <rule id="b692-ec72-7494-f0e0" name="Attack type" hidden="false">
-          <description>Each time this model makes a normal melee attack, choose one of the following abilities:
-* Beat Back - Immediately after a normal attack with this weapon is resolved during this model&apos;s combat action, the enemy model hit can be pushed 1&quot; directly away from the attacking model. After the enemy model is pushed, the attacking model can advance up to 1&quot;.
-* Dismember - When this model hits a warbeast with a melee attack, roll an additional damage die.
-* Pitch - Instead of making a normal damage roll on a hit, this model can throw the model hit as if it had hit with and passed the STR check of a throw power attack. The thrown model suffers a damage roll with POW equal to this model&apos;s STR plus the POW of this weapon. The POW of collateral damage is equal to this model&apos;s STR.</description>
-          <modifiers/>
-        </rule>
-      </rules>
-      <profiles>
-        <profile id="17ea-f5a8-0a91-b8d0" profileTypeId="54726f6f70657223232344415441232323" name="Fyanna the Lash" hidden="false">
-          <characteristics>
-            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="7"/>
-            <characteristic characteristicId="53545223232344415441232323" name="STR" value="7"/>
-            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
-            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
-            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="15"/>
-            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="12"/>
-            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
-            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
-          </characteristics>
-          <modifiers/>
-        </profile>
-      </profiles>
-      <links>
-        <link id="a36b-b4a6-f76b-c5bb" targetId="483ea263-c83a-57ac-3626-92d4624cb0b2" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="a913-2bff-6f5d-487b" targetId="b5bed1a5-3359-5ce4-2e2f-278b3e6dae59" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="aa00-f005-d6fc-c754" targetId="38bf-0f67-cc03-17bd" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="25d4-abdf-85e8-f208" targetId="f084-0765-ad28-cf1f" linkType="rule">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
   </entries>
   <rules/>
   <links/>
@@ -5242,6 +5377,14 @@
       <description>This model is not a warrior model. It can advance only during its unit&apos;s normal movement. When it advances, it can move up to 1&quot; for each Grunt in this unit within 2&quot; of it at the beginning of this unit&apos;s activation. This model is automatically hit by melee attacks. It cannot be knocked down or made stationary.</description>
       <modifiers/>
     </rule>
+    <rule id="7072-3a41-5dc6-adff" name="Chain Strike" hidden="false" book="Exigence" page="78">
+      <description>This weapon has a 4&quot; melee range during this model&apos;s activation.</description>
+      <modifiers/>
+    </rule>
+    <rule id="bea6-d9b8-b02c-9596" name="Chain Weapon" hidden="false" book="Exigence" page="78">
+      <description>This attack ignores the Buckler and Shield weapon qualities and Shield Wall.</description>
+      <modifiers/>
+    </rule>
     <rule id="01cf5848-afd1-b156-b51f-855ebbf86475" name="Channeler (Bethayne)" hidden="false" book="Forces of Hordes - Legion of Everblight" page="37">
       <description>Whle this model is not engaed and is in Saeryn&apos;s control area, Saeryn can channel spells through it.</description>
       <modifiers/>
@@ -5352,6 +5495,10 @@
     </rule>
     <rule id="be5d-9873-9197-c2c6" name="Energy Siphon" hidden="false" book="Exigence" page="72">
       <description>When this attack hits an enemy model with 1 or more focus or fury points on it, that model loses 1 focus or fury point and this model gains 1 fury point.</description>
+      <modifiers/>
+    </rule>
+    <rule id="38bf-0f67-cc03-17bd" name="Evasive" hidden="false" book="Exigence" page="78">
+      <description>This model cannot be targeted by free strikes. This model can advance up to 2&quot; immediately after an enemy ranged attack that missed it is resolved unless it was missed while advancing.</description>
       <modifiers/>
     </rule>
     <rule id="09656b93-6b46-99af-9956-93ebd8fed95d" name="Eyeless Sight" hidden="false" book="Hordes Primal MK II" page="33">
@@ -5562,6 +5709,10 @@ Attacks made with magical weapons are not magic attacks.</description>
       <description>This model can be forced during its activation to gain, +2 SPD, Pathfinder, and boosted attack and damage rolls for one turn.</description>
       <modifiers/>
     </rule>
+    <rule id="f084-0765-ad28-cf1f" name="Rapid Strike" hidden="false" book="Exigence" page="78">
+      <description>This model can make one additional melee attack each combat action.</description>
+      <modifiers/>
+    </rule>
     <rule id="68790af6-c6f9-92ca-13da-d97a3f1c5853" name="Reach" hidden="false" book="Hordes Primal MK II" page="50">
       <description>This weapon has a 2&quot; melee range.</description>
       <modifiers/>
@@ -5760,22 +5911,6 @@ Atachments
     </rule>
     <rule id="dda24fd3-f2ec-36a6-09c8-d4204b3314d6" name="Weapon Platform" hidden="false" book="Gargantuans" page="106">
       <description>This model can make melee and ranged attacks in the same activation. When this model makes its initial melee attakcs or a power attack, it can also make its initial ranged attacks. This model can make ranged attacks even while in melee.</description>
-      <modifiers/>
-    </rule>
-    <rule id="38bf-0f67-cc03-17bd" name="Evasive" hidden="false" book="Exigence" page="78">
-      <description>This model cannot be targeted by free strikes. This model can advance up to 2&quot; immediately after an enemy ranged attack that missed it is resolved unless it was missed while advancing.</description>
-      <modifiers/>
-    </rule>
-    <rule id="f084-0765-ad28-cf1f" name="Rapid Strike" hidden="false" book="Exigence" page="78">
-      <description>This model can make one additional melee attack each combat action.</description>
-      <modifiers/>
-    </rule>
-    <rule id="7072-3a41-5dc6-adff" name="Chain Strike" hidden="false" book="Exigence" page="78">
-      <description>This weapon has a 4&quot; melee range during this model&apos;s activation.</description>
-      <modifiers/>
-    </rule>
-    <rule id="bea6-d9b8-b02c-9596" name="Chain Weapon" hidden="false" book="Exigence" page="78">
-      <description>This attack ignores the Buckler and Shield weapon qualities and Shield Wall.</description>
       <modifiers/>
     </rule>
   </sharedRules>
