@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5382cf4f-6e74-72c4-0e90-5366d1192ea7" revision="19" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="3" battleScribeVersion="1.15" name="Mercenaries" books="FoW- Mercenaries, Vengeance, Reckoning" authorName="Obiken" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5382cf4f-6e74-72c4-0e90-5366d1192ea7" revision="20" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="3" battleScribeVersion="1.15" name="Mercenaries" books="FoW- Mercenaries, Vengeance, Reckoning" authorName="Obiken" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="8058c02e-db92-21aa-3d1d-a2e86070623a" name="Alexia Ciannor, The Risen, &amp; Thrall Warrior" points="5.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="51">
       <entries>
@@ -1252,16 +1252,8 @@
         </link>
       </links>
     </entry>
-    <entry id="ed318c4e-1cd2-085a-2d7c-5df060076a1e" name="Captain Sam Machorne &amp; The Devil Dog" points="5.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="60">
+    <entry id="ed318c4e-1cd2-085a-2d7c-5df060076a1e" name="0000" points="0.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="60">
       <entries>
-        <entry id="6c4eb00e-fb08-93cd-11c7-135f368ccfca" name="Sam &amp; 5 Grunts -&gt; Sam &amp; 9 Grunts" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
         <entry id="ac7d-1306-c7a8-1ede" name="Sam" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="66e9-8159-02c7-7666" name="Hand Cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1436,7 +1428,31 @@
           </links>
         </entry>
       </entries>
-      <entryGroups/>
+      <entryGroups>
+        <entryGroup id="25ee-e8f0-4b5d-2d64" name="Squad Size" defaultEntryId="c861-ddf1-922d-546b" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="3b85-d95f-00e7-78a4" name="Sam &amp; 9 Grunts" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="c861-ddf1-922d-546b" name="Sam &amp; 5 Grunts" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
       <modifiers>
         <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions/>
@@ -1570,7 +1586,7 @@ Psychic Assault (* Attack) – Psychic Assault is a RNG SP 8 magic attack. This 
         </link>
       </links>
     </entry>
-    <entry id="bbb6-3e0d-a0ed-a3ba" name="Cephalyx Mind Bender &amp; Drudges" points="4.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Cephalyx" page="41">
+    <entry id="bbb6-3e0d-a0ed-a3ba" name="Cephalyx Mind Bender &amp; Drudges" points="0.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Cephalyx" page="41">
       <entries>
         <entry id="e23e-6452-d9ec-0f35" name="Mind Bender" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
@@ -1646,16 +1662,32 @@ Psychic Assault (* Attack) – Psychic Assault is a RNG SP 8 magic attack. This 
             </link>
           </links>
         </entry>
-        <entry id="9bae-06a5-3837-5772" name="Bender &amp; 5 Drudge Grunts --&gt; Bender &amp; 9 Drudge Grunts" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
+      </entries>
+      <entryGroups>
+        <entryGroup id="9188-e610-f607-5236" name="Squad Size" defaultEntryId="c627-8e0c-47e5-14f0" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="c627-8e0c-47e5-14f0" name="Bender &amp; 5 Drudge Grunts" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="ced7-3931-6bd8-a8de" name="Bender &amp; 9 Drudge Grunts" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
           <entryGroups/>
           <modifiers/>
-          <rules/>
-          <profiles/>
           <links/>
-        </entry>
-      </entries>
-      <entryGroups/>
+        </entryGroup>
+      </entryGroups>
       <modifiers>
         <modifier type="set" field="maxInForce" value="-1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
@@ -1678,7 +1710,7 @@ Psychic Assault (* Attack) – Psychic Assault is a RNG SP 8 magic attack. This 
         </link>
       </links>
     </entry>
-    <entry id="0a43-7c7b-294e-aedc" name="Cephalyx Mind Slaver &amp; Drudges" points="4.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Cephalyx" page="42">
+    <entry id="0a43-7c7b-294e-aedc" name="Cephalyx Mind Slaver &amp; Drudges" points="0.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Cephalyx" page="42">
       <entries>
         <entry id="6ed4-5b71-13d0-ccf3" name="Mind Slaver" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -1715,14 +1747,6 @@ Psychic Assault (* Attack) – Psychic Assault is a RNG SP 8 magic attack. This 
             </link>
           </links>
         </entry>
-        <entry id="5812-2daa-6382-8720" name="Slaver &amp; 5 Drudge Grunts --&gt; Slaver &amp; 9 Drudge Grunts" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
         <entry id="5c3d-e6c1-aea1-5605" name="Free Unit (Min)" points="-4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="0" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="-4.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
@@ -1739,7 +1763,31 @@ Psychic Assault (* Attack) – Psychic Assault is a RNG SP 8 magic attack. This 
           <links/>
         </entry>
       </entries>
-      <entryGroups/>
+      <entryGroups>
+        <entryGroup id="f70a-34eb-c1ee-bcf4" name="Squad Size" defaultEntryId="c8fe-80e5-e764-8c63" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="c8fe-80e5-e764-8c63" name="Slaver &amp; 5 Drudge Grunts" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="610e-f818-5ee6-0a0a" name="Slaver &amp; 9 Drudge Grunts" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
       <modifiers>
         <modifier type="increment" field="maxInForce" value="1.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions>
@@ -2089,16 +2137,8 @@ Solos: Mercenary Cephalys solos</description>
         </link>
       </links>
     </entry>
-    <entry id="f955a464-d66d-73e4-1d16-1b3a9cf9eb58" name="Croe&apos;s Cutthroats" points="7.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="58">
+    <entry id="f955a464-d66d-73e4-1d16-1b3a9cf9eb58" name="Croe&apos;s Cutthroats" points="0.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="58">
       <entries>
-        <entry id="93b057f2-a48f-e77b-fe0e-8044e1864c12" name="Croe &amp; 5 Grunts -&gt; Croe &amp; 9 Grunts" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
         <entry id="77e8-d71b-0aeb-999d" name="Grunt" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="f45a-cda8-13c4-38fa" name="Crossbow" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2175,7 +2215,7 @@ Solos: Mercenary Cephalys solos</description>
             </link>
           </links>
         </entry>
-        <entry id="fbbb-d779-6a87-7f7d" name="Leader" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+        <entry id="fbbb-d779-6a87-7f7d" name="Croe" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="f134-325e-09be-dea7" name="Hiss" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
               <entries/>
@@ -2259,7 +2299,31 @@ Solos: Mercenary Cephalys solos</description>
           </links>
         </entry>
       </entries>
-      <entryGroups/>
+      <entryGroups>
+        <entryGroup id="0ad0-a933-129a-a883" name="Squad Size" defaultEntryId="e1d3-91ba-767f-e270" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="e1d3-91ba-767f-e270" name="Croe &amp; 5 Grunts" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="fed3-caf0-8f03-ce38" name="Croe &amp; 9 Grunts" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
       <modifiers>
         <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions/>
@@ -2296,16 +2360,8 @@ Solos: Mercenary Cephalys solos</description>
         </link>
       </links>
     </entry>
-    <entry id="3ae7c437-1ddc-2931-6e88-c10b129c6145" name="Cylena Raefyll &amp; Nyss Hunters" points="7.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="62">
+    <entry id="3ae7c437-1ddc-2931-6e88-c10b129c6145" name="Cylena Raefyll &amp; Nyss Hunters" points="0.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="62">
       <entries>
-        <entry id="8d049073-a6f6-57d8-b012-b514a6662262" name="Cylena &amp; 5 Grunts -&gt; Cylena &amp; 9 Grunts" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
         <entry id="1a65-2224-e6b5-4dfb" name="Cylena" points="0.0" categoryId="(No Category)" type="model" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="6db3-0382-b15c-32d4" name="Nyss  Bow" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -2463,7 +2519,31 @@ Solos: Mercenary Cephalys solos</description>
           </links>
         </entry>
       </entries>
-      <entryGroups/>
+      <entryGroups>
+        <entryGroup id="918e-b24c-e977-904c" name="Squad Size" defaultEntryId="65e0-29be-f094-64b7" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="9cb7-1d48-421e-4e3a" name="Cylena &amp; 9 Grunts" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="65e0-29be-f094-64b7" name="Cylena &amp; 5 Grunts" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
       <modifiers>
         <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions/>
@@ -4949,16 +5029,8 @@ Solos: Cephalyx solos</description>
         </link>
       </links>
     </entry>
-    <entry id="ed0c13f6-8561-0351-9f2a-ca9070bc91e0" name="Greygore Boomhowler &amp; Co." points="6.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="56">
+    <entry id="ed0c13f6-8561-0351-9f2a-ca9070bc91e0" name="Greygore Boomhowler &amp; Co." points="0.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="56">
       <entries>
-        <entry id="04b24049-b3ff-5e09-c05b-d2f38280c771" name="Boomhowler &amp; 5 Grunts -&gt; Boomhowler &amp; 9 Grunts" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
         <entry id="5fb7-515a-72a9-34ed" name="Grunt" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="e1ea-1812-8256-9b0d" name="Blunderbuss" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -5114,7 +5186,31 @@ Solos: Cephalyx solos</description>
           </links>
         </entry>
       </entries>
-      <entryGroups/>
+      <entryGroups>
+        <entryGroup id="ebd8-6d71-7edd-826e" name="Squad Size" defaultEntryId="4c38-e07e-fcbf-fa75" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="4c38-e07e-fcbf-fa75" name="Boomhowler &amp; 5 Grunts" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="320e-dc23-9721-1a4b" name="Boomhowler &amp; 9 Grunts" points="9.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
       <modifiers>
         <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions/>
@@ -5320,16 +5416,8 @@ Solos: Cephalyx solos</description>
         </link>
       </links>
     </entry>
-    <entry id="cd64395a-e9f8-aa0f-06eb-d9147e501161" name="Hammerfall High Shield Gun Corps" points="5.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="146">
+    <entry id="cd64395a-e9f8-aa0f-06eb-d9147e501161" name="Hammerfall High Shield Gun Corps" points="0.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="146">
       <entries>
-        <entry id="9bbe6013-70c7-90f0-7d19-e408f0612166" name="Leader &amp; 5 Grunts -&gt; Leader &amp; 9 Grunts" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
         <entry id="ff3a1f03-abc0-cbc6-73e5-e6cb6451807e" name="Hammerfall High Shield Officer &amp; Standard" points="3.0" categoryId="(No Category)" type="unit" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="147">
           <entries/>
           <entryGroups/>
@@ -5460,7 +5548,31 @@ Solos: Cephalyx solos</description>
           <links/>
         </entry>
       </entries>
-      <entryGroups/>
+      <entryGroups>
+        <entryGroup id="8c86-6942-d5bf-aa7d" name="Squad Size" defaultEntryId="9334-24dc-2f38-7c80" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="9334-24dc-2f38-7c80" name="Leader &amp; 5 Grunts" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="c66b-7cac-a82c-26b2" name="Leader &amp; 9 Grunts" points="8.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
       <modifiers>
         <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions/>
@@ -6096,16 +6208,8 @@ Solos: Cephalyx solos</description>
         </link>
       </links>
     </entry>
-    <entry id="f9f3e7dc-5a18-9c9e-ce42-72d37d0d8219" name="Horgenhold Forge Guard" points="5.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="148">
+    <entry id="f9f3e7dc-5a18-9c9e-ce42-72d37d0d8219" name="Horgenhold Forge Guard" points="0.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="148">
       <entries>
-        <entry id="2d635da3-5e9e-9177-38ed-62af0e2d3fd2" name="Leader &amp; 5 Grunts -&gt; Leader &amp; 9 Grunts" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
         <entry id="1c4e-cc31-886c-9a35" name="Mechanikal Hammer" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
@@ -6137,7 +6241,31 @@ Solos: Cephalyx solos</description>
           </links>
         </entry>
       </entries>
-      <entryGroups/>
+      <entryGroups>
+        <entryGroup id="3b32-7f0e-24a0-d648" name="Squad Size" defaultEntryId="4435-0009-5e87-996f" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="4435-0009-5e87-996f" name="Leader &amp; 5 Grunts" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="e973-3dbd-f8a3-3f46" name="Leader &amp; 9 Grunts" points="8.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
       <modifiers>
         <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions/>
@@ -7490,16 +7618,8 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
         </link>
       </links>
     </entry>
-    <entry id="f3796be2-0d01-5781-36f3-0f7df43ad67c" name="Ogrun Assault Corps" points="6.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wrath" page="134">
+    <entry id="f3796be2-0d01-5781-36f3-0f7df43ad67c" name="Ogrun Assault Corps" points="0.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="2" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Wrath" page="134">
       <entries>
-        <entry id="25c8caaf-bbf2-e873-0f4d-5b1fa71a6453" name="Leader &amp; 2 Grunts -&gt; Leader &amp; 4 Grunts" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
         <entry id="116e-402d-e72d-e38f" name="Battlecannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
@@ -7541,7 +7661,31 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
           <links/>
         </entry>
       </entries>
-      <entryGroups/>
+      <entryGroups>
+        <entryGroup id="b046-50cf-74a9-1aca" name="Squad Size" defaultEntryId="da11-ae2e-7690-aed7" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="da11-ae2e-7690-aed7" name="Leader &amp; 2 Grunts" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="72bd-6ea1-6fea-c6ae" name="Leader &amp; 4 Grunts" points="9.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
       <modifiers>
         <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions/>
@@ -7857,16 +8001,8 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
       </profiles>
       <links/>
     </entry>
-    <entry id="a7c18b37-200e-53a1-ec93-8058f816e0be" name="Press Gangers" points="4.0" categoryId="556e697423232344415441232323" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="105">
+    <entry id="a7c18b37-200e-53a1-ec93-8058f816e0be" name="Press Gangers" points="0.0" categoryId="556e697423232344415441232323" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="105">
       <entries>
-        <entry id="2272ba52-c043-d5d6-abb0-0699201b58b3" name="Lass &amp; 5 Grunts -&gt; Lass &amp; 9 Grunts" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
         <entry id="b0dc-0dbd-c873-3c99" name="Grunts" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries>
             <entry id="8202-0833-15e0-f8c9" name="Hand Weapons" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -7990,7 +8126,31 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
           </links>
         </entry>
       </entries>
-      <entryGroups/>
+      <entryGroups>
+        <entryGroup id="9625-5aa4-bc9f-5e2e" name="Squad Size" defaultEntryId="1e7b-45ee-49b4-412d" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="1e7b-45ee-49b4-412d" name="Lass &amp; 5 Grunts" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="29f6-c257-e5c4-98a5" name="Lass &amp; 9 Grunts" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
       <modifiers>
         <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions/>
@@ -8754,7 +8914,7 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
         </link>
       </links>
     </entry>
-    <entry id="52ff8af6-e8ba-9dc2-2025-b1a991e509ef" name="Sea Dog Crew" points="5.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="106">
+    <entry id="52ff8af6-e8ba-9dc2-2025-b1a991e509ef" name="Sea Dog Crew" points="0.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="106">
       <entries>
         <entry id="882f8b3a-36bb-8568-fd04-a952901e1a21" name="Sea Dog Rifleman" points="1.0" categoryId="(No Category)" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="108">
           <entries>
@@ -8841,14 +9001,6 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
               <modifiers/>
             </link>
           </links>
-        </entry>
-        <entry id="550ff862-7d21-177c-7c32-1a2e9979ae74" name="Leader &amp; 5 Grunts -&gt; Leader &amp; 9 Grunts" points="3.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
         </entry>
         <entry id="11f54c4b-323b-4f6a-bf43-9edc3476c4ba" name="Mr. Walls, The Quartermaster" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="110">
           <entries>
@@ -8960,7 +9112,31 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
           <links/>
         </entry>
       </entries>
-      <entryGroups/>
+      <entryGroups>
+        <entryGroup id="5de5-cd7c-655b-00af" name="Squad Size" defaultEntryId="9d10-cc18-5202-ea21" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="9d10-cc18-5202-ea21" name="Mr. Walls &amp; 5 Riflemen" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="c0ee-e177-1d7b-47e2" name="Mr. Walls &amp; 9 Rifleman" points="8.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
       <modifiers>
         <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions/>
@@ -9289,16 +9465,8 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
         </link>
       </links>
     </entry>
-    <entry id="5b905f98-c49d-2bc2-69e8-4b56a01a13a2" name="Steelhead Halberdiers" points="4.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="3" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="48">
+    <entry id="5b905f98-c49d-2bc2-69e8-4b56a01a13a2" name="Steelhead Halberdiers" points="0.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="3" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="48">
       <entries>
-        <entry id="e2a0c181-cd72-f55e-45a1-185f3309d225" name="Leader &amp; 5 Grunts -&gt; Leader &amp; 9 Grunts" points="2.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="48">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
         <entry id="e751-0fec-47d7-77b8" name="Halberd" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
@@ -9330,7 +9498,31 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
           </links>
         </entry>
       </entries>
-      <entryGroups/>
+      <entryGroups>
+        <entryGroup id="4d63-b55a-f204-1175" name="Squad Size" defaultEntryId="a756-c6c8-9031-5382" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="a756-c6c8-9031-5382" name="Leader &amp; 5 Grunts" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="fbfb-0386-0a08-1b0c" name="Leader &amp; 9 Grunts" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
       <modifiers>
         <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions/>
@@ -9387,16 +9579,8 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
         </link>
       </links>
     </entry>
-    <entry id="e8e9ab23-1ea3-dc6a-4479-3746d0cf7016" name="Steelhead Heavy Cavalry" points="6.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="49">
+    <entry id="e8e9ab23-1ea3-dc6a-4479-3746d0cf7016" name="Steelhead Heavy Cavalry" points="0.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="49">
       <entries>
-        <entry id="87a436bf-6aee-1e9f-d703-2db311dd9e4f" name="Leader &amp; 2 Grunts -&gt; Leader &amp; 4 Grunts" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="49">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
         <entry id="fcb9-1e87-7983-9199" name="Cavalry Axe" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
@@ -9448,7 +9632,31 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
           <links/>
         </entry>
       </entries>
-      <entryGroups/>
+      <entryGroups>
+        <entryGroup id="4327-09db-14e4-e267" name="Squad Size" defaultEntryId="ef04-09da-9760-8e60" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="ef04-09da-9760-8e60" name="Leader &amp; 2 Grunts" points="6.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="58d8-fc0e-b18a-e879" name="Leader &amp; 4 Grunts" points="10.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
       <modifiers>
         <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions/>
@@ -9505,16 +9713,8 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
         </link>
       </links>
     </entry>
-    <entry id="dd9fddb3-0a7b-ff57-3d2f-a24be3dac03c" name="Steelhead Riflemen" points="5.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="50">
+    <entry id="dd9fddb3-0a7b-ff57-3d2f-a24be3dac03c" name="Steelhead Riflemen" points="0.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="50">
       <entries>
-        <entry id="e4bc5d85-f4f6-6a2d-4d2f-129d7b38a884" name="Leader &amp; 5 Grunts -&gt; Leader &amp; 9 Grunts" points="4.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="48">
-          <entries/>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles/>
-          <links/>
-        </entry>
         <entry id="3591-083e-bde9-8c0c" name="Swords" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
           <entryGroups/>
@@ -9548,7 +9748,31 @@ This model is destroyed if the melded warjack is destroyed before it exits the w
           </links>
         </entry>
       </entries>
-      <entryGroups/>
+      <entryGroups>
+        <entryGroup id="8a07-ea3a-e31e-a703" name="Squad Size" defaultEntryId="f3a0-6b6f-f888-ef63" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="f3a0-6b6f-f888-ef63" name="Leader &amp; 5 Grunts" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="22b7-93a9-d3ad-282a" name="Leader &amp; 9 Grunts" points="9.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
       <modifiers>
         <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
           <conditions/>
