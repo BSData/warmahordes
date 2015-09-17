@@ -183,7 +183,119 @@
       </links>
     </entry>
     <entry id="b170534e-0ebd-1646-2202-394a3fcf93df" name="Baldur The Stonecleaver" points="-6.0" categoryId="5761726c6f636b23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Circle of Orboros" page="32">
-      <entries/>
+      <entries>
+        <entry id="e44d-f883-7d3b-960e" name="Rock of Orboros" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Hordes - Circle Orboros" page="25">
+          <entries/>
+          <entryGroups/>
+          <modifiers>
+            <modifier type="set" field="minSelections" value="2.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="force type" childId="84589265-a347-57f6-764a-ae2516a8a4be" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="force type" childId="c51792f4-f031-6c2d-7eac-c1dc6f718a04" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="force type" childId="823f849f-1315-339d-a608-29be193da5d2" field="selections" type="less than" value="2.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="minSelections" value="3.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="force type" childId="84589265-a347-57f6-764a-ae2516a8a4be" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="force type" childId="c51792f4-f031-6c2d-7eac-c1dc6f718a04" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="force type" childId="823f849f-1315-339d-a608-29be193da5d2" field="selections" type="at least" value="2.0"/>
+                    <condition parentId="force type" childId="e0b765ba-a55c-cf08-01c7-30c9c372998b" field="selections" type="less than" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="minSelections" value="4.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="force type" childId="84589265-a347-57f6-764a-ae2516a8a4be" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="force type" childId="c51792f4-f031-6c2d-7eac-c1dc6f718a04" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="force type" childId="823f849f-1315-339d-a608-29be193da5d2" field="selections" type="at least" value="2.0"/>
+                    <condition parentId="force type" childId="e0b765ba-a55c-cf08-01c7-30c9c372998b" field="selections" type="equal to" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <rules>
+            <rule id="b4aa-fca7-f96c-4050" name="Rock of Orboros" hidden="false">
+              <description>Warbeasts: Circle non-character construct warbeasts, Megalith
+
+Units: Druids of Orboros, Druid Stoneward &amp; Woldstalkers, Sentry Stone &amp; Mannikins, Shifting Stones
+
+Solos: Blackclad Wayfarer, Druid Wilder</description>
+              <modifiers/>
+            </rule>
+            <rule id="9068-6eb6-66da-9565" name="Rock of Orboros: Tier 1" hidden="true">
+              <description>Requirements: The army can only include the models listed above.
+
+Benefit: Sentry Stone &amp; Mannikin Units can be placd up to 20&quot; from the back edge of Baldur&apos;s deployment zone.</description>
+              <modifiers>
+                <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="direct parent" childId="e44d-f883-7d3b-960e" field="selections" type="at least" value="1.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </rule>
+            <rule id="aed9-08d4-db5e-2b5a" name="Rock of Orboros: Tier 2" hidden="true">
+              <description>Requirements: The army includes one or more Shifting Stone units and one or more Sentry Stone &amp; Mannikin units.
+
+Benefit: Up to one warbeast in Baldur&apos;s battlegroup gains Advance Deployment for each Shifting Stone or Sentry Stone &amp; Mannikin unit in the army.</description>
+              <modifiers>
+                <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="direct parent" childId="e44d-f883-7d3b-960e" field="selections" type="at least" value="2.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </rule>
+            <rule id="a153-1c6e-65f9-605c" name="Rock of Orboros: Tier 3" hidden="true">
+              <description>Requirements: The army includes two Druid Stonewalker &amp; Woldstalker units.
+
+Benefit: Druid Stonewalker &amp; Woldstalker units gain Advance Move.  (Before the start of the game but after both players have deployed, a model with Advance Move can make a full advance.)</description>
+              <modifiers>
+                <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="direct parent" childId="e44d-f883-7d3b-960e" field="selections" type="at least" value="3.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </rule>
+            <rule id="204d-02b9-ec89-1724" name="Rock of Orboros: Tier 4" hidden="true">
+              <description>Requirements: The army includes Megalith.
+
+Benefit: Reduce the point cost of heavy warbeasts by 1.</description>
+              <modifiers>
+                <modifier type="show" field="name" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+                  <conditions>
+                    <condition parentId="direct parent" childId="e44d-f883-7d3b-960e" field="selections" type="at least" value="4.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </rule>
+          </rules>
+          <profiles/>
+          <links/>
+        </entry>
+      </entries>
       <entryGroups/>
       <modifiers/>
       <rules>
@@ -5620,6 +5732,38 @@
       </profiles>
       <links/>
     </entry>
+    <entry id="09f2-c773-b4e8-652e" name="Character: Baldur" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="e5be-4dab-9483-7d8e" name="Character: Kaya" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="d1ce-466b-5bca-30ec" name="Character: Krueger" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
+    <entry id="5d97-f6af-abad-1a1b" name="Character: Morvahna" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+      <entries/>
+      <entryGroups/>
+      <modifiers/>
+      <rules/>
+      <profiles/>
+      <links/>
+    </entry>
     <entry id="b84b-fc0f-817f-c4cd" name="Dog Pile" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Exigence" page="50">
       <entries/>
       <entryGroups/>
@@ -5743,38 +5887,6 @@
           <modifiers/>
         </profile>
       </profiles>
-      <links/>
-    </entry>
-    <entry id="09f2-c773-b4e8-652e" name="Character: Baldur" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="e5be-4dab-9483-7d8e" name="Character: Kaya" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="d1ce-466b-5bca-30ec" name="Character: Krueger" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
-      <links/>
-    </entry>
-    <entry id="5d97-f6af-abad-1a1b" name="Character: Morvahna" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-      <entries/>
-      <entryGroups/>
-      <modifiers/>
-      <rules/>
-      <profiles/>
       <links/>
     </entry>
   </sharedEntries>
