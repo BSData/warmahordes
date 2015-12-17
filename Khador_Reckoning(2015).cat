@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2c35-dc21-6d5a-80a2" revision="11" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="2" battleScribeVersion="1.15" name="Khador" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2c35-dc21-6d5a-80a2" revision="13" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="2" battleScribeVersion="1.15" name="Khador" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="8058c02e-db92-21aa-3d1d-a2e86070623a" name="Alexia Ciannor, The Risen, &amp; Thrall Warrior" points="5.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="51">
       <entries>
@@ -1011,7 +1011,7 @@
       </modifiers>
       <rules>
         <rule id="a243-6896-e1de-9033" name="Sub-Cortex" hidden="false">
-          <description>This model has a Sub-Cortex system that controls the operation of its bombards. The S boxes of this warjack&apos;s damage grid  represent its Sub-Cortex can be allocated up to 3 focus points in addition to normal focus allocations to this model. Focus points allocated to the Sub-Cortex can be used only to boost ranged attack and ranged damage rolls. Focus points allocated to this model&apos;s primary Cortex cannot be used to boost ranged attack or ranged damage rolls. If the Sub-Cortex is crippled, this model cannot make ranged attacks. Cortex damage effects do not affect the Sub-Cortex. This model can make melee and ranged attacks in the same activation. This model can make ranged attacks even while in melee, but it cannot target a model engaging this model. This model suffers -2 to ranged attack rolls while engaged and during activations it charges, slam power attacks, or trample power attacks.</description>
+          <description>This model has a Sub-Cortex system that controls the operation of its bombards. The S boxes of this warjack&apos;s damage grid  represent its Sub-Cortex can be allocated up to 3 focus points in addition to normal focus allocations to this model. Focus points allocated to the Sub-Cortex can be used only to boost ranged attack and ranged damage rolls. Focus points allocated to this model&apos;s primary Cortex cannot be used to boost ranged attack or ranged damage rolls. If the Sub-Cortex is crippled, this model cannot make ranged attacks. Cortex damage effects do not affect the Sub-Cortex. This model can make melee and ranged attacks in the same activation. This model can make ranged attacks even while in melee, but it cannot target a model engaging this model. This model suffers -2 to ranged attack rolls while engaged and during activations it charges, slam power attacks, or trample power attacks.  When this model makes its initial melee attacks or a power attack, it can also make its initial ranged attacks.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -2714,7 +2714,7 @@
       <modifiers/>
       <rules>
         <rule id="2c8f-6b12-b898-34d3" name="Armored Shell" hidden="false">
-          <description>While one of its arm systems is crippled, this model&apos;s base ARM is 21; while both its arm systems are crippled, its base ARM is 17. If this model makes an attack, its base ARM is 17 until the start of its next activation. This model&apos;s arms cannot be locked.</description>
+          <description>While one of its arm systems is crippled, this model&apos;s base ARM is 21; while both its arm systems are crippled, its base ARM is 17.If this model makes an attack other than a head-butt, slam, or trample power attack, its base ARM is 17 until the start of its next activation. This model&apos;s arms cannot be locked.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -2778,7 +2778,7 @@
           <modifiers/>
           <rules>
             <rule id="abf2-3d8b-5f37-806f" name="Critical Amputation" hidden="false">
-              <description>On a critical hit, warjack arms and weapon systems that suffer damage from this attack are crippled.</description>
+              <description>On a critical hit, warjack head and arm systems that suffer damage from this attack are crippled.</description>
               <modifiers/>
             </rule>
           </rules>
@@ -2879,7 +2879,7 @@
       <modifiers/>
       <rules>
         <rule id="6f91-5a4b-5127-22e6" name="Armored Shell" hidden="false">
-          <description>While one of its arm systems is crippled, this model&apos;s base ARM is 21; while both its arm systems are crippled, its base ARM is 17. If this model makes an attack, its base ARM is 17 untill the start of tits next activation. This model&apos;s arms cannot be locked.</description>
+          <description>While one of its arm systems is crippled, this model&apos;s base ARM is 21; while both its arm systems are crippled, its base ARM is 17. If this model makes an attack other than a head-butt, slam, or trample power attack, its base ARM is 17 until the start of its next activation. This model&apos;s arms cannot be locked.</description>
           <modifiers/>
         </rule>
         <rule id="6006-48ce-851d-7307" name="Rain of Death (* Attack)" hidden="false">
@@ -3291,7 +3291,7 @@
               <modifiers/>
             </rule>
             <rule id="2622-596e-3c2f-7279" name="Critical Amputation" hidden="false">
-              <description>On a critical hit, warjack arms and weapon systems that suffer damage from this attack are crippled.</description>
+              <description>On a critical hit, warjack head and arm systems that suffer damage from this attack are crippled.</description>
               <modifiers/>
             </rule>
           </rules>
@@ -3320,7 +3320,7 @@
               <modifiers/>
             </rule>
             <rule id="da8d-205d-e3de-e767" name="Critical Amputation" hidden="false">
-              <description>On a critical hit, warjack arms and weapon systems that suffer damage from this attack are crippled.</description>
+              <description>On a critical hit, warjack head and arm systems that suffer damage from this attack are crippled.</description>
               <modifiers/>
             </rule>
           </rules>
@@ -6364,7 +6364,8 @@
                   <modifiers/>
                   <rules>
                     <rule id="0be5-de9b-86db-610e" name="Defensive Formation" hidden="false">
-                      <description>Once per game during its unit&apos;s activation, this model can use Defensive Formation. Immediately after models in this unit complete their activations this turn, models in this unit other than this one can make a full advance, any previous orders this unit was issued expire, and this unit is affected by the Shield Wall order.</description>
+                      <description>Once per game during its unit&apos;s activation, this model can use Defensive Formation. Immediately after models in this unit complete their actions this
+turn, models in this unit other than this one can make a full advance, any previous orders this unit was issued expire, and this unit is affected by the Shield Wall order.</description>
                       <modifiers/>
                     </rule>
                     <rule id="622b-8feb-0dde-53a1" name="Tactics: Relentless Charge" hidden="false">
@@ -7818,7 +7819,7 @@
       </modifiers>
       <rules>
         <rule id="7ca2-8996-83df-5da4" name="Feat: Hour of the Wolf" hidden="false">
-          <description>While in Harkevich&apos;s control area, models in his battlegroup gain +3 ARM. Models in Harkevich battlegroup beginning their activaiton within his control area can charge or slam power attack wthout spending focus. If a model in Harkevich&apos;s battlegroup in his control area declares a charge or slam against an enemy model, it can make a normal ranged attack before advancing. Hour of the Wolf lasts for one round.</description>
+          <description>While in Harkevich&apos;s control area, models in his battlegroup gain +3 ARM. Models in Harkevich battlegroup beginning their activaiton within his control area can charge or slam power attack wthout spending focus. If a model in Harkevich&apos;s battlegroup in his control area declares a charge or slam against an enemy model, it can make a normal ranged attack before advancing. Attacks gained from Hour of the Wolf do not count against a weapon’s ROF. Hour of the Wolf lasts for one round.</description>
           <modifiers/>
         </rule>
         <rule id="aac2-3539-1c80-bda7" name="Field Marshal [Pathfinder]" hidden="false">
@@ -13934,7 +13935,7 @@ Incendiary – This attack causes fire damage, and models hit suffer the Fire co
       </modifiers>
       <rules>
         <rule id="96c9-32e8-9f51-09ba" name="Feat: Charge of the Horse Lords" hidden="false">
-          <description>While in Vladimir&apos;s control area, friendly Faction warjacks and cavalry models gain Side Step and Sprint. Charge of the Horse Lords lasts for one turn. (When a model with Side Step hits an enemy model with an initial melee attack or a non-power attack special attack, after the attack is resolved it can advance 2&quot;. A model with Side Step cannot be targeted by free strikes during this movement.) (At the end of its activation, if it destroyed one or more enemy models with melee attacks during its activation, a Model with Sprint can make a full advance.)</description>
+          <description>While in Vladimir&apos;s control area, friendly Faction warjacks and cavalry models gain Side Step and Sprint. Charge of the Horse Lords lasts for one turn. (When a model with Side Step hits an enemy model with an initial melee attack or a melee special attack that is not a power attack, it can advance up to 2˝ after the attack is resolved. A model with Side Step cannot be targeted by free strikes during this movement.) (At the end of its activation, if it destroyed one or more enemy models with melee attacks during its activation, a Model with Sprint can make a full advance.)</description>
           <modifiers/>
         </rule>
         <rule id="aa43-2467-822f-041f" name="Blood-Quenched" hidden="false">
@@ -13988,7 +13989,7 @@ Incendiary – This attack causes fire damage, and models hit suffer the Fire co
         </link>
       </links>
     </entry>
-    <entry id="2ba9-40a4-b00e-7854" name="Vladimir Tzepesci, The Dark Champion" points="0.0" categoryId="57617263617374657223232344415441232323" type="upgrade" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Khador" page="60">
+    <entry id="2ba9-40a4-b00e-7854" name="Vladimir Tzepesci, The Dark Champion" points="-5.0" categoryId="57617263617374657223232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Khador" page="60">
       <entries>
         <entry id="e83d-692b-b18f-5c5d" name="Dominion" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
           <entries/>
@@ -15297,7 +15298,8 @@ Incendiary – This attack causes fire damage, and models hit suffer the Fire co
       <modifiers/>
       <rules>
         <rule id="d8fd-0df9-7cc7-dd96" name="Suppressing Fire (Order)" hidden="false">
-          <description>This order can be issued only if two or more models with ranged weapons in this unit in formation are able to forfeit their actions. Each model in this unit in formation must forfeit its action. Other than the Standard Bearer, those models that do are participants. Place an AOE completely within 14&quot; of all participants, with its center point in LOS of all participants, ignoring intervening models. The size of the AOE is based on the number of participants. If there are 2-4, the AOE is 3&quot;. If there are 5-7, the AOE is 4&quot;. If there are 8 or more, the AOE is 5&quot;. When a model enters or ends its activation within the AOE, it suffers a POW 10 damage roll. Suppressing Fire lasts for one round or until all participants have been destroyed or removed from play.</description>
+          <description>This order can be issued only if two or more models with ranged weapons in this unit in formation are able to forfeit their actions. Each model in this unit in formation must forfeit its action. Other than the Standard Bearer, those models that do are participants. After all models in this unit have completed their normal
+movement, place an AOE completely within 14˝ of all participants, with its center point in LOS of all participants, ignoring intervening models. The size of the AOE is based on the number of participants. If there are 2-4, the AOE is 3&quot;. If there are 5-7, the AOE is 4&quot;. If there are 8 or more, the AOE is 5&quot;. When a model enters or ends its activation within the AOE, it suffers a POW 10 damage roll. Suppressing Fire lasts for one round or until all participants have been destroyed or removed from play.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -17512,7 +17514,7 @@ normal melee attack.)</description>
       <modifiers/>
       <rules>
         <rule id="eb82-8f49-cc7e-5f57" name="Jump Start" hidden="false">
-          <description>Models in this model&apos;s battlegroup that are currently in its control area can immediately turn to face any direction. Affected models that are stationary or knocked down are no longer stationary and stand up. Models that were knocked down this turn are not affected by Jump Start.</description>
+          <description>Models in this model’s battlegroup that are currently in its control area stand up and are no longer stationary. Affected models can turn to face any direction. Models that were knocked down this turn are not affected by Jump Start.</description>
           <modifiers/>
         </rule>
       </rules>
@@ -19807,7 +19809,7 @@ normal melee attack.)</description>
       <modifiers/>
     </rule>
     <rule id="9545312f-dd4b-7a8a-fbba-c7556415ff84" name="Backswing (★ Attack)" hidden="false" book="Mercenaries - Forces of Warmachine" page="49">
-      <description>Make two attack with this weapon.</description>
+      <description>Make a normal attack with this weapon. After resolving the attack, make one additional attack with this weapon.</description>
       <modifiers/>
     </rule>
     <rule id="a682afa5-bbdf-8e04-3d1b-b947b6339237" name="Battle Wizard" hidden="false" book="Vengeance" page="106">
@@ -19839,7 +19841,7 @@ normal melee attack.)</description>
       <modifiers/>
     </rule>
     <rule id="e28d-6a06-8d10-5578" name="Bulldoze" hidden="false" book="Forces of Warmachine: Khador" page="73">
-      <description>When this model advances into B2B contact with an enemy model, it can push that model up to 2&quot; directly away from it. A model can be pushed by Bulldoze only once per activation. Bulldoze has no effect when this model makes a trample power attack.</description>
+      <description>When this model advances into B2B contact with an enemy model during its activation, it can push that model up to 2˝ directly away from it. A model can be pushed by Bulldoze only once per activation. Bulldoze has no effect when this model makes a trample power attack.</description>
       <modifiers/>
     </rule>
     <rule id="53464679-0e98-1f4f-b6ea-657eac9138e6" name="Bushwhack (Order)" hidden="false" book="Mercenaries - Forces of Warmachine" page="58">
@@ -20084,7 +20086,7 @@ Damaging a colossal
       <modifiers/>
     </rule>
     <rule id="88fe4770-1b4a-45fc-3368-ebc1dfdf8095" name="Eyeless Sight" hidden="false" book="Warmachine Prime mkII" page="34">
-      <description>This model ignores cloud effects (p. 69) and forests (p. 87) when determining line of sight. This model ignores concealment (p. 57) and Stealth when making attacks.</description>
+      <description>This model ignores cloud effects (p. 69) and forests (p. 87) when determining line of sight. This model ignores concealment (p. 57) and Stealth (p. 34) when making attacks.</description>
       <modifiers/>
     </rule>
     <rule id="96d5dd34-f0ed-fb33-631b-9a81327caf31" name="Fearless" hidden="false" book="Warmachine Prime mkII" page="34">
@@ -20228,7 +20230,7 @@ Damaging a colossal
       <modifiers/>
     </rule>
     <rule id="308a275e-8e96-8a10-b5af-4414ee45f4f7" name="Iron Wall" hidden="false" book="Mercenaries - Forces of Warmachine" page="60">
-      <description>This model gains +2 ARM for each warjack it controls B2B with it. When this model is directly hti by an enemy ranged or magic attack, you can choose to have onbe of those warjacks become the target and automatically be hit by the attack instead.</description>
+      <description>This model gains +2 ARM for each warjack it controls B2B with it.When this model is directly hit by an enemy ranged or magic attack, you can choose to have one of those non-incorporeal warjacks be directly hit instead. That model is automatically hit and suffers all damage and effects.</description>
       <modifiers/>
     </rule>
     <rule id="9fc627d4-842f-6766-8ed6-b3a2a8bf5d39" name="Journeyman Warcaster" hidden="false" book="Vengeance" page="110">
