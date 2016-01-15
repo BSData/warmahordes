@@ -1,6 +1,240 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5382cf4f-6e74-72c4-0e90-5366d1192ea7" revision="20" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="3" battleScribeVersion="1.15" name="Mercenaries" books="FoW- Mercenaries, Vengeance, Reckoning" authorName="Obiken" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5382cf4f-6e74-72c4-0e90-5366d1192ea7" revision="21" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="3" battleScribeVersion="1.15" name="Mercenaries" books="FoW- Mercenaries, Vengeance, Reckoning" authorName="Obiken" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
+    <entry id="ed318c4e-1cd2-085a-2d7c-5df060076a1e" name="Captain Sam Machorne &amp; The Devil Dogs" points="0.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="60">
+      <entries>
+        <entry id="ac7d-1306-c7a8-1ede" name="Sam" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="66e9-8159-02c7-7666" name="Hand Cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links>
+                <link id="68f0-5b6e-ee6b-d3b1" targetId="2c3367a6-15d3-1576-2d45-163c06f6251a" linkType="profile">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="49bc-849d-f933-d8f3" name="Stun Sword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="8b43-38e2-eb01-ca85" profileTypeId="576561706f6e23232344415441232323" name="Stun Sword" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                    <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                    <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                    <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+                    <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="10"/>
+                    <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="d51e-23c9-7ec8-0420" targetId="c6bcf30f-c558-19a6-d099-8a6213aa189e" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules>
+            <rule id="4af8-9bb2-4e93-2433" name="Drive: Pronto" hidden="false" book="Mercenaries - Forces of Warmachine" page="60">
+              <description>This model can attempt to Drive each warjack under its control in its command range. To Drive a warjack, this model must make a command check at any time during its activation. If the check succeeds, the warjack immediately makes a full advance. If the check fails, the warjack does not benefit from &apos;Jack Marshal this turn.</description>
+              <modifiers/>
+            </rule>
+            <rule id="9b6d-319d-fcf6-1e70" name="Iron Wall" hidden="false" book="Mercenaries - Forces of Warmachine" page="60">
+              <description>This model gains +2 ARM for each warjack it controls B2B with it. When this model is directly hti by an enemy ranged or magic attack, you can choose to have one of those warjacks become the target and automatically be hit by the attack instead.</description>
+              <modifiers/>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="d79e-123f-4d47-a655" profileTypeId="54726f6f70657223232344415441232323" name="Sam" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+                <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
+                <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
+                <characteristic characteristicId="52415423232344415441232323" name="RAT" value="6"/>
+                <characteristic characteristicId="44454623232344415441232323" name="DEF" value="15"/>
+                <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="12"/>
+                <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
+                <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="4d1e-7f4e-cbaf-e756" targetId="d485f991-df61-4cad-0d14-ab2aa75bb361" linkType="rule">
+              <modifiers/>
+            </link>
+            <link id="30fc-2bdb-a490-98b9" targetId="43190c68-0893-f7d9-ad1f-cec11538fc72" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+        <entry id="d4b5-c555-2b5d-dc18" name="Grunt" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="90b3-7dd1-d049-6aec" name="Net" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="5915-fdeb-d083-423b" profileTypeId="576561706f6e23232344415441232323" name="Net" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                    <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                    <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                    <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
+                    <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="-"/>
+                    <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="9d4d-61d8-f7d4-92dd" targetId="c257636d-3a74-43a7-7644-18309b9e0f5f" linkType="rule">
+                  <modifiers/>
+                </link>
+                <link id="cbab-898f-68c7-c5f5" targetId="0bdd1f37-95e2-11ad-334f-ae603a868a24" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="74c6-e9f9-46ed-c1a2" name="Pick Axe" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="e64b-5cea-9238-cbee" profileTypeId="576561706f6e23232344415441232323" name="Pick Axe" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                    <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                    <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                    <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
+                    <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="10"/>
+                    <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links>
+                <link id="8506-023a-3253-061c" targetId="987eb0e3-9cd1-6f29-0206-5efb57bb3b86" linkType="rule">
+                  <modifiers/>
+                </link>
+              </links>
+            </entry>
+            <entry id="f744-4d46-7e7d-c663" name="Slug Gun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles>
+                <profile id="8ed2-2fde-27db-5b03" profileTypeId="576561706f6e23232344415441232323" name="Grunt: Slug Gun" hidden="false">
+                  <characteristics>
+                    <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="4"/>
+                    <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
+                    <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
+                    <characteristic characteristicId="504f5723232344415441232323" name="POW" value="14"/>
+                    <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
+                    <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
+                  </characteristics>
+                  <modifiers/>
+                </profile>
+              </profiles>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="0ed3-e74f-0b25-b12e" profileTypeId="54726f6f70657223232344415441232323" name="Grunt" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+                <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
+                <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
+                <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
+                <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
+                <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="13"/>
+                <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
+                <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value=""/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="024c-0b13-c55d-ebc0" targetId="a72f45ed-6bd7-cb33-4400-49e12b434fee" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups>
+        <entryGroup id="25ee-e8f0-4b5d-2d64" name="Squad Size" defaultEntryId="c861-ddf1-922d-546b" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries>
+            <entry id="3b85-d95f-00e7-78a4" name="Sam &amp; 9 Grunts" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+            <entry id="c861-ddf1-922d-546b" name="Sam &amp; 5 Grunts" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+              <entries/>
+              <entryGroups/>
+              <modifiers/>
+              <rules/>
+              <profiles/>
+              <links/>
+            </entry>
+          </entries>
+          <entryGroups/>
+          <modifiers/>
+          <links/>
+        </entryGroup>
+      </entryGroups>
+      <modifiers>
+        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
+          <conditions/>
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions/>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition parentId="force type" childId="f240-daa1-2938-77a8" field="selections" type="at least" value="1.0"/>
+                    <condition parentId="direct parent" childId="2e77-f130-e761-bb20" field="selections" type="equal to" value="0.0"/>
+                  </conditions>
+                  <conditionGroups/>
+                </conditionGroup>
+              </conditionGroups>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <rules/>
+      <profiles/>
+      <links>
+        <link id="359d1151-b04e-ab41-58de-13ed3d93f725" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="0eaba08f-03ab-f7a7-619a-8e7bc500419b" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="f703-fa0f-07c9-25fe" targetId="2e77-f130-e761-bb20" linkType="entry">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
     <entry id="8058c02e-db92-21aa-3d1d-a2e86070623a" name="Alexia Ciannor, The Risen, &amp; Thrall Warrior" points="5.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="51">
       <entries>
         <entry id="998c-7596-03cf-ab51" name="Alexia" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
@@ -1248,240 +1482,6 @@
           <modifiers/>
         </link>
         <link id="1a7c074a-3a0f-47be-51fd-dfa0fdec4c2f" targetId="ec60-b3c0-ad67-4b43" linkType="entry">
-          <modifiers/>
-        </link>
-      </links>
-    </entry>
-    <entry id="ed318c4e-1cd2-085a-2d7c-5df060076a1e" name="0000" points="0.0" categoryId="556e697423232344415441232323" type="unit" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="60">
-      <entries>
-        <entry id="ac7d-1306-c7a8-1ede" name="Sam" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="66e9-8159-02c7-7666" name="Hand Cannon" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links>
-                <link id="68f0-5b6e-ee6b-d3b1" targetId="2c3367a6-15d3-1576-2d45-163c06f6251a" linkType="profile">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="49bc-849d-f933-d8f3" name="Stun Sword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="8b43-38e2-eb01-ca85" profileTypeId="576561706f6e23232344415441232323" name="Stun Sword" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-                    <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-                    <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-                    <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
-                    <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="10"/>
-                    <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links>
-                <link id="d51e-23c9-7ec8-0420" targetId="c6bcf30f-c558-19a6-d099-8a6213aa189e" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <rules>
-            <rule id="4af8-9bb2-4e93-2433" name="Drive: Pronto" hidden="false" book="Mercenaries - Forces of Warmachine" page="60">
-              <description>This model can attempt to Drive each warjack under its control in its command range. To Drive a warjack, this model must make a command check at any time during its activation. If the check succeeds, the warjack immediately makes a full advance. If the check fails, the warjack does not benefit from &apos;Jack Marshal this turn.</description>
-              <modifiers/>
-            </rule>
-            <rule id="9b6d-319d-fcf6-1e70" name="Iron Wall" hidden="false" book="Mercenaries - Forces of Warmachine" page="60">
-              <description>This model gains +2 ARM for each warjack it controls B2B with it. When this model is directly hti by an enemy ranged or magic attack, you can choose to have one of those warjacks become the target and automatically be hit by the attack instead.</description>
-              <modifiers/>
-            </rule>
-          </rules>
-          <profiles>
-            <profile id="d79e-123f-4d47-a655" profileTypeId="54726f6f70657223232344415441232323" name="Sam" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
-                <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
-                <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
-                <characteristic characteristicId="52415423232344415441232323" name="RAT" value="6"/>
-                <characteristic characteristicId="44454623232344415441232323" name="DEF" value="15"/>
-                <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="12"/>
-                <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
-                <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links>
-            <link id="4d1e-7f4e-cbaf-e756" targetId="d485f991-df61-4cad-0d14-ab2aa75bb361" linkType="rule">
-              <modifiers/>
-            </link>
-            <link id="30fc-2bdb-a490-98b9" targetId="43190c68-0893-f7d9-ad1f-cec11538fc72" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-        <entry id="d4b5-c555-2b5d-dc18" name="Grunt" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="90b3-7dd1-d049-6aec" name="Net" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="5915-fdeb-d083-423b" profileTypeId="576561706f6e23232344415441232323" name="Net" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-                    <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-                    <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-                    <characteristic characteristicId="504f5723232344415441232323" name="POW" value="-"/>
-                    <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="-"/>
-                    <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links>
-                <link id="9d4d-61d8-f7d4-92dd" targetId="c257636d-3a74-43a7-7644-18309b9e0f5f" linkType="rule">
-                  <modifiers/>
-                </link>
-                <link id="cbab-898f-68c7-c5f5" targetId="0bdd1f37-95e2-11ad-334f-ae603a868a24" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="74c6-e9f9-46ed-c1a2" name="Pick Axe" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="e64b-5cea-9238-cbee" profileTypeId="576561706f6e23232344415441232323" name="Pick Axe" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
-                    <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
-                    <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
-                    <characteristic characteristicId="504f5723232344415441232323" name="POW" value="4"/>
-                    <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="10"/>
-                    <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links>
-                <link id="8506-023a-3253-061c" targetId="987eb0e3-9cd1-6f29-0206-5efb57bb3b86" linkType="rule">
-                  <modifiers/>
-                </link>
-              </links>
-            </entry>
-            <entry id="f744-4d46-7e7d-c663" name="Slug Gun" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles>
-                <profile id="8ed2-2fde-27db-5b03" profileTypeId="576561706f6e23232344415441232323" name="Grunt: Slug Gun" hidden="false">
-                  <characteristics>
-                    <characteristic characteristicId="524e4723232344415441232323" name="RNG" value="4"/>
-                    <characteristic characteristicId="524f4623232344415441232323" name="ROF" value="1"/>
-                    <characteristic characteristicId="414f4523232344415441232323" name="AOE" value=""/>
-                    <characteristic characteristicId="504f5723232344415441232323" name="POW" value="14"/>
-                    <characteristic characteristicId="502b5323232344415441232323" name="P+S" value=""/>
-                    <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H"/>
-                  </characteristics>
-                  <modifiers/>
-                </profile>
-              </profiles>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <rules/>
-          <profiles>
-            <profile id="0ed3-e74f-0b25-b12e" profileTypeId="54726f6f70657223232344415441232323" name="Grunt" hidden="false">
-              <characteristics>
-                <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
-                <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
-                <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="6"/>
-                <characteristic characteristicId="52415423232344415441232323" name="RAT" value="4"/>
-                <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
-                <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="13"/>
-                <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="8"/>
-                <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value=""/>
-              </characteristics>
-              <modifiers/>
-            </profile>
-          </profiles>
-          <links>
-            <link id="024c-0b13-c55d-ebc0" targetId="a72f45ed-6bd7-cb33-4400-49e12b434fee" linkType="rule">
-              <modifiers/>
-            </link>
-          </links>
-        </entry>
-      </entries>
-      <entryGroups>
-        <entryGroup id="25ee-e8f0-4b5d-2d64" name="Squad Size" defaultEntryId="c861-ddf1-922d-546b" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-          <entries>
-            <entry id="3b85-d95f-00e7-78a4" name="Sam &amp; 9 Grunts" points="7.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-            <entry id="c861-ddf1-922d-546b" name="Sam &amp; 5 Grunts" points="5.0" categoryId="(No Category)" type="upgrade" minSelections="0" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
-              <entries/>
-              <entryGroups/>
-              <modifiers/>
-              <rules/>
-              <profiles/>
-              <links/>
-            </entry>
-          </entries>
-          <entryGroups/>
-          <modifiers/>
-          <links/>
-        </entryGroup>
-      </entryGroups>
-      <modifiers>
-        <modifier type="set" field="maxInForce" value="0.0" repeat="false" numRepeats="1" incrementParentId="roster" incrementChildId="no child" incrementField="selections" incrementValue="1.0">
-          <conditions/>
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions/>
-              <conditionGroups>
-                <conditionGroup type="and">
-                  <conditions>
-                    <condition parentId="force type" childId="f240-daa1-2938-77a8" field="selections" type="at least" value="1.0"/>
-                    <condition parentId="direct parent" childId="2e77-f130-e761-bb20" field="selections" type="equal to" value="0.0"/>
-                  </conditions>
-                  <conditionGroups/>
-                </conditionGroup>
-              </conditionGroups>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <rules/>
-      <profiles/>
-      <links>
-        <link id="359d1151-b04e-ab41-58de-13ed3d93f725" targetId="d39899c1-1611-2c72-016f-fe90fec55935" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="0eaba08f-03ab-f7a7-619a-8e7bc500419b" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
-          <modifiers/>
-        </link>
-        <link id="f703-fa0f-07c9-25fe" targetId="2e77-f130-e761-bb20" linkType="entry">
           <modifiers/>
         </link>
       </links>
