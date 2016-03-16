@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ccdd1364-6578-716b-2ff9-3947442f0a67" revision="21" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="4" battleScribeVersion="1.15" name="Protectorate of Menoth" books="Reckoning" authorName="Obiken" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ccdd1364-6578-716b-2ff9-3947442f0a67" revision="22" gameSystemId="b978a3ef-974a-4354-b82d-7965f519d3df" gameSystemRevision="4" battleScribeVersion="1.15" name="Protectorate of Menoth" books="Reckoning" authorName="Obiken" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entries>
     <entry id="5aad16ac-aec7-5983-4a1c-7a1e80cb083b" name="Allegiant of the order of the Fist" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="2" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Forces of Warmachine: Protectorate of Menoth" page="108">
       <entries/>
@@ -8746,6 +8746,79 @@ Benefit: Add three Wrack solos to the army free of cost.  These solos ignore FA 
           <modifiers/>
         </link>
         <link id="7945-833b-68fd-6f65" targetId="e63a96fb-d826-f5fa-7600-3578a5121bef" linkType="rule">
+          <modifiers/>
+        </link>
+      </links>
+    </entry>
+    <entry id="b25ab85f-d733-00ec-60f1-d2e0b90d5f10" name="Rutger Shaw, Professional Adventurer" points="2.0" categoryId="536f6c6f23232344415441232323" type="model" minSelections="0" maxSelections="-1" minInForce="0" maxInForce="1" minInRoster="0" maxInRoster="1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false" book="Mercenaries - Forces of Warmachine" page="84">
+      <entries>
+        <entry id="0304-7e4d-aac4-1b1d" name="Mechanikal Sword" points="0.0" categoryId="(No Category)" type="upgrade" minSelections="1" maxSelections="1" minInForce="0" maxInForce="-1" minInRoster="0" maxInRoster="-1" minPoints="0.0" maxPoints="-1.0" collective="false" hidden="false">
+          <entries/>
+          <entryGroups/>
+          <modifiers/>
+          <rules/>
+          <profiles>
+            <profile id="bb27-6f20-824a-2fa9" profileTypeId="576561706f6e23232344415441232323" name="Mechanical Sword" hidden="false">
+              <characteristics>
+                <characteristic characteristicId="524e4723232344415441232323" name="RNG"/>
+                <characteristic characteristicId="524f4623232344415441232323" name="ROF"/>
+                <characteristic characteristicId="414f4523232344415441232323" name="AOE"/>
+                <characteristic characteristicId="504f5723232344415441232323" name="POW" value="6"/>
+                <characteristic characteristicId="502b5323232344415441232323" name="P+S" value="12"/>
+                <characteristic characteristicId="4c2f522f4823232344415441232323" name="L/R/H" value=""/>
+              </characteristics>
+              <modifiers/>
+            </profile>
+          </profiles>
+          <links>
+            <link id="e6f9-cd89-e55c-213b" targetId="b91d002b-8f8e-16b0-46ab-24590db21389" linkType="rule">
+              <modifiers/>
+            </link>
+          </links>
+        </entry>
+      </entries>
+      <entryGroups/>
+      <modifiers/>
+      <rules>
+        <rule id="999b414e-61a5-008a-5fc3-dc17cf5a11dc" name="Flank [Warjack this model controls]" hidden="false" book="Mercenaries - Forces of Warmachine" page="84">
+          <description>When this model makes a melee attack against an enemy model within the melee range of a friendly model of the type indicated, this model gains +2 to attack rolls and gains an additional damage die.</description>
+          <modifiers/>
+        </rule>
+        <rule id="dbda7d4d-25f1-dde4-7932-18de9ba14169" name="Flank [Taryn di la Rovissi]" hidden="false" book="Mercenaries - Forces of Warmachine" page="84">
+          <description>When this model makes a melee attack against an enemy model within the melee range of a friendly model of the type indicated, this model gains +2 to attack rolls and gains an additional damage die.</description>
+          <modifiers/>
+        </rule>
+        <rule id="3bbd30fa-d6b1-1324-3198-2398e9d643d2" name="Drive: Reroll" hidden="false">
+          <description>This model can attempt to Drive each warjack under its control in its command range. To Drive a warjack, this model must make a command check at any time during its activation. If the check succeeds, the warjack can reroll one missed attack roll during its activation this turn. If the check fails, the warjack does not benefit from &apos;Jack Marshal this turn.</description>
+          <modifiers/>
+        </rule>
+      </rules>
+      <profiles>
+        <profile id="01a190e7-fc91-d8b2-4935-91637d6af72d" profileTypeId="54726f6f70657223232344415441232323" name="Rutger Shaw" hidden="false">
+          <characteristics>
+            <characteristic characteristicId="53504423232344415441232323" name="SPD" value="6"/>
+            <characteristic characteristicId="53545223232344415441232323" name="STR" value="6"/>
+            <characteristic characteristicId="4d415423232344415441232323" name="MAT" value="7"/>
+            <characteristic characteristicId="52415423232344415441232323" name="RAT" value="6"/>
+            <characteristic characteristicId="44454623232344415441232323" name="DEF" value="13"/>
+            <characteristic characteristicId="41524d23232344415441232323" name="ARM" value="14"/>
+            <characteristic characteristicId="434d4423232344415441232323" name="CMD" value="9"/>
+            <characteristic characteristicId="44616d61676523232344415441232323" name="Damage" value="5"/>
+          </characteristics>
+          <modifiers/>
+        </profile>
+      </profiles>
+      <links>
+        <link id="66aa94af-b505-f5cb-540b-1e53b3194032" targetId="2c3367a6-15d3-1576-2d45-163c06f6251a" linkType="profile">
+          <modifiers/>
+        </link>
+        <link id="0eb72480-a3f5-78c4-d3a8-5a03fa281d5f" targetId="d485f991-df61-4cad-0d14-ab2aa75bb361" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="491f9dab-3de2-4c9f-855b-8fda2da6bd82" targetId="e7e47eff-a54f-c748-2169-447ab696702a" linkType="rule">
+          <modifiers/>
+        </link>
+        <link id="fabe3822-98d0-ca48-8a3a-4bdd49cc26ec" targetId="fe198e38-f51b-4d1c-2051-eea9ddbdce00" linkType="rule">
           <modifiers/>
         </link>
       </links>
