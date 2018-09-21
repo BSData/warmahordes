@@ -1,7 +1,10 @@
 Warmachine & Hordes
 ===================
 
-####Contents####
+## Warning:
+These files are outdated. They have not been updated since the Reckoning book for mk II. Any help to update them for mk III will be greatly appreciated.
+
+#### Contents
 
 * [Overview][]
 * [Links][]
@@ -11,7 +14,7 @@ Warmachine & Hordes
 [Links]: #links
 
 
-##Overview##
+## Overview
 
 __What's this?__
 
